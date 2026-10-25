@@ -14,6 +14,7 @@ Then, in pmos-biograph/pmos-biograph/.env:
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -21,12 +22,13 @@ from urllib.parse import parse_qs, urlparse
 
 import pmos_data
 
-HOST = "127.0.0.1"
-PORT = 8000
+HOST = os.environ.get("HOST", "127.0.0.1")
+PORT = int(os.environ.get("PORT", "8000"))
 
 INDEX: pmos_data.Index | None = None
 
 ROUTES = {
+    "health": re.compile(r"^/api/health$"),
     "search": re.compile(r"^/api/search$"),
     "entities_list": re.compile(r"^/api/entities$"),
     "entity": re.compile(r"^/api/entities/([^/]+)$"),
@@ -83,6 +85,10 @@ class Handler(BaseHTTPRequestHandler):
         path = parsed.path
 
         try:
+            if ROUTES["health"].match(path):
+                self._send_json({"status": "ok", "entities": len(INDEX.entities)})
+                return
+
             if ROUTES["search"].match(path):
                 q = params.get("q", [""])[0]
                 hits = pmos_data.search_entities(

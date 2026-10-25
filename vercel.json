@@ -1,0 +1,19 @@
+{
+  "buildCommand": "cd pmos-biograph/pmos-biograph && npm ci && npm run build",
+  "outputDirectory": "pmos-biograph/pmos-biograph/dist",
+  "build": {
+    "env": {
+      "VITE_USE_MOCK": "false",
+      "VITE_API_BASE_URL": "/api"
+    }
+  },
+  "functions": {
+    "api/index.py": {
+      "includeFiles": "{backend/*.py,pmos_knowledge_base.db,data/clean/*.csv}"
+    }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index" },
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}

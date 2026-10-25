@@ -29,7 +29,7 @@ export class ApiError extends Error {
 }
 
 async function get<T>(path: string, params?: Record<string, unknown>): Promise<T> {
-  const url = new URL(apiConfig.baseUrl.replace(/\/$/, '') + path);
+  const url = new URL(apiConfig.baseUrl.replace(/\/$/, '') + path, window.location.origin);
   Object.entries(params ?? {}).forEach(([k, v]) => {
     if (v === undefined || v === null || v === '') return;
     url.searchParams.set(k, Array.isArray(v) ? v.join(',') : String(v));
