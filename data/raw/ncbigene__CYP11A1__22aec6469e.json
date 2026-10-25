@@ -1,0 +1,44 @@
+{
+ "source": "ncbigene",
+ "query": "CYP11A1",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "gene",
+  "term": "CYP11A1[sym] AND 9606[taxid]",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:19:20+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "1",
+   "retmax": "1",
+   "retstart": "0",
+   "idlist": [
+    "1583"
+   ],
+   "translationset": [],
+   "translationstack": [
+    {
+     "term": "CYP11A1[sym]",
+     "field": "sym",
+     "count": "284",
+     "explode": "N"
+    },
+    {
+     "term": "9606[taxid]",
+     "field": "taxid",
+     "count": "360558",
+     "explode": "N"
+    },
+    "AND"
+   ],
+   "querytranslation": "CYP11A1[sym] AND 9606[taxid]"
+  }
+ }
+}

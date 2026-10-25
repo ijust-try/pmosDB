@@ -1,0 +1,517 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-4641265",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-4641265",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:42:33+00:00",
+ "response": {
+  "dbId": 4641265,
+  "displayName": "Repression of WNT target genes",
+  "stId": "R-HSA-4641265",
+  "stIdVersion": "R-HSA-4641265.5",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Repression of WNT target genes"
+  ],
+  "releaseDate": "2014-06-10",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 7660,
+    "displayName": "nucleoplasm",
+    "accession": "0005654",
+    "databaseName": "GO",
+    "definition": "That part of the nuclear content other than the chromosomes or the nucleolus.",
+    "name": "nucleoplasm",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 4641103,
+    "displayName": "Groucho: a corepressor with instructive roles in development",
+    "title": "Groucho: a corepressor with instructive roles in development",
+    "journal": "Curr. Top. Dev. Biol.",
+    "pages": "65-96",
+    "pubMedIdentifier": 22305159,
+    "volume": 98,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22305159",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3299512,
+    "displayName": "All Tcf HMG box transcription factors interact with Groucho-related co-repressors",
+    "title": "All Tcf HMG box transcription factors interact with Groucho-related co-repressors",
+    "journal": "Nucleic Acids Res.",
+    "pages": "1410-9",
+    "pubMedIdentifier": 11266540,
+    "volume": 29,
+    "year": 2001,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11266540",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3299519,
+    "displayName": "Groucho oligomerization is required for repression in vivo",
+    "title": "Groucho oligomerization is required for repression in vivo",
+    "journal": "Mol. Cell. Biol.",
+    "pages": "4341-50",
+    "pubMedIdentifier": 15121853,
+    "volume": 24,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15121853",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3299523,
+    "displayName": "Products of the grg (Groucho-related gene) family can dimerize through the amino-terminal Q domain",
+    "title": "Products of the grg (Groucho-related gene) family can dimerize through the amino-terminal Q domain",
+    "journal": "J. Biol. Chem.",
+    "pages": "33026-31",
+    "pubMedIdentifier": 8955148,
+    "volume": 271,
+    "year": 1996,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8955148",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3299522,
+    "displayName": "Groucho/TLE family proteins and transcriptional repression",
+    "title": "Groucho/TLE family proteins and transcriptional repression",
+    "journal": "Gene",
+    "pages": "1-16",
+    "pubMedIdentifier": 10831834,
+    "volume": 249,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10831834",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 4641114,
+    "displayName": "AES/GRG5: more than just a dominant-negative TLE/GRG family member",
+    "title": "AES/GRG5: more than just a dominant-negative TLE/GRG family member",
+    "journal": "Dev. Dyn.",
+    "pages": "2795-805",
+    "pubMedIdentifier": 20925119,
+    "volume": 239,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20925119",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 11003297,
+    "displayName": "Repression of WNT target genes",
+    "stId": "R-CEL-4641265",
+    "stIdVersion": "R-CEL-4641265.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Repression of WNT target genes"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     4641265
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10920515,
+    "displayName": "Repression of WNT target genes",
+    "stId": "R-DME-4641265",
+    "stIdVersion": "R-DME-4641265.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Repression of WNT target genes"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     4641265
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10835298,
+    "displayName": "Repression of WNT target genes",
+    "stId": "R-GGA-4641265",
+    "stIdVersion": "R-GGA-4641265.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Repression of WNT target genes"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     4641265
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10738056,
+    "displayName": "Repression of WNT target genes",
+    "stId": "R-XTR-4641265",
+    "stIdVersion": "R-XTR-4641265.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Repression of WNT target genes"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     4641265
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10657028,
+    "displayName": "Repression of WNT target genes",
+    "stId": "R-DRE-4641265",
+    "stIdVersion": "R-DRE-4641265.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Repression of WNT target genes"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     4641265
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10565065,
+    "displayName": "Repression of WNT target genes",
+    "stId": "R-SSC-4641265",
+    "stIdVersion": "R-SSC-4641265.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Repression of WNT target genes"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     4641265
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10452121,
+    "displayName": "Repression of WNT target genes",
+    "stId": "R-BTA-4641265",
+    "stIdVersion": "R-BTA-4641265.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Repression of WNT target genes"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     4641265
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10337553,
+    "displayName": "Repression of WNT target genes",
+    "stId": "R-CFA-4641265",
+    "stIdVersion": "R-CFA-4641265.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Repression of WNT target genes"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     4641265
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10230836,
+    "displayName": "Repression of WNT target genes",
+    "stId": "R-RNO-4641265",
+    "stIdVersion": "R-RNO-4641265.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Repression of WNT target genes"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     4641265
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10107062,
+    "displayName": "Repression of WNT target genes",
+    "stId": "R-MMU-4641265",
+    "stIdVersion": "R-MMU-4641265.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Repression of WNT target genes"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     4641265
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 4641167,
+    "displayName": "In the absence of a WNT signal, many WNT target genes are re...",
+    "text": "In the absence of a WNT signal, many WNT target genes are repressed by Groucho/TLE.  Groucho was initially identified in Drosophila, where it has been shown to interact with a variety of proteins to repress transcription (reviewed in Turki-Judeh and Courey, 2012).  Groucho proteins, including the 4 human homologues (transducin-like enhancer of split (TLE) 1-4), do not bind DNA directly but instead are recruited to target genes through interaction with DNA-binding transcription factors including TCF/LEF (Brantjes et al, 2001; reviewed in Chen and Courey, 2000). Groucho proteins are believed to oligomerize in a manner that depends on an N-terminal glutamine-rich Q domain, and oligomerization may be important for function (Song et al, 2004; Pinto and Lobe, 1996).  Groucho/TLE proteins affect levels of gene expression by interacting with the core transcriptional machinery as well as by modfiying chromatin structure through direct interaction with histones and recruitment of histone deacetylases, among other mechanisms (reviewed in Turki-Judeh and Courey, 2012).  In addition to the four TLE proteins, human cells also include a truncated TLE-like protein called amino-terminal enhancer of split (AES) which contains the N-terminal Q domain but lacks much of the C-terminal sequence of TLE proteins, including the WD domain which is important for many protein-protein interactions.  AES is believed to act as a dominant negative, since it is able to heter-oligomerize with full-length TLE proteins to form non-functional complexes (Brantjes et al, 2001; reviewed in Beagle and Johnson, 2010).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/REACT_228106.1",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2016-12-21",
+  "hasEvent": [
+   {
+    "dbId": 8944352,
+    "displayName": "TCF/LEF binds WNT promoters",
+    "stId": "R-HSA-8944352",
+    "stIdVersion": "R-HSA-8944352.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TCF/LEF binds WNT promoters"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4641265
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4641229,
+    "displayName": "TLE oligomerizes",
+    "stId": "R-HSA-4641229",
+    "stIdVersion": "R-HSA-4641229.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TLE oligomerizes"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4641265
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8944349,
+    "displayName": "TLE tetramers bind TCF/LEF at WNT promoters",
+    "stId": "R-HSA-8944349",
+    "stIdVersion": "R-HSA-8944349.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TLE tetramers bind TCF/LEF at WNT promoters"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4641265
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4641231,
+    "displayName": "TLE recruits HDAC1 to WNT promoters",
+    "stId": "R-HSA-4641231",
+    "stIdVersion": "R-HSA-4641231.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "TLE recruits HDAC1 to WNT promoters"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4641265
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4649028,
+    "displayName": "TLE forms non-functional complexes with AES",
+    "stId": "R-HSA-4649028",
+    "stIdVersion": "R-HSA-4649028.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "TLE forms non-functional complexes with AES"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4641265
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5334050,
+    "displayName": "TCF7L2/TCF7L1 bind CTBP1 to repress WNT target genes",
+    "stId": "R-HSA-5334050",
+    "stIdVersion": "R-HSA-5334050.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TCF7L2/TCF7L1 bind CTBP1 to repress WNT target genes"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4641265
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5229348,
+    "displayName": "Transcription of canonical WNT targets is repressed by the TLE:HDAC and TCF/CTBP complexes",
+    "stId": "R-HSA-5229348",
+    "stIdVersion": "R-HSA-5229348.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Transcription of canonical WNT targets is repressed by the TLE:HDAC and TCF/CTBP complexes"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4641265
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

@@ -1,0 +1,325 @@
+{
+ "source": "quickgo_terms",
+ "query": "P52926_50",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0051575,GO:0061629,GO:0070742,GO:0071141,GO:0071864,GO:0071902,GO:0090402,GO:2000036,GO:2000648,GO:2000773,GO:2001033",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:41:04+00:00",
+ "response": {
+  "numberOfHits": 11,
+  "results": [
+   {
+    "id": "GO:0090402",
+    "isObsolete": false,
+    "name": "oncogene-induced cell senescence",
+    "definition": {
+     "text": "A cellular senescence process associated with the dismantling of a cell as a response to oncogenic stress, such as the activation of the Ras oncogenic family."
+    },
+    "synonyms": [
+     {
+      "name": "OIS",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051575",
+    "isObsolete": false,
+    "name": "5'-deoxyribose-5-phosphate lyase activity",
+    "definition": {
+     "text": "Catalysis of the reaction: a 5'-end 2'-deoxyribose-2'-deoxyribonucleotide-DNA = (2E,4S)-4-hydroxypenten-2-al-5-phosphate + a 5'-end 5'-phospho-2'-deoxyribonucleoside-DNA + H+.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "11251121"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "16120966"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "9614142"
+      },
+      {
+       "dbCode": "RHEA",
+       "dbId": "76255"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "5'-deoxyribose phosphate activity",
+      "type": "exact"
+     },
+     {
+      "name": "dRPase activity",
+      "type": "broad"
+     },
+     {
+      "name": "dRP lyase activity",
+      "type": "broad"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0070742",
+    "isObsolete": false,
+    "name": "C2H2 zinc finger domain binding",
+    "definition": {
+     "text": "Binding to a C2H2-type zinc finger domain of a protein. The C2H2 zinc finger is the classical zinc finger domain, in which two conserved cysteines and histidines co-ordinate a zinc ion.",
+     "xrefs": [
+      {
+       "dbCode": "Pfam",
+       "dbId": "PF00096"
+      }
+     ]
+    },
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:2000036",
+    "isObsolete": false,
+    "name": "regulation of stem cell population maintenance",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of stem cell population maintenance."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of maintenance of pluripotency",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1902459",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902455",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904672",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:2000773",
+    "isObsolete": false,
+    "name": "negative regulation of cellular senescence",
+    "definition": {
+     "text": "Any process that stops, prevents or reduces the frequency, rate or extent of cellular senescence."
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0061629",
+    "isObsolete": false,
+    "name": "RNA polymerase II-specific DNA-binding transcription factor binding",
+    "definition": {
+     "text": "Binding to a sequence-specific DNA binding RNA polymerase II transcription factor, any of the factors that interact selectively and non-covalently with a specific DNA sequence in order to modulate transcription."
+    },
+    "synonyms": [
+     {
+      "name": "RNA polymerase II activating transcription factor binding",
+      "type": "related"
+     },
+     {
+      "name": "RNA polymerase II repressing transcription factor binding",
+      "type": "related"
+     },
+     {
+      "name": "RNA polymerase II sequence-specific DNA binding transcription factor binding",
+      "type": "exact"
+     },
+     {
+      "name": "RNA polymerase II sequence-specific DNA-binding transcription factor binding",
+      "type": "exact"
+     },
+     {
+      "name": "RNA polymerase II transcription factor binding",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0097677",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030957",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051525",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051059",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016922",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071141",
+    "isObsolete": false,
+    "name": "SMAD protein complex",
+    "definition": {
+     "text": "A protein complex that consists of only SMAD proteins; may be homomeric or heteromeric. Heteromeric complexes act as transcription factors while homomeric complexes exist but are transcriptionally inactive. Hetero- versus homotrimerization is largely enthalpy driven.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "9670020"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "SMAD complex",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0071142",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071144",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:2001033",
+    "isObsolete": false,
+    "name": "negative regulation of double-strand break repair via nonhomologous end joining",
+    "definition": {
+     "text": "Any process that stops, prevents or reduces the frequency, rate or extent of double-strand break repair via nonhomologous end joining."
+    },
+    "synonyms": [
+     {
+      "name": "negative regulation of NHEJ",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:2000648",
+    "isObsolete": false,
+    "name": "positive regulation of stem cell proliferation",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of stem cell proliferation."
+    },
+    "children": [
+     {
+      "id": "GO:1902462",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902035",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071864",
+    "isObsolete": false,
+    "name": "positive regulation of cell proliferation in bone marrow",
+    "definition": {
+     "text": "A process that activates or increases the frequency, rate or extent of cell proliferation in the bone marrow.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "17063141"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "activation of cell proliferation in bone marrow",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of bone marrow cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of cell proliferation in bone marrow",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of cell proliferation in bone marrow",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of cell proliferation in bone marrow",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of cell proliferation in bone marrow",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0035604",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071902",
+    "isObsolete": false,
+    "name": "positive regulation of protein serine/threonine kinase activity",
+    "definition": {
+     "text": "Any process that increases the rate, frequency, or extent of protein serine/threonine kinase activity."
+    },
+    "children": [
+     {
+      "id": "GO:0043406",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045737",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000481",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900020",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "None"
+   }
+  ],
+  "pageInfo": null
+ }
+}

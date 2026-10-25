@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "Anti-Mullerian hormone",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "Anti-Mullerian hormone AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:21:46+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "1327",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "38637590",
+    "29760445",
+    "40220763"
+   ],
+   "translationset": [
+    {
+     "from": "Anti-Mullerian hormone",
+     "to": "\"anti-mullerian hormone\"[Supplementary Concept] OR \"anti-mullerian hormone\"[All Fields] OR \"anti mullerian hormone\"[All Fields] OR \"anti-mullerian hormone\"[MeSH Terms] OR (\"anti-mullerian\"[All Fields] AND \"hormone\"[All Fields]) OR (\"anti\"[All Fields] AND \"mullerian\"[All Fields] AND \"hormone\"[All Fields])"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"anti mullerian hormone\"[Supplementary Concept] OR \"anti mullerian hormone\"[All Fields] OR \"anti mullerian hormone\"[All Fields] OR \"anti mullerian hormone\"[MeSH Terms] OR (\"anti mullerian\"[All Fields] AND \"hormone\"[All Fields]) OR (\"anti\"[All Fields] AND \"mullerian\"[All Fields] AND \"hormone\"[All Fields])) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "source": "uniprot",
+ "query": "GATA4",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:GATA4) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:39:44+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P43694",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Transcription factor GATA-4"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "GATA-binding factor 4"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "GATA4"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P46152"
+         },
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q08369"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15734735"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20081228"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21220346"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "24000169"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27984724"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "35182466"
+         }
+        ],
+        "value": "Transcriptional activator that binds to the consensus sequence 5'-AGATAG-3' and plays a key role in cardiac development and function (PubMed:24000169, PubMed:27984724, PubMed:35182466). In cooperation with TBX5, it binds to cardiac super-enhancers and promotes cardiomyocyte gene expression, while it down-regulates endocardial and endothelial gene expression (PubMed:27984724). Involved in bone morphogenetic protein (BMP)-mediated induction of cardiac-specific gene expression. Binds to BMP response element (BMPRE) DNA sequences within cardiac activating regions (By similarity). Acts as a transcriptional activator of ANF in cooperation with NKX2-5 (By similarity). Promotes cardiac myocyte enlargement (PubMed:20081228). Required during testicular development (PubMed:21220346). May play a role in sphingolipid signaling by regulating the expression of sphingosine-1-phosphate degrading enzyme, sphingosine-1-phosphate lyase (PubMed:15734735)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "2626",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00001B3DC4"
+    }
+   }
+  ]
+ }
+}

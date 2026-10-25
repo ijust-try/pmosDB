@@ -1,0 +1,161 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-5339700",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-5339700",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:42:34+00:00",
+ "response": {
+  "dbId": 5339700,
+  "displayName": "Signaling by TCF7L2 mutants",
+  "stId": "R-HSA-5339700",
+  "stIdVersion": "R-HSA-5339700.5",
+  "isInDisease": true,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Signaling by TCF7L2 mutants"
+  ],
+  "releaseDate": "2014-06-10",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12043864,
+    "displayName": "Mondo:0005575",
+    "databaseName": "Mondo",
+    "identifier": "0005575",
+    "url": "https://monarchinitiative.org/MONDO:0005575",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 7660,
+    "displayName": "nucleoplasm",
+    "accession": "0005654",
+    "databaseName": "GO",
+    "definition": "That part of the nuclear content other than the chromosomes or the nucleolus.",
+    "name": "nucleoplasm",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "disease": [
+   {
+    "dbId": 4791250,
+    "displayName": "colorectal cancer",
+    "databaseName": "DOID",
+    "identifier": "9256",
+    "name": [
+     "colorectal cancer"
+    ],
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/doid/terms?obo_id=DOID:9256",
+    "className": "Disease",
+    "schemaClass": "Disease"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 5334038,
+    "displayName": "TCF-4 isoforms absent in TCF-4 mutated MSI-H colorectal cancer cells colocalize with nuclear CtBP and repress TCF-4-mediated transcription",
+    "title": "TCF-4 isoforms absent in TCF-4 mutated MSI-H colorectal cancer cells colocalize with nuclear CtBP and repress TCF-4-mediated transcription",
+    "journal": "Oncogene",
+    "pages": "4441-8",
+    "pubMedIdentifier": 16547505,
+    "volume": 25,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16547505",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 5357495,
+    "displayName": "~50% of colorectal cancers with microsatellite instability s...",
+    "text": "~50% of colorectal cancers with microsatellite instability show frameshift mutations in TCF7L2 that result in the loss of the CTBP-binding region (Duval et al, 1999; Cuillliere-Dartigues et al, 2006).  These cancer cells show decreased colocalization of CTBP and TCF7L2 and have increased expression of a TCF-dependent reporter gene (Cuilliere-Dartigues et al, 2006).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2015-03-23",
+  "hasEvent": [
+   {
+    "dbId": 5334052,
+    "displayName": "TFC7L2 mutants don't bind CTBP",
+    "stId": "R-HSA-5334052",
+    "stIdVersion": "R-HSA-5334052.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TFC7L2 mutants don't bind CTBP"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5339700
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "FailedReaction"
+   }
+  ],
+  "normalPathway": {
+   "dbId": 195253,
+   "displayName": "Degradation of beta-catenin by the destruction complex",
+   "stId": "R-HSA-195253",
+   "stIdVersion": "R-HSA-195253.4",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 3,
+   "name": [
+    "Degradation of beta-catenin by the destruction complex"
+   ],
+   "releaseDate": "2007-05-15",
+   "speciesName": "Homo sapiens",
+   "doi": "10.3180/REACT_11063.1",
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "lastUpdatedDate": "2019-12-10",
+   "diseasePathways": [
+    5339700
+   ],
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

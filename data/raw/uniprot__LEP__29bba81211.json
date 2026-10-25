@@ -1,0 +1,153 @@
+{
+ "source": "uniprot",
+ "query": "LEP",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:LEP) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:43:16+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P41159",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:6553"
+        }
+       ],
+       "value": "Leptin"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Obese protein"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Obesity factor"
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:6553"
+        }
+       ],
+       "value": "LEP"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P41160"
+         },
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P50596"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11460888"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12504075"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15899045"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17344214"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18242580"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19688109"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "24340098"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25060689"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8589726"
+         },
+         {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "15122202"
+         },
+         {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "25232147"
+         }
+        ],
+        "value": "Key player in the regulation of energy balance and body weight control. Once released into the circulation, has central and peripheral effects by binding LEPR, found in many tissues, which results in the activation of several major signaling pathways (PubMed:15899045, PubMed:17344214, PubMed:19688109). In the hypothalamus, acts as an appetite-regulating factor that induces a decrease in food intake and an increase in energy consumption by inducing anorexinogenic factors and suppressing orexigenic neuropeptides, also regulates bone mass and secretion of hypothalamo-pituitary-adrenal hormones. In the periphery, increases basal metabolism, influences reproductive function, regulates pancreatic beta-cell function and insulin secretion, is pro-angiogenic for endothelial cell and affects innate and adaptive immunity (By similarity) (PubMed:11460888, PubMed:19688109, PubMed:24340098, PubMed:25060689, PubMed:8589726). In the arcuate nucleus of the hypothalamus, activates by depolarization POMC neurons inducing FOS and SOCS3 expression to release anorexigenic peptides and inhibits by hyperpolarization NPY neurons inducing SOCS3 with a consequent reduction on release of orexigenic peptides (By similarity). In addition to its known satiety inducing effect, has a modulatory role in nutrient absorption. In the intestine, reduces glucose absorption by enterocytes by activating PKC and leading to a sequential activation of p38, PI3K and ERK signaling pathways which exerts an inhibitory effect on glucose absorption (PubMed:24340098). Acts as a growth factor on certain tissues, through the activation of different signaling pathways increases expression of genes involved in cell cycle regulation such as CCND1, via JAK2-STAT3 pathway, or VEGFA, via MAPK1/3 and PI3K-AKT1 pathways (By similarity) (PubMed:17344214). May also play an apoptotic role via JAK2-STAT3 pathway and up-regulation of BIRC5 expression (PubMed:18242580). Pro-angiogenic, has mitogenic activity on vascular endothelial cells and plays a role in matrix remodeling by regulating the expression of matrix metalloproteinases (MMPs) and tissue inhibitors of metalloproteinases (TIMPs) (PubMed:11460888). In innate immunity, modulates the activity and function of neutrophils by increasing chemotaxis and the secretion of oxygen radicals. Increases phagocytosis by macrophages and enhances secretion of pro-inflammatory mediators. Increases cytotoxic ability of NK cells (PubMed:12504075). Plays a pro-inflammatory role, in synergy with IL1B, by inducing NOS2 which promotes the production of IL6, IL8 and Prostaglandin E2, through a signaling pathway that involves JAK2, PI3K, MAP2K1/MEK1 and MAPK14/p38 (PubMed:15899045, PubMed:19688109). In adaptive immunity, promotes the switch of memory T-cells towards T helper-1 cell immune responses (By similarity). Increases CD4(+)CD25(-) T-cell proliferation and reduces autophagy during TCR (T-cell receptor) stimulation, through MTOR signaling pathway activation and BCL2 up-regulation (PubMed:25060689)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "3952",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00000308D4"
+    }
+   }
+  ]
+ }
+}

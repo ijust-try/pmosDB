@@ -1,0 +1,93 @@
+{
+ "source": "uniprot",
+ "query": "INSL3",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:INSL3) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:21:51+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P51460",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Insulin-like 3"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Leydig insulin-like peptide"
+       },
+       "shortNames": [
+        {
+         "value": "Ley-I-L"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Relaxin-like factor"
+       }
+      }
+     ],
+     "contains": [
+      {
+       "recommendedName": {
+        "fullName": {
+         "value": "Insulin-like 3 B chain"
+        }
+       }
+      },
+      {
+       "recommendedName": {
+        "fullName": {
+         "value": "Insulin-like 3 A chain"
+        }
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "INSL3"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Seems to play a role in testicular function. May be a trophic hormone with a role in testicular descent in fetal life. Is a ligand for LGR8 receptor"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "3640",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000013EB61"
+    }
+   }
+  ]
+ }
+}

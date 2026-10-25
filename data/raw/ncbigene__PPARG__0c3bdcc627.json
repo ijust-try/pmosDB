@@ -1,0 +1,44 @@
+{
+ "source": "ncbigene",
+ "query": "PPARG",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "gene",
+  "term": "PPARG[sym] AND 9606[taxid]",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:41:55+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "1",
+   "retmax": "1",
+   "retstart": "0",
+   "idlist": [
+    "5468"
+   ],
+   "translationset": [],
+   "translationstack": [
+    {
+     "term": "PPARG[sym]",
+     "field": "sym",
+     "count": "894",
+     "explode": "N"
+    },
+    {
+     "term": "9606[taxid]",
+     "field": "taxid",
+     "count": "360558",
+     "explode": "N"
+    },
+    "AND"
+   ],
+   "querytranslation": "PPARG[sym] AND 9606[taxid]"
+  }
+ }
+}

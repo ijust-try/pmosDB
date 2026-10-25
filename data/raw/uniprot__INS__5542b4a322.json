@@ -1,0 +1,76 @@
+{
+ "source": "uniprot",
+ "query": "INS",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:INS) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:21:42+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P01308",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Insulin"
+      }
+     },
+     "contains": [
+      {
+       "recommendedName": {
+        "fullName": {
+         "value": "Insulin B chain"
+        }
+       }
+      },
+      {
+       "recommendedName": {
+        "fullName": {
+         "value": "Insulin A chain"
+        }
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "INS"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Insulin decreases blood glucose concentration. It increases cell permeability to monosaccharides, amino acids and fatty acids. It accelerates glycolysis, the pentose phosphate cycle, and glycogen synthesis in liver"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "3630",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00000017EA"
+    }
+   }
+  ]
+ }
+}

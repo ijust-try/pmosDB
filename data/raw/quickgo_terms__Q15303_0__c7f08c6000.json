@@ -1,0 +1,4918 @@
+{
+ "source": "quickgo_terms",
+ "query": "Q15303_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0000976,GO:0001755,GO:0001934,GO:0004672,GO:0004713,GO:0004714,GO:0005006,GO:0005154,GO:0005515,GO:0005524,GO:0005576,GO:0005634,GO:0005654,GO:0005739,GO:0005759,GO:0005829,GO:0005886,GO:0007165,GO:0007166,GO:0007169,GO:0007173,GO:0007259,GO:0007399,GO:0007416,GO:0007507,GO:0007595,GO:0008284,GO:0008285,GO:0009880,GO:0009925,GO:0016477,GO:0018108,GO:0021551,GO:0021889,GO:0030182,GO:0030334,GO:0030879,GO:0031594,GO:0038130,GO:0038131,GO:0038135,GO:0038138,GO:0042531,GO:0042734,GO:0042803,GO:0043066,GO:0043410,GO:0043653,GO:0045893,GO:0046427",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:36:56+00:00",
+ "response": {
+  "numberOfHits": 50,
+  "results": [
+   {
+    "id": "GO:0004672",
+    "isObsolete": false,
+    "name": "protein kinase activity",
+    "definition": {
+     "text": "Catalysis of the phosphorylation of an amino acid residue in a protein, usually according to the reaction: a protein + ATP = a phosphoprotein + ADP.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "25399640"
+      }
+     ]
+    },
+    "comment": "Note that triphosphate is used as a phosphate donor by at least one kinase.",
+    "synonyms": [
+     {
+      "name": "protamine kinase activity",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0047696",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045860",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0030295",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0004860",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0009927",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106264",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004713",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004712",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035173",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019887",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0106310",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902911",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1990424",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097472",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019199",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006469",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0004673",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004674",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045859",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043653",
+    "isObsolete": false,
+    "name": "mitochondrial fragmentation involved in apoptotic process",
+    "definition": {
+     "text": "The change in the morphology of the mitochondria in an apoptotic cell from a highly branched network to a fragmented vesicular form.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "12867994"
+      }
+     ]
+    },
+    "comment": "Although most of the processes described under 'apoptotic mitochondrial changes' take place during the signaling phase of apoptosis, 'mitochondrial fragmentation involved in apoptotic process' cannot be confidently placed there. It is still controversial whether this process is involved in the signaling phase of apoptosis or not, so it was placed under the more generic 'apoptotic mitochondrial changes' parent rather than linked to the signaling or the execution phase until further research clarifies the matter.",
+    "synonyms": [
+     {
+      "name": "mitochondrial fission during apoptosis",
+      "type": "related"
+     },
+     {
+      "name": "mitochondrial fragmentation involved in apoptosis",
+      "type": "narrow"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0031594",
+    "isObsolete": false,
+    "name": "neuromuscular junction",
+    "definition": {
+     "text": "The junction between the axon of a motor neuron and a muscle fiber. In response to the arrival of action potentials, the presynaptic button releases molecules of neurotransmitters into the synaptic cleft. These diffuse across the cleft and transmit the signal to the postsynaptic membrane of the muscle fiber, leading to a change in post-synaptic potential."
+    },
+    "comment": "In vertebrates, the term 'neuromuscular junction' is limited to synapses targeting skeletal muscle fibers - all of which are cholinergic and excitatory. Both inhibitory and excitatory neuromuscular junctions exist in invertebrates, utilizing a range of neurotransmitters including glutamate, GABA and 5-HT.",
+    "synonyms": [
+     {
+      "name": "motor endplate",
+      "type": "related"
+     },
+     {
+      "name": "NMJ",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0098975",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098527",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098523",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098520",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098521",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042531",
+    "isObsolete": false,
+    "name": "positive regulation of tyrosine phosphorylation of STAT protein",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of the introduction of a phosphate group to a tyrosine residue of a STAT (Signal Transducer and Activator of Transcription) protein.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "11426647"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "activation of tyrosine phosphorylation of Stat1 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "activation of tyrosine phosphorylation of Stat2 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "activation of tyrosine phosphorylation of Stat3 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "activation of tyrosine phosphorylation of Stat4 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "activation of tyrosine phosphorylation of Stat5 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "activation of tyrosine phosphorylation of Stat6 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "activation of tyrosine phosphorylation of Stat7 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "activation of tyrosine phosphorylation of STAT protein",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of tyrosine phosphorylation of Stat1 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of tyrosine phosphorylation of Stat2 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of tyrosine phosphorylation of Stat3 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of tyrosine phosphorylation of Stat4 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of tyrosine phosphorylation of Stat5 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of tyrosine phosphorylation of Stat6 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of tyrosine phosphorylation of Stat7 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of tyrosine phosphorylation of Stat1 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of tyrosine phosphorylation of Stat2 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of tyrosine phosphorylation of Stat3 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of tyrosine phosphorylation of Stat4 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of tyrosine phosphorylation of Stat5 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of tyrosine phosphorylation of Stat6 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of tyrosine phosphorylation of Stat7 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of tyrosine phosphorylation of STAT protein",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of tyrosine phosphorylation of Stat1 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "up-regulation of tyrosine phosphorylation of Stat1 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "upregulation of tyrosine phosphorylation of Stat1 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of tyrosine phosphorylation of Stat2 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "up-regulation of tyrosine phosphorylation of Stat2 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "upregulation of tyrosine phosphorylation of Stat2 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of tyrosine phosphorylation of Stat3 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "up-regulation of tyrosine phosphorylation of Stat3 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "upregulation of tyrosine phosphorylation of Stat3 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of tyrosine phosphorylation of Stat4 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "up-regulation of tyrosine phosphorylation of Stat4 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "upregulation of tyrosine phosphorylation of Stat4 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of tyrosine phosphorylation of Stat5 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "up-regulation of tyrosine phosphorylation of Stat5 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "upregulation of tyrosine phosphorylation of Stat5 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of tyrosine phosphorylation of Stat6 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "up-regulation of tyrosine phosphorylation of Stat6 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "upregulation of tyrosine phosphorylation of Stat6 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of tyrosine phosphorylation of Stat7 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "up-regulation of tyrosine phosphorylation of Stat7 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "upregulation of tyrosine phosphorylation of Stat7 protein",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of tyrosine phosphorylation of STAT protein",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of tyrosine phosphorylation of STAT protein",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of tyrosine phosphorylation of STAT protein",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "None"
+   },
+   {
+    "id": "GO:0005576",
+    "isObsolete": false,
+    "name": "extracellular region",
+    "definition": {
+     "text": "The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite."
+    },
+    "comment": "Note that this term is intended to annotate gene products that are not attached to the cell surface. For gene products at the cell surface, consider annotating to external side of plasma membrane ; GO:0009897.",
+    "synonyms": [
+     {
+      "name": "extracellular",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030312",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043264",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043230",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072562",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035182",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035183",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043245",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0065010",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043083",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006860",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098595",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903561",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140392",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006858",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070701",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036117",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048046",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900116",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099544",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0085036",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900115",
+      "relation": "occurs_in"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005634",
+    "isObsolete": false,
+    "name": "nucleus",
+    "definition": {
+     "text": "A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell's chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent."
+    },
+    "synonyms": [
+     {
+      "name": "cell nucleus",
+      "type": "exact"
+     },
+     {
+      "name": "horsetail nucleus",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0000152",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000176",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043224",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140513",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048556",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048555",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071027",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0031039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031965",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033260",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0071028",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005880",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005635",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000228",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031040",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019908",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048353",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045120",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097571",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097572",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905754",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046818",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043073",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000794",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034753",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031981",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043076",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005640",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0051457",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000943",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140510",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043599",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043596",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042405",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0110093",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0110092",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005654",
+    "isObsolete": false,
+    "name": "nucleoplasm",
+    "definition": {
+     "text": "That part of the nuclear content other than the chromosomes or the nucleolus.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0124325653"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0140168",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000118",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016604",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031261",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035097",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005656",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990826",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0055029",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0008023",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030182",
+    "isObsolete": false,
+    "name": "neuron differentiation",
+    "definition": {
+     "text": "The process in which a relatively unspecialized cell acquires specialized features of a neuron."
+    },
+    "children": [
+     {
+      "id": "GO:0021953",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048934",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097154",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021526",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046530",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071542",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905962",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061101",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048663",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042490",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048666",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048667",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0003357",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003387",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045665",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0045666",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0035315",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045664",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005759",
+    "isObsolete": false,
+    "name": "mitochondrial matrix",
+    "definition": {
+     "text": "The gel-like material, with considerable fine structure, that lies in the matrix space, or lumen, of a mitochondrion. It contains the enzymes of the tricarboxylic acid cycle and, in some organisms, the enzymes concerned with fatty acid oxidation.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "mitochondrial lumen",
+      "type": "exact"
+     },
+     {
+      "name": "mitochondrial stroma",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0042645",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0017133",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005761",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0180053",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001405",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0017087",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0106098",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043294",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0180052",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016507",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034985",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019910",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009841",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005760",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005739",
+    "isObsolete": false,
+    "name": "mitochondrion",
+    "definition": {
+     "text": "A semiautonomous, self replicating organelle that occurs in varying numbers, shapes, and sizes in the cytoplasm of virtually all eukaryotic cells. It is notably the site of tissue respiration.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "comment": "Some anaerobic or microaerophilic organisms (e.g. Entamoeba histolytica, Giardia intestinalis and several Microsporidia species) do not have mitochondria, and contain mitochondrion-related organelles (MROs) instead, called mitosomes or hydrogenosomes, very likely derived from mitochondria. To annotate gene products located in these mitochondrial relics in species such as Entamoeba histolytica, Giardia intestinalis or others, please use GO:0032047 'mitosome' or GO:0042566 'hydrogenosome'. (See PMID:24316280 for a list of species currently known to contain mitochondrion-related organelles.)",
+    "synonyms": [
+     {
+      "name": "mitochondria",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0080156",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0006390",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0017133",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0051560",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000959",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019093",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000957",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0006264",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070899",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000262",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033615",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0033617",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0035694",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0031019",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070124",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0032043",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0034246",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070126",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0032981",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0009841",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090139",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070903",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0090615",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000964",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070901",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042776",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0034551",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0034553",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0002187",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031966",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043294",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019910",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034982",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0090646",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1900864",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005740",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006393",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0043504",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000958",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005759",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1905951",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0072656",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0030678",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097745",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0016507",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070125",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0032543",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0032042",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0034245",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044290",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090616",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070902",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0033108",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005741",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:7770126",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000963",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0140053",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000965",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0020023",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042645",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070900",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042775",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0051882",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990180",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0098798",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:2000827",
+      "relation": "occurs_in"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0021889",
+    "isObsolete": false,
+    "name": "olfactory bulb interneuron differentiation",
+    "definition": {
+     "text": "The process in which a neuroblast acquires specialized features of an interneuron residing in the olfactory bulb.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000021"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "12626695"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0021890",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0021891",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0021551",
+    "isObsolete": false,
+    "name": "central nervous system morphogenesis",
+    "definition": {
+     "text": "The process in which the anatomical structure of the central nervous system is generated and organized. The central nervous system is the core nervous system that serves an integrating and coordinating function. In vertebrates it consists of the brain and spinal cord. In those invertebrates with a central nervous system it typically consists of a brain, cerebral ganglia and a nerve cord.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000021"
+      },
+      {
+       "dbCode": "ISBN",
+       "dbId": "0582227089"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0021556",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0021597",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042734",
+    "isObsolete": false,
+    "name": "presynaptic membrane",
+    "definition": {
+     "text": "A specialized area of membrane of the axon terminal that faces the plasma membrane of the neuron or muscle fiber with which the axon terminal establishes a synaptic junction; many synaptic junctions exhibit structural presynaptic characteristics, such as conical, electron-dense internal protrusions, that distinguish it from the remainder of the axon plasma membrane.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "pre-synaptic membrane",
+      "type": "exact"
+     },
+     {
+      "name": "presynaptic plasma membrane",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0099508",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099507",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0098835",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048787",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036062",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098888",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005886",
+    "isObsolete": false,
+    "name": "plasma membrane",
+    "definition": {
+     "text": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0716731363"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "bacterial inner membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "cell membrane",
+      "type": "exact"
+     },
+     {
+      "name": "cellular membrane",
+      "type": "exact"
+     },
+     {
+      "name": "cytoplasmic membrane",
+      "type": "exact"
+     },
+     {
+      "name": "inner endospore membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral component of plasma membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral to plasma membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "juxtamembrane",
+      "type": "broad"
+     },
+     {
+      "name": "plasmalemma",
+      "type": "exact"
+     },
+     {
+      "name": "plasma membrane lipid bilayer",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0097524",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033616",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0044862",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019897",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098953",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0044298",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042383",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046868",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032584",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009510",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000222",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097197",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001891",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001772",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098590",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030936",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009897",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009898",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032178",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030094",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031979",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099632",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042774",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0043113",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0033012",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031910",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016328",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031911",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990014",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009548",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070014",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098797",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031257",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031256",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098802",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033181",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044853",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001533",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033101",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009546",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042803",
+    "isObsolete": false,
+    "name": "protein homodimerization activity",
+    "definition": {
+     "text": "Binding to an identical protein to form a homodimer."
+    },
+    "synonyms": [
+     {
+      "name": "dimerization activity",
+      "type": "broad"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030879",
+    "isObsolete": false,
+    "name": "mammary gland development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the mammary gland over time, from its formation to the mature structure. The mammary gland is a large compound sebaceous gland that in female mammals is modified to secrete milk. Its development starts with the formation of the mammary line and ends as the mature gland cycles between nursing and weaning stages.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "9576833"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "mammogenesis",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0002174",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061377",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061180",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060443",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060618",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042695",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060764",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007595",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060611",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005829",
+    "isObsolete": false,
+    "name": "cytosol",
+    "definition": {
+     "text": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes."
+    },
+    "children": [
+     {
+      "id": "GO:7770127",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005971",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009316",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990788",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0022626",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097342",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0106002",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0008074",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0170069",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072379",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990228",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097495",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1901950",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990201",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0008385",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990205",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000345",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006895",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990061",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061725",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042147",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990121",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005833",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016465",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005831",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043540",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0062092",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099522",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099524",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1904962",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099523",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090160",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005945",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990233",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090730",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990235",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034752",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090119",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:7770128",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990133",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002186",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002184",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990198",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043293",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990200",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0170081",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990202",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0160074",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990588",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005836",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005832",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099524",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033596",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045249",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016482",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099523",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000015",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045247",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061702",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005515",
+    "isObsolete": false,
+    "name": "protein binding",
+    "definition": {
+     "text": "Binding to a protein."
+    },
+    "synonyms": [
+     {
+      "name": "glycoprotein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "protein amino acid binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031072",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140081",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032092",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010313",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043393",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0031720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990405",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051087",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001965",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005516",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990935",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001848",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032091",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046980",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043394",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001846",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051959",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019955",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005524",
+    "isObsolete": false,
+    "name": "ATP binding",
+    "definition": {
+     "text": "Binding to ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "Mg-ATP binding",
+      "type": "exact"
+     },
+     {
+      "name": "MgATP binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0000774",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1990710",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1990621",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005154",
+    "isObsolete": false,
+    "name": "epidermal growth factor receptor binding",
+    "definition": {
+     "text": "Binding to an epidermal growth factor receptor."
+    },
+    "synonyms": [
+     {
+      "name": "EGF",
+      "type": "narrow"
+     },
+     {
+      "name": "EGFR binding",
+      "type": "exact"
+     },
+     {
+      "name": "EGF receptor binding",
+      "type": "exact"
+     },
+     {
+      "name": "EGF receptor ligand",
+      "type": "narrow"
+     },
+     {
+      "name": "epidermal growth factor",
+      "type": "narrow"
+     },
+     {
+      "name": "epidermal growth factor receptor ligand",
+      "type": "narrow"
+     },
+     {
+      "name": "TGF-alpha receptor binding",
+      "type": "exact"
+     },
+     {
+      "name": "TGFalpha receptor binding",
+      "type": "exact"
+     },
+     {
+      "name": "transforming growth factor alpha",
+      "type": "narrow"
+     },
+     {
+      "name": "transforming growth factor alpha receptor binding",
+      "type": "exact"
+     },
+     {
+      "name": "transforming growth factor alpha receptor ligand",
+      "type": "narrow"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043066",
+    "isObsolete": false,
+    "name": "negative regulation of apoptotic process",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of cell death by apoptotic process."
+    },
+    "comment": "This term should only be used when it is not possible to determine which phase or subtype of the apoptotic process is negatively regulated by a gene product. Whenever detailed information is available, the more granular children terms should be used.",
+    "synonyms": [
+     {
+      "name": "anti-apoptosis",
+      "type": "exact"
+     },
+     {
+      "name": "apoptosis inhibitor activity",
+      "type": "related"
+     },
+     {
+      "name": "down regulation of apoptosis",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of apoptosis",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of apoptosis",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of apoptosis",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of apoptosis",
+      "type": "narrow"
+     },
+     {
+      "name": "pro-survival",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2001234",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043524",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010656",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034351",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033033",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000352",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001054",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904036",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900118",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044336",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:2000107",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000270",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901693",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000811",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904746",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990713",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:1904650",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030334",
+    "isObsolete": false,
+    "name": "regulation of cell migration",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of cell migration."
+    },
+    "children": [
+     {
+      "id": "GO:0010594",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905310",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021840",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000589",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014910",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010632",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090733",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0002685",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090249",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904235",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061853",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904847",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903354",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010762",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903975",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035477",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110123",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030335",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905320",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030336",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903689",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001222",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901163",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001281",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000471",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905210",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904857",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0016477",
+    "isObsolete": false,
+    "name": "cell migration",
+    "definition": {
+     "text": "The controlled self-propelled movement of a cell from one site to a destination guided by molecular cues.",
+     "xrefs": [
+      {
+       "dbCode": "Wikipedia",
+       "dbId": "Cell_migration"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0044319",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905070",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038089",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0006929",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090248",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0040039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048883",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001667",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030334",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0008354",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097628",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050900",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060973",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061334",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021535",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002194",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043542",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035441",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030336",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0007395",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097534",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902766",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0160131",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038090",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0060326",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021885",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905351",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008347",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014812",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097402",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035701",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030335",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0035476",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001764",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905319",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035099",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003428",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021855",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0004713",
+    "isObsolete": false,
+    "name": "protein tyrosine kinase activity",
+    "definition": {
+     "text": "Catalysis of the reaction: ATP + a protein tyrosine = ADP + protein tyrosine phosphate.",
+     "xrefs": [
+      {
+       "dbCode": "RHEA",
+       "dbId": "10596"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "protein-tyrosine kinase activity",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0061097",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0061099",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0004715",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140801",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004714",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030296",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0035401",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030292",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0061098",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0004714",
+    "isObsolete": false,
+    "name": "transmembrane receptor protein tyrosine kinase activity",
+    "definition": {
+     "text": "Combining with a signal and transmitting the signal from one side of the membrane to the other to initiate a change in cell activity by catalysis of the reaction: ATP + a protein-L-tyrosine = ADP + a protein-L-tyrosine phosphate.",
+     "xrefs": [
+      {
+       "dbCode": "EC",
+       "dbId": "2.7.10.1"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "receptor protein tyrosine kinase activity",
+      "type": "related"
+     },
+     {
+      "name": "receptor protein-tyrosine kinase activity",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060175",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005010",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030297",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0008288",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005003",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030293",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0005020",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005011",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005007",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005006",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005009",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005017",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038062",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0038135",
+    "isObsolete": false,
+    "name": "ERBB2-ERBB4 signaling pathway",
+    "definition": {
+     "text": "The series of molecular signals initiated by binding of a ligand to a ERBB4 receptor on the surface of a cell, followed by transmission of the signal by a heterodimeric complex of ERBB2 and ERBB4. ERBB2, which does not bind any known ligand, is activated through formation of a heterodimer with another ligand-activated ERBB family member such as ERBB4.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "16460914"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "ERBB2-ERBB4 signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "HER2-HER4 signaling pathway",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0038138",
+    "isObsolete": false,
+    "name": "ERBB4-ERBB4 signaling pathway",
+    "definition": {
+     "text": "The series of molecular signals initiated by binding of a ligand to the tyrosine kinase receptor ERBB4, followed by ligand-induced homodimerization of ERBB4 and transmission of the signal into the cell by the homodimeric ERBB4 complex. The pathway ends with regulation of a downstream cellular process, e.g. transcription.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "16460914"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "ERBB4-ERBB4 signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "ERBB4 homodimeric signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "HER4-HER4 signaling pathway",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0038131",
+    "isObsolete": false,
+    "name": "neuregulin receptor activity",
+    "definition": {
+     "text": "Combining with a neuregulin, a member of the EGF family of growth factors, and transmitting the signal from one side of the membrane to the other to initiate a change in cell activity.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "16460914"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "20672328"
+      }
+     ]
+    },
+    "comment": "Consider also annotating to 'ERBB3 signaling pathway ; GO:0038129' and/or 'ERBB4 signaling pathway ; GO:0038130'.",
+    "synonyms": [
+     {
+      "name": "NRG1 receptor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "NRG2 receptor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "NRG receptor activity",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0038130",
+    "isObsolete": false,
+    "name": "ERBB4 signaling pathway",
+    "definition": {
+     "text": "The series of molecular signals initiated by binding of a ligand to the tyrosine kinase receptor ERBB4 on the surface of a cell, and ending with the regulation of a downstream cellular process, e.g. transcription.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "16460914"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "ERBB4 signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "HER4 signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "receptor tyrosine-protein kinase erbB-4 signaling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0038135",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038136",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038137",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038138",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120154",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043410",
+    "isObsolete": false,
+    "name": "positive regulation of MAPK cascade",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of signal transduction mediated by the MAPK cascade."
+    },
+    "synonyms": [
+     {
+      "name": "activation of MAPK cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "activation of MAPKKK cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of MAP kinase cascade",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of MAP kinase kinase kinase cascade",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of MAPKKK cascade",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of mitogen-activated protein kinase cascade",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of mitogen activated protein kinase kinase kinase cascade",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of mitogen-activated protein kinase kinase kinase cascade",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of MAPK cascade",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of MAPKKK cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "up-regulation of MAPK cascade",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of MAPK cascade",
+      "type": "exact"
+     },
+     {
+      "name": "up regulation of MAPKKK cascade",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of MAPKKK cascade",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of MAPKKK cascade",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0046330",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900745",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043406",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070374",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062038",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032874",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070378",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090080",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001755",
+    "isObsolete": false,
+    "name": "neural crest cell migration",
+    "definition": {
+     "text": "The characteristic movement of cells from the dorsal ridge of the neural tube to a variety of locations in a vertebrate embryo.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0878932437"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0003253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036484",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901166",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003147",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008285",
+    "isObsolete": false,
+    "name": "negative regulation of cell population proliferation",
+    "definition": {
+     "text": "Any process that stops, prevents or reduces the rate or extent of cell proliferation."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of cell proliferation",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of cell proliferation",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070345",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000137",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035207",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000178",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048662",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901383",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014859",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060244",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033689",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904074",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901723",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905937",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072201",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050680",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071337",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902731",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000818",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061914",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000647",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060044",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070664",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008284",
+    "isObsolete": false,
+    "name": "positive regulation of cell population proliferation",
+    "definition": {
+     "text": "Any process that activates or increases the rate or extent of cell proliferation."
+    },
+    "synonyms": [
+     {
+      "name": "activation of cell proliferation",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of cell proliferation",
+      "type": "related"
+     },
+     {
+      "name": "stimulation of cell proliferation",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of cell proliferation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0072513",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002053",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048146",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904075",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071864",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905938",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000103",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060045",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071338",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060252",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000497",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902732",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070665",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061913",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038091",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000648",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000288",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000138",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035208",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070346",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033690",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050679",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000179",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901384",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048661",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014858",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901724",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045893",
+    "isObsolete": false,
+    "name": "positive regulation of DNA-templated transcription",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of cellular DNA-templated transcription."
+    },
+    "synonyms": [
+     {
+      "name": "activation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "activation of transcription, DNA-dependent",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of cellular transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of transcription, DNA-templated",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of gene-specific transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of transcription, DNA-dependent",
+      "type": "narrow"
+     },
+     {
+      "name": "transcription activator activity",
+      "type": "related"
+     },
+     {
+      "name": "up regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "up-regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "upregulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "up regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of transcription, DNA-dependent",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0045945",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001070",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045944",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043856",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045943",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140543",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003713",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045895",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060566",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903109",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060196",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000144",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061435",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001216",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045991",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904281",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902895",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032786",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990513",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0061586",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001934",
+    "isObsolete": false,
+    "name": "positive regulation of protein phosphorylation",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of addition of phosphate groups to amino acids within a protein."
+    },
+    "synonyms": [
+     {
+      "name": "activation of protein amino acid phosphorylation",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of protein amino acid phosphorylation",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of protein amino acid phosphorylation",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of protein amino acid phosphorylation",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of protein amino acid phosphorylation",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of protein amino acid phosphorylation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0031954",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033138",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045860",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903721",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050731",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110157",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0010800",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "None"
+   },
+   {
+    "id": "GO:0000976",
+    "isObsolete": false,
+    "name": "transcription cis-regulatory region binding",
+    "definition": {
+     "text": "Binding to a specific sequence of DNA that is part of a regulatory region that controls transcription of that section of the DNA. The transcribed region might be described as a gene, cistron, or operon."
+    },
+    "comment": "Note that this term is meant to also capture non-specific binding to regulatory regions. Also, to minimize ambiguity in the use of the word promoter in GO, we have chosen the phrase transcription regulatory region to refer to all of the regulatory regions. Regulatory regions in the DNA which control initiation may include the core promoter where the basal transcription machinery binds, the core promoter proximal region where regulatory factors other than the basal machinery bind. There are also additional regulatory regions, in both the DNA and the RNA transcript, which regulate elongation or termination of transcription.",
+    "synonyms": [
+     {
+      "name": "bacterial-type RNA polymerase regulatory region DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "bacterial-type RNA polymerase transcription regulatory region sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "eubacterial-type RNA polymerase regulatory region DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "eubacterial-type RNA polymerase regulatory region sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "regulatory region DNA binding",
+      "type": "broad"
+     },
+     {
+      "name": "transcription regulatory region DNA binding",
+      "type": "related"
+     },
+     {
+      "name": "transcription regulatory region sequence-specific DNA binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0061793",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0001161",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001163",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001016",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000679",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0001046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032422",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001019",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000678",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0000987",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000677",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0001147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000977",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0018108",
+    "isObsolete": false,
+    "name": "peptidyl-tyrosine phosphorylation",
+    "definition": {
+     "text": "The phosphorylation of peptidyl-tyrosine to form peptidyl-O4'-phospho-L-tyrosine.",
+     "xrefs": [
+      {
+       "dbCode": "RESID",
+       "dbId": "AA0039"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0042976",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050731",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0038083",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050730",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0050732",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0007260",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "None"
+   },
+   {
+    "id": "GO:0009880",
+    "isObsolete": false,
+    "name": "embryonic pattern specification",
+    "definition": {
+     "text": "The process that results in the patterns of cell differentiation that will arise in an embryo.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0521436125"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "embryonic pattern biosynthesis",
+      "type": "broad"
+     },
+     {
+      "name": "embryonic pattern formation",
+      "type": "broad"
+     },
+     {
+      "name": "ventral/lateral system",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1902876",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1902877",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0001757",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902875",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0007350",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007362",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000578",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007173",
+    "isObsolete": false,
+    "name": "epidermal growth factor receptor signaling pathway",
+    "definition": {
+     "text": "The series of molecular signals initiated by binding of a ligand to the tyrosine kinase receptor EGFR (ERBB1) on the surface of a cell. The pathway ends with regulation of a downstream cellular process, e.g. transcription."
+    },
+    "synonyms": [
+     {
+      "name": "EGF receptor signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "EGF receptor signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "EGFR signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "epidermal growth factor receptor signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "ERBB1 signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "receptor tyrosine-protein kinase erbB-1 signaling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0042059",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0005006",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045742",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0042058",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0038134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038137",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007165",
+    "isObsolete": false,
+    "name": "signal transduction",
+    "definition": {
+     "text": "The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal (e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light), or for signal transduction in the absence of ligand, signal-withdrawal or the activity of a constitutively active receptor. Signal transduction ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell."
+    },
+    "comment": "Note that signal transduction is defined broadly to include a ligand interacting with a receptor, downstream signaling steps and a response being triggered. A change in form of the signal in every step is not necessary. Note that in many cases the end of this process is regulation of the initiation of transcription. Note that specific transcription factors may be annotated to this term, but core/general transcription machinery such as RNA polymerase should not.",
+    "synonyms": [
+     {
+      "name": "signaling cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "signaling pathway",
+      "type": "related"
+     },
+     {
+      "name": "signalling cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "signalling pathway",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0009968",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0071588",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038011",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0097190",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090520",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007210",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0023019",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106167",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140507",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055095",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0023041",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140626",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009756",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010850",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097527",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009755",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035556",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009966",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0038034",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009863",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010017",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098926",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098928",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007186",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009967",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0060863",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001402",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002764",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038010",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0038009",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0007602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990806",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903831",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038183",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048018",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007166",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007169",
+    "isObsolete": false,
+    "name": "cell surface receptor protein tyrosine kinase signaling pathway",
+    "definition": {
+     "text": "The series of molecular signals initiated by an extracellular ligand binding to a receptor on the surface of the target cell where the receptor possesses tyrosine kinase activity, and ending with the regulation of a downstream cellular process, e.g. transcription."
+    },
+    "synonyms": [
+     {
+      "name": "transmembrane receptor protein serine/threonine kinase signaling pathway",
+      "type": "broad"
+     },
+     {
+      "name": "transmembrane receptor protein tyrosine kinase signalling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0008293",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008543",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035860",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038063",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005068",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0038127",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007171",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0038084",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048012",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045500",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038109",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048011",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031547",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048010",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060396",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048014",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008286",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048009",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007166",
+    "isObsolete": false,
+    "name": "cell surface receptor signaling pathway",
+    "definition": {
+     "text": "The series of molecular signals initiated by an extracellular ligand binding to a receptor located on the cell surface. The pathway ends with regulation of a downstream cellular process, e.g. transcription."
+    },
+    "synonyms": [
+     {
+      "name": "cell surface receptor linked signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "cell surface receptor linked signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "cell surface receptor linked signal transduction",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0061311",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0160162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007224",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007229",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033626",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0023035",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002768",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110135",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038184",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007167",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008063",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099565",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0160213",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038027",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038026",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031663",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038007",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071526",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097696",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097191",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038065",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007215",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035385",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016055",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038179",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038195",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035590",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036337",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0046427",
+    "isObsolete": false,
+    "name": "positive regulation of receptor signaling pathway via JAK-STAT",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of the JAK-STAT signaling pathway activity."
+    },
+    "synonyms": [
+     {
+      "name": "activation of JAK-STAT cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of STAT protein import into nucleus",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of STAT protein nuclear translocation",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of JAK-STAT cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of JAK-STAT cascade",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of JAK-STAT cascade",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of JAK-STAT cascade",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0042976",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007507",
+    "isObsolete": false,
+    "name": "heart development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the heart over time, from its formation to the mature structure. The heart is a hollow, muscular organ, which, by contracting rhythmically, keeps up the circulation of the blood.",
+     "xrefs": [
+      {
+       "dbCode": "UBERON",
+       "dbId": "0000948"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "cardiac development",
+      "type": "related"
+     },
+     {
+      "name": "dorsal vessel development",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0061308",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0003205",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007508",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061307",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036302",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0003204",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061371",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060973",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060419",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1905072",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061311",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061314",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048738",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0003197",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0003170",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061316",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060976",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060039",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0003007",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007512",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035054",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035050",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0003306",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035051",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140969",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0003157",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061341",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005006",
+    "isObsolete": false,
+    "name": "epidermal growth factor receptor activity",
+    "definition": {
+     "text": "Combining with an epidermal growth factor receptor ligand and transmitting the signal across the plasma membrane to initiate a change in cell activity."
+    },
+    "synonyms": [
+     {
+      "name": "EGFR",
+      "type": "exact"
+     },
+     {
+      "name": "EGF receptor activity",
+      "type": "exact"
+     },
+     {
+      "name": "epidermal growth factor-activated receptor activity",
+      "type": "exact"
+     },
+     {
+      "name": "TGF-alpha receptor activity",
+      "type": "exact"
+     },
+     {
+      "name": "transforming growth factor-alpha receptor activity",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0007175",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007595",
+    "isObsolete": false,
+    "name": "lactation",
+    "definition": {
+     "text": "The regulated release of milk from the mammary glands and the period of time that a mother lactates to feed her young.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "milk secretion",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060156",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903488",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1903489",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1903487",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0009925",
+    "isObsolete": false,
+    "name": "basal plasma membrane",
+    "definition": {
+     "text": "The region of the plasma membrane located at the basal end of the cell. Often used in reference to animal polarized epithelial membranes, where the basal membrane is the part attached to the extracellular matrix, or in plant cells, where the basal membrane is defined with respect to the zygotic axis."
+    },
+    "children": [
+     {
+      "id": "GO:0016323",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007259",
+    "isObsolete": false,
+    "name": "cell surface receptor signaling pathway via JAK-STAT",
+    "definition": {
+     "text": "A cell surface receptor signaling pathway in which ligand binding causes the receptor to dimerize, bringing the receptor-associated JAKs into close proximity. The JAKs then phosphorylate and activate each other on tyrosine residues.This leads to the activation of associated STAT protein, causing the STATs to dissociate from the receptor, translocate to the nucleus. The pathway ends with regulation of target gene expression by STAT proteins.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "12039028"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "JAK-STAT cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "JAK-STAT signal transduction",
+      "type": "exact"
+     },
+     {
+      "name": "receptor signaling pathway via JAK-STAT",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0007260",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0046425",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0046426",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0046427",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007416",
+    "isObsolete": false,
+    "name": "synapse assembly",
+    "definition": {
+     "text": "The aggregation, arrangement and bonding together of a set of components to form a synapse. This process ends when the synapse is mature (functional)."
+    },
+    "synonyms": [
+     {
+      "name": "synapse biogenesis",
+      "type": "exact"
+     },
+     {
+      "name": "synaptogenesis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0099054",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1904861",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904862",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051964",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0051965",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0051963",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0051124",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060386",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099068",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007399",
+    "isObsolete": false,
+    "name": "nervous system development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of nervous tissue over time, from its formation to its mature state."
+    },
+    "synonyms": [
+     {
+      "name": "pan-neural process",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0048755",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035545",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007272",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0021501",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048483",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060074",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007417",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061548",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0051962",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0051961",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0007422",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0022008",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007421",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0021915",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007416",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0051960",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0014028",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0021675",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

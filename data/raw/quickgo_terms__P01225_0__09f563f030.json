@@ -1,0 +1,2813 @@
+{
+ "source": "quickgo_terms",
+ "query": "P01225_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0000165,GO:0001541,GO:0005179,GO:0005515,GO:0005576,GO:0005737,GO:0006701,GO:0007154,GO:0007179,GO:0007186,GO:0007283,GO:0007292,GO:0007565,GO:0008284,GO:0010893,GO:0016913,GO:0016914,GO:0023052,GO:0030335,GO:0035773,GO:0042699,GO:0043235,GO:0045944",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:37:45+00:00",
+ "response": {
+  "numberOfHits": 23,
+  "results": [
+   {
+    "id": "GO:0016913",
+    "isObsolete": false,
+    "name": "follicle-stimulating hormone activity",
+    "definition": {
+     "text": "The action characteristic of follicle-stimulating hormone (FSH), a gonadotrophic glycoprotein hormone secreted, in mammals, by the anterior pituitary gland. Upon receptor binding, FSH stimulates growth of Graafian follicles in the ovaries in females, and stimulates the epithelium of the seminiferous tubules to increase spermatogenesis.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198547684"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "follicle stimulating hormone activity",
+      "type": "exact"
+     },
+     {
+      "name": "follitropin activity",
+      "type": "exact"
+     },
+     {
+      "name": "FSH activity",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0016914",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0016914",
+    "isObsolete": false,
+    "name": "follicle-stimulating hormone complex",
+    "definition": {
+     "text": "A gonadotrophic glycoprotein hormone secreted, in mammals, by the anterior pituitary gland; consists of alpha and beta subunits, the latter of which confers hormonal specificity.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198547684"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "follicle stimulating hormone complex",
+      "type": "exact"
+     },
+     {
+      "name": "FSH complex",
+      "type": "exact"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006701",
+    "isObsolete": false,
+    "name": "progesterone biosynthetic process",
+    "definition": {
+     "text": "The chemical reactions and pathways resulting in the formation of progesterone, a steroid hormone produced in the ovary which prepares and maintains the uterus for pregnancy. Also found in plants.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "14613534"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "progesterone anabolism",
+      "type": "exact"
+     },
+     {
+      "name": "progesterone biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "progesterone formation",
+      "type": "exact"
+     },
+     {
+      "name": "progesterone synthesis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2000184",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:2000183",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:2000182",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005576",
+    "isObsolete": false,
+    "name": "extracellular region",
+    "definition": {
+     "text": "The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite."
+    },
+    "comment": "Note that this term is intended to annotate gene products that are not attached to the cell surface. For gene products at the cell surface, consider annotating to external side of plasma membrane ; GO:0009897.",
+    "synonyms": [
+     {
+      "name": "extracellular",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030312",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043264",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043230",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072562",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035182",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035183",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043245",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0065010",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043083",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006860",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098595",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903561",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140392",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006858",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070701",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036117",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048046",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900116",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099544",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0085036",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900115",
+      "relation": "occurs_in"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005179",
+    "isObsolete": false,
+    "name": "hormone activity",
+    "definition": {
+     "text": "The action characteristic of a hormone, any substance formed in very small amounts in one specialized organ or group of cells and carried (sometimes in the bloodstream) to another organ or group of cells in the same organism, upon which it has a specific regulatory action. The term was originally applied to agents with a stimulatory physiological action in vertebrate animals (as opposed to a chalone, which has a depressant action). Usage is now extended to regulatory compounds in lower animals and plants, and to synthetic substances having comparable effects; all bind receptors and trigger some biological process.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "comment": "Also consider annotating to 'receptor agonist activity ; GO:0048018'.",
+    "synonyms": [
+     {
+      "name": "cAMP generating peptide activity",
+      "type": "narrow"
+     },
+     {
+      "name": "glycopeptide hormone",
+      "type": "narrow"
+     },
+     {
+      "name": "lipopeptide hormone",
+      "type": "narrow"
+     },
+     {
+      "name": "peptide hormone",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0016521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005183",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005184",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046659",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017044",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017045",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016913",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061696",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0030354",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008613",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070186",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016085",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016608",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016084",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008437",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005737",
+    "isObsolete": false,
+    "name": "cytoplasm",
+    "definition": {
+     "text": "The contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198547684"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0019813",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009345",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120099",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036007",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0062073",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043600",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042579",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048471",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071142",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005881",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990728",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990917",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005968",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005964",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060293",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005783",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000164",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042587",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030096",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031209",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098545",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0006888",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0110158",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097433",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019197",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005851",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034715",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009525",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031250",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035550",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045239",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0017109",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032019",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043598",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071075",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060417",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016528",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005794",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032477",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009321",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009382",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990316",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036501",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990565",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034719",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034749",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032047",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005948",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034430",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031680",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034499",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0036464",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009333",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0010938",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:7770092",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005938",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090652",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016281",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070088",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005850",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990229",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044227",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045251",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042735",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005854",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120111",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048500",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009320",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000177",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070826",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042716",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071513",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044312",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090120",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0048492",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070992",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005883",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000308",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034748",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009328",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032921",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005793",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098593",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990658",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009332",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045169",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120293",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097014",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030700",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042566",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030094",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990036",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0043614",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090651",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000809",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044207",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043291",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005853",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1905720",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009504",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061908",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009317",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036457",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044222",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009336",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009359",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005951",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045022",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0071203",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071026",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005773",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000407",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019812",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120098",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009574",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000153",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034515",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005739",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070993",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031201",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032068",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005969",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005946",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034996",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071563",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990730",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005965",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031414",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009536",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034973",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030117",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045170",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031410",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0055087",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071212",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099568",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005829",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990783",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034081",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034270",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0020022",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009331",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0106232",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034709",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070441",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043292",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005852",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070695",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009524",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045253",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070422",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031251",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034274",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034750",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0017102",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002096",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0018444",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005950",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009339",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043235",
+    "isObsolete": false,
+    "name": "signaling receptor complex",
+    "definition": {
+     "text": "Any protein complex that binds a signaling molecule such as a hormone, neurotransmitter, molecular pattern recognition receptor (PAMPs and DAMPS), or an intracellular messenger to initiate a change in cell function."
+    },
+    "synonyms": [
+     {
+      "name": "receptor complex",
+      "type": "broad"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0002116",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903768",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770053",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070195",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098665",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990620",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098666",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002947",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905543",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038104",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905540",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905571",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034751",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046696",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035692",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140368",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140389",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042699",
+    "isObsolete": false,
+    "name": "follicle-stimulating hormone signaling pathway",
+    "definition": {
+     "text": "A G protein-coupled receptor signaling pathway initiated by follicle-stimulating hormone binding to its receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process."
+    },
+    "synonyms": [
+     {
+      "name": "follicle stimulating hormone signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "follicle stimulating hormone signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "follicle-stimulating hormone signalling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0004963",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005515",
+    "isObsolete": false,
+    "name": "protein binding",
+    "definition": {
+     "text": "Binding to a protein."
+    },
+    "synonyms": [
+     {
+      "name": "glycoprotein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "protein amino acid binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031072",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140081",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032092",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010313",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043393",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0031720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990405",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051087",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001965",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005516",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990935",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001848",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032091",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046980",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043394",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001846",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051959",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019955",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030335",
+    "isObsolete": false,
+    "name": "positive regulation of cell migration",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of cell migration."
+    },
+    "synonyms": [
+     {
+      "name": "activation of cell migration",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of cell migration",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of cell migration",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of cell migration",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of cell migration",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0010595",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110124",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904849",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903691",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905322",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905312",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010634",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014911",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001224",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903356",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901165",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002687",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000473",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904237",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905212",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038089",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061854",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904859",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000591",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010763",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000165",
+    "isObsolete": false,
+    "name": "MAPK cascade",
+    "definition": {
+     "text": "An intracellular protein kinase cascade containing at least a MAP kinase (MAPK). It starts with the activation of a MAP3K, and the consecutive activation of a MPK2K and a MAPK. The cascade can also contain an additional tier: the upstream MAP4K. The kinases in each tier phosphorylate and activate the kinase in the downstream tier to transmit a signal within a cell.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "20811974"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "9561267"
+      }
+     ]
+    },
+    "comment": "MAPK cascades lie downstream of many cell surface receptors and cooperate in transmitting various extracellular signals to the nucleus. One way by which the specificity of each cascade is regulated is through the existence of several distinct components in each tier of the different cascades. The cascades are typically named according to the component in the MAPK tier.",
+    "synonyms": [
+     {
+      "name": "ERK/MAPK cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "MAP kinase cascade",
+      "type": "exact"
+     },
+     {
+      "name": "MAP kinase kinase kinase cascade",
+      "type": "exact"
+     },
+     {
+      "name": "MAPKKK cascade",
+      "type": "exact"
+     },
+     {
+      "name": "MAPKKK cascade during sporulation",
+      "type": "narrow"
+     },
+     {
+      "name": "MAPK signaling",
+      "type": "related"
+     },
+     {
+      "name": "MAPK signalling",
+      "type": "related"
+     },
+     {
+      "name": "MAPK signal transduction",
+      "type": "exact"
+     },
+     {
+      "name": "mitogen-activated protein kinase cascade",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0007254",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043410",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0070375",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051403",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071507",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038066",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090080",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0005078",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0004707",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0004709",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0004708",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043409",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0008349",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043408",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008284",
+    "isObsolete": false,
+    "name": "positive regulation of cell population proliferation",
+    "definition": {
+     "text": "Any process that activates or increases the rate or extent of cell proliferation."
+    },
+    "synonyms": [
+     {
+      "name": "activation of cell proliferation",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of cell proliferation",
+      "type": "related"
+     },
+     {
+      "name": "stimulation of cell proliferation",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of cell proliferation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0072513",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002053",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048146",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904075",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071864",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905938",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000103",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060045",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071338",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060252",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000497",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902732",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070665",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061913",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038091",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000648",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000288",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000138",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035208",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070346",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033690",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050679",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000179",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901384",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048661",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014858",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901724",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045944",
+    "isObsolete": false,
+    "name": "positive regulation of transcription by RNA polymerase II",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of transcription from an RNA polymerase II promoter."
+    },
+    "synonyms": [
+     {
+      "name": "activation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "activation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of gene-specific transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of global transcription from Pol II promoter",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of transcription from Pol II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of transcription from RNA polymerase II promoter, global",
+      "type": "related"
+     },
+     {
+      "name": "stimulation of global transcription from RNA polymerase II promoter",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "up regulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "up-regulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "upregulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "up regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060261",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900461",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001228",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990647",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0007221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990469",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:1905382",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060963",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110016",
+      "relation": "capable_of_part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0035773",
+    "isObsolete": false,
+    "name": "insulin secretion involved in cellular response to glucose stimulus",
+    "definition": {
+     "text": "The regulated release of proinsulin from secretory granules (B granules) in the B cells of the pancreas; accompanied by cleavage of proinsulin to form mature insulin, in response to a glucose stimulus.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "8492079"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "insulin secretion involved in cellular response to glucose",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0061178",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0061179",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0035774",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001541",
+    "isObsolete": false,
+    "name": "ovarian follicle development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the ovarian follicle over time, from its formation to the mature structure.",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "https://www.ncbi.nlm.nih.gov/books/NBK279054/"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "follicular phase",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0001551",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001544",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001545",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042699",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001546",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035471",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001547",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:2000354",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:2000355",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:2000386",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0023052",
+    "isObsolete": false,
+    "name": "signaling",
+    "definition": {
+     "text": "The entirety of a process in which information is transmitted within a biological system. This process begins with an active signal and ends when a cellular response has been triggered."
+    },
+    "comment": "Note that a signal is any variable property or parameter that serves to convey information, and may be a physical entity such as a gene product or small molecule, a photon, or a change in state such as movement or voltage change.",
+    "synonyms": [
+     {
+      "name": "biological signaling",
+      "type": "exact"
+     },
+     {
+      "name": "signaling process",
+      "type": "exact"
+     },
+     {
+      "name": "signalling",
+      "type": "exact"
+     },
+     {
+      "name": "signalling process",
+      "type": "related"
+     },
+     {
+      "name": "single organism signaling",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0007267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0023056",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0007165",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035426",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0023051",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0021807",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0023057",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007179",
+    "isObsolete": false,
+    "name": "transforming growth factor beta receptor signaling pathway",
+    "definition": {
+     "text": "The series of molecular signals initiated by an extracellular ligand binding to a transforming growth factor beta receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription."
+    },
+    "synonyms": [
+     {
+      "name": "TGF-beta receptor signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "TGFbeta receptor signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "TGF-beta receptor signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "TGFbeta receptor signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "transforming growth factor beta receptor signalling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0007181",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030511",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0030512",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0099126",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0017015",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007186",
+    "isObsolete": false,
+    "name": "G protein-coupled receptor signaling pathway",
+    "definition": {
+     "text": "The series of molecular signals initiated by a ligand binding to its receptor, in which the activated receptor promotes the exchange of GDP for GTP on the alpha-subunit of an associated heterotrimeric G-protein complex. The GTP-bound activated alpha-G-protein then dissociates from the beta- and gamma-subunits to further transmit the signal within the cell. The pathway begins with receptor-ligand interaction, and ends with regulation of a downstream cellular process. The pathway can start from the plasma membrane, Golgi or nuclear membrane.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "16902576"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "24568158"
+      },
+      {
+       "dbCode": "Wikipedia",
+       "dbId": "G_protein-coupled_receptor"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "dimeric G-protein coupled receptor signaling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "dimeric G-protein coupled receptor signalling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "GPCR signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "GPCR signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "G protein coupled receptor protein signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "G-protein coupled receptor protein signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "G protein coupled receptor protein signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "G-protein-coupled receptor protein signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "G-protein coupled receptor protein signal transduction",
+      "type": "exact"
+     },
+     {
+      "name": "G-protein coupled receptor signaling pathway via GPCR dimer",
+      "type": "narrow"
+     },
+     {
+      "name": "G-protein coupled receptor signalling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0160221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0086103",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031989",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097646",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007200",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061737",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007218",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007217",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045745",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0038169",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031583",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038188",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140986",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038166",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904068",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098664",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007187",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007188",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042700",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038003",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030845",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007212",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035588",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007211",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007213",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008277",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0007216",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070493",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038178",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003376",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004930",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016056",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070098",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038194",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038171",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042699",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038192",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060183",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038193",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071875",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0086100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045744",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007154",
+    "isObsolete": false,
+    "name": "cell communication",
+    "definition": {
+     "text": "Any process that mediates interactions between a cell and its surroundings. Encompasses interactions such as signaling or attachment between one cell and another cell, between a cell and an extracellular matrix, or between a cell and any other aspect of its environment."
+    },
+    "children": [
+     {
+      "id": "GO:0000756",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019226",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007543",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010647",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0009875",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0086065",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010646",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0007412",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035426",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007165",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0010644",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021807",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010643",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010648",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007565",
+    "isObsolete": false,
+    "name": "female pregnancy",
+    "definition": {
+     "text": "The set of physiological processes that allow an embryo or foetus to develop within the body of a female animal. It covers the time from fertilization of a female ovum by a male spermatozoon until birth.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0192800825"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "carrying of young",
+      "type": "related"
+     },
+     {
+      "name": "gestation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060135",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007566",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060136",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0010893",
+    "isObsolete": false,
+    "name": "positive regulation of steroid biosynthetic process",
+    "definition": {
+     "text": "Any process that increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of steroids, compounds with a 1,2,cyclopentanoperhydrophenanthrene nucleus."
+    },
+    "children": [
+     {
+      "id": "GO:0070859",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000184",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060557",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000488",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904078",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106120",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090031",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900842",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903456",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007292",
+    "isObsolete": false,
+    "name": "female gamete generation",
+    "definition": {
+     "text": "Generation of the female gamete; specialised haploid cells produced by meiosis and along with a male gamete takes part in sexual reproduction.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0030728",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007147",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048139",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009560",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007296",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048477",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007143",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007144",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007283",
+    "isObsolete": false,
+    "name": "spermatogenesis",
+    "definition": {
+     "text": "The developmental process by which male germ line stem cells self renew or give rise to successive cell types resulting in the development of a spermatozoa.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "9780878933846"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "28073824"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "30990821"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "generation of spermatozoa",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0048140",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030726",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061989",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030724",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007284",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048137",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007285",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048515",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048136",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048133",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0160087",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

@@ -1,0 +1,792 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-211976",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-211976",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:19:14+00:00",
+ "response": {
+  "dbId": 211976,
+  "displayName": "Endogenous sterols",
+  "stId": "R-HSA-211976",
+  "stIdVersion": "R-HSA-211976.8",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 3,
+  "name": [
+   "Endogenous sterols"
+  ],
+  "releaseDate": "2008-06-30",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 12045,
+    "displayName": "endoplasmic reticulum membrane",
+    "accession": "0005789",
+    "databaseName": "GO",
+    "definition": "The lipid bilayer surrounding the endoplasmic reticulum.",
+    "name": "endoplasmic reticulum membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005789",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 70616,
+    "displayName": "mitochondrial inner membrane",
+    "accession": "0005743",
+    "databaseName": "GO",
+    "definition": "The inner, i.e. lumen-facing, lipid bilayer of the mitochondrial envelope. It is highly folded to form cristae.",
+    "name": "mitochondrial inner membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005743",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 5460,
+    "displayName": "mitochondrial matrix",
+    "accession": "0005759",
+    "databaseName": "GO",
+    "definition": "The gel-like material, with considerable fine structure, that lies in the matrix space, or lumen, of a mitochondrion. It contains the enzymes of the tricarboxylic acid cycle and, in some organisms, the enzymes concerned with fatty acid oxidation.",
+    "name": "mitochondrial matrix",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005759",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 13620,
+   "displayName": "sterol metabolic process",
+   "accession": "0016125",
+   "databaseName": "GO",
+   "definition": "The chemical reactions and pathways involving sterols, steroids with one or more hydroxyl groups and a hydrocarbon side-chain in the molecule.",
+   "name": "sterol metabolic process",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0016125",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 266185,
+    "displayName": "57 varieties: the human cytochromes P450",
+    "title": "57 varieties: the human cytochromes P450",
+    "journal": "Pharmacogenomics",
+    "pages": "305-18",
+    "pubMedIdentifier": 15102545,
+    "volume": 5,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15102545",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 266174,
+    "displayName": "Cytochrome P450s and other enzymes in drug metabolism and toxicity",
+    "title": "Cytochrome P450s and other enzymes in drug metabolism and toxicity",
+    "journal": "AAPS J",
+    "pages": "E101-11",
+    "pubMedIdentifier": 16584116,
+    "volume": 8,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16584116",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 266253,
+    "displayName": "Cytochrome P450s and cholesterol homeostasis",
+    "title": "Cytochrome P450s and cholesterol homeostasis",
+    "journal": "Pharmacol Ther",
+    "pages": "761-73",
+    "pubMedIdentifier": 16872679,
+    "volume": 112,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16872679",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10105600,
+    "displayName": "Endogenous sterols",
+    "stId": "R-MMU-211976",
+    "stIdVersion": "R-MMU-211976.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Endogenous sterols"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     211976
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10229376,
+    "displayName": "Endogenous sterols",
+    "stId": "R-RNO-211976",
+    "stIdVersion": "R-RNO-211976.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Endogenous sterols"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     211976
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10336161,
+    "displayName": "Endogenous sterols",
+    "stId": "R-CFA-211976",
+    "stIdVersion": "R-CFA-211976.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Endogenous sterols"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     211976
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10450683,
+    "displayName": "Endogenous sterols",
+    "stId": "R-BTA-211976",
+    "stIdVersion": "R-BTA-211976.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Endogenous sterols"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     211976
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10563659,
+    "displayName": "Endogenous sterols",
+    "stId": "R-SSC-211976",
+    "stIdVersion": "R-SSC-211976.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Endogenous sterols"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     211976
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10655706,
+    "displayName": "Endogenous sterols",
+    "stId": "R-DRE-211976",
+    "stIdVersion": "R-DRE-211976.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Endogenous sterols"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     211976
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10736776,
+    "displayName": "Endogenous sterols",
+    "stId": "R-XTR-211976",
+    "stIdVersion": "R-XTR-211976.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Endogenous sterols"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     211976
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10833884,
+    "displayName": "Endogenous sterols",
+    "stId": "R-GGA-211976",
+    "stIdVersion": "R-GGA-211976.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Endogenous sterols"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     211976
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10919323,
+    "displayName": "Endogenous sterols",
+    "stId": "R-DME-211976",
+    "stIdVersion": "R-DME-211976.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Endogenous sterols"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     211976
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11002197,
+    "displayName": "Endogenous sterols",
+    "stId": "R-CEL-211976",
+    "stIdVersion": "R-CEL-211976.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Endogenous sterols"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     211976
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11057626,
+    "displayName": "Endogenous sterols",
+    "stId": "R-DDI-211976",
+    "stIdVersion": "R-DDI-211976.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Endogenous sterols"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     211976
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11086984,
+    "displayName": "Endogenous sterols",
+    "stId": "R-SPO-211976",
+    "stIdVersion": "R-SPO-211976.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Endogenous sterols"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     211976
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11115368,
+    "displayName": "Endogenous sterols",
+    "stId": "R-SCE-211976",
+    "stIdVersion": "R-SCE-211976.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Endogenous sterols"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     211976
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 266250,
+    "displayName": "A number of CYPs take part in cholesterol biosynthesis and e...",
+    "text": "A number of CYPs take part in cholesterol biosynthesis and elimination, thus playing an important role in maintaining cholesterol homeostasis. Under normal physiological conditions, cholesterol intake (diet or synthesized de novo from acetyl CoA) equals cholesterol elimination (degraded to bile salts, secreted in bile and used in steroid hormone synthesis). These processes are under tight regulatory control and any disruption leads to increased cholesterol levels resulting in cardiovacular disease. The CYPs involved in cholesterol homeostasis could serve as potential targets for cholesterol-lowering drugs (Lewis 2004, Guengerich 2006, Pikuleva 2006).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-211976.7",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2018-12-13",
+  "hasEvent": [
+   {
+    "dbId": 211951,
+    "displayName": "CYP1B1 4-hydroxylates EST17b",
+    "stId": "R-HSA-211951",
+    "stIdVersion": "R-HSA-211951.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP1B1 4-hydroxylates EST17b",
+     "17beta-estradiol + O2 + reduced (NADPH--hemoprotein reductase) => 4-hydroxy-17beta-estradiol + H(+) + H2O + oxidized (NADPH--hemoprotein reductase)"
+    ],
+    "releaseDate": "2008-06-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     211976
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 192051,
+    "displayName": "CYP7A1 7-hydroxylates CHOL",
+    "stId": "R-HSA-192051",
+    "stIdVersion": "R-HSA-192051.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP7A1 7-hydroxylates CHOL",
+     "cholesterol + reduced (NADPH--hemoprotein reductase) + O2 => 7alpha-hydroxycholesterol + oxidized (NADPH--hemoprotein reductase) + H2O + H(+)",
+     "Cholesterol is hydroxylated to 7alpha-hydroxycholesterol by CYP7A1",
+     "Cholesterol + NADPH + H+ + O2 => 7-alpha-hydroxycholesterol + NADP+ + H2O"
+    ],
+    "releaseDate": "2007-05-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     211976
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 192065,
+    "displayName": "CYP7B1 7-hydroxylates 25OH-CHOL",
+    "stId": "R-HSA-192065",
+    "stIdVersion": "R-HSA-192065.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP7B1 7-hydroxylates 25OH-CHOL",
+     "25-hydroxycholesterol + O2 + reduced (NADPH--hemoprotein reductase) => 7alpha,25-dihydroxycholesterol + H(+) + H2O + oxidized (NADPH--hemoprotein reductase)"
+    ],
+    "releaseDate": "2007-05-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     211976
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 211994,
+    "displayName": "Sterols are 12-hydroxylated by CYP8B1",
+    "stId": "R-HSA-211994",
+    "stIdVersion": "R-HSA-211994.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Sterols are 12-hydroxylated by CYP8B1"
+    ],
+    "releaseDate": "2008-06-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     211976
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2018-09-30",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 193101,
+    "displayName": "CYP11A1 cleaves 20a,22b-DHCHOL",
+    "stId": "R-HSA-193101",
+    "stIdVersion": "R-HSA-193101.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP11A1 cleaves 20a,22b-DHCHOL",
+     "(20R,22R)-20,22-dihydroxycholesterol + 2 H(+) + O2 + 2 reduced (adrenodoxin) => 4-methylpentanal + 2 H2O + 2 oxidized (adrenodoxin) + pregnenolone",
+     "20alpha,22beta-hydroxycholesterol is cleaved by CYP11A1 to yield pregnenolone and isocaproaldehyde",
+     "20alpha,22beta-hydroxycholesterol + NADPH + H+ + O2 => pregnenolone + isocaproaldehyde + NADP+ + H2O"
+    ],
+    "releaseDate": "2007-05-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     211976
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 193997,
+    "displayName": "CYP11B1 oxidises 11DCORT",
+    "stId": "R-HSA-193997",
+    "stIdVersion": "R-HSA-193997.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP11B1 oxidises 11DCORT",
+     "11-deoxycortisol + 2 H(+) + O2 + 2 reduced (adrenodoxin) => cortisol + H2O + 2 oxidized (adrenodoxin)",
+     "11-deoxycortisol is oxidised to cortisol by CYP11B1",
+     "11-deoxycortisol + NADPH + H+ + O2 => cortisol + NADP+ + H2O"
+    ],
+    "releaseDate": "2007-05-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     211976
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 194017,
+    "displayName": "CYP11B2 oxidises 11DCORST to CORST",
+    "stId": "R-HSA-194017",
+    "stIdVersion": "R-HSA-194017.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP11B2 oxidises 11DCORST to CORST",
+     "21-hydroxyprogesterone + 2 H(+) + O2 + 2 reduced (adrenodoxin) => corticosterone + H2O + 2 oxidized (adrenodoxin)",
+     "11-deoxycorticosterone + NADPH + H+ + O2 => corticosterone + H2O + NADP+"
+    ],
+    "releaseDate": "2007-05-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     211976
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 193995,
+    "displayName": "CYP11B2 18-hydroxylates CORST to 18HCORST",
+    "stId": "R-HSA-193995",
+    "stIdVersion": "R-HSA-193995.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP11B2 18-hydroxylates CORST to 18HCORST",
+     "corticosterone + 2 H(+) + O2 + 2 reduced (adrenodoxin) => 18-hydroxycorticosterone + H2O + 2 oxidized (adrenodoxin)",
+     "corticosterone + NADPH + H+ + O2 => 18-hydroxycorticosterone + NADP+ + H2O"
+    ],
+    "releaseDate": "2007-05-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     211976
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 193965,
+    "displayName": "CYP11B2 oxidises 18HCORST to ALDO",
+    "stId": "R-HSA-193965",
+    "stIdVersion": "R-HSA-193965.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP11B2 oxidises 18HCORST to ALDO",
+     "18-hydroxycorticosterone + 2 H(+) + O2 + 2 reduced (adrenodoxin) => aldosterone + 2 H2O + 2 oxidized (adrenodoxin)",
+     "18-hydroxycorticosterone + NADPH + H+ => aldosterone + NADP+ + 2H2O"
+    ],
+    "releaseDate": "2007-05-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     211976
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 193060,
+    "displayName": "CYP19A1 hydroxylates ANDST to E1",
+    "stId": "R-HSA-193060",
+    "stIdVersion": "R-HSA-193060.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP19A1 hydroxylates ANDST to E1",
+     "Androstenedione is converted to estrone by Aromatase (CYP19A1)",
+     "androst-4-ene-3,17-dione + 3 O2 + 3 reduced (NADPH--hemoprotein reductase) => estrone + formate + 4 H(+) + 4 H2O + 3 oxidized (NADPH--hemoprotein reductase)"
+    ],
+    "releaseDate": "2007-05-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     211976
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 193964,
+    "displayName": "CYP21A2 21-hydroxylates PROG",
+    "stId": "R-HSA-193964",
+    "stIdVersion": "R-HSA-193964.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP21A2 21-hydroxylates PROG",
+     "O2 + progesterone + reduced (NADPH--hemoprotein reductase) => 21-hydroxyprogesterone + H(+) + H2O + oxidized (NADPH--hemoprotein reductase)",
+     "21-hydroxylation of progesterone to form 11-deoxycorticosterone",
+     "progesterone + NAPDH + H+ + O2 => 11-deoxycorticosterone + NADP+ + H2O"
+    ],
+    "releaseDate": "2007-05-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     211976
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 192123,
+    "displayName": "CYP27A1 27-hydroxylates CHOL",
+    "stId": "R-HSA-192123",
+    "stIdVersion": "R-HSA-192123.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP27A1 27-hydroxylates CHOL",
+     "cholesterol + H(+) + NADPH + O2 => 26-hydroxycholesterol + H2O + NADP(+)"
+    ],
+    "releaseDate": "2007-05-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     211976
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 192178,
+    "displayName": "CYP39A1 7-hydroxylates 24OH-CHOL",
+    "stId": "R-HSA-192178",
+    "stIdVersion": "R-HSA-192178.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP39A1 7-hydroxylates 24OH-CHOL",
+     "(24S)-hydroxycholesterol + O2 + reduced (NADPH--hemoprotein reductase) => (24S)-7alpha-dihydroxycholesterol + H(+) + H2O + oxidized (NADPH--hemoprotein reductase)",
+     "24-hydroxycholesterol is 7alpha-hydroxylated to yield cholest-5-ene-3beta,7alpha,24-triol",
+     "24-hydroxycholesterol + NADPH + H+ + O2 => cholest-5-ene-3beta,7alpha,24-triol + NADP+ + H2O"
+    ],
+    "releaseDate": "2007-05-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     211976
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 192061,
+    "displayName": "CYP46A1 24-hydroxylates CHOL",
+    "stId": "R-HSA-192061",
+    "stIdVersion": "R-HSA-192061.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP46A1 24-hydroxylates CHOL",
+     "cholesterol + O2 + reduced (NADPH--hemoprotein reductase) => (24S)-hydroxycholesterol + H(+) + H2O + oxidized (NADPH--hemoprotein reductase)",
+     "cholesterol + NADPH + H+ + O2 => 24-hydroxycholesterol + NADP+ + H2O"
+    ],
+    "releaseDate": "2007-05-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     211976
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 194678,
+    "displayName": "CYP51A1 demethylates LAN",
+    "stId": "R-HSA-194678",
+    "stIdVersion": "R-HSA-194678.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP51A1 demethylates LAN",
+     "lanosterol + 3 O2 + 3 reduced (NADPH--hemoprotein reductase) => 4,4-dimethyl-5alpha-cholesta-8,14,24-trien-3beta-ol + formate + 4 H(+) + 4 H2O + 3 oxidized (NADPH--hemoprotein reductase)",
+     "lanosterol + 3 NADPH + 3 H+ + 3 O2 => 4,4-dimethylcholesta-8(9),14,24-trien-3beta-ol + 3 NADP+ + 4 H2O + formate"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     211976
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6786239,
+    "displayName": "CYP4V2 omega-hydroxylates DHA to HDoHE",
+    "stId": "R-HSA-6786239",
+    "stIdVersion": "R-HSA-6786239.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP4V2 omega-hydroxylates DHA to HDoHE",
+     "(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate + O2 + reduced (NADPH--hemoprotein reductase) => 22-hydroxy-(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate + H(+) + H2O + oxidized (NADPH--hemoprotein reductase)"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     211976
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

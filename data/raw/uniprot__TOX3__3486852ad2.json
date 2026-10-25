@@ -1,0 +1,78 @@
+{
+ "source": "uniprot",
+ "query": "TOX3",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:TOX3) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:41:10+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "O15405",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "TOX high mobility group box family member 3"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "CAG trinucleotide repeat-containing gene F9 protein"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Trinucleotide repeat-containing gene 9 protein"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "TOX3"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21172805"
+         }
+        ],
+        "value": "Transcriptional coactivator of the p300/CBP-mediated transcription complex. Activates transactivation through cAMP response element (CRE) sites. Protects against cell death by inducing antiapoptotic and repressing pro-apoptotic transcripts. Stimulates transcription from the estrogen-responsive or BCL-2 promoters. Required for depolarization-induced transcription activation of the C-FOS promoter in neurons. Associates with chromatin to the estrogen-responsive C3 promoter region"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "27324",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00001972E7"
+    }
+   }
+  ]
+ }
+}

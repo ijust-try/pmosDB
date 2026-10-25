@@ -1,0 +1,1914 @@
+{
+ "source": "quickgo_terms",
+ "query": "P61020_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0003924,GO:0003925,GO:0005515,GO:0005525,GO:0005768,GO:0005769,GO:0005886,GO:0006886,GO:0006897,GO:0012505,GO:0016020,GO:0016197,GO:0019003,GO:0019882,GO:0030139,GO:0030667,GO:0030672,GO:0030742,GO:0031901,GO:0042470,GO:0048227,GO:0070062",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:40:52+00:00",
+ "response": {
+  "numberOfHits": 22,
+  "results": [
+   {
+    "id": "GO:0016020",
+    "isObsolete": false,
+    "name": "membrane",
+    "definition": {
+     "text": "A lipid bilayer along with all the proteins and protein complexes embedded in it and attached to it.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "integral component of membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral to membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "membrane region",
+      "type": "narrow"
+     },
+     {
+      "name": "region of membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "transmembrane",
+      "type": "related"
+     },
+     {
+      "name": "whole membrane",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0140549",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019867",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042175",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031090",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005628",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770114",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032594",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019898",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098590",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062137",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097478",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098796",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098552",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070056",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098857",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005905",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048475",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034357",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005642",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005886",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036362",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042470",
+    "isObsolete": false,
+    "name": "melanosome",
+    "definition": {
+     "text": "A tissue-specific, membrane-bounded cytoplasmic organelle within which melanin pigments are synthesized and stored. Melanosomes are synthesized in melanocyte cells.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "11584301"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0034493",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033162",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030667",
+    "isObsolete": false,
+    "name": "secretory granule membrane",
+    "definition": {
+     "text": "The lipid bilayer surrounding a secretory granule."
+    },
+    "synonyms": [
+     {
+      "name": "secretory vesicle membrane",
+      "type": "broad"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0031088",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030668",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070821",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035577",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035579",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042589",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032127",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097232",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0101003",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042584",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002080",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030672",
+    "isObsolete": false,
+    "name": "synaptic vesicle membrane",
+    "definition": {
+     "text": "The lipid bilayer surrounding a synaptic vesicle."
+    },
+    "children": [
+     {
+      "id": "GO:0098850",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030129",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0019882",
+    "isObsolete": false,
+    "name": "antigen processing and presentation",
+    "definition": {
+     "text": "The process in which an antigen-presenting cell expresses antigen (peptide or lipid) on its cell surface in association with an MHC protein complex.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000022"
+      },
+      {
+       "dbCode": "ISBN",
+       "dbId": "0781735149"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "15771591"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "15928678"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "antigen presentation",
+      "type": "exact"
+     },
+     {
+      "name": "antigen processing",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0002747",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002746",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002450",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002475",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002577",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0002471",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002745",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002472",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002473",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048002",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019884",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019883",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002578",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0002457",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002579",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0002468",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030139",
+    "isObsolete": false,
+    "name": "endocytic vesicle",
+    "definition": {
+     "text": "A membrane-bounded intracellular vesicle formed by invagination of the plasma membrane around an extracellular substance. Endocytic vesicles fuse with early endosomes to deliver the cargo for further sorting.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "19696797"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "endocytotic transport vesicle",
+      "type": "exact"
+     },
+     {
+      "name": "endocytotic vesicle",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030128",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043659",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032195",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071682",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045335",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045334",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030666",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030742",
+    "isObsolete": false,
+    "name": "GTP-dependent protein binding",
+    "definition": {
+     "text": "Binding to a protein or protein complex when at least one of the interacting partners is in the GTP-bound state."
+    },
+    "comment": "This term may be used to annotate both partners in a GTP-dependent binding interaction, both the GTP-bound protein and the protein(s) which interact with it.",
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005769",
+    "isObsolete": false,
+    "name": "early endosome",
+    "definition": {
+     "text": "A membrane-bounded organelle that receives incoming material from primary endocytic vesicles that have been generated by clathrin-dependent and clathrin-independent endocytosis; vesicles fuse with the early endosome to deliver cargo for sorting into recycling or degradation pathways.",
+     "xrefs": [
+      {
+       "dbCode": "NIF_Subcellular",
+       "dbId": "nlx_subcell_20090701"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "19696797"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0098842",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031901",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031905",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005768",
+    "isObsolete": false,
+    "name": "endosome",
+    "definition": {
+     "text": "A vacuole to which materials ingested by endocytosis are delivered.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "19696797"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0033263",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036019",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098830",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055037",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098845",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002499",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0160313",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031904",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044352",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097422",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097443",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010008",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036452",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990071",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005886",
+    "isObsolete": false,
+    "name": "plasma membrane",
+    "definition": {
+     "text": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0716731363"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "bacterial inner membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "cell membrane",
+      "type": "exact"
+     },
+     {
+      "name": "cellular membrane",
+      "type": "exact"
+     },
+     {
+      "name": "cytoplasmic membrane",
+      "type": "exact"
+     },
+     {
+      "name": "inner endospore membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral component of plasma membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral to plasma membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "juxtamembrane",
+      "type": "broad"
+     },
+     {
+      "name": "plasmalemma",
+      "type": "exact"
+     },
+     {
+      "name": "plasma membrane lipid bilayer",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0097524",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033616",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0044862",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019897",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098953",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0044298",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042383",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046868",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032584",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009510",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000222",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097197",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001891",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001772",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098590",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030936",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009897",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009898",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032178",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030094",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031979",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099632",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042774",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0043113",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0033012",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031910",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016328",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031911",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990014",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009548",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070014",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098797",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031257",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031256",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098802",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033181",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044853",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001533",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033101",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009546",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005515",
+    "isObsolete": false,
+    "name": "protein binding",
+    "definition": {
+     "text": "Binding to a protein."
+    },
+    "synonyms": [
+     {
+      "name": "glycoprotein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "protein amino acid binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031072",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140081",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032092",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010313",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043393",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0031720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990405",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051087",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001965",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005516",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990935",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001848",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032091",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046980",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043394",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001846",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051959",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019955",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005525",
+    "isObsolete": false,
+    "name": "GTP binding",
+    "definition": {
+     "text": "Binding to GTP, guanosine triphosphate."
+    },
+    "children": [
+     {
+      "id": "GO:1904426",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0005085",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006886",
+    "isObsolete": false,
+    "name": "intracellular protein transport",
+    "definition": {
+     "text": "The directed movement of proteins in a cell, including the movement of proteins between specific compartments or structures within a cell, such as organelles of a eukaryotic cell."
+    },
+    "synonyms": [
+     {
+      "name": "copper-induced intracellular protein transport",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0090316",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0099639",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099112",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015869",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032594",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033376",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770059",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090317",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0070844",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006623",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070843",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006606",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098840",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770063",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098943",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043328",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006611",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007038",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033157",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0065002",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006897",
+    "isObsolete": false,
+    "name": "endocytosis",
+    "definition": {
+     "text": "A cellular process in which cells take up external materials or membrane constituents by the invagination of a part of the plasma membrane to form a new membrane-bounded vesicle.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      },
+      {
+       "dbCode": "ISBN",
+       "dbId": "0716731363"
+      },
+      {
+       "dbCode": "Wikipedia",
+       "dbId": "Endocytosis"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "endocytic import into cell",
+      "type": "exact"
+     },
+     {
+      "name": "nonselective vesicle endocytosis",
+      "type": "related"
+     },
+     {
+      "name": "plasma membrane invagination",
+      "type": "narrow"
+     },
+     {
+      "name": "vesicle endocytosis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990252",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0072584",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035037",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140239",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140238",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006898",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770084",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006907",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990964",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:7770083",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006909",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070086",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098843",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0045806",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0099051",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045807",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0120207",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030100",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1990528",
+      "relation": "capable_of_part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0016197",
+    "isObsolete": false,
+    "name": "endosomal transport",
+    "definition": {
+     "text": "The directed movement of substances mediated by an endosome, a membrane-bounded organelle that carries materials enclosed in the lumen or located in the endosomal membrane.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "endosome localisation",
+      "type": "exact"
+     },
+     {
+      "name": "endosome localization",
+      "type": "related"
+     },
+     {
+      "name": "endosome transport",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0032509",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032456",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098927",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044795",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042147",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0031901",
+    "isObsolete": false,
+    "name": "early endosome membrane",
+    "definition": {
+     "text": "The lipid bilayer surrounding an early endosome."
+    },
+    "children": [
+     {
+      "id": "GO:0098559",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098896",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098550",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0070062",
+    "isObsolete": false,
+    "name": "extracellular exosome",
+    "definition": {
+     "text": "A vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane. Extracellular exosomes, also simply called exosomes, have a diameter of about 40-100 nm.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "15908444"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "17641064"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "19442504"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "19498381"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "22418571"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "24009894"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "exosome",
+      "type": "exact"
+     },
+     {
+      "name": "extracellular vesicular exosome",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990563",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0012505",
+    "isObsolete": false,
+    "name": "endomembrane system",
+    "definition": {
+     "text": "A collection of membranous structures involved in transport within the cell. The main components of the endomembrane system are endoplasmic reticulum, Golgi bodies, vesicles, cell membrane and nuclear envelope. Members of the endomembrane system pass materials through each other or though the use of vesicles."
+    },
+    "children": [
+     {
+      "id": "GO:0030904",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005794",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030141",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990462",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005783",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042175",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097444",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030133",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005768",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031521",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005905",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005635",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0048227",
+    "isObsolete": false,
+    "name": "plasma membrane to endosome transport",
+    "definition": {
+     "text": "Transport of a vesicle from the plasma membrane to the endosome."
+    },
+    "children": [
+     {
+      "id": "GO:0099646",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0003924",
+    "isObsolete": false,
+    "name": "GTPase activity",
+    "definition": {
+     "text": "Catalysis of the reaction: GTP + H2O = GDP + H+ + phosphate.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "26832457"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "27218782"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "ARF small monomeric GTPase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "dynamin GTPase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "GTPase activity, coupled",
+      "type": "related"
+     },
+     {
+      "name": "heterotrimeric G-protein GTPase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "heterotrimeric G-protein GTPase, alpha-subunit",
+      "type": "related"
+     },
+     {
+      "name": "heterotrimeric G-protein GTPase, beta-subunit",
+      "type": "related"
+     },
+     {
+      "name": "heterotrimeric G-protein GTPase, gamma-subunit",
+      "type": "related"
+     },
+     {
+      "name": "hydrolase activity, acting on acid anhydrides, acting on GTP, involved in cellular and subcellular movement",
+      "type": "broad"
+     },
+     {
+      "name": "protein-synthesizing GTPase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "protein-synthesizing GTPase activity, elongation",
+      "type": "narrow"
+     },
+     {
+      "name": "protein-synthesizing GTPase activity, initiation",
+      "type": "narrow"
+     },
+     {
+      "name": "protein-synthesizing GTPase activity, termination",
+      "type": "narrow"
+     },
+     {
+      "name": "Rab small monomeric GTPase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "Ran small monomeric GTPase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "Ras small monomeric GTPase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "RHEB small monomeric GTPase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "Rho small monomeric GTPase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "Sar small monomeric GTPase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "signal-recognition-particle GTPase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "small monomeric GTPase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "tubulin GTPase activity",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030695",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0005095",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0003925",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043547",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043087",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1905360",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0061791",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005096",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0034260",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0003925",
+    "isObsolete": false,
+    "name": "G protein activity",
+    "definition": {
+     "text": "A molecular function regulator that cycles between active GTP-bound and inactive GDP-bound states. In its active state, binds to a variety of effector proteins to regulate cellular processes. Intrinsic GTPase activity returns the G protein to its GDP-bound state. The return to the GDP-bound state can be accelerated by the action of a GTPase-activating protein (GAP).",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "16923326"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "24470015"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "heterotrimeric G-protein GTPase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "large G-protein activity",
+      "type": "narrow"
+     },
+     {
+      "name": "large G-protein GTPase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "Ras superfamily protein",
+      "type": "narrow"
+     },
+     {
+      "name": "signaling G protein activity",
+      "type": "exact"
+     },
+     {
+      "name": "small G-protein",
+      "type": "narrow"
+     },
+     {
+      "name": "small GTPase",
+      "type": "narrow"
+     },
+     {
+      "name": "small GTPase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "small monomeric G protein activity",
+      "type": "narrow"
+     },
+     {
+      "name": "small monomeric GTPase activity",
+      "type": "narrow"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0019003",
+    "isObsolete": false,
+    "name": "GDP binding",
+    "definition": {
+     "text": "Binding to GDP, guanosine 5'-diphosphate."
+    },
+    "children": [
+     {
+      "id": "GO:0005085",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0005092",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

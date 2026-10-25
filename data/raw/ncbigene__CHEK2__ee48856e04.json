@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "CHEK2",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "11200",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:37:21+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "11200"
+   ],
+   "11200": {
+    "uid": "11200",
+    "name": "CHEK2",
+    "description": "checkpoint kinase 2",
+    "status": "",
+    "currentid": "",
+    "chromosome": "22",
+    "geneticsource": "genomic",
+    "maplocation": "22q12.1",
+    "otheraliases": "CDS1, CHK2, HuCds1, LFS2, PP1425, RAD53, TPDS4, hCds1",
+    "otherdesignations": "serine/threonine-protein kinase Chk2|CHK2 checkpoint homolog|cds1 homolog|checkpoint-like protein CHK2",
+    "nomenclaturesymbol": "CHEK2",
+    "nomenclaturename": "checkpoint kinase 2",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "604373"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "22",
+      "chraccver": "NC_000022.11",
+      "chrstart": 28741833,
+      "chrstop": 28687741,
+      "exoncount": 21
+     }
+    ],
+    "geneweight": 65007,
+    "summary": "In response to DNA damage and replication blocks, cell cycle progression is halted through the control of critical cell cycle regulators. The protein encoded by this gene is a cell cycle checkpoint regulator and putative tumor suppressor. It contains a forkhead-associated protein interaction domain essential for activation in response to DNA damage and is rapidly phosphorylated in response to replication blocks and DNA damage. When activated, the encoded protein is known to inhibit CDC25C phosphatase, preventing entry into mitosis, and has been shown to stabilize the tumor suppressor protein p53, leading to cell cycle arrest in G1. In addition, this protein interacts with and phosphorylates BRCA1, allowing BRCA1 to restore survival after DNA damage. Mutations in this gene have been linked with Li-Fraumeni syndrome, a highly penetrant familial cancer phenotype usually associated with inherited mutations in TP53. Also, mutations in this gene are thought to confer a predisposition to sarcomas, breast cancer, and brain tumors. This nuclear protein is a member of the CDS1 subfamily of serine/threonine protein kinases. Several transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Apr 2012]",
+    "chrsort": "22",
+    "chrstart": 28687741,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000022.11",
+      "chrstart": 28741833,
+      "chrstop": 28687741
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060946.1",
+      "chrstart": 29203468,
+      "chrstop": 29149176
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000022.11",
+      "chrstart": 28741833,
+      "chrstop": 28687742
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060946.1",
+      "chrstart": 29203468,
+      "chrstop": 29149177
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000022.11",
+      "chrstart": 28741833,
+      "chrstop": 28687742
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060946.1",
+      "chrstart": 29203468,
+      "chrstop": 29149177
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000022.11",
+      "chrstart": 28741833,
+      "chrstop": 28687742
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060946.1",
+      "chrstart": 29203468,
+      "chrstop": 29149177
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000022.11",
+      "chrstart": 28741833,
+      "chrstop": 28687742
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060946.1",
+      "chrstart": 29203468,
+      "chrstop": 29149177
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000022.11",
+      "chrstart": 28741865,
+      "chrstop": 28687742
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000022.10",
+      "chrstart": 29137821,
+      "chrstop": 29083730
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000022.10",
+      "chrstart": 29137821,
+      "chrstop": 29083730
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000022.10",
+      "chrstart": 29137821,
+      "chrstop": 29083730
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000154.1",
+      "chrstart": 12103007,
+      "chrstop": 12048434
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018933.2",
+      "chrstart": 29096882,
+      "chrstop": 29042793
+     }
+    ]
+   }
+  }
+ }
+}

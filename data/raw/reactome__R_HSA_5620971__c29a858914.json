@@ -1,0 +1,940 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-5620971",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-5620971",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:39:04+00:00",
+ "response": {
+  "dbId": 5620971,
+  "displayName": "Pyroptosis",
+  "stId": "R-HSA-5620971",
+  "stIdVersion": "R-HSA-5620971.7",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Pyroptosis"
+  ],
+  "releaseDate": "2021-03-23",
+  "releaseStatus": "UPDATED",
+  "speciesName": "Homo sapiens",
+  "goBiologicalProcess": {
+   "dbId": 396744,
+   "displayName": "pyroptotic inflammatory response",
+   "accession": "0070269",
+   "databaseName": "GO",
+   "definition": "A gasdermin-dependent inflammatory response that is associated with the generation of pyrogenic mediators such as IL-1beta and IL-18. Gasdermins are activated by caspase-1 or caspase-4/11, or by certain granzymes. In some, but not all cells, it can lead to pyroptotic programmed cell death.",
+   "name": "pyroptotic inflammatory response",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0070269",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 9652641,
+    "displayName": "Molecular mechanisms and functions of pyroptosis, inflammatory caspases and inflammasomes in infectious diseases",
+    "title": "Molecular mechanisms and functions of pyroptosis, inflammatory caspases and inflammasomes in infectious diseases",
+    "journal": "Immunol. Rev.",
+    "pages": "61-75",
+    "pubMedIdentifier": 28462526,
+    "volume": 277,
+    "year": 2017,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28462526",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9710262,
+    "displayName": "Emerging insights on the role of gasdermins in infection and inflammatory diseases",
+    "title": "Emerging insights on the role of gasdermins in infection and inflammatory diseases",
+    "journal": "Clin Transl Immunology",
+    "pages": "e1186",
+    "pubMedIdentifier": 33033617,
+    "volume": 9,
+    "year": 2020,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/33033617",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9710067,
+    "displayName": "Pyroptosis: Gasdermin-Mediated Programmed Necrotic Cell Death",
+    "title": "Pyroptosis: Gasdermin-Mediated Programmed Necrotic Cell Death",
+    "journal": "Trends Biochem Sci",
+    "pages": "245-254",
+    "pubMedIdentifier": 27932073,
+    "volume": 42,
+    "year": 2017,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27932073",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9710645,
+    "displayName": "Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018",
+    "title": "Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018",
+    "journal": "Cell Death Differ",
+    "pages": "486-541",
+    "pubMedIdentifier": 29362479,
+    "volume": 25,
+    "year": 2018,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29362479",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10918891,
+    "displayName": "Pyroptosis",
+    "stId": "R-DME-5620971",
+    "stIdVersion": "R-DME-5620971.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Pyroptosis"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     5620971
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10228764,
+    "displayName": "Pyroptosis",
+    "stId": "R-RNO-5620971",
+    "stIdVersion": "R-RNO-5620971.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Pyroptosis"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     5620971
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10335561,
+    "displayName": "Pyroptosis",
+    "stId": "R-CFA-5620971",
+    "stIdVersion": "R-CFA-5620971.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Pyroptosis"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     5620971
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10450075,
+    "displayName": "Pyroptosis",
+    "stId": "R-BTA-5620971",
+    "stIdVersion": "R-BTA-5620971.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Pyroptosis"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     5620971
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10563069,
+    "displayName": "Pyroptosis",
+    "stId": "R-SSC-5620971",
+    "stIdVersion": "R-SSC-5620971.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Pyroptosis"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     5620971
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10655176,
+    "displayName": "Pyroptosis",
+    "stId": "R-DRE-5620971",
+    "stIdVersion": "R-DRE-5620971.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Pyroptosis"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     5620971
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10736252,
+    "displayName": "Pyroptosis",
+    "stId": "R-XTR-5620971",
+    "stIdVersion": "R-XTR-5620971.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Pyroptosis"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     5620971
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10833306,
+    "displayName": "Pyroptosis",
+    "stId": "R-GGA-5620971",
+    "stIdVersion": "R-GGA-5620971.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Pyroptosis"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     5620971
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11001831,
+    "displayName": "Pyroptosis",
+    "stId": "R-CEL-5620971",
+    "stIdVersion": "R-CEL-5620971.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Pyroptosis"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     5620971
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11086778,
+    "displayName": "Pyroptosis",
+    "stId": "R-SPO-5620971",
+    "stIdVersion": "R-SPO-5620971.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Pyroptosis"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     5620971
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11115178,
+    "displayName": "Pyroptosis",
+    "stId": "R-SCE-5620971",
+    "stIdVersion": "R-SCE-5620971.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Pyroptosis"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     5620971
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11136580,
+    "displayName": "Pyroptosis",
+    "stId": "R-PFA-5620971",
+    "stIdVersion": "R-PFA-5620971.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Pyroptosis"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     5620971
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11057372,
+    "displayName": "Pyroptosis",
+    "stId": "R-DDI-5620971",
+    "stIdVersion": "R-DDI-5620971.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Pyroptosis"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     5620971
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10104992,
+    "displayName": "Pyroptosis",
+    "stId": "R-MMU-5620971",
+    "stIdVersion": "R-MMU-5620971.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Pyroptosis"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     5620971
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9647668,
+    "displayName": "Pyroptosis is a form of lytic inflammatory programmed cell d...",
+    "text": "Pyroptosis is a form of lytic inflammatory programmed cell death that is triggered by microbial infection or pathological stimuli, such as stroke or cancer (reviewed in Shi J et al. 2017; Man SM et al. 2017; Tang D et al. 2019; Zheng Z & Li G 2020). The process of pyroptosis protects the host from microbial infection but can also lead to pathological inflammation if overactivated. The morphologic characteristics of pyroptosis include cell swelling, rupture of the cell membrane and release of intracellular contents into the extracellular environment. Pyroptosis is also characterized by chromatin condensation, however this is not the key or universal feature of pyroptosis (reviewed in Man SM et al. 2017; Tang D et al. 2019). Pyroptosis is executed by proteins of the gasdermin family, which mediate formation of membrane pores (Liu X et al. 2016; Ding J et al. 2016; Mulvihill E et al. 2018; Broz P et al. 2020). Pyroptosis can be defined as gasdermin-mediated programmed necrotic cell death (Shi J et al. 2017; Galluzzi L et al. 2018). The gasdermin (GSDM) superfamily includes GSDMA, GSDMB, GSDMC, GSDMD, GSDME (or DFNA5) and PJVK (DFNB59) (Kovacs SB & Miao EA 2018). Each protein contains an N-terminal domain with intrinsic necrotic pore-forming activity and a C‑terminal domain reported to inhibit cell death through intramolecular domain association (Liu X et al. 2016; Ding J et al. 2016; Liu Z et al. 2018, 2019; Kuang S et al. 2017). Proteolytic cleavage in the linker connecting the N‑ and C‑terminal domains of gasdermins releases the C‑terminus, allowing the gasdermin N‑terminus to translocate to the cell membrane and oligomerize to form pores (Shi J et al. 2015; Ding J et al. 2016; Sborgi L et al. 2016; Feng S et al. 2018; Yang J et al. 2018; Mulvihill E et al. 2018). Although PJVK (DFNB59) is included to the gasdermin family, it is not known whether PJVK is cleaved and whether the full length or the N-terminal portion of PJVK is responsible for forming membrane pores. The N‑terminal fragments of GSDMs strongly bind to phosphatidylinositol phosphates and weakly to phosphatidylserine, found on the inner leaflet of the plasma membrane (Liu X et al. 2016; Ding J et al. 2016; Mulvihill E et al. 2018). Gasdermins are also able to target cardiolipin, which is often found in mitochondrial membranes and membranes of bacteria (Liu X et al. 2016; Rogers C et al. 2019). The size of the GSDMD pore is estimated to be 10–20 nm (Ding J et al. 2016; Sborgi L et al. 2016). The pore‑forming activity of GSDMs in the cell membrane facilitates the release of inflammatory molecules such as interleukin (IL)‑1β and IL‑18 (mainly in GSDMD-mediated pyroptosis), and eventually leads to cytolysis in mammalian cells, releasing additional proinflammatory cellular contents including danger signals such as high mobility group box‑1 (HMGB1) (Shi J et al. 2015; He W et al. 2015; Evavold CL et al. 2017; Semino C et al. 2018; Volchuk A et al. 2020). Pyroptosis can occur in immune cells such as macrophages, monocytes and dendritic cells and non‑immune cell types such as intestinal epithelial cells, trophoblasts and hepatocytes (Taabazuing CY et al. 2017; Li H et al. 2019; Jia C et al. 2019). GSDME can be cleaved by caspase‑3 (CASP3) to induce pyroptosis downstream of the “apoptotic” machinery (Wang Y et al. 2017; Rogers C et al. 2017), whereas GSDMD is cleaved by inflammatory CASP1, CASP4 and CASP5 in humans, and CASP1, CASP11 in mice to induce pyroptosis associated with inflammasome activation (Shi J et al. 2015; Kayagaki N et al. 2015). CASP3 cleavage of GSDMD results in its inactivation (Taabazuing et al. 2017). In mouse macrophages, CASP8 can also cleave GSDMD and cause pyroptosis when TAK1 is inhibited (Malireddi R et al. 2018; Orning P et al. 2018; Sarhan J et al. 2018), and TAK1 inhibition also leads to GSDME cleavage (Sarhan J et al. 2018). Furthermore, activated CASP8 can drive inflammasome-independent cleavage of both pro-IL-1β and GSDMD downstream of the extrinsic cell death receptor signaling pathway switching apoptotic signaling to GSDMD-dependent pyroptotic-like cell death (Donado CA et al. 2020). The cleavage and activation of GSDMD in neutrophils is mediated by neutrophil elastase (NE or ELANE), which is released from azurophil granules into the cytosol during neutrophil extracellular trap (NET) formation (Kambara H et al. 2018). Further, granzyme A (GZMA) released from cytotoxic T lymphocytes and natural killer (NK) cells specifically target GSDMB for interdomain cleavage to activate GSDMB-dependent pyroptosis in target tumor cells (Zhou Z et al. 2020). Similarly, granzyme B (GZMB) released from cytotoxic T lymphocytes and natural killer (NK) cells, can induce GSDME‑dependent lytic cell death in tumor targets via the CASP3‑mediated cleavage of GSDME (Zhang Z et al. 2020).<p>This Reactome module describes pyroptotic activities of GSDMD and GSDME. While the N‑terminal domains of mammalian GSDMA, GSDMB, and GSDMC also have the ability to form pores (Feng S et al. 2018; Ruan J et al. 2018), their functions in the induction of pyroptosis, secretion of proinflammatory cytokines or in bactericidal activity in host remain to be studied and are not covered by this Reactome module.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "previousReviewStatus": {
+   "dbId": 9821384,
+   "displayName": "two stars",
+   "definition": "structure updated after externally and internally reviewed",
+   "name": [
+    "two stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-5620971.2",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2021-06-14",
+  "hasEvent": [
+   {
+    "dbId": 9710295,
+    "displayName": "IRF2 or IRF1 binds the GSDMD gene promoter",
+    "stId": "R-HSA-9710295",
+    "stIdVersion": "R-HSA-9710295.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IRF2 or IRF1 binds the GSDMD gene promoter"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9710294,
+    "displayName": "GSDMD expression mediated by IRF2, IRF1",
+    "stId": "R-HSA-9710294",
+    "stIdVersion": "R-HSA-9710294.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GSDMD expression mediated by IRF2, IRF1"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9710323,
+    "displayName": "TP53 or TP63 binds the GSDME gene",
+    "stId": "R-HSA-9710323",
+    "stIdVersion": "R-HSA-9710323.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53 or TP63 binds the GSDME gene"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9710306,
+    "displayName": "GSDME expression mediated by TP53, TP63",
+    "stId": "R-HSA-9710306",
+    "stIdVersion": "R-HSA-9710306.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GSDME expression mediated by TP53, TP63"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9647680,
+    "displayName": "CASP1 cleaves GSDMD",
+    "stId": "R-HSA-9647680",
+    "stIdVersion": "R-HSA-9647680.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CASP1 cleaves GSDMD"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9948146,
+    "displayName": "CASP4 cleaves GSDMD",
+    "stId": "R-HSA-9948146",
+    "stIdVersion": "R-HSA-9948146.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CASP4 cleaves GSDMD"
+    ],
+    "releaseDate": "2025-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9947997,
+    "displayName": "CASP5 cleaves GSDMD",
+    "stId": "R-HSA-9947997",
+    "stIdVersion": "R-HSA-9947997.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CASP5 cleaves GSDMD"
+    ],
+    "releaseDate": "2025-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9710106,
+    "displayName": "ELANE cleaves GSDMD",
+    "stId": "R-HSA-9710106",
+    "stIdVersion": "R-HSA-9710106.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ELANE cleaves GSDMD"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9716258,
+    "displayName": "Dimethyl fumarate modifies Cys191 in GSDMD",
+    "stId": "R-HSA-9716258",
+    "stIdVersion": "R-HSA-9716258.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Dimethyl fumarate modifies Cys191 in GSDMD"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9647631,
+    "displayName": "GSDMD (1-275) binds PIPs",
+    "stId": "R-HSA-9647631",
+    "stIdVersion": "R-HSA-9647631.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GSDMD (1-275) binds PIPs"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9693324,
+    "displayName": "Disulfiram covalently modifies Cys191 in GSDMD",
+    "stId": "R-HSA-9693324",
+    "stIdVersion": "R-HSA-9693324.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Disulfiram covalently modifies Cys191 in GSDMD"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9647645,
+    "displayName": "GSDMD oligomerizes into arc-, slit-shaped structures",
+    "stId": "R-HSA-9647645",
+    "stIdVersion": "R-HSA-9647645.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GSDMD oligomerizes into arc-, slit-shaped structures"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9647619,
+    "displayName": "GSDMD forms ring‐shaped oligomers ",
+    "stId": "R-HSA-9647619",
+    "stIdVersion": "R-HSA-9647619.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GSDMD forms ring‐shaped oligomers "
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9647643,
+    "displayName": "GSDMD (1-275) binds bacterial cardiolipin",
+    "stId": "R-HSA-9647643",
+    "stIdVersion": "R-HSA-9647643.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GSDMD (1-275) binds bacterial cardiolipin"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9686088,
+    "displayName": "CASP3 cleaves GSDMD",
+    "stId": "R-HSA-9686088",
+    "stIdVersion": "R-HSA-9686088.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CASP3 cleaves GSDMD"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9647632,
+    "displayName": "CASP3 cleaves GSDME",
+    "stId": "R-HSA-9647632",
+    "stIdVersion": "R-HSA-9647632.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CASP3 cleaves GSDME"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9710263,
+    "displayName": "GZMB cleaves GSDME",
+    "stId": "R-HSA-9710263",
+    "stIdVersion": "R-HSA-9710263.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GZMB cleaves GSDME"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9647660,
+    "displayName": "GSDME (1-270) binds PIPs",
+    "stId": "R-HSA-9647660",
+    "stIdVersion": "R-HSA-9647660.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GSDME (1-270) binds PIPs"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9710254,
+    "displayName": "GSDME oligomerizes",
+    "stId": "R-HSA-9710254",
+    "stIdVersion": "R-HSA-9710254.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GSDME oligomerizes"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9710353,
+    "displayName": "GSDMD (1-275) binds cardiolipin",
+    "stId": "R-HSA-9710353",
+    "stIdVersion": "R-HSA-9710353.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GSDMD (1-275) binds cardiolipin"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9710354,
+    "displayName": "GSDME (1-270) binds cardiolipin",
+    "stId": "R-HSA-9710354",
+    "stIdVersion": "R-HSA-9710354.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GSDME (1-270) binds cardiolipin"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 114284,
+    "displayName": "Release of Cytochrome c from mitochondria",
+    "stId": "R-HSA-114284",
+    "stIdVersion": "R-HSA-114284.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Release of Cytochrome c from mitochondria"
+    ],
+    "releaseDate": "2004-07-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 449058,
+    "displayName": "Interleukin-1 family are secreted",
+    "stId": "R-HSA-449058",
+    "stIdVersion": "R-HSA-449058.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Interleukin-1 family are secreted"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 6805981,
+    "displayName": "HMGB1 release from cells",
+    "stId": "R-HSA-6805981",
+    "stIdVersion": "R-HSA-6805981.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HMGB1 release from cells"
+    ],
+    "releaseDate": "2016-06-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5620971
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

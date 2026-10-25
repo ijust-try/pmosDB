@@ -1,0 +1,166 @@
+{
+ "source": "uniprot",
+ "query": "IRF1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:IRF1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:39:01+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P10914",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Interferon regulatory factor 1"
+      },
+      "shortNames": [
+       {
+        "value": "IRF-1"
+       }
+      ]
+     }
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "IRF1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15226432"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15509808"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17516545"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17942705"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18084608"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18497060"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18641303"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19404407"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19851330"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21389130"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22200613"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22367195"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "32385160"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "36736301"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7687740"
+         },
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "11244049"
+         },
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "11846971"
+         },
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "11846974"
+         },
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "16932750"
+         },
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "20049431"
+         }
+        ],
+        "value": "Transcriptional regulator which displays a remarkable functional diversity in the regulation of cellular responses (PubMed:15226432, PubMed:15509808, PubMed:17516545, PubMed:17942705, PubMed:18497060, PubMed:19404407, PubMed:19851330, PubMed:22367195, PubMed:32385160). Regulates transcription of IFN and IFN-inducible genes, host response to viral and bacterial infections, regulation of many genes expressed during hematopoiesis, inflammation, immune responses and cell proliferation and differentiation, regulation of the cell cycle and induction of growth arrest and programmed cell death following DNA damage (PubMed:15226432, PubMed:15509808, PubMed:17516545, PubMed:17942705, PubMed:18497060, PubMed:19404407, PubMed:19851330, PubMed:22367195, PubMed:7687740). Stimulates both innate and acquired immune responses through the activation of specific target genes and can act as a transcriptional activator and repressor regulating target genes by binding to an interferon-stimulated response element (ISRE) in their promoters (PubMed:15226432, PubMed:15509808, PubMed:17516545, PubMed:17942705, PubMed:18497060, PubMed:19404407, PubMed:19851330, PubMed:21389130, PubMed:22367195). Has an essential role in IFNG-dependent immunity to mycobacteria (PubMed:36736301). Competes with the transcriptional repressor ZBED2 for binding to a common consensus sequence in gene promoters (PubMed:32385160). Its target genes for transcriptional activation activity include: genes involved in anti-viral response, such as IFN-alpha/beta, RIGI, TNFSF10/TRAIL, ZBP1, OAS1/2, PIAS1/GBP, EIF2AK2/PKR and RSAD2/viperin; antibacterial response, such as GBP2, GBP5 and NOS2/INOS; anti-proliferative response, such as p53/TP53, LOX and CDKN1A; apoptosis, such as BBC3/PUMA, CASP1, CASP7 and CASP8; immune response, such as IL7, IL12A/B and IL15, PTGS2/COX2 and CYBB; DNA damage responses and DNA repair, such as POLQ/POLH; MHC class I expression, such as TAP1, PSMB9/LMP2, PSME1/PA28A, PSME2/PA28B and B2M and MHC class II expression, such as CIITA; metabolic enzymes, such as ACOD1/IRG1 (PubMed:15226432, PubMed:15509808, PubMed:17516545, PubMed:17942705, PubMed:18497060, PubMed:19404407, PubMed:19851330, PubMed:22367195). Represses genes involved in anti-proliferative response, such as BIRC5/survivin, CCNB1, CCNE1, CDK1, CDK2 and CDK4 and in immune response, such as FOXP3, IL4, ANXA2 and TLR4 (PubMed:18641303, PubMed:22200613). Stimulates p53/TP53-dependent transcription through enhanced recruitment of EP300 leading to increased acetylation of p53/TP53 (PubMed:15509808, PubMed:18084608). Plays an important role in immune response directly affecting NK maturation and activity, macrophage production of IL12, Th1 development and maturation of CD8+ T-cells (PubMed:11244049, PubMed:11846971, PubMed:11846974, PubMed:16932750). Also implicated in the differentiation and maturation of dendritic cells and in the suppression of regulatory T (Treg) cells development (PubMed:11244049, PubMed:11846971, PubMed:11846974, PubMed:16932750). Acts as a tumor suppressor and plays a role not only in antagonism of tumor cell growth but also in stimulating an immune response against tumor cells (PubMed:20049431)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "3659",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000012D885"
+    }
+   }
+  ]
+ }
+}

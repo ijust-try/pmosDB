@@ -1,0 +1,569 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-2428928",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-2428928",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:41:26+00:00",
+ "response": {
+  "dbId": 2428928,
+  "displayName": "IRS-related events triggered by IGF1R",
+  "stId": "R-HSA-2428928",
+  "stIdVersion": "R-HSA-2428928.3",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 6,
+  "name": [
+   "IRS-related events triggered by IGF1R"
+  ],
+  "releaseDate": "2012-12-04",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12829190,
+    "displayName": "BioModels Database:BIOMD0000000449",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000449",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000449",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12829162,
+    "displayName": "BioModels Database:BIOMD0000000356",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000356",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000356",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 2454001,
+    "displayName": "Biological & physiological aspects of action of insulin-like growth factor peptide family",
+    "title": "Biological & physiological aspects of action of insulin-like growth factor peptide family",
+    "journal": "Indian J. Med. Res.",
+    "pages": "511-22",
+    "pubMedIdentifier": 17598937,
+    "volume": 125,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17598937",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2454014,
+    "displayName": "Insulin/IGF-I and related signaling pathways regulate aging in nondividing cells: from yeast to the mammalian brain",
+    "title": "Insulin/IGF-I and related signaling pathways regulate aging in nondividing cells: from yeast to the mammalian brain",
+    "journal": "ScientificWorldJournal",
+    "pages": "161-77",
+    "pubMedIdentifier": 20098959,
+    "volume": 10,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20098959",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2454041,
+    "displayName": "Molecular basis of signaling specificity of insulin and IGF receptors: neglected corners and recent advances",
+    "title": "Molecular basis of signaling specificity of insulin and IGF receptors: neglected corners and recent advances",
+    "journal": "Front Endocrinol (Lausanne)",
+    "pages": "34",
+    "pubMedIdentifier": 22649417,
+    "volume": 3,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22649417",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2454045,
+    "displayName": "Small is beautiful: insulin-like growth factors and their role in growth, development, and cancer",
+    "title": "Small is beautiful: insulin-like growth factors and their role in growth, development, and cancer",
+    "journal": "J. Clin. Oncol.",
+    "pages": "4985-95",
+    "pubMedIdentifier": 20975071,
+    "volume": 28,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20975071",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2454007,
+    "displayName": "The IGF system",
+    "title": "The IGF system",
+    "journal": "Acta Diabetol",
+    "pages": "1-9",
+    "pubMedIdentifier": 21042815,
+    "volume": 48,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21042815",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2454004,
+    "displayName": "The type 1 insulin-like growth factor receptor pathway",
+    "title": "The type 1 insulin-like growth factor receptor pathway",
+    "journal": "Clin. Cancer Res.",
+    "pages": "6364-70",
+    "pubMedIdentifier": 18927274,
+    "volume": 14,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18927274",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10654876,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-DRE-2428928",
+    "stIdVersion": "R-DRE-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11136462,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-PFA-2428928",
+    "stIdVersion": "R-PFA-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11115086,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-SCE-2428928",
+    "stIdVersion": "R-SCE-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11086660,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-SPO-2428928",
+    "stIdVersion": "R-SPO-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 5,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11057242,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-DDI-2428928",
+    "stIdVersion": "R-DDI-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11001699,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-CEL-2428928",
+    "stIdVersion": "R-CEL-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10918601,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-DME-2428928",
+    "stIdVersion": "R-DME-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 5,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10833042,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-GGA-2428928",
+    "stIdVersion": "R-GGA-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10736004,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-XTR-2428928",
+    "stIdVersion": "R-XTR-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10562763,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-SSC-2428928",
+    "stIdVersion": "R-SSC-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10449767,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-BTA-2428928",
+    "stIdVersion": "R-BTA-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10335287,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-CFA-2428928",
+    "stIdVersion": "R-CFA-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10228454,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-RNO-2428928",
+    "stIdVersion": "R-RNO-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10104678,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-MMU-2428928",
+    "stIdVersion": "R-MMU-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 2454015,
+    "displayName": "The phosphorylated type 1 insulin-like growth factor recepto...",
+    "text": "The phosphorylated type 1 insulin-like growth factor receptor phosphorylates IRS1, IRS2, IRS4 and possibly other IRS/DOK family members (reviewed in Pavelic et al. 2007, Chitnis et al. 2008, Maki et al. 2010, Parrella et al. 2010, Siddle et al. 2012). The phosphorylated IRS proteins serve as scaffolds that bind the effector molecules PI3K and GRB2:SOS. PI3K then activates PKB (AKT) signaling while GRB2:SOS activates RAS-RAF-MAPK signaling.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2018-12-13",
+  "hasEvent": [
+   {
+    "dbId": 2428930,
+    "displayName": "IGF1,2:p-Y1161,1165,1166-IGF1R binds IRS1,4",
+    "stId": "R-HSA-2428930",
+    "stIdVersion": "R-HSA-2428930.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IGF1,2:p-Y1161,1165,1166-IGF1R binds IRS1,4"
+    ],
+    "releaseDate": "2012-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2428928
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2428922,
+    "displayName": "IGF1,2:p-Y1161,1165,1166-IGF1R binds IRS2",
+    "stId": "R-HSA-2428922",
+    "stIdVersion": "R-HSA-2428922.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IGF1,2:p-Y1161,1165,1166-IGF1R binds IRS2"
+    ],
+    "releaseDate": "2012-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2428928
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2428926,
+    "displayName": "IGF1,2:p-Y1161,1165,1166-IGF1R phosphorylates IRS1,2,4",
+    "stId": "R-HSA-2428926",
+    "stIdVersion": "R-HSA-2428926.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IGF1,2:p-Y1161,1165,1166-IGF1R phosphorylates IRS1,2,4"
+    ],
+    "releaseDate": "2012-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2428928
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 112399,
+    "displayName": "IRS-mediated signalling",
+    "stId": "R-HSA-112399",
+    "stIdVersion": "R-HSA-112399.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 5,
+    "name": [
+     "IRS-mediated signalling"
+    ],
+    "releaseDate": "2005-06-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2018-06-13",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

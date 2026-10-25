@@ -1,0 +1,403 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9660821",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9660821",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:38:19+00:00",
+ "response": {
+  "dbId": 9660821,
+  "displayName": "ADORA2B mediated anti-inflammatory cytokines production",
+  "stId": "R-HSA-9660821",
+  "stIdVersion": "R-HSA-9660821.4",
+  "isInDisease": true,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "ADORA2B mediated anti-inflammatory cytokines production"
+  ],
+  "releaseDate": "2020-03-17",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12043868,
+    "displayName": "Mondo:0005446",
+    "databaseName": "Mondo",
+    "identifier": "0005446",
+    "url": "https://monarchinitiative.org/MONDO:0005446",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "disease": [
+   {
+    "dbId": 9674660,
+    "displayName": "cutaneous leishmaniasis",
+    "databaseName": "DOID",
+    "definition": "A leishmaniasis that involves skin infection caused by Leishmania species, resulting in one or more cutaneous lesions.",
+    "identifier": "9111",
+    "name": [
+     "cutaneous leishmaniasis"
+    ],
+    "synonym": [
+     "Asian Desert Cutaneous Leishmaniasis",
+     "Leproid leishmaniasis",
+     "diffuse cutaneous leishmaniasis"
+    ],
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/doid/terms?obo_id=DOID:9111",
+    "className": "Disease",
+    "schemaClass": "Disease"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 258635,
+   "displayName": "negative regulation of inflammatory response to antigenic stimulus",
+   "accession": "0002862",
+   "databaseName": "GO",
+   "definition": "Any process that stops, prevents, or reduces the frequency, rate, or extent of an inflammatory response to an antigenic stimulus.",
+   "name": "negative regulation of inflammatory response to antigenic stimulus",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0002862",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 9665539,
+    "displayName": "Purinergic regulation of the immune system",
+    "title": "Purinergic regulation of the immune system",
+    "journal": "Nat. Rev. Immunol.",
+    "pages": "177-92",
+    "pubMedIdentifier": 26922909,
+    "volume": 16,
+    "year": 2016,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26922909",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9665506,
+    "displayName": "Purinergic signaling and infection by Leishmania: A new approach to evasion of the immune response",
+    "title": "Purinergic signaling and infection by Leishmania: A new approach to evasion of the immune response",
+    "journal": "Biomed J",
+    "pages": "244-250",
+    "pubMedIdentifier": 27793266,
+    "volume": 39,
+    "year": 2016,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27793266",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9665562,
+    "displayName": "Up regulation of A2B adenosine receptor on monocytes are crucially required for immune pathogenicity in Indian patients exposed to Leishmania donovani",
+    "title": "Up regulation of A2B adenosine receptor on monocytes are crucially required for immune pathogenicity in Indian patients exposed to Leishmania donovani",
+    "journal": "Cytokine",
+    "pages": "38-44",
+    "pubMedIdentifier": 26748211,
+    "volume": 79,
+    "year": 2016,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26748211",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9665520,
+    "displayName": "The natural ligand for adenosine receptor A2B (ADORA2B) is e...",
+    "text": "The natural ligand for adenosine receptor A2B (ADORA2B) is extracellular adenosine (Ad-Rib), formed from the reduction of ATP by ENTDPases. ATP enters the extracellular space in response to parasite infection, tissue injury, apoptosis amongst other stress factors and has chemotactic and excitatory effects (Cekic et al.2016).<br><br>The reduction of ATP to Ade Rib is thought to be a regulatory mechanism by which the synthesis of anti inflammatory cytokines is induced. In addition, killing mechanisms are switched off (Figueiredo et al. 2016). Accordingly, increased expression of ADORA2B in monocytes correlates with higher Leishmania donovani parasites loads alongside increment of IL10 production (Vijayamahantesh et al. 2016). Exacerbation of lesion development in L. amazonensis infected mice also correlated with high amounts of Ade Rib (Figueiredo et al. 2016).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "previousReviewStatus": {
+   "dbId": 9821384,
+   "displayName": "two stars",
+   "definition": "structure updated after externally and internally reviewed",
+   "name": [
+    "two stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2023-03-29",
+  "hasEvent": [
+   {
+    "dbId": 9660829,
+    "displayName": "ADORA2B binds Ade-Rib",
+    "stId": "R-HSA-9660829",
+    "stIdVersion": "R-HSA-9660829.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ADORA2B binds Ade-Rib",
+     "A2b receptor binda adenosine"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9660821
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9660828,
+    "displayName": "ADORA2B:Ade-Rib binds heterometric G-protein Gs",
+    "stId": "R-HSA-9660828",
+    "stIdVersion": "R-HSA-9660828.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ADORA2B:Ade-Rib binds heterometric G-protein Gs"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9660821
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9660824,
+    "displayName": "ADORA2B (in Ade-Rib:ADORA2B:Heterotrimeric G-protein Gs) exchanges GDP for GTP on Gs",
+    "stId": "R-HSA-9660824",
+    "stIdVersion": "R-HSA-9660824.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ADORA2B (in Ade-Rib:ADORA2B:Heterotrimeric G-protein Gs) exchanges GDP for GTP on Gs"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9660821
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9660819,
+    "displayName": "ADORA2B:Ade-Rib:GsGTP dissociates",
+    "stId": "R-HSA-9660819",
+    "stIdVersion": "R-HSA-9660819.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ADORA2B:Ade-Rib:GsGTP dissociates"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9660821
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 163617,
+    "displayName": "G alpha (s) activates adenylate cyclase",
+    "stId": "R-HSA-163617",
+    "stIdVersion": "R-HSA-163617.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "G alpha (s) activates adenylate cyclase"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9660821
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 392129,
+    "displayName": "Adenylate cyclase converts ATP to 3',5'-cyclic AMP (cAMP) and pyrophosphate",
+    "stId": "R-HSA-392129",
+    "stIdVersion": "R-HSA-392129.6",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Adenylate cyclase converts ATP to 3',5'-cyclic AMP (cAMP) and pyrophosphate"
+    ],
+    "releaseDate": "2009-09-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9660821
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8951727,
+    "displayName": "cAMP binds PKA tetramer",
+    "stId": "R-HSA-8951727",
+    "stIdVersion": "R-HSA-8951727.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "cAMP binds PKA tetramer"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9660821
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 111925,
+    "displayName": "cAMP induces dissociation of inactive PKA tetramers",
+    "stId": "R-HSA-111925",
+    "stIdVersion": "R-HSA-111925.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "cAMP induces dissociation of inactive PKA tetramers"
+    ],
+    "releaseDate": "2008-12-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9660821
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 111924,
+    "displayName": "PKA catalytic subunit translocates to the nucleus",
+    "stId": "R-HSA-111924",
+    "stIdVersion": "R-HSA-111924.5",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "PKA catalytic subunit translocates to the nucleus"
+    ],
+    "releaseDate": "2008-12-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9660821
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 111919,
+    "displayName": "PKA phosphorylates CREB1",
+    "stId": "R-HSA-111919",
+    "stIdVersion": "R-HSA-111919.6",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "PKA phosphorylates CREB1",
+     "PRKACA,(PRKACB,PRKACG,PRKX) phosphorylates CREB1"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9660821
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9662708,
+    "displayName": "CREB binds IL6 promoter",
+    "stId": "R-HSA-9662708",
+    "stIdVersion": "R-HSA-9662708.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CREB binds IL6 promoter"
+    ],
+    "releaseDate": "2008-12-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9660821
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9662710,
+    "displayName": "IL6 gene produces IL6 protein",
+    "stId": "R-HSA-9662710",
+    "stIdVersion": "R-HSA-9662710.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IL6 gene produces IL6 protein"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9660821
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

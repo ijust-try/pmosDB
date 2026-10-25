@@ -1,0 +1,102 @@
+{
+ "source": "uniprot",
+ "query": "FSHB",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:FSHB) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:21:38+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P01225",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Follitropin subunit beta"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Follicle-stimulating hormone beta subunit"
+       },
+       "shortNames": [
+        {
+         "value": "FSH-B"
+        },
+        {
+         "value": "FSH-beta"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Follitropin beta chain"
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "FSHB"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "24692546"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "2494176"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "407105"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8220432"
+         }
+        ],
+        "value": "Together with the alpha chain CGA constitutes follitropin, the follicle-stimulating hormone, and provides its biological specificity to the hormone heterodimer. Binds FSHR, a G protein-coupled receptor, on target cells to activate downstream signaling pathways (PubMed:24692546, PubMed:2494176). Follitropin is involved in follicle development and spermatogenesis in reproductive organs (PubMed:407105, PubMed:8220432)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "2488",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000003FF95"
+    }
+   }
+  ]
+ }
+}

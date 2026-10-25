@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "SUOX",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "6821",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:39:15+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "6821"
+   ],
+   "6821": {
+    "uid": "6821",
+    "name": "SUOX",
+    "description": "sulfite oxidase",
+    "status": "",
+    "currentid": "",
+    "chromosome": "12",
+    "geneticsource": "genomic",
+    "maplocation": "12q13.2",
+    "otheraliases": "HSO",
+    "otherdesignations": "sulfite oxidase, mitochondrial|nitrite reductase, mitochondrial",
+    "nomenclaturesymbol": "SUOX",
+    "nomenclaturename": "sulfite oxidase",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "606887"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "12",
+      "chraccver": "NC_000012.12",
+      "chrstart": 55997275,
+      "chrstop": 56005524,
+      "exoncount": 6
+     }
+    ],
+    "geneweight": 4646,
+    "summary": "Sulfite oxidase is a homodimeric protein localized to the intermembrane space of mitochondria. Each subunit contains a heme domain and a molybdopterin-binding domain. The enzyme catalyzes the oxidation of sulfite to sulfate, the final reaction in the oxidative degradation of the sulfur amino acids cysteine and methionine. Sulfite oxidase deficiency results in neurological abnormalities which are often fatal at an early age. Alternative splicing results in multiple transcript variants encoding identical proteins. [provided by RefSeq, Jul 2008]",
+    "chrsort": "12",
+    "chrstart": 55997275,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000012.12",
+      "chrstart": 55997275,
+      "chrstop": 56005524
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060936.1",
+      "chrstart": 55964338,
+      "chrstop": 55972587
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000012.12",
+      "chrstart": 55997275,
+      "chrstop": 56005524
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060936.1",
+      "chrstart": 55964338,
+      "chrstop": 55972587
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000012.12",
+      "chrstart": 55997275,
+      "chrstop": 56005524
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060936.1",
+      "chrstart": 55964338,
+      "chrstop": 55972587
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000012.12",
+      "chrstart": 55997275,
+      "chrstop": 56005524
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060936.1",
+      "chrstart": 55964338,
+      "chrstop": 55972587
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000012.12",
+      "chrstart": 55997275,
+      "chrstop": 56005524
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060936.1",
+      "chrstart": 55964338,
+      "chrstop": 55972587
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000012.12",
+      "chrstart": 55992546,
+      "chrstop": 56005524
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000012.11",
+      "chrstart": 56391059,
+      "chrstop": 56399308
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000012.11",
+      "chrstart": 56391059,
+      "chrstop": 56399308
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000012.11",
+      "chrstart": 56391042,
+      "chrstop": 56399308
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000144.1",
+      "chrstart": 53429928,
+      "chrstop": 53438194
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018923.2",
+      "chrstart": 56358153,
+      "chrstop": 56366417
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,309 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9820960",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9820960",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:40:48+00:00",
+ "response": {
+  "dbId": 9820960,
+  "displayName": "Respiratory syncytial virus (RSV) attachment and entry",
+  "stId": "R-HSA-9820960",
+  "stIdVersion": "R-HSA-9820960.2",
+  "isInDisease": true,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Respiratory syncytial virus (RSV) attachment and entry"
+  ],
+  "releaseDate": "2023-12-06",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12043883,
+    "displayName": "Mondo:0001577",
+    "databaseName": "Mondo",
+    "identifier": "0001577",
+    "url": "https://monarchinitiative.org/MONDO:0001577",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "disease": [
+   {
+    "dbId": 9833927,
+    "displayName": "respiratory syncytial virus infectious disease",
+    "databaseName": "DOID",
+    "identifier": "1273",
+    "name": [
+     "respiratory syncytial virus infectious disease"
+    ],
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/doid/terms?obo_id=DOID:1273",
+    "className": "Disease",
+    "schemaClass": "Disease"
+   }
+  ],
+  "figure": [
+   {
+    "dbId": 9863350,
+    "displayName": "/figures/static/R-HSA-9820960.svg",
+    "url": "/figures/static/R-HSA-9820960.svg",
+    "className": "Figure",
+    "schemaClass": "Figure"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 1747,
+   "displayName": "response to virus",
+   "accession": "0009615",
+   "databaseName": "GO",
+   "definition": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus from a virus.",
+   "name": "response to virus",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0009615",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 9816932,
+    "displayName": "Respiratory syncytial virus entry and how to block it",
+    "title": "Respiratory syncytial virus entry and how to block it",
+    "journal": "Nat Rev Microbiol",
+    "pages": "233-245",
+    "pubMedIdentifier": 30723301,
+    "volume": 17,
+    "year": 2019,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30723301",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9837845,
+    "displayName": "Respiratory syncytial virus infection of human airway epithelial cells is polarized, specific to ciliated cells, and without obvious cytopathology",
+    "title": "Respiratory syncytial virus infection of human airway epithelial cells is polarized, specific to ciliated cells, and without obvious cytopathology",
+    "journal": "J Virol",
+    "pages": "5654-66",
+    "pubMedIdentifier": 11991994,
+    "volume": 76,
+    "year": 2002,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11991994",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9838156,
+    "displayName": "Respiratory syncytial virus inhibits granulocyte apoptosis through a phosphatidylinositol 3-kinase and NF-kappaB-dependent mechanism",
+    "title": "Respiratory syncytial virus inhibits granulocyte apoptosis through a phosphatidylinositol 3-kinase and NF-kappaB-dependent mechanism",
+    "journal": "J Immunol",
+    "pages": "5529-37",
+    "pubMedIdentifier": 16622022,
+    "volume": 176,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16622022",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9838438,
+    "displayName": "Respiratory Syncytial Virus Infects Regulatory B Cells in Human Neonates via Chemokine Receptor CX3CR1 and Promotes Lung Disease Severity",
+    "title": "Respiratory Syncytial Virus Infects Regulatory B Cells in Human Neonates via Chemokine Receptor CX3CR1 and Promotes Lung Disease Severity",
+    "journal": "Immunity",
+    "pages": "301-314",
+    "pubMedIdentifier": 28228284,
+    "volume": 46,
+    "year": 2017,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28228284",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9820964,
+    "displayName": "The entry of human respiratory syncytial virus (RSV) into ho...",
+    "text": "The entry of human respiratory syncytial virus (RSV) into host cells involves attachment of the virion to the host cell surface, through interaction of viral envelope proteins with host cell attachment factors, and fusion of the viral membrane with the host cell membrane. The G glycoprotein is the attachment protein that interacts with surface molecules of the host cells, enabling the RSV virions to bind to their target cells. While the F glycoprotein may facilitate attachment, its primary function is to promote fusion of the viral and host cell membranes. The SH protein is dispensable for entry. For review, please refer to Battles and McLellan 2019.<br><br>Using human primary airway epithelial cell cultures, it was established that RSV efficiently infects the airway epithelium from the luminal surface and specifically targets ciliated airway epithelial cells. In the absence of immune response, RSV causes no obvious cytopathology (Zhang et al. 2002).<br><br>In addition to ciliated respiratory epithelial cells, RSV may infect granulocytes and cause a delay in constitutive apoptosis of neutrophils and eosinophils (Lindemans et al. 2006). RSV can also infect neonatal-specific regulatory B cells, which may contribute to high viral load and disease severity in infants (Zhivaki et al. 2017).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 9836468,
+    "displayName": "G protein binds CX3CR1 on host cell surface",
+    "stId": "R-HSA-9836468",
+    "stIdVersion": "R-HSA-9836468.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "G protein binds CX3CR1 on host cell surface"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9820960
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9845143,
+    "displayName": "F inhibitors bind F on RSV virion",
+    "stId": "R-HSA-9845143",
+    "stIdVersion": "R-HSA-9845143.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "F inhibitors bind F on RSV virion"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9820960
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9836467,
+    "displayName": "F protein binds NCL on host cell surface",
+    "stId": "R-HSA-9836467",
+    "stIdVersion": "R-HSA-9836467.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "F protein binds NCL on host cell surface"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9820960
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9836227,
+    "displayName": "RSV F binds TLR4:LY96:CD14",
+    "stId": "R-HSA-9836227",
+    "stIdVersion": "R-HSA-9836227.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RSV F binds TLR4:LY96:CD14"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9820960
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9837543,
+    "displayName": "hRSV A enters host cell through membrane fusion",
+    "stId": "R-HSA-9837543",
+    "stIdVersion": "R-HSA-9837543.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "hRSV A enters host cell through membrane fusion"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9820960
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9837625,
+    "displayName": "hRSV A enters host cell through macropinocytosis",
+    "stId": "R-HSA-9837625",
+    "stIdVersion": "R-HSA-9837625.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "hRSV A enters host cell through macropinocytosis"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9820960
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9837707,
+    "displayName": "Release of hRSV A nucleocapsid from macropinosome",
+    "stId": "R-HSA-9837707",
+    "stIdVersion": "R-HSA-9837707.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Release of hRSV A nucleocapsid from macropinosome"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9820960
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

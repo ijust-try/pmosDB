@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "Prolactin",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "Prolactin AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:43:14+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "913",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "41015227",
+    "41021353",
+    "11293005"
+   ],
+   "translationset": [
+    {
+     "from": "Prolactin",
+     "to": "\"prolactin\"[Supplementary Concept] OR \"prolactin\"[All Fields] OR \"prolactin\"[MeSH Terms] OR \"prolactins\"[All Fields] OR \"prolactin's\"[All Fields] OR \"prolactine\"[All Fields] OR \"prolactinic\"[All Fields]"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"prolactin\"[Supplementary Concept] OR \"prolactin\"[All Fields] OR \"prolactin\"[MeSH Terms] OR \"prolactins\"[All Fields] OR \"prolactin s\"[All Fields] OR \"prolactine\"[All Fields] OR \"prolactinic\"[All Fields]) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9925563",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9925563",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:39:53+00:00",
+ "response": {
+  "dbId": 9925563,
+  "displayName": "Developmental Lineage of Pancreatic Ductal Cells",
+  "stId": "R-HSA-9925563",
+  "stIdVersion": "R-HSA-9925563.2",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Developmental Lineage of Pancreatic Ductal Cells"
+  ],
+  "releaseDate": "2025-03-26",
+  "speciesName": "Homo sapiens",
+  "literatureReference": [
+   {
+    "dbId": 9909297,
+    "displayName": " Liggitt, Denny Pancreas \"Pancreas\", in \"Comparative Anatomy and Histology. A Mouse, Rat, and Human Atlas.\", edited by Treuting, Dintzis and Montine.",
+    "title": "\"Pancreas\", in \"Comparative Anatomy and Histology. A Mouse, Rat, and Human Atlas.\", edited by Treuting, Dintzis and Montine.",
+    "chapterTitle": "Pancreas",
+    "pages": "pp. 241-250",
+    "year": 2018,
+    "className": "Book",
+    "schemaClass": "Book"
+   },
+   {
+    "dbId": 9937679,
+    "displayName": "Pancreas organogenesis: from lineage determination to morphogenesis",
+    "title": "Pancreas organogenesis: from lineage determination to morphogenesis",
+    "journal": "Annu Rev Cell Dev Biol",
+    "pages": "81-105",
+    "pubMedIdentifier": 23909279,
+    "volume": 29,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23909279",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9922192,
+    "displayName": "Human pancreas development",
+    "title": "Human pancreas development",
+    "journal": "Development",
+    "pages": "3126-37",
+    "pubMedIdentifier": 26395141,
+    "volume": 142,
+    "year": 2015,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26395141",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9937980,
+    "displayName": "<p>Ductal epithelial cells line the pancreatic ducts in a si...",
+    "text": "<p>Ductal epithelial cells line the pancreatic ducts in a single layer, changing the shape as ducts increase in size from cuboidal, through low columnar, to high columnar epithelium (Liggitt and Dintzis, “Pancreas”, pp. 241-250). Ductal epithelial cells may have cilia or microvilli on their apical surface (Liggitt and Dintzis, “Pancreas”, pp. 241-250). Besides ductal epithelial cells, main pancreatic ducts sometimes include goblet cells (Liggitt and Dintzis, “Pancreas”, pp. 241-250).</p><p>Ductal epithelial cells develop from bipotent pancreatic trunk progenitor cells, which also give rise to endocrine progenitors and are derived from the primary multipotent pancreatic progenitor cells (reviewed in Shih et al. 2013, Jennings et al. 2015).</p>",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "previousReviewStatus": {
+   "dbId": 9821383,
+   "displayName": "three stars",
+   "definition": "internally reviewed",
+   "name": [
+    "three stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-9925563.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 9910607,
+    "displayName": "Primary multipotent pancreatic progenitor cell produces trunk bipotent pancreatic progenitor cell",
+    "stId": "R-HSA-9910607",
+    "stIdVersion": "R-HSA-9910607.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Primary multipotent pancreatic progenitor cell produces trunk bipotent pancreatic progenitor cell"
+    ],
+    "releaseDate": "2025-03-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9925563
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "CellDevelopmentStep"
+   },
+   {
+    "dbId": 9853402,
+    "displayName": "Trunk bipotent pancreatic progenitor cell produces pancreatic ductal cell",
+    "stId": "R-HSA-9853402",
+    "stIdVersion": "R-HSA-9853402.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Trunk bipotent pancreatic progenitor cell produces pancreatic ductal cell"
+    ],
+    "releaseDate": "2025-03-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9925563
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "CellDevelopmentStep"
+   }
+  ],
+  "schemaClass": "CellLineagePath",
+  "className": "CellLineagePath"
+ }
+}

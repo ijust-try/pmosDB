@@ -1,0 +1,551 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-5625886",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-5625886",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:19:40+00:00",
+ "response": {
+  "dbId": 5625886,
+  "displayName": "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3",
+  "stId": "R-HSA-5625886",
+  "stIdVersion": "R-HSA-5625886.3",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3"
+  ],
+  "releaseDate": "2015-03-19",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 7660,
+    "displayName": "nucleoplasm",
+    "accession": "0005654",
+    "databaseName": "GO",
+    "definition": "That part of the nuclear content other than the chromosomes or the nucleolus.",
+    "name": "nucleoplasm",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 436782,
+   "displayName": "regulation of androgen receptor signaling pathway",
+   "accession": "0060765",
+   "databaseName": "GO",
+   "definition": "Any process that modulates the rate, frequency, or extent of the androgen receptor signaling pathway.",
+   "name": "regulation of androgen receptor signaling pathway",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0060765",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 5625719,
+    "displayName": "A novel inducible transactivation domain in the androgen receptor: implications for PRK in prostate cancer",
+    "title": "A novel inducible transactivation domain in the androgen receptor: implications for PRK in prostate cancer",
+    "journal": "EMBO J.",
+    "pages": "270-80",
+    "pubMedIdentifier": 12514133,
+    "volume": 22,
+    "year": 2003,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12514133",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 4687010,
+    "displayName": "LSD1 demethylates repressive histone marks to promote androgen-receptor-dependent transcription",
+    "title": "LSD1 demethylates repressive histone marks to promote androgen-receptor-dependent transcription",
+    "journal": "Nature",
+    "pages": "436-9",
+    "pubMedIdentifier": 16079795,
+    "volume": 437,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16079795",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5625775,
+    "displayName": "Phosphorylation of histone H3 at threonine 11 establishes a novel chromatin mark for transcriptional regulation",
+    "title": "Phosphorylation of histone H3 at threonine 11 establishes a novel chromatin mark for transcriptional regulation",
+    "journal": "Nat. Cell Biol.",
+    "pages": "53-60",
+    "pubMedIdentifier": 18066052,
+    "volume": 10,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18066052",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10452237,
+    "displayName": "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3",
+    "stId": "R-BTA-5625886",
+    "stIdVersion": "R-BTA-5625886.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     5625886
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10920619,
+    "displayName": "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3",
+    "stId": "R-DME-5625886",
+    "stIdVersion": "R-DME-5625886.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     5625886
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10230952,
+    "displayName": "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3",
+    "stId": "R-RNO-5625886",
+    "stIdVersion": "R-RNO-5625886.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     5625886
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10337661,
+    "displayName": "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3",
+    "stId": "R-CFA-5625886",
+    "stIdVersion": "R-CFA-5625886.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     5625886
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10565179,
+    "displayName": "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3",
+    "stId": "R-SSC-5625886",
+    "stIdVersion": "R-SSC-5625886.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     5625886
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10657134,
+    "displayName": "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3",
+    "stId": "R-DRE-5625886",
+    "stIdVersion": "R-DRE-5625886.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     5625886
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10738160,
+    "displayName": "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3",
+    "stId": "R-XTR-5625886",
+    "stIdVersion": "R-XTR-5625886.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     5625886
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10107178,
+    "displayName": "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3",
+    "stId": "R-MMU-5625886",
+    "stIdVersion": "R-MMU-5625886.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     5625886
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 5627097,
+    "displayName": "PKN1, activated by phosphorylation at threonine T774, binds ...",
+    "text": "PKN1, activated by phosphorylation at threonine T774, binds activated AR (androgen receptor) and promotes transcription from AR-regulated promoters. On one hand, phosphorylated PKN1 promotes the formation of a functional complex of AR with the transcriptional coactivator NCOA2 (TIF2) (Metzger et al. 2003). On the other hand, binding of phosphorylated PKN1, in complex with the activated AR, to androgen-reponsive promoters of KLK2 and KLK3 (PSA) genes, leads to PKN1-mediated histone phosphorylation. PKN1-phosphorylated histones recruit histone demethylases KDM4C (JMJD2C) and KDM1A (LSD1), and the ensuing demethylation of histones associated with the promoter regions of KLK2 and KLK3 genes increases their transcription (Metzger et al. 2005, Metzger et al. 2008).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 5625717,
+    "displayName": "Phosphorylated PKN1 binds androgen receptor (AR)",
+    "stId": "R-HSA-5625717",
+    "stIdVersion": "R-HSA-5625717.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylated PKN1 binds androgen receptor (AR)"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5625886
+    ],
+    "isChimeric": false,
+    "systematicName": "p-T774-PKN1 binds AR:Androgen",
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5625738,
+    "displayName": "p-T774-PKN1:AR:Androgen complex translocates to the nucleus",
+    "stId": "R-HSA-5625738",
+    "stIdVersion": "R-HSA-5625738.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-T774-PKN1:AR:Androgen complex translocates to the nucleus"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5625886
+    ],
+    "isChimeric": false,
+    "systematicName": "p-T774-PKN1:AR:Androgen translocates from cytosol to nucleoplasm",
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5625745,
+    "displayName": "PKN1 stimulates association of AR with NCOA2",
+    "stId": "R-HSA-5625745",
+    "stIdVersion": "R-HSA-5625745.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PKN1 stimulates association of AR with NCOA2"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5625886
+    ],
+    "isChimeric": false,
+    "systematicName": "Complexed AR binds NCOA2",
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5625774,
+    "displayName": "PKN1:AR complex binds promoters of KLK2 and KLK3 genes",
+    "stId": "R-HSA-5625774",
+    "stIdVersion": "R-HSA-5625774.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PKN1:AR complex binds promoters of KLK2 and KLK3 genes"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5625886
+    ],
+    "isChimeric": false,
+    "systematicName": "Complexed p-T774-PKN1 binds complexed KLK2,3",
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5625784,
+    "displayName": "PKN1 phosphorylates histone 3 of nucleosomes associate with KLK2 and KLK3 promoters",
+    "stId": "R-HSA-5625784",
+    "stIdVersion": "R-HSA-5625784.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PKN1 phosphorylates histone 3 of nucleosomes associate with KLK2 and KLK3 promoters"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5625886
+    ],
+    "isChimeric": false,
+    "systematicName": "Complexed p-T774-PKN1 phosphorylates complexed Me3K-10-H3",
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5625796,
+    "displayName": "Demethylase KDM4C binds KLK2 and KLK3 promoters",
+    "stId": "R-HSA-5625796",
+    "stIdVersion": "R-HSA-5625796.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Demethylase KDM4C binds KLK2 and KLK3 promoters"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5625886
+    ],
+    "isChimeric": false,
+    "systematicName": "Complexed KLK2, KLK3 bind KDM4C",
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5625797,
+    "displayName": "KDM4C demethylates Me3K-10-H3 associated with KLK2 and KLK3 promoters",
+    "stId": "R-HSA-5625797",
+    "stIdVersion": "R-HSA-5625797.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "KDM4C demethylates Me3K-10-H3 associated with KLK2 and KLK3 promoters"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5625886
+    ],
+    "isChimeric": false,
+    "systematicName": "Complexed KDM4C demethylates complexed p-T12,Me3K-10-H3",
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5625849,
+    "displayName": "Demethylase KDM1A binds KLK2 and KLK3 promoters",
+    "stId": "R-HSA-5625849",
+    "stIdVersion": "R-HSA-5625849.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Demethylase KDM1A binds KLK2 and KLK3 promoters"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5625886
+    ],
+    "isChimeric": false,
+    "systematicName": "Complexed KLK2,3 bind KDM1A",
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5625848,
+    "displayName": "KDM1A demethylates dimethylated H3K9 (Me2K-10-H3) at KLK2 and KLK3 promoters",
+    "stId": "R-HSA-5625848",
+    "stIdVersion": "R-HSA-5625848.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "KDM1A demethylates dimethylated H3K9 (Me2K-10-H3) at KLK2 and KLK3 promoters"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5625886
+    ],
+    "isChimeric": false,
+    "systematicName": "Complexed KDM1A demethylates complexed p-T12,Me2K-10-H3",
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5625870,
+    "displayName": "KDM1A demethylates monomethylated H3K9 (MeK-10-H3) at KLK2 and KLK3 promoters",
+    "stId": "R-HSA-5625870",
+    "stIdVersion": "R-HSA-5625870.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "KDM1A demethylates monomethylated H3K9 (MeK-10-H3) at KLK2 and KLK3 promoters"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5625886
+    ],
+    "isChimeric": false,
+    "systematicName": "Complexed KDM1A demethylates complexed p-T12,MeK-10-H3",
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5625883,
+    "displayName": "PKN1 in complex with AR positively regulates expression of KLK2 and KLK3",
+    "stId": "R-HSA-5625883",
+    "stIdVersion": "R-HSA-5625883.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PKN1 in complex with AR positively regulates expression of KLK2 and KLK3"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5625886
+    ],
+    "isChimeric": false,
+    "systematicName": "KLK2,3 genes express KLK2,3 proteins",
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

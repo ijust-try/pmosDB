@@ -1,0 +1,1192 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-1236394",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-1236394",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:36:39+00:00",
+ "response": {
+  "dbId": 1236394,
+  "displayName": "Signaling by ERBB4",
+  "stId": "R-HSA-1236394",
+  "stIdVersion": "R-HSA-1236394.6",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 3,
+  "name": [
+   "Signaling by ERBB4"
+  ],
+  "releaseDate": "2011-12-06",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12828976,
+    "displayName": "BioModels Database:BIOMD0000000255",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000255",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000255",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828982,
+    "displayName": "BioModels Database:BIOMD0000000175",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000175",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000175",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 984,
+    "displayName": "extracellular region",
+    "accession": "0005576",
+    "databaseName": "GO",
+    "definition": "The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite.",
+    "name": "extracellular region",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005576",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "figure": [
+   {
+    "dbId": 2291888,
+    "displayName": "/figures/Pathway_Illustrations/ERBB4_72_oicr.png",
+    "url": "/figures/Pathway_Illustrations/ERBB4_72_oicr.png",
+    "className": "Figure",
+    "schemaClass": "Figure"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 1254429,
+    "displayName": "Activation of HER4 by heparin-binding EGF-like growth factor stimulates chemotaxis but not proliferation",
+    "title": "Activation of HER4 by heparin-binding EGF-like growth factor stimulates chemotaxis but not proliferation",
+    "journal": "EMBO J",
+    "pages": "1268-78",
+    "pubMedIdentifier": 9135143,
+    "volume": 16,
+    "year": 1997,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9135143",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1254427,
+    "displayName": "Activation of ErbB4 by the bifunctional epidermal growth factor family hormone epiregulin is regulated by ErbB2",
+    "title": "Activation of ErbB4 by the bifunctional epidermal growth factor family hormone epiregulin is regulated by ErbB2",
+    "journal": "J Biol Chem",
+    "pages": "11288-94",
+    "pubMedIdentifier": 9556621,
+    "volume": 273,
+    "year": 1998,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9556621",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1247834,
+    "displayName": "ErbB-3 and ErbB-4 function as the respective low and high affinity receptors of all Neu differentiation factor/heregulin isoforms",
+    "title": "ErbB-3 and ErbB-4 function as the respective low and high affinity receptors of all Neu differentiation factor/heregulin isoforms",
+    "journal": "J Biol Chem",
+    "pages": "25226-33",
+    "pubMedIdentifier": 7929212,
+    "volume": 269,
+    "year": 1994,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/7929212",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1254428,
+    "displayName": "Neuregulin-2, a new ligand of ErbB3/ErbB4-receptor tyrosine kinases",
+    "title": "Neuregulin-2, a new ligand of ErbB3/ErbB4-receptor tyrosine kinases",
+    "journal": "Nature",
+    "pages": "512-6",
+    "pubMedIdentifier": 9168115,
+    "volume": 387,
+    "year": 1997,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9168115",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1254439,
+    "displayName": "Neuregulin-3 (NRG3): a novel neural tissue-enriched protein that binds and activates ErbB4",
+    "title": "Neuregulin-3 (NRG3): a novel neural tissue-enriched protein that binds and activates ErbB4",
+    "journal": "Proc Natl Acad Sci U S A",
+    "pages": "9562-7",
+    "pubMedIdentifier": 9275162,
+    "volume": 94,
+    "year": 1997,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9275162",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1254437,
+    "displayName": "Identification and characterization of novel spliced variants of neuregulin 4 in prostate cancer",
+    "title": "Identification and characterization of novel spliced variants of neuregulin 4 in prostate cancer",
+    "journal": "Clin Cancer Res",
+    "pages": "3147-55",
+    "pubMedIdentifier": 17545517,
+    "volume": 13,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17545517",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1250222,
+    "displayName": "Ligand discrimination in signaling through an ErbB4 receptor homodimer",
+    "title": "Ligand discrimination in signaling through an ErbB4 receptor homodimer",
+    "journal": "J Biol Chem",
+    "pages": "19803-7",
+    "pubMedIdentifier": 10867024,
+    "volume": 275,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10867024",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1250122,
+    "displayName": "Neuregulin-1 only induces trans-phosphorylation between ErbB receptor heterodimer partners",
+    "title": "Neuregulin-1 only induces trans-phosphorylation between ErbB receptor heterodimer partners",
+    "journal": "Cell Signal",
+    "pages": "466-71",
+    "pubMedIdentifier": 16978839,
+    "volume": 19,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16978839",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1250306,
+    "displayName": "HER4-mediated biological and biochemical properties in NIH 3T3 cells. Evidence for HER1-HER4 heterodimers",
+    "title": "HER4-mediated biological and biochemical properties in NIH 3T3 cells. Evidence for HER1-HER4 heterodimers",
+    "journal": "J Biol Chem",
+    "pages": "4813-8",
+    "pubMedIdentifier": 8617750,
+    "volume": 271,
+    "year": 1996,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8617750",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1250297,
+    "displayName": "System-wide investigation of ErbB4 reveals 19 sites of Tyr phosphorylation that are unusually selective in their recruitment properties",
+    "title": "System-wide investigation of ErbB4 reveals 19 sites of Tyr phosphorylation that are unusually selective in their recruitment properties",
+    "journal": "Chem Biol",
+    "pages": "808-17",
+    "pubMedIdentifier": 18721752,
+    "volume": 15,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18721752",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1248688,
+    "displayName": "Identification of autophosphorylation sites of HER2/neu",
+    "title": "Identification of autophosphorylation sites of HER2/neu",
+    "journal": "Cell Growth Differ",
+    "pages": "3-7",
+    "pubMedIdentifier": 1706616,
+    "volume": 1,
+    "year": 1990,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/1706616",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1973954,
+    "displayName": "The cellular response to neuregulins is governed by complex interactions of the erbB receptor family",
+    "title": "The cellular response to neuregulins is governed by complex interactions of the erbB receptor family",
+    "journal": "Mol Cell Biol",
+    "pages": "5770-6",
+    "pubMedIdentifier": 7565730,
+    "volume": 15,
+    "year": 1995,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/7565730",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1248733,
+    "displayName": "Diversification of Neu differentiation factor and epidermal growth factor signaling by combinatorial receptor interactions",
+    "title": "Diversification of Neu differentiation factor and epidermal growth factor signaling by combinatorial receptor interactions",
+    "journal": "EMBO J",
+    "pages": "2452-67",
+    "pubMedIdentifier": 8665853,
+    "volume": 15,
+    "year": 1996,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8665853",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1250369,
+    "displayName": "A natural ErbB4 isoform that does not activate phosphoinositide 3-kinase mediates proliferation but not survival or chemotaxis",
+    "title": "A natural ErbB4 isoform that does not activate phosphoinositide 3-kinase mediates proliferation but not survival or chemotaxis",
+    "journal": "J Biol Chem",
+    "pages": "8641-9",
+    "pubMedIdentifier": 10722704,
+    "volume": 275,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10722704",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1252006,
+    "displayName": "Tumor necrosis factor-alpha-converting enzyme is required for cleavage of erbB4/HER4",
+    "title": "Tumor necrosis factor-alpha-converting enzyme is required for cleavage of erbB4/HER4",
+    "journal": "J Biol Chem",
+    "pages": "10379-87",
+    "pubMedIdentifier": 10744726,
+    "volume": 275,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10744726",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1251998,
+    "displayName": "Ectodomain cleavage of ErbB-4: characterization of the cleavage site and m80 fragment",
+    "title": "Ectodomain cleavage of ErbB-4: characterization of the cleavage site and m80 fragment",
+    "journal": "J Biol Chem",
+    "pages": "38421-7",
+    "pubMedIdentifier": 12869563,
+    "volume": 278,
+    "year": 2003,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12869563",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1252005,
+    "displayName": "gamma -Secretase cleavage and nuclear localization of ErbB-4 receptor tyrosine kinase",
+    "title": "gamma -Secretase cleavage and nuclear localization of ErbB-4 receptor tyrosine kinase",
+    "journal": "Science",
+    "pages": "2179-81",
+    "pubMedIdentifier": 11679632,
+    "volume": 294,
+    "year": 2001,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11679632",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1253316,
+    "displayName": "Presenilin-dependent ErbB4 nuclear signaling regulates the timing of astrogenesis in the developing brain",
+    "title": "Presenilin-dependent ErbB4 nuclear signaling regulates the timing of astrogenesis in the developing brain",
+    "journal": "Cell",
+    "pages": "185-97",
+    "pubMedIdentifier": 17018285,
+    "volume": 127,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17018285",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1254286,
+    "displayName": "The ERBB4/HER4 receptor tyrosine kinase regulates gene expression by functioning as a STAT5A nuclear chaperone",
+    "title": "The ERBB4/HER4 receptor tyrosine kinase regulates gene expression by functioning as a STAT5A nuclear chaperone",
+    "journal": "J Cell Biol",
+    "pages": "469-78",
+    "pubMedIdentifier": 15534001,
+    "volume": 167,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15534001",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1254297,
+    "displayName": "Prolactin and ErbB4/HER4 signaling interact via Janus kinase 2 to induce mammary epithelial cell gene expression differentiation",
+    "title": "Prolactin and ErbB4/HER4 signaling interact via Janus kinase 2 to induce mammary epithelial cell gene expression differentiation",
+    "journal": "Mol Endocrinol",
+    "pages": "2307-21",
+    "pubMedIdentifier": 18653779,
+    "volume": 22,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18653779",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1254407,
+    "displayName": "Coregulation of estrogen receptor by ERBB4/HER4 establishes a growth-promoting autocrine signal in breast tumor cells",
+    "title": "Coregulation of estrogen receptor by ERBB4/HER4 establishes a growth-promoting autocrine signal in breast tumor cells",
+    "journal": "Cancer Res",
+    "pages": "7991-8",
+    "pubMedIdentifier": 16912174,
+    "volume": 66,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16912174",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1254249,
+    "displayName": "WW domain-containing protein YAP associates with ErbB-4 and acts as a co-transcriptional activator for the carboxyl-terminal fragment of ErbB-4 that translocates to the nucleus",
+    "title": "WW domain-containing protein YAP associates with ErbB-4 and acts as a co-transcriptional activator for the carboxyl-terminal fragment of ErbB-4 that translocates to the nucleus",
+    "journal": "J Biol Chem",
+    "pages": "33334-41",
+    "pubMedIdentifier": 12807903,
+    "volume": 278,
+    "year": 2003,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12807903",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1254250,
+    "displayName": "Ligand-regulated association of ErbB-4 to the transcriptional co-activator YAP65 controls transcription at the nuclear level",
+    "title": "Ligand-regulated association of ErbB-4 to the transcriptional co-activator YAP65 controls transcription at the nuclear level",
+    "journal": "Exp Cell Res",
+    "pages": "469-79",
+    "pubMedIdentifier": 15023535,
+    "volume": 294,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15023535",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1253338,
+    "displayName": "WW domain-containing proteins, WWOX and YAP, compete for interaction with ErbB-4 and modulate its transcriptional function",
+    "title": "WW domain-containing proteins, WWOX and YAP, compete for interaction with ErbB-4 and modulate its transcriptional function",
+    "journal": "Cancer Res",
+    "pages": "6764-72",
+    "pubMedIdentifier": 16061658,
+    "volume": 65,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16061658",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1254404,
+    "displayName": "The ERBB4/HER4 intracellular domain 4ICD is a BH3-only protein promoting apoptosis of breast cancer cells",
+    "title": "The ERBB4/HER4 intracellular domain 4ICD is a BH3-only protein promoting apoptosis of breast cancer cells",
+    "journal": "Cancer Res",
+    "pages": "6412-20",
+    "pubMedIdentifier": 16778220,
+    "volume": 66,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16778220",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1253272,
+    "displayName": "The E3 ligase Aip4/Itch ubiquitinates and targets ErbB-4 for degradation",
+    "title": "The E3 ligase Aip4/Itch ubiquitinates and targets ErbB-4 for degradation",
+    "journal": "FASEB J",
+    "pages": "2849-62",
+    "pubMedIdentifier": 17463226,
+    "volume": 21,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17463226",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1253295,
+    "displayName": "The E3 ubiquitin ligase WWP1 selectively targets HER4 and its proteolytically derived signaling isoforms for degradation",
+    "title": "The E3 ubiquitin ligase WWP1 selectively targets HER4 and its proteolytically derived signaling isoforms for degradation",
+    "journal": "Mol Cell Biol",
+    "pages": "892-906",
+    "pubMedIdentifier": 19047365,
+    "volume": 29,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19047365",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1973946,
+    "displayName": "Nedd4 mediates ErbB4 JM-a/CYT-1 ICD ubiquitination and degradation in MDCK II cells",
+    "title": "Nedd4 mediates ErbB4 JM-a/CYT-1 ICD ubiquitination and degradation in MDCK II cells",
+    "journal": "FASEB J",
+    "pages": "1935-45",
+    "pubMedIdentifier": 19193720,
+    "volume": 23,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19193720",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2029517,
+    "displayName": "Heregulin-dependent delay in mitotic progression requires HER4 and BRCA1",
+    "title": "Heregulin-dependent delay in mitotic progression requires HER4 and BRCA1",
+    "journal": "Mol Cell Biol",
+    "pages": "6412-24",
+    "pubMedIdentifier": 16914727,
+    "volume": 26,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16914727",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9612773,
+    "displayName": "ErbB4 regulation of a thalamic reticular nucleus circuit for sensory selection",
+    "title": "ErbB4 regulation of a thalamic reticular nucleus circuit for sensory selection",
+    "journal": "Nat. Neurosci.",
+    "pages": "104-11",
+    "pubMedIdentifier": 25501036,
+    "volume": 18,
+    "year": 2015,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25501036",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9612772,
+    "displayName": "Gene expression profiling of ErbB receptor and ligand-dependent transcription",
+    "title": "Gene expression profiling of ErbB receptor and ligand-dependent transcription",
+    "journal": "Oncogene",
+    "pages": "1428-38",
+    "pubMedIdentifier": 14973552,
+    "volume": 23,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/14973552",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9612796,
+    "displayName": "Erbb4 deletion from fast-spiking interneurons causes schizophrenia-like phenotypes",
+    "title": "Erbb4 deletion from fast-spiking interneurons causes schizophrenia-like phenotypes",
+    "journal": "Neuron",
+    "pages": "1152-68",
+    "pubMedIdentifier": 24050403,
+    "volume": 79,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24050403",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9612797,
+    "displayName": "Neuregulin 1-ErbB4 signaling in the bed nucleus of the stria terminalis regulates anxiety-like behavior",
+    "title": "Neuregulin 1-ErbB4 signaling in the bed nucleus of the stria terminalis regulates anxiety-like behavior",
+    "journal": "Neuroscience",
+    "pages": "182-92",
+    "pubMedIdentifier": 27189883,
+    "volume": 329,
+    "year": 2016,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27189883",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9612798,
+    "displayName": "Neuregulin 1 protects against ischemic brain injury via ErbB4 receptors by increasing GABAergic transmission",
+    "title": "Neuregulin 1 protects against ischemic brain injury via ErbB4 receptors by increasing GABAergic transmission",
+    "journal": "Neuroscience",
+    "pages": "151-9",
+    "pubMedIdentifier": 26318331,
+    "volume": 307,
+    "year": 2015,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26318331",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9612815,
+    "displayName": "Neuregulin-activated ERBB4 induces the SREBP-2 cholesterol biosynthetic pathway and increases low-density lipoprotein uptake",
+    "title": "Neuregulin-activated ERBB4 induces the SREBP-2 cholesterol biosynthetic pathway and increases low-density lipoprotein uptake",
+    "journal": "Sci Signal",
+    "pages": "ra111",
+    "pubMedIdentifier": 26535009,
+    "volume": 8,
+    "year": 2015,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26535009",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9612835,
+    "displayName": "Neuregulin 1/ErbB4 enhances synchronized oscillations of prefrontal cortex neurons via inhibitory synapses",
+    "title": "Neuregulin 1/ErbB4 enhances synchronized oscillations of prefrontal cortex neurons via inhibitory synapses",
+    "journal": "Neuroscience",
+    "pages": "107-17",
+    "pubMedIdentifier": 24374327,
+    "volume": 261,
+    "year": 2014,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24374327",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9612834,
+    "displayName": "Maintenance of GABAergic activity by neuregulin 1-ErbB4 in amygdala for fear memory",
+    "title": "Maintenance of GABAergic activity by neuregulin 1-ErbB4 in amygdala for fear memory",
+    "journal": "Neuron",
+    "pages": "835-46",
+    "pubMedIdentifier": 25451196,
+    "volume": 84,
+    "year": 2014,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25451196",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9612570,
+    "displayName": "ErbB4 reduces synaptic GABAA currents independent of its receptor tyrosine kinase activity",
+    "title": "ErbB4 reduces synaptic GABAA currents independent of its receptor tyrosine kinase activity",
+    "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+    "pages": "19603-8",
+    "pubMedIdentifier": 24218551,
+    "volume": 110,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24218551",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9612826,
+    "displayName": "Neuregulin-1/ErbB4 Signaling Regulates Visual Cortical Plasticity",
+    "title": "Neuregulin-1/ErbB4 Signaling Regulates Visual Cortical Plasticity",
+    "journal": "Neuron",
+    "pages": "160-173",
+    "pubMedIdentifier": 27641496,
+    "volume": 92,
+    "year": 2016,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27641496",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9612831,
+    "displayName": "Neuregulin-1 protects against neurotoxicities induced by Swedish amyloid precursor protein via the ErbB4 receptor",
+    "title": "Neuregulin-1 protects against neurotoxicities induced by Swedish amyloid precursor protein via the ErbB4 receptor",
+    "journal": "Neuroscience",
+    "pages": "413-23",
+    "pubMedIdentifier": 22186019,
+    "volume": 202,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22186019",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9638212,
+    "displayName": "Secretase-dependent tyrosine phosphorylation of Mdm2 by the ErbB-4 intracellular domain fragment",
+    "title": "Secretase-dependent tyrosine phosphorylation of Mdm2 by the ErbB-4 intracellular domain fragment",
+    "journal": "J. Biol. Chem.",
+    "pages": "30783-7",
+    "pubMedIdentifier": 15985438,
+    "volume": 280,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15985438",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9638209,
+    "displayName": "Interactions of ErbB4 and Kap1 connect the growth factor and DNA damage response pathways",
+    "title": "Interactions of ErbB4 and Kap1 connect the growth factor and DNA damage response pathways",
+    "journal": "Mol. Cancer Res.",
+    "pages": "1388-98",
+    "pubMedIdentifier": 20858735,
+    "volume": 8,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20858735",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9638198,
+    "displayName": "ErbB4 signaling in the mammary gland is required for lobuloalveolar development and Stat5 activation during lactation",
+    "title": "ErbB4 signaling in the mammary gland is required for lobuloalveolar development and Stat5 activation during lactation",
+    "journal": "J. Cell Biol.",
+    "pages": "77-88",
+    "pubMedIdentifier": 10508857,
+    "volume": 147,
+    "year": 1999,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10508857",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9638195,
+    "displayName": "Interaction with ErbB4 promotes hypoxia-inducible factor-1α signaling",
+    "title": "Interaction with ErbB4 promotes hypoxia-inducible factor-1α signaling",
+    "journal": "J. Biol. Chem.",
+    "pages": "9659-71",
+    "pubMedIdentifier": 22308027,
+    "volume": 287,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22308027",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9638207,
+    "displayName": "Constitutively active ErbB4 and ErbB2 mutants exhibit distinct biological activities",
+    "title": "Constitutively active ErbB4 and ErbB2 mutants exhibit distinct biological activities",
+    "journal": "Cell Growth Differ.",
+    "pages": "247-56",
+    "pubMedIdentifier": 12114214,
+    "volume": 13,
+    "year": 2002,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12114214",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9638213,
+    "displayName": "Phosphotyrosine interactome of the ErbB-receptor kinase family",
+    "title": "Phosphotyrosine interactome of the ErbB-receptor kinase family",
+    "journal": "Mol. Syst. Biol.",
+    "pages": "2005.0008",
+    "pubMedIdentifier": 16729043,
+    "volume": 1,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16729043",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9612239,
+    "displayName": "Convergent and divergent cellular responses by ErbB4 isoforms in mammary epithelial cells",
+    "title": "Convergent and divergent cellular responses by ErbB4 isoforms in mammary epithelial cells",
+    "journal": "Mol. Cancer Res.",
+    "pages": "1140-55",
+    "pubMedIdentifier": 24829397,
+    "volume": 12,
+    "year": 2014,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24829397",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10106584,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-MMU-1236394",
+    "stIdVersion": "R-MMU-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10920087,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-DME-1236394",
+    "stIdVersion": "R-DME-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11002929,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-CEL-1236394",
+    "stIdVersion": "R-CEL-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10834814,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-GGA-1236394",
+    "stIdVersion": "R-GGA-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10737620,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-XTR-1236394",
+    "stIdVersion": "R-XTR-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10656550,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-DRE-1236394",
+    "stIdVersion": "R-DRE-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10564579,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-SSC-1236394",
+    "stIdVersion": "R-SSC-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10451637,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-BTA-1236394",
+    "stIdVersion": "R-BTA-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10337103,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-CFA-1236394",
+    "stIdVersion": "R-CFA-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10230354,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-RNO-1236394",
+    "stIdVersion": "R-RNO-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 1257607,
+    "displayName": "ERBB4, also known as HER4, belongs to the ERBB family of rec...",
+    "text": "ERBB4, also known as HER4, belongs to the ERBB family of receptors, which also includes ERBB1 (EGFR/HER1), ERBB2 (HER2/NEU) and ERBB3 (HER3). Similar to EGFR, ERBB4 has an extracellular ligand binding domain, a single transmembrane domain and a cytoplasmic domain which contains an active tyrosine kinase and a C-tail with multiple phosphorylation sites. At least three and possibly four splicing isoforms of ERBB4 exist that differ in their C-tail and/or the extracellular juxtamembrane regions: ERBB4 JM-A CYT1, ERBB4 JM-A CYT2 and ERBB4 JM-B CYT1 (the existence of ERBB4 JM-B CYT2 has not been confirmed). <br><br>ERBB4 becomes activated by binding one of its seven ligands, three of which, HB-EGF, epiregulin EPR and betacellulin BTC, are EGF-like (Elenius et al. 1997, Riese et al. 1998), while four, NRG1, NRG2, NRG3 and NRG4, belong to the related neuregulin family (Tzahar et al. 1994, Carraway et al. 1997, Zhang et al. 1997, Hayes et al. 2007). Upon ligand binding, ERBB4 forms homodimers (Sweeney et al. 2000) or it heterodimerizes with ERBB2 (Li et al. 2007). Dimers of ERBB4 undergo trans-autophosphorylation on tyrosine residues in the C-tail (Cohen et al. 1996, Kaushansky et al. 2008, Hazan et al. 1990, Li et al. 2007), triggering downstream signaling cascades. The pathway Signaling by ERBB4 only shows signaling by ERBB4 homodimers. Signaling by heterodimers of ERBB4 and ERBB2 is shown in the pathway Signaling by ERBB2. Ligand-stimulated ERBB4 is also able to form heterodimers with ligand-stimulated EGFR (Cohen et al. 1996) and ligand-stimulated ERBB3 (Riese et al. 1995). Dimers of ERBB4 with EGFR and dimers of ERBB4 with ERBB3 were demonstrated in mouse cell lines in which human ERBB4 and EGFR or ERBB3 were exogenously expressed. These heterodimers undergo trans-autophosphorylation. The promiscuous heteromerization of ERBBs adds combinatorial diversity to ERBB signaling processes. As ERBB4 binds more ligands than other ERBBs, but has restricted expression, ERBB4 expression channels responses to ERBB ligands. The signaling capabilities of the four receptors have been compared (Schulze et al. 2005).<br><br>As for other receptor tyrosine kinases, ERBB4 signaling effectors are largely dictated through binding of effector proteins to ERBB4 peptides that are phosphorylated upon ligand binding. All splicing isoforms of ERBB4 possess two tyrosine residues in the C-tail that serve as docking sites for SHC1 (Kaushansky et al. 2008, Pinkas-Kramarski et al. 1996, Cohen et al. 1996). Once bound to ERBB4, SHC1 becomes phosphorylated on tyrosine residues by the tyrosine kinase activity of ERBB4, which enables it to recruit the complex of GRB2 and SOS1, resulting in the guanyl-nucleotide exchange on RAS and activation of RAF and MAP kinase cascade (Kainulainen et al. 2000). <br><br>The CYT1 isoforms of ERBB4 also possess a C-tail tyrosine residue that, upon trans-autophosphorylation, serves as a docking site for the p85 alpha subunit of PI3K (Kaushansky et al. 2008, Cohen et al. 1996), leading to assembly of an active PI3K complex that converts PIP2 to PIP3 and activates AKT signaling (Kainulainen et al. 2000). <br><br>Besides signaling as a conventional transmembrane receptor kinase, ERBB4 differs from other ERBBs in that JM-A isoforms signal through efficient release of a soluble intracellular domain. Ligand activated homodimers of ERBB4 JM-A isoforms (ERBB4 JM-A CYT1 and ERBB4 JM-A CYT2) undergo proteolytic cleavage by ADAM17 (TACE) in the juxtamembrane region, resulting in shedding of the extracellular domain and formation of an 80 kDa membrane bound ERBB4 fragment known as ERBB4 m80 (Rio et al. 2000, Cheng et al. 2003). ERBB4 m80 undergoes further proteolytic cleavage, mediated by the gamma-secretase complex, which releases the soluble 80 kDa ERBB4 intracellular domain, known as ERBB4 s80 or E4ICD, into the cytosol (Ni et al. 2001). ERBB4 s80 is able to translocate to the nucleus, promote nuclear translocation of various transcription factors, and act as a transcription co-factor. For example, in mammary cells, ERBB4 binds SH2 transcription factor STAT5A. ERBB4 s80 shuttles STAT5A to the nucleus, and actsa as a STAT5A co-factor in binding to and promoting transcription from the beta-casein (CSN2) promoter, and may be involved in the regulation of other lactation-related genes (Jones et al. 1999, Williams et al. 2004, Muraoka-Cook et al. 2008). ERBB4 s80 binds activated estrogen receptor in the nucleus and acts as a transcriptional co-factor in promoting transcription of some estrogen-regulated genes, including progesterone receptor gene NR3C3 and CXCL12 (SDF1) (Zhu et al. 2006). In neuronal precursors, ERBB4 s80 binds the complex of TAB and NCOR1, helps to move the complex into the nucleus, and is a co-factor of TAB:NCOR1-mediated inhibition of expression of astrocyte differentiation genes GFAP and S100B (Sardi et al. 2006).<br><br>The C-tail of ERBB4 possesses several WW-domain binding motifs (three in CYT1 isoform and two in CYT2 isoform), which enable interaction of ERBB4 with WW-domain containing proteins. ERBB4 s80, through WW-domain binding motifs, interacts with YAP1 transcription factor, a known proto-oncogene, and is a co-regulator of YAP1-mediated transcription in association with TEAD transcription factors (Komuro et al. 2003, Omerovic et al. 2004). Hence, the WW binding motif couples ERBB4 to the major effector arm of the HIPPO signaling pathway. The tumor suppressor WWOX, another WW-domain containing protein, competes with YAP1 in binding to ERBB4 s80 and prevents translocation of ERBB4 s80 to the nucleus (Aqeilan et al. 2005).<br><br>WW-domain binding motifs in the C-tail of ERBB4 play an important role in the downregulation of ERBB4 receptor signaling, enabling the interaction of intact ERBB4, ERBB4 m80 and ERBB4 s80 with NEDD4 family of E3 ubiquitin ligases WWP1 and ITCH. The interaction of WWP1 and ITCH with intact ERBB4 is independent of receptor activation and autophosphorylation. Binding of WWP1 and ITCH ubiquitin ligases leads to ubiquitination of ERBB4 and its cleavage products, and subsequent degradation through both proteasomal and lysosomal routes (Omerovic et al. 2007, Feng et al. 2009). In addition, the s80 cleavage product of ERBB4 JM-A CYT-1 isoform is the target of NEDD4 ubiquitin ligase. NEDD4 binds ERBB4 JM-A CYT-1 s80 (ERBB4jmAcyt1s80) through its PIK3R1 interaction site and mediates ERBB4jmAcyt1s80 ubiquitination, thereby decreasing the amount of ERBB4jmAcyt1s80 that reaches the nucleus (Zeng et al. 2009).<br><br>ERBB4 also binds the E3 ubiquitin ligase MDM2, and inhibitor of p53 (Arasada et al. 2005). Other proteins that bind to ERBB4 intracellular domain have been identified by co-immunoprecipitation and mass spectrometry (Gilmore-Hebert et al., 2010), and include transcriptional co-repressor TRIM28/KAP1, which promotes chromatin compaction. DNA damage signaling through ATM releases TRIM28-associated heterochromatinization. Interactions of ERBB4 with TRIM28 and MDM2 may be important for integration of growth factor responses and DNA damage responses.<br><br>In human breast cancer cell lines, ERBB4 activation enhances anchorage-independent colony formation in soft agar but inhibits cell growth in a monolayer culture. Different ERBB4 ligands induce different gene expression changes in breast cancer cell lines. Some of the genes induced in response to ERBB4 signaling in breast cancer cell lines are RAB2, EPS15R and GATA4. It is not known if these gene are direct transcriptional targets of ERBB4 (Amin et al. 2004).<br><br>Transcriptome and ChIP-seq comparisons of full-length and intracellular domain isoforms in isogenic MCF10A mammary cell background have revealed the diversification of ERBB4 signaling engendered by alternative splicing and cleavage (Wali et al., 2014). ERBB4 broadly affected protease expression, cholesterol biosynthesis, HIF1-alpha signaling, and HIPPO signaling pathways, and other pathways were differentially activated by CYT1 and CYT2 isoforms. For example, CYT1 promoted expression of transcription factors TWIST1 and SNAIL1 that promote epithelial-mesenchymal transition. HIF1-alpha and HIPPO signaling are mediated, respectively, by binding of ERBB4 to HIF1-alpha and to YAP (Paatero et al., 2012, Komuro et al., 2003). ERBB4 increases activity of the transcription factor SREBF2, resulting in increased expression of SREBF2-target genes involved in cholesterol biosynthesis. The mechanism is not known and may involve facilitation of SREBF2 cleavage through ERBB4-mediated PI3K signaling (Haskins et al. 2016).<br><br>In some contexts, ERBB4 promotes growth suppression or apoptosis (Penington et al., 2002). Activation of ERBB4 in breast cancer cell lines leads to JNK dependent increase in BRCA1 mRNA level and mitotic cell cycle delay, but the exact mechanism has not been elucidated (Muraoka Cook et al. 2006). The nature of growth responses may be connected with the spliced isoforms expressed. In comparisons of CYT1 vs CYT2 (full-length and ICD) expression in mammary cells, CYT1 was a weaker growth inducer, associated with attenuated MAPK signaling relative to CYT2 (Wali et al., 2014). ERBB4 s80 is also able to translocate to the mitochondrial matrix, presumably when its nuclear translocation is inhibited. Once in the mitochondrion, the BH3 domain of ERBB4, characteristic of BCL2 family members, may enable it to act as a pro apoptotic factor (Naresh et al. 2006).<br><br>ERBB4 plays important roles in the developing and adult nervous system. Erbb4 deficiency in somatostatin-expressing neurons of the thalamic reticular nucleus alters behaviors dependent on sensory selection (Ahrens et al. 2015). NRG1-activated ERBB4 signaling enhances AMPA receptor responses through PKC-dependent AMPA receptor exocytosis. This results in an increased excitatory input to parvalbumin-expressing inhibitory neurons in the visual cortex and regulates visual cortical plasticity (Sun et al. 2016). NRG1-activated ERBB4 signaling is involved in GABAergic activity in amygdala which mediates fear conditioning (fear memory) (Lu et al. 2014). Conditional Erbb4 deletion from fast-spiking interneurons, chandelier and basket cells of the cerebral cortex leads to synaptic defects associated with increased locomotor activity and abnormal emotional, social and cognitive function that can be linked to some of the schizophrenia features. The level of GAD1 (GAD67) protein is reduced in the cortex of conditional Erbb4 mutants. GAD1 is a GABA synthesizing enzyme. Cortical mRNA levels of GAD67 are consistently decreased in schizophrenia (Del Pino et al. 2014). Erbb4 is expressed in the GABAergic neurons of the bed nucleus stria terminalis, a part of the extended amygdala. Inhibition of NRG1-triggered ERBB4 signaling induces anxiety-like behavior, which depends on GABAergic neurotransmission. NRG1-ERBB4 signaling stimulates presynaptic GABA release, but the exact mechanism is not known (Geng et al. 2016). NRG1 protects cortical interneurons against ischemic brain injury through ERBB4-mediated increase in GABAergic transmission (Guan et al. 2015). NRG2-activated ERBB4 can reduce the duration of GABAergic transmission by binding to GABA receptors at the postsynaptic membrane via their GABRA1 subunit and promoting endocytosis of GABA receptors (Mitchell et al. 2013). NRG1 promotes synchronization of prefrontal cortex interneurons in an ERBB4 dependent manner (Hou et al. 2014). NRG1-ERBB4 signaling protects neurons from the cell death induced by a mutant form of the amyloid precursor protein (APP) (Woo et al. 2012).<br><br>Clinical relevance of ERBB4 has been identified in several contexts. In cancer, putative and validated gain-of-function mutations or gene amplification that may be drivers have been identified at modest frequencies, and may also contribute to resistance to EGFR and ERBB2-targeted therapies. This is noteworthy as ERBB4 kinase activity is inhibited by pan-ERBB tyrosine kinase inhibitors, including lapatinib, which is approved by the US FDA. The reduced prevalence relative to EGFR and ERBB2 in cancer may reflect more restricted expression of ERBB4, or differential signaling, as specific ERBB4 isoforms have been linked to growth inhibition or apoptosis in experimental systems. ERBB2/ERBB4 heterodimers protect cardiomyocytes, so reduced activity of ERBB4 in patients treated with the ERBB2-targeted therapeutic antibody trastuzumab may contribute to the cardiotoxicity of this agent when used in combination with (cardiotoxic) anthracyclines.<br><br>With the importance of ERBB4 in developing and adult nervous system, NRG1 and/or ERBB4 polymorphisms, splicing aberrations and mutations have been linked to nervous system disorders including schizophrenia and amyotrophic lateral sclerosis, although these findings are not yet definitive.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-1236394.3",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2019-06-12",
+  "hasEvent": [
+   {
+    "dbId": 1236398,
+    "displayName": "ERBB4 binds NRGs or EGF-like ligands",
+    "stId": "R-HSA-1236398",
+    "stIdVersion": "R-HSA-1236398.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ERBB4 binds NRGs or EGF-like ligands",
+     "ERBB4 binds neuregulins or EGF-like ligands",
+     "NRGs/EGF-like ligands + ERBB4 => NRGs/EGF-like ligands:ERBB4"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1236394
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1250220,
+    "displayName": "Homodimerization of ERBB4",
+    "stId": "R-HSA-1250220",
+    "stIdVersion": "R-HSA-1250220.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Homodimerization of ERBB4"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1236394
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1250315,
+    "displayName": "Trans-autophosphorylation of ERBB4 homodimers",
+    "stId": "R-HSA-1250315",
+    "stIdVersion": "R-HSA-1250315.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Trans-autophosphorylation of ERBB4 homodimers"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1236394
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1977959,
+    "displayName": "ERBB4 forms heterodimers with EGFR",
+    "stId": "R-HSA-1977959",
+    "stIdVersion": "R-HSA-1977959.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ERBB4 forms heterodimers with EGFR"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1236394
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1977958,
+    "displayName": "ERBB4 forms heterodimers with ERBB3",
+    "stId": "R-HSA-1977958",
+    "stIdVersion": "R-HSA-1977958.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ERBB4 forms heterodimers with ERBB3"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1236394
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9612593,
+    "displayName": "ERBB4 binds DLG4",
+    "stId": "R-HSA-9612593",
+    "stIdVersion": "R-HSA-9612593.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "ERBB4 binds DLG4",
+     "ERBB4 binds PSD-95"
+    ],
+    "releaseDate": "2019-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1236394
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9612639,
+    "displayName": "NRG2-activated ERBB4 binds GABA receptors through GABRA1",
+    "stId": "R-HSA-9612639",
+    "stIdVersion": "R-HSA-9612639.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "NRG2-activated ERBB4 binds GABA receptors through GABRA1"
+    ],
+    "releaseDate": "2019-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1236394
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1250347,
+    "displayName": "SHC1 events in ERBB4 signaling",
+    "stId": "R-HSA-1250347",
+    "stIdVersion": "R-HSA-1250347.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "SHC1 events in ERBB4 signaling"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1236394
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2018-06-13",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 1250342,
+    "displayName": "PI3K events in ERBB4 signaling",
+    "stId": "R-HSA-1250342",
+    "stIdVersion": "R-HSA-1250342.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "PI3K events in ERBB4 signaling"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1236394
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2018-06-13",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 1251985,
+    "displayName": "Nuclear signaling by ERBB4",
+    "stId": "R-HSA-1251985",
+    "stIdVersion": "R-HSA-1251985.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Nuclear signaling by ERBB4"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1236394
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2019-06-12",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 1253288,
+    "displayName": "Downregulation of ERBB4 signaling",
+    "stId": "R-HSA-1253288",
+    "stIdVersion": "R-HSA-1253288.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Downregulation of ERBB4 signaling"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1236394
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2019-06-12",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

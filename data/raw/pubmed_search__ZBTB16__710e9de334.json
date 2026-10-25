@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "ZBTB16",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "ZBTB16 AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:38:55+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "10",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "30566500",
+    "32773339",
+    "39687684"
+   ],
+   "translationset": [
+    {
+     "from": "ZBTB16",
+     "to": "\"zbtb16 protein, human\"[Supplementary Concept] OR \"zbtb16 protein, human\"[All Fields] OR \"zbtb16\"[All Fields]"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"zbtb16 protein human\"[Supplementary Concept] OR \"zbtb16 protein human\"[All Fields] OR \"zbtb16\"[All Fields]) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

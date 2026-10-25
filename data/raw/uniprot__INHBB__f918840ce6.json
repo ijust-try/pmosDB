@@ -1,0 +1,117 @@
+{
+ "source": "uniprot",
+ "query": "INHBB",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:INHBB) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:43:25+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P09529",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Inhibin beta B chain"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Activin beta-B chain"
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "INHBB"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Inhibins and activins inhibit and activate, respectively, the secretion of follitropin by the pituitary gland. Inhibins/activins are involved in regulating a number of diverse functions such as hypothalamic and pituitary hormone secretion, gonadal hormone secretion, germ cell development and maturation, erythroid differentiation, insulin secretion, nerve cell survival, embryonic axial development or bone growth, depending on their subunit composition. Inhibins appear to oppose the functions of activins"
+       }
+      ],
+      "commentType": "FUNCTION"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q04999"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15196700"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22611157"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "35643319"
+         }
+        ],
+        "value": "Activin B is a dimer of alpha and beta-B that plays a role in several essential biological processes including embryonic development, stem cell maintenance and differentiation, haematopoiesis, cell proliferation and wound healing (PubMed:22611157, PubMed:15196700). Signals through type I receptor ACVR1C, abundantly expressed in pancreatic beta cells, and type II receptors like ACVR2A or BMPR2 (PubMed:35643319). Upon ligand binding, these receptors phosphorylate intracellular signaling mediators SMAD2 and SMAD3, which form a complex with SMAD4, translocate to the nucleus, and regulate gene expression (PubMed:15196700). Plays a crucial role in the induction of hepcidin by inflammation through activation of ACVR1C and subsequent phosphorylation of SMAD1/5/8 (PubMed:22611157). Regulates adipocyte lipid metabolism by decreasing non-esterified fatty acids and glycerol release and increases intracellular triglyceride content (By similarity). Stimulates wound healing by promoting cell migration and hair follicle regeneration through the JNK and ERK signaling pathways downstream of RHOA (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P05111"
+         },
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P17490"
+         }
+        ],
+        "value": "Inhibin B is a dimer of alpha and beta-B that plays a crucial role in the regulation of the reproductive system by inhibiting the secretion of follicle-stimulating hormone (FSH) from the anterior pituitary gland. Thereby, maintains reproductive homeostasis in both males and females. Acts as a more potent suppressor of FSH release than inhibin A (By similarity). Functions as competitive receptor antagonist binding activin type II receptors with high affinity in the presence of the TGF-beta type III coreceptor/TGFBR3L (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "3625",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000012D427"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,668 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-8939236",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-8939236",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:40:24+00:00",
+ "response": {
+  "dbId": 8939236,
+  "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+  "stId": "R-HSA-8939236",
+  "stIdVersion": "R-HSA-8939236.2",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+  ],
+  "releaseDate": "2017-06-12",
+  "speciesName": "Homo sapiens",
+  "goBiologicalProcess": {
+   "dbId": 3446160,
+   "displayName": "regulation of hematopoietic stem cell differentiation",
+   "accession": "1902036",
+   "databaseName": "GO",
+   "definition": "Any process that modulates the frequency, rate or extent of hematopoietic stem cell differentiation.",
+   "name": "regulation of hematopoietic stem cell differentiation",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:1902036",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 8865478,
+    "displayName": "The ability of MLL to bind RUNX1 and methylate H3K4 at PU.1 regulatory regions is impaired by MDS/AML-associated RUNX1/AML1 mutations",
+    "title": "The ability of MLL to bind RUNX1 and methylate H3K4 at PU.1 regulatory regions is impaired by MDS/AML-associated RUNX1/AML1 mutations",
+    "journal": "Blood",
+    "pages": "6544-52",
+    "pubMedIdentifier": 22012064,
+    "volume": 118,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22012064",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 8939465,
+    "displayName": "The RUNX1-PU.1 axis in the control of hematopoiesis",
+    "title": "The RUNX1-PU.1 axis in the control of hematopoiesis",
+    "journal": "Int. J. Hematol.",
+    "pages": "319-29",
+    "pubMedIdentifier": 25749719,
+    "volume": 101,
+    "year": 2015,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25749719",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 8939464,
+    "displayName": "Activation of CCAAT/enhancer-binding protein alpha or PU.1 in hematopoietic stem cells leads to their reduced self-renewal and proliferation",
+    "title": "Activation of CCAAT/enhancer-binding protein alpha or PU.1 in hematopoietic stem cells leads to their reduced self-renewal and proliferation",
+    "journal": "Stem Cells",
+    "pages": "3172-81",
+    "pubMedIdentifier": 18787208,
+    "volume": 26,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18787208",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 8956554,
+    "displayName": "Core transcriptional regulatory circuit controlled by the TAL1 complex in human T cell acute lymphoblastic leukemia",
+    "title": "Core transcriptional regulatory circuit controlled by the TAL1 complex in human T cell acute lymphoblastic leukemia",
+    "journal": "Cancer Cell",
+    "pages": "209-21",
+    "pubMedIdentifier": 22897851,
+    "volume": 22,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22897851",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 8956580,
+    "displayName": "Oncogene regulation. An oncogenic super-enhancer formed through somatic mutation of a noncoding intergenic element",
+    "title": "Oncogene regulation. An oncogenic super-enhancer formed through somatic mutation of a noncoding intergenic element",
+    "journal": "Science",
+    "pages": "1373-7",
+    "pubMedIdentifier": 25394790,
+    "volume": 346,
+    "year": 2014,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25394790",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10231270,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-RNO-8939236",
+    "stIdVersion": "R-RNO-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11003761,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-CEL-8939236",
+    "stIdVersion": "R-CEL-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10920883,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-DME-8939236",
+    "stIdVersion": "R-DME-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10835734,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-GGA-8939236",
+    "stIdVersion": "R-GGA-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10738484,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-XTR-8939236",
+    "stIdVersion": "R-XTR-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10657472,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-DRE-8939236",
+    "stIdVersion": "R-DRE-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10565503,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-SSC-8939236",
+    "stIdVersion": "R-SSC-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10452557,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-BTA-8939236",
+    "stIdVersion": "R-BTA-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10337979,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-CFA-8939236",
+    "stIdVersion": "R-CFA-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10107500,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-MMU-8939236",
+    "stIdVersion": "R-MMU-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 8939467,
+    "displayName": "The RUNX1:CBFB complex regulates transcription of the SPI1 (...",
+    "text": "The RUNX1:CBFB complex regulates transcription of the SPI1 (PU.1) gene, involved in differentiation of hematopoietic stem cells (HSCs). RUNX1 recruits histone methyltransferase KMT2A (MLL) to the SPI1 gene locus, leading to generation of the activating H3K4Me3 mark on nucleosomes associated with the SPI1 promoter and the upstream regulatory element (Huang et al. 2011). SPI1 transactivation represses self-renewal and proliferation of HSCs (Fukuchi et al. 2008) and is needed for commitment of HSCs to specific hematopoietic lineages (Imperato et al. 2015).<br>As a component of the TAL1 transcription factor complex, involved in acute T cell lymphoblastic leukemia (T-ALL), RUNX1 can promote growth and inhibit apoptosis of hematopoietic stem cells by stimulating transcription of the MYB gene and possibly the TRIB2 gene (Sanda et al. 2012, Mansour et al. 2014).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 8865482,
+    "displayName": "KMT2A (MLL) binds RUNX1",
+    "stId": "R-HSA-8865482",
+    "stIdVersion": "R-HSA-8865482.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "KMT2A (MLL) binds RUNX1"
+    ],
+    "releaseDate": "2017-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     8939236
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8865491,
+    "displayName": "RUNX1:CBFB:KMT2A binds SPI1 (PU.1) gene",
+    "stId": "R-HSA-8865491",
+    "stIdVersion": "R-HSA-8865491.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "RUNX1:CBFB:KMT2A binds SPI1 (PU.1) gene"
+    ],
+    "releaseDate": "2017-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     8939236
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8865498,
+    "displayName": "KMT2A trimethylates nucleosomes at the SPI1 gene locus producing H3K4Me3 mark",
+    "stId": "R-HSA-8865498",
+    "stIdVersion": "R-HSA-8865498.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "KMT2A trimethylates nucleosomes at the SPI1 gene locus producing H3K4Me3 mark"
+    ],
+    "releaseDate": "2017-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     8939236
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8865505,
+    "displayName": "SPI1 (PU.1) gene transcription is stimulated by RUNX1:CBFB:KMT2A",
+    "stId": "R-HSA-8865505",
+    "stIdVersion": "R-HSA-8865505.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "SPI1 (PU.1) gene transcription is stimulated by RUNX1:CBFB:KMT2A"
+    ],
+    "releaseDate": "2017-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     8939236
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 8956568,
+    "displayName": "RUNX1 binds the core TAL1 complex",
+    "stId": "R-HSA-8956568",
+    "stIdVersion": "R-HSA-8956568.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RUNX1 binds the core TAL1 complex"
+    ],
+    "releaseDate": "2017-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     8939236
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8956586,
+    "displayName": "RUNX1-containing TAL1 complex binds the MYB gene enhancer",
+    "stId": "R-HSA-8956586",
+    "stIdVersion": "R-HSA-8956586.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RUNX1-containing TAL1 complex binds the MYB gene enhancer"
+    ],
+    "releaseDate": "2017-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     8939236
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8956608,
+    "displayName": "MYB gene transcription is stimulated by the RUNX1-containing TAL1 complex",
+    "stId": "R-HSA-8956608",
+    "stIdVersion": "R-HSA-8956608.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "MYB gene transcription is stimulated by the RUNX1-containing TAL1 complex"
+    ],
+    "releaseDate": "2017-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     8939236
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 8956639,
+    "displayName": "RUNX1 binds YAP1",
+    "stId": "R-HSA-8956639",
+    "stIdVersion": "R-HSA-8956639.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RUNX1 binds YAP1"
+    ],
+    "releaseDate": "2017-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     8939236
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8956649,
+    "displayName": "The complex of RUNX1 and YAP1 binds the ITCH gene promoter",
+    "stId": "R-HSA-8956649",
+    "stIdVersion": "R-HSA-8956649.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "The complex of RUNX1 and YAP1 binds the ITCH gene promoter"
+    ],
+    "releaseDate": "2017-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     8939236
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8956652,
+    "displayName": "ITCH gene expression is stimulated by RUNX1 and YAP1",
+    "stId": "R-HSA-8956652",
+    "stIdVersion": "R-HSA-8956652.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ITCH gene expression is stimulated by RUNX1 and YAP1"
+    ],
+    "releaseDate": "2017-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     8939236
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 8956659,
+    "displayName": "ABL1 phosphorylates YAP1",
+    "stId": "R-HSA-8956659",
+    "stIdVersion": "R-HSA-8956659.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ABL1 phosphorylates YAP1"
+    ],
+    "releaseDate": "2017-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     8939236
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8957241,
+    "displayName": "TP73 tetramer translocates to the nucleus",
+    "stId": "R-HSA-8957241",
+    "stIdVersion": "R-HSA-8957241.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP73 tetramer translocates to the nucleus"
+    ],
+    "releaseDate": "2017-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     8939236
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 8956676,
+    "displayName": "YAP1 binds TP73",
+    "stId": "R-HSA-8956676",
+    "stIdVersion": "R-HSA-8956676.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "YAP1 binds TP73"
+    ],
+    "releaseDate": "2017-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     8939236
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8956684,
+    "displayName": "ITCH polyubiquitinates TP73",
+    "stId": "R-HSA-8956684",
+    "stIdVersion": "R-HSA-8956684.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ITCH polyubiquitinates TP73"
+    ],
+    "releaseDate": "2017-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     8939236
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8957265,
+    "displayName": "26S proteasome degrades TP73 polyubiquitinated by ITCH",
+    "stId": "R-HSA-8957265",
+    "stIdVersion": "R-HSA-8957265.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "26S proteasome degrades TP73 polyubiquitinated by ITCH"
+    ],
+    "releaseDate": "2017-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     8939236
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

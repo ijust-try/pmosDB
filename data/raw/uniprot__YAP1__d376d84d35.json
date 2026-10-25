@@ -1,0 +1,189 @@
+{
+ "source": "uniprot",
+ "query": "YAP1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:YAP1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:40:20+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P46937",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Transcriptional coactivator YAP1"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "7782338"
+         }
+        ],
+        "value": "Yes-associated protein 1"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Protein yorkie homolog"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Yes-associated protein YAP65 homolog"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:16262"
+        }
+       ],
+       "value": "YAP1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P46938"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16772533"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17974916"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18158288"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18280240"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18579750"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21364637"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25778702"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25849865"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "26598551"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "30447097"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "32369015"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "34404733"
+         }
+        ],
+        "value": "Transcriptional regulator with dual roles as a coactivator and corepressor. Critical downstream regulatory target in the Hippo signaling pathway, crucial for organ size control and tumor suppression by restricting proliferation and promoting apoptosis (PubMed:17974916, PubMed:18280240, PubMed:18579750, PubMed:21364637, PubMed:30447097). The Hippo signaling pathway core involves a kinase cascade featuring STK3/MST2 and STK4/MST1, along with its regulatory partner SAV1, which phosphorylates and activates LATS1/2 in complex with their regulatory protein, MOB1. This activation leads to the phosphorylation and inactivation of the YAP1 oncoprotein and WWTR1/TAZ (PubMed:18158288). Phosphorylation of YAP1 by LATS1/2 prevents its nuclear translocation, thereby regulating the expression of its target genes (PubMed:18158288, PubMed:26598551, PubMed:34404733). The transcriptional regulation of gene expression requires TEAD transcription factors and modulates cell growth, anchorage-independent growth, and induction of epithelial-mesenchymal transition (EMT) (PubMed:18579750). Plays a key role in tissue tension and 3D tissue shape by regulating the cortical actomyosin network, acting via ARHGAP18, a Rho GTPase activating protein that suppresses F-actin polymerization (PubMed:25778702). It also suppresses ciliogenesis by acting as a transcriptional corepressor of TEAD4 target genes AURKA and PLK1 (PubMed:25849865). In conjunction with WWTR1, regulates TGFB1-dependent SMAD2 and SMAD3 nuclear accumulation (By similarity). Synergizes with WBP2 to enhance PGR activity (PubMed:16772533). Promotes keratinocyte proliferation (PubMed:32369015)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12807903"
+         }
+        ],
+        "value": "Activates the C-terminal fragment (CTF) of ERBB4 (isoform 3)"
+       }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "Isoform 2"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12807903"
+         }
+        ],
+        "value": "Activates the C-terminal fragment (CTF) of ERBB4 (isoform 3)"
+       }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "Isoform 3"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "10413",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00000746D8"
+    }
+   }
+  ]
+ }
+}

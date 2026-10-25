@@ -1,0 +1,637 @@
+{
+ "source": "quickgo_terms",
+ "query": "Q92786_50",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0050692,GO:0050693,GO:0055005,GO:0055009,GO:0055010,GO:0060042,GO:0060059,GO:0060214,GO:0060298,GO:0060412,GO:0060414,GO:0060421,GO:0060836,GO:0060838,GO:0070309,GO:0070365,GO:0070858,GO:0097150,GO:1900748,GO:1990837,GO:2000179,GO:2000979",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:38:42+00:00",
+ "response": {
+  "numberOfHits": 22,
+  "results": [
+   {
+    "id": "GO:2000979",
+    "isObsolete": false,
+    "name": "positive regulation of forebrain neuron differentiation",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of forebrain neuron differentiation."
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0070858",
+    "isObsolete": false,
+    "name": "negative regulation of bile acid biosynthetic process",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of bile acids."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of bile acid biosynthetic process",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of bile acid biosynthetic process",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of bile acid biosynthetic process",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of bile acid biosynthetic process",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of bile acid anabolism",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of bile acid biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of bile acid formation",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of bile acid synthesis",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0055005",
+    "isObsolete": false,
+    "name": "ventricular cardiac myofibril assembly",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the ventricular cardiac myofibril over time, from its formation to the mature structure. A cardiac myofibril is a myofibril specific to cardiac muscle cells."
+    },
+    "synonyms": [
+     {
+      "name": "ventricular cardiac myofibril development",
+      "type": "related"
+     },
+     {
+      "name": "ventricular heart myofibril development",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0055009",
+    "isObsolete": false,
+    "name": "atrial cardiac muscle tissue morphogenesis",
+    "definition": {
+     "text": "The process in which the anatomical structure of cardiac atrium muscle is generated and organized."
+    },
+    "synonyms": [
+     {
+      "name": "atrial heart muscle morphogenesis",
+      "type": "exact"
+     },
+     {
+      "name": "atrial myocardium morphogenesis",
+      "type": "exact"
+     },
+     {
+      "name": "cardiac atrium muscle morphogenesis",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:2000179",
+    "isObsolete": false,
+    "name": "positive regulation of neural precursor cell proliferation",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of neural precursor cell proliferation."
+    },
+    "children": [
+     {
+      "id": "GO:0002052",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904935",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070447",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021940",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902833",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060421",
+    "isObsolete": false,
+    "name": "positive regulation of heart growth",
+    "definition": {
+     "text": "Any process that increases the rate or extent of heart growth. Heart growth is the increase in size or mass of the heart."
+    },
+    "children": [
+     {
+      "id": "GO:0055023",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060412",
+    "isObsolete": false,
+    "name": "ventricular septum morphogenesis",
+    "definition": {
+     "text": "The developmental process in which a ventricular septum is generated and organized. A ventricular septum is an anatomical structure that separates the lower chambers (ventricles) of the heart from one another."
+    },
+    "synonyms": [
+     {
+      "name": "interventricular septum morphogenesis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0003288",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003149",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0003150",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060414",
+    "isObsolete": false,
+    "name": "aorta smooth muscle tissue morphogenesis",
+    "definition": {
+     "text": "The process in which the structure of the smooth muscle tissue surrounding the aorta is generated and organized. An aorta is an artery that carries blood from the heart to other parts of the body.",
+     "xrefs": [
+      {
+       "dbCode": "Wikipedia",
+       "dbId": "Aorta"
+      }
+     ]
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0070365",
+    "isObsolete": false,
+    "name": "hepatocyte differentiation",
+    "definition": {
+     "text": "The process in which a relatively unspecialized cell acquires the specialized features of a hepatocyte. A hepatocyte is specialized epithelial cell that is organized into interconnected plates called lobules, and is the main structural component of the liver.",
+     "xrefs": [
+      {
+       "dbCode": "CL",
+       "dbId": "0000182"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "7588884"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "liver cell differentiation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070368",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0070367",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0070366",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0070309",
+    "isObsolete": false,
+    "name": "lens fiber cell morphogenesis",
+    "definition": {
+     "text": "The process in which the structures of a lens fiber cell are generated and organized. This process occurs while the initially relatively unspecialized cell is acquiring the specialized features of a lens fiber cell. A lens fiber cell is any of the elongated, tightly packed cells that make up the bulk of the mature lens in a camera-type eye.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "7693735"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "elongation of lens fiber cell",
+      "type": "narrow"
+     },
+     {
+      "name": "lens fiber cell morphogenesis during differentiation",
+      "type": "exact"
+     },
+     {
+      "name": "lens fibre cell morphogenesis",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060836",
+    "isObsolete": false,
+    "name": "lymphatic endothelial cell differentiation",
+    "definition": {
+     "text": "The process in which a venous blood vessel endothelial cell acquires specialized features of a lymphatic vessel endothelial cell, a thin flattened cell that lines the inside surfaces of lymph vessels."
+    },
+    "children": [
+     {
+      "id": "GO:0060838",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060838",
+    "isObsolete": false,
+    "name": "lymphatic endothelial cell fate commitment",
+    "definition": {
+     "text": "The commitment of a venous blood vessel endothelial cell to a lymphatic endothelial cell fate and its capacity to differentiate into a lymphatic endothelial cell."
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060042",
+    "isObsolete": false,
+    "name": "retina morphogenesis in camera-type eye",
+    "definition": {
+     "text": "The process in which the anatomical structure of the retina is generated and organized."
+    },
+    "synonyms": [
+     {
+      "name": "retina morphogenesis in camera-style eye",
+      "type": "exact"
+     },
+     {
+      "name": "retinogenesis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060060",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060040",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0010842",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060059",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060219",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060059",
+    "isObsolete": false,
+    "name": "embryonic retina morphogenesis in camera-type eye",
+    "definition": {
+     "text": "The process in which the anatomical structure of the retina is generated and organized in a camera-type eye during the embryonic life stage."
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0050692",
+    "isObsolete": false,
+    "name": "DNA binding domain binding",
+    "definition": {
+     "text": "Binding to a protein's DNA binding domain (DBD).",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "9682036"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "DBD binding",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0050693",
+    "isObsolete": false,
+    "name": "LBD domain binding",
+    "definition": {
+     "text": "Binding to a protein's ligand binding domain (LBD) domain, found in nuclear receptors. In general, the LBDs consist of three layers comprised of twelve alpha-helices and several beta-strands that are organized around a lipophilic ligand-binding pocket.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "9682036"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "ligand binding domain binding",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060214",
+    "isObsolete": false,
+    "name": "endocardium formation",
+    "definition": {
+     "text": "Formation of the endocardium of the heart. The endocardium is an anatomical structure comprised of an endothelium and an extracellular matrix that forms the innermost layer of tissue of the heart, and lines the heart chambers.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "17722983"
+      }
+     ]
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060298",
+    "isObsolete": false,
+    "name": "positive regulation of sarcomere organization",
+    "definition": {
+     "text": "Any process that increases the rate, frequency or extent of myofibril assembly by organization of muscle actomyosin into sarcomeres. The sarcomere is the repeating unit of a myofibril in a muscle cell, composed of an array of overlapping thick and thin filaments between two adjacent Z discs."
+    },
+    "synonyms": [
+     {
+      "name": "positive regulation of sarcomere organisation",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0055010",
+    "isObsolete": false,
+    "name": "ventricular cardiac muscle tissue morphogenesis",
+    "definition": {
+     "text": "The process in which the anatomical structures of cardiac ventricle muscle is generated and organized."
+    },
+    "synonyms": [
+     {
+      "name": "cardiac ventricle muscle morphogenesis",
+      "type": "exact"
+     },
+     {
+      "name": "ventricular heart muscle morphogenesis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0003223",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003222",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003220",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0097150",
+    "isObsolete": false,
+    "name": "neuronal stem cell population maintenance",
+    "definition": {
+     "text": "Any process in by an organism or tissue maintains a population of neuronal stem cells.",
+     "xrefs": [
+      {
+       "dbCode": "CL",
+       "dbId": "0000047"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "11399758"
+      }
+     ]
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1990837",
+    "isObsolete": false,
+    "name": "sequence-specific double-stranded DNA binding",
+    "definition": {
+     "text": "Binding to double-stranded DNA of a specific nucleotide composition, e.g. GC-rich DNA binding, or with a specific sequence motif or type of DNA, e.g. promotor binding or rDNA binding."
+    },
+    "synonyms": [
+     {
+      "name": "sequence-specific dsDNA binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0071443",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003688",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990470",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003696",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031634",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000976",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003693",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044374",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0141180",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019237",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1900748",
+    "isObsolete": false,
+    "name": "positive regulation of vascular endothelial growth factor signaling pathway",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of vascular endothelial growth factor signaling pathway."
+    },
+    "synonyms": [
+     {
+      "name": "activation of vascular endothelial growth factor signaling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "activation of vascular endothelial growth factor signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "activation of VEGF-activated signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "activation of VEGF signaling",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of vascular endothelial growth factor signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of VEGF-activated signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of VEGF signaling",
+      "type": "exact"
+     },
+     {
+      "name": "up regulation of vascular endothelial growth factor signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of vascular endothelial growth factor signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of vascular endothelial growth factor signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "up regulation of vascular endothelial growth factor signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of vascular endothelial growth factor signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of vascular endothelial growth factor signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "up regulation of VEGF-activated signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of VEGF-activated signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of VEGF-activated signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "up regulation of VEGF signaling",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of VEGF signaling",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of VEGF signaling",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

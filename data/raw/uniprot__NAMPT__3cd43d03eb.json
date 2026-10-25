@@ -1,0 +1,108 @@
+{
+ "source": "uniprot",
+ "query": "NAMPT",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:NAMPT) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:43:37+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P43490",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Nicotinamide phosphoribosyltransferase"
+      },
+      "shortNames": [
+       {
+        "value": "NAmPRTase"
+       },
+       {
+        "value": "Nampt"
+       }
+      ],
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q99KQ4"
+         }
+        ],
+        "value": "2.4.2.12"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Pre-B-cell colony-enhancing factor 1"
+       },
+       "shortNames": [
+        {
+         "value": "Pre-B cell-enhancing factor"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Visfatin"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "NAMPT"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q99KQ4"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "24130902"
+         }
+        ],
+        "value": "Catalyzes the condensation of nicotinamide with 5-phosphoribosyl-1-pyrophosphate to yield nicotinamide mononucleotide, an intermediate in the biosynthesis of NAD. It is the rate limiting component in the mammalian NAD biosynthesis pathway. The secreted form behaves both as a cytokine with immunomodulating properties and an adipokine with anti-diabetic properties, it has no enzymatic activity, partly because of lack of activation by ATP, which has a low level in extracellular space and plasma. Plays a role in the modulation of circadian clock function. NAMPT-dependent oscillatory production of NAD regulates oscillation of clock target gene expression by releasing the core clock component: CLOCK-BMAL1 heterodimer from NAD-dependent SIRT1-mediated suppression (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "10135",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000131383"
+    }
+   }
+  ]
+ }
+}

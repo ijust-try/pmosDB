@@ -1,0 +1,103 @@
+@import '@fontsource-variable/manrope';
+@import '@fontsource/ibm-plex-mono/400.css';
+@import '@fontsource/ibm-plex-mono/500.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-paper font-sans text-ink;
+    font-feature-settings: 'ss01', 'cv11';
+  }
+  :focus-visible {
+    outline: 2px solid #6c5ce7;
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  ::selection {
+    background: #dcefec;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono text-[11px] uppercase tracking-[0.14em] text-ink-mute;
+  }
+  .hairline {
+    @apply border-line;
+  }
+  .panel {
+    @apply rounded-xl border border-line bg-white shadow-card;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border px-3 py-1.5 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn border-midnight bg-midnight text-white hover:bg-midnight-3;
+  }
+  .btn-ghost {
+    @apply btn border-line bg-white text-ink-soft hover:border-line-strong hover:bg-sand;
+  }
+  .btn-dark {
+    @apply btn border-midnight-line bg-midnight-2 text-slate-200 hover:bg-midnight-3;
+  }
+  .grid-bg {
+    background-image:
+      linear-gradient(to right, rgba(16, 26, 51, 0.045) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(16, 26, 51, 0.045) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+  .grid-bg-dark {
+    background-image:
+      linear-gradient(to right, rgba(120, 140, 220, 0.07) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(120, 140, 220, 0.07) 1px, transparent 1px);
+    background-size: 36px 36px;
+  }
+}
+
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: #eee9de;
+  border-radius: 6px;
+}
+.skeleton::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.7), transparent);
+  animation: shimmer 1.4s infinite;
+}
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .skeleton::after {
+    animation: none;
+  }
+  * {
+    scroll-behavior: auto !important;
+  }
+}
+
+.scroll-thin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: #cfc7b6;
+  border-radius: 8px;
+}
+.scroll-thin-dark::-webkit-scrollbar-thumb {
+  background: #26356a;
+  border-radius: 8px;
+}

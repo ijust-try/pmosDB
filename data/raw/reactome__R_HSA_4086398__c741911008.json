@@ -1,0 +1,977 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-4086398",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-4086398",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:42:31+00:00",
+ "response": {
+  "dbId": 4086398,
+  "displayName": "Ca2+ pathway",
+  "stId": "R-HSA-4086398",
+  "stIdVersion": "R-HSA-4086398.5",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Ca2+ pathway"
+  ],
+  "releaseDate": "2013-12-04",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 20146,
+   "displayName": "Wnt signaling pathway, calcium modulating pathway",
+   "accession": "0007223",
+   "databaseName": "GO",
+   "definition": "A type of non-canonical Wnt signaling in which Wnt binding to its receptor on the surface of a target cell leads to an increase in intracellular calcium and activation of protein kinase C (PKC).",
+   "name": "Wnt signaling pathway, calcium modulating pathway",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0007223",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 3965329,
+    "displayName": "Wnt/Ca2+ signaling pathway: a brief overview",
+    "title": "Wnt/Ca2+ signaling pathway: a brief overview",
+    "journal": "Acta Biochim. Biophys. Sin. (Shanghai)",
+    "pages": "745-56",
+    "pubMedIdentifier": 21903638,
+    "volume": 43,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21903638",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3247719,
+    "displayName": "Wnt and calcium signaling: beta-catenin-independent pathways",
+    "title": "Wnt and calcium signaling: beta-catenin-independent pathways",
+    "journal": "Cell Calcium",
+    "pages": "439-46",
+    "pubMedIdentifier": 16099039,
+    "volume": 38,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16099039",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 4546337,
+    "displayName": "Noncanonical Wnt signaling in vertebrate development, stem cells, and diseases",
+    "title": "Noncanonical Wnt signaling in vertebrate development, stem cells, and diseases",
+    "journal": "Birth Defects Res. C Embryo Today",
+    "pages": "243-56",
+    "pubMedIdentifier": 21181886,
+    "volume": 90,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21181886",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10106142,
+    "displayName": "Ca2+ pathway",
+    "stId": "R-MMU-4086398",
+    "stIdVersion": "R-MMU-4086398.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Ca2+ pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     4086398
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10230706,
+    "displayName": "Ca2+ pathway",
+    "stId": "R-RNO-4086398",
+    "stIdVersion": "R-RNO-4086398.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Ca2+ pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     4086398
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10336665,
+    "displayName": "Ca2+ pathway",
+    "stId": "R-CFA-4086398",
+    "stIdVersion": "R-CFA-4086398.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Ca2+ pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     4086398
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10451193,
+    "displayName": "Ca2+ pathway",
+    "stId": "R-BTA-4086398",
+    "stIdVersion": "R-BTA-4086398.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Ca2+ pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     4086398
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10565045,
+    "displayName": "Ca2+ pathway",
+    "stId": "R-SSC-4086398",
+    "stIdVersion": "R-SSC-4086398.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Ca2+ pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     4086398
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10657008,
+    "displayName": "Ca2+ pathway",
+    "stId": "R-DRE-4086398",
+    "stIdVersion": "R-DRE-4086398.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Ca2+ pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     4086398
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10738036,
+    "displayName": "Ca2+ pathway",
+    "stId": "R-XTR-4086398",
+    "stIdVersion": "R-XTR-4086398.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Ca2+ pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     4086398
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10834398,
+    "displayName": "Ca2+ pathway",
+    "stId": "R-GGA-4086398",
+    "stIdVersion": "R-GGA-4086398.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Ca2+ pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     4086398
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10920393,
+    "displayName": "Ca2+ pathway",
+    "stId": "R-DME-4086398",
+    "stIdVersion": "R-DME-4086398.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Ca2+ pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     4086398
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11003177,
+    "displayName": "Ca2+ pathway",
+    "stId": "R-CEL-4086398",
+    "stIdVersion": "R-CEL-4086398.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Ca2+ pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     4086398
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11058450,
+    "displayName": "Ca2+ pathway",
+    "stId": "R-DDI-4086398",
+    "stIdVersion": "R-DDI-4086398.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Ca2+ pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     4086398
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11087574,
+    "displayName": "Ca2+ pathway",
+    "stId": "R-SPO-4086398",
+    "stIdVersion": "R-SPO-4086398.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Ca2+ pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     4086398
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11115996,
+    "displayName": "Ca2+ pathway",
+    "stId": "R-SCE-4086398",
+    "stIdVersion": "R-SCE-4086398.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Ca2+ pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     4086398
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 4551457,
+    "displayName": "A number of so called non-canonical WNT ligands have been sh...",
+    "text": "A number of so called non-canonical WNT ligands have been shown to promote intracellular calcium release upon FZD binding.  This beta-catenin-independent WNT pathway acts through heterotrimeric G proteins and promotes calcium release through phophoinositol signaling and activation of phosphodiesterase (PDE).  Downstream effectors include the calcium/calmodulin-dependent kinase II (CaMK2) and PKC (reviewed in De, 2011).  The WNT Ca2+ pathway is important in dorsoventral polarity, convergent extension and organ formation in vertebrates and also has roles in negatively regulating 'canonical' beta-catenin-dependent transcription.  Non-canonical WNT Ca2+ signaling is also implicated in inflammatory response and cancer (reviewed in Kohn and Moon, 2005; Sugimura and Li, 2010).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2019-09-09",
+  "hasEvent": [
+   {
+    "dbId": 3965446,
+    "displayName": "WNT5A and WNT11 bind FZD receptors to initiate Ca2+ signaling",
+    "stId": "R-HSA-3965446",
+    "stIdVersion": "R-HSA-3965446.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "WNT5A and WNT11 bind FZD receptors to initiate Ca2+ signaling"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3965441,
+    "displayName": "FZD recruits trimeric G-proteins",
+    "stId": "R-HSA-3965441",
+    "stIdVersion": "R-HSA-3965441.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "FZD recruits trimeric G-proteins"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3965444,
+    "displayName": "WNT:FZD complex promotes G-protein nucleotide exchange",
+    "stId": "R-HSA-3965444",
+    "stIdVersion": "R-HSA-3965444.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "WNT:FZD complex promotes G-protein nucleotide exchange"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3965447,
+    "displayName": "G-protein subunits dissociate from WNT:FZD complex",
+    "stId": "R-HSA-3965447",
+    "stIdVersion": "R-HSA-3965447.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "G-protein subunits dissociate from WNT:FZD complex"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 398040,
+    "displayName": "Gbeta:gamma activation of PLC beta",
+    "stId": "R-HSA-398040",
+    "stIdVersion": "R-HSA-398040.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Gbeta:gamma activation of PLC beta"
+    ],
+    "releaseDate": "2009-09-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 398193,
+    "displayName": "PLC beta-mediated PIP2 hydrolysis",
+    "stId": "R-HSA-398193",
+    "stIdVersion": "R-HSA-398193.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PLC beta-mediated PIP2 hydrolysis"
+    ],
+    "releaseDate": "2009-09-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4332390,
+    "displayName": "Translocation and activation of PKC alpha in response to WNT signaling",
+    "stId": "R-HSA-4332390",
+    "stIdVersion": "R-HSA-4332390.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Translocation and activation of PKC alpha in response to WNT signaling"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 169680,
+    "displayName": "IP3 binds to the IP3 receptor, opening the endoplasmic reticulum Ca2+ channel",
+    "stId": "R-HSA-169680",
+    "stIdVersion": "R-HSA-169680.5",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "IP3 binds to the IP3 receptor, opening the endoplasmic reticulum Ca2+ channel"
+    ],
+    "releaseDate": "2008-12-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2730872,
+    "displayName": "Activation of Calcineurin",
+    "stId": "R-HSA-2730872",
+    "stIdVersion": "R-HSA-2730872.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Activation of Calcineurin"
+    ],
+    "releaseDate": "2013-06-11",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4551451,
+    "displayName": "Calcineurin binds and dephosphorylates NFAT1 in response to WNT/Ca2+ signaling",
+    "stId": "R-HSA-4551451",
+    "stIdVersion": "R-HSA-4551451.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Calcineurin binds and dephosphorylates NFAT1 in response to WNT/Ca2+ signaling"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4551465,
+    "displayName": "Translocation of NFATC1:CaN:CaM to nucleus",
+    "stId": "R-HSA-4551465",
+    "stIdVersion": "R-HSA-4551465.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Translocation of NFATC1:CaN:CaM to nucleus"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 4420052,
+    "displayName": "Decreasing cGMP concentration promotes intracellular Ca2+ release in response to WNT",
+    "stId": "R-HSA-4420052",
+    "stIdVersion": "R-HSA-4420052.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Decreasing cGMP concentration promotes intracellular Ca2+ release in response to WNT"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4086393,
+    "displayName": "G alpha t2 binds and activates PDE6",
+    "stId": "R-HSA-4086393",
+    "stIdVersion": "R-HSA-4086393.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "G alpha t2 binds and activates PDE6"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4086392,
+    "displayName": "PDE6 hydrolyses cGMP to GMP",
+    "stId": "R-HSA-4086392",
+    "stIdVersion": "R-HSA-4086392.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PDE6 hydrolyses cGMP to GMP"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4332359,
+    "displayName": "Active calmodulin binds CAMK2",
+    "stId": "R-HSA-4332359",
+    "stIdVersion": "R-HSA-4332359.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Active calmodulin binds CAMK2"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4551453,
+    "displayName": "PRKG is activated by binding to high levels of cGMP in the absence of WNT signaling",
+    "stId": "R-HSA-4551453",
+    "stIdVersion": "R-HSA-4551453.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "PRKG is activated by binding to high levels of cGMP in the absence of WNT signaling"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4332363,
+    "displayName": "Autophosphorylation and activation of CAMK2",
+    "stId": "R-HSA-4332363",
+    "stIdVersion": "R-HSA-4332363.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Autophosphorylation and activation of CAMK2"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4332358,
+    "displayName": "Dissociation of CaM and CAMK2 autophosphorylation",
+    "stId": "R-HSA-4332358",
+    "stIdVersion": "R-HSA-4332358.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Dissociation of CaM and CAMK2 autophosphorylation"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4332356,
+    "displayName": "CAMK2 binds MAP3K7",
+    "stId": "R-HSA-4332356",
+    "stIdVersion": "R-HSA-4332356.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CAMK2 binds MAP3K7"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4332388,
+    "displayName": "Activation of MAP3K7 in response to WNT",
+    "stId": "R-HSA-4332388",
+    "stIdVersion": "R-HSA-4332388.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Activation of MAP3K7 in response to WNT"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 4411402,
+    "displayName": "Activation of NLK",
+    "stId": "R-HSA-4411402",
+    "stIdVersion": "R-HSA-4411402.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Activation of NLK"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4411373,
+    "displayName": "NLK translocates to nucleus",
+    "stId": "R-HSA-4411373",
+    "stIdVersion": "R-HSA-4411373.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NLK translocates to nucleus"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 4411383,
+    "displayName": "NLK phosphorylates TCF/LEF",
+    "stId": "R-HSA-4411383",
+    "stIdVersion": "R-HSA-4411383.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NLK phosphorylates TCF/LEF"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4518575,
+    "displayName": "miR-92b binds 3'UTR of NLK mRNA",
+    "stId": "R-HSA-4518575",
+    "stIdVersion": "R-HSA-4518575.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "miR-92b binds 3'UTR of NLK mRNA"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 4518585,
+    "displayName": "NLK mRNA translation controlled by miR-92b",
+    "stId": "R-HSA-4518585",
+    "stIdVersion": "R-HSA-4518585.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NLK mRNA translation controlled by miR-92b"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 8944362,
+    "displayName": "TCF/LEF:CTNNB1 bind canonical WNT target promoters",
+    "stId": "R-HSA-8944362",
+    "stIdVersion": "R-HSA-8944362.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TCF/LEF:CTNNB1 bind canonical WNT target promoters"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4411365,
+    "displayName": "Transcription of canonical WNT targets is negatively regulated by NLK-dependent phosphorylation of TCF/LEF",
+    "stId": "R-HSA-4411365",
+    "stIdVersion": "R-HSA-4411365.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Transcription of canonical WNT targets is negatively regulated by NLK-dependent phosphorylation of TCF/LEF"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4086398
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

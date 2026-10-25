@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "C-reactive protein",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "C-reactive protein AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:43:30+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "668",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "31519403",
+    "38375912",
+    "33917519"
+   ],
+   "translationset": [
+    {
+     "from": "C-reactive protein",
+     "to": "\"c-reactive protein\"[Supplementary Concept] OR \"c-reactive protein\"[All Fields] OR \"c reactive protein\"[All Fields] OR \"c-reactive protein\"[MeSH Terms] OR (\"c-reactive\"[All Fields] AND \"protein\"[All Fields])"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"c reactive protein\"[Supplementary Concept] OR \"c reactive protein\"[All Fields] OR \"c reactive protein\"[All Fields] OR \"c reactive protein\"[MeSH Terms] OR (\"c reactive\"[All Fields] AND \"protein\"[All Fields])) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

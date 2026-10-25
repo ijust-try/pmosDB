@@ -1,0 +1,113 @@
+{
+ "source": "uniprot",
+ "query": "GLP1R",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:GLP1R) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:39:27+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P43220",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Glucagon-like peptide 1 receptor"
+      },
+      "shortNames": [
+       {
+        "value": "GLP-1 receptor"
+       },
+       {
+        "value": "GLP-1-R"
+       },
+       {
+        "value": "GLP-1R"
+       }
+      ]
+     },
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "GLP1R"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "O35659"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19861722"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "26308095"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27196125"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28514449"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7517895"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8216285"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8405712"
+         }
+        ],
+        "value": "G protein-coupled receptor for glucagon-like peptide 1 (GLP-1) (PubMed:19861722, PubMed:26308095, PubMed:27196125, PubMed:28514449, PubMed:7517895, PubMed:8216285, PubMed:8405712). Ligand binding triggers activation of a signaling cascade that leads to the activation of adenylyl cyclase and increased intracellular cAMP levels (PubMed:19861722, PubMed:26308095, PubMed:27196125, PubMed:28514449, PubMed:7517895, PubMed:8216285, PubMed:8405712). Plays a role in regulating insulin secretion in response to GLP-1 (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "2740",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000061F20"
+    }
+   }
+  ]
+ }
+}

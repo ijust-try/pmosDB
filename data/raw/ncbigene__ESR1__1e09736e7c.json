@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "ESR1",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "2099",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:36:05+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "2099"
+   ],
+   "2099": {
+    "uid": "2099",
+    "name": "ESR1",
+    "description": "estrogen receptor 1",
+    "status": "",
+    "currentid": "",
+    "chromosome": "6",
+    "geneticsource": "genomic",
+    "maplocation": "6q25.1-q25.2",
+    "otheraliases": "ER, ESR, ESRA, ESTRR, Era, NR3A1",
+    "otherdesignations": "estrogen receptor|E2 receptor alpha|ER-alpha|estradiol receptor|estrogen nuclear receptor alpha|estrogen receptor alpha E1-E2-1-2|estrogen receptor alpha E1-N2-E2-1-2|nuclear receptor subfamily 3 group A member 1|oestrogen receptor alpha",
+    "nomenclaturesymbol": "ESR1",
+    "nomenclaturename": "estrogen receptor 1",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "133430"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "6",
+      "chraccver": "NC_000006.12",
+      "chrstart": 151656671,
+      "chrstop": 152129618,
+      "exoncount": 22
+     }
+    ],
+    "geneweight": 255337,
+    "summary": "This gene encodes an estrogen receptor and ligand-activated transcription factor. The canonical protein contains an N-terminal ligand-independent transactivation domain, a central DNA binding domain, a hinge domain, and a C-terminal ligand-dependent transactivation domain. The protein localizes to the nucleus where it may form either a homodimer or a heterodimer with estrogen receptor 2. The protein encoded by this gene regulates the transcription of many estrogen-inducible genes that play a role in growth, metabolism, sexual development, gestation, and other reproductive functions and is expressed in many non-reproductive tissues. The receptor encoded by this gene plays a key role in breast cancer, endometrial cancer, and osteoporosis. This gene is reported to have dozens of transcript variants due to the use of alternate promoters and alternative splicing, however, the full-length nature of many of these variants remain uncertain. [provided by RefSeq, Jul 2020]",
+    "chrsort": "06",
+    "chrstart": 151656671,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000006.12",
+      "chrstart": 151656671,
+      "chrstop": 152129618
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060930.1",
+      "chrstart": 152857870,
+      "chrstop": 153330910
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000006.12",
+      "chrstart": 151656671,
+      "chrstop": 152129618
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060930.1",
+      "chrstart": 152857870,
+      "chrstop": 153330910
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000006.12",
+      "chrstart": 151656671,
+      "chrstop": 152129618
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060930.1",
+      "chrstart": 152857870,
+      "chrstop": 153330910
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000006.12",
+      "chrstart": 151656671,
+      "chrstop": 152129618
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060930.1",
+      "chrstart": 152857870,
+      "chrstop": 153330910
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000006.12",
+      "chrstart": 151656671,
+      "chrstop": 152129618
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060930.1",
+      "chrstart": 152857870,
+      "chrstop": 153330910
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000006.12",
+      "chrstart": 151654147,
+      "chrstop": 152129618
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000006.11",
+      "chrstart": 151977806,
+      "chrstop": 152450753
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000006.11",
+      "chrstart": 151977806,
+      "chrstop": 152450753
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000006.11",
+      "chrstart": 152011630,
+      "chrstop": 152424408
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000138.1",
+      "chrstart": 149573850,
+      "chrstop": 149986187
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018917.2",
+      "chrstart": 152275697,
+      "chrstop": 152688510
+     }
+    ]
+   }
+  }
+ }
+}

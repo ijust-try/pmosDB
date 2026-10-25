@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "letrozole",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "letrozole AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:22:20+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "929",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "35181044",
+    "36735392",
+    "25006718"
+   ],
+   "translationset": [
+    {
+     "from": "letrozole",
+     "to": "\"letrozole\"[Supplementary Concept] OR \"letrozole\"[All Fields] OR \"letrozol\"[All Fields] OR \"letrozole\"[MeSH Terms] OR \"letrozole's\"[All Fields]"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"letrozole\"[Supplementary Concept] OR \"letrozole\"[All Fields] OR \"letrozol\"[All Fields] OR \"letrozole\"[MeSH Terms]) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

@@ -1,0 +1,200 @@
+{
+ "source": "uniprot",
+ "query": "CYP17A1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:CYP17A1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:18:55+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P05093",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "3025870"
+        }
+       ],
+       "value": "Steroid 17-alpha-hydroxylase/17,20 lyase"
+      },
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22266943"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25301938"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27339894"
+         }
+        ],
+        "value": "1.14.14.19"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "17-alpha-hydroxyprogesterone aldolase"
+       },
+       "ecNumbers": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000269",
+           "source": "PubMed",
+           "id": "22266943"
+          },
+          {
+           "evidenceCode": "ECO:0000269",
+           "source": "PubMed",
+           "id": "25301938"
+          },
+          {
+           "evidenceCode": "ECO:0000269",
+           "source": "PubMed",
+           "id": "27339894"
+          }
+         ],
+         "value": "1.14.14.32"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "CYPXVII"
+       }
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "27339894"
+         }
+        ],
+        "value": "Cytochrome P450 17A1"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Cytochrome P450-C17"
+       },
+       "shortNames": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000303",
+           "source": "PubMed",
+           "id": "8396144"
+          }
+         ],
+         "value": "Cytochrome P450c17"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Steroid 17-alpha-monooxygenase"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "19793597"
+        },
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:2593"
+        }
+       ],
+       "value": "CYP17A1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22266943"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25301938"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27339894"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "36640554"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9452426"
+         },
+         {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "8027220"
+         }
+        ],
+        "value": "A cytochrome P450 monooxygenase involved in corticoid and androgen biosynthesis (PubMed:22266943, PubMed:25301938, PubMed:27339894, PubMed:9452426). Catalyzes 17-alpha hydroxylation of C21 steroids, which is common for both pathways. A second oxidative step, required only for androgen synthesis, involves an acyl-carbon cleavage. The 17-alpha hydroxy intermediates, as part of adrenal glucocorticoids biosynthesis pathway, are precursors of cortisol (Probable) (PubMed:25301938, PubMed:9452426). Hydroxylates steroid hormones, pregnenolone and progesterone to form 17-alpha hydroxy metabolites, followed by the cleavage of the C17-C20 bond to form C19 steroids, dehydroepiandrosterone (DHEA) and androstenedione (PubMed:22266943, PubMed:25301938, PubMed:27339894, PubMed:36640554, PubMed:9452426). Has 16-alpha hydroxylase activity. Catalyzes 16-alpha hydroxylation of 17-alpha hydroxy pregnenolone, followed by the cleavage of the C17-C20 bond to form 16-alpha-hydroxy DHEA (PubMed:36640554). Also 16-alpha hydroxylates androgens, relevant for estriol synthesis (PubMed:25301938, PubMed:27339894). Mechanistically, uses molecular oxygen inserting one oxygen atom into a substrate, and reducing the second into a water molecule, with two electrons provided by NADPH via cytochrome P450 reductase (CPR; NADPH-ferrihemoprotein reductase) (PubMed:22266943, PubMed:25301938, PubMed:27339894, PubMed:9452426)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "1586",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000128309"
+    }
+   }
+  ]
+ }
+}

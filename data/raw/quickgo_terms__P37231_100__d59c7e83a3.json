@@ -1,0 +1,77 @@
+{
+ "source": "quickgo_terms",
+ "query": "P37231_100",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:1905563,GO:2001235",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:42:11+00:00",
+ "response": {
+  "numberOfHits": 2,
+  "results": [
+   {
+    "id": "GO:1905563",
+    "isObsolete": false,
+    "name": "negative regulation of vascular endothelial cell proliferation",
+    "definition": {
+     "text": "Any process that stops, prevents or reduces the frequency, rate or extent of vascular endothelial cell proliferation.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000058"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "23201774"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of vascular endothelial cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of vascular endothelial cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of vascular endothelial cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of vascular endothelial cell proliferation",
+      "type": "narrow"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:2001235",
+    "isObsolete": false,
+    "name": "positive regulation of apoptotic signaling pathway",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of apoptotic signaling pathway."
+    },
+    "synonyms": [
+     {
+      "name": "positive regulation of apoptotic signalling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2001238",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001244",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

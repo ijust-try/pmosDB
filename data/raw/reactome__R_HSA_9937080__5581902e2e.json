@@ -1,0 +1,196 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9937080",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9937080",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:39:54+00:00",
+ "response": {
+  "dbId": 9937080,
+  "displayName": "Developmental Lineage of Multipotent Pancreatic Progenitor Cells",
+  "stId": "R-HSA-9937080",
+  "stIdVersion": "R-HSA-9937080.2",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Developmental Lineage of Multipotent Pancreatic Progenitor Cells"
+  ],
+  "releaseDate": "2025-03-26",
+  "speciesName": "Homo sapiens",
+  "literatureReference": [
+   {
+    "dbId": 9922192,
+    "displayName": "Human pancreas development",
+    "title": "Human pancreas development",
+    "journal": "Development",
+    "pages": "3126-37",
+    "pubMedIdentifier": 26395141,
+    "volume": 142,
+    "year": 2015,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26395141",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9925576,
+    "displayName": "Defining multistep cell fate decision pathways during pancreatic development at single-cell resolution",
+    "title": "Defining multistep cell fate decision pathways during pancreatic development at single-cell resolution",
+    "journal": "EMBO J",
+    "pubMedIdentifier": 30737258,
+    "volume": 38,
+    "year": 2019,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30737258",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9937084,
+    "displayName": "Definitive endoderm forms during gastrulation and then under...",
+    "text": "Definitive endoderm forms during gastrulation and then undergoes patterning along anterior/posterior, dorsal/ventral, and median/lateral axes. Definitive endoderm cells produce, among other embryonal cell types, endoderm cells of dorsal and ventral foregut. The dorsal foregut endoderm cells, which transition through an intermediary duodeno-pancreatic endoderm cell state, and the ventral foregut endoderm cells, which possibly transition through a hepato-pancreatic or pancreato-biliary intermediary state, give rise to primary multipotent pancreatic progenitor cells (MPCs) that form dorsal and ventral pancreatic buds, respectively (Yu et al. 2019, reviewed in Jennings et al. 2015).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-9937080.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 9911210,
+    "displayName": "Definitive endoderm cell produces dorsal foregut endoderm cell",
+    "stId": "R-HSA-9911210",
+    "stIdVersion": "R-HSA-9911210.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Definitive endoderm cell produces dorsal foregut endoderm cell"
+    ],
+    "releaseDate": "2024-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9937080
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "CellDevelopmentStep"
+   },
+   {
+    "dbId": 9911214,
+    "displayName": "Definitive endoderm cell produces ventral foregut endoderm cell",
+    "stId": "R-HSA-9911214",
+    "stIdVersion": "R-HSA-9911214.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Definitive endoderm cell produces ventral foregut endoderm cell"
+    ],
+    "releaseDate": "2024-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9937080
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "CellDevelopmentStep"
+   },
+   {
+    "dbId": 9909325,
+    "displayName": "Dorsal foregut endoderm cell produces duodeno-pancreatic endoderm cell",
+    "stId": "R-HSA-9909325",
+    "stIdVersion": "R-HSA-9909325.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Dorsal foregut endoderm cell produces duodeno-pancreatic endoderm cell"
+    ],
+    "releaseDate": "2024-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9937080
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "CellDevelopmentStep"
+   },
+   {
+    "dbId": 9909305,
+    "displayName": "Duodeno-pancreatic endoderm cell produces primary multipotent pancreatic progenitor cell",
+    "stId": "R-HSA-9909305",
+    "stIdVersion": "R-HSA-9909305.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Duodeno-pancreatic endoderm cell produces primary multipotent pancreatic progenitor cell"
+    ],
+    "releaseDate": "2024-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9937080
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "CellDevelopmentStep"
+   },
+   {
+    "dbId": 9911215,
+    "displayName": "Ventral foregut endoderm cell produces primary multipotent pancreatic progenitor cell",
+    "stId": "R-HSA-9911215",
+    "stIdVersion": "R-HSA-9911215.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Ventral foregut endoderm cell produces primary multipotent pancreatic progenitor cell"
+    ],
+    "releaseDate": "2024-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9937080
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "CellDevelopmentStep"
+   }
+  ],
+  "schemaClass": "CellLineagePath",
+  "className": "CellLineagePath"
+ }
+}

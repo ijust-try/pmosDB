@@ -1,0 +1,271 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9022707",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9022707",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:42:04+00:00",
+ "response": {
+  "dbId": 9022707,
+  "displayName": "MECP2 regulates transcription factors",
+  "stId": "R-HSA-9022707",
+  "stIdVersion": "R-HSA-9022707.2",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "MECP2 regulates transcription factors"
+  ],
+  "releaseDate": "2018-09-12",
+  "speciesName": "Homo sapiens",
+  "literatureReference": [
+   {
+    "dbId": 9021089,
+    "displayName": "MeCP2, a key contributor to neurological disease, activates and represses transcription",
+    "title": "MeCP2, a key contributor to neurological disease, activates and represses transcription",
+    "journal": "Science",
+    "pages": "1224-9",
+    "pubMedIdentifier": 18511691,
+    "volume": 320,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18511691",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9023684,
+    "displayName": "IUGR differentially alters MeCP2 expression and H3K9Me3 of the PPARγ gene in male and female rat lungs during alveolarization",
+    "title": "IUGR differentially alters MeCP2 expression and H3K9Me3 of the PPARγ gene in male and female rat lungs during alveolarization",
+    "journal": "Birth Defects Res. Part A Clin. Mol. Teratol.",
+    "pages": "672-81",
+    "pubMedIdentifier": 21425435,
+    "volume": 91,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21425435",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9017461,
+    "displayName": "MeCP2 controls an epigenetic pathway that promotes myofibroblast transdifferentiation and fibrosis",
+    "title": "MeCP2 controls an epigenetic pathway that promotes myofibroblast transdifferentiation and fibrosis",
+    "journal": "Gastroenterology",
+    "pages": "705-14, 714.e1-4",
+    "pubMedIdentifier": 19843474,
+    "volume": 138,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19843474",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9024134,
+    "displayName": "MECP2 regulates transcription of several transcription facto...",
+    "text": "MECP2 regulates transcription of several transcription factors involved in functioning of the nervous system, such as CREB1, MEF2C, RBFOX1 (Chahrour et al. 2008) and PPARG (Mann et al. 2010, Joss Moore et al. 2011).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 9021851,
+    "displayName": "MECP2 binds CREB1 gene promoter",
+    "stId": "R-HSA-9021851",
+    "stIdVersion": "R-HSA-9021851.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "MECP2 binds CREB1 gene promoter"
+    ],
+    "releaseDate": "2018-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9022707
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9021847,
+    "displayName": "CREB1 gene expression is stimulated by MECP2",
+    "stId": "R-HSA-9021847",
+    "stIdVersion": "R-HSA-9021847.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "CREB1 gene expression is stimulated by MECP2"
+    ],
+    "releaseDate": "2018-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9022707
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9021950,
+    "displayName": "MECP2 binds MEF2C gene promoter",
+    "stId": "R-HSA-9021950",
+    "stIdVersion": "R-HSA-9021950.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "MECP2 binds MEF2C gene promoter"
+    ],
+    "releaseDate": "2018-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9022707
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9021949,
+    "displayName": "MEF2C gene expression is inhibited by MECP2",
+    "stId": "R-HSA-9021949",
+    "stIdVersion": "R-HSA-9021949.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "MEF2C gene expression is inhibited by MECP2"
+    ],
+    "releaseDate": "2018-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9022707
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9021944,
+    "displayName": "MECP2 binds RBFOX1 gene promoter",
+    "stId": "R-HSA-9021944",
+    "stIdVersion": "R-HSA-9021944.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "MECP2 binds RBFOX1 gene promoter"
+    ],
+    "releaseDate": "2018-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9022707
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9021952,
+    "displayName": "RBFOX1 gene expression is inhibited by MECP2",
+    "stId": "R-HSA-9021952",
+    "stIdVersion": "R-HSA-9021952.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "RBFOX1 gene expression is inhibited by MECP2"
+    ],
+    "releaseDate": "2018-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9022707
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9017447,
+    "displayName": "MECP2 binds PPARG gene promoter",
+    "stId": "R-HSA-9017447",
+    "stIdVersion": "R-HSA-9017447.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "MECP2 binds PPARG gene promoter"
+    ],
+    "releaseDate": "2018-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9022707
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9017441,
+    "displayName": "PPARG gene expression is inhibited by MECP2",
+    "stId": "R-HSA-9017441",
+    "stIdVersion": "R-HSA-9017441.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "PPARG gene expression is inhibited by MECP2"
+    ],
+    "releaseDate": "2018-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9022707
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

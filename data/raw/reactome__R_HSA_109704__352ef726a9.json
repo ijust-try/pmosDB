@@ -1,0 +1,483 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-109704",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-109704",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:41:21+00:00",
+ "response": {
+  "dbId": 109704,
+  "displayName": "PI3K Cascade",
+  "stId": "R-HSA-109704",
+  "stIdVersion": "R-HSA-109704.7",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 4,
+  "name": [
+   "PI3K Cascade"
+  ],
+  "releaseDate": "2005-09-26",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12829190,
+    "displayName": "BioModels Database:BIOMD0000000449",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000449",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000449",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828942,
+    "displayName": "BioModels Database:BIOMD0000000883",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000883",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000883",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "precedingEvent": [
+   {
+    "dbId": 9607224,
+    "displayName": "Active FLT3:GRB2:p-Y-GAB2 binds PIK3R1",
+    "stId": "R-HSA-9607224",
+    "stIdVersion": "R-HSA-9607224.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Active FLT3:GRB2:p-Y-GAB2 binds PIK3R1"
+    ],
+    "releaseDate": "2019-06-12",
+    "speciesName": "Homo sapiens",
+    "followingEvent": [
+     109704
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 9024539,
+    "displayName": "PI 3-kinase, Akt and cell survival",
+    "title": "PI 3-kinase, Akt and cell survival",
+    "journal": "Semin. Cell Dev. Biol.",
+    "pages": "177-82",
+    "pubMedIdentifier": 15209377,
+    "volume": 15,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15209377",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10228610,
+    "displayName": "PI3K Cascade",
+    "stId": "R-RNO-109704",
+    "stIdVersion": "R-RNO-109704.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PI3K Cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     109704
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11136458,
+    "displayName": "PI3K Cascade",
+    "stId": "R-PFA-109704",
+    "stIdVersion": "R-PFA-109704.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PI3K Cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     109704
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11115080,
+    "displayName": "PI3K Cascade",
+    "stId": "R-SCE-109704",
+    "stIdVersion": "R-SCE-109704.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PI3K Cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     109704
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11086654,
+    "displayName": "PI3K Cascade",
+    "stId": "R-SPO-109704",
+    "stIdVersion": "R-SPO-109704.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "PI3K Cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     109704
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11057236,
+    "displayName": "PI3K Cascade",
+    "stId": "R-DDI-109704",
+    "stIdVersion": "R-DDI-109704.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PI3K Cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     109704
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11001693,
+    "displayName": "PI3K Cascade",
+    "stId": "R-CEL-109704",
+    "stIdVersion": "R-CEL-109704.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PI3K Cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     109704
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10918737,
+    "displayName": "PI3K Cascade",
+    "stId": "R-DME-109704",
+    "stIdVersion": "R-DME-109704.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "PI3K Cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     109704
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10833182,
+    "displayName": "PI3K Cascade",
+    "stId": "R-GGA-109704",
+    "stIdVersion": "R-GGA-109704.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PI3K Cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     109704
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10736138,
+    "displayName": "PI3K Cascade",
+    "stId": "R-XTR-109704",
+    "stIdVersion": "R-XTR-109704.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PI3K Cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     109704
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10655032,
+    "displayName": "PI3K Cascade",
+    "stId": "R-DRE-109704",
+    "stIdVersion": "R-DRE-109704.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PI3K Cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     109704
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10562919,
+    "displayName": "PI3K Cascade",
+    "stId": "R-SSC-109704",
+    "stIdVersion": "R-SSC-109704.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PI3K Cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     109704
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10449921,
+    "displayName": "PI3K Cascade",
+    "stId": "R-BTA-109704",
+    "stIdVersion": "R-BTA-109704.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PI3K Cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     109704
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10335437,
+    "displayName": "PI3K Cascade",
+    "stId": "R-CFA-109704",
+    "stIdVersion": "R-CFA-109704.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PI3K Cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     109704
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10104834,
+    "displayName": "PI3K Cascade",
+    "stId": "R-MMU-109704",
+    "stIdVersion": "R-MMU-109704.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PI3K Cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     109704
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9024537,
+    "displayName": "The PI3K (Phosphatidlyinositol-3-kinase) - AKT signaling pat...",
+    "text": "The PI3K (Phosphatidlyinositol-3-kinase) - AKT signaling pathway stimulates cell growth and survival.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2018-06-13",
+  "hasEvent": [
+   {
+    "dbId": 109699,
+    "displayName": "PI3K-containing complexes phosphorylate PIP2 to PIP3",
+    "stId": "R-HSA-109699",
+    "stIdVersion": "R-HSA-109699.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PI3K-containing complexes phosphorylate PIP2 to PIP3"
+    ],
+    "releaseDate": "2010-03-16",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     109704
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 165158,
+    "displayName": "Activation of AKT2",
+    "stId": "R-HSA-165158",
+    "stIdVersion": "R-HSA-165158.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Activation of AKT2",
+     "Activation of PKB"
+    ],
+    "releaseDate": "2005-09-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     109704
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2018-03-26",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 109703,
+    "displayName": "PKB-mediated events",
+    "stId": "R-HSA-109703",
+    "stIdVersion": "R-HSA-109703.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 3,
+    "name": [
+     "PKB-mediated events"
+    ],
+    "releaseDate": "2005-09-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     109704
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2018-03-26",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

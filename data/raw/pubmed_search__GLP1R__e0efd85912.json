@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "GLP1R",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "GLP1R AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:39:33+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "16",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "37329216",
+    "35951627",
+    "37510690"
+   ],
+   "translationset": [
+    {
+     "from": "GLP1R",
+     "to": "\"glp1r protein, human\"[Supplementary Concept] OR \"glp1r protein, human\"[All Fields] OR \"glp1r\"[All Fields] OR \"glp1rs\"[All Fields]"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"glp1r protein human\"[Supplementary Concept] OR \"glp1r protein human\"[All Fields] OR \"glp1r\"[All Fields] OR \"glp1rs\"[All Fields]) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

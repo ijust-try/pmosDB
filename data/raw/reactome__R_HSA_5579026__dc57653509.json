@@ -1,0 +1,153 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-5579026",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-5579026",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:19:26+00:00",
+ "response": {
+  "dbId": 5579026,
+  "displayName": "Defective CYP11A1 causes AICSR",
+  "stId": "R-HSA-5579026",
+  "stIdVersion": "R-HSA-5579026.4",
+  "isInDisease": true,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Defective CYP11A1 causes AICSR",
+   "Defective CYP11A1 causes Adrenal insufficiency, congenital, with 46,XY sex reversal (AICSR)"
+  ],
+  "releaseDate": "2014-12-11",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12043971,
+    "displayName": "Mondo:0013400",
+    "databaseName": "Mondo",
+    "identifier": "0013400",
+    "url": "https://monarchinitiative.org/MONDO:0013400",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "disease": [
+   {
+    "dbId": 5580265,
+    "displayName": "congenital adrenal insufficiency",
+    "databaseName": "DOID",
+    "identifier": "0050546",
+    "name": [
+     "congenital adrenal insufficiency"
+    ],
+    "synonym": [
+     "ADRENAL INSUFFICIENCY, CONGENITAL, WITH 46,XY SEX REVERSAL, PARTIAL OR COMPLETE",
+     "P450scc DEFICIENCY"
+    ],
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/doid/terms?obo_id=DOID:0050546",
+    "className": "Disease",
+    "schemaClass": "Disease"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 5580276,
+    "displayName": "Severe combined adrenal and gonadal deficiency caused by novel mutations in the cholesterol side chain cleavage enzyme, P450scc",
+    "title": "Severe combined adrenal and gonadal deficiency caused by novel mutations in the cholesterol side chain cleavage enzyme, P450scc",
+    "journal": "J. Clin. Endocrinol. Metab.",
+    "pages": "696-702",
+    "pubMedIdentifier": 18182448,
+    "volume": 93,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18182448",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 5580239,
+    "displayName": "Cholesterol side-chain cleavage enzyme, mitochondrial (CYP11...",
+    "text": "Cholesterol side-chain cleavage enzyme, mitochondrial (CYP11A1) normally catalyses the side-chain cleavage of cholesterol to form pregnenolone. Defects in CYP11A1 can cause Adrenal insufficiency, congenital, with 46,XY sex reversal (AICSR; MIM:613743). This is a rare disorder that can present as acute adrenal insufficiency in infancy with elevated ACTH and plasma renin activity and low or absent adrenal steroids. The severest phenotype is loss-of-function mutations associated with prematurity, complete under-androgenisation and severe, early-onset adrenal failure (Kim et al. 2008).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2017-09-27",
+  "hasEvent": [
+   {
+    "dbId": 5580269,
+    "displayName": "Defective CYP11A1 does not cleave 20a,22b-DHCHOL",
+    "stId": "R-HSA-5580269",
+    "stIdVersion": "R-HSA-5580269.3",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Defective CYP11A1 does not cleave 20a,22b-DHCHOL"
+    ],
+    "releaseDate": "2014-12-11",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5579026
+    ],
+    "isChimeric": false,
+    "systematicName": "CYP11A1 mutants do not cleave 20a,22b-DHCHOL",
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "FailedReaction"
+   }
+  ],
+  "normalPathway": {
+   "dbId": 211945,
+   "displayName": "Phase I - Functionalization of compounds",
+   "stId": "R-HSA-211945",
+   "stIdVersion": "R-HSA-211945.8",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 5,
+   "name": [
+    "Phase I - Functionalization of compounds"
+   ],
+   "releaseDate": "2008-06-30",
+   "speciesName": "Homo sapiens",
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "lastUpdatedDate": "2023-09-13",
+   "diseasePathways": [
+    5579026
+   ],
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

@@ -1,0 +1,774 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-168638",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-168638",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:44:28+00:00",
+ "response": {
+  "dbId": 168638,
+  "displayName": "NOD1/2 Signaling Pathway",
+  "stId": "R-HSA-168638",
+  "stIdVersion": "R-HSA-168638.5",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "NOD1/2 Signaling Pathway"
+  ],
+  "releaseDate": "2011-06-14",
+  "speciesName": "Homo sapiens",
+  "figure": [
+   {
+    "dbId": 741468,
+    "displayName": "/figures/NOD1.jpg",
+    "url": "/figures/NOD1.jpg",
+    "className": "Figure",
+    "schemaClass": "Figure"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 1458671,
+   "displayName": "nucleotide-binding domain, leucine rich repeat containing receptor signaling pathway",
+   "accession": "0035872",
+   "databaseName": "GO",
+   "definition": "The series of molecular signals initiated by a ligand binding to a nucleotide-binding domain, leucine rich repeat containing receptor (NLR), and ending with the regulation of a downstream cellular process. NLRs are cytoplasmic receptors defined by their tripartite domain architecture that contains: a variable C-terminus, a middle nucleotide-binding domain, and a LRR domain that is variable in the repeats composition and number.",
+   "name": "nucleotide-binding domain, leucine rich repeat containing receptor signaling pathway",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0035872",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 622303,
+    "displayName": "NOD-like receptors: role in innate immunity and inflammatory disease",
+    "title": "NOD-like receptors: role in innate immunity and inflammatory disease",
+    "journal": "Annu Rev Pathol",
+    "pages": "365-98",
+    "pubMedIdentifier": 18928408,
+    "volume": 4,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18928408",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1247956,
+    "displayName": "Signal transduction pathways used by NLR-type innate immune receptors",
+    "title": "Signal transduction pathways used by NLR-type innate immune receptors",
+    "journal": "Mol Biosyst",
+    "pages": "380-6",
+    "pubMedIdentifier": 18414735,
+    "volume": 4,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18414735",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1247951,
+    "displayName": "NOD-like receptors (NLRs): bona fide intracellular microbial sensors",
+    "title": "NOD-like receptors (NLRs): bona fide intracellular microbial sensors",
+    "journal": "Curr Opin Immunol",
+    "pages": "377-82",
+    "pubMedIdentifier": 18585455,
+    "volume": 20,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18585455",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10105326,
+    "displayName": "NOD1/2 Signaling Pathway",
+    "stId": "R-MMU-168638",
+    "stIdVersion": "R-MMU-168638.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "NOD1/2 Signaling Pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     168638
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10229102,
+    "displayName": "NOD1/2 Signaling Pathway",
+    "stId": "R-RNO-168638",
+    "stIdVersion": "R-RNO-168638.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "NOD1/2 Signaling Pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     168638
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10335879,
+    "displayName": "NOD1/2 Signaling Pathway",
+    "stId": "R-CFA-168638",
+    "stIdVersion": "R-CFA-168638.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "NOD1/2 Signaling Pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     168638
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10450403,
+    "displayName": "NOD1/2 Signaling Pathway",
+    "stId": "R-BTA-168638",
+    "stIdVersion": "R-BTA-168638.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "NOD1/2 Signaling Pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     168638
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10564415,
+    "displayName": "NOD1/2 Signaling Pathway",
+    "stId": "R-SSC-168638",
+    "stIdVersion": "R-SSC-168638.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "NOD1/2 Signaling Pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     168638
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10655470,
+    "displayName": "NOD1/2 Signaling Pathway",
+    "stId": "R-DRE-168638",
+    "stIdVersion": "R-DRE-168638.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "NOD1/2 Signaling Pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     168638
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10736528,
+    "displayName": "NOD1/2 Signaling Pathway",
+    "stId": "R-XTR-168638",
+    "stIdVersion": "R-XTR-168638.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "NOD1/2 Signaling Pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     168638
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10834656,
+    "displayName": "NOD1/2 Signaling Pathway",
+    "stId": "R-GGA-168638",
+    "stIdVersion": "R-GGA-168638.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "NOD1/2 Signaling Pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     168638
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10920105,
+    "displayName": "NOD1/2 Signaling Pathway",
+    "stId": "R-DME-168638",
+    "stIdVersion": "R-DME-168638.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "NOD1/2 Signaling Pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     168638
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11002915,
+    "displayName": "NOD1/2 Signaling Pathway",
+    "stId": "R-CEL-168638",
+    "stIdVersion": "R-CEL-168638.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "NOD1/2 Signaling Pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     168638
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11057498,
+    "displayName": "NOD1/2 Signaling Pathway",
+    "stId": "R-DDI-168638",
+    "stIdVersion": "R-DDI-168638.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "NOD1/2 Signaling Pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     168638
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11087364,
+    "displayName": "NOD1/2 Signaling Pathway",
+    "stId": "R-SPO-168638",
+    "stIdVersion": "R-SPO-168638.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "NOD1/2 Signaling Pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     168638
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11115774,
+    "displayName": "NOD1/2 Signaling Pathway",
+    "stId": "R-SCE-168638",
+    "stIdVersion": "R-SCE-168638.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "NOD1/2 Signaling Pathway"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     168638
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 622305,
+    "displayName": "NOD1 is ubiquitously expressed, while NOD2 expression is res...",
+    "text": "NOD1 is ubiquitously expressed, while NOD2 expression is restricted to monocytes, macrophages, dendritic cells, and intestinal Paneth cells (Inohara et al. 2005). NOD1 and NOD2 activation induces transcription of immune response genes, predominantly mediated by the proinflammatory transcriptional factor NFkappaB but also by AP-1 and Elk-1 (Inohara et al. 2005). NFkappaB translocates to the nucleus following release from IkappaB proteins. NOD1 and NOD2 signaling involves an interaction between their caspase-recruitment domain (CARD) and the CARD of the kinase RIPK2 (RIP2/RICK). This leads to the activation of the NFkappaB pathway and MAPK pathways (Windheim et al. 2007).<br>Activated NODs oligomerize via their NACHT domains, inducing physical proximity of RIP2 proteins that is believed to trigger their K63-linked polyubiquitination, facilitating recruitment of the TAK1 complex. RIP2 also recruits NEMO, bringing the TAK1 and IKK complexes into proximity, leading to NF-kappaB activation and activation of MAPK signaling. Recent studies have demonstrated that K63-linked regulatory ubiquitination of RIP2 is essential for the recruitment of TAK1 (Hasegawa et al. 2008, Hitosumatsu et al. 2008). As observed for toll-like receptor (TLR) signaling, ubiquitination can be removed by the deubiquitinating enzyme A20, thereby dampening NOD1/NOD2-induced NF-kappaB activation. NOD1 and NOD2 both induce K63-linked ubiquitination of RIP2, but NOD2-signaling appears to preferentially utilize the E3 ligase TRAF6, while TRAF2 and TRAF5 were shown to be important for NOD1-mediated signaling. In both cases, activation of NF-kappaB results in the upregulated transcription and production of inflammatory mediators.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2022-06-09",
+  "hasEvent": [
+   {
+    "dbId": 168400,
+    "displayName": "iE-DAP elicits a NOD1 response",
+    "stId": "R-HSA-168400",
+    "stIdVersion": "R-HSA-168400.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "iE-DAP elicits a NOD1 response"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 168412,
+    "displayName": "MDP elicits a NOD2 response",
+    "stId": "R-HSA-168412",
+    "stIdVersion": "R-HSA-168412.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "MDP elicits a NOD2 response"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 622310,
+    "displayName": "Activated NOD1 oligomerizes",
+    "stId": "R-HSA-622310",
+    "stIdVersion": "R-HSA-622310.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Activated NOD1 oligomerizes"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 708349,
+    "displayName": "Activated NOD2 oligomerizes",
+    "stId": "R-HSA-708349",
+    "stIdVersion": "R-HSA-708349.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Activated NOD2 oligomerizes"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 168405,
+    "displayName": "Activated NOD oligomer recruites RIP2 (RICK)",
+    "stId": "R-HSA-168405",
+    "stIdVersion": "R-HSA-168405.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Activated NOD oligomer recruites RIP2 (RICK)"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 622415,
+    "displayName": "RIP2 binds NEMO",
+    "stId": "R-HSA-622415",
+    "stIdVersion": "R-HSA-622415.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RIP2 binds NEMO"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 741386,
+    "displayName": "RIP2 induces K63-linked ubiquitination of NEMO",
+    "stId": "R-HSA-741386",
+    "stIdVersion": "R-HSA-741386.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RIP2 induces K63-linked ubiquitination of NEMO"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 741411,
+    "displayName": "CYLD deubiquitinates NEMO",
+    "stId": "R-HSA-741411",
+    "stIdVersion": "R-HSA-741411.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYLD deubiquitinates NEMO"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 688137,
+    "displayName": "RIP2 is K63 polyubiquitinated",
+    "stId": "R-HSA-688137",
+    "stIdVersion": "R-HSA-688137.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RIP2 is K63 polyubiquitinated"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 688136,
+    "displayName": "TNFAIP3 (A20) deubiquitinates RIP2",
+    "stId": "R-HSA-688136",
+    "stIdVersion": "R-HSA-688136.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TNFAIP3 (A20) deubiquitinates RIP2"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 688985,
+    "displayName": "K63 polyubiquitinated RIP2 associates with the TAK1 complex",
+    "stId": "R-HSA-688985",
+    "stIdVersion": "R-HSA-688985.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "K63 polyubiquitinated RIP2 associates with the TAK1 complex"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 706479,
+    "displayName": "TAK1 is activated",
+    "stId": "R-HSA-706479",
+    "stIdVersion": "R-HSA-706479.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TAK1 is activated"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 168184,
+    "displayName": "Activated TAK1 mediates phosphorylation of the IKK Complex",
+    "stId": "R-HSA-168184",
+    "stIdVersion": "R-HSA-168184.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Activated TAK1 mediates phosphorylation of the IKK Complex"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 727819,
+    "displayName": "TAK1 phosphorylates MKK6",
+    "stId": "R-HSA-727819",
+    "stIdVersion": "R-HSA-727819.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TAK1 phosphorylates MKK6"
+    ],
+    "releaseDate": "2010-06-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 622420,
+    "displayName": "NOD1 induced apoptosis is mediated by RIP2 and CARD8",
+    "stId": "R-HSA-622420",
+    "stIdVersion": "R-HSA-622420.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NOD1 induced apoptosis is mediated by RIP2 and CARD8"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 741395,
+    "displayName": "CARD9 binds RIP2 (and NOD2)",
+    "stId": "R-HSA-741395",
+    "stIdVersion": "R-HSA-741395.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "CARD9 binds RIP2 (and NOD2)"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1247960,
+    "displayName": "Activation of p38 MAPK",
+    "stId": "R-HSA-1247960",
+    "stIdVersion": "R-HSA-1247960.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Activation of p38 MAPK"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9676160,
+    "displayName": "AAMP binds NOD2",
+    "stId": "R-HSA-9676160",
+    "stIdVersion": "R-HSA-9676160.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AAMP binds NOD2"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     168638
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

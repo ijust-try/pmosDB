@@ -1,0 +1,5192 @@
+{
+ "source": "quickgo_terms",
+ "query": "Q92786_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0000122,GO:0000785,GO:0000976,GO:0000978,GO:0000981,GO:0001227,GO:0001228,GO:0001822,GO:0001889,GO:0001938,GO:0001946,GO:0002088,GO:0002089,GO:0003677,GO:0005515,GO:0005634,GO:0005654,GO:0005737,GO:0005829,GO:0006355,GO:0006357,GO:0007417,GO:0007420,GO:0007623,GO:0008284,GO:0008285,GO:0010468,GO:0010595,GO:0016922,GO:0021516,GO:0021542,GO:0021707,GO:0021915,GO:0030240,GO:0030324,GO:0030910,GO:0031016,GO:0031667,GO:0035295,GO:0042752,GO:0043049,GO:0043565,GO:0045071,GO:0045165,GO:0045787,GO:0045892,GO:0045944,GO:0046619,GO:0048646,GO:0048845",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:38:40+00:00",
+ "response": {
+  "numberOfHits": 50,
+  "results": [
+   {
+    "id": "GO:0016922",
+    "isObsolete": false,
+    "name": "nuclear receptor binding",
+    "definition": {
+     "text": "Binding to a nuclear receptor protein. Nuclear receptor proteins are DNA-binding transcription factors which are regulated by binding to a ligand.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "7776974"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "ligand-dependent nuclear receptor binding",
+      "type": "exact"
+     },
+     {
+      "name": "ligand-dependent nuclear receptor interactor activity",
+      "type": "related"
+     },
+     {
+      "name": "nuclear hormone receptor binding",
+      "type": "exact"
+     },
+     {
+      "name": "steroid hormone receptor binding",
+      "type": "broad"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0002088",
+    "isObsolete": false,
+    "name": "lens development in camera-type eye",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the lens over time, from its formation to the mature structure. The lens is a transparent structure in the eye through which light is focused onto the retina. An example of this process is found in Mus musculus.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0582064333"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "lens development",
+      "type": "exact"
+     },
+     {
+      "name": "lens development in camera-style eye",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070306",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097166",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002089",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0002089",
+    "isObsolete": false,
+    "name": "lens morphogenesis in camera-type eye",
+    "definition": {
+     "text": "The process in which the anatomical structures of the lens are generated and organized. The lens is a transparent structure in the eye through which light is focused onto the retina. An example of this process is found in Mus musculus."
+    },
+    "synonyms": [
+     {
+      "name": "lens morphogenesis",
+      "type": "exact"
+     },
+     {
+      "name": "lens morphogenesis in camera-style eye",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070309",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060235",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0031667",
+    "isObsolete": false,
+    "name": "response to nutrient levels",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus reflecting the presence, absence, or concentration of nutrients."
+    },
+    "children": [
+     {
+      "id": "GO:0009758",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032108",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0032107",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0007584",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032094",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042594",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015976",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032109",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0002021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006791",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031669",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032098",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061771",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019740",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090649",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043565",
+    "isObsolete": false,
+    "name": "sequence-specific DNA binding",
+    "definition": {
+     "text": "Binding to DNA of a specific nucleotide composition, e.g. GC-rich DNA binding, or with a specific sequence motif or type of DNA e.g. promotor binding or rDNA binding."
+    },
+    "synonyms": [
+     {
+      "name": "sequence specific DNA binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0042162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008327",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110001",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1990837",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045322",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0141094",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098847",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005634",
+    "isObsolete": false,
+    "name": "nucleus",
+    "definition": {
+     "text": "A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell's chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent."
+    },
+    "synonyms": [
+     {
+      "name": "cell nucleus",
+      "type": "exact"
+     },
+     {
+      "name": "horsetail nucleus",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0000152",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000176",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043224",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140513",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048556",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048555",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071027",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0031039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031965",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033260",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0071028",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005880",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005635",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000228",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031040",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019908",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048353",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045120",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097571",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097572",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905754",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046818",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043073",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000794",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034753",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031981",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043076",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005640",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0051457",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000943",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140510",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043599",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043596",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042405",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0110093",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0110092",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005654",
+    "isObsolete": false,
+    "name": "nucleoplasm",
+    "definition": {
+     "text": "That part of the nuclear content other than the chromosomes or the nucleolus.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0124325653"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0140168",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000118",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016604",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031261",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035097",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005656",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990826",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0055029",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0008023",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005737",
+    "isObsolete": false,
+    "name": "cytoplasm",
+    "definition": {
+     "text": "The contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198547684"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0019813",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009345",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120099",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036007",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0062073",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043600",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042579",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048471",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071142",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005881",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990728",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990917",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005968",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005964",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060293",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005783",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000164",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042587",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030096",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031209",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098545",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0006888",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0110158",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097433",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019197",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005851",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034715",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009525",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031250",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035550",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045239",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0017109",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032019",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043598",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071075",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060417",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016528",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005794",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032477",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009321",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009382",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990316",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036501",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990565",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034719",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034749",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032047",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005948",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034430",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031680",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034499",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0036464",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009333",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0010938",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:7770092",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005938",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090652",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016281",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070088",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005850",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990229",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044227",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045251",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042735",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005854",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120111",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048500",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009320",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000177",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070826",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042716",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071513",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044312",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090120",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0048492",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070992",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005883",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000308",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034748",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009328",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032921",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005793",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098593",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990658",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009332",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045169",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120293",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097014",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030700",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042566",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030094",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990036",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0043614",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090651",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000809",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044207",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043291",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005853",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1905720",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009504",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061908",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009317",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036457",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044222",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009336",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009359",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005951",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045022",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0071203",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071026",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005773",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000407",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019812",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120098",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009574",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000153",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034515",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005739",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070993",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031201",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032068",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005969",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005946",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034996",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071563",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990730",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005965",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031414",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009536",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034973",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030117",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045170",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031410",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0055087",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071212",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099568",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005829",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990783",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034081",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034270",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0020022",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009331",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0106232",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034709",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070441",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043292",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005852",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070695",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009524",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045253",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070422",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031251",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034274",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034750",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0017102",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002096",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0018444",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005950",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009339",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0003677",
+    "isObsolete": false,
+    "name": "DNA binding",
+    "definition": {
+     "text": "Any molecular function by which a gene product interacts selectively and non-covalently with DNA (deoxyribonucleic acid)."
+    },
+    "synonyms": [
+     {
+      "name": "microtubule/chromatin interaction",
+      "type": "related"
+     },
+     {
+      "name": "plasmid binding",
+      "type": "narrow"
+     },
+     {
+      "name": "structure specific DNA binding",
+      "type": "related"
+     },
+     {
+      "name": "structure-specific DNA binding",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0043392",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0031490",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070336",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003690",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008301",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051880",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032116",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0045142",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003684",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051101",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0036411",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0003697",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990243",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0003681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043565",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000217",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045027",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099077",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010844",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043388",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0000497",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0021542",
+    "isObsolete": false,
+    "name": "dentate gyrus development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the dentate gyrus over time, from its formation to the mature structure. The dentate gyrus is one of two interlocking gyri of the hippocampus. It contains granule cells, which project to the pyramidal cells and interneurons of the CA3 region of the ammon gyrus.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000021"
+      },
+      {
+       "dbCode": "ISBN",
+       "dbId": "0838580343"
+      }
+     ]
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042752",
+    "isObsolete": false,
+    "name": "regulation of circadian rhythm",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of a circadian rhythm. A circadian rhythm is a biological process in an organism that recurs with a regularity of approximately 24 hours."
+    },
+    "children": [
+     {
+      "id": "GO:0010378",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042753",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042754",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042749",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009649",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904059",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005829",
+    "isObsolete": false,
+    "name": "cytosol",
+    "definition": {
+     "text": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes."
+    },
+    "children": [
+     {
+      "id": "GO:7770127",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005971",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009316",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990788",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0022626",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097342",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0106002",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0008074",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0170069",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072379",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990228",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097495",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1901950",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990201",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0008385",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990205",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000345",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006895",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990061",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061725",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042147",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990121",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005833",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016465",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005831",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043540",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0062092",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099522",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099524",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1904962",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099523",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090160",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005945",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990233",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090730",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990235",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034752",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090119",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:7770128",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990133",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002186",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002184",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990198",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043293",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990200",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0170081",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990202",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0160074",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990588",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005836",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005832",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099524",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033596",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045249",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016482",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099523",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000015",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045247",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061702",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005515",
+    "isObsolete": false,
+    "name": "protein binding",
+    "definition": {
+     "text": "Binding to a protein."
+    },
+    "synonyms": [
+     {
+      "name": "glycoprotein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "protein amino acid binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031072",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140081",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032092",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010313",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043393",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0031720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990405",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051087",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001965",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005516",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990935",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001848",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032091",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046980",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043394",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001846",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051959",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019955",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030910",
+    "isObsolete": false,
+    "name": "olfactory placode formation",
+    "definition": {
+     "text": "The formation of a thickening of the neural ectoderm in the head region of the vertebrate embryo which develops into the olfactory region of the nasal cavity."
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043049",
+    "isObsolete": false,
+    "name": "otic placode formation",
+    "definition": {
+     "text": "The initial developmental process that will lead to the formation of the vertebrate inner ear. The otic placode forms as a thickening of the head ectoderm adjacent to the developing hindbrain.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "12668634"
+      }
+     ]
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030324",
+    "isObsolete": false,
+    "name": "lung development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the lung over time, from its formation to the mature structure. In all air-breathing vertebrates the lungs are developed from the ventral wall of the oesophagus as a pouch which divides into two sacs. In amphibians and many reptiles the lungs retain very nearly this primitive sac-like character, but in the higher forms the connection with the esophagus becomes elongated into the windpipe and the inner walls of the sacs become more and more divided, until, in the mammals, the air spaces become minutely divided into tubes ending in small air cells, in the walls of which the blood circulates in a fine network of capillaries. In mammals the lungs are more or less divided into lobes, and each lung occupies a separate cavity in the thorax.",
+     "xrefs": [
+      {
+       "dbCode": "UBERON",
+       "dbId": "0002048"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0060432",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060479",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060459",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060458",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060437",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060496",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060506",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060426",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060425",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060435",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060484",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060462",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048286",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060428",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060427",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060916",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060915",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061145",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030240",
+    "isObsolete": false,
+    "name": "skeletal muscle thin filament assembly",
+    "definition": {
+     "text": "The aggregation, arrangement and bonding together of proteins to form the actin-based thin filaments of myofibrils in skeletal muscle."
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000122",
+    "isObsolete": false,
+    "name": "negative regulation of transcription by RNA polymerase II",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of transcription mediated by RNA polymerase II."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "down-regulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "downregulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "down regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "inhibition of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of gene-specific transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "negative regulation of global transcription from Pol II promoter",
+      "type": "related"
+     },
+     {
+      "name": "negative regulation of transcription from Pol II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of transcription from RNA polymerase II promoter, global",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0120191",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905381",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001227",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0010688",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060633",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990711",
+      "relation": "capable_of_part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008285",
+    "isObsolete": false,
+    "name": "negative regulation of cell population proliferation",
+    "definition": {
+     "text": "Any process that stops, prevents or reduces the rate or extent of cell proliferation."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of cell proliferation",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of cell proliferation",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070345",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000137",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035207",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000178",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048662",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901383",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014859",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060244",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033689",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904074",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901723",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905937",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072201",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050680",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071337",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902731",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000818",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061914",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000647",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060044",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070664",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008284",
+    "isObsolete": false,
+    "name": "positive regulation of cell population proliferation",
+    "definition": {
+     "text": "Any process that activates or increases the rate or extent of cell proliferation."
+    },
+    "synonyms": [
+     {
+      "name": "activation of cell proliferation",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of cell proliferation",
+      "type": "related"
+     },
+     {
+      "name": "stimulation of cell proliferation",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of cell proliferation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0072513",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002053",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048146",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904075",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071864",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905938",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000103",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060045",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071338",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060252",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000497",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902732",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070665",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061913",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038091",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000648",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000288",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000138",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035208",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070346",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033690",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050679",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000179",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901384",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048661",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014858",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901724",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045787",
+    "isObsolete": false,
+    "name": "positive regulation of cell cycle",
+    "definition": {
+     "text": "Any process that activates or increases the rate or extent of progression through the cell cycle."
+    },
+    "synonyms": [
+     {
+      "name": "activation of progression through cell cycle",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of cell cycle progression",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of progression through cell cycle",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of progression through cell cycle",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of progression through cell cycle",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of progression through cell cycle",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of progression through cell cycle",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0045931",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051446",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090068",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045737",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0021915",
+    "isObsolete": false,
+    "name": "neural tube development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the neural tube over time, from its formation to the mature structure. The mature structure of the neural tube exists when the tube has been segmented into the forebrain, midbrain, hindbrain and spinal cord regions. In addition neural crest has budded away from the epithelium.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000021"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0021532",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001841",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033504",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045944",
+    "isObsolete": false,
+    "name": "positive regulation of transcription by RNA polymerase II",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of transcription from an RNA polymerase II promoter."
+    },
+    "synonyms": [
+     {
+      "name": "activation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "activation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of gene-specific transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of global transcription from Pol II promoter",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of transcription from Pol II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of transcription from RNA polymerase II promoter, global",
+      "type": "related"
+     },
+     {
+      "name": "stimulation of global transcription from RNA polymerase II promoter",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "up regulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "up-regulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "upregulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "up regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060261",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900461",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001228",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990647",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0007221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990469",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:1905382",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060963",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110016",
+      "relation": "capable_of_part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006355",
+    "isObsolete": false,
+    "name": "regulation of DNA-templated transcription",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of cellular DNA-templated transcription."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of cellular transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "regulation of transcription, DNA-templated",
+      "type": "exact"
+     },
+     {
+      "name": "transcriptional control",
+      "type": "broad"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0045990",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006359",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904279",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006357",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032784",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006356",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000409",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045893",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046015",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045892",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060194",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902893",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090293",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003700",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:2000142",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140743",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140542",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006357",
+    "isObsolete": false,
+    "name": "regulation of transcription by RNA polymerase II",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of transcription mediated by RNA polymerase II."
+    },
+    "synonyms": [
+     {
+      "name": "global transcription regulation from Pol II promoter",
+      "type": "related"
+     },
+     {
+      "name": "regulation of gene-specific transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "regulation of global transcription from Pol II promoter",
+      "type": "related"
+     },
+     {
+      "name": "regulation of transcription from Pol II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "regulation of transcription from RNA polymerase II promoter, global",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060260",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016514",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0016586",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0140994",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000981",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071564",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0140093",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0140092",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0140091",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0035060",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0045944",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071565",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:1905380",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000122",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060962",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045892",
+    "isObsolete": false,
+    "name": "negative regulation of DNA-templated transcription",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of cellular DNA-templated transcription."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "down-regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "downregulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "down regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "inhibition of transcription, DNA-dependent",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of cellular transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "negative regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of transcription, DNA-templated",
+      "type": "exact"
+     },
+     {
+      "name": "transcription repressor activity",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0036411",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0016479",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010620",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045894",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001217",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060195",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060567",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000143",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061773",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0016480",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000122",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904280",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140744",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902894",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003714",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0170070",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032785",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990512",
+      "relation": "capable_of_part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045165",
+    "isObsolete": false,
+    "name": "cell fate commitment",
+    "definition": {
+     "text": "The cellular developmental process by which a cell establishes the intrinsic character of a cell or tissue region irreversibly committing it to a particular fate.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0716731185"
+      }
+     ]
+    },
+    "comment": "Note that this term was 'cell fate determination' but the term name was changed to better match its existing definition and the child term 'cell fate determination; GO:0001709' was also created.",
+    "children": [
+     {
+      "id": "GO:0072154",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002360",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072153",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001709",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001708",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0010454",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0072151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048663",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072150",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060795",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090106",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010654",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014017",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007445",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048625",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002326",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002051",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048600",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021781",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060911",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070308",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045168",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0014813",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010453",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0072148",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055059",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072146",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001827",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042693",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002680",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021887",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010377",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010455",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0060581",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035854",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048865",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090377",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001830",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001946",
+    "isObsolete": false,
+    "name": "lymphangiogenesis",
+    "definition": {
+     "text": "Lymph vessel formation when new vessels emerge from the proliferation of pre-existing vessels.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "11596157"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "lymph vessel formation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1901491",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1901492",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1901490",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0060854",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001938",
+    "isObsolete": false,
+    "name": "positive regulation of endothelial cell proliferation",
+    "definition": {
+     "text": "Any process that activates or increases the rate or extent of endothelial cell proliferation."
+    },
+    "synonyms": [
+     {
+      "name": "activation of endothelial cell proliferation",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of endothelial cell proliferation",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of endothelial cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of endothelial cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of endothelial cell proliferation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1905564",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903589",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0021516",
+    "isObsolete": false,
+    "name": "dorsal spinal cord development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the dorsal region of the spinal cord over time, from its formation to the mature structure. The dorsal region of the mature spinal cord contains neurons that process and relay sensory input.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000021"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "11179871"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0021921",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0021527",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045071",
+    "isObsolete": false,
+    "name": "negative regulation of viral genome replication",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of viral genome replication."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of viral genome replication",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of viral genome replication",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of viral genome replication",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of viral genome replication",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0045869",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0035295",
+    "isObsolete": false,
+    "name": "tube development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of a tube over time, from its initial formation to a mature structure. Epithelial and endothelial tubes transport gases, liquids and cells from one site to another and form the basic structure of many organs and tissues including lung and trachea, kidney, the mammary gland, the vascular system and the gastrointestinal and urinary-genital tracts.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "12526790"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0030323",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072031",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072032",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035502",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060066",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061326",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072176",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072164",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048565",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035050",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060872",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072044",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072066",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072520",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072065",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905867",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061009",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021915",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072170",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071599",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061071",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035239",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061205",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001822",
+    "isObsolete": false,
+    "name": "kidney development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the kidney over time, from its formation to the mature structure. The kidney is an organ that filters the blood and/or excretes the end products of body metabolism in the form of urine.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0124020607"
+      },
+      {
+       "dbCode": "ISBN",
+       "dbId": "0721662544"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "nephrogenesis",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0001823",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072161",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090185",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0090183",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0072194",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072111",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035850",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001656",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072127",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060993",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072053",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072074",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072054",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072044",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072055",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072073",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061440",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072051",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035787",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048793",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061005",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090184",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0072056",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072006",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001889",
+    "isObsolete": false,
+    "name": "liver development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the liver over time, from its formation to the mature structure. The liver is an exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "068340007X"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0097421",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071910",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060344",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072576",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035622",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061017",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070365",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001228",
+    "isObsolete": false,
+    "name": "DNA-binding transcription activator activity, RNA polymerase II-specific",
+    "definition": {
+     "text": "A DNA-binding transcription factor activity that activates or increases transcription of specific gene sets transcribed by RNA polymerase II.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "20737563"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "27145859"
+      }
+     ]
+    },
+    "comment": "For usage guidance, see comment in GO:0003700 ; DNA-binding transcription factor activity.",
+    "synonyms": [
+     {
+      "name": "copper ion regulated core promoter proximal region sequence-specific DNA binding RNA polymerase II transcription factor activity involved in positive regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "distal enhancer DNA-binding transcription activator activity, RNA polymerase II-specific",
+      "type": "narrow"
+     },
+     {
+      "name": "metal ion regulated core promoter proximal region sequence-specific DNA binding RNA polymerase II transcription factor activity involved in positive regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "metal ion regulated sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "proximal promoter DNA-binding transcription activator activity, RNA polymerase II-specific",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II distal enhancer sequence-specific DNA-binding transcription factor activity involved in positive regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcriptional activator activity, copper ion regulated proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcriptional activator activity, metal ion regulated core promoter proximal region sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcriptional activator activity, metal ion regulated proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcriptional activator activity, zinc ion regulated core promoter proximal region sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcriptional activator activity, zinc ion regulated proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription regulatory region sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription",
+      "type": "exact"
+     },
+     {
+      "name": "sequence-specific distal enhancer binding RNA polymerase II transcription factor activity involved in positive regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "transcriptional activator activity, metal ion regulated sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcriptional activator activity, RNA polymerase II core promoter proximal region sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcriptional activator activity, RNA polymerase II distal enhancer sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcriptional activator activity, RNA polymerase II proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcriptional activator activity, RNA polymerase II transcription regulatory region sequence-specific DNA binding",
+      "type": "exact"
+     },
+     {
+      "name": "zinc ion regulated core promoter proximal region sequence-specific DNA binding RNA polymerase II transcription factor activity involved in positive regulation of transcription",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990590",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1990589",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001227",
+    "isObsolete": false,
+    "name": "DNA-binding transcription repressor activity, RNA polymerase II-specific",
+    "definition": {
+     "text": "A DNA-binding transcription factor activity that represses or decreases the transcription of specific gene sets transcribed by RNA polymerase II."
+    },
+    "comment": "For usage guidance, see comment in GO:0003700 ; DNA-binding transcription factor activity.",
+    "synonyms": [
+     {
+      "name": "distal enhancer DNA-binding transcription repressor activity, RNA polymerase II-specific",
+      "type": "narrow"
+     },
+     {
+      "name": "metal ion regulated core promoter proximal region sequence-specific DNA binding RNA polymerase II transcription factor activity involved in negative regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "metal ion regulated sequence-specific DNA binding transcription factor activity involved in negative regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "proximal promoter DNA-binding transcription repressor activity, RNA polymerase II-specific",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity involved in negative regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II distal enhancer sequence-specific DNA-binding transcription factor activity involved in negative regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcriptional repressor activity, metal ion regulated core promoter proximal region sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcriptional repressor activity, metal ion regulated proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription regulatory region sequence-specific DNA binding transcription factor activity involved in negative regulation of transcription",
+      "type": "exact"
+     },
+     {
+      "name": "sequence-specific distal enhancer binding RNA polymerase II transcription factor activity involved in negative regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "transcriptional repressor activity, metal ion regulated sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcriptional repressor activity, RNA polymerase II distal enhancer sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcriptional repressor activity, RNA polymerase II proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcriptional repressor activity, RNA polymerase II transcription regulatory region sequence-specific DNA binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0090571",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0048646",
+    "isObsolete": false,
+    "name": "anatomical structure formation involved in morphogenesis",
+    "definition": {
+     "text": "The developmental process pertaining to the initial formation of an anatomical structure from unspecified parts. This process begins with the specific processes that contribute to the appearance of the discrete structure and ends when the structural rudiment is recognizable. An anatomical structure is any biological entity that occupies space and is distinguished from its surroundings. Anatomical structures can be macroscopic such as a carpel, or microscopic such as an acrosome."
+    },
+    "comment": "Note that, for example, the formation of a pseudopod in an amoeba would not be considered formation involved in morphogenesis because it would not be thought of as the formation of an anatomical structure that was part of the shaping of the amoeba during its development. The formation of an axon from a neuron would be considered the formation of an anatomical structure involved in morphogenesis because it contributes to the creation of the form of the neuron in a developmental sense.",
+    "synonyms": [
+     {
+      "name": "formation of an anatomical structure involved in morphogenesis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0072129",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062248",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007370",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060788",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021502",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007378",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060214",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048458",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001756",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0075015",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060343",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021594",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021556",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010927",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097186",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001842",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046843",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003315",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021819",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090014",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048847",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905327",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032475",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035202",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021705",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021694",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001525",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030703",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060464",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002467",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060592",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060615",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010842",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003188",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021576",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021508",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030435",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021996",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014023",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072187",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046844",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097187",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021580",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021584",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007376",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003403",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061198",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021588",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048656",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010376",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021715",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021697",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003207",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030220",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001946",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048859",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009877",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048645",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048851",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048460",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021509",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060714",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001825",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007349",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035764",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014028",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060661",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072564",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072003",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905139",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021603",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003408",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001704",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120077",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048849",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061195",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035148",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035474",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021501",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061554",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060061",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090009",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010618",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060659",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072033",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048315",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060900",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060174",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007293",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014025",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021684",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014029",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035992",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021688",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090017",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021990",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0048845",
+    "isObsolete": false,
+    "name": "venous blood vessel morphogenesis",
+    "definition": {
+     "text": "The process in which the anatomical structures of venous blood vessels are generated and organized. Veins are blood vessels that transport blood from the body and its organs to the heart.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "16740480"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "vein morphogenesis",
+      "type": "broad"
+     },
+     {
+      "name": "venous morphogenesis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0003169",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060578",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060577",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061116",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000978",
+    "isObsolete": false,
+    "name": "RNA polymerase II cis-regulatory region sequence-specific DNA binding",
+    "definition": {
+     "text": "Binding to a specific upstream regulatory DNA sequence (transcription factor recognition sequence or binding site) located in cis relative to the transcription start site (i.e., on the same strand of DNA) of a gene transcribed by RNA polymerase II."
+    },
+    "comment": "Note that the phrase upstream activating sequence, or UAS is often used in S. cerevisiae literature to refer to cis-regulatory sequences. In bacteria such as E. coli, the phrase upstream activating sequence, or UAS is usually a synonym for enhancer.",
+    "synonyms": [
+     {
+      "name": "RNA polymerase II core promoter proximal region sequence-specific DNA binding",
+      "type": "related"
+     },
+     {
+      "name": "RNA polymerase II distal enhancer sequence-specific DNA binding",
+      "type": "related"
+     },
+     {
+      "name": "RNA polymerase II promoter proximal region sequence-specific DNA binding",
+      "type": "related"
+     },
+     {
+      "name": "RNA polymerase II proximal promoter sequence-specific DNA binding",
+      "type": "related"
+     },
+     {
+      "name": "RNA polymerase II upstream activating sequence (UAS) sequence-specific DNA binding",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0034056",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035538",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032810",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010736",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035497",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070888",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044323",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140728",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044377",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070594",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070644",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071820",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000976",
+    "isObsolete": false,
+    "name": "transcription cis-regulatory region binding",
+    "definition": {
+     "text": "Binding to a specific sequence of DNA that is part of a regulatory region that controls transcription of that section of the DNA. The transcribed region might be described as a gene, cistron, or operon."
+    },
+    "comment": "Note that this term is meant to also capture non-specific binding to regulatory regions. Also, to minimize ambiguity in the use of the word promoter in GO, we have chosen the phrase transcription regulatory region to refer to all of the regulatory regions. Regulatory regions in the DNA which control initiation may include the core promoter where the basal transcription machinery binds, the core promoter proximal region where regulatory factors other than the basal machinery bind. There are also additional regulatory regions, in both the DNA and the RNA transcript, which regulate elongation or termination of transcription.",
+    "synonyms": [
+     {
+      "name": "bacterial-type RNA polymerase regulatory region DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "bacterial-type RNA polymerase transcription regulatory region sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "eubacterial-type RNA polymerase regulatory region DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "eubacterial-type RNA polymerase regulatory region sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "regulatory region DNA binding",
+      "type": "broad"
+     },
+     {
+      "name": "transcription regulatory region DNA binding",
+      "type": "related"
+     },
+     {
+      "name": "transcription regulatory region sequence-specific DNA binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0061793",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0001161",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001163",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001016",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000679",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0001046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032422",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001019",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000678",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0000987",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000677",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0001147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000977",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000981",
+    "isObsolete": false,
+    "name": "DNA-binding transcription factor activity, RNA polymerase II-specific",
+    "definition": {
+     "text": "A DNA-binding transcription factor activity that modulates the transcription of specific gene sets transcribed by RNA polymerase II."
+    },
+    "comment": "For usage guidance, see comment in GO:0003700 ; DNA-binding transcription factor activity.",
+    "synonyms": [
+     {
+      "name": "copper ion regulated core promoter proximal region sequence-specific DNA binding RNA polymerase II transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "metal ion regulated core promoter proximal region sequence-specific DNA binding RNA polymerase II transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "metal ion regulated sequence-specific DNA binding RNA polymerase II transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II distal enhancer sequence-specific DNA binding transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, copper ion regulated core promoter proximal region sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, copper ion regulated proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, metal ion regulated core promoter proximal region sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, metal ion regulated proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, metal ion regulated sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, sequence-specific DNA binding",
+      "type": "exact"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, sequence-specific transcription regulatory region DNA binding",
+      "type": "exact"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, zinc ion regulated core promoter proximal region sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, zinc ion regulated proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "sequence-specific distal enhancer binding RNA polymerase II transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "sequence-specific DNA binding RNA polymerase II transcription factor activity",
+      "type": "exact"
+     },
+     {
+      "name": "sequence-specific transcription regulatory region DNA binding RNA polymerase II transcription factor recruiting transcription factor activity",
+      "type": "related"
+     },
+     {
+      "name": "transcription factor",
+      "type": "broad"
+     },
+     {
+      "name": "transcription factor activity, RNA polymerase II core promoter proximal region sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcription factor activity, RNA polymerase II distal enhancer sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcription factor activity, RNA polymerase II proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "zinc ion regulated core promoter proximal region sequence-specific DNA binding RNA polymerase II transcription factor activity",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0004879",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990378",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1990433",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0001228",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001227",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0021707",
+    "isObsolete": false,
+    "name": "cerebellar granule cell differentiation",
+    "definition": {
+     "text": "The process in which neuroblasts acquire specialized structural and/or functional features that characterize the mature cerebellar granule cell. Differentiation includes the processes involved in commitment of a neuroblast to a granule cell fate. A granule cell is a glutamatergic interneuron found in the cerebellar cortex.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000021"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "15157725"
+      }
+     ]
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0031016",
+    "isObsolete": false,
+    "name": "pancreas development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the pancreas over time, from its formation to the mature structure. The pancreas is an endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating hormones."
+    },
+    "children": [
+     {
+      "id": "GO:0031018",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031017",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035469",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061113",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000785",
+    "isObsolete": false,
+    "name": "chromatin",
+    "definition": {
+     "text": "The ordered and organized complex of DNA, protein, and sometimes RNA, that forms the chromosome.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "20404130"
+      }
+     ]
+    },
+    "comment": "Chromosomes include parts that are not part of the chromatin. Examples include the kinetochore.",
+    "synonyms": [
+     {
+      "name": "chromosome scaffold",
+      "type": "related"
+     },
+     {
+      "name": "cytoplasmic chromatin",
+      "type": "narrow"
+     },
+     {
+      "name": "nuclear chromatin",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0046536",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033503",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0106250",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0061638",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005726",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030874",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035101",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034967",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070211",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000792",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000123",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000791",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070210",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070603",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034974",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032798",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030527",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000786",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000981",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070823",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070822",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0046619",
+    "isObsolete": false,
+    "name": "lens placode formation involved in camera-type eye formation",
+    "definition": {
+     "text": "Establishment and formation of the optic placode, paired ectodermal placodes that become invaginated to form the embryonic lens vesicles."
+    },
+    "synonyms": [
+     {
+      "name": "optic placode formation in camera-type eye",
+      "type": "exact"
+     },
+     {
+      "name": "optic placode formation involved in camera-style eye",
+      "type": "exact"
+     },
+     {
+      "name": "optic placode formation involved in camera-type eye formation",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060898",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0010468",
+    "isObsolete": false,
+    "name": "regulation of gene expression",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of gene expression. Gene expression is the process in which a gene's coding sequence is converted into a mature gene product (protein or RNA)."
+    },
+    "comment": "This class covers any process that regulates the rate of production of a mature gene product, and so includes processes that regulate that rate by regulating the level, stability or availability of intermediates in the process of gene expression. For example, it covers any process that regulates the level, stability or availability of mRNA or circRNA for translation and thereby regulates the rate of production of the encoded protein via translation.",
+    "synonyms": [
+     {
+      "name": "gene regulation",
+      "type": "related"
+     },
+     {
+      "name": "regulation of gene product expression",
+      "type": "related"
+     },
+     {
+      "name": "regulation of protein expression",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1903317",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001817",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060966",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0160217",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0023019",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032922",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0160021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0040029",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062125",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006355",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002700",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043484",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002331",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000235",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010629",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140537",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0010608",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000232",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010628",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031445",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140416",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140667",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902796",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0010595",
+    "isObsolete": false,
+    "name": "positive regulation of endothelial cell migration",
+    "definition": {
+     "text": "Any process that increases the rate, frequency, or extent of the orderly movement of an endothelial cell into the extracellular matrix to form an endothelium."
+    },
+    "children": [
+     {
+      "id": "GO:0043536",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001028",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007623",
+    "isObsolete": false,
+    "name": "circadian rhythm",
+    "definition": {
+     "text": "Any biological process in an organism that recurs with a regularity of approximately 24 hours."
+    },
+    "synonyms": [
+     {
+      "name": "circadian process",
+      "type": "exact"
+     },
+     {
+      "name": "circadian response",
+      "type": "related"
+     },
+     {
+      "name": "response to circadian rhythm",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0032922",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048512",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003052",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010617",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060086",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042752",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0042753",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0003053",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097167",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042754",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007420",
+    "isObsolete": false,
+    "name": "brain development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the brain over time, from its formation to the mature structure. Brain development begins with patterning events in the neural tube and ends with the mature structure that is the center of thought and emotion. The brain is responsible for the coordination and control of bodily activities and the interpretation of information from the senses (sight, hearing, smell, etc.).",
+     "xrefs": [
+      {
+       "dbCode": "UBERON",
+       "dbId": "0000955"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0035284",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030917",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048854",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0021591",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0021730",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016319",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030901",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030900",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048036",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030902",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007417",
+    "isObsolete": false,
+    "name": "central nervous system development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the central nervous system over time, from its formation to the mature structure. The central nervous system is the core nervous system that serves an integrating and coordinating function. In vertebrates it consists of the brain and spinal cord. In those invertebrates with a central nervous system it typically consists of a brain, cerebral ganglia and a nerve cord.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0582227089"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "CNS development",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0048709",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035193",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048708",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035283",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0014004",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007418",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007419",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0021551",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0021626",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0150064",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007420",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0021510",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0021953",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060856",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0021783",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

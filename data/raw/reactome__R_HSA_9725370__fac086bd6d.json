@@ -1,0 +1,852 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9725370",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9725370",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:41:28+00:00",
+ "response": {
+  "dbId": 9725370,
+  "displayName": "Signaling by ALK fusions and activated point mutants",
+  "stId": "R-HSA-9725370",
+  "stIdVersion": "R-HSA-9725370.3",
+  "isInDisease": true,
+  "isInferred": false,
+  "maxDepth": 3,
+  "name": [
+   "Signaling by ALK fusions and activated point mutants"
+  ],
+  "releaseDate": "2021-06-09",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12043857,
+    "displayName": "Mondo:0004992",
+    "databaseName": "Mondo",
+    "identifier": "0004992",
+    "url": "https://monarchinitiative.org/MONDO:0004992",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "disease": [
+   {
+    "dbId": 1500689,
+    "displayName": "cancer",
+    "databaseName": "DOID",
+    "definition": "A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.",
+    "identifier": "162",
+    "name": [
+     "cancer"
+    ],
+    "synonym": [
+     "malignant tumor",
+     "malignant neoplasm",
+     "primary cancer"
+    ],
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/doid/terms?obo_id=DOID:162",
+    "className": "Disease",
+    "schemaClass": "Disease"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 9699768,
+    "displayName": "Role and targeting of anaplastic lymphoma kinase in cancer",
+    "title": "Role and targeting of anaplastic lymphoma kinase in cancer",
+    "journal": "Mol. Cancer",
+    "pages": "30",
+    "pubMedIdentifier": 29455642,
+    "volume": 17,
+    "year": 2018,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29455642",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9667872,
+    "displayName": "Mechanistic insight into ALK receptor tyrosine kinase in human cancer biology",
+    "title": "Mechanistic insight into ALK receptor tyrosine kinase in human cancer biology",
+    "journal": "Nat. Rev. Cancer",
+    "pages": "685-700",
+    "pubMedIdentifier": 24060861,
+    "volume": 13,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24060861",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9718441,
+    "displayName": "The role of the ALK receptor in cancer biology",
+    "title": "The role of the ALK receptor in cancer biology",
+    "journal": "Ann Oncol",
+    "pages": "iii4-iii15",
+    "pubMedIdentifier": 27573755,
+    "volume": 27,
+    "year": 2016,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27573755",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9667881,
+    "displayName": "The anaplastic lymphoma kinase in the pathogenesis of cancer",
+    "title": "The anaplastic lymphoma kinase in the pathogenesis of cancer",
+    "journal": "Nat. Rev. Cancer",
+    "pages": "11-23",
+    "pubMedIdentifier": 18097461,
+    "volume": 8,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18097461",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9725537,
+    "displayName": "ALK is activated in a range of cancers as a result of amplif...",
+    "text": "ALK is activated in a range of cancers as a result of amplification or overexpression, fusion event or activating point mutations, resulting, in general, in constitutive activation of intracellular signaling. The major pathways initiated downstream of activated ALK are STAT3 and, to a lesser extent, STAT5 signaling and signaling through the MAP kinase, PI3K/AKT and PLC gamma cascades (reviewed in Della Corte et al, 2018; Hallberg and Palmer, 2013; Hallberg and Palmer, 2016; Chiarle et al, 2008).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "previousReviewStatus": {
+   "dbId": 9821384,
+   "displayName": "two stars",
+   "definition": "structure updated after externally and internally reviewed",
+   "name": [
+    "two stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2021-12-08",
+  "hasEvent": [
+   {
+    "dbId": 9700179,
+    "displayName": "Ligand-independent dimerization of ALK fusions",
+    "stId": "R-HSA-9700179",
+    "stIdVersion": "R-HSA-9700179.3",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Ligand-independent dimerization of ALK fusions"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9700181,
+    "displayName": "Autophosphorylation of ALK fusions",
+    "stId": "R-HSA-9700181",
+    "stIdVersion": "R-HSA-9700181.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Autophosphorylation of ALK fusions"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9724090,
+    "displayName": "MYH9- and RNF213-ALK fusions are phosphorylated",
+    "stId": "R-HSA-9724090",
+    "stIdVersion": "R-HSA-9724090.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "MYH9- and RNF213-ALK fusions are phosphorylated"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9700184,
+    "displayName": "Ligand-independent dimerization of point mutants of ALK",
+    "stId": "R-HSA-9700184",
+    "stIdVersion": "R-HSA-9700184.3",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Ligand-independent dimerization of point mutants of ALK"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9700186,
+    "displayName": "Autophosphorylation of point mutants of ALK",
+    "stId": "R-HSA-9700186",
+    "stIdVersion": "R-HSA-9700186.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Autophosphorylation of point mutants of ALK"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9712079,
+    "displayName": "ALK mutants bind STAT3",
+    "stId": "R-HSA-9712079",
+    "stIdVersion": "R-HSA-9712079.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ALK mutants bind STAT3"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9712085,
+    "displayName": "ALK mutants phosphorylate STAT3",
+    "stId": "R-HSA-9712085",
+    "stIdVersion": "R-HSA-9712085.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ALK mutants phosphorylate STAT3"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9850958,
+    "displayName": "pY-STAT3 dimer translocates to the nucleus downstream of ALK mutants",
+    "stId": "R-HSA-9850958",
+    "stIdVersion": "R-HSA-9850958.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "pY-STAT3 dimer translocates to the nucleus downstream of ALK mutants"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9700190,
+    "displayName": "ALK mutants bind SHC",
+    "stId": "R-HSA-9700190",
+    "stIdVersion": "R-HSA-9700190.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ALK mutants bind SHC"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9700193,
+    "displayName": "ALK mutants phosphorylate SHC1",
+    "stId": "R-HSA-9700193",
+    "stIdVersion": "R-HSA-9700193.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ALK mutants phosphorylate SHC1"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9724099,
+    "displayName": "ALK mutants:p-3Y SHC binds GRB2",
+    "stId": "R-HSA-9724099",
+    "stIdVersion": "R-HSA-9724099.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ALK mutants:p-3Y SHC binds GRB2"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9710914,
+    "displayName": "ALK fusions bind GRB2",
+    "stId": "R-HSA-9710914",
+    "stIdVersion": "R-HSA-9710914.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ALK fusions bind GRB2"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9712081,
+    "displayName": "ALK fusions bind FRS",
+    "stId": "R-HSA-9712081",
+    "stIdVersion": "R-HSA-9712081.3",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ALK fusions bind FRS"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9712087,
+    "displayName": "ALK fusions phosphorylate FRS",
+    "stId": "R-HSA-9712087",
+    "stIdVersion": "R-HSA-9712087.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ALK fusions phosphorylate FRS"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9712088,
+    "displayName": "ALK fusion proteins bind IRS",
+    "stId": "R-HSA-9712088",
+    "stIdVersion": "R-HSA-9712088.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ALK fusion proteins bind IRS"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9712082,
+    "displayName": "ALK fusions phosphorylate IRS1",
+    "stId": "R-HSA-9712082",
+    "stIdVersion": "R-HSA-9712082.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ALK fusions phosphorylate IRS1"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9712078,
+    "displayName": "ALK mutants bind PI3KR1",
+    "stId": "R-HSA-9712078",
+    "stIdVersion": "R-HSA-9712078.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ALK mutants bind PI3KR1"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9712083,
+    "displayName": "ALK mutants bind PI3KCA",
+    "stId": "R-HSA-9712083",
+    "stIdVersion": "R-HSA-9712083.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ALK mutants bind PI3KCA"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9712084,
+    "displayName": "PI3K synthesizes PIP3 downstream of ALK mutants",
+    "stId": "R-HSA-9712084",
+    "stIdVersion": "R-HSA-9712084.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PI3K synthesizes PIP3 downstream of ALK mutants"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9710917,
+    "displayName": "ALK fusion proteins bind PLCG1",
+    "stId": "R-HSA-9710917",
+    "stIdVersion": "R-HSA-9710917.3",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ALK fusion proteins bind PLCG1"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9712086,
+    "displayName": "ALK fusions phosphorylate PLCG1",
+    "stId": "R-HSA-9712086",
+    "stIdVersion": "R-HSA-9712086.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ALK fusions phosphorylate PLCG1"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9851114,
+    "displayName": "NPM1-ALK-dependent TYK2 phosphorylation",
+    "stId": "R-HSA-9851114",
+    "stIdVersion": "R-HSA-9851114.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NPM1-ALK-dependent TYK2 phosphorylation"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9851142,
+    "displayName": "TYK2-dependent STAT1 and STAT3 phosphorylation",
+    "stId": "R-HSA-9851142",
+    "stIdVersion": "R-HSA-9851142.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TYK2-dependent STAT1 and STAT3 phosphorylation"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9851112,
+    "displayName": "NPM1-ALK- and TYK2-dependent MCL1 gene expression",
+    "stId": "R-HSA-9851112",
+    "stIdVersion": "R-HSA-9851112.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NPM1-ALK- and TYK2-dependent MCL1 gene expression"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9851102,
+    "displayName": "NPM1-ALK- and PI3K-dependent MDM2 phosphorylation",
+    "stId": "R-HSA-9851102",
+    "stIdVersion": "R-HSA-9851102.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NPM1-ALK- and PI3K-dependent MDM2 phosphorylation"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9851096,
+    "displayName": "NPM1-ALK- and JNK-dependent JUN phosphorylation",
+    "stId": "R-HSA-9851096",
+    "stIdVersion": "R-HSA-9851096.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NPM1-ALK- and JNK-dependent JUN phosphorylation"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9851098,
+    "displayName": "NPM1-ALK- and JUN-dependent CDKN1A gene repression",
+    "stId": "R-HSA-9851098",
+    "stIdVersion": "R-HSA-9851098.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NPM1-ALK- and JUN-dependent CDKN1A gene repression"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9851078,
+    "displayName": "NPM1-ALK-dependent MAPK8,9 phosphorylation",
+    "stId": "R-HSA-9851078",
+    "stIdVersion": "R-HSA-9851078.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NPM1-ALK-dependent MAPK8,9 phosphorylation"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9851079,
+    "displayName": "p-T,Y MAPK8,9 translocate to the nucleus",
+    "stId": "R-HSA-9851079",
+    "stIdVersion": "R-HSA-9851079.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-T,Y MAPK8,9 translocate to the nucleus"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9851076,
+    "displayName": "p-T,Y MAPK8,9 bind TP53",
+    "stId": "R-HSA-9851076",
+    "stIdVersion": "R-HSA-9851076.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-T,Y MAPK8,9 bind TP53"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9851077,
+    "displayName": "JNK-dependent inhibition of TP53 ubiquitination",
+    "stId": "R-HSA-9851077",
+    "stIdVersion": "R-HSA-9851077.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "JNK-dependent inhibition of TP53 ubiquitination"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9725371,
+    "displayName": "Nuclear events stimulated by ALK signaling in cancer",
+    "stId": "R-HSA-9725371",
+    "stIdVersion": "R-HSA-9725371.3",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Nuclear events stimulated by ALK signaling in cancer"
+    ],
+    "releaseDate": "2021-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9725370
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "normalPathway": {
+   "dbId": 201556,
+   "displayName": "Signaling by ALK",
+   "stId": "R-HSA-201556",
+   "stIdVersion": "R-HSA-201556.5",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 3,
+   "name": [
+    "Signaling by ALK"
+   ],
+   "releaseDate": "2021-06-09",
+   "speciesName": "Homo sapiens",
+   "doi": "10.3180/R-HSA-201556.4",
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "diseasePathways": [
+    9725370
+   ],
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

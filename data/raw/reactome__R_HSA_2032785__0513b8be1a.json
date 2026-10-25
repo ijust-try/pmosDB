@@ -1,0 +1,529 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-2032785",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-2032785",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:39:47+00:00",
+ "response": {
+  "dbId": 2032785,
+  "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+  "stId": "R-HSA-2032785",
+  "stIdVersion": "R-HSA-2032785.5",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+  ],
+  "releaseDate": "2012-03-13",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 7660,
+    "displayName": "nucleoplasm",
+    "accession": "0005654",
+    "databaseName": "GO",
+    "definition": "That part of the nuclear content other than the chromosomes or the nucleolus.",
+    "name": "nucleoplasm",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 17841,
+   "displayName": "transcription initiation at RNA polymerase II promoter",
+   "accession": "0006367",
+   "databaseName": "GO",
+   "definition": "A transcription initiation process that takes place at a RNA polymerase II gene promoter. Messenger RNAs (mRNA) genes, as well as some non-coding RNAs, are transcribed by RNA polymerase II.",
+   "name": "transcription initiation at RNA polymerase II promoter",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0006367",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 2032792,
+    "displayName": "A WW domain protein TAZ is a critical coactivator for TBX5, a transcription factor implicated in Holt-Oram syndrome",
+    "title": "A WW domain protein TAZ is a critical coactivator for TBX5, a transcription factor implicated in Holt-Oram syndrome",
+    "journal": "Proc Natl Acad Sci U S A",
+    "pages": "18034-9",
+    "pubMedIdentifier": 16332960,
+    "volume": 102,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16332960",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2028572,
+    "displayName": "Yorkie: the final destination of Hippo signaling",
+    "title": "Yorkie: the final destination of Hippo signaling",
+    "journal": "Trends Cell Biol",
+    "pages": "410-7",
+    "pubMedIdentifier": 20452772,
+    "volume": 20,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20452772",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10106834,
+    "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+    "stId": "R-MMU-2032785",
+    "stIdVersion": "R-MMU-2032785.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     2032785
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11003071,
+    "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+    "stId": "R-CEL-2032785",
+    "stIdVersion": "R-CEL-2032785.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     2032785
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10920299,
+    "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+    "stId": "R-DME-2032785",
+    "stIdVersion": "R-DME-2032785.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     2032785
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10835064,
+    "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+    "stId": "R-GGA-2032785",
+    "stIdVersion": "R-GGA-2032785.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     2032785
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10737830,
+    "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+    "stId": "R-XTR-2032785",
+    "stIdVersion": "R-XTR-2032785.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     2032785
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10656792,
+    "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+    "stId": "R-DRE-2032785",
+    "stIdVersion": "R-DRE-2032785.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     2032785
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10564829,
+    "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+    "stId": "R-SSC-2032785",
+    "stIdVersion": "R-SSC-2032785.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     2032785
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10451887,
+    "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+    "stId": "R-BTA-2032785",
+    "stIdVersion": "R-BTA-2032785.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     2032785
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10337347,
+    "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+    "stId": "R-CFA-2032785",
+    "stIdVersion": "R-CFA-2032785.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     2032785
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10230600,
+    "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+    "stId": "R-RNO-2032785",
+    "stIdVersion": "R-RNO-2032785.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     2032785
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 2032790,
+    "displayName": "YAP1 and WWTR1 (TAZ) are transcriptional co-activators, both...",
+    "text": "YAP1 and WWTR1 (TAZ) are transcriptional co-activators, both homologues of the Drosophila Yorkie protein. They both interact with members of the TEAD family of transcription factors, and WWTR1 interacts as well with TBX5 and RUNX2, to promote gene expression. Their transcriptional targets include genes critical to regulation of cell proliferation and apoptosis. Their subcellular location is regulated by the Hippo signaling cascade: phosphorylation mediated by this cascade leads to the cytosolic sequestration of both proteins (Murakami et al. 2005; Oh and Irvine 2010).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/REACT_118713.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2018-03-26",
+  "hasEvent": [
+   {
+    "dbId": 2032781,
+    "displayName": "WWTR1 (TAZ) binds TEAD",
+    "stId": "R-HSA-2032781",
+    "stIdVersion": "R-HSA-2032781.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "WWTR1 (TAZ) binds TEAD"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2032785
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2032775,
+    "displayName": "YAP1 binds TEAD1",
+    "stId": "R-HSA-2032775",
+    "stIdVersion": "R-HSA-2032775.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "YAP1 binds TEAD1"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2032785
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8871260,
+    "displayName": "YAP1 binds TEAD2",
+    "stId": "R-HSA-8871260",
+    "stIdVersion": "R-HSA-8871260.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "YAP1 binds TEAD2"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2032785
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8871266,
+    "displayName": "YAP1 binds TEAD3",
+    "stId": "R-HSA-8871266",
+    "stIdVersion": "R-HSA-8871266.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "YAP1 binds TEAD3"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2032785
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8871265,
+    "displayName": "YAP1 binds TEAD4",
+    "stId": "R-HSA-8871265",
+    "stIdVersion": "R-HSA-8871265.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "YAP1 binds TEAD4"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2032785
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2032794,
+    "displayName": "WWTR1 (TAZ), TBX5, and PCAF form a complex",
+    "stId": "R-HSA-2032794",
+    "stIdVersion": "R-HSA-2032794.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "WWTR1 (TAZ), TBX5, and PCAF form a complex"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2032785
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2064932,
+    "displayName": "WWTR1 (TAZ) binds RUNX2",
+    "stId": "R-HSA-2064932",
+    "stIdVersion": "R-HSA-2064932.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "WWTR1 (TAZ) binds RUNX2"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2032785
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1989766,
+    "displayName": "Expression of CTGF",
+    "stId": "R-HSA-1989766",
+    "stIdVersion": "R-HSA-1989766.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of CTGF"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2032785
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2032800,
+    "displayName": "Expression of NPPA (ANF)",
+    "stId": "R-HSA-2032800",
+    "stIdVersion": "R-HSA-2032800.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of NPPA (ANF)"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2032785
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

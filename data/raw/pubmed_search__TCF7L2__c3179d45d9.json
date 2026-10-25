@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "TCF7L2",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "TCF7L2 AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:42:43+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "31",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "31470081",
+    "24611738",
+    "39762965"
+   ],
+   "translationset": [
+    {
+     "from": "TCF7L2",
+     "to": "\"tcf7l2 protein, human\"[Supplementary Concept] OR \"tcf7l2 protein, human\"[All Fields] OR \"tcf7l2\"[All Fields]"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"tcf7l2 protein human\"[Supplementary Concept] OR \"tcf7l2 protein human\"[All Fields] OR \"tcf7l2\"[All Fields]) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "source": "ncbigene",
+ "query": "GATA4",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "gene",
+  "term": "GATA4[sym] AND 9606[taxid]",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:39:41+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "1",
+   "retmax": "1",
+   "retstart": "0",
+   "idlist": [
+    "2626"
+   ],
+   "translationset": [],
+   "translationstack": [
+    {
+     "term": "GATA4[sym]",
+     "field": "sym",
+     "count": "869",
+     "explode": "N"
+    },
+    {
+     "term": "9606[taxid]",
+     "field": "taxid",
+     "count": "360558",
+     "explode": "N"
+    },
+    "AND"
+   ],
+   "querytranslation": "GATA4[sym] AND 9606[taxid]"
+  }
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "AR",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "AR AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:19:49+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "379",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "37859784",
+    "38152131",
+    "23798298"
+   ],
+   "translationset": [
+    {
+     "from": "AR",
+     "to": "\"Anat Rec A Discov Mol Cell Evol Biol\"[Journal:__jid101234285] OR \"Adm Radiol\"[Journal:__jid8712333] OR \"Adm Radiol J\"[Journal:__jid9702245] OR \"Action Res (Lond)\"[Journal:__jid101176125] OR \"ar\"[All Fields]"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"anat rec a discov mol cell evol biol\"[Journal] OR \"adm radiol\"[Journal] OR \"adm radiol j\"[Journal] OR \"action res lond\"[Journal] OR \"ar\"[All Fields]) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

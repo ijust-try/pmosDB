@@ -1,0 +1,93 @@
+{
+ "source": "uniprot",
+ "query": "ZBTB16",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:ZBTB16) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:38:47+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q05516",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Zinc finger and BTB domain-containing protein 16"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Promyelocytic leukemia zinc finger protein"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Zinc finger protein 145"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Zinc finger protein PLZF"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "ZBTB16"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10688654"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "14528312"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "24359566"
+         }
+        ],
+        "value": "Acts as a transcriptional repressor (PubMed:10688654, PubMed:24359566). Transcriptional repression may be mediated through recruitment of histone deacetylases to target promoters (PubMed:10688654). May play a role in myeloid maturation and in the development and/or maintenance of other differentiated tissues. Probable substrate-recognition component of an E3 ubiquitin-protein ligase complex which mediates the ubiquitination and subsequent proteasomal degradation of target proteins (PubMed:14528312)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "7704",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000000018E"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,1105 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-2028269",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-2028269",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:40:23+00:00",
+ "response": {
+  "dbId": 2028269,
+  "displayName": "Signaling by Hippo",
+  "stId": "R-HSA-2028269",
+  "stIdVersion": "R-HSA-2028269.3",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Signaling by Hippo",
+   "Hippo signaling cascade"
+  ],
+  "releaseDate": "2012-03-13",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "figure": [
+   {
+    "dbId": 2463864,
+    "displayName": "/figures/Pathway_Illustrations/HIPPO_72_oicr.png",
+    "url": "/figures/Pathway_Illustrations/HIPPO_72_oicr.png",
+    "className": "Figure",
+    "schemaClass": "Figure"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 937682,
+   "displayName": "hippo signaling",
+   "accession": "0035329",
+   "databaseName": "GO",
+   "definition": "An intracellular signaling cascade that starts with the activation of hippo (STK4/MST1 and STK3/MST2 in mammals and hpo kinase in Drosophila). Hippo then phosphorylates LATS1/2, which in turn phosphoylates the transcriptional co-activator YAP1 (yki in Drosophila), leading to its cytosolic retention and/or degradation.",
+   "name": "hippo signaling",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0035329",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 2028733,
+    "displayName": "Hippo pathway-independent restriction of TAZ and YAP by angiomotin",
+    "title": "Hippo pathway-independent restriction of TAZ and YAP by angiomotin",
+    "journal": "J Biol Chem",
+    "pages": "7018-26",
+    "pubMedIdentifier": 21224387,
+    "volume": 286,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21224387",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2028689,
+    "displayName": "MST, a physiological caspase substrate, highly sensitizes apoptosis both upstream and downstream of caspase activation",
+    "title": "MST, a physiological caspase substrate, highly sensitizes apoptosis both upstream and downstream of caspase activation",
+    "journal": "J Biol Chem",
+    "pages": "19276-85",
+    "pubMedIdentifier": 11278283,
+    "volume": 276,
+    "year": 2001,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11278283",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2028572,
+    "displayName": "Yorkie: the final destination of Hippo signaling",
+    "title": "Yorkie: the final destination of Hippo signaling",
+    "journal": "Trends Cell Biol",
+    "pages": "410-7",
+    "pubMedIdentifier": 20452772,
+    "volume": 20,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20452772",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2064399,
+    "displayName": "Functional complexes between YAP2 and ZO-2 are PDZ domain-dependent, and regulate YAP2 nuclear localization and signalling",
+    "title": "Functional complexes between YAP2 and ZO-2 are PDZ domain-dependent, and regulate YAP2 nuclear localization and signalling",
+    "journal": "Biochem J",
+    "pages": "461-72",
+    "pubMedIdentifier": 20868367,
+    "volume": 432,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20868367",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2028593,
+    "displayName": "The hippo signaling pathway in development and cancer",
+    "title": "The hippo signaling pathway in development and cancer",
+    "journal": "Dev Cell",
+    "pages": "491-505",
+    "pubMedIdentifier": 20951342,
+    "volume": 19,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20951342",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2064419,
+    "displayName": "TAZ interacts with zonula occludens-1 and -2 proteins in a PDZ-1 dependent manner",
+    "title": "TAZ interacts with zonula occludens-1 and -2 proteins in a PDZ-1 dependent manner",
+    "journal": "FEBS Lett",
+    "pages": "4175-80",
+    "pubMedIdentifier": 20850437,
+    "volume": 584,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20850437",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2085535,
+    "displayName": "Modularity in the Hippo signaling pathway",
+    "title": "Modularity in the Hippo signaling pathway",
+    "journal": "Trends Biochem Sci",
+    "pages": "627-33",
+    "pubMedIdentifier": 20598891,
+    "volume": 35,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20598891",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2060329,
+    "displayName": "The Hippo pathway regulates Wnt/beta-catenin signaling",
+    "title": "The Hippo pathway regulates Wnt/beta-catenin signaling",
+    "journal": "Dev Cell",
+    "pages": "579-91",
+    "pubMedIdentifier": 20412773,
+    "volume": 18,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20412773",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2038404,
+    "displayName": "KIBRA regulates Hippo signaling activity via interactions with large tumor suppressor kinases",
+    "title": "KIBRA regulates Hippo signaling activity via interactions with large tumor suppressor kinases",
+    "journal": "J Biol Chem",
+    "pages": "7788-96",
+    "pubMedIdentifier": 21233212,
+    "volume": 286,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21233212",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2028641,
+    "displayName": "The Hippo-YAP pathway in organ size control and tumorigenesis: an updated version",
+    "title": "The Hippo-YAP pathway in organ size control and tumorigenesis: an updated version",
+    "journal": "Genes Dev",
+    "pages": "862-74",
+    "pubMedIdentifier": 20439427,
+    "volume": 24,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20439427",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10106824,
+    "displayName": "Signaling by Hippo",
+    "stId": "R-MMU-2028269",
+    "stIdVersion": "R-MMU-2028269.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by Hippo",
+     "Hippo signaling cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     2028269
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11058288,
+    "displayName": "Signaling by Hippo",
+    "stId": "R-DDI-2028269",
+    "stIdVersion": "R-DDI-2028269.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by Hippo",
+     "Hippo signaling cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     2028269
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11003063,
+    "displayName": "Signaling by Hippo",
+    "stId": "R-CEL-2028269",
+    "stIdVersion": "R-CEL-2028269.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by Hippo",
+     "Hippo signaling cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     2028269
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10920293,
+    "displayName": "Signaling by Hippo",
+    "stId": "R-DME-2028269",
+    "stIdVersion": "R-DME-2028269.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by Hippo",
+     "Hippo signaling cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     2028269
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10835058,
+    "displayName": "Signaling by Hippo",
+    "stId": "R-GGA-2028269",
+    "stIdVersion": "R-GGA-2028269.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by Hippo",
+     "Hippo signaling cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     2028269
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10737824,
+    "displayName": "Signaling by Hippo",
+    "stId": "R-XTR-2028269",
+    "stIdVersion": "R-XTR-2028269.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by Hippo",
+     "Hippo signaling cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     2028269
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10656788,
+    "displayName": "Signaling by Hippo",
+    "stId": "R-DRE-2028269",
+    "stIdVersion": "R-DRE-2028269.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by Hippo",
+     "Hippo signaling cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     2028269
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10230590,
+    "displayName": "Signaling by Hippo",
+    "stId": "R-RNO-2028269",
+    "stIdVersion": "R-RNO-2028269.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by Hippo",
+     "Hippo signaling cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     2028269
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10337335,
+    "displayName": "Signaling by Hippo",
+    "stId": "R-CFA-2028269",
+    "stIdVersion": "R-CFA-2028269.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by Hippo",
+     "Hippo signaling cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     2028269
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10451877,
+    "displayName": "Signaling by Hippo",
+    "stId": "R-BTA-2028269",
+    "stIdVersion": "R-BTA-2028269.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by Hippo",
+     "Hippo signaling cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     2028269
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10564817,
+    "displayName": "Signaling by Hippo",
+    "stId": "R-SSC-2028269",
+    "stIdVersion": "R-SSC-2028269.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by Hippo",
+     "Hippo signaling cascade"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     2028269
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 2028285,
+    "displayName": "Human Hippo signaling is a network of reactions that regulat...",
+    "text": "Human Hippo signaling is a network of reactions that regulates cell proliferation and apoptosis, centered on a three-step kinase cascade. The cascade was discovered by analysis of Drosophila mutations that lead to tissue overgrowth, and human homologues of its components have since been identified and characterized at a molecular level. Data from studies of mice carrying knockout mutant alleles of the genes as well as from studies of somatic mutations in these genes in human tumors are consistent with the conclusion that in mammals, as in flies, the Hippo cascade is required for normal regulation of cell proliferation and defects in the pathway are associated with cell overgrowth and tumorigenesis (Oh and Irvine 2010; Pan 2010; Zhao et al. 2010). This group of reactions is also notable for its abundance of protein:protein interactions mediated by WW domains and PPxY sequence motifs (Sudol and Harvey 2010).<p>There are two human homologues of each of the three Drosophila kinases, whose functions are well conserved: expression of human proteins rescues fly mutants. The two members of each pair of human homologues have biochemically indistinguishable functions. Autophosphorylated STK3 (MST2) and STK4 (MST1) (homologues of Drosophila Hippo) catalyze the phosphorylation and activation of LATS1 and LATS2 (homologues of Drosophila Warts) and of the accessory proteins MOB1A and MOB1B (homologues of Drosophila Mats). LATS1 and LATS2 in turn catalyze the phosphorylation of the transcriptional co-activators YAP1 and WWTR1 (TAZ) (homologues of Drosophila Yorkie).<p>In their unphosphorylated states, YAP1 and WWTR1 freely enter the nucleus and function as transcriptional co-activators. In their phosphorylated states, however, YAP1 and WWTR1 are instead bound by 14-3-3 proteins, YWHAB and YWHAE respectively, and sequestered in the cytosol.<p>Several accessory proteins are required for the three-step kinase cascade to function. STK3 (MST2) and STK4 (MST1) each form a complex with SAV1 (homologue of Drosophila Salvador), and LATS1 and LATS2 form complexes with MOB1A and MOB1B (homologues of Drosophila Mats).<p>In Drosophila a complex of three proteins, Kibra, Expanded, and Merlin, can trigger the Hippo cascade. A human homologue of Kibra, WWC1, has been identified and indirect evidence suggests that it can regulate the human Hippo pathway (Xiao et al. 2011). A molecular mechanism for this interaction has not yet been worked out and the molecular steps that trigger the Hippo kinase cascade in humans are unknown.<p>Four additional processes related to human Hippo signaling, although incompletely characterized, have been described in sufficient detail to allow their annotation. All are of physiological interest as they are likely to be parts of mechanisms by which Hippo signaling is modulated or functionally linked to other signaling processes. First, the caspase 3 protease cleaves STK3 (MST2) and STK4 (MST1), releasing inhibitory carboxyterminal domains in each case, leading to increased kinase activity and YAP1 / TAZ phosphorylation (Lee et al. 2001). Second, cytosolic AMOT (angiomotin) proteins can bind YAP1 and WWTR1 (TAZ) in their unphosphorylated states, a process that may provide a Hippo-independent mechanism to down-regulate the activities of these proteins (Chan et al. 2011). Third, WWTR1 (TAZ) and YAP1 bind ZO-1 and 2 proteins (Remue et al. 2010; Oka et al. 2010). Fourth, phosphorylated WWTR1 (TAZ) binds and sequesters DVL2, providing a molecular link between Hippo and Wnt signaling (Varelas et al. 2010).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/REACT_118607.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2023-03-29",
+  "hasEvent": [
+   {
+    "dbId": 2028591,
+    "displayName": "Phosphorylation of STK3 (MST2) and SAV1 by STK3",
+    "stId": "R-HSA-2028591",
+    "stIdVersion": "R-HSA-2028591.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of STK3 (MST2) and SAV1 by STK3"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028284,
+    "displayName": "Phosphorylation of STK4 (MST1) and SAV1 by STK4",
+    "stId": "R-HSA-2028284",
+    "stIdVersion": "R-HSA-2028284.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of STK4 (MST1) and SAV1 by STK4"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028697,
+    "displayName": "Cleavage of p-STK3 (p-MST2) by caspase 3",
+    "stId": "R-HSA-2028697",
+    "stIdVersion": "R-HSA-2028697.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Cleavage of p-STK3 (p-MST2) by caspase 3"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028692,
+    "displayName": "Cleavage of p-STK4 (p-MST1) by caspase 3",
+    "stId": "R-HSA-2028692",
+    "stIdVersion": "R-HSA-2028692.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Cleavage of p-STK4 (p-MST1) by caspase 3"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2038398,
+    "displayName": "KIBRA (WWC1) binds LATS proteins",
+    "stId": "R-HSA-2038398",
+    "stIdVersion": "R-HSA-2038398.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "KIBRA (WWC1) binds LATS proteins"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2059926,
+    "displayName": "NPHP4 protein binds LATS proteins",
+    "stId": "R-HSA-2059926",
+    "stIdVersion": "R-HSA-2059926.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NPHP4 protein binds LATS proteins"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028589,
+    "displayName": "Phosphorylation of LATS1 and 2 by p-STK3 (p-MST2)",
+    "stId": "R-HSA-2028589",
+    "stIdVersion": "R-HSA-2028589.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of LATS1 and 2 by p-STK3 (p-MST2)"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028673,
+    "displayName": "Phosphorylation of LATS1 and 2 by p-STK3 (MST2)/N",
+    "stId": "R-HSA-2028673",
+    "stIdVersion": "R-HSA-2028673.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of LATS1 and 2 by p-STK3 (MST2)/N"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028555,
+    "displayName": "Phosphorylation of LATS1 and 2 by p-STK4 (p-MST1)",
+    "stId": "R-HSA-2028555",
+    "stIdVersion": "R-HSA-2028555.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of LATS1 and 2 by p-STK4 (p-MST1)"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028679,
+    "displayName": "Phosphorylation of LATS1 and 2 by p-STK4(MST1)/N",
+    "stId": "R-HSA-2028679",
+    "stIdVersion": "R-HSA-2028679.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of LATS1 and 2 by p-STK4(MST1)/N"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028635,
+    "displayName": "Phosphorylation of MOB1A and B by p-STK3 (p-MST2)",
+    "stId": "R-HSA-2028635",
+    "stIdVersion": "R-HSA-2028635.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of MOB1A and B by p-STK3 (p-MST2)"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028675,
+    "displayName": "Phosphorylation of MOB1A and B by p-STK3(MST2)/N",
+    "stId": "R-HSA-2028675",
+    "stIdVersion": "R-HSA-2028675.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of MOB1A and B by p-STK3(MST2)/N"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028629,
+    "displayName": "Phosphorylation of MOB1A and B by p-STK4 (p-MST1)",
+    "stId": "R-HSA-2028629",
+    "stIdVersion": "R-HSA-2028629.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of MOB1A and B by p-STK4 (p-MST1)"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028670,
+    "displayName": "Phosphorylation of MOB1A and B by p-STK4(MST1)/N",
+    "stId": "R-HSA-2028670",
+    "stIdVersion": "R-HSA-2028670.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of MOB1A and B by p-STK4(MST1)/N"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028626,
+    "displayName": "Phosphorylated MOB1A proteins associate with LATS proteins",
+    "stId": "R-HSA-2028626",
+    "stIdVersion": "R-HSA-2028626.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylated MOB1A proteins associate with LATS proteins"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2032770,
+    "displayName": "Translocation of YAP1 to the nucleus",
+    "stId": "R-HSA-2032770",
+    "stIdVersion": "R-HSA-2032770.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Translocation of YAP1 to the nucleus"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2064421,
+    "displayName": "YAP1 binds ZO-2 (TJP2)",
+    "stId": "R-HSA-2064421",
+    "stIdVersion": "R-HSA-2064421.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "YAP1 binds ZO-2 (TJP2)"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2064406,
+    "displayName": "Translocation of YAP1:ZO-2 (TJP2) to the nucleus",
+    "stId": "R-HSA-2064406",
+    "stIdVersion": "R-HSA-2064406.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Translocation of YAP1:ZO-2 (TJP2) to the nucleus"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028724,
+    "displayName": "AMOT proteins bind YAP1",
+    "stId": "R-HSA-2028724",
+    "stIdVersion": "R-HSA-2028724.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AMOT proteins bind YAP1"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028598,
+    "displayName": "Phosphorylation of YAP by LATS1",
+    "stId": "R-HSA-2028598",
+    "stIdVersion": "R-HSA-2028598.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of YAP by LATS1"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028583,
+    "displayName": "Phosphorylation of YAP by LATS2",
+    "stId": "R-HSA-2028583",
+    "stIdVersion": "R-HSA-2028583.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of YAP by LATS2"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028644,
+    "displayName": "YWHAB (14-3-3 beta/alpha) dimer binds phosphorylated YAP1",
+    "stId": "R-HSA-2028644",
+    "stIdVersion": "R-HSA-2028644.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "YWHAB (14-3-3 beta/alpha) dimer binds phosphorylated YAP1"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2032768,
+    "displayName": "Translocation of WWTR1 (TAZ) to the nucleus",
+    "stId": "R-HSA-2032768",
+    "stIdVersion": "R-HSA-2032768.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Translocation of WWTR1 (TAZ) to the nucleus"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2064417,
+    "displayName": "WWTR1 (TAZ) binds ZO-1 (TJP1)",
+    "stId": "R-HSA-2064417",
+    "stIdVersion": "R-HSA-2064417.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "WWTR1 (TAZ) binds ZO-1 (TJP1)"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2064418,
+    "displayName": "WWTR1 (TAZ) binds ZO-2 (TJP2)",
+    "stId": "R-HSA-2064418",
+    "stIdVersion": "R-HSA-2064418.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "WWTR1 (TAZ) binds ZO-2 (TJP2)"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028735,
+    "displayName": "AMOT proteins bind WWTR1 (TAZ)",
+    "stId": "R-HSA-2028735",
+    "stIdVersion": "R-HSA-2028735.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AMOT proteins bind WWTR1 (TAZ)"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2060328,
+    "displayName": "Phosphorylation of WWTR1 (TAZ) by LATS1",
+    "stId": "R-HSA-2060328",
+    "stIdVersion": "R-HSA-2060328.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of WWTR1 (TAZ) by LATS1"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028661,
+    "displayName": "Phosphorylation of WWTR1 (TAZ) by LATS2",
+    "stId": "R-HSA-2028661",
+    "stIdVersion": "R-HSA-2028661.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of WWTR1 (TAZ) by LATS2"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2066299,
+    "displayName": "DVL2 binds phosphorylated WWTR1 (TAZ)",
+    "stId": "R-HSA-2066299",
+    "stIdVersion": "R-HSA-2066299.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "DVL2 binds phosphorylated WWTR1 (TAZ)"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2028651,
+    "displayName": "YWHAE (14-3-3 epsilon) dimer binds phosphorylated WWTR1 (TAZ)",
+    "stId": "R-HSA-2028651",
+    "stIdVersion": "R-HSA-2028651.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "YWHAE (14-3-3 epsilon) dimer binds phosphorylated WWTR1 (TAZ)"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2028269
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

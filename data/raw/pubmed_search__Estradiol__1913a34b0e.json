@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "Estradiol",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "Estradiol AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:21:21+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "2725",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "27566840",
+    "40260281",
+    "36308639"
+   ],
+   "translationset": [
+    {
+     "from": "Estradiol",
+     "to": "\"estradiol\"[Supplementary Concept] OR \"estradiol\"[All Fields] OR \"estradiols\"[All Fields] OR \"estradiol\"[MeSH Terms] OR \"estradiol's\"[All Fields] OR \"estradiole\"[All Fields] OR \"oestradiol\"[All Fields] OR \"oestradiols\"[All Fields]"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"estradiol\"[Supplementary Concept] OR \"estradiol\"[All Fields] OR \"estradiols\"[All Fields] OR \"estradiol\"[MeSH Terms] OR \"estradiol s\"[All Fields] OR \"estradiole\"[All Fields] OR \"oestradiol\"[All Fields] OR \"oestradiols\"[All Fields]) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

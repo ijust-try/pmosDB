@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "AOPEP",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "84909",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:37:49+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "84909"
+   ],
+   "84909": {
+    "uid": "84909",
+    "name": "AOPEP",
+    "description": "aminopeptidase O (putative)",
+    "status": "",
+    "currentid": "",
+    "chromosome": "9",
+    "geneticsource": "genomic",
+    "maplocation": "9q22.32",
+    "otheraliases": "AP-O, APO, C90RF3, C9orf3, DYT31, ONPEP",
+    "otherdesignations": "aminopeptidase O",
+    "nomenclaturesymbol": "AOPEP",
+    "nomenclaturename": "aminopeptidase O (putative)",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "619600"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "9",
+      "chraccver": "NC_000009.12",
+      "chrstart": 94726698,
+      "chrstop": 95150223,
+      "exoncount": 32
+     }
+    ],
+    "geneweight": 1056,
+    "summary": "This gene encodes a member of the M1 zinc aminopeptidase family. The encoded protein is a zinc-dependent metallopeptidase that catalyzes the removal of an amino acid from the amino terminus of a protein or peptide. This protein may play a role in the generation of angiotensin IV. Alternate splicing results in multiple transcript variants. [provided by RefSeq, Oct 2010]",
+    "chrsort": "09",
+    "chrstart": 94726698,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000009.12",
+      "chrstart": 94726698,
+      "chrstop": 95150223
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060933.1",
+      "chrstart": 106896012,
+      "chrstop": 107317675
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000009.12",
+      "chrstart": 94726698,
+      "chrstop": 95150223
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060933.1",
+      "chrstart": 106896012,
+      "chrstop": 107317675
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000009.12",
+      "chrstart": 94726698,
+      "chrstop": 95150223
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060933.1",
+      "chrstart": 106896012,
+      "chrstop": 107317675
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000009.12",
+      "chrstart": 94726698,
+      "chrstop": 95150223
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060933.1",
+      "chrstart": 106896012,
+      "chrstop": 107317675
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000009.12",
+      "chrstart": 94726698,
+      "chrstop": 95150223
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060933.1",
+      "chrstart": 106896012,
+      "chrstop": 107256551
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000009.12",
+      "chrstart": 94726668,
+      "chrstop": 95148263
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000009.11",
+      "chrstart": 97488980,
+      "chrstop": 97849440
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000009.11",
+      "chrstart": 97488980,
+      "chrstop": 97849440
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000009.11",
+      "chrstart": 97488885,
+      "chrstop": 97849499
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000141.1",
+      "chrstart": 67097488,
+      "chrstop": 67459052
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018920.2",
+      "chrstart": 97635389,
+      "chrstop": 97995977
+     }
+    ]
+   }
+  }
+ }
+}

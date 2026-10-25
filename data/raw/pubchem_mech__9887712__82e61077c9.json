@@ -1,0 +1,76 @@
+{
+ "source": "pubchem_mech",
+ "query": "9887712",
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/9887712/JSON",
+ "params": {
+  "heading": "Mechanism of Action"
+ },
+ "retrieved_at": "2026-10-12T09:44:17+00:00",
+ "response": {
+  "Record": {
+   "RecordType": "CID",
+   "RecordNumber": 9887712,
+   "RecordTitle": "Dapagliflozin",
+   "Section": [
+    {
+     "TOCHeading": "Pharmacology and Biochemistry",
+     "Description": "Pharmacology and biochemistry information related to this compound, including the pharmacodynamics, pharmacokinetics, metabolism, mechanism of action, biological half-life, biochemical reactions, and many others.",
+     "Section": [
+      {
+       "TOCHeading": "Mechanism of Action",
+       "Description": "In medicine, the term \"mechanism of action\" (also called MOA) is used to describe how a drug or other substance produces an effect in the body. For example, a drug's mechanism of action could be how it affects a specific target in a cell, such as an enzyme, or a cell function, such as cell growth. Knowing the mechanism of action of a drug may help provide information about the safety of the drug and how it affects the body. It may also help identify the right dose of a drug and which patients are most likely to respond to treatment.",
+       "Information": [
+        {
+         "ReferenceNumber": 9,
+         "Value": {
+          "StringWithMarkup": [
+           {
+            "String": "Dapagliflozin inhibits the sodium-glucose cotransporter 2(SGLT2) which is primarily located in the proximal tubule of the nephron. SGLT2 facilitates 90% of glucose reabsorption in the kidneys and so its inhibition allows for glucose to be excreted in the urine. This excretion allows for better glycemic control and potentially weight loss in patients with type 2 diabetes mellitus.",
+            "Markup": [
+             {
+              "Start": 0,
+              "Length": 13,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Dapagliflozin",
+              "Type": "PubChem Internal Link",
+              "Extra": "CID-9887712"
+             },
+             {
+              "Start": 156,
+              "Length": 7,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/glucose",
+              "Type": "PubChem Internal Link",
+              "Extra": "CID-5793"
+             },
+             {
+              "Start": 225,
+              "Length": 7,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/glucose",
+              "Type": "PubChem Internal Link",
+              "Extra": "CID-5793"
+             }
+            ]
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "Reference": [
+    {
+     "ReferenceNumber": 9,
+     "SourceName": "DrugBank",
+     "SourceID": "DB06292",
+     "Name": "Dapagliflozin",
+     "Description": "The DrugBank database is a unique bioinformatics and cheminformatics resource that combines detailed drug (i.e. chemical, pharmacological and pharmaceutical) data with comprehensive drug target (i.e. sequence, structure, and pathway) information.",
+     "URL": "https://go.drugbank.com/drugs/DB06292",
+     "LicenseNote": "Creative Common's Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses/by-nc/4.0/legalcode)",
+     "LicenseURL": "https://www.drugbank.ca/legal/terms_of_use",
+     "ANID": 3620614
+    }
+   ]
+  }
+ }
+}

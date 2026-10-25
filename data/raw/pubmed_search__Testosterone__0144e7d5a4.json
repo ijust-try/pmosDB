@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "Testosterone",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "Testosterone AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:21:15+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "5964",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "19390322",
+    "36628439",
+    "32436742"
+   ],
+   "translationset": [
+    {
+     "from": "Testosterone",
+     "to": "\"testosterone\"[Supplementary Concept] OR \"testosterone\"[All Fields] OR \"testosteron\"[All Fields] OR \"testosterone\"[MeSH Terms] OR \"testosterones\"[All Fields] OR \"testosterone's\"[All Fields]"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"testosterone\"[Supplementary Concept] OR \"testosterone\"[All Fields] OR \"testosteron\"[All Fields] OR \"testosterone\"[MeSH Terms] OR \"testosterones\"[All Fields] OR \"testosterone s\"[All Fields]) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

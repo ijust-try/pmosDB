@@ -1,0 +1,713 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-1227986",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-1227986",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:36:38+00:00",
+ "response": {
+  "dbId": 1227986,
+  "displayName": "Signaling by ERBB2",
+  "stId": "R-HSA-1227986",
+  "stIdVersion": "R-HSA-1227986.10",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 4,
+  "name": [
+   "Signaling by ERBB2"
+  ],
+  "releaseDate": "2011-12-06",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12828976,
+    "displayName": "BioModels Database:BIOMD0000000255",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000255",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000255",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828982,
+    "displayName": "BioModels Database:BIOMD0000000175",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000175",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000175",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828942,
+    "displayName": "BioModels Database:BIOMD0000000883",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000883",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000883",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828996,
+    "displayName": "BioModels Database:BIOMD0000000424",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000424",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000424",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 984,
+    "displayName": "extracellular region",
+    "accession": "0005576",
+    "databaseName": "GO",
+    "definition": "The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite.",
+    "name": "extracellular region",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005576",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "figure": [
+   {
+    "dbId": 2291886,
+    "displayName": "/figures/Pathway_Illustrations/ERBB2_72_oicr.png",
+    "url": "/figures/Pathway_Illustrations/ERBB2_72_oicr.png",
+    "className": "Figure",
+    "schemaClass": "Figure"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 2266273,
+   "displayName": "ERBB2 signaling pathway",
+   "accession": "0038128",
+   "databaseName": "GO",
+   "definition": "The series of molecular signals initiated by binding of a ligand to the tyrosine kinase receptor ERBB2 on the surface of a cell. The pathway ends with regulation of a downstream cellular process, e.g. transcription. ERBB2 receptors are themselves unable to bind to ligands, but act as a signal-amplifying tyrosine kinase within a heterodimeric pair.",
+   "name": "ERBB2 signaling pathway",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0038128",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "orthologousEvent": [
+   {
+    "dbId": 10106606,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-MMU-1227986",
+    "stIdVersion": "R-MMU-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10737638,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-XTR-1227986",
+    "stIdVersion": "R-XTR-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10834836,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-GGA-1227986",
+    "stIdVersion": "R-GGA-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11002921,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-CEL-1227986",
+    "stIdVersion": "R-CEL-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10656572,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-DRE-1227986",
+    "stIdVersion": "R-DRE-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10564601,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-SSC-1227986",
+    "stIdVersion": "R-SSC-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10337125,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-CFA-1227986",
+    "stIdVersion": "R-CFA-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10230376,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-RNO-1227986",
+    "stIdVersion": "R-RNO-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11058194,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-DDI-1227986",
+    "stIdVersion": "R-DDI-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11087926,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-SPO-1227986",
+    "stIdVersion": "R-SPO-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10451659,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-BTA-1227986",
+    "stIdVersion": "R-BTA-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10920101,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-DME-1227986",
+    "stIdVersion": "R-DME-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 1361844,
+    "displayName": "ERBB2, also known as HER2 or NEU, is a receptor tyrosine kin...",
+    "text": "ERBB2, also known as HER2 or NEU, is a receptor tyrosine kinase (RTK) belonging to the EGFR family. ERBB2 possesses an extracellular domain that does not bind any known ligand, contrary to other EGFR family members, a single transmembrane domain, and an intracellular domain consisting of an active kinase and a C-tail with multiple tyrosine phosphorylation sites. Inactive ERBB2 is associated with a chaperone heat shock protein 90 (HSP90) and its co-chaperone CDC37 (Xu et al. 2001, Citri et al. 2004, Xu et al. 2005). In addition, ERBB2 is associated with ERBB2IP (also known as ERBIN or LAP2), a protein responsible for proper localization of ERBB2. In epithelial cells, ERBB2IP restricts expression of ERBB2 to basolateral plasma membrane regions (Borg et al. 2000).<br><br>\nERBB2 becomes activated by forming a heterodimer with another ligand-activated EGFR family member, either EGFR, ERBB3 or ERBB4, which is accompanied by dissociation of chaperoning proteins HSP90 and CDC37 (Citri et al. 2004), as well as ERBB2IP (Borg et al. 2000) from ERBB2. ERBB2 heterodimers function to promote cell proliferation, cell survival and differentiation, depending on the cellular context. ERBB2 can also be activated by homodimerization when it is overexpressed, in cancer for example. <br><br>\nIn cells expressing both ERBB2 and EGFR, EGF stimulation of EGFR leads to formation of both ERBB2:EGFR heterodimers (Wada et al. 1990, Karunagaran et al. 1996) and EGFR homodimers. Heterodimers of ERBB2 and EGFR trans-autophosphorylate on twelve tyrosine residues, six in the C-tail of EGFR and six in the C-tail of ERBB2 - Y1023, Y1139, Y1196, Y1221, Y1222 and Y1248 (Margolis et al. 1989, Hazan et al. 1990,Walton et  al. 1990, Helin et al. 1991, Ricci et al. 1995, Pinkas-Kramarski 1996). Phosphorylated tyrosine residues in the C-tail of EGFR and ERBB2 serve as docking sites for downstream signaling molecules. Three key signaling pathways activated by ERBB2:EGFR heterodimers are RAF/MAP kinase cascade, PI3K-induced AKT signaling, and signaling by phospholipase C gamma (PLCG1). Downregulation of EGFR signaling is mediated by ubiquitin ligase CBL, and is shown under Signaling by EGFR.<br><br>\nIn cells expressing ERBB2 and ERBB3, ERBB3 activated by neuregulin NRG1 or NRG2 binding (Tzahar et al. 1994) forms a heterodimer with ERBB2 (Pinkas-Kramarski et al. 1996, Citri et al. 2004). ERBB3 is the only EGFR family member with no kinase activity, and can only function in heterodimers, with ERBB2 being its preferred heterodimerization partner. After heterodimerization, ERBB2 phosphorylates ten tyrosine residues in the C-tail of ERBB3, Y1054, Y1197, Y1199, Y1222, Y1224, Y1260, Y1262, Y1276, Y1289 and Y1328 (Prigent et al. 1994, Pinkas-Kramarski et al. 1996, Vijapurkar et al. 2003, Li et al. 2007) that subsequently serve as docking sites for downstream signaling molecules, resulting in activation of PI3K-induced AKT signaling and RAF/MAP kinase cascade. Signaling by ERBB3 is downregulated by the action of RNF41 ubiquitin ligase, also known as NRDP1. <br><br>\nIn cells expressing ERBB2 and ERBB4, ligand stimulated ERBB4 can either homodimerize or form heterodimers with ERBB2 (Li et al. 2007), resulting in trans-autophosphorylation of ERBB2 and ERBB4 on C-tail tyrosine residues that will subsequently serve as docking sites for downstream signaling molecules, leading to activation of RAF/MAP kinase cascade and, in the case of ERBB4 CYT1 isoforms, PI3K-induced AKT signaling (Hazan et al. 1990, Cohen et al. 1996, Li et al. 2007, Kaushansky et al. 2008). Signaling by ERBB4 is downregulated by the action of WWP1 and ITCH ubiquitin ligases, and is shown under Signaling by ERBB4.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2019-12-10",
+  "hasEvent": [
+   {
+    "dbId": 1247497,
+    "displayName": "ERBB3 binds neuregulins",
+    "stId": "R-HSA-1247497",
+    "stIdVersion": "R-HSA-1247497.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ERBB3 binds neuregulins"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1227986
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1963589,
+    "displayName": "ERBB2 forms heterodimers with ligand-activated ERBB receptors: EGFR, ERBB3 and ERBB4",
+    "stId": "R-HSA-1963589",
+    "stIdVersion": "R-HSA-1963589.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ERBB2 forms heterodimers with ligand-activated ERBB receptors: EGFR, ERBB3 and ERBB4"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1227986
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1963586,
+    "displayName": "SRC family kinases phosphorylate ERBB2",
+    "stId": "R-HSA-1963586",
+    "stIdVersion": "R-HSA-1963586.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SRC family kinases phosphorylate ERBB2"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1227986
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1963581,
+    "displayName": "Trans-autophosphorylation of p-Y877-ERBB2 heterodimers",
+    "stId": "R-HSA-1963581",
+    "stIdVersion": "R-HSA-1963581.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Trans-autophosphorylation of p-Y877-ERBB2 heterodimers"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1227986
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1963582,
+    "displayName": "Trans-autophosphorylation of ERBB2 heterodimers",
+    "stId": "R-HSA-1963582",
+    "stIdVersion": "R-HSA-1963582.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Trans-autophosphorylation of ERBB2 heterodimers"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1227986
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1250196,
+    "displayName": "SHC1 events in ERBB2 signaling",
+    "stId": "R-HSA-1250196",
+    "stIdVersion": "R-HSA-1250196.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "SHC1 events in ERBB2 signaling"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1227986
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2019-09-09",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 1963640,
+    "displayName": "GRB2 events in ERBB2 signaling",
+    "stId": "R-HSA-1963640",
+    "stIdVersion": "R-HSA-1963640.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "GRB2 events in ERBB2 signaling"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1227986
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2019-09-09",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 1963642,
+    "displayName": "PI3K events in ERBB2 signaling",
+    "stId": "R-HSA-1963642",
+    "stIdVersion": "R-HSA-1963642.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "PI3K events in ERBB2 signaling"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1227986
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2019-09-09",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 1251932,
+    "displayName": "PLCG1 events in ERBB2 signaling",
+    "stId": "R-HSA-1251932",
+    "stIdVersion": "R-HSA-1251932.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "PLCG1 events in ERBB2 signaling"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1227986
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2019-09-09",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 1306955,
+    "displayName": "GRB7 events in ERBB2 signaling",
+    "stId": "R-HSA-1306955",
+    "stIdVersion": "R-HSA-1306955.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "GRB7 events in ERBB2 signaling"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1227986
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2017-12-18",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 6785631,
+    "displayName": "ERBB2 Regulates Cell Motility",
+    "stId": "R-HSA-6785631",
+    "stIdVersion": "R-HSA-6785631.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "ERBB2 Regulates Cell Motility"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1227986
+    ],
+    "doi": "10.3180/r-hsa-6785631.1",
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 8847993,
+    "displayName": "ERBB2 Activates PTK6 Signaling",
+    "stId": "R-HSA-8847993",
+    "stIdVersion": "R-HSA-8847993.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "ERBB2 Activates PTK6 Signaling"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1227986
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 8863795,
+    "displayName": "Downregulation of ERBB2 signaling",
+    "stId": "R-HSA-8863795",
+    "stIdVersion": "R-HSA-8863795.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 3,
+    "name": [
+     "Downregulation of ERBB2 signaling"
+    ],
+    "releaseDate": "2016-09-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1227986
+    ],
+    "doi": "10.3180/R-HSA-8863795.1",
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 9652282,
+    "displayName": "Drug-mediated inhibition of ERBB2 signaling",
+    "stId": "R-HSA-9652282",
+    "stIdVersion": "R-HSA-9652282.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Drug-mediated inhibition of ERBB2 signaling"
+    ],
+    "releaseDate": "2019-12-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1227986
+    ],
+    "doi": "10.3180/R-HSA-9652282.2",
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

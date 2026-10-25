@@ -1,0 +1,790 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-6811558",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-6811558",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:19:57+00:00",
+ "response": {
+  "dbId": 6811558,
+  "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+  "stId": "R-HSA-6811558",
+  "stIdVersion": "R-HSA-6811558.5",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+  ],
+  "releaseDate": "2016-03-23",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12828976,
+    "displayName": "BioModels Database:BIOMD0000000255",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000255",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000255",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828944,
+    "displayName": "BioModels Database:BIOMD0000000653",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000653",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000653",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828946,
+    "displayName": "BioModels Database:BIOMD0000000656",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000656",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000656",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828948,
+    "displayName": "BioModels Database:BIOMD0000000648",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000648",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000648",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828952,
+    "displayName": "BioModels Database:BIOMD0000000655",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000655",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000655",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828954,
+    "displayName": "BioModels Database:BIOMD0000000652",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000652",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000652",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828942,
+    "displayName": "BioModels Database:BIOMD0000000883",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000883",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000883",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828956,
+    "displayName": "BioModels Database:BIOMD0000000654",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000654",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000654",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 262291,
+   "displayName": "regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+   "accession": "0051896",
+   "databaseName": "GO",
+   "definition": "Any process that modulates the frequency, rate or extent of phosphatidylinositol 3-kinase/protein kinase B signal transduction.",
+   "name": "regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0051896",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 1675860,
+    "displayName": "A new pathway for synthesis of phosphatidylinositol-4,5-bisphosphate",
+    "title": "A new pathway for synthesis of phosphatidylinositol-4,5-bisphosphate",
+    "journal": "Nature",
+    "pages": "192-6",
+    "pubMedIdentifier": 9367159,
+    "volume": 390,
+    "year": 1997,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9367159",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1675816,
+    "displayName": "Localization of phosphatidylinositol phosphate kinase IIgamma in kidney to a membrane trafficking compartment within specialized cells of the nephron",
+    "title": "Localization of phosphatidylinositol phosphate kinase IIgamma in kidney to a membrane trafficking compartment within specialized cells of the nephron",
+    "journal": "Am J Physiol Renal Physiol",
+    "pages": "F1422-30",
+    "pubMedIdentifier": 18753295,
+    "volume": 295,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18753295",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1676156,
+    "displayName": "Localization, regulation and function of type II phosphatidylinositol 5-phosphate 4-kinases",
+    "title": "Localization, regulation and function of type II phosphatidylinositol 5-phosphate 4-kinases",
+    "journal": "Adv Enzyme Regul",
+    "pages": "12-8",
+    "pubMedIdentifier": 19896968,
+    "volume": 50,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19896968",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6808603,
+    "displayName": "Evolutionarily conserved structural changes in phosphatidylinositol 5-phosphate 4-kinase (PI5P4K) isoforms are responsible for differences in enzyme activity and localization",
+    "title": "Evolutionarily conserved structural changes in phosphatidylinositol 5-phosphate 4-kinase (PI5P4K) isoforms are responsible for differences in enzyme activity and localization",
+    "journal": "Biochem. J.",
+    "pages": "49-57",
+    "pubMedIdentifier": 23758345,
+    "volume": 454,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23758345",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6808611,
+    "displayName": "The function of phosphatidylinositol 5-phosphate 4-kinase Î³ (PI5P4KÎ³) explored using a specific inhibitor that targets the PI5P-binding site",
+    "title": "The function of phosphatidylinositol 5-phosphate 4-kinase Î³ (PI5P4KÎ³) explored using a specific inhibitor that targets the PI5P-binding site",
+    "journal": "Biochem. J.",
+    "pages": "359-67",
+    "pubMedIdentifier": 25495341,
+    "volume": 466,
+    "year": 2015,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25495341",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2327862,
+    "displayName": "A frequent kinase domain mutation that changes the interaction between PI3Kalpha and the membrane",
+    "title": "A frequent kinase domain mutation that changes the interaction between PI3Kalpha and the membrane",
+    "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+    "pages": "16996-7001",
+    "pubMedIdentifier": 19805105,
+    "volume": 106,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19805105",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2327861,
+    "displayName": "Dynamics of the phosphoinositide 3-kinase p110? interaction with p85? and membranes reveals aspects of regulation distinct from p110?",
+    "title": "Dynamics of the phosphoinositide 3-kinase p110? interaction with p85? and membranes reveals aspects of regulation distinct from p110?",
+    "journal": "Structure",
+    "pages": "1127-37",
+    "pubMedIdentifier": 21827948,
+    "volume": 19,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21827948",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1675808,
+    "displayName": "Phosphatidylinositol-4-phosphate 5-kinase isozymes catalyze the synthesis of 3-phosphate-containing phosphatidylinositol signaling molecules",
+    "title": "Phosphatidylinositol-4-phosphate 5-kinase isozymes catalyze the synthesis of 3-phosphate-containing phosphatidylinositol signaling molecules",
+    "journal": "J Biol Chem",
+    "pages": "17756-61",
+    "pubMedIdentifier": 9211928,
+    "volume": 272,
+    "year": 1997,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9211928",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 480180,
+    "displayName": "Recruitment and regulation of phosphatidylinositol phosphate kinase type 1 gamma by the FERM domain of talin",
+    "title": "Recruitment and regulation of phosphatidylinositol phosphate kinase type 1 gamma by the FERM domain of talin",
+    "journal": "Nature",
+    "pages": "85-9",
+    "pubMedIdentifier": 12422219,
+    "volume": 420,
+    "year": 2002,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12422219",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2206317,
+    "displayName": "Phospholipase D signaling: orchestration by PIP2 and small GTPases",
+    "title": "Phospholipase D signaling: orchestration by PIP2 and small GTPases",
+    "journal": "Naunyn Schmiedebergs Arch Pharmacol",
+    "pages": "399-411",
+    "pubMedIdentifier": 17245604,
+    "volume": 374,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17245604",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2206316,
+    "displayName": "Regulation and cellular roles of phosphoinositide 5-kinases",
+    "title": "Regulation and cellular roles of phosphoinositide 5-kinases",
+    "journal": "Eur J Pharmacol",
+    "pages": "87-99",
+    "pubMedIdentifier": 15464023,
+    "volume": 500,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15464023",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1676136,
+    "displayName": "A role for PtdIns(4,5)P2 and PIP5Kalpha in regulating stress-induced apoptosis",
+    "title": "A role for PtdIns(4,5)P2 and PIP5Kalpha in regulating stress-induced apoptosis",
+    "journal": "Curr Biol",
+    "pages": "1850-6",
+    "pubMedIdentifier": 16979564,
+    "volume": 16,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16979564",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6811518,
+    "displayName": "PtdIns5P protects Akt from dephosphorylation through PP2A inhibition",
+    "title": "PtdIns5P protects Akt from dephosphorylation through PP2A inhibition",
+    "journal": "Biochem. Biophys. Res. Commun.",
+    "pages": "127-31",
+    "pubMedIdentifier": 19576174,
+    "volume": 387,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19576174",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 199957,
+    "displayName": "B56-containing PP2A dephosphorylate ERK and their activity is controlled by the early gene IEX-1 and ERK",
+    "title": "B56-containing PP2A dephosphorylate ERK and their activity is controlled by the early gene IEX-1 and ERK",
+    "journal": "EMBO J",
+    "pages": "727-38",
+    "pubMedIdentifier": 16456541,
+    "volume": 25,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16456541",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6811494,
+    "displayName": "Inhibition of B56-containing protein phosphatase 2As by the early response gene IEX-1 leads to control of Akt activity",
+    "title": "Inhibition of B56-containing protein phosphatase 2As by the early response gene IEX-1 leads to control of Akt activity",
+    "journal": "J. Biol. Chem.",
+    "pages": "5468-77",
+    "pubMedIdentifier": 17200115,
+    "volume": 282,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17200115",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10106762,
+    "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+    "stId": "R-MMU-6811558",
+    "stIdVersion": "R-MMU-6811558.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     6811558
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10230528,
+    "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+    "stId": "R-RNO-6811558",
+    "stIdVersion": "R-RNO-6811558.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     6811558
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10337273,
+    "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+    "stId": "R-CFA-6811558",
+    "stIdVersion": "R-CFA-6811558.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     6811558
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10451813,
+    "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+    "stId": "R-BTA-6811558",
+    "stIdVersion": "R-BTA-6811558.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     6811558
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10564755,
+    "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+    "stId": "R-SSC-6811558",
+    "stIdVersion": "R-SSC-6811558.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     6811558
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10656716,
+    "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+    "stId": "R-DRE-6811558",
+    "stIdVersion": "R-DRE-6811558.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     6811558
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10737770,
+    "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+    "stId": "R-XTR-6811558",
+    "stIdVersion": "R-XTR-6811558.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     6811558
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10834990,
+    "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+    "stId": "R-GGA-6811558",
+    "stIdVersion": "R-GGA-6811558.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     6811558
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10920229,
+    "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+    "stId": "R-DME-6811558",
+    "stIdVersion": "R-DME-6811558.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     6811558
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11003027,
+    "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+    "stId": "R-CEL-6811558",
+    "stIdVersion": "R-CEL-6811558.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     6811558
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11058254,
+    "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+    "stId": "R-DDI-6811558",
+    "stIdVersion": "R-DDI-6811558.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     6811558
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11087418,
+    "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+    "stId": "R-SPO-6811558",
+    "stIdVersion": "R-SPO-6811558.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     6811558
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11115832,
+    "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+    "stId": "R-SCE-6811558",
+    "stIdVersion": "R-SCE-6811558.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     6811558
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11137022,
+    "displayName": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+    "stId": "R-PFA-6811558",
+    "stIdVersion": "R-PFA-6811558.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     6811558
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 6811565,
+    "displayName": "Phosphatidylinositol-5-phosphate (PI5P) may modulate PI3K/AK...",
+    "text": "Phosphatidylinositol-5-phosphate (PI5P) may modulate PI3K/AKT signaling in several ways. PI5P is used as a substrate for production of phosphatidylinositol-4,5-bisphosphate, PI(4,5)P2 (Rameh et al. 1997, Clarke et al. 2008, Clarke et al. 2010, Clarke and Irvine 2013, Clarke et al. 2015), which serves as a substrate for activated PI3K, resulting in the production of PIP3 (Mandelker et al. 2009, Burke et al. 2011). The majority of PI(4,5)P2 in the cell, however, is produced from the phosphatidylinositol-4-phosphate (PI4P) substrate (Zhang et al. 1997, Di Paolo et al. 2002, Oude Weernink et al. 2004, Halstead et al. 2006, Oude Weernink et al. 2007). PIP3 is necessary for the activating phosphorylation of AKT. AKT1 can be deactivated by the protein phosphatase 2A (PP2A) complex that contains a regulatory subunit B56-beta (PPP2R5B) or B56-gamma (PPP2R5C). PI5P inhibits AKT1 dephosphorylation by PP2A through an unknown mechanism (Ramel et al. 2009). Increased PI5P levels correlate with inhibitory phosphorylation(s) of the PP2A complex. MAPK1 (ERK2) and MAPK3 (ERK1) are involved in inhibitory phosphorylation of PP2A, in a process that involves IER3 (IEX-1) (Letourneux et al. 2006, Rocher et al. 2007). It is uncertain, however, whether PI5P is in any way involved in ERK-mediated phosphorylation of PP2A or if it regulates another PP2A kinase.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/r-hsa-6811558.1",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2017-06-22",
+  "hasEvent": [
+   {
+    "dbId": 1676082,
+    "displayName": "PI4P is phosphorylated to PI(4,5)P2 by PIP5K1A-C at the plasma membrane",
+    "stId": "R-HSA-1676082",
+    "stIdVersion": "R-HSA-1676082.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PI4P is phosphorylated to PI(4,5)P2 by PIP5K1A-C at the plasma membrane"
+    ],
+    "releaseDate": "2012-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6811558
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1675776,
+    "displayName": "PI5P is phosphorylated to PI(4,5)P2 by PIP4K2 dimers at the plasma membrane",
+    "stId": "R-HSA-1675776",
+    "stIdVersion": "R-HSA-1675776.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PI5P is phosphorylated to PI(4,5)P2 by PIP4K2 dimers at the plasma membrane"
+    ],
+    "releaseDate": "2012-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6811558
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2316434,
+    "displayName": "PI3K phosphorylates PIP2 to PIP3",
+    "stId": "R-HSA-2316434",
+    "stIdVersion": "R-HSA-2316434.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PI3K phosphorylates PIP2 to PIP3"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6811558
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6811504,
+    "displayName": "AKT1 dephosphorylation by PP2A-B56-beta,gamma",
+    "stId": "R-HSA-6811504",
+    "stIdVersion": "R-HSA-6811504.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AKT1 dephosphorylation by PP2A-B56-beta,gamma"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6811558
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8857925,
+    "displayName": "Inhibition of PP2A activity by phosphorylation of the catalytic subunit at tyrosine Y307",
+    "stId": "R-HSA-8857925",
+    "stIdVersion": "R-HSA-8857925.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Inhibition of PP2A activity by phosphorylation of the catalytic subunit at tyrosine Y307"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6811558
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6811472,
+    "displayName": "IER3 recruits MAPKs to PP2A-B56-beta,gamma",
+    "stId": "R-HSA-6811472",
+    "stIdVersion": "R-HSA-6811472.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IER3 recruits MAPKs to PP2A-B56-beta,gamma",
+     "IEX1 recruits ERKs to PP2A"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6811558
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6811454,
+    "displayName": "MAPKs phosphorylate PP2A",
+    "stId": "R-HSA-6811454",
+    "stIdVersion": "R-HSA-6811454.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "MAPKs phosphorylate PP2A"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6811558
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

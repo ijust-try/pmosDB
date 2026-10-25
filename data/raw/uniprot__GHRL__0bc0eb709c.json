@@ -1,0 +1,195 @@
+{
+ "source": "uniprot",
+ "query": "GHRL",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:GHRL) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:43:31+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q9UBU3",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Appetite-regulating hormone"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Growth hormone secretagogue"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Growth hormone-releasing peptide"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Motilin-related peptide"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Protein M46"
+       }
+      }
+     ],
+     "contains": [
+      {
+       "recommendedName": {
+        "fullName": {
+         "value": "Ghrelin-27"
+        }
+       }
+      },
+      {
+       "recommendedName": {
+        "fullName": {
+         "value": "Ghrelin-28"
+        },
+        "shortNames": [
+         {
+          "value": "Ghrelin"
+         }
+        ]
+       }
+      },
+      {
+       "recommendedName": {
+        "fullName": {
+         "value": "Obestatin"
+        }
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "GHRL"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11306336"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "35027551"
+         }
+        ],
+        "value": "Precursor of the appetite-regulating peptide ghrelin, including ghrelin-27 and ghrelin-28"
+       }
+      ],
+      "commentType": "FUNCTION"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10604470"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11739476"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "35027551"
+         }
+        ],
+        "value": "Ghrelin is the ligand for growth hormone secretagogue receptor type 1 (GHSR) (PubMed:10604470, PubMed:35027551). Induces the release of growth hormone from the pituitary (PubMed:10604470). Has an appetite-stimulating effect, induces adiposity and stimulates gastric acid secretion (PubMed:11739476). Involved in growth regulation (PubMed:10604470)"
+       }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "Ghrelin-27"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10604470"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11306336"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11739476"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "35027551"
+         }
+        ],
+        "value": "Ghrelin is the ligand for growth hormone secretagogue receptor type 1 (GHSR) (PubMed:10604470, PubMed:35027551). Octanoylated ghrelin-28 is the most commonly found ghrelin and octanoylation is essential for the activation of the growth hormone secretagogue receptor type 1 (GHSR) (PubMed:11306336, PubMed:35027551). Induces the release of growth hormone from the pituitary (PubMed:10604470). Has an appetite-stimulating effect, induces adiposity and stimulates gastric acid secretion (PubMed:11739476). Involved in growth regulation (PubMed:10604470)"
+       }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "Ghrelin-28"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q9QYH7"
+         }
+        ],
+        "value": "May have an appetite-reducing effect resulting in decreased food intake (By similarity). May reduce gastric emptying activity and jejunal motility (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "Obestatin"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "51738",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00000362D3"
+    }
+   }
+  ]
+ }
+}

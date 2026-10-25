@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "Cortisol",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "Cortisol AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:43:09+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "491",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "39797110",
+    "39521272",
+    "38287831"
+   ],
+   "translationset": [
+    {
+     "from": "Cortisol",
+     "to": "\"cortisol's\"[All Fields] OR \"cortisole\"[All Fields] OR \"hydrocortisone\"[Supplementary Concept] OR \"hydrocortisone\"[All Fields] OR \"cortisol\"[All Fields] OR \"hydrocortisone\"[MeSH Terms] OR \"cortisols\"[All Fields]"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"cortisol s\"[All Fields] OR \"cortisole\"[All Fields] OR \"hydrocortisone\"[Supplementary Concept] OR \"hydrocortisone\"[All Fields] OR \"cortisol\"[All Fields] OR \"hydrocortisone\"[MeSH Terms] OR \"cortisols\"[All Fields]) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

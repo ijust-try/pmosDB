@@ -1,0 +1,572 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-74752",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-74752",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:20:01+00:00",
+ "response": {
+  "dbId": 74752,
+  "displayName": "Signaling by Insulin receptor",
+  "stId": "R-HSA-74752",
+  "stIdVersion": "R-HSA-74752.4",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 7,
+  "name": [
+   "Signaling by Insulin receptor",
+   "Insulin receptor mediated signaling"
+  ],
+  "releaseDate": "2003-11-03",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12829192,
+    "displayName": "BioModels Database:BIOMD0000000448",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000448",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000448",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12829196,
+    "displayName": "BioModels Database:BIOMD0000000137",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000137",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000137",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828978,
+    "displayName": "BioModels Database:BIOMD0000000581",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000581",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000581",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12829190,
+    "displayName": "BioModels Database:BIOMD0000000449",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000449",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000449",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12829162,
+    "displayName": "BioModels Database:BIOMD0000000356",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000356",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000356",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12829198,
+    "displayName": "BioModels Database:BIOMD0000000343",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000343",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000343",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "figure": [
+   {
+    "dbId": 1996281,
+    "displayName": "/figures/Pathway_Illustrations/INR_72_oicr.png",
+    "url": "/figures/Pathway_Illustrations/INR_72_oicr.png",
+    "className": "Figure",
+    "schemaClass": "Figure"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 23727,
+   "displayName": "insulin receptor signaling pathway",
+   "accession": "0008286",
+   "databaseName": "GO",
+   "definition": "The series of molecular signals generated as a consequence of the insulin receptor binding to insulin.",
+   "name": "insulin receptor signaling pathway",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0008286",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 76076,
+    "displayName": "The insulin signaling system.",
+    "title": "The insulin signaling system.",
+    "journal": "J Biol Chem",
+    "pages": "1-4",
+    "pubMedIdentifier": 8276779,
+    "volume": 269,
+    "year": 1994,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8276779",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10104668,
+    "displayName": "Signaling by Insulin receptor",
+    "stId": "R-MMU-74752",
+    "stIdVersion": "R-MMU-74752.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 7,
+    "name": [
+     "Signaling by Insulin receptor",
+     "Insulin receptor mediated signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     74752
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10335277,
+    "displayName": "Signaling by Insulin receptor",
+    "stId": "R-CFA-74752",
+    "stIdVersion": "R-CFA-74752.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 7,
+    "name": [
+     "Signaling by Insulin receptor",
+     "Insulin receptor mediated signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     74752
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10654864,
+    "displayName": "Signaling by Insulin receptor",
+    "stId": "R-DRE-74752",
+    "stIdVersion": "R-DRE-74752.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 7,
+    "name": [
+     "Signaling by Insulin receptor",
+     "Insulin receptor mediated signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     74752
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11086560,
+    "displayName": "Signaling by Insulin receptor",
+    "stId": "R-SPO-74752",
+    "stIdVersion": "R-SPO-74752.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "Signaling by Insulin receptor",
+     "Insulin receptor mediated signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     74752
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11057130,
+    "displayName": "Signaling by Insulin receptor",
+    "stId": "R-DDI-74752",
+    "stIdVersion": "R-DDI-74752.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 7,
+    "name": [
+     "Signaling by Insulin receptor",
+     "Insulin receptor mediated signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     74752
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11136412,
+    "displayName": "Signaling by Insulin receptor",
+    "stId": "R-PFA-74752",
+    "stIdVersion": "R-PFA-74752.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 7,
+    "name": [
+     "Signaling by Insulin receptor",
+     "Insulin receptor mediated signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     74752
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11114996,
+    "displayName": "Signaling by Insulin receptor",
+    "stId": "R-SCE-74752",
+    "stIdVersion": "R-SCE-74752.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 7,
+    "name": [
+     "Signaling by Insulin receptor",
+     "Insulin receptor mediated signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     74752
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11001565,
+    "displayName": "Signaling by Insulin receptor",
+    "stId": "R-CEL-74752",
+    "stIdVersion": "R-CEL-74752.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 7,
+    "name": [
+     "Signaling by Insulin receptor",
+     "Insulin receptor mediated signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     74752
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10918589,
+    "displayName": "Signaling by Insulin receptor",
+    "stId": "R-DME-74752",
+    "stIdVersion": "R-DME-74752.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "Signaling by Insulin receptor",
+     "Insulin receptor mediated signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     74752
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10833032,
+    "displayName": "Signaling by Insulin receptor",
+    "stId": "R-GGA-74752",
+    "stIdVersion": "R-GGA-74752.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 7,
+    "name": [
+     "Signaling by Insulin receptor",
+     "Insulin receptor mediated signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     74752
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10735994,
+    "displayName": "Signaling by Insulin receptor",
+    "stId": "R-XTR-74752",
+    "stIdVersion": "R-XTR-74752.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 7,
+    "name": [
+     "Signaling by Insulin receptor",
+     "Insulin receptor mediated signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     74752
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10562753,
+    "displayName": "Signaling by Insulin receptor",
+    "stId": "R-SSC-74752",
+    "stIdVersion": "R-SSC-74752.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 7,
+    "name": [
+     "Signaling by Insulin receptor",
+     "Insulin receptor mediated signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     74752
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10449757,
+    "displayName": "Signaling by Insulin receptor",
+    "stId": "R-BTA-74752",
+    "stIdVersion": "R-BTA-74752.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 7,
+    "name": [
+     "Signaling by Insulin receptor",
+     "Insulin receptor mediated signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     74752
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10228444,
+    "displayName": "Signaling by Insulin receptor",
+    "stId": "R-RNO-74752",
+    "stIdVersion": "R-RNO-74752.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 7,
+    "name": [
+     "Signaling by Insulin receptor",
+     "Insulin receptor mediated signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     74752
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 74803,
+    "displayName": "Insulin binding to its receptor results in receptor autophos...",
+    "text": "Insulin binding to its receptor results in receptor autophosphorylation on tyrosine residues and the tyrosine phosphorylation of insulin receptor substrates (e.g. IRS and Shc) by the insulin receptor tyrosine kinase.  This allows association of IRSs with downstream effectors such as PI-3K via its Src homology 2 (SH2) domains leading to end point events such as Glut4 (Slc2a4) translocation.  Shc when tyrosine phosphorylated associates with Grb2 and can thus activate the Ras/MAPK pathway independent of the IRSs.<p>Signal transduction by the insulin receptor is not limited to its activation at the cell surface.  The activated ligand-receptor complex initially at the cell surface, is internalised into endosomes itself a process which is dependent on tyrosine autophosphorylation.  Endocytosis of activated receptors has the dual effect of concentrating receptors within endosomes and allows the insulin receptor tyrosine kinase to phosphorylate substrates that are spatially distinct from those accessible at the plasma membrane.  Acidification of the endosomal lumen, due to the presence of proton pumps, results in dissociation of insulin from its receptor.  (The endosome constitutes the major site of insulin degradation).   This loss of the ligand-receptor complex attenuates any further insulin-driven receptor re-phosphorylation events and leads to receptor dephosphorylation by extra-lumenal endosomally-associated protein tyrosine phosphatases (PTPs). The identity of these PTPs is not clearly established yet.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2022-12-07",
+  "hasEvent": [
+   {
+    "dbId": 74716,
+    "displayName": "Insulin binds the insulin receptor",
+    "stId": "R-HSA-74716",
+    "stIdVersion": "R-HSA-74716.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Insulin binds the insulin receptor"
+    ],
+    "releaseDate": "2004-07-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     74752
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 74715,
+    "displayName": "Autophosphorylation of insulin receptor",
+    "stId": "R-HSA-74715",
+    "stIdVersion": "R-HSA-74715.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Autophosphorylation of insulin receptor"
+    ],
+    "releaseDate": "2004-07-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     74752
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 74718,
+    "displayName": "Internalisation of the insulin receptor",
+    "stId": "R-HSA-74718",
+    "stIdVersion": "R-HSA-74718.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Internalisation of the insulin receptor"
+    ],
+    "releaseDate": "2004-07-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     74752
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 74751,
+    "displayName": "Insulin receptor signalling cascade",
+    "stId": "R-HSA-74751",
+    "stIdVersion": "R-HSA-74751.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 6,
+    "name": [
+     "Insulin receptor signalling cascade"
+    ],
+    "releaseDate": "2004-07-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     74752
+    ],
+    "doi": "10.3180/REACT_1195.4",
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2020-03-16",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 77387,
+    "displayName": "Insulin receptor recycling",
+    "stId": "R-HSA-77387",
+    "stIdVersion": "R-HSA-77387.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Insulin receptor recycling"
+    ],
+    "releaseDate": "2004-07-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     74752
+    ],
+    "doi": "10.3180/REACT_1109.2",
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2022-12-07",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

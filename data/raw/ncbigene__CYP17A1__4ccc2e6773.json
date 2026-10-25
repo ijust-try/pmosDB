@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "CYP17A1",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "1586",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:18:53+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "1586"
+   ],
+   "1586": {
+    "uid": "1586",
+    "name": "CYP17A1",
+    "description": "cytochrome P450 family 17 subfamily A member 1",
+    "status": "",
+    "currentid": "",
+    "chromosome": "10",
+    "geneticsource": "genomic",
+    "maplocation": "10q24.32",
+    "otheraliases": "CPT7, CYP17, P450C17, S17AH",
+    "otherdesignations": "steroid 17-alpha-hydroxylase/17,20 lyase|17-alpha-hydroxyprogesterone aldolase|CYPXVII|cytochrome P450 17A1|cytochrome P450, family 17, subfamily A, polypeptide 1|cytochrome P450, subfamily XVII (steroid 17-alpha-hydroxylase), adrenal hyperplasia|cytochrome P450-C17|cytochrome P450c17|cytochrome p450 XVIIA1|steroid 17-alpha-monooxygenase",
+    "nomenclaturesymbol": "CYP17A1",
+    "nomenclaturename": "cytochrome P450 family 17 subfamily A member 1",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "609300"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "10",
+      "chraccver": "NC_000010.11",
+      "chrstart": 102837412,
+      "chrstop": 102830530,
+      "exoncount": 8
+     }
+    ],
+    "geneweight": 40658,
+    "summary": "This gene encodes a member of the cytochrome P450 superfamily of enzymes. The cytochrome P450 proteins are monooxygenases which catalyze many reactions involved in drug metabolism and synthesis of cholesterol, steroids and other lipids. This protein localizes to the endoplasmic reticulum. It has both 17alpha-hydroxylase and 17,20-lyase activities and is a key enzyme in the steroidogenic pathway that produces progestins, mineralocorticoids, glucocorticoids, androgens, and estrogens. Mutations in this gene are associated with isolated steroid-17 alpha-hydroxylase deficiency, 17-alpha-hydroxylase/17,20-lyase deficiency, pseudohermaphroditism, and adrenal hyperplasia. [provided by RefSeq, Jul 2008]",
+    "chrsort": "10",
+    "chrstart": 102830530,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000010.11",
+      "chrstart": 102837412,
+      "chrstop": 102830530
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060934.1",
+      "chrstart": 103723197,
+      "chrstop": 103716315
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000010.11",
+      "chrstart": 102837412,
+      "chrstop": 102830530
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060934.1",
+      "chrstart": 103723197,
+      "chrstop": 103716315
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000010.11",
+      "chrstart": 102837412,
+      "chrstop": 102830530
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060934.1",
+      "chrstart": 103723197,
+      "chrstop": 103716315
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000010.11",
+      "chrstart": 102837412,
+      "chrstop": 102830530
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060934.1",
+      "chrstart": 103723197,
+      "chrstop": 103716315
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000010.11",
+      "chrstart": 102837412,
+      "chrstop": 102830530
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060934.1",
+      "chrstart": 103723197,
+      "chrstop": 103716315
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000010.11",
+      "chrstart": 102837412,
+      "chrstop": 102830530
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000010.10",
+      "chrstart": 104597169,
+      "chrstop": 104590287
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000010.10",
+      "chrstart": 104597169,
+      "chrstop": 104590287
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000010.10",
+      "chrstart": 104597289,
+      "chrstop": 104590287
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000142.1",
+      "chrstart": 98232064,
+      "chrstop": 98225098
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018921.2",
+      "chrstart": 104880506,
+      "chrstop": 104873549
+     }
+    ]
+   }
+  }
+ }
+}

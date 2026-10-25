@@ -1,0 +1,123 @@
+{
+ "source": "uniprot",
+ "query": "ADIPOQ",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:ADIPOQ) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:43:20+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q15848",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Adiponectin"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "30 kDa adipocyte complement-related protein"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Adipocyte complement-related 30 kDa protein"
+       },
+       "shortNames": [
+        {
+         "value": "ACRP30"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Adipocyte, C1q and collagen domain-containing protein"
+       }
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "8619847"
+         }
+        ],
+        "value": "Adipose most abundant gene transcript 1 protein"
+       },
+       "shortNames": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000303",
+           "source": "PubMed",
+           "id": "10403784"
+          }
+         ],
+         "value": "apM-1"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Gelatin-binding protein"
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "ADIPOQ"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q60994"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10982546"
+         }
+        ],
+        "value": "Important adipokine involved in the control of fat metabolism and insulin sensitivity upon binding to its receptors ADIPOR1 or ADIPOR2, with direct anti-diabetic effect. Also has anti-atherogenic and anti-inflammatory activities (By similarity). Stimulates AMPK phosphorylation and activation in the liver and the skeletal muscle, enhancing glucose utilization and fatty-acid combustion (By similarity). Antagonizes TNF by negatively regulating its expression in various tissues such as liver and macrophages, and also by counteracting its effects. Inhibits endothelial NF-kappa-B signaling through a cAMP-dependent pathway (PubMed:10982546). May play a role in cell growth, angiogenesis and tissue remodeling by binding and sequestering various growth factors with distinct binding affinities, depending on the type of complex, LMW, MMW or HMW (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "9370",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000034252"
+    }
+   }
+  ]
+ }
+}

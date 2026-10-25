@@ -1,0 +1,851 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9733709",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9733709",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:39:49+00:00",
+ "response": {
+  "dbId": 9733709,
+  "displayName": "Cardiogenesis",
+  "stId": "R-HSA-9733709",
+  "stIdVersion": "R-HSA-9733709.1",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Cardiogenesis"
+  ],
+  "releaseDate": "2023-06-07",
+  "speciesName": "Homo sapiens",
+  "goBiologicalProcess": {
+   "dbId": 447731,
+   "displayName": "heart formation",
+   "accession": "0060914",
+   "databaseName": "GO",
+   "definition": "The developmental process pertaining to the initial formation of the heart from unspecified parts. This process begins with the specific processes that contribute to the appearance of the heart field and the arrival of cardiac neural crest to the heart region. The process ends when the structural rudiment is recognizable.",
+   "name": "heart formation",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0060914",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 9748687,
+    "displayName": "The lateral plate mesoderm",
+    "title": "The lateral plate mesoderm",
+    "journal": "Development",
+    "pubMedIdentifier": 32561665,
+    "volume": 147,
+    "year": 2020,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32561665",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9748685,
+    "displayName": "Genetic and epigenetic regulation of cardiomyocytes in development, regeneration and disease",
+    "title": "Genetic and epigenetic regulation of cardiomyocytes in development, regeneration and disease",
+    "journal": "Development",
+    "pubMedIdentifier": 30573475,
+    "volume": 145,
+    "year": 2018,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30573475",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9750527,
+    "displayName": "Understanding Heart Field Progenitor Cells for Modeling Congenital Heart Diseases",
+    "title": "Understanding Heart Field Progenitor Cells for Modeling Congenital Heart Diseases",
+    "journal": "Curr Cardiol Rep",
+    "pages": "38",
+    "pubMedIdentifier": 33694131,
+    "volume": 23,
+    "year": 2021,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/33694131",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9750989,
+    "displayName": "Molecular Genetics and Complex Inheritance of Congenital Heart Disease",
+    "title": "Molecular Genetics and Complex Inheritance of Congenital Heart Disease",
+    "journal": "Genes (Basel)",
+    "pubMedIdentifier": 34209044,
+    "volume": 12,
+    "year": 2021,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/34209044",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9750971,
+    "displayName": "Direct Reprogramming of Cardiac Fibroblasts to Repair the Injured Heart",
+    "title": "Direct Reprogramming of Cardiac Fibroblasts to Repair the Injured Heart",
+    "journal": "J Cardiovasc Dev Dis",
+    "pubMedIdentifier": 34206355,
+    "volume": 8,
+    "year": 2021,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/34206355",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9750986,
+    "displayName": "Heart Development and Congenital Structural Heart Defects",
+    "title": "Heart Development and Congenital Structural Heart Defects",
+    "journal": "Annu Rev Genomics Hum Genet",
+    "pubMedIdentifier": 34061573,
+    "year": 2021,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/34061573",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9750992,
+    "displayName": "Genetic and Cellular Interaction During Cardiovascular Development Implicated in Congenital Heart Diseases",
+    "title": "Genetic and Cellular Interaction During Cardiovascular Development Implicated in Congenital Heart Diseases",
+    "journal": "Front Cardiovasc Med",
+    "pages": "653244",
+    "pubMedIdentifier": 33796576,
+    "volume": 8,
+    "year": 2021,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/33796576",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9750975,
+    "displayName": "Direct reprogramming as a route to cardiac repair",
+    "title": "Direct reprogramming as a route to cardiac repair",
+    "journal": "Semin Cell Dev Biol",
+    "pubMedIdentifier": 34246567,
+    "year": 2021,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/34246567",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9763307,
+    "displayName": "Left-right asymmetry in heart development and disease: forming the right loop",
+    "title": "Left-right asymmetry in heart development and disease: forming the right loop",
+    "journal": "Development",
+    "pubMedIdentifier": 30467108,
+    "volume": 145,
+    "year": 2018,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30467108",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9774289,
+    "displayName": "Single Cell Approaches to Understand the Earliest Steps in Heart Development",
+    "title": "Single Cell Approaches to Understand the Earliest Steps in Heart Development",
+    "journal": "Curr Cardiol Rep",
+    "pubMedIdentifier": 35384547,
+    "year": 2022,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/35384547",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9774281,
+    "displayName": "An evidence appraisal of heart organoids in a dish and commensurability to human heart development in vivo",
+    "title": "An evidence appraisal of heart organoids in a dish and commensurability to human heart development in vivo",
+    "journal": "BMC Cardiovasc Disord",
+    "pages": "122",
+    "pubMedIdentifier": 35317745,
+    "volume": 22,
+    "year": 2022,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/35317745",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9774291,
+    "displayName": "Cardiac Organoids: A 3D Technology for Modeling Heart Development and Disease",
+    "title": "Cardiac Organoids: A 3D Technology for Modeling Heart Development and Disease",
+    "journal": "Stem Cell Rev Rep",
+    "pubMedIdentifier": 35525908,
+    "year": 2022,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/35525908",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9774292,
+    "displayName": "Deciphering Cardiac Biology and Disease by Single-Cell Transcriptomic Profiling",
+    "title": "Deciphering Cardiac Biology and Disease by Single-Cell Transcriptomic Profiling",
+    "journal": "Biomolecules",
+    "pubMedIdentifier": 35454155,
+    "volume": 12,
+    "year": 2022,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/35454155",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9774295,
+    "displayName": "Progress in multicellular human cardiac organoids for clinical applications",
+    "title": "Progress in multicellular human cardiac organoids for clinical applications",
+    "journal": "Cell Stem Cell",
+    "pages": "503-514",
+    "pubMedIdentifier": 35395186,
+    "volume": 29,
+    "year": 2022,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/35395186",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9795192,
+    "displayName": "Cardiac progenitors and paracrine mediators in cardiogenesis and heart regeneration",
+    "title": "Cardiac progenitors and paracrine mediators in cardiogenesis and heart regeneration",
+    "journal": "Semin Cell Dev Biol",
+    "pages": "29-51",
+    "pubMedIdentifier": 31862220,
+    "volume": 100,
+    "year": 2020,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31862220",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9795219,
+    "displayName": "Cardiogenesis: an embryological perspective",
+    "title": "Cardiogenesis: an embryological perspective",
+    "journal": "J Cardiovasc Transl Res",
+    "pages": "37-48",
+    "pubMedIdentifier": 20560033,
+    "volume": 3,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20560033",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9830181,
+    "displayName": "The deployment of cell lineages that form the mammalian heart",
+    "title": "The deployment of cell lineages that form the mammalian heart",
+    "journal": "Nat Rev Cardiol",
+    "pages": "705-724",
+    "pubMedIdentifier": 30266935,
+    "volume": 15,
+    "year": 2018,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30266935",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9748681,
+    "displayName": "Gradients of Bone Morphogenetic Protein (BMP), Wingless-rela...",
+    "text": "Gradients of Bone Morphogenetic Protein (BMP), Wingless-related integration site (WNT), and NODAL promote the formation of cardiac progenitors anteriolateral to the primitive streak during gastrulation (reviewed in Munoz-Chapuli and Perez-Pomares 2010, Cui et al. 2018, Prummel et al. 2020, Witman et al. 2019, Miyamoto e al. 2021). Eomesodermin (EOMES) and TBXT (T, Brachyury) expressed in the cardiac mesoderm activate expression of MESP1, a master regulator of cardiogenesis and the first observed marker of cardiac progenitors. MESP1-expressing cells migrate anteriorly towards the midline to form the cardiac crescent posterior to the head folds at about 2 weeks of gestation in humans (E7.5 in mice).<br><br>Within the cardiac crescent, two populations of cells can be identified based on gene expression and timing of contribution to the developing heart: the first heart field (FHF) forms the initial heart tube and contributes to the systemic ventricle (the left ventricle in crocodilians, birds, and mammals), the septum, and, to a lesser extent, the atria; the second heart field (SHF) extends the poles of the heart and contributes to the atria, the outflow tract, the septum, and the right ventricle, which is responsible for pulmonary circulation and distinguishes crocodilians, birds, and mammals (reviewed in Meilhac and Buckingham 2018).<br><br>At about 3 weeks gestation in humans (E8 in mice), FHF cells migrate axially to the midline and fuse to form the heart tube. Elongation of the heart tube leads to rightward looping and eventual formation of atria and ventricles (reviewed in Desgrange et al. 2018). FHF cells do not proliferate as much as SHF cells and mostly differentiate into cardiomyocytes due to the actions of myocardial differentiation factors such as NKX2-5, GATA4, TBX5, and HAND1. SHF cells are initially located in the posterior region of the cardiac crescent then, during formation of the heart tube, become located at the arterial and venous poles of the heart tube. SHF cells proliferate more than FHF cells and can differentiate to form cardiomyocytes, endothelial cells, smooth muscle cells, and fibroblasts. A reservoir of SHF progenitors located at the core of the pharyngeal mesoderm continuously contributes to the developing heart. Proliferating SHF cells express FGF8 and FGF10 driven by ISL1 and TBX1.<br><br>Cardiac progenitors are regulated by a distinct set of transcription factors and mutations in these factors and other factors involved in gene expression are responsible for congenital heart defects (reviewed in Diab et al. 2021, Houyel and Meilhac 2021, Kodo et al. 2021, Miyamoto et al. 2021, Lescroart and Zaffran 2022, Wang et al. 2022). Additionally, combinations of these transcription factors are now being used to reprogram fibroblasts and other cell types into cardiomyocytes for repairing damaged hearts (reviewed in Adams et al. 2021, Garry et al. 2021, Kim et al. 2022, Thomas et al. 2022, Zhu et al. 2022). TBXT (T, Brachyury) is expressed early in developing mesoderm and is activated by WNT signaling, which maintains proliferation and is subsequently downregulated during differentiation. Activation of MESP1 expression by TBXT and EOMES occurs early in gastrulation. MESP1 is expressed in both the FHF and the SHF. MESP1, in turn, directly activates two key regulators of cardiac development: GATA4 and NKX2-5 (NKX2.5, the ortholog of Tinman in Drosophila). Bone Morphogenetic Protein (BMP) signaling originating from BMPs secreted by underlying endoderm also enhances expression of GATA4 and NKX2-5, apparently through binding of SMAD proteins to the promoters of GATA4 and NKX2-5. GATA4 and NKX2-5 proteins, in turn, regulate each other's expression and directly interact to regulate downstream target genes. NKX2-5 directly activates GATA6 throughout the cardiac mesoderm.<br><br>The FHF is characterized by expression of TBX5 and HCN4; the SHF is characterized by transient expression of TBX1, ISL1, FGF8, FGF10, and SIX2. In the FHF, NKX2-5 binds the promoter of the TBX5 gene and activates transcription. TBX5, in turn, directly activates expression of SRF. TBX5 protein interacts directly with NKX2-5 and GATA4 proteins to activate further downstream targets. Sonic hedgehog (SHH) from the pharyngeal endoderm and WNT signaling maintain proliferation of SHF cells, In the SHF, TBX1, GATA4 and LEF1:CTNN1 (LEF1:Beta-catenin from Wnt signaling) directly activate ISL1, characteristic of SHF cells, and ISL1 then activates expression of HAND2 (dHAND), also characteristic of SHF cells.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821383,
+   "displayName": "three stars",
+   "definition": "internally reviewed",
+   "name": [
+    "three stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 9733781,
+    "displayName": "EOMES, WDR5, KAT2A, and TBXT bind the MESP1 gene",
+    "stId": "R-HSA-9733781",
+    "stIdVersion": "R-HSA-9733781.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "EOMES, WDR5, KAT2A, and TBXT bind the MESP1 gene"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9733754,
+    "displayName": "Expression of MESP1 in cardiogenesis",
+    "stId": "R-HSA-9733754",
+    "stIdVersion": "R-HSA-9733754.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of MESP1 in cardiogenesis"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9733766,
+    "displayName": "MESP1 binds the GATA4 gene",
+    "stId": "R-HSA-9733766",
+    "stIdVersion": "R-HSA-9733766.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "MESP1 binds the GATA4 gene"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9733705,
+    "displayName": "Expression of GATA4 in cardiogenesis",
+    "stId": "R-HSA-9733705",
+    "stIdVersion": "R-HSA-9733705.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of GATA4 in cardiogenesis"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9733744,
+    "displayName": "MESP1 binds the NKX2-5 gene",
+    "stId": "R-HSA-9733744",
+    "stIdVersion": "R-HSA-9733744.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "MESP1 binds the NKX2-5 gene"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9733772,
+    "displayName": "Expression of NKX2-5 in cardiogenesis",
+    "stId": "R-HSA-9733772",
+    "stIdVersion": "R-HSA-9733772.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of NKX2-5 in cardiogenesis"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9734353,
+    "displayName": "GATA4, SMAD1:SMAD4, MEF2C, TBX20, and NKX2-5 bind the NKX2-5 gene",
+    "stId": "R-HSA-9734353",
+    "stIdVersion": "R-HSA-9734353.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "GATA4, SMAD1:SMAD4, MEF2C, TBX20, and NKX2-5 bind the NKX2-5 gene"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9735143,
+    "displayName": "NKX2-5 binds the GATA4 gene",
+    "stId": "R-HSA-9735143",
+    "stIdVersion": "R-HSA-9735143.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NKX2-5 binds the GATA4 gene"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9734337,
+    "displayName": "NKX2-5 binds the TBX5 gene",
+    "stId": "R-HSA-9734337",
+    "stIdVersion": "R-HSA-9734337.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "NKX2-5 binds the TBX5 gene"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9734343,
+    "displayName": "Expression of TBX5 in cardiogenesis",
+    "stId": "R-HSA-9734343",
+    "stIdVersion": "R-HSA-9734343.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of TBX5 in cardiogenesis"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9734590,
+    "displayName": "NKX2-5 binds the GATA6 gene",
+    "stId": "R-HSA-9734590",
+    "stIdVersion": "R-HSA-9734590.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "NKX2-5 binds the GATA6 gene"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9734573,
+    "displayName": "Expression of GATA6 in cardiogenesis",
+    "stId": "R-HSA-9734573",
+    "stIdVersion": "R-HSA-9734573.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of GATA6 in cardiogenesis"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9735179,
+    "displayName": "GATA4 and LEF1:CTNNB1 bind the ISL1 gene",
+    "stId": "R-HSA-9735179",
+    "stIdVersion": "R-HSA-9735179.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "GATA4 and LEF1:CTNNB1 bind the ISL1 gene"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9735151,
+    "displayName": "Expression of ISL1 in cardiogenesis",
+    "stId": "R-HSA-9735151",
+    "stIdVersion": "R-HSA-9735151.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of ISL1 in cardiogenesis"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9734578,
+    "displayName": "GATA4, ISL1:LDB1, TBX20, and NKX2-5 bind the MEF2C gene",
+    "stId": "R-HSA-9734578",
+    "stIdVersion": "R-HSA-9734578.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "GATA4, ISL1:LDB1, TBX20, and NKX2-5 bind the MEF2C gene"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9734572,
+    "displayName": "Expression of MEF2C in cardiogenesis",
+    "stId": "R-HSA-9734572",
+    "stIdVersion": "R-HSA-9734572.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of MEF2C in cardiogenesis"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9734597,
+    "displayName": "MEF2C binds the SMYD1 (BOP) gene",
+    "stId": "R-HSA-9734597",
+    "stIdVersion": "R-HSA-9734597.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "MEF2C binds the SMYD1 (BOP) gene"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9734697,
+    "displayName": "Expression of SMYD1 (BOP) in cardiogenesis",
+    "stId": "R-HSA-9734697",
+    "stIdVersion": "R-HSA-9734697.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of SMYD1 (BOP) in cardiogenesis"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9735302,
+    "displayName": "GATA4, GATA6, and ISL1:LDB1 bind the HAND2 gene",
+    "stId": "R-HSA-9735302",
+    "stIdVersion": "R-HSA-9735302.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "GATA4, GATA6, and ISL1:LDB1 bind the HAND2 gene"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9735335,
+    "displayName": "Expression of HAND2 in cardiogenesis",
+    "stId": "R-HSA-9735335",
+    "stIdVersion": "R-HSA-9735335.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of HAND2 in cardiogenesis"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9735268,
+    "displayName": "GATA4 and NKX2-5 bind the HAND1 gene",
+    "stId": "R-HSA-9735268",
+    "stIdVersion": "R-HSA-9735268.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "GATA4 and NKX2-5 bind the HAND1 gene"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9735276,
+    "displayName": "Expression of HAND1 in cardiogenesis",
+    "stId": "R-HSA-9735276",
+    "stIdVersion": "R-HSA-9735276.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of HAND1 in cardiogenesis"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9735442,
+    "displayName": "FOXO4, MEF2C, and NKX2-5 bind the MYOCD gene",
+    "stId": "R-HSA-9735442",
+    "stIdVersion": "R-HSA-9735442.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "FOXO4, MEF2C, and NKX2-5 bind the MYOCD gene"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9735439,
+    "displayName": "Expression of MYOCD in cardiogenesis",
+    "stId": "R-HSA-9735439",
+    "stIdVersion": "R-HSA-9735439.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of MYOCD in cardiogenesis",
+     "Expression of MYOCARDIN in cardiogenesis"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9735497,
+    "displayName": "TBX5 and KAT5 bind the SRF gene",
+    "stId": "R-HSA-9735497",
+    "stIdVersion": "R-HSA-9735497.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "TBX5 and KAT5 bind the SRF gene"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9735505,
+    "displayName": "Expression of SRF in cardiogenesis",
+    "stId": "R-HSA-9735505",
+    "stIdVersion": "R-HSA-9735505.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of SRF in cardiogenesis"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9749920,
+    "displayName": "HEY1,HEY2 bind GATA4,GATA6",
+    "stId": "R-HSA-9749920",
+    "stIdVersion": "R-HSA-9749920.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "HEY1,HEY2 bind GATA4,GATA6"
+    ],
+    "releaseDate": "2023-06-07",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9733709
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

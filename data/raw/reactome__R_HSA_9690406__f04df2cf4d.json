@@ -1,0 +1,650 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9690406",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9690406",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:20:40+00:00",
+ "response": {
+  "dbId": 9690406,
+  "displayName": "Transcriptional regulation of testis differentiation",
+  "stId": "R-HSA-9690406",
+  "stIdVersion": "R-HSA-9690406.3",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Transcriptional regulation of testis differentiation"
+  ],
+  "releaseDate": "2020-12-08",
+  "speciesName": "Homo sapiens",
+  "goBiologicalProcess": {
+   "dbId": 25068,
+   "displayName": "male gonad development",
+   "accession": "0008584",
+   "databaseName": "GO",
+   "definition": "The process whose specific outcome is the progression of the male gonad over time, from its formation to the mature structure.",
+   "name": "male gonad development",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0008584",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 9693001,
+    "displayName": "The regulation of Sox9 expression in the gonad",
+    "title": "The regulation of Sox9 expression in the gonad",
+    "journal": "Curr. Top. Dev. Biol.",
+    "pages": "223-252",
+    "pubMedIdentifier": 30999977,
+    "volume": 134,
+    "year": 2019,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30999977",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9693006,
+    "displayName": "SOX E genes: SOX9 and SOX8 in mammalian testis development",
+    "title": "SOX E genes: SOX9 and SOX8 in mammalian testis development",
+    "journal": "Int. J. Biochem. Cell Biol.",
+    "pages": "433-6",
+    "pubMedIdentifier": 19647095,
+    "volume": 42,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19647095",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9692995,
+    "displayName": "From SRY to SOX9: mammalian testis differentiation",
+    "title": "From SRY to SOX9: mammalian testis differentiation",
+    "journal": "J. Biochem.",
+    "pages": "13-9",
+    "pubMedIdentifier": 16046443,
+    "volume": 138,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16046443",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9693026,
+    "displayName": "Testis Development",
+    "title": "Testis Development",
+    "journal": "Endocr. Rev.",
+    "pages": "857-905",
+    "pubMedIdentifier": 30590466,
+    "volume": 40,
+    "year": 2019,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30590466",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9692219,
+    "displayName": "The Wilms' tumor gene WT1 can regulate genes involved in sex determination and differentiation: SRY, Müllerian-inhibiting substance, and the androgen receptor",
+    "title": "The Wilms' tumor gene WT1 can regulate genes involved in sex determination and differentiation: SRY, Müllerian-inhibiting substance, and the androgen receptor",
+    "journal": "Clin. Cancer Res.",
+    "pages": "2571-80",
+    "pubMedIdentifier": 9815658,
+    "volume": 3,
+    "year": 1997,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9815658",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9692254,
+    "displayName": "A GATA4/WT1 cooperation regulates transcription of genes required for mammalian sex determination and differentiation",
+    "title": "A GATA4/WT1 cooperation regulates transcription of genes required for mammalian sex determination and differentiation",
+    "journal": "BMC Mol. Biol.",
+    "pages": "44",
+    "pubMedIdentifier": 18445271,
+    "volume": 9,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18445271",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9692232,
+    "displayName": "The human sex-determining gene SRY is a direct target of WT1",
+    "title": "The human sex-determining gene SRY is a direct target of WT1",
+    "journal": "J. Biol. Chem.",
+    "pages": "16817-23",
+    "pubMedIdentifier": 11278460,
+    "volume": 276,
+    "year": 2001,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11278460",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9692223,
+    "displayName": "Steroidogenic factor-1 contributes to the cyclic-adenosine monophosphate down-regulation of human SRY gene expression",
+    "title": "Steroidogenic factor-1 contributes to the cyclic-adenosine monophosphate down-regulation of human SRY gene expression",
+    "journal": "Biol. Reprod.",
+    "pages": "775-83",
+    "pubMedIdentifier": 11207191,
+    "volume": 64,
+    "year": 2001,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11207191",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9690346,
+    "displayName": "Human sex reversal is caused by duplication or deletion of core enhancers upstream of SOX9",
+    "title": "Human sex reversal is caused by duplication or deletion of core enhancers upstream of SOX9",
+    "journal": "Nat Commun",
+    "pages": "5319",
+    "pubMedIdentifier": 30552336,
+    "volume": 9,
+    "year": 2018,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30552336",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9690355,
+    "displayName": "Failure of SOX9 regulation in 46XY disorders of sex development with SRY, SOX9 and SF1 mutations",
+    "title": "Failure of SOX9 regulation in 46XY disorders of sex development with SRY, SOX9 and SF1 mutations",
+    "journal": "PLoS ONE",
+    "pages": "e17751",
+    "pubMedIdentifier": 21412441,
+    "volume": 6,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21412441",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9692072,
+    "displayName": "Direct interaction of SRY-related protein SOX9 and steroidogenic factor 1 regulates transcription of the human anti-Müllerian hormone gene",
+    "title": "Direct interaction of SRY-related protein SOX9 and steroidogenic factor 1 regulates transcription of the human anti-Müllerian hormone gene",
+    "journal": "Mol. Cell. Biol.",
+    "pages": "6653-65",
+    "pubMedIdentifier": 9774680,
+    "volume": 18,
+    "year": 1998,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9774680",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9690893,
+    "displayName": "In mammalian foetal testes, SOX9 regulates expression of its target genes by binding to genomic regions with conserved signatures",
+    "title": "In mammalian foetal testes, SOX9 regulates expression of its target genes by binding to genomic regions with conserved signatures",
+    "journal": "Nucleic Acids Res.",
+    "pages": "7191-7211",
+    "pubMedIdentifier": 28472341,
+    "volume": 45,
+    "year": 2017,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28472341",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9693028,
+    "displayName": "Genetic control of testis development",
+    "title": "Genetic control of testis development",
+    "journal": "Sex Dev",
+    "pages": "21-32",
+    "pubMedIdentifier": 22964823,
+    "volume": 7,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22964823",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9693032,
+    "displayName": "Genes promoting and disturbing testis development",
+    "title": "Genes promoting and disturbing testis development",
+    "journal": "Histol. Histopathol.",
+    "pages": "1361-83",
+    "pubMedIdentifier": 23018237,
+    "volume": 27,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23018237",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9693033,
+    "displayName": "Building the mammalian testis: origins, differentiation, and assembly of the component cell populations",
+    "title": "Building the mammalian testis: origins, differentiation, and assembly of the component cell populations",
+    "journal": "Genes Dev.",
+    "pages": "2409-26",
+    "pubMedIdentifier": 24240231,
+    "volume": 27,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24240231",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9693023,
+    "displayName": "In humans, primordial germ cells (PGCs) are specified about ...",
+    "text": "In humans, primordial germ cells (PGCs) are specified about 2 weeks after fertilization, a time before gastrulation (reviewed in Svingen and Koopman 2013, Mäkelä et al. 2019). PGCs are initially located extraembryonically and then migrate to colonize the gonadal ridges (genital ridges) of the embryo during the fifth week after fertilization. At this time, either ovaries and testes can originate from the gonadal ridges. That is, the cells of the gonadal ridges are initially bipotential and remain bipotential until about 42 days after conception, when transient expression of the SRY gene located on the Y chromosome in male embryos is initiated in some somatic cells of the gonadal primordium (reviewed in Sekido and Lovell-Badge 2013, Barrionuevo et al. 2013, Svingen et al. 2013,  Mäkelä et al. 2019).<br>The transcription factors WT1, GATA4, ZFPM2 (FOG2), and the nuclear receptor NR5A1 (SF1) activate transcription of SRY (Shimamura et al. 1997, Hossain and Saunders 2001, De Santa Barbara et al. 2001, Miyamoto et al. 2008, and inferred from mouse homologs). SRY and NR5A1 then activate transcription of SOX9, one of the master regulators of testis development and maintenance (Knower et al. 2011, Croft et al. 2018, inferred from mouse homologs, reviewed in Gonen and Lovell-Badge 2019). Regulation of genes by SRY and then, when expression of SRY decreases, by SOX9 causes the specification of Sertoli cells that further organize formation of the testis by encasing the primordial germ cells in protocords, which then form fully developed testis cords.<br>SOX9 directly activates its own promoter to maintain SOX9 expression through development and into adulthood (Croft et al. 2018, and inferred from mouse homologs). SOX9 and GATA4 directly activate DMRT1 (inferred from mouse homologs), which maintains testis specification by maintaining expression of SOX9 and other testis-related genes. DMRT1 also acts to suppress ovarian specification by binding and repressing FOXL2 and WNT4 genes (inferred from mouse homologs). SOX9 directly activates FGF9 (inferred from mouse homologs), which acts via FGFR2 to maintain SOX9 expression, and PTGDS (inferred from mouse homologs), which converts Prostaglandin H2 to Prostaglandin D2, a critical hormone-like lipid that recruits supporting cells to Sertoli cells and acts indirectly to maintain SOX9 expression. SOX9, NR5A1, and GATA4 directly activate AMH (De Santa Barbara et al. 1998, and inferred from mouse homologs), an extracellular signaling molecule which causes regression of the Muellerian duct of the female reproductive system. SOX9 also directly activates many other genes, including DHH (Rahmoun et al. 2017, and inferred from mouse homologs), an intercellular signaling molecule required for testis formation.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-9690406.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 9692250,
+    "displayName": "WT1, NR5A1 (SF1), GATA4, ZFPM2 bind the SRY gene",
+    "stId": "R-HSA-9692250",
+    "stIdVersion": "R-HSA-9692250.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "WT1, NR5A1 (SF1), GATA4, ZFPM2 bind the SRY gene"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9692241,
+    "displayName": "Expression of SRY in testis differentiation",
+    "stId": "R-HSA-9692241",
+    "stIdVersion": "R-HSA-9692241.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of SRY in testis differentiation"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9690414,
+    "displayName": "SRY and NR5A1 (SF1) bind SOX9 gene",
+    "stId": "R-HSA-9690414",
+    "stIdVersion": "R-HSA-9690414.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "SRY and NR5A1 (SF1) bind SOX9 gene"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9690404,
+    "displayName": "Expression of SOX9 in testis differentiation",
+    "stId": "R-HSA-9690404",
+    "stIdVersion": "R-HSA-9690404.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of SOX9 in testis differentiation"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9690395,
+    "displayName": "SOX9 binds the SOX9 gene",
+    "stId": "R-HSA-9690395",
+    "stIdVersion": "R-HSA-9690395.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "SOX9 binds the SOX9 gene"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9690896,
+    "displayName": "SOX9 and GATA4 bind the DMRT1 gene",
+    "stId": "R-HSA-9690896",
+    "stIdVersion": "R-HSA-9690896.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "SOX9 and GATA4 bind the DMRT1 gene"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9690877,
+    "displayName": "Expression of DMRT1 in testis differentiation",
+    "stId": "R-HSA-9690877",
+    "stIdVersion": "R-HSA-9690877.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of DMRT1 in testis differentiation"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9692131,
+    "displayName": "SOX9 binds the FGF9 gene",
+    "stId": "R-HSA-9692131",
+    "stIdVersion": "R-HSA-9692131.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "SOX9 binds the FGF9 gene"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9692134,
+    "displayName": "Expression of FGF9 in testis differentiation",
+    "stId": "R-HSA-9692134",
+    "stIdVersion": "R-HSA-9692134.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of FGF9 in testis differentiation"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9692154,
+    "displayName": "SOX9 binds the PTGDS gene",
+    "stId": "R-HSA-9692154",
+    "stIdVersion": "R-HSA-9692154.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "SOX9 binds the PTGDS gene"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9692129,
+    "displayName": "Expression of PTGDS in testis differentiation",
+    "stId": "R-HSA-9692129",
+    "stIdVersion": "R-HSA-9692129.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of PTGDS in testis differentiation"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9692135,
+    "displayName": "SOX9, NR5A1 (SF1), and GATA4 bind the AMH gene",
+    "stId": "R-HSA-9692135",
+    "stIdVersion": "R-HSA-9692135.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "SOX9, NR5A1 (SF1), and GATA4 bind the AMH gene"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9693009,
+    "displayName": "Expression of AMH in testis differentiation",
+    "stId": "R-HSA-9693009",
+    "stIdVersion": "R-HSA-9693009.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of AMH in testis differentiation"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9692150,
+    "displayName": "SOX9 binds the DHH gene",
+    "stId": "R-HSA-9692150",
+    "stIdVersion": "R-HSA-9692150.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "SOX9 binds the DHH gene"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9692146,
+    "displayName": "Expression of DHH in testis differentiation",
+    "stId": "R-HSA-9692146",
+    "stIdVersion": "R-HSA-9692146.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of DHH in testis differentiation"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9692228,
+    "displayName": "DMRT1 binds the SOX9 gene",
+    "stId": "R-HSA-9692228",
+    "stIdVersion": "R-HSA-9692228.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "DMRT1 binds the SOX9 gene"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9692236,
+    "displayName": "DMRT1 binds the FOXL2 gene",
+    "stId": "R-HSA-9692236",
+    "stIdVersion": "R-HSA-9692236.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "DMRT1 binds the FOXL2 gene"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9692297,
+    "displayName": "DMRT1 binds the WNT4 gene",
+    "stId": "R-HSA-9692297",
+    "stIdVersion": "R-HSA-9692297.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "DMRT1 binds the WNT4 gene"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9690406
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

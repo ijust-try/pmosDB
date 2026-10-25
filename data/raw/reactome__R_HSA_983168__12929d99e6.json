@@ -1,0 +1,682 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-983168",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-983168",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:38:51+00:00",
+ "response": {
+  "dbId": 983168,
+  "displayName": "Antigen processing: Ubiquitination & Proteasome degradation",
+  "stId": "R-HSA-983168",
+  "stIdVersion": "R-HSA-983168.4",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Antigen processing: Ubiquitination & Proteasome degradation"
+  ],
+  "releaseDate": "2011-06-14",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12828966,
+    "displayName": "BioModels Database:BIOMD0000000293",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000293",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000293",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12829094,
+    "displayName": "BioModels Database:BIOMD0000000575",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000575",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000575",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828968,
+    "displayName": "BioModels Database:BIOMD0000000220",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000220",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000220",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 22583,
+   "displayName": "protein polyubiquitination",
+   "accession": "0000209",
+   "databaseName": "GO",
+   "definition": "Addition of multiple ubiquitin groups to a protein, forming a ubiquitin chain.",
+   "name": "protein polyubiquitination",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0000209",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 982850,
+    "displayName": "Antigen presentation and the ubiquitin-proteasome system in host-pathogen interactions",
+    "title": "Antigen presentation and the ubiquitin-proteasome system in host-pathogen interactions",
+    "journal": "Adv Immunol",
+    "pages": "225-305",
+    "pubMedIdentifier": 17145306,
+    "volume": 92,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17145306",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 982980,
+    "displayName": "Characterizing the specificity and cooperation of aminopeptidases in the cytosol and endoplasmic reticulum during MHC class I antigen presentation",
+    "title": "Characterizing the specificity and cooperation of aminopeptidases in the cytosol and endoplasmic reticulum during MHC class I antigen presentation",
+    "journal": "J Immunol",
+    "pages": "4725-32",
+    "pubMedIdentifier": 20351195,
+    "volume": 184,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20351195",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 982846,
+    "displayName": "Proteasome and peptidase function in MHC-class-I-mediated antigen presentation",
+    "title": "Proteasome and peptidase function in MHC-class-I-mediated antigen presentation",
+    "journal": "Curr Opin Immunol",
+    "pages": "76-81",
+    "pubMedIdentifier": 14734113,
+    "volume": 16,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/14734113",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 982871,
+    "displayName": "Quantitating protein synthesis, degradation, and endogenous antigen processing",
+    "title": "Quantitating protein synthesis, degradation, and endogenous antigen processing",
+    "journal": "Immunity",
+    "pages": "343-54",
+    "pubMedIdentifier": 12648452,
+    "volume": 18,
+    "year": 2003,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12648452",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 982833,
+    "displayName": "The ubiquitin-proteasome proteolytic pathway: destruction for the sake of construction",
+    "title": "The ubiquitin-proteasome proteolytic pathway: destruction for the sake of construction",
+    "journal": "Physiol Rev",
+    "pages": "373-428",
+    "pubMedIdentifier": 11917093,
+    "volume": 82,
+    "year": 2002,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11917093",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 982870,
+    "displayName": "RING domain E3 ubiquitin ligases",
+    "title": "RING domain E3 ubiquitin ligases",
+    "journal": "Annu Rev Biochem",
+    "pages": "399-434",
+    "pubMedIdentifier": 19489725,
+    "volume": 78,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19489725",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10106532,
+    "displayName": "Antigen processing: Ubiquitination & Proteasome degradation",
+    "stId": "R-MMU-983168",
+    "stIdVersion": "R-MMU-983168.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Antigen processing: Ubiquitination & Proteasome degradation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     983168
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11136958,
+    "displayName": "Antigen processing: Ubiquitination & Proteasome degradation",
+    "stId": "R-PFA-983168",
+    "stIdVersion": "R-PFA-983168.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Antigen processing: Ubiquitination & Proteasome degradation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     983168
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11115756,
+    "displayName": "Antigen processing: Ubiquitination & Proteasome degradation",
+    "stId": "R-SCE-983168",
+    "stIdVersion": "R-SCE-983168.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Antigen processing: Ubiquitination & Proteasome degradation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     983168
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11087346,
+    "displayName": "Antigen processing: Ubiquitination & Proteasome degradation",
+    "stId": "R-SPO-983168",
+    "stIdVersion": "R-SPO-983168.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Antigen processing: Ubiquitination & Proteasome degradation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     983168
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11058146,
+    "displayName": "Antigen processing: Ubiquitination & Proteasome degradation",
+    "stId": "R-DDI-983168",
+    "stIdVersion": "R-DDI-983168.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Antigen processing: Ubiquitination & Proteasome degradation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     983168
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11002857,
+    "displayName": "Antigen processing: Ubiquitination & Proteasome degradation",
+    "stId": "R-CEL-983168",
+    "stIdVersion": "R-CEL-983168.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Antigen processing: Ubiquitination & Proteasome degradation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     983168
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10920045,
+    "displayName": "Antigen processing: Ubiquitination & Proteasome degradation",
+    "stId": "R-DME-983168",
+    "stIdVersion": "R-DME-983168.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Antigen processing: Ubiquitination & Proteasome degradation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     983168
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10834766,
+    "displayName": "Antigen processing: Ubiquitination & Proteasome degradation",
+    "stId": "R-GGA-983168",
+    "stIdVersion": "R-GGA-983168.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Antigen processing: Ubiquitination & Proteasome degradation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     983168
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10737570,
+    "displayName": "Antigen processing: Ubiquitination & Proteasome degradation",
+    "stId": "R-XTR-983168",
+    "stIdVersion": "R-XTR-983168.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Antigen processing: Ubiquitination & Proteasome degradation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     983168
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10656514,
+    "displayName": "Antigen processing: Ubiquitination & Proteasome degradation",
+    "stId": "R-DRE-983168",
+    "stIdVersion": "R-DRE-983168.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Antigen processing: Ubiquitination & Proteasome degradation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     983168
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10564527,
+    "displayName": "Antigen processing: Ubiquitination & Proteasome degradation",
+    "stId": "R-SSC-983168",
+    "stIdVersion": "R-SSC-983168.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Antigen processing: Ubiquitination & Proteasome degradation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     983168
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10451583,
+    "displayName": "Antigen processing: Ubiquitination & Proteasome degradation",
+    "stId": "R-BTA-983168",
+    "stIdVersion": "R-BTA-983168.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Antigen processing: Ubiquitination & Proteasome degradation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     983168
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10337053,
+    "displayName": "Antigen processing: Ubiquitination & Proteasome degradation",
+    "stId": "R-CFA-983168",
+    "stIdVersion": "R-CFA-983168.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Antigen processing: Ubiquitination & Proteasome degradation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     983168
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10230302,
+    "displayName": "Antigen processing: Ubiquitination & Proteasome degradation",
+    "stId": "R-RNO-983168",
+    "stIdVersion": "R-RNO-983168.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Antigen processing: Ubiquitination & Proteasome degradation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     983168
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 982868,
+    "displayName": "Intracellular foreign or aberrant host proteins are cleaved ...",
+    "text": "Intracellular foreign or aberrant host proteins are cleaved into peptide fragments of a precise size, such that they can be loaded on to class I MHC molecules and presented externally to cytotoxic T cells. The ubiquitin-26S proteasome system plays a central role in the generation of these class I MHC antigens. <br>Ubiquitination is the mechanism of adding ubiquitin to lysine residues on substrate protein leading to the formation of a polyubiquitinated substrate. This process involves three classes of enzyme, an E1 ubiquitin-activating enzyme, an E2 ubiquitin-conjugating enzyme, and an E3 ubiquitin ligase. Polyubiquitination through lysine-48 (K48) generally targets the substrate protein for proteasomal destruction. The protease responsible for the degradation of K48-polyubiquitinated proteins is the 26S proteasome. This proteasome is a two subunit protein complex composed of the 20S (catalytic core particle) and 19S (regulatory particle) proteasome complexes. The proteasome eliminates most of the foreign and non-functional proteins from the cell by degrading them into short peptides; only a small fraction of the peptides generated are of the correct length to be presented by the MHC class I system. It has been calculated that between 994 and 3122 protein molecules have to be degraded for the formation of a single, stable MHC class I complex at the cell surface, with an average efficiency of 1 in 2000 (Kloetzel et al. 2004, Princiotta et al. 2003). ",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2017-04-20",
+  "hasEvent": [
+   {
+    "dbId": 983153,
+    "displayName": "E1 mediated ubiquitin activation",
+    "stId": "R-HSA-983153",
+    "stIdVersion": "R-HSA-983153.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "E1 mediated ubiquitin activation"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     983168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 983152,
+    "displayName": "Transfer of ubiquitin from E1 to E2",
+    "stId": "R-HSA-983152",
+    "stIdVersion": "R-HSA-983152.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Transfer of ubiquitin from E1 to E2"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     983168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 983157,
+    "displayName": "Interaction of E3 with substrate and E2-Ub complex",
+    "stId": "R-HSA-983157",
+    "stIdVersion": "R-HSA-983157.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Interaction of E3 with substrate and E2-Ub complex"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     983168
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 983140,
+    "displayName": "Transfer of Ub from E2 to substrate and release of E2",
+    "stId": "R-HSA-983140",
+    "stIdVersion": "R-HSA-983140.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Transfer of Ub from E2 to substrate and release of E2"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     983168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 983156,
+    "displayName": "Polyubiquitination of substrate",
+    "stId": "R-HSA-983156",
+    "stIdVersion": "R-HSA-983156.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Polyubiquitination of substrate"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     983168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 983147,
+    "displayName": "Release of E3 from polyubiquitinated substrate",
+    "stId": "R-HSA-983147",
+    "stIdVersion": "R-HSA-983147.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Release of E3 from polyubiquitinated substrate"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     983168
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 983150,
+    "displayName": "Proteasomal cleavage of substrate",
+    "stId": "R-HSA-983150",
+    "stIdVersion": "R-HSA-983150.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Proteasomal cleavage of substrate"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     983168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 983162,
+    "displayName": "Trimming of N-ter extended precursor fragments by cytosolic aminopeptidases",
+    "stId": "R-HSA-983162",
+    "stIdVersion": "R-HSA-983162.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Trimming of N-ter extended precursor fragments by cytosolic aminopeptidases"
+    ],
+    "releaseDate": "2011-06-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     983168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 8940641,
+    "displayName": "THOP1 cleaves oligopeptide fragment (8-16aa)",
+    "stId": "R-HSA-8940641",
+    "stIdVersion": "R-HSA-8940641.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "THOP1 cleaves oligopeptide fragment (8-16aa)"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     983168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

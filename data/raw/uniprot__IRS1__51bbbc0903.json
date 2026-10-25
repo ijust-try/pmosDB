@@ -1,0 +1,101 @@
+{
+ "source": "uniprot",
+ "query": "IRS1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:IRS1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:41:18+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P35568",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Insulin receptor substrate 1"
+      },
+      "shortNames": [
+       {
+        "value": "IRS-1"
+       }
+      ]
+     }
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "IRS1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35570"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11171109"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16878150"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19639489"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "38625937"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7541045"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8265614"
+         }
+        ],
+        "value": "Signaling adapter protein that participates in the signal transduction from two prominent receptor tyrosine kinases, insulin receptor/INSR and insulin-like growth factor I receptor/IGF1R (PubMed:7541045, PubMed:33991522, PubMed:38625937). Plays therefore an important role in development, growth, glucose homeostasis as well as lipid metabolism (PubMed:19639489). Upon phosphorylation by the insulin receptor, functions as a signaling scaffold that propagates insulin action through binding to SH2 domain-containing proteins including the p85 regulatory subunit of PI3K, NCK1, NCK2, GRB2 or SHP2 (PubMed:11171109, PubMed:8265614). Recruitment of GRB2 leads to the activation of the guanine nucleotide exchange factor SOS1 which in turn triggers the Ras/Raf/MEK/MAPK signaling cascade (By similarity). Activation of the PI3K/AKT pathway is responsible for most of insulin metabolic effects in the cell, and the Ras/Raf/MEK/MAPK is involved in the regulation of gene expression and in cooperation with the PI3K pathway regulates cell growth and differentiation. Acts a positive regulator of the Wnt/beta-catenin signaling pathway through suppression of DVL2 autophagy-mediated degradation leading to cell proliferation (PubMed:24616100)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "3667",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000003BB52"
+    }
+   }
+  ]
+ }
+}

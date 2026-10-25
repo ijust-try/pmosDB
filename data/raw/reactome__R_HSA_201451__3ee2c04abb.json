@@ -1,0 +1,665 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-201451",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-201451",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:20:38+00:00",
+ "response": {
+  "dbId": 201451,
+  "displayName": "Signaling by BMP",
+  "stId": "R-HSA-201451",
+  "stIdVersion": "R-HSA-201451.6",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Signaling by BMP"
+  ],
+  "releaseDate": "2007-12-11",
+  "speciesName": "Homo sapiens",
+  "figure": [
+   {
+    "dbId": 2127639,
+    "displayName": "/figures/Pathway_Illustrations/BMP_72_oicr.png",
+    "url": "/figures/Pathway_Illustrations/BMP_72_oicr.png",
+    "className": "Figure",
+    "schemaClass": "Figure"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 23761,
+   "displayName": "BMP signaling pathway",
+   "accession": "0030509",
+   "databaseName": "GO",
+   "definition": "The series of molecular signals initiated by the binding of a member of the BMP (bone morphogenetic protein) family to a receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription.",
+   "name": "BMP signaling pathway",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0030509",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 1497901,
+    "displayName": "Bone morphogenetic protein receptors and signal transduction",
+    "title": "Bone morphogenetic protein receptors and signal transduction",
+    "journal": "J Biochem",
+    "pages": "35-51",
+    "pubMedIdentifier": 19762341,
+    "volume": 147,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19762341",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 8984599,
+    "displayName": "Bone Morphogenetic Proteins in Vascular Homeostasis and Disease",
+    "title": "Bone Morphogenetic Proteins in Vascular Homeostasis and Disease",
+    "journal": "Cold Spring Harb Perspect Biol",
+    "pubMedIdentifier": 28348038,
+    "year": 2017,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28348038",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10105750,
+    "displayName": "Signaling by BMP",
+    "stId": "R-MMU-201451",
+    "stIdVersion": "R-MMU-201451.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by BMP"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     201451
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10229526,
+    "displayName": "Signaling by BMP",
+    "stId": "R-RNO-201451",
+    "stIdVersion": "R-RNO-201451.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by BMP"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     201451
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10336287,
+    "displayName": "Signaling by BMP",
+    "stId": "R-CFA-201451",
+    "stIdVersion": "R-CFA-201451.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by BMP"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     201451
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10450807,
+    "displayName": "Signaling by BMP",
+    "stId": "R-BTA-201451",
+    "stIdVersion": "R-BTA-201451.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by BMP"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     201451
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10563779,
+    "displayName": "Signaling by BMP",
+    "stId": "R-SSC-201451",
+    "stIdVersion": "R-SSC-201451.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by BMP"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     201451
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10655856,
+    "displayName": "Signaling by BMP",
+    "stId": "R-DRE-201451",
+    "stIdVersion": "R-DRE-201451.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by BMP"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     201451
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10736894,
+    "displayName": "Signaling by BMP",
+    "stId": "R-XTR-201451",
+    "stIdVersion": "R-XTR-201451.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by BMP"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     201451
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10834042,
+    "displayName": "Signaling by BMP",
+    "stId": "R-GGA-201451",
+    "stIdVersion": "R-GGA-201451.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by BMP"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     201451
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10919437,
+    "displayName": "Signaling by BMP",
+    "stId": "R-DME-201451",
+    "stIdVersion": "R-DME-201451.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by BMP"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     201451
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11002301,
+    "displayName": "Signaling by BMP",
+    "stId": "R-CEL-201451",
+    "stIdVersion": "R-CEL-201451.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by BMP"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     201451
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 201429,
+    "displayName": "Bone morphogenetic proteins (BMPs) have many biological acti...",
+    "text": "Bone morphogenetic proteins (BMPs) have many biological activities in various tissues, including bone, cartilage, blood vessels, heart, kidney, neurons, liver and lung. They are members of the Transforming growth factor-Beta (TGFB) family. They bind to type II and type I serine-threonine kinase receptors, which transduce signals through SMAD and non-SMAD signalling pathways. BMP signalling is linked to a wide variety of clinical disorders, including vascular diseases, skeletal diseases and cancer. BMPs typically activate BMP type I receptors and signal via SMAD1, 5 and 8. They can be classified into several subgroups, including the BMP2/4 group, the BMP5-8 osteogenic protein-1 (OP1) group, the growth and differentiation factor (GDF) 5-7 group and the BMP9/10 group. Most of the proteins of the BMP2/4, OP1 and BMP9/10 groups induce formation of bone and cartilage tissues in vivo, while the GDF5-7 group induce cartilage and tendon-like, but not bone-like, tissues (Miyazono et al. 2010). Members of the TGFB family bind to two types of serine-threonine kinase receptors, type I and type II (Massagué 2012). BMPs can bind type I receptors in the absence of type II receptors, but both types are required for signal transduction. The presence of both types dramatically increases binding affinity (Rozenweig et al. 1995). The type II receptor kinase transphosphorylates the type I receptor, which transmits specific intracellular signals. Type I and type II receptors share similar structural properties, comprised of a relatively short extracellular domain, a single membrane-spanning domain and an intracellular domain containing a serine-threonine kinase domain. Seven receptors, collectively referred to as the Activin receptor-like kinases (ALK), have been identified as type I receptors for the TGFB family in mammals. ALKs are classified into three groups based on their structure and function, the BMPRI group (Bone morphogenetic protein receptor type-1A, ALK3, BMPR1A and Bone morphogenetic protein receptor type-1B, ALK6, BMPR1B), the ALK1 group (Serine/threonine-protein kinase receptor R3, ALK1, ACVRL1 and Activin receptor type-1, ALK2, ACVR1) and the TBetaR1 group (Activin receptor type-1B, ALK4, ACVR1B and  TGF-beta receptor type-1, ALK5, TGFBR1 and Activin receptor type-1C, ALK7, ACVR1C) (Kawabata et al. 1998). ALK1 group and BMPRI group activate SMAD1/5/8 and transduce similar intracellular signals. The TBetaR1 group activate SMAD2/3. BMPR1A and ACVR1 are widely expressed. BMPR1B shows a more restricted expression profile. ACVRL1 is limited to endothelial cells and a few other cell types. The binding specificities of BMPs to type I receptors is affected by the type II receptors that are present (Yu et al. 2005). Typically, BMP2 and BMP4 bind to BMPR1A and BMPR1B (ten Dijke et al. 1994). BMP6 and BMP7 bind strongly to ACVR1 and weakly to BMPR1B. Growth/differentiation factor 5 (BMP14, GDF5) preferentially binds to BMPR1B, but not to other type I receptors (Nishitoh et al. 1995). BMP9 and BMP10 bind to ACVRL1 and ACVRL (Scharpfenecker et al. 2007). BMP type I receptors are shared by other members of the TGFB family. Three receptors, Bone morphogenetic protein receptor type-2 (BMPR2), Activin receptor type-2A (ACVR2A) and Activin receptor type-2B (ACVR2B) are the type II receptors for mammalian BMPs. They are widely expressed in various tissues. BMPR2 is specific for BMPs, whereas ACVR2A and ACVR2B are shared with activins and myostatin. BMP binding and signalling can be affected by coreceptors. Glycosylphosphatidylinositol (GPI)-anchored proteins of the repulsive guidance molecule (RGM) family, including RGMA, RGMB (DRAGON) and Hemojuvelin (HFE2, RGMC) are coreceptors for BMP2 and BMP4, enhancing signaling (Samad et al. 2005, Babitt et al. 2005, 2006). They interact with BMP type I and/or type II receptors and bind BMP2 and BMP4, but not BMP7 or TGFB1. BMP2/4 signalling normally involves BMPR2, not ACVR2A or ACVR2B. Cells transfected with RGMA use both BMPR2 and ACVR2A for BMP-2/4 signalling, suggesting that RGMA facilitates the use of ACVR2A by BMP2/4 (Xia et al. 2007). Endoglin (ENG) is a transmembrane protein expressed in proliferating endothelial cells. It binds various ligands including TGFB1/3, Activin-A and BMP2/7 (Barbara et al. 1999). It inhibits TGFB-induced responses and enhances BMP7-induced responses (Scherner et al. 2007). Mutations in ENG result in hereditary haemorrhagic telangiectasia (HHT1), also known as OslerWeberRendu disease, while mutations in ACVRL1 lead to HHT2, suggesting that they act in a common signalling pathway (McAllister et al. 1994, Johnson et al. 1996). BMP2 is a dimeric protein, having two receptor-binding motifs. One is a high-affinity binding site for BMPR1A, the other is a low-affinity binding site for BMPR2 (Kirsch et al. 2000). In the absence of ligand stimulation, small fractions of type II and type I receptors are present as preexisting homodimers and heterodimers on the cell surface. Ligand-binding increases oligomerization. The intracellular domains of type I receptors have a characteristic GS domain (glycine and serine-rich domain) located N-terminal to the serine-threonine kinase domains. Type II receptor kinases are constitutively active in the absence of ligand. Upon ligand binding, the type II receptor kinase phosphorylates the GS domain of the type I receptor, a critical event in signal transduction by the serine/threonine kinase receptors (Miyazono et al. 2010). Activation of the TGFBR1 receptor has been studied in detail. The inactive conformation is maintained by interaction between the GS domain, the N-terminal lobe and the activation loop of the kinase (Huse et al. 1999). When the GS domain is phosphorylated by the type II receptor kinase, the TGFBR1 kinase is converted to an active conformation. Mutations of Thr-204 in TGFBR1 and the corresponding Gln in BMP type I receptors lead to their constitutive activation. The L45 loop, in the kinase domain of  type I receptors, specifically interacts with receptor-regulated Smads (R-Smads). Neurotrophic tyrosine kinase receptor type 3 (NT-3 growth factor receptor, TrkC, NTRK3) directly binds BMPR2, interfereing with its interaction with BMPR1A, which inhibits downstream signalling (Jin et al. 2007). Tyrosine-protein kinase transmembrane receptor ROR2 and BMPR1B form a heteromeric complex in a ligand independent fashion that modulatesGDF5-BMPR1B signalling by inhibition of Smad1/5 signalling (Sammar et al. 2004). Type I receptor kinases activated by the type II receptor kinases, phosphorylate R-Smads. R-Smads then form a complex with common-partner Smad (co-Smad) and translocate to the nucleus. The oligomeric Smad complexes regulate the transcription of target genes through interaction with various transcription factors and transcriptional coactivators or corepressors. Inhibitory Smads (I-Smads) negatively regulate the action of R-Smads and/or co-Smads. Eight different Smads have been identified in mammals. Smad1, Smad5 and Smad8 are R-Smads in BMP signalling pathways (BMP-specific R-Smads). Smad2 and Smad3 are R-Smads in TGFB/activin<br>signalling pathways. BMP receptors can phosphorylate Smad2 in certain types of cells (Murakami et al. 2009). Smad1, Smad5 and Smad8 are structurally highly similar to each other. The functional differences between them are largely unknown. Smad4 is the only co-Smad in mammals, shared by both BMP and TGFB/activin signalling pathways. Smad6 and Smad7 are I-Smads.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/REACT_12034.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2023-09-13",
+  "hasEvent": [
+   {
+    "dbId": 201810,
+    "displayName": "The ligand trap binds the ligand BMP2, blocking BMP signalling",
+    "stId": "R-HSA-201810",
+    "stIdVersion": "R-HSA-201810.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "The ligand trap binds the ligand BMP2, blocking BMP signalling"
+    ],
+    "releaseDate": "2006-08-02",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 202604,
+    "displayName": "Formation of a heteromeric BMP receptor complex",
+    "stId": "R-HSA-202604",
+    "stIdVersion": "R-HSA-202604.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Formation of a heteromeric BMP receptor complex"
+    ],
+    "releaseDate": "2006-01-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 201457,
+    "displayName": "BMP2 binds to the receptor complex",
+    "stId": "R-HSA-201457",
+    "stIdVersion": "R-HSA-201457.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "BMP2 binds to the receptor complex"
+    ],
+    "releaseDate": "2005-09-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 201443,
+    "displayName": "Type II receptor phosphorylates type I receptor",
+    "stId": "R-HSA-201443",
+    "stIdVersion": "R-HSA-201443.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Type II receptor phosphorylates type I receptor"
+    ],
+    "releaseDate": "2005-09-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 201648,
+    "displayName": "An anchoring protein, Endofin, recruits R-Smad1/5/8",
+    "stId": "R-HSA-201648",
+    "stIdVersion": "R-HSA-201648.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "An anchoring protein, Endofin, recruits R-Smad1/5/8"
+    ],
+    "releaseDate": "2005-09-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 201445,
+    "displayName": "Ubiquitin-dependent degradation controls basal levels of R-Smad1/5/8",
+    "stId": "R-HSA-201445",
+    "stIdVersion": "R-HSA-201445.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Ubiquitin-dependent degradation controls basal levels of R-Smad1/5/8"
+    ],
+    "releaseDate": "2005-09-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 201821,
+    "displayName": "I-Smad binds to type I receptor, preventing Smad1/5/8 from being activated",
+    "stId": "R-HSA-201821",
+    "stIdVersion": "R-HSA-201821.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "I-Smad binds to type I receptor, preventing Smad1/5/8 from being activated"
+    ],
+    "releaseDate": "2006-08-02",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 201476,
+    "displayName": "Activated type I receptor phosphorylates R-Smad1/5/8 directly",
+    "stId": "R-HSA-201476",
+    "stIdVersion": "R-HSA-201476.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Activated type I receptor phosphorylates R-Smad1/5/8 directly"
+    ],
+    "releaseDate": "2005-09-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 201453,
+    "displayName": "Phospho-R-Smad1/5/8 dissociates from the receptor complex",
+    "stId": "R-HSA-201453",
+    "stIdVersion": "R-HSA-201453.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phospho-R-Smad1/5/8 dissociates from the receptor complex"
+    ],
+    "releaseDate": "2005-09-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 202626,
+    "displayName": "I-Smad competes with Co-Smad for R-Smad1/5/8",
+    "stId": "R-HSA-202626",
+    "stIdVersion": "R-HSA-202626.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "I-Smad competes with Co-Smad for R-Smad1/5/8"
+    ],
+    "releaseDate": "2006-08-02",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 201422,
+    "displayName": "Phospho-R-Smad1/5/8 forms a complex with Co-Smad",
+    "stId": "R-HSA-201422",
+    "stIdVersion": "R-HSA-201422.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phospho-R-Smad1/5/8 forms a complex with Co-Smad"
+    ],
+    "releaseDate": "2005-09-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 201472,
+    "displayName": "The phospho-R-Smad1/5/8:Co-Smad transfers to the nucleus",
+    "stId": "R-HSA-201472",
+    "stIdVersion": "R-HSA-201472.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "The phospho-R-Smad1/5/8:Co-Smad transfers to the nucleus"
+    ],
+    "releaseDate": "2005-09-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 201425,
+    "displayName": "Ubiquitin-dependent degradation of the Smad complex terminates BMP2 signalling",
+    "stId": "R-HSA-201425",
+    "stIdVersion": "R-HSA-201425.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Ubiquitin-dependent degradation of the Smad complex terminates BMP2 signalling"
+    ],
+    "releaseDate": "2005-09-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 201423,
+    "displayName": "SKI complexes with the Smad complex, suppressing BMP2 signalling",
+    "stId": "R-HSA-201423",
+    "stIdVersion": "R-HSA-201423.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SKI complexes with the Smad complex, suppressing BMP2 signalling"
+    ],
+    "releaseDate": "2005-09-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 201475,
+    "displayName": "I-Smad competes with R-Smad1/5/8 for type I receptor",
+    "stId": "R-HSA-201475",
+    "stIdVersion": "R-HSA-201475.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "I-Smad competes with R-Smad1/5/8 for type I receptor"
+    ],
+    "releaseDate": "2005-09-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8858346,
+    "displayName": "AMHR2 binds AMH",
+    "stId": "R-HSA-8858346",
+    "stIdVersion": "R-HSA-8858346.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AMHR2 binds AMH"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8858369,
+    "displayName": "ACVRL1 binds BMP9,BMP10",
+    "stId": "R-HSA-8858369",
+    "stIdVersion": "R-HSA-8858369.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ACVRL1 binds BMP9,BMP10"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     201451
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

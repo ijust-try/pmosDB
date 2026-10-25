@@ -1,0 +1,4111 @@
+{
+ "source": "quickgo_terms",
+ "query": "P10275_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0000122,GO:0000785,GO:0000976,GO:0000977,GO:0000978,GO:0000979,GO:0000981,GO:0001091,GO:0001223,GO:0001228,GO:0003677,GO:0003682,GO:0003700,GO:0003707,GO:0004879,GO:0005102,GO:0005496,GO:0005497,GO:0005515,GO:0006355,GO:0007165,GO:0007267,GO:0007283,GO:0008013,GO:0008270,GO:0008284,GO:0008285,GO:0008584,GO:0010628,GO:0019899,GO:0030520,GO:0030521,GO:0030522,GO:0033574,GO:0034056,GO:0043565,GO:0045597,GO:0045726,GO:0045893,GO:0045944,GO:0045945,GO:0051117,GO:0060090,GO:0061629,GO:0070974,GO:0071383,GO:0071391,GO:0071394,GO:0140693,GO:0140694",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:19:46+00:00",
+ "response": {
+  "numberOfHits": 50,
+  "results": [
+   {
+    "id": "GO:0043565",
+    "isObsolete": false,
+    "name": "sequence-specific DNA binding",
+    "definition": {
+     "text": "Binding to DNA of a specific nucleotide composition, e.g. GC-rich DNA binding, or with a specific sequence motif or type of DNA e.g. promotor binding or rDNA binding."
+    },
+    "synonyms": [
+     {
+      "name": "sequence specific DNA binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0042162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008327",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110001",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1990837",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045322",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0141094",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098847",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030521",
+    "isObsolete": false,
+    "name": "androgen receptor signaling pathway",
+    "definition": {
+     "text": "A nuclear receptor-mediated signaling pathway initiated by an androgen binding to an intracellular receptor of the nuclear receptor protein family, and ending with regulation of a downstream cellular process, e.g. transcription."
+    },
+    "synonyms": [
+     {
+      "name": "androgen receptor signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "nuclear-receptor-mediated androgen receptor signaling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060766",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0060765",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0160207",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030520",
+    "isObsolete": false,
+    "name": "estrogen receptor signaling pathway",
+    "definition": {
+     "text": "A nuclear receptor-mediated signaling pathway initiated by an estrogen binding to an intracellular receptor of the nuclear receptor protein family, and ending with regulation of a downstream cellular process, e.g. transcription."
+    },
+    "synonyms": [
+     {
+      "name": "estrogen receptor signalling pathway",
+      "type": "broad"
+     },
+     {
+      "name": "intracellular estrogen receptor signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "nuclear receptor-mediated estrogen signaling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0033147",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0033148",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0033146",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030522",
+    "isObsolete": false,
+    "name": "intracellular receptor signaling pathway",
+    "definition": {
+     "text": "The series of molecular signals initiated by a ligand binding to a receptor located within a cell."
+    },
+    "synonyms": [
+     {
+      "name": "intracellular receptor mediated signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "intracellular receptor-mediated signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "intracellular receptor-mediated signalling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0004879",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035626",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009785",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0141193",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002753",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0019899",
+    "isObsolete": false,
+    "name": "enzyme binding",
+    "definition": {
+     "text": "Binding to an enzyme, a protein with catalytic activity."
+    },
+    "children": [
+     {
+      "id": "GO:0044390",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035035",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990226",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002020",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044547",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035226",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098650",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990827",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035473",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032145",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050998",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010180",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031996",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035375",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044549",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044389",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044388",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019902",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042826",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019900",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032190",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051020",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043274",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051117",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008179",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070063",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0003682",
+    "isObsolete": false,
+    "name": "chromatin binding",
+    "definition": {
+     "text": "Binding to chromatin, the network of fibers of DNA, protein, and sometimes RNA, that make up the chromosomes of the eukaryotic nucleus during interphase.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "20404130"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "lamin/chromatin binding",
+      "type": "narrow"
+     },
+     {
+      "name": "microtubule/chromatin interaction",
+      "type": "narrow"
+     },
+     {
+      "name": "nuclear membrane vesicle binding to chromatin",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0035563",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1990841",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031490",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031491",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990188",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035562",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0003677",
+    "isObsolete": false,
+    "name": "DNA binding",
+    "definition": {
+     "text": "Any molecular function by which a gene product interacts selectively and non-covalently with DNA (deoxyribonucleic acid)."
+    },
+    "synonyms": [
+     {
+      "name": "microtubule/chromatin interaction",
+      "type": "related"
+     },
+     {
+      "name": "plasmid binding",
+      "type": "narrow"
+     },
+     {
+      "name": "structure specific DNA binding",
+      "type": "related"
+     },
+     {
+      "name": "structure-specific DNA binding",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0043392",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0031490",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070336",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003690",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008301",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051880",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032116",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0045142",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003684",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051101",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0036411",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0003697",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990243",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0003681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043565",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000217",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045027",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099077",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010844",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043388",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0000497",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001091",
+    "isObsolete": false,
+    "name": "RNA polymerase II general transcription initiation factor binding",
+    "definition": {
+     "text": "Binding to a basal RNA polymerase II transcription factor, any of the factors involved in formation of the preinitiation complex (PIC) by RNA polymerase II and defined as a basal or general transcription factor.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "16858867"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "RNA polymerase II basal transcription factor binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0001096",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001094",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001095",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001093",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008584",
+    "isObsolete": false,
+    "name": "male gonad development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the male gonad over time, from its formation to the mature structure."
+    },
+    "synonyms": [
+     {
+      "name": "testicular development",
+      "type": "exact"
+     },
+     {
+      "name": "testis development",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2000018",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0033327",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060011",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072520",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:2000020",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:2000019",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0060008",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0033574",
+    "isObsolete": false,
+    "name": "response to testosterone",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a testosterone stimulus."
+    },
+    "synonyms": [
+     {
+      "name": "response to testosterone stimulus",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0071394",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045597",
+    "isObsolete": false,
+    "name": "positive regulation of cell differentiation",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of cell differentiation."
+    },
+    "synonyms": [
+     {
+      "name": "activation of cell differentiation",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of cell differentiation",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of cell differentiation",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of cell differentiation",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of cell differentiation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0010718",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045702",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045663",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045669",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045600",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001214",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045666",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904762",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903620",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048336",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062000",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045639",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901534",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903890",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050942",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010744",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905209",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045693",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001016",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030858",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045696",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045690",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010455",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045612",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001051",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000738",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045699",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905772",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901263",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903226",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000594",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031287",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051149",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005515",
+    "isObsolete": false,
+    "name": "protein binding",
+    "definition": {
+     "text": "Binding to a protein."
+    },
+    "synonyms": [
+     {
+      "name": "glycoprotein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "protein amino acid binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031072",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140081",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032092",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010313",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043393",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0031720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990405",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051087",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001965",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005516",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990935",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001848",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032091",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046980",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043394",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001846",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051959",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019955",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005102",
+    "isObsolete": false,
+    "name": "signaling receptor binding",
+    "definition": {
+     "text": "Binding to one or more specific sites on a receptor molecule, a macromolecule that undergoes combination with a hormone, neurotransmitter, drug or intracellular messenger to initiate a change in cell function.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "comment": "Where appropriate, also consider annotating to 'receptor agonist activity ; GO:0048018'.",
+    "synonyms": [
+     {
+      "name": "receptor-associated protein activity",
+      "type": "related"
+     },
+     {
+      "name": "receptor binding",
+      "type": "broad"
+     },
+     {
+      "name": "receptor ligand",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070851",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005115",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005159",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005117",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042975",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005113",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030215",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042615",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990890",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005121",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090722",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034190",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034987",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033130",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043125",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042608",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042287",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900121",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0048495",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035254",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990631",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005118",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030971",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039556",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005158",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039552",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005112",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033612",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050786",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042043",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042614",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097109",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046703",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030370",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042610",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030987",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038191",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005126",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005122",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005124",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990459",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046875",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001664",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017098",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050811",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990460",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900120",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0051427",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005176",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005178",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030156",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042609",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0140693",
+    "isObsolete": false,
+    "name": "molecular condensate scaffold activity",
+    "definition": {
+     "text": "Binding and bringing together two or more macromolecules in contact, permitting those molecules to organize as a molecular condensate.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "28225081"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "phase separation nucleation activity",
+      "type": "exact"
+     },
+     {
+      "name": "phase separation nucleator activity",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0140694",
+    "isObsolete": false,
+    "name": "membraneless organelle assembly",
+    "definition": {
+     "text": "The aggregation, arrangement and bonding together of a set of components to form a non-membrane-bounded organelle.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "28225081"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "non-membrane-bounded organelle assembly",
+      "type": "exact"
+     },
+     {
+      "name": "non-membrane-bounded organelle formation",
+      "type": "exact"
+     },
+     {
+      "name": "non-membrane-enclosed organelle assembly",
+      "type": "exact"
+     },
+     {
+      "name": "non-membrane-enclosed organelle formation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0000921",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044575",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990194",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902896",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770093",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034063",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042255",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051382",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902906",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140042",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903863",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904258",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051225",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030239",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033962",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098534",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044780",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140167",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005497",
+    "isObsolete": false,
+    "name": "androgen binding",
+    "definition": {
+     "text": "Binding to an androgen, a male sex hormone."
+    },
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005496",
+    "isObsolete": false,
+    "name": "steroid binding",
+    "definition": {
+     "text": "Binding to a steroid, any of a large group of substances that have in common a ring system based on 1,2-cyclopentanoperhydrophenanthrene.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:1903877",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090411",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032934",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903879",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005499",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990239",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903880",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902122",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903924",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902121",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051117",
+    "isObsolete": false,
+    "name": "ATPase binding",
+    "definition": {
+     "text": "Binding to an ATPase, any enzyme that catalyzes the hydrolysis of ATP."
+    },
+    "children": [
+     {
+      "id": "GO:0036501",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0070974",
+    "isObsolete": false,
+    "name": "POU domain binding",
+    "definition": {
+     "text": "Binding to a POU domain of a protein. The POU domain is a bipartite DNA binding domain composed of two subunits separated by a non-conserved region of 15-55 amino acids; it is found in several eukaryotic transcription factors.",
+     "xrefs": [
+      {
+       "dbCode": "InterPro",
+       "dbId": "IPR000327"
+      }
+     ]
+    },
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0004879",
+    "isObsolete": false,
+    "name": "nuclear receptor activity",
+    "definition": {
+     "text": "A DNA-binding transcription factor activity regulated by binding to a ligand that modulates the transcription of specific gene sets transcribed by RNA polymerase II. Nuclear receptor ligands are usually lipid-based (such as a steroid hormone) and the binding of the ligand to its receptor often occurs in the cytosol, which leads to its translocation to the nucleus.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "23457262"
+      }
+     ]
+    },
+    "comment": "Usage guidance: Nuclear receptors are a protein family defined by the presence of a C4-type zinc finger DNA-binding domain and a ligand binding domain. For nuclear receptors, the DNA binding motif is most often referred to as a response element. GO:0004879 is intended for annotation of nuclear receptors that regulate transcription by binding directly to DNA.",
+    "synonyms": [
+     {
+      "name": "1,25-(OH)2D3 receptor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "9-cis retinoic acid receptor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "androgen receptor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "calcitriol receptor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "ecdysteroid hormone receptor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "estrogen nuclear receptor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "glucocorticoid receptor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "juvenile hormone receptor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "ligand-activated sequence-specific DNA binding RNA polymerase II transcription factor activity",
+      "type": "exact"
+     },
+     {
+      "name": "ligand-dependent nuclear receptor activity",
+      "type": "related"
+     },
+     {
+      "name": "ligand-dependent transcription factor activity",
+      "type": "related"
+     },
+     {
+      "name": "nuclear hormone receptor",
+      "type": "narrow"
+     },
+     {
+      "name": "retinoic acid receptor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "retinoid-X receptor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, estrogen-activated sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, glucocorticoid-activated sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, ligand-activated sequence-specific DNA binding",
+      "type": "exact"
+     },
+     {
+      "name": "RXR",
+      "type": "narrow"
+     },
+     {
+      "name": "thyroid hormone receptor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "vitamin A receptor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "vitamin D3 receptor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "vitamin D receptor activity",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0003707",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038186",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000122",
+    "isObsolete": false,
+    "name": "negative regulation of transcription by RNA polymerase II",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of transcription mediated by RNA polymerase II."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "down-regulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "downregulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "down regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "inhibition of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of gene-specific transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "negative regulation of global transcription from Pol II promoter",
+      "type": "related"
+     },
+     {
+      "name": "negative regulation of transcription from Pol II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of transcription from RNA polymerase II promoter, global",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0120191",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905381",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001227",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0010688",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060633",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990711",
+      "relation": "capable_of_part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008285",
+    "isObsolete": false,
+    "name": "negative regulation of cell population proliferation",
+    "definition": {
+     "text": "Any process that stops, prevents or reduces the rate or extent of cell proliferation."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of cell proliferation",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of cell proliferation",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070345",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000137",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035207",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000178",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048662",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901383",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014859",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060244",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033689",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904074",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901723",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905937",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072201",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050680",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071337",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902731",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000818",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061914",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000647",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060044",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070664",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008284",
+    "isObsolete": false,
+    "name": "positive regulation of cell population proliferation",
+    "definition": {
+     "text": "Any process that activates or increases the rate or extent of cell proliferation."
+    },
+    "synonyms": [
+     {
+      "name": "activation of cell proliferation",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of cell proliferation",
+      "type": "related"
+     },
+     {
+      "name": "stimulation of cell proliferation",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of cell proliferation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0072513",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002053",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048146",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904075",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071864",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905938",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000103",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060045",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071338",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060252",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000497",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902732",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070665",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061913",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038091",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000648",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000288",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000138",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035208",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070346",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033690",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050679",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000179",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901384",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048661",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014858",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901724",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045726",
+    "isObsolete": false,
+    "name": "positive regulation of integrin biosynthetic process",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of integrins."
+    },
+    "synonyms": [
+     {
+      "name": "activation of integrin biosynthetic process",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of integrin anabolism",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of integrin biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of integrin formation",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of integrin synthesis",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of integrin biosynthetic process",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of integrin biosynthetic process",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of integrin biosynthetic process",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of integrin biosynthetic process",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0045775",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045944",
+    "isObsolete": false,
+    "name": "positive regulation of transcription by RNA polymerase II",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of transcription from an RNA polymerase II promoter."
+    },
+    "synonyms": [
+     {
+      "name": "activation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "activation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of gene-specific transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of global transcription from Pol II promoter",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of transcription from Pol II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of transcription from RNA polymerase II promoter, global",
+      "type": "related"
+     },
+     {
+      "name": "stimulation of global transcription from RNA polymerase II promoter",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "up regulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "up-regulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "upregulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "up regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060261",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900461",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001228",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990647",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0007221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990469",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:1905382",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060963",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110016",
+      "relation": "capable_of_part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045945",
+    "isObsolete": false,
+    "name": "positive regulation of transcription by RNA polymerase III",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of transcription mediated by RNA polymerase III."
+    },
+    "synonyms": [
+     {
+      "name": "activation of transcription from RNA polymerase III promoter",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of transcription from Pol III promoter",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of transcription from RNA polymerase III promoter",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of transcription from RNA polymerase III promoter",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of transcription from RNA polymerase III promoter",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of transcription from RNA polymerase III promoter",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of transcription from RNA polymerase III promoter",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0110016",
+      "relation": "capable_of_part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006355",
+    "isObsolete": false,
+    "name": "regulation of DNA-templated transcription",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of cellular DNA-templated transcription."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of cellular transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "regulation of transcription, DNA-templated",
+      "type": "exact"
+     },
+     {
+      "name": "transcriptional control",
+      "type": "broad"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0045990",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006359",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904279",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006357",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032784",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006356",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000409",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045893",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046015",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045892",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060194",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902893",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090293",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003700",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:2000142",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140743",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140542",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045893",
+    "isObsolete": false,
+    "name": "positive regulation of DNA-templated transcription",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of cellular DNA-templated transcription."
+    },
+    "synonyms": [
+     {
+      "name": "activation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "activation of transcription, DNA-dependent",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of cellular transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of transcription, DNA-templated",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of gene-specific transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of transcription, DNA-dependent",
+      "type": "narrow"
+     },
+     {
+      "name": "transcription activator activity",
+      "type": "related"
+     },
+     {
+      "name": "up regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "up-regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "upregulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "up regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of transcription, DNA-dependent",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0045945",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001070",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045944",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043856",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045943",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140543",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003713",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045895",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060566",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903109",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060196",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000144",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061435",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001216",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045991",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904281",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902895",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032786",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990513",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0061586",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008270",
+    "isObsolete": false,
+    "name": "zinc ion binding",
+    "definition": {
+     "text": "Binding to a zinc ion (Zn)."
+    },
+    "synonyms": [
+     {
+      "name": "zinc binding",
+      "type": "exact"
+     },
+     {
+      "name": "Zn binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990512",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060090",
+    "isObsolete": false,
+    "name": "molecular adaptor activity",
+    "definition": {
+     "text": "The binding activity of a molecule that brings together two or more molecules through a selective, non-covalent, often stoichiometric interaction, permitting those molecules to function in a coordinated way."
+    },
+    "synonyms": [
+     {
+      "name": "binding, bridging",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030533",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106260",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140177",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030674",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140369",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008013",
+    "isObsolete": false,
+    "name": "beta-catenin binding",
+    "definition": {
+     "text": "Binding to a catenin beta subunit."
+    },
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0003700",
+    "isObsolete": false,
+    "name": "DNA-binding transcription factor activity",
+    "definition": {
+     "text": "A transcription regulator activity that modulates transcription of gene sets via selective and non-covalent binding to a specific double-stranded genomic DNA sequence (sometimes referred to as a motif) within a cis-regulatory region. Regulatory regions include promoters (proximal and distal) and enhancers. Genes are transcriptional units, and include bacterial operons."
+    },
+    "comment": "Usage guidance: Most DNA-binding transcription factors do not have enzymatic activity. The presence of specific DNA-binding domains known to be present in DNA-binding transcription factors (HOX, GATA etc) should be used to help decide whether a protein is a DNA binding transcription factor or a coregulator. If a protein has an enzymatic activity (for example, ubiquitin ligase, histone acetyl transferase) and no known DNA binding domain, consider annotating to GO:0003712 transcription coregulator activity. Special care should be taken with proteins containing zinc fingers, Myb/SANT and ARID domains, since only a subset of proteins containing these domains directly and selectively bind to regulatory DNA motifs in cis-regulatory regions.",
+    "synonyms": [
+     {
+      "name": "bacterial-type DNA binding transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "bacterial-type RNA polymerase core promoter proximal region sequence-specific DNA binding transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "bacterial-type RNA polymerase transcription enhancer sequence-specific DNA binding transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "bacterial-type RNA polymerase transcription factor activity, metal ion regulated sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "bacterial-type RNA polymerase transcription factor activity, sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "DNA binding transcription factor activity",
+      "type": "exact"
+     },
+     {
+      "name": "gene-specific transcription factor activity",
+      "type": "exact"
+     },
+     {
+      "name": "metal ion regulated sequence-specific DNA binding bacterial-type RNA polymerase transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "metal ion regulated sequence-specific DNA binding transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "nucleic acid binding transcription factor activity",
+      "type": "broad"
+     },
+     {
+      "name": "sequence-specific DNA binding bacterial-type RNA polymerase transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "sequence-specific DNA binding transcription factor activity",
+      "type": "exact"
+     },
+     {
+      "name": "transcription factor activity",
+      "type": "broad"
+     },
+     {
+      "name": "transcription factor activity, bacterial-type RNA polymerase core promoter proximal region sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcription factor activity, bacterial-type RNA polymerase proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcription factor activity, bacterial-type RNA polymerase transcription enhancer sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcription factor activity, metal ion regulated sequence-specific DNA binding",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990243",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0098531",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001217",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016987",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001216",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000981",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0003707",
+    "isObsolete": false,
+    "name": "nuclear steroid receptor activity",
+    "definition": {
+     "text": "A nuclear receptor activity regulated by steroid binding and modulating the transcription of specific gene sets transcribed by RNA polymerase II.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "14708019"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "steroid hormone receptor activity",
+      "type": "broad"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030284",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004883",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001228",
+    "isObsolete": false,
+    "name": "DNA-binding transcription activator activity, RNA polymerase II-specific",
+    "definition": {
+     "text": "A DNA-binding transcription factor activity that activates or increases transcription of specific gene sets transcribed by RNA polymerase II.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "20737563"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "27145859"
+      }
+     ]
+    },
+    "comment": "For usage guidance, see comment in GO:0003700 ; DNA-binding transcription factor activity.",
+    "synonyms": [
+     {
+      "name": "copper ion regulated core promoter proximal region sequence-specific DNA binding RNA polymerase II transcription factor activity involved in positive regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "distal enhancer DNA-binding transcription activator activity, RNA polymerase II-specific",
+      "type": "narrow"
+     },
+     {
+      "name": "metal ion regulated core promoter proximal region sequence-specific DNA binding RNA polymerase II transcription factor activity involved in positive regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "metal ion regulated sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "proximal promoter DNA-binding transcription activator activity, RNA polymerase II-specific",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II distal enhancer sequence-specific DNA-binding transcription factor activity involved in positive regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcriptional activator activity, copper ion regulated proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcriptional activator activity, metal ion regulated core promoter proximal region sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcriptional activator activity, metal ion regulated proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcriptional activator activity, zinc ion regulated core promoter proximal region sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcriptional activator activity, zinc ion regulated proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription regulatory region sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription",
+      "type": "exact"
+     },
+     {
+      "name": "sequence-specific distal enhancer binding RNA polymerase II transcription factor activity involved in positive regulation of transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "transcriptional activator activity, metal ion regulated sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcriptional activator activity, RNA polymerase II core promoter proximal region sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcriptional activator activity, RNA polymerase II distal enhancer sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcriptional activator activity, RNA polymerase II proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcriptional activator activity, RNA polymerase II transcription regulatory region sequence-specific DNA binding",
+      "type": "exact"
+     },
+     {
+      "name": "zinc ion regulated core promoter proximal region sequence-specific DNA binding RNA polymerase II transcription factor activity involved in positive regulation of transcription",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990590",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1990589",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001223",
+    "isObsolete": false,
+    "name": "transcription coactivator binding",
+    "definition": {
+     "text": "Binding to a transcription coactivator, a protein involved in positive regulation of transcription via protein-protein interactions with transcription factors and other proteins that positively regulate transcription. Transcription coactivators do not bind DNA directly, but rather mediate protein-protein interactions between activating transcription factors and the basal transcription machinery."
+    },
+    "synonyms": [
+     {
+      "name": "RNA polymerase II transcription coactivator binding",
+      "type": "related"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0061629",
+    "isObsolete": false,
+    "name": "RNA polymerase II-specific DNA-binding transcription factor binding",
+    "definition": {
+     "text": "Binding to a sequence-specific DNA binding RNA polymerase II transcription factor, any of the factors that interact selectively and non-covalently with a specific DNA sequence in order to modulate transcription."
+    },
+    "synonyms": [
+     {
+      "name": "RNA polymerase II activating transcription factor binding",
+      "type": "related"
+     },
+     {
+      "name": "RNA polymerase II repressing transcription factor binding",
+      "type": "related"
+     },
+     {
+      "name": "RNA polymerase II sequence-specific DNA binding transcription factor binding",
+      "type": "exact"
+     },
+     {
+      "name": "RNA polymerase II sequence-specific DNA-binding transcription factor binding",
+      "type": "exact"
+     },
+     {
+      "name": "RNA polymerase II transcription factor binding",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0097677",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030957",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051525",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051059",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016922",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071394",
+    "isObsolete": false,
+    "name": "cellular response to testosterone stimulus",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a testosterone stimulus."
+    },
+    "children": [
+     {
+      "id": "GO:2000654",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:2000655",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071391",
+    "isObsolete": false,
+    "name": "cellular response to estrogen stimulus",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of stimulus by an estrogen, C18 steroid hormones that can stimulate the development of female sexual characteristics."
+    },
+    "synonyms": [
+     {
+      "name": "cellular response to 17alpha-ethynylestradiol",
+      "type": "related"
+     },
+     {
+      "name": "cellular response to oestrogen stimulus",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071383",
+    "isObsolete": false,
+    "name": "cellular response to steroid hormone stimulus",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a steroid hormone stimulus."
+    },
+    "children": [
+     {
+      "id": "GO:0071393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071384",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043401",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000979",
+    "isObsolete": false,
+    "name": "RNA polymerase II core promoter sequence-specific DNA binding",
+    "definition": {
+     "text": "Binding to a DNA sequence that is part of the core promoter of a RNA polymerase II-transcribed gene.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "12381658"
+      }
+     ]
+    },
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000978",
+    "isObsolete": false,
+    "name": "RNA polymerase II cis-regulatory region sequence-specific DNA binding",
+    "definition": {
+     "text": "Binding to a specific upstream regulatory DNA sequence (transcription factor recognition sequence or binding site) located in cis relative to the transcription start site (i.e., on the same strand of DNA) of a gene transcribed by RNA polymerase II."
+    },
+    "comment": "Note that the phrase upstream activating sequence, or UAS is often used in S. cerevisiae literature to refer to cis-regulatory sequences. In bacteria such as E. coli, the phrase upstream activating sequence, or UAS is usually a synonym for enhancer.",
+    "synonyms": [
+     {
+      "name": "RNA polymerase II core promoter proximal region sequence-specific DNA binding",
+      "type": "related"
+     },
+     {
+      "name": "RNA polymerase II distal enhancer sequence-specific DNA binding",
+      "type": "related"
+     },
+     {
+      "name": "RNA polymerase II promoter proximal region sequence-specific DNA binding",
+      "type": "related"
+     },
+     {
+      "name": "RNA polymerase II proximal promoter sequence-specific DNA binding",
+      "type": "related"
+     },
+     {
+      "name": "RNA polymerase II upstream activating sequence (UAS) sequence-specific DNA binding",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0034056",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035538",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032810",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010736",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035497",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070888",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044323",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140728",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044377",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070594",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070644",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071820",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000977",
+    "isObsolete": false,
+    "name": "RNA polymerase II transcription regulatory region sequence-specific DNA binding",
+    "definition": {
+     "text": "Binding to a specific sequence of DNA that is part of a regulatory region that controls the transcription of a gene or cistron by RNA polymerase II."
+    },
+    "comment": "To minimize ambiguity in the use of the word promoter in GO, we have chosen the phrase transcription regulatory region to refer to all of the regulatory regions. Regulatory regions in the DNA which control initiation may include the core promoter where the basal transcription machinery binds, the core promoter proximal region where regulatory factors other than the basal machinery bind. There are also additional regulatory regions, in both the DNA and the RNA transcript, which regulate elongation or termination of transcription.",
+    "synonyms": [
+     {
+      "name": "RNA polymerase II regulatory region DNA binding",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0001162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990378",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1903026",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1903025",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0000978",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000979",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000976",
+    "isObsolete": false,
+    "name": "transcription cis-regulatory region binding",
+    "definition": {
+     "text": "Binding to a specific sequence of DNA that is part of a regulatory region that controls transcription of that section of the DNA. The transcribed region might be described as a gene, cistron, or operon."
+    },
+    "comment": "Note that this term is meant to also capture non-specific binding to regulatory regions. Also, to minimize ambiguity in the use of the word promoter in GO, we have chosen the phrase transcription regulatory region to refer to all of the regulatory regions. Regulatory regions in the DNA which control initiation may include the core promoter where the basal transcription machinery binds, the core promoter proximal region where regulatory factors other than the basal machinery bind. There are also additional regulatory regions, in both the DNA and the RNA transcript, which regulate elongation or termination of transcription.",
+    "synonyms": [
+     {
+      "name": "bacterial-type RNA polymerase regulatory region DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "bacterial-type RNA polymerase transcription regulatory region sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "eubacterial-type RNA polymerase regulatory region DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "eubacterial-type RNA polymerase regulatory region sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "regulatory region DNA binding",
+      "type": "broad"
+     },
+     {
+      "name": "transcription regulatory region DNA binding",
+      "type": "related"
+     },
+     {
+      "name": "transcription regulatory region sequence-specific DNA binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0061793",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0001161",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001163",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001016",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000679",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0001046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032422",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001019",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000678",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0000987",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000677",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0001147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000977",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000981",
+    "isObsolete": false,
+    "name": "DNA-binding transcription factor activity, RNA polymerase II-specific",
+    "definition": {
+     "text": "A DNA-binding transcription factor activity that modulates the transcription of specific gene sets transcribed by RNA polymerase II."
+    },
+    "comment": "For usage guidance, see comment in GO:0003700 ; DNA-binding transcription factor activity.",
+    "synonyms": [
+     {
+      "name": "copper ion regulated core promoter proximal region sequence-specific DNA binding RNA polymerase II transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "metal ion regulated core promoter proximal region sequence-specific DNA binding RNA polymerase II transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "metal ion regulated sequence-specific DNA binding RNA polymerase II transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II distal enhancer sequence-specific DNA binding transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, copper ion regulated core promoter proximal region sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, copper ion regulated proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, metal ion regulated core promoter proximal region sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, metal ion regulated proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, metal ion regulated sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, sequence-specific DNA binding",
+      "type": "exact"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, sequence-specific transcription regulatory region DNA binding",
+      "type": "exact"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, zinc ion regulated core promoter proximal region sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "RNA polymerase II transcription factor activity, zinc ion regulated proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "sequence-specific distal enhancer binding RNA polymerase II transcription factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "sequence-specific DNA binding RNA polymerase II transcription factor activity",
+      "type": "exact"
+     },
+     {
+      "name": "sequence-specific transcription regulatory region DNA binding RNA polymerase II transcription factor recruiting transcription factor activity",
+      "type": "related"
+     },
+     {
+      "name": "transcription factor",
+      "type": "broad"
+     },
+     {
+      "name": "transcription factor activity, RNA polymerase II core promoter proximal region sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcription factor activity, RNA polymerase II distal enhancer sequence-specific binding",
+      "type": "narrow"
+     },
+     {
+      "name": "transcription factor activity, RNA polymerase II proximal promoter sequence-specific DNA binding",
+      "type": "narrow"
+     },
+     {
+      "name": "zinc ion regulated core promoter proximal region sequence-specific DNA binding RNA polymerase II transcription factor activity",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0004879",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990378",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1990433",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0001228",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001227",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0034056",
+    "isObsolete": false,
+    "name": "estrogen response element binding",
+    "definition": {
+     "text": "Binding to an estrogen response element (ERE), a conserved sequence found in the promoters of genes whose expression is regulated in response to estrogen.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "15036253"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "17975005"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "ERE binding",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000785",
+    "isObsolete": false,
+    "name": "chromatin",
+    "definition": {
+     "text": "The ordered and organized complex of DNA, protein, and sometimes RNA, that forms the chromosome.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "20404130"
+      }
+     ]
+    },
+    "comment": "Chromosomes include parts that are not part of the chromatin. Examples include the kinetochore.",
+    "synonyms": [
+     {
+      "name": "chromosome scaffold",
+      "type": "related"
+     },
+     {
+      "name": "cytoplasmic chromatin",
+      "type": "narrow"
+     },
+     {
+      "name": "nuclear chromatin",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0046536",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033503",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0106250",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0061638",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005726",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030874",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035101",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034967",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070211",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000792",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000123",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000791",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070210",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070603",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034974",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032798",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030527",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000786",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000981",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070823",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070822",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007165",
+    "isObsolete": false,
+    "name": "signal transduction",
+    "definition": {
+     "text": "The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal (e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light), or for signal transduction in the absence of ligand, signal-withdrawal or the activity of a constitutively active receptor. Signal transduction ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell."
+    },
+    "comment": "Note that signal transduction is defined broadly to include a ligand interacting with a receptor, downstream signaling steps and a response being triggered. A change in form of the signal in every step is not necessary. Note that in many cases the end of this process is regulation of the initiation of transcription. Note that specific transcription factors may be annotated to this term, but core/general transcription machinery such as RNA polymerase should not.",
+    "synonyms": [
+     {
+      "name": "signaling cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "signaling pathway",
+      "type": "related"
+     },
+     {
+      "name": "signalling cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "signalling pathway",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0009968",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0071588",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038011",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0097190",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090520",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007210",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0023019",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106167",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140507",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055095",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0023041",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140626",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009756",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010850",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097527",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009755",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035556",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009966",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0038034",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009863",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010017",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098926",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098928",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007186",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009967",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0060863",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001402",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002764",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038010",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0038009",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0007602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990806",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903831",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038183",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048018",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007166",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0010628",
+    "isObsolete": false,
+    "name": "positive regulation of gene expression",
+    "definition": {
+     "text": "Any process that increases the frequency, rate or extent of gene expression. Gene expression is the process in which a gene's coding sequence is converted into a mature gene product (protein or RNA)."
+    },
+    "children": [
+     {
+      "id": "GO:1902373",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0141064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0141137",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001819",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060967",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903319",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031564",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045727",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000237",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902798",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002702",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903800",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031452",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905870",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140668",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033120",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007267",
+    "isObsolete": false,
+    "name": "cell-cell signaling",
+    "definition": {
+     "text": "Any process that mediates the transfer of information from one cell to another. This process includes signal transduction in the receiving cell and, where applicable, release of a ligand and any processes that actively facilitate its transport and presentation to the receiving cell. Examples include signaling via soluble ligands, via cell adhesion molecules and via gap junctions."
+    },
+    "synonyms": [
+     {
+      "name": "cell-cell signalling",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060684",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007495",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072043",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003131",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060497",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060764",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003133",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007499",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021937",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060638",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061939",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060657",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035425",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0150099",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0150098",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044345",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038002",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045168",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007214",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0086029",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110094",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099156",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0023061",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009372",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099536",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016204",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007283",
+    "isObsolete": false,
+    "name": "spermatogenesis",
+    "definition": {
+     "text": "The developmental process by which male germ line stem cells self renew or give rise to successive cell types resulting in the development of a spermatozoa.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "9780878933846"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "28073824"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "30990821"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "generation of spermatozoa",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0048140",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030726",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061989",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030724",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007284",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048137",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007285",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048515",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048136",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048133",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0160087",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

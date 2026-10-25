@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "Leptin",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "Leptin AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:43:18+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "567",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "38027110",
+    "38285626",
+    "35725989"
+   ],
+   "translationset": [
+    {
+     "from": "Leptin",
+     "to": "\"leptin\"[Supplementary Concept] OR \"leptin\"[All Fields] OR \"lep protein, human\"[Supplementary Concept] OR \"lep protein, human\"[All Fields] OR \"leptin\"[MeSH Terms] OR \"leptins\"[All Fields] OR \"leptin's\"[All Fields] OR \"leptine\"[All Fields] OR \"leptines\"[All Fields]"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"leptin\"[Supplementary Concept] OR \"leptin\"[All Fields] OR \"lep protein human\"[Supplementary Concept] OR \"lep protein human\"[All Fields] OR \"leptin\"[MeSH Terms] OR \"leptins\"[All Fields] OR \"leptin s\"[All Fields] OR \"leptine\"[All Fields] OR \"leptines\"[All Fields]) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

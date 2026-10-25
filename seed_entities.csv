@@ -1,0 +1,80 @@
+entity_type,name,lookup,id_source,notes
+gene,CYP17A1,CYP17A1,,from progress doc; steroidogenesis
+gene,CYP19A1,CYP19A1,,aromatase
+gene,CYP11A1,CYP11A1,,steroidogenesis
+gene,AR,AR,,androgen receptor
+gene,INSR,INSR,,insulin receptor
+gene,LHCGR,LHCGR,,LH receptor
+gene,FSHR,FSHR,,FSH receptor
+gene,AMH,AMH,,reproductive biomarker gene
+gene,AMHR2,AMHR2,,AMH receptor
+gene,SHBG,SHBG,,binds sex steroids
+hormone,Testosterone,testosterone,pubchem,from progress doc
+hormone,Estradiol,estradiol,pubchem,
+hormone,Androstenedione,androstenedione,pubchem,
+hormone,Progesterone,progesterone,pubchem,
+hormone,Luteinizing hormone,LHB,uniprot,protein hormone: no PubChem compound; beta chain
+hormone,Follicle-stimulating hormone,FSHB,uniprot,protein hormone; beta chain
+hormone,Insulin,INS,uniprot,protein hormone
+biomarker,Anti-Mullerian hormone,AMH,uniprot,from progress doc
+biomarker,Sex hormone-binding globulin,SHBG,uniprot,
+biomarker,INSL3,INSL3,uniprot,shown in UI mockup
+therapeutic,Metformin,metformin,pubchem,from progress doc
+therapeutic,Spironolactone,spironolactone,pubchem,
+therapeutic,Clomiphene,clomiphene,pubchem,
+therapeutic,Letrozole,letrozole,pubchem,
+therapeutic,Pioglitazone,pioglitazone,pubchem,
+pathway,Steroid hormone biosynthesis,steroid hormone biosynthesis,reactome,KEGG-style name from progress doc; the Reactome match is logged for review
+gene,ESR1,ESR1,,tier 2; Open Targets rank 1 (estrogen receptor alpha)
+gene,ERBB4,ERBB4,,tier 2; Open Targets rank 2
+gene,GNRHR,GNRHR,,tier 2; Open Targets rank 3; GnRH receptor
+gene,FTO,FTO,,tier 2; Open Targets rank 4; obesity/PCOS GWAS locus
+gene,CHEK2,CHEK2,,tier 2; Open Targets rank 5
+gene,FSHB,FSHB,,tier 2; Open Targets rank 6; FSH beta subunit gene
+gene,AOPEP,AOPEP,,tier 2; Open Targets rank 7
+gene,DENND1A,DENND1A,,tier 2; Open Targets rank 8; well-established PCOS GWAS locus
+gene,GNAI1,GNAI1,,tier 2; Open Targets rank 10
+gene,PROX1,PROX1,,tier 2; Open Targets rank 13
+gene,ZBTB16,ZBTB16,,tier 2; Open Targets rank 14; PCOS GWAS locus
+gene,IRF1,IRF1,,tier 2; Open Targets rank 16
+gene,SUOX,SUOX,,tier 2; Open Targets rank 17
+gene,GLP1R,GLP1R,,tier 2; Open Targets rank 21; GLP-1 receptor;  drug target
+gene,PGR,PGR,,tier 2; Open Targets rank 22; progesterone receptor
+gene,GATA4,GATA4,,tier 2; Open Targets rank 24
+gene,THADA,THADA,,tier 2; literature PCOS GWAS locus (not in OT top associations pulled)
+gene,YAP1,YAP1,,tier 2; literature PCOS GWAS locus
+gene,RAB5B,RAB5B,,tier 2; literature PCOS GWAS locus
+gene,HMGA2,HMGA2,,tier 2; literature PCOS GWAS locus
+gene,TOX3,TOX3,,tier 2; literature PCOS GWAS locus
+gene,IRS1,IRS1,,tier 2; insulin signaling;  PCOS insulin-resistance pathway
+gene,IRS2,IRS2,,tier 2; insulin signaling;  PCOS insulin-resistance pathway
+gene,PPARG,PPARG,,tier 2; thiazolidinedione target;  insulin sensitivity
+gene,LEPR,LEPR,,tier 2; leptin receptor;  metabolic/PCOS link
+gene,TCF7L2,TCF7L2,,tier 2; T2D/PCOS shared metabolic locus
+hormone,Dehydroepiandrosterone,dehydroepiandrosterone,pubchem,tier 2; adrenal androgen precursor
+hormone,Dehydroepiandrosterone sulfate,dehydroepiandrosterone sulfate,pubchem,tier 2; DHEA-S;  key PCOS androgen marker
+hormone,17-Hydroxyprogesterone,17-hydroxyprogesterone,pubchem,tier 2; steroidogenesis intermediate
+hormone,Dihydrotestosterone,dihydrotestosterone,pubchem,tier 2; potent androgen
+hormone,Cortisol,cortisol,pubchem,tier 2; HPA axis
+hormone,Prolactin,PRL,uniprot,tier 2; protein hormone
+hormone,Leptin,LEP,uniprot,tier 2; adipokine;  metabolic link to PCOS
+hormone,Adiponectin,ADIPOQ,uniprot,tier 2; adipokine;  insulin sensitivity
+hormone,Resistin,RETN,uniprot,tier 2; adipokine;  insulin resistance
+hormone,Inhibin B,INHBB,uniprot,tier 2; ovarian reserve marker;  beta B subunit
+biomarker,C-reactive protein,CRP,uniprot,tier 2; low-grade inflammation marker in PCOS
+biomarker,Ghrelin,GHRL,uniprot,tier 2; appetite hormone linked to PCOS metabolic phenotype
+biomarker,Insulin-like growth factor 1,IGF1,uniprot,tier 2; metabolic/ovarian marker
+biomarker,Visfatin,NAMPT,uniprot,tier 2; adipokine studied in PCOS
+therapeutic,Flutamide,flutamide,pubchem,tier 2; antiandrogen used off-label in PCOS
+therapeutic,Finasteride,finasteride,pubchem,tier 2; 5-alpha-reductase inhibitor;  antiandrogen
+therapeutic,Bicalutamide,bicalutamide,pubchem,tier 2; antiandrogen
+therapeutic,Myo-inositol,myo-inositol,pubchem,tier 2; insulin-sensitizing supplement widely studied in PCOS
+therapeutic,N-Acetylcysteine,N-acetylcysteine,pubchem,tier 2; insulin-sensitizing adjunct in PCOS
+therapeutic,Liraglutide,liraglutide,pubchem,tier 2; GLP-1 agonist;  weight/insulin management in PCOS
+therapeutic,Dapagliflozin,dapagliflozin,pubchem,tier 2; SGLT2 inhibitor studied in PCOS metabolic management
+therapeutic,Drospirenone,drospirenone,pubchem,tier 2; progestin used in combined OC for PCOS
+pathway,Insulin receptor signalling,insulin receptor signalling,reactome,tier 2; core PCOS insulin-resistance pathway
+pathway,GnRH signaling pathway,GnRH signaling pathway,reactome,tier 2
+pathway,Nuclear receptor transcription pathway,nuclear receptor transcription pathway,reactome,tier 2
+pathway,Androgen biosynthesis,androgen biosynthesis,reactome,tier 2
+pathway,PI3K/AKT activation,PI3K AKT activation,reactome,tier 2; downstream insulin signaling

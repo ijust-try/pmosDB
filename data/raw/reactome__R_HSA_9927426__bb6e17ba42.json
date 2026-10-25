@@ -1,0 +1,157 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9927426",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9927426",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:36:24+00:00",
+ "response": {
+  "dbId": 9927426,
+  "displayName": "Developmental Lineage of Mammary Gland Alveolar Cells",
+  "stId": "R-HSA-9927426",
+  "stIdVersion": "R-HSA-9927426.2",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Developmental Lineage of Mammary Gland Alveolar Cells"
+  ],
+  "releaseDate": "2025-09-18",
+  "speciesName": "Homo sapiens",
+  "literatureReference": [
+   {
+    "dbId": 9945422,
+    "displayName": "Mammary stem cells and the differentiation hierarchy: current status and perspectives",
+    "title": "Mammary stem cells and the differentiation hierarchy: current status and perspectives",
+    "journal": "Genes Dev",
+    "pages": "1143-58",
+    "pubMedIdentifier": 24888586,
+    "volume": 28,
+    "year": 2014,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24888586",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9963265,
+    "displayName": "Kindlin-2 in myoepithelium controls luminal progenitor commitment to alveoli in mouse mammary gland",
+    "title": "Kindlin-2 in myoepithelium controls luminal progenitor commitment to alveoli in mouse mammary gland",
+    "journal": "Cell Death Dis",
+    "pages": "675",
+    "pubMedIdentifier": 37833248,
+    "volume": 14,
+    "year": 2023,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/37833248",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9964100,
+    "displayName": "Conditional knockout of N-Myc and STAT interactor disrupts normal mammary development and enhances metastatic ability of mammary tumors",
+    "title": "Conditional knockout of N-Myc and STAT interactor disrupts normal mammary development and enhances metastatic ability of mammary tumors",
+    "journal": "Oncogene",
+    "pages": "1610-1623",
+    "pubMedIdentifier": 29326438,
+    "volume": 37,
+    "year": 2018,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29326438",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9959815,
+    "displayName": "Mammary gland luminal progenitor cells commit to either a du...",
+    "text": "Mammary gland luminal progenitor cells commit to either a ductal fate, producing ductal epithelial cells that line the mammary gland ducts, or to an alveolar fate, producing milk-secreting alveolar cells (reviewed in Visvader and Stingl 2014). NOTCH signaling, WNT signaling, and hormone receptor signaling play deciding roles in fate determination of luminal progenitors, with hormone receptor negative luminal progenitors committing to the alveolar fate and hormone receptor positive luminal progenitors committing to the ductal epithelial fate (Shehata et al. 2012, Pruitt et al. 2018, reviewed in Visvader and Stingl 2014). Hormone receptor negative luminal progenitors produce alveolar progenitors, which are likely to be hormone receptor negative (reviewed in Visvader and Stingl 2014). The commitment of luminal progenitors to alveolar fate is induced during pregnancy (reviewed in Visvader and Stingl 2014). In mice, inactivation of Notch signaling in luminal progenitor cells drives their commitment to alveolar cell identity (Wang et al. 2023). Downregulation of Notch signaling in hormone receptor-negative luminal progenitors may be due to FERMT2 (also known as Kindlin-2)-mediated downregulation of Stat3-mediated expression of Notch ligand Dll1 in myoepithelial cells (Wang et al. 2023). After cessation of lactation, alveolar cells in the mammary gland die during the involution process, however, mouse lineage tracing studies suggest that some alveolar progenitors/precursors survive the involution and function as self-renewing alveolar precursors in subsequent pregnancies (reviewed in Visvader and Stingl 2014).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "previousReviewStatus": {
+   "dbId": 9821383,
+   "displayName": "three stars",
+   "definition": "internally reviewed",
+   "name": [
+    "three stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-9927426.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 9927438,
+    "displayName": "Mammary hormone receptor negative luminal progenitor cell produces alveolar progenitor cell",
+    "stId": "R-HSA-9927438",
+    "stIdVersion": "R-HSA-9927438.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Mammary hormone receptor negative luminal progenitor cell produces alveolar progenitor cell"
+    ],
+    "releaseDate": "2025-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9927426
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "CellDevelopmentStep"
+   },
+   {
+    "dbId": 9927423,
+    "displayName": "Mammary alveolar progenitor cell produces secretory lactocyte",
+    "stId": "R-HSA-9927423",
+    "stIdVersion": "R-HSA-9927423.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Mammary alveolar progenitor cell produces secretory lactocyte"
+    ],
+    "releaseDate": "2025-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9927426
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "CellDevelopmentStep"
+   }
+  ],
+  "schemaClass": "CellLineagePath",
+  "className": "CellLineagePath"
+ }
+}

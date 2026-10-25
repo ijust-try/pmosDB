@@ -1,0 +1,292 @@
+{
+ "source": "uniprot",
+ "query": "FTO",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:FTO) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:37:12+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q9C0B1",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "Alpha-ketoglutarate-dependent dioxygenase FTO"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "17496892"
+         }
+        ],
+        "value": "Fat mass and obesity-associated protein"
+       }
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000305"
+         }
+        ],
+        "value": "U6 small nuclear RNA (2'-O-methyladenosine-N(6)-)-demethylase FTO"
+       },
+       "ecNumbers": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000269",
+           "source": "PubMed",
+           "id": "30197295"
+          }
+         ],
+         "value": "1.14.11.-"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000305"
+         }
+        ],
+        "value": "U6 small nuclear RNA N(6)-methyladenosine-demethylase FTO"
+       },
+       "ecNumbers": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000269",
+           "source": "PubMed",
+           "id": "30197295"
+          }
+         ],
+         "value": "1.14.11.-"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000305"
+         }
+        ],
+        "value": "mRNA (2'-O-methyladenosine-N(6)-)-demethylase FTO"
+       },
+       "shortNames": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000305"
+          }
+         ],
+         "value": "m6A(m)-demethylase FTO"
+        }
+       ],
+       "ecNumbers": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000269",
+           "source": "PubMed",
+           "id": "28002401"
+          },
+          {
+           "evidenceCode": "ECO:0000269",
+           "source": "PubMed",
+           "id": "30197295"
+          }
+         ],
+         "value": "1.14.11.-"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000305"
+         }
+        ],
+        "value": "mRNA N(6)-methyladenosine demethylase FTO"
+       },
+       "ecNumbers": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000269",
+           "source": "PubMed",
+           "id": "25452335"
+          },
+          {
+           "evidenceCode": "ECO:0000269",
+           "source": "PubMed",
+           "id": "26457839"
+          },
+          {
+           "evidenceCode": "ECO:0000269",
+           "source": "PubMed",
+           "id": "30197295"
+          },
+          {
+           "evidenceCode": "ECO:0000305",
+           "source": "PubMed",
+           "id": "22002720"
+          }
+         ],
+         "value": "1.14.11.53"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000305"
+         }
+        ],
+        "value": "tRNA N1-methyl adenine demethylase FTO"
+       },
+       "ecNumbers": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000269",
+           "source": "PubMed",
+           "id": "30197295"
+          }
+         ],
+         "value": "1.14.11.-"
+        }
+       ]
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "17496892"
+        },
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:24678"
+        }
+       ],
+       "value": "FTO"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q8BGW1"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18775698"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20376003"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22002720"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25452335"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "26287746"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "26457839"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "26458103"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28002401"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28017614"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "29249359"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "30197295"
+         }
+        ],
+        "value": "RNA demethylase that mediates oxidative demethylation of different RNA species, such as mRNAs, tRNAs and snRNAs, and acts as a regulator of fat mass, adipogenesis and energy homeostasis (PubMed:22002720, PubMed:25452335, PubMed:26457839, PubMed:26458103, PubMed:28002401, PubMed:30197295). Specifically demethylates N(6)-methyladenosine (m6A) RNA, the most prevalent internal modification of messenger RNA (mRNA) in higher eukaryotes (PubMed:22002720, PubMed:25452335, PubMed:26457839, PubMed:26458103, PubMed:30197295). M6A demethylation by FTO affects mRNA expression and stability (PubMed:30197295). Also able to demethylate m6A in U6 small nuclear RNA (snRNA) (PubMed:30197295). Mediates demethylation of N(6),2'-O-dimethyladenosine cap (m6A(m)), by demethylating the N(6)-methyladenosine at the second transcribed position of mRNAs and U6 snRNA (PubMed:28002401, PubMed:30197295). Demethylation of m6A(m) in the 5'-cap by FTO affects mRNA stability by promoting susceptibility to decapping (PubMed:28002401). Also acts as a tRNA demethylase by removing N(1)-methyladenine from various tRNAs (PubMed:30197295). Has no activity towards 1-methylguanine (PubMed:20376003). Has no detectable activity towards double-stranded DNA (PubMed:20376003). Also able to repair alkylated DNA and RNA by oxidative demethylation: demethylates single-stranded RNA containing 3-methyluracil, single-stranded DNA containing 3-methylthymine and has low demethylase activity towards single-stranded DNA containing 1-methyladenine or 3-methylcytosine (PubMed:18775698, PubMed:20376003). Ability to repair alkylated DNA and RNA is however unsure in vivo (PubMed:18775698, PubMed:20376003). Involved in the regulation of fat mass, adipogenesis and body weight, thereby contributing to the regulation of body size and body fat accumulation (PubMed:18775698, PubMed:20376003). Involved in the regulation of thermogenesis and the control of adipocyte differentiation into brown or white fat cells (PubMed:26287746). Regulates activity of the dopaminergic midbrain circuitry via its ability to demethylate m6A in mRNAs (By similarity). Plays an oncogenic role in a number of acute myeloid leukemias by enhancing leukemic oncogene-mediated cell transformation: acts by mediating m6A demethylation of target transcripts such as MYC, CEBPA, ASB2 and RARA, leading to promote their expression (PubMed:28017614, PubMed:29249359)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "79068",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000013D7B3"
+    }
+   }
+  ]
+ }
+}

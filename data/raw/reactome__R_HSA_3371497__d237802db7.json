@@ -1,0 +1,902 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-3371497",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-3371497",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:19:37+00:00",
+ "response": {
+  "dbId": 3371497,
+  "displayName": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+  "stId": "R-HSA-3371497",
+  "stIdVersion": "R-HSA-3371497.7",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+   "HSP90 chaperone cycle for SHRs"
+  ],
+  "releaseDate": "2017-03-27",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 528568,
+   "displayName": "cellular response to steroid hormone stimulus",
+   "accession": "0071383",
+   "databaseName": "GO",
+   "definition": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a steroid hormone stimulus.",
+   "name": "cellular response to steroid hormone stimulus",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0071383",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 8936892,
+    "displayName": "Hsp90: structure and function",
+    "title": "Hsp90: structure and function",
+    "journal": "Top Curr Chem",
+    "pages": "155-240",
+    "pubMedIdentifier": 22955504,
+    "volume": 328,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22955504",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 8936890,
+    "displayName": "Structure, function and regulation of the hsp90 machinery",
+    "title": "Structure, function and regulation of the hsp90 machinery",
+    "journal": "Biomed J",
+    "pages": "106-17",
+    "pubMedIdentifier": 23806880,
+    "volume": 36,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23806880",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 8948280,
+    "displayName": "Molecular chaperones, essential partners of steroid hormone receptors for activity and mobility",
+    "title": "Molecular chaperones, essential partners of steroid hormone receptors for activity and mobility",
+    "journal": "Biochim. Biophys. Acta",
+    "pages": "641-9",
+    "pubMedIdentifier": 20006655,
+    "volume": 1803,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20006655",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10107008,
+    "displayName": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+    "stId": "R-MMU-3371497",
+    "stIdVersion": "R-MMU-3371497.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+     "HSP90 chaperone cycle for SHRs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     3371497
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10230780,
+    "displayName": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+    "stId": "R-RNO-3371497",
+    "stIdVersion": "R-RNO-3371497.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+     "HSP90 chaperone cycle for SHRs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     3371497
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10337507,
+    "displayName": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+    "stId": "R-CFA-3371497",
+    "stIdVersion": "R-CFA-3371497.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+     "HSP90 chaperone cycle for SHRs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     3371497
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10452065,
+    "displayName": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+    "stId": "R-BTA-3371497",
+    "stIdVersion": "R-BTA-3371497.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+     "HSP90 chaperone cycle for SHRs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     3371497
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10565009,
+    "displayName": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+    "stId": "R-SSC-3371497",
+    "stIdVersion": "R-SSC-3371497.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+     "HSP90 chaperone cycle for SHRs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     3371497
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10656970,
+    "displayName": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+    "stId": "R-DRE-3371497",
+    "stIdVersion": "R-DRE-3371497.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+     "HSP90 chaperone cycle for SHRs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     3371497
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10738012,
+    "displayName": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+    "stId": "R-XTR-3371497",
+    "stIdVersion": "R-XTR-3371497.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+     "HSP90 chaperone cycle for SHRs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     3371497
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10835244,
+    "displayName": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+    "stId": "R-GGA-3371497",
+    "stIdVersion": "R-GGA-3371497.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+     "HSP90 chaperone cycle for SHRs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     3371497
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10920467,
+    "displayName": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+    "stId": "R-DME-3371497",
+    "stIdVersion": "R-DME-3371497.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+     "HSP90 chaperone cycle for SHRs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     3371497
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11003251,
+    "displayName": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+    "stId": "R-CEL-3371497",
+    "stIdVersion": "R-CEL-3371497.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+     "HSP90 chaperone cycle for SHRs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     3371497
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11058426,
+    "displayName": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+    "stId": "R-DDI-3371497",
+    "stIdVersion": "R-DDI-3371497.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+     "HSP90 chaperone cycle for SHRs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     3371497
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11087554,
+    "displayName": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+    "stId": "R-SPO-3371497",
+    "stIdVersion": "R-SPO-3371497.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+     "HSP90 chaperone cycle for SHRs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     3371497
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11115976,
+    "displayName": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+    "stId": "R-SCE-3371497",
+    "stIdVersion": "R-SCE-3371497.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+     "HSP90 chaperone cycle for SHRs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     3371497
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11137118,
+    "displayName": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+    "stId": "R-PFA-3371497",
+    "stIdVersion": "R-PFA-3371497.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+     "HSP90 chaperone cycle for SHRs"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     3371497
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 8936896,
+    "displayName": "Steroid hormone receptors (SHR) are transcription factors th...",
+    "text": "Steroid hormone receptors (SHR) are transcription factors that become activated upon sensing steroid hormones such as glucocorticoids, mineralocorticoids, progesterone, androgens, or estrogen (Escriva et al 2000; Griekspoor A et al. 2007; Eick GN & Thornton JW. 2011). Depending on SHR type and the presence of ligand, they show different subcellular localizations. Whereas both unliganded and liganded estrogen receptors (ERalpha and ERbeta) are predominantly nuclear, unliganded glucocorticoid (GR) and androgen receptors (AR) are mostly located in the cytoplasm and completely translocate to the nucleus only after binding hormone (Htun H et al. 1999; Stenoien D et al. 2000; Tyagi RK et al. 2000; Cadepond F et al. 1992; Jewell CM et al. 1995; Kumar S et al. 2006). The unliganded mineralocorticoid receptor (MR) is partially cytoplasmic but can be found in nucleus in the ligand-bound or ligand-free form (Nishi M & Kawata M 2007). The progesterone receptor (PR) exists in two forms (PRA and PRB) with different ratios of nuclear versus cytoplasmic localization of the unliganded receptor. In most cell contexts, the PRA isoform is a repressor of the shorter PRB isoform, and without hormone induction it is mostly located in the nucleus, whereas PRB distributes both in the nucleus and in the cytoplasm (Lim CS et al. 1999; Griekspoor A et al. 2007). In the absence of ligand, members of the steroid receptor family remain sequestered in the cytoplasm and/or nucleus in the complex with proteins of HSP70/HSP90 chaperone machinery (Pratt WB & Dittmar KD1998). The highly dynamic ATP-dependent interactions of SHRs with HSP90 complexes regulate SHR cellular location, protein stability, competency to bind steroid hormones and transcriptional activity (Echeverria PC & Picard D 2010). Understanding the mechanism of ATPase activity of HSP90 is mostly based on structural and functional studies of the Saccharomyces cerevisiae Hsp90 complexes (Meyer P et al. 2003, 2004; Ali MM et al. 2006; Prodromou C et al. 2000; Prodromou C 2012). The ATPase cycle of human HSP90 is less well understood, however several studies suggest that the underlying enzymatic mechanisms and a set of conformational changes that accompany the ATPase cycle are highly similar in both species (Richter K et al. 2008; Vaughan CK et al. 2009). Nascent SHR proteins are chaperoned by HSP70 and HSP40 to HSP90 cycle via STIP1 (HOP) (and its TPR domains) (Hernández MP et al. 2002a,b; EcheverriaPC & Picard D 2010; Li J et al. 2011). The ATP-bound form of HSP90 leads to the displacement of STIP1 by immunophilins FKBP5 or FKBP4 resulting in conformational changes that allow efficient hormone binding (Li J et al. 2011). PTGES3 (p23) binds to HSP90 complex finally stabilizing it in the conformation with a high hormone binding affinity. After hydrolysis of ATP the hormone bound SHR is released from HSP90 complex. The cytosolic hormone-bound SHR can be transported to the nucleus by several import pathways such as the dynein-based nuclear transport along microtubules involving the transport of the entire HSP90 complex or nuclear localization signals (NLS)-mediated nuclear targeting by importins (Tyagi RK et al. 2000; Cadepond F et al. 1992; Jewell CM et al. 1995; Kumar S et al. 2006). It is worth noting that GR-importin interactions can be ligand-dependent or independent (Freedman & Yamamoto 2004; Picard & Yamamoto 1987). In the nucleus ligand-activated SHR dimerizes, binds specific sequences in the DNA, called Hormone Responsive Elements (HRE), and recruits a number of coregulators that facilitate gene transcription. Nuclear localization is essential for SHRs to transactivate their target genes, but the same receptors also possess non-genomic functions in the cytoplasm.<p>The Reactome module describes the ATPase-driven conformational cycle of HSP90 that regulates ligand-dependent activation of SHRs.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-3371497.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2022-06-09",
+  "hasEvent": [
+   {
+    "dbId": 3371590,
+    "displayName": "HSP70 binds to HSP40:nascent protein",
+    "stId": "R-HSA-3371590",
+    "stIdVersion": "R-HSA-3371590.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HSP70 binds to HSP40:nascent protein"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3371422,
+    "displayName": "ATP hydrolysis by HSP70",
+    "stId": "R-HSA-3371422",
+    "stIdVersion": "R-HSA-3371422.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ATP hydrolysis by HSP70"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3371503,
+    "displayName": "STIP1(HOP) binds HSP90 and HSP70:HSP40:nascent protein",
+    "stId": "R-HSA-3371503",
+    "stIdVersion": "R-HSA-3371503.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "STIP1(HOP) binds HSP90 and HSP70:HSP40:nascent protein"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5618107,
+    "displayName": "ATP binding to HSP90 triggers conformation change",
+    "stId": "R-HSA-5618107",
+    "stIdVersion": "R-HSA-5618107.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ATP binding to HSP90 triggers conformation change"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5618105,
+    "displayName": "FKBP5 binds HSP90:ATP:STIP1:HSP70:nascent protein",
+    "stId": "R-HSA-5618105",
+    "stIdVersion": "R-HSA-5618105.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "FKBP5 binds HSP90:ATP:STIP1:HSP70:nascent protein"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5618085,
+    "displayName": "FKBP4 binds HSP90:ATP:STIP1:HSP70:nascent protein",
+    "stId": "R-HSA-5618085",
+    "stIdVersion": "R-HSA-5618085.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "FKBP4 binds HSP90:ATP:STIP1:HSP70:nascent protein"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5618110,
+    "displayName": "p23 (PTGES3) binds HSP90:ATP:FKBP4:nascent protein",
+    "stId": "R-HSA-5618110",
+    "stIdVersion": "R-HSA-5618110.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p23 (PTGES3) binds HSP90:ATP:FKBP4:nascent protein"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5618098,
+    "displayName": "p23 (PTGES3) binds HSP90:ATP:FKBP5:nascent protein",
+    "stId": "R-HSA-5618098",
+    "stIdVersion": "R-HSA-5618098.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p23 (PTGES3) binds HSP90:ATP:FKBP5:nascent protein"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5618073,
+    "displayName": "FKBP4 replaces FKBP5 within HSP90:ATP:FKBP5:unfolded protein",
+    "stId": "R-HSA-5618073",
+    "stIdVersion": "R-HSA-5618073.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "FKBP4 replaces FKBP5 within HSP90:ATP:FKBP5:unfolded protein"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9705925,
+    "displayName": "Androgens binds AR (in the HSP90 chaperone complex)",
+    "stId": "R-HSA-9705925",
+    "stIdVersion": "R-HSA-9705925.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Androgens binds AR (in the HSP90 chaperone complex)"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9705926,
+    "displayName": "AR binds AR agonists",
+    "stId": "R-HSA-9705926",
+    "stIdVersion": "R-HSA-9705926.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AR binds AR agonists"
+    ],
+    "releaseDate": "2022-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9706837,
+    "displayName": "AR binds AR antagonists",
+    "stId": "R-HSA-9706837",
+    "stIdVersion": "R-HSA-9706837.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AR binds AR antagonists"
+    ],
+    "releaseDate": "2022-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9725885,
+    "displayName": "P4 bind PGR (in the HSP90 chaperone complex)",
+    "stId": "R-HSA-9725885",
+    "stIdVersion": "R-HSA-9725885.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "P4 bind PGR (in the HSP90 chaperone complex)"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9726580,
+    "displayName": "PGR binds PGR agonists",
+    "stId": "R-HSA-9726580",
+    "stIdVersion": "R-HSA-9726580.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PGR binds PGR agonists"
+    ],
+    "releaseDate": "2022-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9726621,
+    "displayName": "PGR binds PGR antagonists",
+    "stId": "R-HSA-9726621",
+    "stIdVersion": "R-HSA-9726621.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PGR binds PGR antagonists"
+    ],
+    "releaseDate": "2022-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9690534,
+    "displayName": "NR3C1 ligands bind NR3C1 (in the HSP90 chaperone complex)",
+    "stId": "R-HSA-9690534",
+    "stIdVersion": "R-HSA-9690534.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NR3C1 ligands bind NR3C1 (in the HSP90 chaperone complex)",
+     "NR3C1 ligands bind NR3C1 (in HSP90:ATP:FKBP4:PTGES3:NR3C1)"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9678925,
+    "displayName": "NR3C1 binds NR3C1 agonists",
+    "stId": "R-HSA-9678925",
+    "stIdVersion": "R-HSA-9678925.4",
+    "definition": "Agonist",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NR3C1 binds NR3C1 agonists"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5618099,
+    "displayName": "NR3C2 ligands bind NR3C2 (in the HSP90 chaperone complex)",
+    "stId": "R-HSA-5618099",
+    "stIdVersion": "R-HSA-5618099.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NR3C2 ligands bind NR3C2 (in the HSP90 chaperone complex)"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9725855,
+    "displayName": "NR3C2 binds NR3C2 antagonists",
+    "stId": "R-HSA-9725855",
+    "stIdVersion": "R-HSA-9725855.2",
+    "definition": "Antagonist",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NR3C2 binds NR3C2 antagonists"
+    ],
+    "releaseDate": "2022-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9726509,
+    "displayName": "NR3C2 binds fludrocortisone",
+    "stId": "R-HSA-9726509",
+    "stIdVersion": "R-HSA-9726509.2",
+    "definition": "Agonist",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NR3C2 binds fludrocortisone"
+    ],
+    "releaseDate": "2022-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5618080,
+    "displayName": "HSP90:ATP:p23:FKBP52:SHR:SH translocates to the nucleus",
+    "stId": "R-HSA-5618080",
+    "stIdVersion": "R-HSA-5618080.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HSP90:ATP:p23:FKBP52:SHR:SH translocates to the nucleus"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 5618093,
+    "displayName": "ATP hydrolysis by HSP90",
+    "stId": "R-HSA-5618093",
+    "stIdVersion": "R-HSA-5618093.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ATP hydrolysis by HSP90"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3371497
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

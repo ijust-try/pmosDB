@@ -1,0 +1,585 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9006335",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9006335",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:41:44+00:00",
+ "response": {
+  "dbId": 9006335,
+  "displayName": "Signaling by Erythropoietin",
+  "stId": "R-HSA-9006335",
+  "stIdVersion": "R-HSA-9006335.5",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 3,
+  "name": [
+   "Signaling by Erythropoietin"
+  ],
+  "releaseDate": "2018-09-12",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12829164,
+    "displayName": "BioModels Database:BIOMD0000001077",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000001077",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000001077",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12829166,
+    "displayName": "BioModels Database:BIOMD0000000314",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000314",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000314",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12829168,
+    "displayName": "BioModels Database:BIOMD0000000313",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000313",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000313",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 2266307,
+   "displayName": "erythropoietin-mediated signaling pathway",
+   "accession": "0038162",
+   "databaseName": "GO",
+   "definition": "The series of molecular signals initiated by erythropoietin (EPO) binding to the erythropoietin receptor (EPO-R) on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription.",
+   "name": "erythropoietin-mediated signaling pathway",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0038162",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 9031788,
+    "displayName": "Revisiting the scissor-like mechanism of activation for the erythropoietin receptor",
+    "title": "Revisiting the scissor-like mechanism of activation for the erythropoietin receptor",
+    "journal": "FEBS Lett.",
+    "pages": "3083-8",
+    "pubMedIdentifier": 27490140,
+    "volume": 590,
+    "year": 2016,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27490140",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9031789,
+    "displayName": "Integrating novel signaling pathways involved in erythropoiesis",
+    "title": "Integrating novel signaling pathways involved in erythropoiesis",
+    "journal": "IUBMB Life",
+    "pages": "402-10",
+    "pubMedIdentifier": 22431075,
+    "volume": 64,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22431075",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9031779,
+    "displayName": "Emerging EPO and EPO receptor regulators and signal transducers",
+    "title": "Emerging EPO and EPO receptor regulators and signal transducers",
+    "journal": "Blood",
+    "pages": "3536-41",
+    "pubMedIdentifier": 25887776,
+    "volume": 125,
+    "year": 2015,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25887776",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9031781,
+    "displayName": "Erythropoietin action in stress response, tissue maintenance and metabolism",
+    "title": "Erythropoietin action in stress response, tissue maintenance and metabolism",
+    "journal": "Int J Mol Sci",
+    "pages": "10296-333",
+    "pubMedIdentifier": 24918289,
+    "volume": 15,
+    "year": 2014,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24918289",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9032376,
+    "displayName": "The erythropoietin receptor: molecular structure and hematopoietic signaling pathways",
+    "title": "The erythropoietin receptor: molecular structure and hematopoietic signaling pathways",
+    "journal": "J. Investig. Med.",
+    "pages": "1067-72",
+    "pubMedIdentifier": 21307776,
+    "volume": 59,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21307776",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9613658,
+    "displayName": "Regeneration in the nervous system with erythropoietin",
+    "title": "Regeneration in the nervous system with erythropoietin",
+    "journal": "Front Biosci (Landmark Ed)",
+    "pages": "561-596",
+    "pubMedIdentifier": 26549969,
+    "volume": 21,
+    "year": 2016,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26549969",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9613656,
+    "displayName": "Alternative Erythropoietin Receptors in the Nervous System",
+    "title": "Alternative Erythropoietin Receptors in the Nervous System",
+    "journal": "J Clin Med",
+    "pubMedIdentifier": 29393890,
+    "volume": 7,
+    "year": 2018,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29393890",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9613661,
+    "displayName": "Erythropoietin Receptor Signaling and Lipid Rafts",
+    "title": "Erythropoietin Receptor Signaling and Lipid Rafts",
+    "journal": "Vitam. Horm.",
+    "pages": "79-100",
+    "pubMedIdentifier": 28629526,
+    "volume": 105,
+    "year": 2017,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28629526",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9613789,
+    "displayName": "Erythropoietin Pathway: A Potential Target for the Treatment of Depression",
+    "title": "Erythropoietin Pathway: A Potential Target for the Treatment of Depression",
+    "journal": "Int J Mol Sci",
+    "pubMedIdentifier": 27164096,
+    "volume": 17,
+    "year": 2016,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27164096",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9613776,
+    "displayName": "Erythropoietin and Its Angiogenic Activity",
+    "title": "Erythropoietin and Its Angiogenic Activity",
+    "journal": "Int J Mol Sci",
+    "pubMedIdentifier": 28703764,
+    "volume": 18,
+    "year": 2017,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/28703764",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9613783,
+    "displayName": "Erythropoietin and cancer: the unintended consequences of anemia correction",
+    "title": "Erythropoietin and cancer: the unintended consequences of anemia correction",
+    "journal": "Front Immunol",
+    "pages": "563",
+    "pubMedIdentifier": 25426117,
+    "volume": 5,
+    "year": 2014,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25426117",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10835916,
+    "displayName": "Signaling by Erythropoietin",
+    "stId": "R-GGA-9006335",
+    "stIdVersion": "R-GGA-9006335.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by Erythropoietin"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     9006335
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10738600,
+    "displayName": "Signaling by Erythropoietin",
+    "stId": "R-XTR-9006335",
+    "stIdVersion": "R-XTR-9006335.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by Erythropoietin"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     9006335
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10657572,
+    "displayName": "Signaling by Erythropoietin",
+    "stId": "R-DRE-9006335",
+    "stIdVersion": "R-DRE-9006335.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by Erythropoietin"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     9006335
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10565623,
+    "displayName": "Signaling by Erythropoietin",
+    "stId": "R-SSC-9006335",
+    "stIdVersion": "R-SSC-9006335.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by Erythropoietin"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     9006335
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10452667,
+    "displayName": "Signaling by Erythropoietin",
+    "stId": "R-BTA-9006335",
+    "stIdVersion": "R-BTA-9006335.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by Erythropoietin"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     9006335
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10338113,
+    "displayName": "Signaling by Erythropoietin",
+    "stId": "R-CFA-9006335",
+    "stIdVersion": "R-CFA-9006335.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by Erythropoietin"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     9006335
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10231386,
+    "displayName": "Signaling by Erythropoietin",
+    "stId": "R-RNO-9006335",
+    "stIdVersion": "R-RNO-9006335.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by Erythropoietin"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     9006335
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10107624,
+    "displayName": "Signaling by Erythropoietin",
+    "stId": "R-MMU-9006335",
+    "stIdVersion": "R-MMU-9006335.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by Erythropoietin"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     9006335
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9031767,
+    "displayName": "Erythropoietin (EPO) is a cytokine that serves as the primar...",
+    "text": "Erythropoietin (EPO) is a cytokine that serves as the primary regulator of erythropoiesis, the differentiation of erythrocytes from stem cells in the liver of the fetus and the bone marrow of adult mammals (reviewed in Ingley 2012, Zhang et al. 2014, Kuhrt and Wojchowski 2015). EPO is produced in the kidneys in response to low oxygen tension and binds a receptor, EPOR, located on progenitor cells: burst forming unit-erythroid (BFU-e) cells and colony forming unit-erythroid (CFU-e) cells.<br>The erythropoietin receptor (EPOR) exists in lipid rafts (reviewed in McGraw and List 2017) as a dimer pre-associated with proteins involved in downstream signaling: the tyrosine kinase JAK2, the tyrosine kinase LYN, and the scaffold protein IRS2. Binding of EPO to the EPOR dimer causes a change in conformation (reviewed in Watowich et al. 2011, Corbett et al. 2016) that activates JAK2, which then transphosphorylates JAK2 and phosphorylates the cytoplasmic domain of EPOR. The phosphorylated EPOR serves directly or indirectly as a docking site for signaling molecules such as STAT5, phosphatidylinositol 4,5-bisphosphate 3-kinase (PI3K), phospholipase C gamma (PLCG1, PLCG2), and activators of RAS (SHC1, GRB2:SOS1, GRB2:VAV1).<br>EPO activates 4 major signaling pathways: STAT5-activated transcription, PI3K-AKT, RAS-RAF-ERK, and PLC-PKC. JAK2-STAT5 activates expression of BCL2L1 (Bcl-xL) and therefore appears to be important for anti-apoptosis. PI3K-AKT appears to be important for both anti-apoptosis and proliferation. The roles of other signaling pathways are controversial but both RAS-RAF-MEK-ERK and PLCgamma-PKC have mitogenic effects. Phosphatases such as SHP1 are also recruited and downregulate the EPO signal.<br>EPO also has effects outside of erythropoiesis. The EPOR is expressed in various tissues such as endothelium where it can act to stimulate growth and promote cell survival (Debeljak et al. 2014, Kimáková et al. 2017). EPO and EPOR in the neurovascular system act via Akt, Wnt1, mTOR, SIRT1, and FOXO proteins to prevent apoptotic cell injury (reviewed in  Ostrowski and Heinrich 2018, Maiese 2016) and EPO may have therapeutic value in the nervous system (Ma et al. 2016).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-9006335.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2022-06-09",
+  "hasEvent": [
+   {
+    "dbId": 9006325,
+    "displayName": "EPO binds EPOR:JAK2:LYN:IRS2",
+    "stId": "R-HSA-9006325",
+    "stIdVersion": "R-HSA-9006325.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "EPO binds EPOR:JAK2:LYN:IRS2"
+    ],
+    "releaseDate": "2018-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9006335
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9709454,
+    "displayName": "EPOR binds EPOR agonists",
+    "stId": "R-HSA-9709454",
+    "stIdVersion": "R-HSA-9709454.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "EPOR binds EPOR agonists"
+    ],
+    "releaseDate": "2022-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9006335
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9006332,
+    "displayName": "JAK2 transphosphorylates and is activated in response to Erythropoietin",
+    "stId": "R-HSA-9006332",
+    "stIdVersion": "R-HSA-9006332.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "JAK2 transphosphorylates and is activated in response to Erythropoietin"
+    ],
+    "releaseDate": "2018-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9006335
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9006323,
+    "displayName": "Phospho-JAK2 phosphorylates EPOR",
+    "stId": "R-HSA-9006323",
+    "stIdVersion": "R-HSA-9006323.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Phospho-JAK2 phosphorylates EPOR"
+    ],
+    "releaseDate": "2018-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9006335
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9027283,
+    "displayName": "Erythropoietin activates STAT5",
+    "stId": "R-HSA-9027283",
+    "stIdVersion": "R-HSA-9027283.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Erythropoietin activates STAT5"
+    ],
+    "releaseDate": "2018-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9006335
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 9027276,
+    "displayName": "Erythropoietin activates Phosphoinositide-3-kinase (PI3K)",
+    "stId": "R-HSA-9027276",
+    "stIdVersion": "R-HSA-9027276.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Erythropoietin activates Phosphoinositide-3-kinase (PI3K)"
+    ],
+    "releaseDate": "2018-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9006335
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 9027284,
+    "displayName": "Erythropoietin activates RAS",
+    "stId": "R-HSA-9027284",
+    "stIdVersion": "R-HSA-9027284.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Erythropoietin activates RAS"
+    ],
+    "releaseDate": "2018-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9006335
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 9027277,
+    "displayName": "Erythropoietin activates Phospholipase C gamma (PLCG)",
+    "stId": "R-HSA-9027277",
+    "stIdVersion": "R-HSA-9027277.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Erythropoietin activates Phospholipase C gamma (PLCG)"
+    ],
+    "releaseDate": "2018-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9006335
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

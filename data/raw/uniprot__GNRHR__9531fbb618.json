@@ -1,0 +1,67 @@
+{
+ "source": "uniprot",
+ "query": "GNRHR",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:GNRHR) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:37:02+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P30968",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Gonadotropin-releasing hormone receptor"
+      },
+      "shortNames": [
+       {
+        "value": "GnRH receptor"
+       },
+       {
+        "value": "GnRH-R"
+       }
+      ]
+     }
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "GNRHR"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Receptor for gonadotropin releasing hormone (GnRH) that mediates the action of GnRH to stimulate the secretion of the gonadotropic hormones luteinizing hormone (LH) and follicle-stimulating hormone (FSH). This receptor mediates its action by association with G-proteins that activate a phosphatidylinositol-calcium second messenger system. Isoform 2 may act as an inhibitor of GnRH-R signaling"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "2798",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000004EEC8"
+    }
+   }
+  ]
+ }
+}

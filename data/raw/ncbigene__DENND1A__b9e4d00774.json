@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "DENND1A",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "57706",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:37:58+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "57706"
+   ],
+   "57706": {
+    "uid": "57706",
+    "name": "DENND1A",
+    "description": "DENN domain containing 1A",
+    "status": "",
+    "currentid": "",
+    "chromosome": "9",
+    "geneticsource": "genomic",
+    "maplocation": "9q33.3",
+    "otheraliases": "FAM31A, KIAA1608",
+    "otherdesignations": "DENN domain-containing protein 1A|DENN/MADD domain containing 1A|connecdenn 1",
+    "nomenclaturesymbol": "DENND1A",
+    "nomenclaturename": "DENN domain containing 1A",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "613633"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "9",
+      "chraccver": "NC_000009.12",
+      "chrstart": 123930125,
+      "chrstop": 123379657,
+      "exoncount": 32
+     }
+    ],
+    "geneweight": 2304,
+    "summary": "Clathrin (see MIM 118955)-mediated endocytosis is a major mechanism for internalization of proteins and lipids. Members of the connecdenn family, such as DENND1A, function as guanine nucleotide exchange factors (GEFs) for the early endosomal small GTPase RAB35 (MIM 604199) and bind to clathrin and clathrin adaptor protein-2 (AP2; see MIM 601024). Thus, connecdenns link RAB35 activation with the clathrin machinery (Marat and McPherson, 2010 [PubMed 20154091]).[supplied by OMIM, Nov 2010]",
+    "chrsort": "09",
+    "chrstart": 123379657,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000009.12",
+      "chrstart": 123930125,
+      "chrstop": 123379657
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060933.1",
+      "chrstart": 136128011,
+      "chrstop": 135577390
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000009.12",
+      "chrstart": 123930125,
+      "chrstop": 123379657
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060933.1",
+      "chrstart": 136128011,
+      "chrstop": 135577390
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000009.12",
+      "chrstart": 123930125,
+      "chrstop": 123379657
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060933.1",
+      "chrstart": 136128011,
+      "chrstop": 135577390
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000009.12",
+      "chrstart": 123930125,
+      "chrstop": 123379657
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060933.1",
+      "chrstart": 136128011,
+      "chrstop": 135577390
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000009.12",
+      "chrstart": 123930125,
+      "chrstop": 123379657
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060933.1",
+      "chrstart": 136128011,
+      "chrstop": 135577390
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000009.12",
+      "chrstart": 123930157,
+      "chrstop": 123379657
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000009.11",
+      "chrstart": 126692404,
+      "chrstop": 126141936
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000009.11",
+      "chrstart": 126692404,
+      "chrstop": 126141936
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000009.11",
+      "chrstart": 126692422,
+      "chrstop": 126141932
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000141.1",
+      "chrstart": 96306366,
+      "chrstop": 95756877
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018920.2",
+      "chrstart": 126841218,
+      "chrstop": 126290595
+     }
+    ]
+   }
+  }
+ }
+}

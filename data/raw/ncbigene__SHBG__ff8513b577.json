@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "SHBG",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "6462",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:20:55+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "6462"
+   ],
+   "6462": {
+    "uid": "6462",
+    "name": "SHBG",
+    "description": "sex hormone binding globulin",
+    "status": "",
+    "currentid": "",
+    "chromosome": "17",
+    "geneticsource": "genomic",
+    "maplocation": "17p13.1",
+    "otheraliases": "ABP, SBP, TEBG",
+    "otherdesignations": "sex hormone-binding globulin|sex steroid-binding protein|testis-specific androgen-binding protein|testosterone-binding beta-globulin|testosterone-estradiol-binding globulin|testosterone-estrogen-binding globulin",
+    "nomenclaturesymbol": "SHBG",
+    "nomenclaturename": "sex hormone binding globulin",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "182205"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "17",
+      "chraccver": "NC_000017.11",
+      "chrstart": 7614063,
+      "chrstop": 7633371,
+      "exoncount": 10
+     }
+    ],
+    "geneweight": 27138,
+    "summary": "This gene encodes a steroid binding protein that was first described as a plasma protein secreted by the liver but is now thought to participate in the regulation of steroid responses. The encoded protein transports androgens and estrogens in the blood, binding each steroid molecule as a dimer formed from identical or nearly identical monomers. Polymorphisms in this gene have been associated with polycystic ovary syndrome and type 2 diabetes mellitus. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Jan 2014]",
+    "chrsort": "17",
+    "chrstart": 7614063,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000017.11",
+      "chrstart": 7614063,
+      "chrstop": 7633371
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060941.1",
+      "chrstart": 7518284,
+      "chrstop": 7537562
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000017.11",
+      "chrstart": 7614063,
+      "chrstop": 7633371
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060941.1",
+      "chrstart": 7518284,
+      "chrstop": 7537562
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000017.11",
+      "chrstart": 7614063,
+      "chrstop": 7633371
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060941.1",
+      "chrstart": 7518284,
+      "chrstop": 7537562
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000017.11",
+      "chrstart": 7614063,
+      "chrstop": 7633371
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060941.1",
+      "chrstart": 7518284,
+      "chrstop": 7537562
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000017.11",
+      "chrstart": 7614063,
+      "chrstop": 7633371
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060941.1",
+      "chrstart": 7518284,
+      "chrstop": 7537562
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000017.11",
+      "chrstart": 7614063,
+      "chrstop": 7633371
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000017.10",
+      "chrstart": 7517381,
+      "chrstop": 7536689
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000017.10",
+      "chrstart": 7517381,
+      "chrstop": 7536689
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000017.10",
+      "chrstart": 7517381,
+      "chrstop": 7536699
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000149.1",
+      "chrstart": 7411425,
+      "chrstop": 7430706
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018928.2",
+      "chrstart": 7526290,
+      "chrstop": 7545880
+     }
+    ]
+   }
+  }
+ }
+}

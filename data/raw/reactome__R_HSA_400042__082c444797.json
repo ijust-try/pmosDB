@@ -1,0 +1,525 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-400042",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-400042",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:38:14+00:00",
+ "response": {
+  "dbId": 400042,
+  "displayName": "Adrenaline,noradrenaline inhibits insulin secretion",
+  "stId": "R-HSA-400042",
+  "stIdVersion": "R-HSA-400042.7",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Adrenaline,noradrenaline inhibits insulin secretion"
+  ],
+  "releaseDate": "2009-06-24",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12828974,
+    "displayName": "BioModels Database:BIOMD0000000088",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000088",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000088",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 25918,
+   "displayName": "negative regulation of insulin secretion",
+   "accession": "0046676",
+   "databaseName": "GO",
+   "definition": "Any process that stops, prevents, or reduces the frequency, rate or extent of the regulated release of insulin.",
+   "name": "negative regulation of insulin secretion",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0046676",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 400054,
+    "displayName": "Both G i and G o heterotrimeric G proteins are required to exert the full effect of norepinephrine on the beta-cell K ATP channel",
+    "title": "Both G i and G o heterotrimeric G proteins are required to exert the full effect of norepinephrine on the beta-cell K ATP channel",
+    "journal": "J Biol Chem",
+    "pages": "5306-16",
+    "pubMedIdentifier": 18162464,
+    "volume": 283,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18162464",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 400089,
+    "displayName": "Direct control of exocytosis by receptor-mediated activation of the heterotrimeric GTPases Gi and G(o) or by the expression of their active G alpha subunits",
+    "title": "Direct control of exocytosis by receptor-mediated activation of the heterotrimeric GTPases Gi and G(o) or by the expression of their active G alpha subunits",
+    "journal": "EMBO J",
+    "pages": "3635-44",
+    "pubMedIdentifier": 7641683,
+    "volume": 14,
+    "year": 1995,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/7641683",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 381633,
+    "displayName": "G-protein-coupled receptors and islet function-implications for treatment of type 2 diabetes",
+    "title": "G-protein-coupled receptors and islet function-implications for treatment of type 2 diabetes",
+    "journal": "Pharmacol Ther",
+    "pages": "437-48",
+    "pubMedIdentifier": 17900700,
+    "volume": 116,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17900700",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 400059,
+    "displayName": "Inhibition of insulin secretion via distinct signaling pathways in alpha2-adrenoceptor knockout mice",
+    "title": "Inhibition of insulin secretion via distinct signaling pathways in alpha2-adrenoceptor knockout mice",
+    "journal": "Eur J Endocrinol",
+    "pages": "343-50",
+    "pubMedIdentifier": 14514350,
+    "volume": 149,
+    "year": 2003,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/14514350",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 400072,
+    "displayName": "Mechanisms of inhibition of insulin release",
+    "title": "Mechanisms of inhibition of insulin release",
+    "journal": "Am J Physiol",
+    "pages": "C1781-99",
+    "pubMedIdentifier": 8997178,
+    "volume": 271,
+    "year": 1996,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8997178",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 400064,
+    "displayName": "Protein acylation in the inhibition of insulin secretion by norepinephrine, somatostatin, galanin, and PGE2",
+    "title": "Protein acylation in the inhibition of insulin secretion by norepinephrine, somatostatin, galanin, and PGE2",
+    "journal": "Am J Physiol Endocrinol Metab",
+    "pages": "E287-94",
+    "pubMedIdentifier": 12684222,
+    "volume": 285,
+    "year": 2003,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12684222",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 400096,
+    "displayName": "Regions on adenylyl cyclase that are necessary for inhibition of activity by beta gamma and G(ialpha) subunits of heterotrimeric G proteins",
+    "title": "Regions on adenylyl cyclase that are necessary for inhibition of activity by beta gamma and G(ialpha) subunits of heterotrimeric G proteins",
+    "journal": "Proc Natl Acad Sci U S A",
+    "pages": "9551-6",
+    "pubMedIdentifier": 10449730,
+    "volume": 96,
+    "year": 1999,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10449730",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 11002583,
+    "displayName": "Adrenaline,noradrenaline inhibits insulin secretion",
+    "stId": "R-CEL-400042",
+    "stIdVersion": "R-CEL-400042.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adrenaline,noradrenaline inhibits insulin secretion"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     400042
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10919747,
+    "displayName": "Adrenaline,noradrenaline inhibits insulin secretion",
+    "stId": "R-DME-400042",
+    "stIdVersion": "R-DME-400042.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adrenaline,noradrenaline inhibits insulin secretion"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     400042
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10834420,
+    "displayName": "Adrenaline,noradrenaline inhibits insulin secretion",
+    "stId": "R-GGA-400042",
+    "stIdVersion": "R-GGA-400042.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adrenaline,noradrenaline inhibits insulin secretion"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     400042
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10737238,
+    "displayName": "Adrenaline,noradrenaline inhibits insulin secretion",
+    "stId": "R-XTR-400042",
+    "stIdVersion": "R-XTR-400042.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adrenaline,noradrenaline inhibits insulin secretion"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     400042
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10656186,
+    "displayName": "Adrenaline,noradrenaline inhibits insulin secretion",
+    "stId": "R-DRE-400042",
+    "stIdVersion": "R-DRE-400042.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adrenaline,noradrenaline inhibits insulin secretion"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     400042
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10564163,
+    "displayName": "Adrenaline,noradrenaline inhibits insulin secretion",
+    "stId": "R-SSC-400042",
+    "stIdVersion": "R-SSC-400042.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adrenaline,noradrenaline inhibits insulin secretion"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     400042
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10451213,
+    "displayName": "Adrenaline,noradrenaline inhibits insulin secretion",
+    "stId": "R-BTA-400042",
+    "stIdVersion": "R-BTA-400042.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adrenaline,noradrenaline inhibits insulin secretion"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     400042
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10336689,
+    "displayName": "Adrenaline,noradrenaline inhibits insulin secretion",
+    "stId": "R-CFA-400042",
+    "stIdVersion": "R-CFA-400042.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adrenaline,noradrenaline inhibits insulin secretion"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     400042
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10229930,
+    "displayName": "Adrenaline,noradrenaline inhibits insulin secretion",
+    "stId": "R-RNO-400042",
+    "stIdVersion": "R-RNO-400042.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adrenaline,noradrenaline inhibits insulin secretion"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     400042
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10106164,
+    "displayName": "Adrenaline,noradrenaline inhibits insulin secretion",
+    "stId": "R-MMU-400042",
+    "stIdVersion": "R-MMU-400042.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adrenaline,noradrenaline inhibits insulin secretion"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     400042
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 400080,
+    "displayName": "The catecholamines adrenaline (epinephrine) and noradrenalin...",
+    "text": "The catecholamines adrenaline (epinephrine) and noradrenaline (norepinephrine) inhibit insulin secretion from pancreatic beta cells. Four effects are seen in the cells:<br>1. Inhibition of exocytosis of secretory granules, the major effect.<br>2. Opening of ATP-sensitive potassium channels (KATP channels) and repolarization of the cell.<br>3. Closing of L-type voltage-dependent calcium channels and inhibition of calcium influx.<br>4. Inhibition of adenylyl cyclase activity.<br>The first event in adrenaline/noradrenaline signaling in beta cells is the binding of adrenaline or noradrenaline to alpha-2 adrenergic receptors, which are G-protein coupled receptors. Binding activates the alpha subunits in heterotrimeric Gi and Go complexes to exchange GDP for GTP, forming the active G alpha:GTP complex. Experiments using specific antibodies against the alpha subunits in mice show that Gi alpha-1, Gi alpha-2, and Go alpha-2 are responsible for adrenergic effects. The exact beta and gamma subunits of the heterotrimeric G-proteins are unknown.<br>After activation by GTP, the heterotrimeric complex dissociates into the G alpha:GTP complex and the beta:gamma complex. The G alpha:GTP complex causes the inhibition of exocytosis by an unknown mechanism that involves protein acylation. This is responsible for most of the observed inhibition of insulin secretion. Additionally, the G alpha:GTP complex activates (opens) KATP channels, allowing the cell to repolarize. The beta:gamma complex inhibits (closes) voltage-dependent calcium channels, reducing the intracellular calcium concentration, and inhibits adenylyl cyclase, reducing the intracellular cAMP concentration.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-400042.6",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2017-04-20",
+  "hasEvent": [
+   {
+    "dbId": 400071,
+    "displayName": "Alpha-2A,alpha-2C Adrenergic Receptors bind adrenaline or noradrenaline",
+    "stId": "R-HSA-400071",
+    "stIdVersion": "R-HSA-400071.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Alpha-2A,alpha-2C Adrenergic Receptors bind adrenaline or noradrenaline"
+    ],
+    "releaseDate": "2009-06-24",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     400042
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 400092,
+    "displayName": "Alpha-2A,alpha-2C Adrenergic Receptors activate Gi.Go heterotrimeric G proteins",
+    "stId": "R-HSA-400092",
+    "stIdVersion": "R-HSA-400092.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Alpha-2A,alpha-2C Adrenergic Receptors activate Gi.Go heterotrimeric G proteins"
+    ],
+    "releaseDate": "2009-06-24",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     400042
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 400037,
+    "displayName": "Gi,Go Heterotrimeric G-protein complex dissociates",
+    "stId": "R-HSA-400037",
+    "stIdVersion": "R-HSA-400037.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Gi,Go Heterotrimeric G-protein complex dissociates"
+    ],
+    "releaseDate": "2009-06-24",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     400042
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 400046,
+    "displayName": "L-type Calcium Channels close in pancreatic beta cells",
+    "stId": "R-HSA-400046",
+    "stIdVersion": "R-HSA-400046.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "L-type Calcium Channels close in pancreatic beta cells"
+    ],
+    "releaseDate": "2009-06-24",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     400042
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 400063,
+    "displayName": "Low conductance potassium channels in pancreatic beta cells open in response to epinephrine",
+    "stId": "R-HSA-400063",
+    "stIdVersion": "R-HSA-400063.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Low conductance potassium channels in pancreatic beta cells open in response to epinephrine"
+    ],
+    "releaseDate": "2009-06-24",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     400042
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 400097,
+    "displayName": "G-beta:G-gamma inhibits Adenylate cyclase",
+    "stId": "R-HSA-400097",
+    "stIdVersion": "R-HSA-400097.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "G-beta:G-gamma inhibits Adenylate cyclase"
+    ],
+    "releaseDate": "2009-06-24",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     400042
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

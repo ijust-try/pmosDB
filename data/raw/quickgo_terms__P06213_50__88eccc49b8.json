@@ -1,0 +1,2386 @@
+{
+ "source": "quickgo_terms",
+ "query": "P06213_50",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0043410,GO:0043548,GO:0043559,GO:0043560,GO:0044877,GO:0045429,GO:0045725,GO:0045821,GO:0045840,GO:0045893,GO:0045995,GO:0046326,GO:0046718,GO:0046777,GO:0048513,GO:0048639,GO:0048731,GO:0051130,GO:0051239,GO:0051425,GO:0051446,GO:0051897,GO:0060267,GO:0070062,GO:0097062,GO:0097242,GO:0150104,GO:1990535,GO:2000194",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:20:07+00:00",
+ "response": {
+  "numberOfHits": 29,
+  "results": [
+   {
+    "id": "GO:0043548",
+    "isObsolete": false,
+    "name": "phosphatidylinositol 3-kinase binding",
+    "definition": {
+     "text": "Binding to a phosphatidylinositol 3-kinase, any enzyme that catalyzes the addition of a phosphate group to an inositol lipid at the 3' position of the inositol ring.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "10209156"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "9255069"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "phosphoinositide 3-kinase binding",
+      "type": "exact"
+     },
+     {
+      "name": "PI3K binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0036312",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036313",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043559",
+    "isObsolete": false,
+    "name": "insulin binding",
+    "definition": {
+     "text": "Binding to insulin, a polypeptide hormone produced by the islets of Langerhans of the pancreas in mammals, and by the homologous organs of other organisms.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043560",
+    "isObsolete": false,
+    "name": "insulin receptor substrate binding",
+    "definition": {
+     "text": "Binding to an insulin receptor substrate (IRS) protein, an adaptor protein that bind to the transphosphorylated insulin and insulin-like growth factor receptors, are themselves phosphorylated and in turn recruit SH2 domain-containing signaling molecules to form a productive signaling complex.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "12829233"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "insulin receptor substrate [protein] binding",
+      "type": "exact"
+     },
+     {
+      "name": "IRS binding",
+      "type": "exact"
+     },
+     {
+      "name": "IRS [protein] binding",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045840",
+    "isObsolete": false,
+    "name": "positive regulation of mitotic nuclear division",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of mitosis."
+    },
+    "synonyms": [
+     {
+      "name": "activation of mitosis",
+      "type": "narrow"
+     },
+     {
+      "name": "mitogenic activity",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of mitosis",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of mitosis",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of mitosis",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of mitosis",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of mitosis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0045842",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0150104",
+    "isObsolete": false,
+    "name": "transport across blood-brain barrier",
+    "definition": {
+     "text": "The directed movement of substances (e.g. macromolecules, small molecules, ions) through the blood-brain barrier.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "29377008"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "transport across BBB",
+      "type": "exact"
+     },
+     {
+      "name": "transport across blood brain barrier",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0150200",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1990962",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0150202",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0097716",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990379",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0150201",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0044877",
+    "isObsolete": false,
+    "name": "protein-containing complex binding",
+    "definition": {
+     "text": "Binding to a macromolecular complex."
+    },
+    "synonyms": [
+     {
+      "name": "macromolecular complex binding",
+      "type": "related"
+     },
+     {
+      "name": "protein complex binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0140260",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062070",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010997",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904855",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106080",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070628",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0023023",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905394",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062078",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030507",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140496",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070840",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062059",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140262",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106140",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071814",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005178",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120160",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036033",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005132",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062060",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035650",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062062",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905762",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990593",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062066",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106138",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062068",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904713",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031683",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032404",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120170",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005518",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035612",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001849",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904854",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071933",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051015",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904288",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905334",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062058",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904931",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032795",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990448",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019865",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140164",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904841",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035651",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070051",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062061",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905761",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106137",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036461",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062063",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062067",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062069",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042608",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031491",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140259",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045995",
+    "isObsolete": false,
+    "name": "regulation of embryonic development",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of embryonic development."
+    },
+    "children": [
+     {
+      "id": "GO:0045992",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002085",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0040019",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016476",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010470",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051130",
+    "isObsolete": false,
+    "name": "positive regulation of cellular component organization",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of a process involved in the formation, arrangement of constituent parts, or disassembly of cell structures, including the plasma membrane and any external encapsulating structures such as the cell wall and cell envelope."
+    },
+    "synonyms": [
+     {
+      "name": "activation of cell organization",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of cell organisation",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of cellular component organization and biogenesis",
+      "type": "related"
+     },
+     {
+      "name": "stimulation of cell organization",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of cell organization",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of cell organization",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of cell organization",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1901631",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901634",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045726",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903331",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0150117",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905808",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900106",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903024",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905686",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045807",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000334",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031334",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905608",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905155",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905075",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903908",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903852",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901614",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903188",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903527",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901915",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901893",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901890",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904398",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903055",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090319",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060143",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061931",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000814",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010638",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903915",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031346",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090261",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901628",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902905",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010902",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090129",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043243",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051835",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051446",
+    "isObsolete": false,
+    "name": "positive regulation of meiotic cell cycle",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of progression through the meiotic cell cycle."
+    },
+    "synonyms": [
+     {
+      "name": "activation of progression through meiotic cell cycle",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of meiotic cell cycle progression",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of progression through meiotic cell cycle",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of progression through meiotic cell cycle",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of progression through meiotic cell cycle",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of progression through meiotic cell cycle",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of progression through meiotic cell cycle",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0051728",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140648",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043941",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901995",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045836",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904146",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043410",
+    "isObsolete": false,
+    "name": "positive regulation of MAPK cascade",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of signal transduction mediated by the MAPK cascade."
+    },
+    "synonyms": [
+     {
+      "name": "activation of MAPK cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "activation of MAPKKK cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of MAP kinase cascade",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of MAP kinase kinase kinase cascade",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of MAPKKK cascade",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of mitogen-activated protein kinase cascade",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of mitogen activated protein kinase kinase kinase cascade",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of mitogen-activated protein kinase kinase kinase cascade",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of MAPK cascade",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of MAPKKK cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "up-regulation of MAPK cascade",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of MAPK cascade",
+      "type": "exact"
+     },
+     {
+      "name": "up regulation of MAPKKK cascade",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of MAPKKK cascade",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of MAPKKK cascade",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0046330",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900745",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043406",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070374",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062038",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032874",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070378",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090080",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:2000194",
+    "isObsolete": false,
+    "name": "regulation of female gonad development",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of female gonad development."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of ovarian development",
+      "type": "exact"
+     },
+     {
+      "name": "regulation of ovary development",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2000870",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000196",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000195",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051239",
+    "isObsolete": false,
+    "name": "regulation of multicellular organismal process",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of a multicellular organismal process, the processes pertinent to the function of a multicellular organism above the cellular level; includes the integrated processes of tissues and organs."
+    },
+    "children": [
+     {
+      "id": "GO:0090107",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902875",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905936",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034103",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090318",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070255",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048819",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060688",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051240",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900032",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035490",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060264",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090381",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000011",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046620",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050795",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902490",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000036",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000015",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903365",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014807",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030278",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042634",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050865",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035206",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110107",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010632",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001817",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044057",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010901",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905879",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045700",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060405",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060278",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045704",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903593",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000026",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090213",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050818",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904298",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120161",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0040014",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045610",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043012",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051241",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031654",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043576",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903186",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000037",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034444",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031650",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0097062",
+    "isObsolete": false,
+    "name": "dendritic spine maintenance",
+    "definition": {
+     "text": "The organization process that preserves a dendritic spine in a stable functional or structural state. A dendritic spine is a specialized protrusion from a neuronal dendrite and is involved in synaptic transmission.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "20410104"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:1902950",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1902952",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1902951",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051425",
+    "isObsolete": false,
+    "name": "PTB domain binding",
+    "definition": {
+     "text": "Binding to a phosphotyrosine-binding (PTB) Binding to a phosphotyrosine-bindin domain.",
+     "xrefs": [
+      {
+       "dbCode": "Pfam",
+       "dbId": "PF02174"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "15924411"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "phosphotyrosine-interacting domain binding",
+      "type": "exact"
+     },
+     {
+      "name": "PID binding",
+      "type": "broad"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045821",
+    "isObsolete": false,
+    "name": "positive regulation of glycolysis",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of glycolysis."
+    },
+    "synonyms": [
+     {
+      "name": "activation of glycolysis",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of glycolytic process",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of glycolysis",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of glycolysis",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of glycolysis",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of glycolysis",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045725",
+    "isObsolete": false,
+    "name": "positive regulation of glycogen biosynthetic process",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of glycogen."
+    },
+    "synonyms": [
+     {
+      "name": "activation of glycogen biosynthetic process",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of glycogen anabolism",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of glycogen biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of glycogen formation",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of glycogen synthesis",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of glycogen biosynthetic process",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of glycogen biosynthetic process",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of glycogen biosynthetic process",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of glycogen biosynthetic process",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045893",
+    "isObsolete": false,
+    "name": "positive regulation of DNA-templated transcription",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of cellular DNA-templated transcription."
+    },
+    "synonyms": [
+     {
+      "name": "activation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "activation of transcription, DNA-dependent",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of cellular transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of transcription, DNA-templated",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of gene-specific transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of transcription, DNA-dependent",
+      "type": "narrow"
+     },
+     {
+      "name": "transcription activator activity",
+      "type": "related"
+     },
+     {
+      "name": "up regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "up-regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "upregulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "up regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of transcription, DNA-dependent",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0045945",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001070",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045944",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043856",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045943",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140543",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003713",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045895",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060566",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903109",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060196",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000144",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061435",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001216",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045991",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904281",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902895",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032786",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990513",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0061586",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0070062",
+    "isObsolete": false,
+    "name": "extracellular exosome",
+    "definition": {
+     "text": "A vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane. Extracellular exosomes, also simply called exosomes, have a diameter of about 40-100 nm.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "15908444"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "17641064"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "19442504"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "19498381"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "22418571"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "24009894"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "exosome",
+      "type": "exact"
+     },
+     {
+      "name": "extracellular vesicular exosome",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990563",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045429",
+    "isObsolete": false,
+    "name": "positive regulation of nitric oxide biosynthetic process",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of nitric oxide."
+    },
+    "synonyms": [
+     {
+      "name": "activation of nitric oxide biosynthetic process",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of nitric oxide anabolism",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of nitric oxide biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of nitric oxide formation",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of nitric oxide synthesis",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of nitric oxide biosynthetic process",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of nitric oxide biosynthetic process",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of nitric oxide biosynthetic process",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of nitric oxide biosynthetic process",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060267",
+    "isObsolete": false,
+    "name": "positive regulation of respiratory burst",
+    "definition": {
+     "text": "Any process that increases the rate frequency or extent of a phase of elevated metabolic activity, during which oxygen consumption increases; this leads to the production, by an NADH dependent system, of hydrogen peroxide (H2O2), superoxide anions and hydroxyl radicals."
+    },
+    "children": [
+     {
+      "id": "GO:0060265",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1990535",
+    "isObsolete": false,
+    "name": "neuron projection maintenance",
+    "definition": {
+     "text": "The organization process that preserves a neuron projection in a stable functional or structural state. A neuron projection is a prolongation or process extending from a nerve cell, e.g. an axon or dendrite.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "25359212"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "axon homeostasis",
+      "type": "related"
+     },
+     {
+      "name": "axon maintenance",
+      "type": "related"
+     },
+     {
+      "name": "neurite maintenance",
+      "type": "narrow"
+     },
+     {
+      "name": "neuronal cell projection maintenance",
+      "type": "exact"
+     },
+     {
+      "name": "neuron process maintenance",
+      "type": "exact"
+     },
+     {
+      "name": "neuron protrusion maintenance",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0048639",
+    "isObsolete": false,
+    "name": "positive regulation of developmental growth",
+    "definition": {
+     "text": "Any process that activates, maintains or increases the rate of developmental growth."
+    },
+    "synonyms": [
+     {
+      "name": "activation of developmental growth",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of developmental growth",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of developmental growth",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of developmental growth",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of developmental growth",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1903861",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046622",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045887",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000388",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048633",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043415",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048687",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048672",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902892",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905180",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903043",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051512",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0040018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045773",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905615",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905043",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045572",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0046326",
+    "isObsolete": false,
+    "name": "positive regulation of D-glucose import across plasma membrane",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of the import of the hexose monosaccharide glucose into a cell."
+    },
+    "synonyms": [
+     {
+      "name": "activation of glucose import",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of glucose import",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of glucose uptake",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of glucose import",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of glucose import",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of glucose import",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of glucose import",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0048513",
+    "isObsolete": false,
+    "name": "animal organ development",
+    "definition": {
+     "text": "Development of a tissue or tissues that work together to perform a specific function or functions. Development pertains to the process whose specific outcome is the progression of a structure over time, from its formation to the mature structure. Organs are commonly observed as visibly distinct structures, but may also exist as loosely associated clusters of cells that work together to perform a specific function or functions."
+    },
+    "synonyms": [
+     {
+      "name": "development of an organ",
+      "type": "exact"
+     },
+     {
+      "name": "organogenesis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0072002",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009887",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060438",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007517",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048806",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007419",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120224",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008406",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048728",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031016",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060348",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060065",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060612",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030324",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061010",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048534",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0040025",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001890",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043588",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060485",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030323",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007444",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060029",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060157",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007507",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051216",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048496",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048799",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061103",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001822",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048568",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031214",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061068",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007420",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048732",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051897",
+    "isObsolete": false,
+    "name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of phosphatidylinositol 3-kinase/protein kinase B signal transduction."
+    },
+    "synonyms": [
+     {
+      "name": "activation of protein kinase B signaling cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of AKT signaling cascade",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of AKT signalling cascade",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of phosphatidylinositol 3-kinase signaling/protein kinase B signal transduction",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of PI3K/Akt signal transduction",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of PI3K-PKB/Akt pathway",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of PI3K/PKB signal transduction",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of PKB signaling cascade",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of PKB signalling cascade",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of protein kinase B signaling",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of protein kinase B signaling cascade",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of protein kinase B signalling cascade",
+      "type": "related"
+     },
+     {
+      "name": "stimulation of protein kinase B signaling cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of protein kinase B signaling cascade",
+      "type": "related"
+     },
+     {
+      "name": "up-regulation of protein kinase B signaling cascade",
+      "type": "related"
+     },
+     {
+      "name": "upregulation of protein kinase B signaling cascade",
+      "type": "related"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0097242",
+    "isObsolete": false,
+    "name": "amyloid-beta clearance",
+    "definition": {
+     "text": "The process in which amyloid-beta is removed from extracellular brain regions by mechanisms involving cell surface receptors.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "18289866"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "19098903"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "26005850"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "beta-amyloid clearance",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0150093",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0150094",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900221",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1900223",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1900222",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0048731",
+    "isObsolete": false,
+    "name": "system development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of an organismal system over time, from its formation to the mature structure. A system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a given biological process."
+    },
+    "children": [
+     {
+      "id": "GO:0072001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055123",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048367",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007417",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048880",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060541",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072359",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060037",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035270",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002520",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007399",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001501",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061458",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007421",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007422",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001944",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021591",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022622",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048484",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099402",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048485",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048483",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021761",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048486",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021783",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0046718",
+    "isObsolete": false,
+    "name": "symbiont entry into host cell",
+    "definition": {
+     "text": "The process by which a symbiont breaches the plasma membrane or cell envelope and enters the host cell. The process ends when the symbiont or its genome is released into the host cell."
+    },
+    "comment": "Viral attachment to the host cell is not part of viral entry in GO because virus attachment does not always lead to viral entry: attachment can also result in the virion being carried by the host cell to another location.",
+    "synonyms": [
+     {
+      "name": "entry of virus into host cell",
+      "type": "narrow"
+     },
+     {
+      "name": "phage translocation",
+      "type": "narrow"
+     },
+     {
+      "name": "viral entry into host cell",
+      "type": "narrow"
+     },
+     {
+      "name": "viral penetration",
+      "type": "narrow"
+     },
+     {
+      "name": "virion penetration",
+      "type": "narrow"
+     },
+     {
+      "name": "virion penetration into host cell",
+      "type": "narrow"
+     },
+     {
+      "name": "virus entry into host cell",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0039664",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0039678",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044694",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0039666",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001618",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140267",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019065",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0085017",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098932",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0075512",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903914",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0075513",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0046598",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0098994",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098995",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098996",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0046596",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0075509",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120274",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0046777",
+    "isObsolete": false,
+    "name": "protein autophosphorylation",
+    "definition": {
+     "text": "The phosphorylation by a protein of one or more of its own amino acid residues (cis-autophosphorylation), or residues on an identical protein (trans-autophosphorylation).",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "protein amino acid autophosphorylation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0038083",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036290",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031952",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1990722",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0036289",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031953",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1990443",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031954",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "None"
+   }
+  ],
+  "pageInfo": null
+ }
+}

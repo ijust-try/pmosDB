@@ -1,0 +1,83 @@
+{
+ "source": "uniprot",
+ "query": "PROX1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:PROX1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:38:28+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q92786",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Prospero homeobox protein 1"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Homeobox prospero-like protein PROX1"
+       },
+       "shortNames": [
+        {
+         "value": "PROX-1"
+        }
+       ]
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "PROX1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23723244"
+         },
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "22733308"
+         }
+        ],
+        "value": "Transcription factor involved in developmental processes such as cell fate determination, gene transcriptional regulation and progenitor cell regulation in a number of organs. Plays a critical role in embryonic development and functions as a key regulatory protein in neurogenesis and the development of the heart, eye lens, liver, pancreas and the lymphatic system. Involved in the regulation of the circadian rhythm. Represses: transcription of the retinoid-related orphan receptor RORG, transcriptional activator activity of RORA and RORG and the expression of RORA/G-target genes including core clock components: BMAL1, NPAS2 and CRY1 and metabolic genes: AVPR1A and ELOVL3"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "5629",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000071D14"
+    }
+   }
+  ]
+ }
+}

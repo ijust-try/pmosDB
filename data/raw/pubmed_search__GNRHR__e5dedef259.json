@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "GNRHR",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "GNRHR AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:37:07+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "28",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "28165551",
+    "30944702",
+    "37898094"
+   ],
+   "translationset": [
+    {
+     "from": "GNRHR",
+     "to": "\"gnrhr protein, human\"[Supplementary Concept] OR \"gnrhr protein, human\"[All Fields] OR \"gnrhr\"[All Fields] OR \"gnrhrs\"[All Fields]"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"gnrhr protein human\"[Supplementary Concept] OR \"gnrhr protein human\"[All Fields] OR \"gnrhr\"[All Fields] OR \"gnrhrs\"[All Fields]) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

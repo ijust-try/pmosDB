@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "GLP1R",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "2740",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:39:26+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "2740"
+   ],
+   "2740": {
+    "uid": "2740",
+    "name": "GLP1R",
+    "description": "glucagon like peptide 1 receptor",
+    "status": "",
+    "currentid": "",
+    "chromosome": "6",
+    "geneticsource": "genomic",
+    "maplocation": "6p21.2",
+    "otheraliases": "GLP-1, GLP-1-R, GLP-1R",
+    "otherdesignations": "glucagon-like peptide 1 receptor|GLP-1 receptor|GLP1 receptor|seven transmembrane helix receptor",
+    "nomenclaturesymbol": "GLP1R",
+    "nomenclaturename": "glucagon like peptide 1 receptor",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "138032"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "6",
+      "chraccver": "NC_000006.12",
+      "chrstart": 39048780,
+      "chrstop": 39091302,
+      "exoncount": 14
+     }
+    ],
+    "geneweight": 84021,
+    "summary": "This gene encodes a 7-transmembrane receptor for glucagon-like peptide 1 (GLP-1), which stimulates glucose-dependent insulin secretion. The receptor, located on the cell surface, is internalized upon ligand binding and triggers signaling pathways that regulate insulin release, appetite, gastric emptying, and energy balance. It also has neuroprotective and cardiovascular effects. Polymorphisms in this gene are linked to type 2 diabetes risk, and the receptor is a key drug target for diabetes, obesity, and stroke therapies. [provided by RefSeq, Mar 2026]",
+    "chrsort": "06",
+    "chrstart": 39048780,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000006.12",
+      "chrstart": 39048780,
+      "chrstop": 39091302
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060930.1",
+      "chrstart": 38873165,
+      "chrstop": 38915729
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000006.12",
+      "chrstart": 39048780,
+      "chrstop": 39091302
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060930.1",
+      "chrstart": 38873165,
+      "chrstop": 38915729
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000006.12",
+      "chrstart": 39048780,
+      "chrstop": 39091302
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060930.1",
+      "chrstart": 38873165,
+      "chrstop": 38915729
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000006.12",
+      "chrstart": 39048780,
+      "chrstop": 39091302
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060930.1",
+      "chrstart": 38873165,
+      "chrstop": 38915729
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000006.12",
+      "chrstart": 39048780,
+      "chrstop": 39091302
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060930.1",
+      "chrstart": 38873165,
+      "chrstop": 38915729
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000006.12",
+      "chrstart": 39048780,
+      "chrstop": 39091302
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000006.11",
+      "chrstart": 39016556,
+      "chrstop": 39059078
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000006.11",
+      "chrstart": 39016556,
+      "chrstop": 39059078
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000006.11",
+      "chrstart": 39016556,
+      "chrstop": 39056656
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000138.1",
+      "chrstart": 38734905,
+      "chrstop": 38773875
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018917.2",
+      "chrstart": 39019248,
+      "chrstop": 39058214
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "source": "pubchem_mech",
+ "query": "3397",
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/3397/JSON",
+ "params": {
+  "heading": "Mechanism of Action"
+ },
+ "retrieved_at": "2026-10-12T09:43:43+00:00",
+ "response": {
+  "Record": {
+   "RecordType": "CID",
+   "RecordNumber": 3397,
+   "RecordTitle": "Flutamide",
+   "Section": [
+    {
+     "TOCHeading": "Pharmacology and Biochemistry",
+     "Description": "Pharmacology and biochemistry information related to this compound, including the pharmacodynamics, pharmacokinetics, metabolism, mechanism of action, biological half-life, biochemical reactions, and many others.",
+     "Section": [
+      {
+       "TOCHeading": "Mechanism of Action",
+       "Description": "In medicine, the term \"mechanism of action\" (also called MOA) is used to describe how a drug or other substance produces an effect in the body. For example, a drug's mechanism of action could be how it affects a specific target in a cell, such as an enzyme, or a cell function, such as cell growth. Knowing the mechanism of action of a drug may help provide information about the safety of the drug and how it affects the body. It may also help identify the right dose of a drug and which patients are most likely to respond to treatment.",
+       "Information": [
+        {
+         "ReferenceNumber": 17,
+         "Value": {
+          "StringWithMarkup": [
+           {
+            "String": "Flutamide is a nonsteroidal antiandrogen that blocks the action of both endogenous and exogenous testosterone by binding to the androgen receptor. In addition Flutamide is a potent inhibitor of testosterone-stimulated prostatic DNA synthesis. Moreover, it is capable of inhibiting prostatic nuclear uptake of androgen.",
+            "Markup": [
+             {
+              "Start": 0,
+              "Length": 9,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Flutamide",
+              "Type": "PubChem Internal Link",
+              "Extra": "CID-3397"
+             },
+             {
+              "Start": 97,
+              "Length": 12,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/testosterone",
+              "Type": "PubChem Internal Link",
+              "Extra": "CID-6013"
+             },
+             {
+              "Start": 159,
+              "Length": 9,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Flutamide",
+              "Type": "PubChem Internal Link",
+              "Extra": "CID-3397"
+             },
+             {
+              "Start": 194,
+              "Length": 12,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/testosterone",
+              "Type": "PubChem Internal Link",
+              "Extra": "CID-6013"
+             }
+            ]
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "Reference": [
+    {
+     "ReferenceNumber": 17,
+     "SourceName": "DrugBank",
+     "SourceID": "DB00499",
+     "Name": "Flutamide",
+     "Description": "The DrugBank database is a unique bioinformatics and cheminformatics resource that combines detailed drug (i.e. chemical, pharmacological and pharmaceutical) data with comprehensive drug target (i.e. sequence, structure, and pathway) information.",
+     "URL": "https://go.drugbank.com/drugs/DB00499",
+     "LicenseNote": "Creative Common's Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses/by-nc/4.0/legalcode)",
+     "LicenseURL": "https://www.drugbank.ca/legal/terms_of_use",
+     "ANID": 3603357
+    }
+   ]
+  }
+ }
+}

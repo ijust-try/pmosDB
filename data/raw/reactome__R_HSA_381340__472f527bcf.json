@@ -1,0 +1,883 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-381340",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-381340",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:42:02+00:00",
+ "response": {
+  "dbId": 381340,
+  "displayName": "Transcriptional regulation of white adipocyte differentiation",
+  "stId": "R-HSA-381340",
+  "stIdVersion": "R-HSA-381340.5",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Transcriptional regulation of white adipocyte differentiation"
+  ],
+  "releaseDate": "2011-03-15",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 7660,
+    "displayName": "nucleoplasm",
+    "accession": "0005654",
+    "databaseName": "GO",
+    "definition": "That part of the nuclear content other than the chromosomes or the nucleolus.",
+    "name": "nucleoplasm",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 161436,
+   "displayName": "white fat cell differentiation",
+   "accession": "0050872",
+   "databaseName": "GO",
+   "definition": "The process in which a relatively unspecialized cell acquires specialized features of a white adipocyte, an animal connective tissue cell involved in energy storage. White adipocytes have cytoplasmic lipids arranged in a unique vacuole.",
+   "name": "white fat cell differentiation",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0050872",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 381232,
+    "displayName": "Fat and beyond: the diverse biology of PPARgamma",
+    "title": "Fat and beyond: the diverse biology of PPARgamma",
+    "journal": "Annu Rev Biochem",
+    "pages": "289-312",
+    "pubMedIdentifier": 18518822,
+    "volume": 77,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18518822",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 381354,
+    "displayName": "Transcriptional control of adipocyte formation",
+    "title": "Transcriptional control of adipocyte formation",
+    "journal": "Cell Metab",
+    "pages": "263-73",
+    "pubMedIdentifier": 17011499,
+    "volume": 4,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17011499",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 381324,
+    "displayName": "Developmental origin of fat: tracking obesity to its source",
+    "title": "Developmental origin of fat: tracking obesity to its source",
+    "journal": "Cell",
+    "pages": "242-56",
+    "pubMedIdentifier": 17956727,
+    "volume": 131,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17956727",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 381247,
+    "displayName": "PPARs: therapeutic targets for metabolic disease",
+    "title": "PPARs: therapeutic targets for metabolic disease",
+    "journal": "Trends Pharmacol Sci",
+    "pages": "244-51",
+    "pubMedIdentifier": 15860371,
+    "volume": 26,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15860371",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 381292,
+    "displayName": "PPARgamma in human and mouse physiology",
+    "title": "PPARgamma in human and mouse physiology",
+    "journal": "Biochim Biophys Acta",
+    "pages": "999-1013",
+    "pubMedIdentifier": 17475546,
+    "volume": 1771,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17475546",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 381379,
+    "displayName": "Peroxisome proliferator-activated receptors: a nuclear receptor signaling pathway in lipid physiology",
+    "title": "Peroxisome proliferator-activated receptors: a nuclear receptor signaling pathway in lipid physiology",
+    "journal": "Annu Rev Cell Dev Biol",
+    "pages": "335-63",
+    "pubMedIdentifier": 8970730,
+    "volume": 12,
+    "year": 1996,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8970730",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 381274,
+    "displayName": "Adipocyte-specific transcription factor ARF6 is a heterodimeric complex of two nuclear hormone receptors, PPAR gamma and RXR alpha",
+    "title": "Adipocyte-specific transcription factor ARF6 is a heterodimeric complex of two nuclear hormone receptors, PPAR gamma and RXR alpha",
+    "journal": "Nucleic Acids Res",
+    "pages": "5628-34",
+    "pubMedIdentifier": 7838715,
+    "volume": 22,
+    "year": 1994,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/7838715",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 560478,
+    "displayName": "Identification of novel PPARgamma target genes in primary human adipocytes",
+    "title": "Identification of novel PPARgamma target genes in primary human adipocytes",
+    "journal": "Gene",
+    "pages": "90-9",
+    "pubMedIdentifier": 16380219,
+    "volume": 369,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16380219",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 977272,
+    "displayName": "Role of the CCAAT enhancer binding proteins (C/EBPs) in adipocyte differentiation",
+    "title": "Role of the CCAAT enhancer binding proteins (C/EBPs) in adipocyte differentiation",
+    "journal": "Biochem Biophys Res Commun",
+    "pages": "677-83",
+    "pubMedIdentifier": 10603305,
+    "volume": 266,
+    "year": 1999,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10603305",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 977281,
+    "displayName": "Regulated expression of three C/EBP isoforms during adipose conversion of 3T3-L1 cells",
+    "title": "Regulated expression of three C/EBP isoforms during adipose conversion of 3T3-L1 cells",
+    "journal": "Genes Dev",
+    "pages": "1538-52",
+    "pubMedIdentifier": 1840554,
+    "volume": 5,
+    "year": 1991,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/1840554",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 977282,
+    "displayName": "Cascade regulation of terminal adipocyte differentiation by three members of the C/EBP family of leucine zipper proteins",
+    "title": "Cascade regulation of terminal adipocyte differentiation by three members of the C/EBP family of leucine zipper proteins",
+    "journal": "Genes Dev",
+    "pages": "168-81",
+    "pubMedIdentifier": 7531665,
+    "volume": 9,
+    "year": 1995,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/7531665",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 381236,
+    "displayName": "Critical role for Ebf1 and Ebf2 in the adipogenic transcriptional cascade",
+    "title": "Critical role for Ebf1 and Ebf2 in the adipogenic transcriptional cascade",
+    "journal": "Mol Cell Biol",
+    "pages": "743-57",
+    "pubMedIdentifier": 17060461,
+    "volume": 27,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17060461",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 381260,
+    "displayName": "Krüppel-like transcription factor KLF5 is a key regulator of adipocyte differentiation",
+    "title": "Krüppel-like transcription factor KLF5 is a key regulator of adipocyte differentiation",
+    "journal": "Cell Metab",
+    "pages": "27-39",
+    "pubMedIdentifier": 16054042,
+    "volume": 1,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16054042",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1183049,
+    "displayName": "Adipocyte differentiation from the inside out",
+    "title": "Adipocyte differentiation from the inside out",
+    "journal": "Nat Rev Mol Cell Biol",
+    "pages": "885-96",
+    "pubMedIdentifier": 17139329,
+    "volume": 7,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17139329",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1182994,
+    "displayName": "Human SGBS cells - a unique tool for studies of human fat cell biology",
+    "title": "Human SGBS cells - a unique tool for studies of human fat cell biology",
+    "journal": "Obes Facts",
+    "pages": "184-9",
+    "pubMedIdentifier": 20054179,
+    "volume": 1,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20054179",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1182990,
+    "displayName": "The generation and the manipulation of human multipotent adipose-derived stem cells",
+    "title": "The generation and the manipulation of human multipotent adipose-derived stem cells",
+    "journal": "Methods Mol Biol",
+    "pages": "419-27",
+    "pubMedIdentifier": 21082419,
+    "volume": 702,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21082419",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10106046,
+    "displayName": "Transcriptional regulation of white adipocyte differentiation",
+    "stId": "R-MMU-381340",
+    "stIdVersion": "R-MMU-381340.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional regulation of white adipocyte differentiation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     381340
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10229818,
+    "displayName": "Transcriptional regulation of white adipocyte differentiation",
+    "stId": "R-RNO-381340",
+    "stIdVersion": "R-RNO-381340.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional regulation of white adipocyte differentiation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     381340
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10336561,
+    "displayName": "Transcriptional regulation of white adipocyte differentiation",
+    "stId": "R-CFA-381340",
+    "stIdVersion": "R-CFA-381340.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional regulation of white adipocyte differentiation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     381340
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10451093,
+    "displayName": "Transcriptional regulation of white adipocyte differentiation",
+    "stId": "R-BTA-381340",
+    "stIdVersion": "R-BTA-381340.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional regulation of white adipocyte differentiation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     381340
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10565841,
+    "displayName": "Transcriptional regulation of white adipocyte differentiation",
+    "stId": "R-SSC-381340",
+    "stIdVersion": "R-SSC-381340.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional regulation of white adipocyte differentiation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     381340
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10656090,
+    "displayName": "Transcriptional regulation of white adipocyte differentiation",
+    "stId": "R-DRE-381340",
+    "stIdVersion": "R-DRE-381340.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional regulation of white adipocyte differentiation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     381340
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10834308,
+    "displayName": "Transcriptional regulation of white adipocyte differentiation",
+    "stId": "R-GGA-381340",
+    "stIdVersion": "R-GGA-381340.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional regulation of white adipocyte differentiation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     381340
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10919661,
+    "displayName": "Transcriptional regulation of white adipocyte differentiation",
+    "stId": "R-DME-381340",
+    "stIdVersion": "R-DME-381340.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional regulation of white adipocyte differentiation"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     381340
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 381278,
+    "displayName": "Adipogenesis is the process of cell differentiation by which...",
+    "text": "Adipogenesis is the process of cell differentiation by which preadipocytes become adipocytes. During this process the preadipocytes cease to proliferate, begin to accumulate lipid droplets and develop morphologic and biochemical characteristics of mature adipocytes such as hormone responsive lipogenenic and lipolytic programs. The most intensively studied model system for adipogenesis is differentiation of the mouse 3T3-L1 preadipocyte cell line by an induction cocktail of containing mitogens (insulin/IGF1), glucocorticoid (dexamethasone), an inducer of cAMP (IBMX), and fetal serum (Cao et al. 1991, reviewed in Farmer 2006). More recently additional cellular models have become available to study adipogenesis that involve almost all stages of development (reviewed in Rosen and MacDougald 2006). In vivo knockout mice lacking putative adipogenic factors have also been extensively studied. Human pathways are traditionally inferred from those discovered in mouse but are now beginning to be validated in cellular models derived from human adipose progenitors (Fischer-Posovszky et al. 2008, Wdziekonski et al. 2011).<br>Adipogenesis is controlled by a cascade of transcription factors (Yeh et al. 1995, reviewed in Farmer 2006, Gesta et al. 2007). One of the first observable events during adipocyte differentiation is a transient increase in expression of the CEBPB (CCAAT/Enhancer Binding Protein Beta, C/EBPB) and CEBPD (C/EBPD) transcription factors (Cao et al. 1991, reviewed in Lane et al. 1999). This occurs prior to the accumulation of lipid droplets. However, it is the subsequent inductions of CEBPA and PPARG that are critical for morphological, biochemical and functional adipocytes.<br>Ectopic expression of CEBPB alone is capable of inducing substantial adipocyte differentiation in fibroblasts while CEBPD has a minimal effect. CEBPB is upregulated in response to intracellular cAMP (possibly via pCREB) and serum mitogens (possibly via Krox20). CEBPD is upregulated in response to glucocorticoids. The exact mechanisms that upregulate the CEBPs are not fully known.<br>CEBPB and CEBPD act directly on the Peroxisome Proliferator-activated Receptor Gamma (PPARG) gene by binding its promoter and activating transcription. CEBPB and CEBPD also directly activate the EBF1 gene (and possibly other EBFs) and KLF5 (Jimenez et al. 2007, Oishi 2005). The EBF1 and KLF5 proteins, in turn bind, and activate the PPARG promoter. Other hormones, such as insulin, affect PPARG expression and other transcription factors, such as ADD1/SREBP1c, bind the PPARG promoter. This is an area of ongoing research.<br>During adipogenesis the PPARG gene is transcribed to yield 2 variants. The adipogenic variant 2 mRNA encodes 30 additional amino acids at the N-terminus compared to the widely expressed variant 1 mRNA.<br>PPARG encodes a type II nuclear hormone receptor (remains in the nucleus in the absence of ligand) that forms a heterodimer with the Retinoid X Receptor Alpha (RXRA). The heterodimer was initially identified as a complex regulating the aP2/FABP4 gene and named ARF6 (Tontonoz et al. 1994).<br>The PPARG:RXRA heterodimer binds a recognition sequence that consists of two hexanucleotide motifs (DR1 motifs) separated by 1 nucleotide. Binding occurs even in the absence of ligands, such as fatty acids, that activate PPARG. In the absence of activating ligands, the PPARG:RXRA complex recruits repressors of transcription such as SMRT/NCoR2, NCoR1, and HDAC3 (Tontonoz and Spiegelman 2008).<br>Each molecule of PPARG can bind 2 molecules of activating ligands. Although, the identity of the endogenous ligands of PPARG is unknown, exogenous activators include fatty acids and the thiazolidinedione class of antidiabetic drugs (reviewed in Berger et al. 2005, Heikkinen et al. 2007, Lemberger et al. 1996). The most potent activators of PPARG in vitro are oxidized derivatives of unsaturated fatty acids.. Upon binding activating ligands PPARG causes a rearrangement of adjacent factors: Corepressors such as SMRT/NCoR2 are lost and coactivators such as TIF2, PRIP, CBP, and p300 are recruited (Tontonoz and Spiegelman). PPARG also binds directly to the TRAP220 subunit of the TRAP/Mediator complex that recruits RNA polymerase II. Thus binding of activating ligand by PPARG causes transcription of PPARG target genes.<br>Targets of PPARG include genes involved in differentiation (PGAR/HFARP, Perilipin, aP2/FABP4, CEBPA), fatty acid transport (LPL, FAT/CD36), carbohydrate metabolism (PEPCK-C, AQP7, GK, GLUT4 (SLC2A4)), and energy homeostasis (LEPTIN and ADIPONECTIN) (Perera et al. 2006).<br>Within 10 days of differentiation CEBPB and CEBPD are no longer located at the PPARG promoter. Instead CEBPA is present. EBF1 and PPARG bind the CEBPA promoter and activate transcription of CEBPA, one of the key transcription factors in adipogenesis. A current hypothesis posits a self-reinforcing loop that maintains PPARG expression and the differentiated state: PPARG activates CEBPA and CEBPA activates PPARG. Additionally EBF1 (and possibly other EBFs) activates CEBPA, CEBPA activates EBF1, and EBF1 activates PPARG.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2022-06-09",
+  "hasEvent": [
+   {
+    "dbId": 381337,
+    "displayName": "Expression of CEBPB in adipogenesis",
+    "stId": "R-HSA-381337",
+    "stIdVersion": "R-HSA-381337.7",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of CEBPB in adipogenesis"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 977392,
+    "displayName": "Expression of CEBPD",
+    "stId": "R-HSA-977392",
+    "stIdVersion": "R-HSA-977392.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of CEBPD"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 381377,
+    "displayName": "Expression of KLF5",
+    "stId": "R-HSA-381377",
+    "stIdVersion": "R-HSA-381377.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of KLF5"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 977271,
+    "displayName": "Expression of EBF1",
+    "stId": "R-HSA-977271",
+    "stIdVersion": "R-HSA-977271.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of EBF1"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 381283,
+    "displayName": "Expression of PPARG",
+    "stId": "R-HSA-381283",
+    "stIdVersion": "R-HSA-381283.6",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of PPARG"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 381262,
+    "displayName": "Formation of PPARG:RXRA heterodimer (ARF6 complex)",
+    "stId": "R-HSA-381262",
+    "stIdVersion": "R-HSA-381262.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Formation of PPARG:RXRA heterodimer (ARF6 complex)"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 381290,
+    "displayName": "PPARG:RXRA heterodimer binds to PPARG corepressors",
+    "stId": "R-HSA-381290",
+    "stIdVersion": "R-HSA-381290.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "PPARG:RXRA heterodimer binds to PPARG corepressors"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 381309,
+    "displayName": "PPARG:RXRA heterodimer binds to fatty acid-like ligands",
+    "stId": "R-HSA-381309",
+    "stIdVersion": "R-HSA-381309.5",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "PPARG:RXRA heterodimer binds to fatty acid-like ligands"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9732629,
+    "displayName": "PPARG binds PPARG agonists",
+    "stId": "R-HSA-9732629",
+    "stIdVersion": "R-HSA-9732629.2",
+    "definition": "Agonist|Full agonist",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PPARG binds PPARG agonists"
+    ],
+    "releaseDate": "2022-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 560510,
+    "displayName": "Expression of FABP4 (aP2)",
+    "stId": "R-HSA-560510",
+    "stIdVersion": "R-HSA-560510.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of FABP4 (aP2)"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 560493,
+    "displayName": "Expression of Perilipin (PLIN)",
+    "stId": "R-HSA-560493",
+    "stIdVersion": "R-HSA-560493.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Perilipin (PLIN)"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 560472,
+    "displayName": "Expression of Phosphoenolpyruvate carboxykinase 1 (PEPCK-C)",
+    "stId": "R-HSA-560472",
+    "stIdVersion": "R-HSA-560472.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Phosphoenolpyruvate carboxykinase 1 (PEPCK-C)"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 560473,
+    "displayName": "Expression of ANGPTL4",
+    "stId": "R-HSA-560473",
+    "stIdVersion": "R-HSA-560473.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of ANGPTL4",
+     "Induction of Angiopoietin-related protein 4 (ANGPTL4) Expression"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 560498,
+    "displayName": "Expression of Lipoprotein lipase (LPL)",
+    "stId": "R-HSA-560498",
+    "stIdVersion": "R-HSA-560498.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Lipoprotein lipase (LPL)"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 560491,
+    "displayName": "Expression of CEBPA",
+    "stId": "R-HSA-560491",
+    "stIdVersion": "R-HSA-560491.5",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of CEBPA"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 560517,
+    "displayName": "Expression of CD36 (platelet glycoprotein IV, FAT)",
+    "stId": "R-HSA-560517",
+    "stIdVersion": "R-HSA-560517.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of CD36 (platelet glycoprotein IV, FAT)",
+     "Induction of Platelet glycoprotein IV (PAS IV, CD36, GPIV) Expression During Adipogenesis"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1183003,
+    "displayName": "Expression of Leptin",
+    "stId": "R-HSA-1183003",
+    "stIdVersion": "R-HSA-1183003.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Leptin"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1183058,
+    "displayName": "Expression of Adiponectin",
+    "stId": "R-HSA-1183058",
+    "stIdVersion": "R-HSA-1183058.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Adiponectin"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1183032,
+    "displayName": "Expression of GLUT4",
+    "stId": "R-HSA-1183032",
+    "stIdVersion": "R-HSA-1183032.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of GLUT4"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     381340
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

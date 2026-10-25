@@ -1,0 +1,157 @@
+{
+ "source": "uniprot",
+ "query": "IGF1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:IGF1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:43:34+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P05019",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:5464"
+        }
+       ],
+       "value": "Insulin-like growth factor 1"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "2935423"
+         }
+        ],
+        "value": "Insulin-like growth factor I"
+       },
+       "shortNames": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000303",
+           "source": "PubMed",
+           "id": "2935423"
+          }
+         ],
+         "value": "IGF-I"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Mechano growth factor"
+       },
+       "shortNames": [
+        {
+         "value": "MGF"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Somatomedin-C"
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:5464"
+        }
+       ],
+       "value": "IGF1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P05017"
+         },
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P08025"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19578119"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21076856"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22351760"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23243309"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23696648"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "24132240"
+         }
+        ],
+        "value": "The insulin-like growth factors, isolated from plasma, are structurally and functionally related to insulin but have a much higher growth-promoting activity. May be a physiological regulator of [1-14C]-2-deoxy-D-glucose (2DG) transport and glycogen synthesis in osteoblasts. Stimulates glucose transport in bone-derived osteoblastic (PyMS) cells and is effective at much lower concentrations than insulin, not only regarding glycogen and DNA synthesis but also with regard to enhancing glucose uptake. May play a role in synapse maturation (PubMed:21076856, PubMed:24132240). Ca(2+)-dependent exocytosis of IGF1 is required for sensory perception of smell in the olfactory bulb (By similarity). Acts as a ligand for IGF1R. Binds to the alpha subunit of IGF1R, leading to the activation of the intrinsic tyrosine kinase activity which autophosphorylates tyrosine residues in the beta subunit thus initiating a cascade of down-stream signaling events leading to activation of the PI3K-AKT/PKB and the Ras-MAPK pathways. Binds to integrins ITGAV:ITGB3 and ITGA6:ITGB4. Its binding to integrins and subsequent ternary complex formation with integrins and IGFR1 are essential for IGF1 signaling. Induces the phosphorylation and activation of IGFR1, MAPK3/ERK1, MAPK1/ERK2 and AKT1 (PubMed:19578119, PubMed:22351760, PubMed:23243309, PubMed:23696648). As part of the MAPK/ERK signaling pathway, acts as a negative regulator of apoptosis in cardiomyocytes via promotion of STUB1/CHIP-mediated ubiquitination and degradation of ICER-type isoforms of CREM (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "3479",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000115ED4"
+    }
+   }
+  ]
+ }
+}

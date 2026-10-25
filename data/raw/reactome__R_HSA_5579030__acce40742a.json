@@ -1,0 +1,156 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-5579030",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-5579030",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:19:15+00:00",
+ "response": {
+  "dbId": 5579030,
+  "displayName": "Defective CYP19A1 causes AEXS",
+  "stId": "R-HSA-5579030",
+  "stIdVersion": "R-HSA-5579030.4",
+  "isInDisease": true,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Defective CYP19A1 causes AEXS",
+   "Defective CYP19A1 causes Aromatase excess syndrome (AEXS)"
+  ],
+  "releaseDate": "2014-12-11",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12043968,
+    "displayName": "Mondo:0005518",
+    "databaseName": "Mondo",
+    "identifier": "0005518",
+    "url": "https://monarchinitiative.org/MONDO:0005518",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "disease": [
+   {
+    "dbId": 5601957,
+    "displayName": "pseudohermaphroditism",
+    "databaseName": "DOID",
+    "identifier": "3765",
+    "name": [
+     "pseudohermaphroditism"
+    ],
+    "synonym": [
+     "Indeterminate sex and pseudohermaphroditism",
+     "Indeterminate sex and pseudohermaphroditism (disorder)",
+     "Pseudohermaphroditism (disorder)",
+     "pseudohermaphroditism",
+     "Indeterminate sex or pseudohermaphroditism NOS (disorder)"
+    ],
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/doid/terms?obo_id=DOID:3765",
+    "className": "Disease",
+    "schemaClass": "Disease"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 5601970,
+    "displayName": "Aromatase and estrogen receptor ? deficiency",
+    "title": "Aromatase and estrogen receptor ? deficiency",
+    "journal": "Fertil. Steril.",
+    "pages": "323-9",
+    "pubMedIdentifier": 24485503,
+    "volume": 101,
+    "year": 2014,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24485503",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 5601968,
+    "displayName": "Aromatase (CYP19A1) catalyses the conversion of androstenedi...",
+    "text": "Aromatase (CYP19A1) catalyses the conversion of androstenedione (ANDST) to estrone (E1). Defects in CYP19A1 can cause aromatase excess syndrome (AEXS; MIM:139300) and aromatase deficiency (AROD; MIM:613546). Affected individuals cannot synthesise endogenous estrogens. In females the lack of estrogen leads to pseudohermaphroditism and progressive virilization at puberty, whereas in males pubertal development is normal (Bulun 2014).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2019-03-25",
+  "hasEvent": [
+   {
+    "dbId": 5601849,
+    "displayName": "Defective CYP19A1 does not convert ANDST to E1",
+    "stId": "R-HSA-5601849",
+    "stIdVersion": "R-HSA-5601849.3",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Defective CYP19A1 does not convert ANDST to E1"
+    ],
+    "releaseDate": "2014-12-11",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5579030
+    ],
+    "isChimeric": false,
+    "systematicName": "CYP19A1 does not hydroxylate ANDST",
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "FailedReaction"
+   }
+  ],
+  "normalPathway": {
+   "dbId": 211945,
+   "displayName": "Phase I - Functionalization of compounds",
+   "stId": "R-HSA-211945",
+   "stIdVersion": "R-HSA-211945.8",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 5,
+   "name": [
+    "Phase I - Functionalization of compounds"
+   ],
+   "releaseDate": "2008-06-30",
+   "speciesName": "Homo sapiens",
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "lastUpdatedDate": "2023-09-13",
+   "diseasePathways": [
+    5579030
+   ],
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

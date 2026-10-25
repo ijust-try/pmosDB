@@ -1,0 +1,764 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-1257604",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-1257604",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:36:13+00:00",
+ "response": {
+  "dbId": 1257604,
+  "displayName": "PIP3 activates AKT signaling",
+  "stId": "R-HSA-1257604",
+  "stIdVersion": "R-HSA-1257604.14",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 5,
+  "name": [
+   "PIP3 activates AKT signaling",
+   "PI3K/AKT Signaling"
+  ],
+  "releaseDate": "2011-06-14",
+  "releaseStatus": "UPDATED",
+  "speciesName": "Homo sapiens",
+  "figure": [
+   {
+    "dbId": 2127641,
+    "displayName": "/figures/Pathway_Illustrations/PIP3AKT_72_oicr.png",
+    "url": "/figures/Pathway_Illustrations/PIP3AKT_72_oicr.png",
+    "className": "Figure",
+    "schemaClass": "Figure"
+   }
+  ],
+  "precedingEvent": [
+   {
+    "dbId": 198266,
+    "displayName": "PI3K produces PIP3 and other phosphatidyl inositides",
+    "stId": "R-HSA-198266",
+    "stIdVersion": "R-HSA-198266.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PI3K produces PIP3 and other phosphatidyl inositides"
+    ],
+    "releaseDate": "2008-03-12",
+    "speciesName": "Homo sapiens",
+    "followingEvent": [
+     1257604
+    ],
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 262292,
+   "displayName": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+   "accession": "0051897",
+   "databaseName": "GO",
+   "definition": "Any process that activates or increases the frequency, rate or extent of phosphatidylinositol 3-kinase/protein kinase B signal transduction.",
+   "name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0051897",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "orthologousEvent": [
+   {
+    "dbId": 10105004,
+    "displayName": "PIP3 activates AKT signaling",
+    "stId": "R-MMU-1257604",
+    "stIdVersion": "R-MMU-1257604.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PIP3 activates AKT signaling",
+     "PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     1257604
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10335573,
+    "displayName": "PIP3 activates AKT signaling",
+    "stId": "R-CFA-1257604",
+    "stIdVersion": "R-CFA-1257604.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PIP3 activates AKT signaling",
+     "PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     1257604
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10450089,
+    "displayName": "PIP3 activates AKT signaling",
+    "stId": "R-BTA-1257604",
+    "stIdVersion": "R-BTA-1257604.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PIP3 activates AKT signaling",
+     "PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     1257604
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10228776,
+    "displayName": "PIP3 activates AKT signaling",
+    "stId": "R-RNO-1257604",
+    "stIdVersion": "R-RNO-1257604.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PIP3 activates AKT signaling",
+     "PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     1257604
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11137026,
+    "displayName": "PIP3 activates AKT signaling",
+    "stId": "R-PFA-1257604",
+    "stIdVersion": "R-PFA-1257604.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PIP3 activates AKT signaling",
+     "PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     1257604
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11115398,
+    "displayName": "PIP3 activates AKT signaling",
+    "stId": "R-SCE-1257604",
+    "stIdVersion": "R-SCE-1257604.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PIP3 activates AKT signaling",
+     "PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     1257604
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11087014,
+    "displayName": "PIP3 activates AKT signaling",
+    "stId": "R-SPO-1257604",
+    "stIdVersion": "R-SPO-1257604.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PIP3 activates AKT signaling",
+     "PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     1257604
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11057648,
+    "displayName": "PIP3 activates AKT signaling",
+    "stId": "R-DDI-1257604",
+    "stIdVersion": "R-DDI-1257604.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PIP3 activates AKT signaling",
+     "PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     1257604
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10919385,
+    "displayName": "PIP3 activates AKT signaling",
+    "stId": "R-DME-1257604",
+    "stIdVersion": "R-DME-1257604.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PIP3 activates AKT signaling",
+     "PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     1257604
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11001845,
+    "displayName": "PIP3 activates AKT signaling",
+    "stId": "R-CEL-1257604",
+    "stIdVersion": "R-CEL-1257604.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PIP3 activates AKT signaling",
+     "PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     1257604
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10833318,
+    "displayName": "PIP3 activates AKT signaling",
+    "stId": "R-GGA-1257604",
+    "stIdVersion": "R-GGA-1257604.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PIP3 activates AKT signaling",
+     "PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     1257604
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10736260,
+    "displayName": "PIP3 activates AKT signaling",
+    "stId": "R-XTR-1257604",
+    "stIdVersion": "R-XTR-1257604.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PIP3 activates AKT signaling",
+     "PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     1257604
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10655188,
+    "displayName": "PIP3 activates AKT signaling",
+    "stId": "R-DRE-1257604",
+    "stIdVersion": "R-DRE-1257604.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PIP3 activates AKT signaling",
+     "PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     1257604
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10563081,
+    "displayName": "PIP3 activates AKT signaling",
+    "stId": "R-SSC-1257604",
+    "stIdVersion": "R-SSC-1257604.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "PIP3 activates AKT signaling",
+     "PI3K/AKT Signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     1257604
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 1549530,
+    "displayName": "Signaling by AKT is one of the key outcomes of receptor tyro...",
+    "text": "Signaling by AKT is one of the key outcomes of receptor tyrosine kinase (RTK) activation. AKT is activated by the cellular second messenger PIP3, a phospholipid that is generated by PI3K. In ustimulated cells, PI3K class IA enzymes reside in the cytosol as inactive heterodimers composed of p85 regulatory subunit and p110 catalytic subunit. In this complex, p85 stabilizes p110 while inhibiting its catalytic activity. Upon binding of extracellular ligands to RTKs, receptors dimerize and undergo autophosphorylation. The regulatory subunit of PI3K, p85, is recruited to phosphorylated cytosolic RTK domains either directly or indirectly, through adaptor proteins, leading to a conformational change in the PI3K IA heterodimer that relieves inhibition of the p110 catalytic subunit. Activated PI3K IA phosphorylates PIP2, converting it to PIP3; this reaction is negatively regulated by PTEN phosphatase. PIP3 recruits AKT to the plasma membrane, allowing TORC2 to phosphorylate a conserved serine residue of AKT. Phosphorylation of this serine induces a conformation change in AKT, exposing a conserved threonine residue that is then phosphorylated by PDPK1 (PDK1). Phosphorylation of both the threonine and the serine residue is required to fully activate AKT. The active AKT then dissociates from PIP3 and phosphorylates a number of cytosolic and nuclear proteins that play important roles in cell survival and metabolism. For a recent review of AKT signaling, please refer to Manning and Cantley, 2007. ",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "previousReviewStatus": {
+   "dbId": 9821384,
+   "displayName": "two stars",
+   "definition": "structure updated after externally and internally reviewed",
+   "name": [
+    "two stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-1257604.14",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2023-06-07",
+  "hasEvent": [
+   {
+    "dbId": 114542,
+    "displayName": "RAC1,RAC2,RHOG activate PI3K",
+    "stId": "R-HSA-114542",
+    "stIdVersion": "R-HSA-114542.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RAC1,RAC2,RHOG activate PI3K"
+    ],
+    "releaseDate": "2004-10-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1257604
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2316434,
+    "displayName": "PI3K phosphorylates PIP2 to PIP3",
+    "stId": "R-HSA-2316434",
+    "stIdVersion": "R-HSA-2316434.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PI3K phosphorylates PIP2 to PIP3"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1257604
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2317332,
+    "displayName": "PIP3 recruits AKT to the membrane",
+    "stId": "R-HSA-2317332",
+    "stIdVersion": "R-HSA-2317332.8",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PIP3 recruits AKT to the membrane"
+    ],
+    "releaseDate": "2008-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1257604
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2316429,
+    "displayName": "PIP3 recruits PDPK1 to the membrane",
+    "stId": "R-HSA-2316429",
+    "stIdVersion": "R-HSA-2316429.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PIP3 recruits PDPK1 to the membrane"
+    ],
+    "releaseDate": "2008-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1257604
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9980233,
+    "displayName": "PIP3 activates mTORC2",
+    "stId": "R-HSA-9980233",
+    "stIdVersion": "R-HSA-9980233.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PIP3 activates mTORC2"
+    ],
+    "releaseDate": "2026-06-17",
+    "releaseStatus": "NEW",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1257604
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 198640,
+    "displayName": "mTORC2 phosphorylates AKT at S473",
+    "stId": "R-HSA-198640",
+    "stIdVersion": "R-HSA-198640.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "mTORC2 phosphorylates AKT at S473"
+    ],
+    "releaseDate": "2008-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1257604
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6795290,
+    "displayName": "mTORC2 phosphorylates SGK1",
+    "stId": "R-HSA-6795290",
+    "stIdVersion": "R-HSA-6795290.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "mTORC2 phosphorylates SGK1"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1257604
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2317314,
+    "displayName": "AKT binds PDPK1",
+    "stId": "R-HSA-2317314",
+    "stIdVersion": "R-HSA-2317314.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AKT binds PDPK1"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1257604
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 198270,
+    "displayName": "PDPK1 phosphorylates AKT at T308",
+    "stId": "R-HSA-198270",
+    "stIdVersion": "R-HSA-198270.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PDPK1 phosphorylates AKT at T308"
+    ],
+    "releaseDate": "2008-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1257604
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6795473,
+    "displayName": "PDPK1 phosphorylates SGK1",
+    "stId": "R-HSA-6795473",
+    "stIdVersion": "R-HSA-6795473.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PDPK1 phosphorylates SGK1"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1257604
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 198323,
+    "displayName": "AKT phosphorylates targets in the cytosol",
+    "stId": "R-HSA-198323",
+    "stIdVersion": "R-HSA-198323.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "AKT phosphorylates targets in the cytosol"
+    ],
+    "releaseDate": "2008-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1257604
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2022-04-07",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 198298,
+    "displayName": "AKT translocates to the nucleus",
+    "stId": "R-HSA-198298",
+    "stIdVersion": "R-HSA-198298.5",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "AKT translocates to the nucleus"
+    ],
+    "releaseDate": "2008-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1257604
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 198693,
+    "displayName": "AKT phosphorylates targets in the nucleus",
+    "stId": "R-HSA-198693",
+    "stIdVersion": "R-HSA-198693.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "AKT phosphorylates targets in the nucleus"
+    ],
+    "releaseDate": "2008-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1257604
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2018-12-13",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 199418,
+    "displayName": "Negative regulation of the PI3K/AKT network",
+    "stId": "R-HSA-199418",
+    "stIdVersion": "R-HSA-199418.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 3,
+    "name": [
+     "Negative regulation of the PI3K/AKT network"
+    ],
+    "releaseDate": "2008-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1257604
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2017-06-22",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 2219524,
+    "displayName": "PDPK1 binds PIP2",
+    "stId": "R-HSA-2219524",
+    "stIdVersion": "R-HSA-2219524.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PDPK1 binds PIP2"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1257604
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6807070,
+    "displayName": "PTEN Regulation",
+    "stId": "R-HSA-6807070",
+    "stIdVersion": "R-HSA-6807070.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 4,
+    "name": [
+     "PTEN Regulation"
+    ],
+    "releaseDate": "2017-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1257604
+    ],
+    "doi": "10.3180/R-HSA-6807070.1",
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2019-03-25",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

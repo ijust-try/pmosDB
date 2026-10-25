@@ -1,0 +1,44 @@
+{
+ "source": "ncbigene",
+ "query": "YAP1",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "gene",
+  "term": "YAP1[sym] AND 9606[taxid]",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:40:18+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "1",
+   "retmax": "1",
+   "retstart": "0",
+   "idlist": [
+    "10413"
+   ],
+   "translationset": [],
+   "translationstack": [
+    {
+     "term": "YAP1[sym]",
+     "field": "sym",
+     "count": "1043",
+     "explode": "N"
+    },
+    {
+     "term": "9606[taxid]",
+     "field": "taxid",
+     "count": "360558",
+     "explode": "N"
+    },
+    "AND"
+   ],
+   "querytranslation": "YAP1[sym] AND 9606[taxid]"
+  }
+ }
+}

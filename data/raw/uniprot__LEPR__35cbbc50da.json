@@ -1,0 +1,233 @@
+{
+ "source": "uniprot",
+ "query": "LEPR",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:LEPR) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:42:18+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "O15243",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Leptin receptor gene-related protein"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Endospanin-1"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Leptin receptor overlapping transcript protein"
+       }
+      },
+      {
+       "fullName": {
+        "value": "OB-R gene-related protein"
+       },
+       "shortNames": [
+        {
+         "value": "OB-RGRP"
+        }
+       ]
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "LEPROT"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18042720"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19907080"
+         }
+        ],
+        "value": "Negatively regulates leptin receptor (LEPR) cell surface expression, and thus decreases response to leptin. Negatively regulates growth hormone (GH) receptor cell surface expression in liver. May play a role in liver resistance to GH during periods of reduced nutrient availability"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "54741",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000130B9D"
+    }
+   },
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P48357",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Leptin receptor"
+      },
+      "shortNames": [
+       {
+        "value": "LEP-R"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "HuB219"
+       }
+      },
+      {
+       "fullName": {
+        "value": "OB receptor"
+       },
+       "shortNames": [
+        {
+         "value": "OB-R"
+        }
+       ]
+      }
+     ],
+     "cdAntigenNames": [
+      {
+       "value": "CD295"
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "LEPR"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P48356"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12504075"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22405007"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25060689"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8805376"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9537324"
+         },
+         {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "25232147"
+         }
+        ],
+        "value": "Receptor for hormone LEP/leptin (Probable) (PubMed:22405007). On ligand binding, mediates LEP central and peripheral effects through the activation of different signaling pathways such as JAK2/STAT3 and MAPK cascade/FOS. In the hypothalamus, LEP acts as an appetite-regulating factor that induces a decrease in food intake and an increase in energy consumption by inducing anorexinogenic factors and suppressing orexigenic neuropeptides, also regulates bone mass and secretion of hypothalamo-pituitary-adrenal hormones (By similarity) (PubMed:9537324). In the periphery, increases basal metabolism, influences reproductive function, regulates pancreatic beta-cell function and insulin secretion, is pro-angiogenic and affects innate and adaptive immunity (PubMed:12504075, PubMed:25060689, PubMed:8805376). Control of energy homeostasis and melanocortin production (stimulation of POMC and full repression of AgRP transcription) is mediated by STAT3 signaling, whereas distinct signals regulate NPY and the control of fertility, growth and glucose homeostasis. Involved in the regulation of counter-regulatory response to hypoglycemia by inhibiting neurons of the parabrachial nucleus. Has a specific effect on T lymphocyte responses, differentially regulating the proliferation of naive and memory T -ells. Leptin increases Th1 and suppresses Th2 cytokine production (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P48356"
+         }
+        ],
+        "value": "May transport LEP across the blood-brain barrier. Binds LEP and mediates LEP endocytosis. Does not induce phosphorylation of and activate STAT3"
+       }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "Isoform A"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P48356"
+         }
+        ],
+        "value": "Antagonizes Isoform A and isoform B-mediated LEP binding and endocytosis"
+       }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "Isoform E"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "3953",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000014C37B"
+    }
+   }
+  ]
+ }
+}

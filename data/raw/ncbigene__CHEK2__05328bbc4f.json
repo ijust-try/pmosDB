@@ -1,0 +1,44 @@
+{
+ "source": "ncbigene",
+ "query": "CHEK2",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "gene",
+  "term": "CHEK2[sym] AND 9606[taxid]",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:37:20+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "1",
+   "retmax": "1",
+   "retstart": "0",
+   "idlist": [
+    "11200"
+   ],
+   "translationset": [],
+   "translationstack": [
+    {
+     "term": "CHEK2[sym]",
+     "field": "sym",
+     "count": "872",
+     "explode": "N"
+    },
+    {
+     "term": "9606[taxid]",
+     "field": "taxid",
+     "count": "360558",
+     "explode": "N"
+    },
+    "AND"
+   ],
+   "querytranslation": "CHEK2[sym] AND 9606[taxid]"
+  }
+ }
+}

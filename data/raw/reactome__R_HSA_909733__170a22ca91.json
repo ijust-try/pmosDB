@@ -1,0 +1,824 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-909733",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-909733",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:39:06+00:00",
+ "response": {
+  "dbId": 909733,
+  "displayName": "Interferon alpha/beta signaling",
+  "stId": "R-HSA-909733",
+  "stIdVersion": "R-HSA-909733.9",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 3,
+  "name": [
+   "Interferon alpha/beta signaling"
+  ],
+  "releaseDate": "2010-12-14",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12829160,
+    "displayName": "BioModels Database:BIOMD0000000968",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000968",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000968",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828962,
+    "displayName": "BioModels Database:BIOMD0000000477",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000477",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000477",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 383670,
+   "displayName": "type I interferon-mediated signaling pathway",
+   "accession": "0060337",
+   "databaseName": "GO",
+   "definition": "The series of molecular signals initiated by type I interferon binding to its receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription. Type I interferons include the interferon-alpha, beta, delta, episilon, zeta, kappa, tau, and omega gene families.",
+   "name": "type I interferon-mediated signaling pathway",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0060337",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 909583,
+    "displayName": "The receptor of the type I interferon family",
+    "title": "The receptor of the type I interferon family",
+    "journal": "Curr Top Microbiol Immunol",
+    "pages": "71-95",
+    "pubMedIdentifier": 17969444,
+    "volume": 316,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17969444",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 909642,
+    "displayName": "Interferon-alpha-dependent activation of Tyk2 requires phosphorylation of positive regulatory tyrosines by another kinase",
+    "title": "Interferon-alpha-dependent activation of Tyk2 requires phosphorylation of positive regulatory tyrosines by another kinase",
+    "journal": "J Biol Chem",
+    "pages": "20494-500",
+    "pubMedIdentifier": 8702790,
+    "volume": 271,
+    "year": 1996,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8702790",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 909612,
+    "displayName": "Phosphorylated interferon-alpha receptor 1 subunit (IFNaR1) acts as a docking site for the latent form of the 113 kDa STAT2 protein",
+    "title": "Phosphorylated interferon-alpha receptor 1 subunit (IFNaR1) acts as a docking site for the latent form of the 113 kDa STAT2 protein",
+    "journal": "EMBO J",
+    "pages": "1064-74",
+    "pubMedIdentifier": 8605876,
+    "volume": 15,
+    "year": 1996,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8605876",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 909588,
+    "displayName": "Formation of STAT1-STAT2 heterodimers and their role in the activation of IRF-1 gene transcription by interferon-alpha",
+    "title": "Formation of STAT1-STAT2 heterodimers and their role in the activation of IRF-1 gene transcription by interferon-alpha",
+    "journal": "J Biol Chem",
+    "pages": "5790-4",
+    "pubMedIdentifier": 8621447,
+    "volume": 271,
+    "year": 1996,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8621447",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10106464,
+    "displayName": "Interferon alpha/beta signaling",
+    "stId": "R-MMU-909733",
+    "stIdVersion": "R-MMU-909733.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Interferon alpha/beta signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     909733
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10230234,
+    "displayName": "Interferon alpha/beta signaling",
+    "stId": "R-RNO-909733",
+    "stIdVersion": "R-RNO-909733.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Interferon alpha/beta signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     909733
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10834702,
+    "displayName": "Interferon alpha/beta signaling",
+    "stId": "R-GGA-909733",
+    "stIdVersion": "R-GGA-909733.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Interferon alpha/beta signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     909733
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10919987,
+    "displayName": "Interferon alpha/beta signaling",
+    "stId": "R-DME-909733",
+    "stIdVersion": "R-DME-909733.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Interferon alpha/beta signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     909733
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11002811,
+    "displayName": "Interferon alpha/beta signaling",
+    "stId": "R-CEL-909733",
+    "stIdVersion": "R-CEL-909733.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Interferon alpha/beta signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     909733
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11058924,
+    "displayName": "Interferon alpha/beta signaling",
+    "stId": "R-DDI-909733",
+    "stIdVersion": "R-DDI-909733.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Interferon alpha/beta signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     909733
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10737500,
+    "displayName": "Interferon alpha/beta signaling",
+    "stId": "R-XTR-909733",
+    "stIdVersion": "R-XTR-909733.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Interferon alpha/beta signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     909733
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10564459,
+    "displayName": "Interferon alpha/beta signaling",
+    "stId": "R-SSC-909733",
+    "stIdVersion": "R-SSC-909733.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Interferon alpha/beta signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     909733
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10656446,
+    "displayName": "Interferon alpha/beta signaling",
+    "stId": "R-DRE-909733",
+    "stIdVersion": "R-DRE-909733.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Interferon alpha/beta signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     909733
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10451515,
+    "displayName": "Interferon alpha/beta signaling",
+    "stId": "R-BTA-909733",
+    "stIdVersion": "R-BTA-909733.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Interferon alpha/beta signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     909733
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10336991,
+    "displayName": "Interferon alpha/beta signaling",
+    "stId": "R-CFA-909733",
+    "stIdVersion": "R-CFA-909733.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Interferon alpha/beta signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     909733
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 913488,
+    "displayName": "Type I interferons (IFNs) are composed of various genes incl...",
+    "text": "Type I interferons (IFNs) are composed of various genes including IFN alpha (IFNA), beta (IFNB), omega, epsilon, and kappa. In humans the IFNA genes are composed of more than 13 subfamily genes, whereas there is only one IFNB gene. The large family of IFNA/B proteins all bind to a single receptor which is composed of two distinct chains: IFNAR1 and IFNAR2. The IFNA/B stimulation of the IFNA receptor complex leads to the formation of two transcriptional activator complexes: IFNA-activated-factor (AAF), which is a homodimer of STAT1 and IFN-stimulated gene factor 3 (ISGF3), which comprises STAT1, STAT2 and a member of the IRF family, IRF9/P48. AAF mediates activation of the IRF-1 gene by binding to GAS (IFNG-activated site), whereas ISGF3 activates several IFN-inducible genes including IRF3 and IRF7.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-909733.6",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2023-06-07",
+  "hasEvent": [
+   {
+    "dbId": 909720,
+    "displayName": "IFN alpha/beta binds to IFNAR2",
+    "stId": "R-HSA-909720",
+    "stIdVersion": "R-HSA-909720.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IFN alpha/beta binds to IFNAR2"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9696179,
+    "displayName": "IFNAR2:JAK1:STAT2 binds type 1 interferon analogs",
+    "stId": "R-HSA-9696179",
+    "stIdVersion": "R-HSA-9696179.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IFNAR2:JAK1:STAT2 binds type 1 interferon analogs"
+    ],
+    "releaseDate": "2022-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9678935,
+    "displayName": "IFNAR2:JAK1:STAT2 binds JAK1,2 inhibitors",
+    "stId": "R-HSA-9678935",
+    "stIdVersion": "R-HSA-9678935.4",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IFNAR2:JAK1:STAT2 binds JAK1,2 inhibitors"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 909724,
+    "displayName": "Recruitment of IFNAR1",
+    "stId": "R-HSA-909724",
+    "stIdVersion": "R-HSA-909724.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Recruitment of IFNAR1"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9678737,
+    "displayName": "IFNAR1:TYK2 binds TYK2 inhibitors",
+    "stId": "R-HSA-9678737",
+    "stIdVersion": "R-HSA-9678737.3",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IFNAR1:TYK2 binds TYK2 inhibitors"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 909729,
+    "displayName": "Activation of JAK kinases",
+    "stId": "R-HSA-909729",
+    "stIdVersion": "R-HSA-909729.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Activation of JAK kinases"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 909730,
+    "displayName": "Phosphorylation of INFAR1 by TYK2",
+    "stId": "R-HSA-909730",
+    "stIdVersion": "R-HSA-909730.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of INFAR1 by TYK2"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 909719,
+    "displayName": "Recruitment of STAT2 to p-IFNAR1",
+    "stId": "R-HSA-909719",
+    "stIdVersion": "R-HSA-909719.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Recruitment of STAT2 to p-IFNAR1"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 909732,
+    "displayName": "Phosphorylation of STAT2",
+    "stId": "R-HSA-909732",
+    "stIdVersion": "R-HSA-909732.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of STAT2"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 909726,
+    "displayName": "Phosphorylation of STAT1",
+    "stId": "R-HSA-909726",
+    "stIdVersion": "R-HSA-909726.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of STAT1"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 909722,
+    "displayName": "Release of p-STAT2:p-STAT1 dimer",
+    "stId": "R-HSA-909722",
+    "stIdVersion": "R-HSA-909722.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Release of p-STAT2:p-STAT1 dimer"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 909725,
+    "displayName": "Interaction of IRF9 with p-STAT2:p-STAT1",
+    "stId": "R-HSA-909725",
+    "stIdVersion": "R-HSA-909725.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Interaction of IRF9 with p-STAT2:p-STAT1"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 909718,
+    "displayName": "Formation of p-STAT1 homodimer",
+    "stId": "R-HSA-909718",
+    "stIdVersion": "R-HSA-909718.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Formation of p-STAT1 homodimer"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9710959,
+    "displayName": "p-STAT1 dimer binds KPNA1",
+    "stId": "R-HSA-9710959",
+    "stIdVersion": "R-HSA-9710959.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-STAT1 dimer binds KPNA1"
+    ],
+    "releaseDate": "2021-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9710963,
+    "displayName": "p-STAT1dimer:KPNA1 binds KPNB1",
+    "stId": "R-HSA-9710963",
+    "stIdVersion": "R-HSA-9710963.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-STAT1dimer:KPNA1 binds KPNB1"
+    ],
+    "releaseDate": "2021-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 909721,
+    "displayName": "Translocation of ISGF3 complex to nucleus",
+    "stId": "R-HSA-909721",
+    "stIdVersion": "R-HSA-909721.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Translocation of ISGF3 complex to nucleus"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 913529,
+    "displayName": "Translocation of p-STAT1:p-STAT1 dimer to nucleus",
+    "stId": "R-HSA-913529",
+    "stIdVersion": "R-HSA-913529.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Translocation of p-STAT1:p-STAT1 dimer to nucleus"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1015699,
+    "displayName": "ISGF3 binds the ISRE promoter elements in IFN-stimulated genes",
+    "stId": "R-HSA-1015699",
+    "stIdVersion": "R-HSA-1015699.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ISGF3 binds the ISRE promoter elements in IFN-stimulated genes"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1015702,
+    "displayName": "Expression of IFN-induced genes",
+    "stId": "R-HSA-1015702",
+    "stIdVersion": "R-HSA-1015702.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of IFN-induced genes"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 912694,
+    "displayName": "Regulation of IFNA/IFNB signaling",
+    "stId": "R-HSA-912694",
+    "stIdVersion": "R-HSA-912694.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Regulation of IFNA/IFNB signaling"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 5223305,
+    "displayName": "ABCE1 binds RNASEL, inhibiting it",
+    "stId": "R-HSA-5223305",
+    "stIdVersion": "R-HSA-5223305.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ABCE1 binds RNASEL, inhibiting it"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     909733
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

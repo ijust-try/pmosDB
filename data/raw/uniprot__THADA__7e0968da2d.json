@@ -1,0 +1,83 @@
+{
+ "source": "uniprot",
+ "query": "THADA",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:THADA) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:40:09+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q6YHU6",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "tRNA (32-2'-O)-methyltransferase regulator THADA"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Gene inducing thyroid adenomas protein"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Thyroid adenoma-associated protein"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "THADA"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25404562"
+         }
+        ],
+        "value": "Together with methyltransferase FTSJ1, methylates the 2'-O-ribose of nucleotides at position 32 of the anticodon loop of substrate tRNAs"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "63892",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00001C0473"
+    }
+   }
+  ]
+ }
+}

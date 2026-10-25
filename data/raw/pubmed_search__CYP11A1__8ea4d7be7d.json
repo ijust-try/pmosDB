@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "CYP11A1",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "CYP11A1 AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:19:29+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "165",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "38870290",
+    "37445796",
+    "41253762"
+   ],
+   "translationset": [
+    {
+     "from": "CYP11A1",
+     "to": "\"cholesterol side-chain cleavage enzyme\"[Supplementary Concept] OR \"cholesterol side-chain cleavage enzyme\"[All Fields] OR \"cyp11a1\"[All Fields] OR \"cholesterol side-chain cleavage enzyme\"[MeSH Terms] OR (\"cholesterol\"[All Fields] AND \"side-chain\"[All Fields] AND \"cleavage\"[All Fields] AND \"enzyme\"[All Fields])"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"cholesterol side chain cleavage enzyme\"[Supplementary Concept] OR \"cholesterol side chain cleavage enzyme\"[All Fields] OR \"cyp11a1\"[All Fields] OR \"cholesterol side chain cleavage enzyme\"[MeSH Terms] OR (\"cholesterol\"[All Fields] AND \"side chain\"[All Fields] AND \"cleavage\"[All Fields] AND \"enzyme\"[All Fields])) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

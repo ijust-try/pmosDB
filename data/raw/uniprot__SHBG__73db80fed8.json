@@ -1,0 +1,114 @@
+{
+ "source": "uniprot",
+ "query": "SHBG",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:SHBG) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:20:56+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P04278",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "Sex hormone-binding globulin"
+      },
+      "shortNames": [
+       {
+        "value": "SHBG"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Sex steroid-binding protein"
+       },
+       "shortNames": [
+        {
+         "value": "SBP"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Testis-specific androgen-binding protein"
+       },
+       "shortNames": [
+        {
+         "value": "ABP"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Testosterone-estradiol-binding globulin"
+       },
+       "shortNames": [
+        {
+         "value": "TeBG"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Testosterone-estrogen-binding globulin"
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:10839"
+        }
+       ],
+       "value": "SHBG"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Functions as an androgen transport protein, but may also be involved in receptor mediated processes. Each dimer binds one molecule of steroid. Specific for 5-alpha-dihydrotestosterone, testosterone, and 17-beta-estradiol. Regulates the plasma metabolic clearance rate of steroid hormones by controlling their plasma concentration"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "6462",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000055933"
+    }
+   }
+  ]
+ }
+}

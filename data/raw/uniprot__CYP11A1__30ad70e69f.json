@@ -1,0 +1,120 @@
+{
+ "source": "uniprot",
+ "query": "CYP11A1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:CYP11A1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:19:23+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P05108",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "3024157"
+        }
+       ],
+       "value": "Cholesterol side-chain cleavage enzyme, mitochondrial"
+      },
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21636783"
+         }
+        ],
+        "value": "1.14.15.6"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "CYPXIA1"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Cholesterol desmolase"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Cytochrome P450 11A1"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Cytochrome P450(scc)"
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "21636783"
+        },
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:2590"
+        }
+       ],
+       "value": "CYP11A1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21636783"
+         }
+        ],
+        "value": "A cytochrome P450 monooxygenase that catalyzes the side-chain hydroxylation and cleavage of cholesterol to pregnenolone, the precursor of most steroid hormones (PubMed:21636783). Catalyzes three sequential oxidation reactions of cholesterol, namely the hydroxylation at C22 followed with the hydroxylation at C20 to yield 20R,22R-hydroxycholesterol that is further cleaved between C20 and C22 to yield the C21-steroid pregnenolone and 4-methylpentanal (PubMed:21636783). Mechanistically, uses molecular oxygen inserting one oxygen atom into a substrate and reducing the second into a water molecule. Two electrons are provided by NADPH via a two-protein mitochondrial transfer system comprising flavoprotein FDXR (adrenodoxin/ferredoxin reductase) and nonheme iron-sulfur protein FDX1 or FDX2 (adrenodoxin/ferredoxin) (PubMed:21636783)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "1583",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00000725F7"
+    }
+   }
+  ]
+ }
+}

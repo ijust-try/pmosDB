@@ -1,0 +1,161 @@
+{
+ "source": "uniprot",
+ "query": "AMH",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:AMH) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:20:35+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P03971",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "20861221"
+        }
+       ],
+       "value": "Anti-Muellerian hormone"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "20861221"
+         }
+        ],
+        "value": "AMH"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "8162013"
+         },
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "8872466"
+         }
+        ],
+        "value": "Muellerian-inhibiting factor"
+       }
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "3754790"
+         }
+        ],
+        "value": "Muellerian-inhibiting substance"
+       },
+       "shortNames": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000303",
+           "source": "PubMed",
+           "id": "3754790"
+          }
+         ],
+         "value": "MIS"
+        }
+       ]
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:464"
+        }
+       ],
+       "value": "AMH"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P27106"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "14742691"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20861221"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "34155118"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "3754790"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8469238"
+         }
+        ],
+        "value": "The anti-Muellerian hormone (AMH) plays an important role in several reproductive functions (PubMed:14742691, PubMed:34155118, PubMed:3754790, PubMed:8469238). Anti-Muellerian hormone binds and activates AMHR2, its specific type-II receptor, that heterodimerizes with type-I receptors (ACVR1 and BMPR1A) to regulate target gene expression through downstream SMAD protein signal transduction (PubMed:20861221, PubMed:34155118). Produced and secreted by Sertoli cells of the male fetus, anti-Muellerian hormone induces Muellerian duct regression during male fetal sexual differentiation (PubMed:34155118, PubMed:3754790, PubMed:8469238). In female, it is produced by granulosa cells of the preantral and small antral follicles and acts as a negative regulator of the primordial to primary follicle transition and decreases FSH sensitivity of growing follicles (PubMed:14742691). Also plays a role in Leydig cell differentiation and function (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "268",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000013C7D0"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "source": "uniprot",
+ "query": "DENND1A",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:DENND1A) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:37:59+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q8TEH3",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:29324"
+        }
+       ],
+       "value": "DENN domain-containing protein 1A"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "20154091"
+         }
+        ],
+        "value": "Connecdenn 1"
+       },
+       "shortNames": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000303",
+           "source": "PubMed",
+           "id": "20154091"
+          }
+         ],
+         "value": "Connecdenn"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Protein FAM31A"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:29324"
+        }
+       ],
+       "value": "DENND1A"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q8K382"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20154091"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20937701"
+         }
+        ],
+        "value": "Guanine nucleotide exchange factor (GEF) regulating clathrin-mediated endocytosis through RAB35 activation. Promotes the exchange of GDP to GTP, converting inactive GDP-bound RAB35 into its active GTP-bound form. Regulates clathrin-mediated endocytosis of synaptic vesicles and mediates exit from early endosomes (PubMed:20154091, PubMed:20937701). Binds phosphatidylinositol-phosphates (PtdInsPs), with some preference for PtdIns(3)P (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "57706",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00004589D2"
+    }
+   }
+  ]
+ }
+}

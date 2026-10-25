@@ -1,0 +1,951 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-982772",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-982772",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:41:29+00:00",
+ "response": {
+  "dbId": 982772,
+  "displayName": "Growth hormone receptor signaling",
+  "stId": "R-HSA-982772",
+  "stIdVersion": "R-HSA-982772.3",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Growth hormone receptor signaling"
+  ],
+  "releaseDate": "2011-09-20",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12829164,
+    "displayName": "BioModels Database:BIOMD0000001077",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000001077",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000001077",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12829166,
+    "displayName": "BioModels Database:BIOMD0000000314",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000314",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000314",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12829168,
+    "displayName": "BioModels Database:BIOMD0000000313",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000313",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000313",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 984,
+    "displayName": "extracellular region",
+    "accession": "0005576",
+    "databaseName": "GO",
+    "definition": "The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite.",
+    "name": "extracellular region",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005576",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 396537,
+   "displayName": "growth hormone receptor signaling pathway via JAK-STAT",
+   "accession": "0060397",
+   "databaseName": "GO",
+   "definition": "The process in which STAT proteins (Signal Transducers and Activators of Transcription) are activated by members of the JAK (janus activated kinase) family of tyrosine kinases, following the binding of physiological ligands to the growth hormone receptor. Once activated, STATs dimerize and translocate to the nucleus and modulate the expression of target genes.",
+   "name": "growth hormone receptor signaling pathway via JAK-STAT",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0060397",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 1168415,
+    "displayName": "The growth hormone receptor: mechanism of activation and clinical implications",
+    "title": "The growth hormone receptor: mechanism of activation and clinical implications",
+    "journal": "Nat Rev Endocrinol",
+    "pages": "515-25",
+    "pubMedIdentifier": 20664532,
+    "volume": 6,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20664532",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 982825,
+    "displayName": "Growth hormone receptor: structure and signal transduction",
+    "title": "Growth hormone receptor: structure and signal transduction",
+    "journal": "Eur J Endocrinol",
+    "pages": "654-9",
+    "pubMedIdentifier": 8548048,
+    "volume": 133,
+    "year": 1995,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8548048",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 982766,
+    "displayName": "In vivo analysis of growth hormone receptor signaling domains and their associated transcripts",
+    "title": "In vivo analysis of growth hormone receptor signaling domains and their associated transcripts",
+    "journal": "Mol Cell Biol",
+    "pages": "66-77",
+    "pubMedIdentifier": 15601831,
+    "volume": 25,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15601831",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1169265,
+    "displayName": "Determinants of growth hormone receptor down-regulation",
+    "title": "Determinants of growth hormone receptor down-regulation",
+    "journal": "Mol Endocrinol",
+    "pages": "1537-51",
+    "pubMedIdentifier": 17488973,
+    "volume": 21,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17488973",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10106530,
+    "displayName": "Growth hormone receptor signaling",
+    "stId": "R-MMU-982772",
+    "stIdVersion": "R-MMU-982772.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Growth hormone receptor signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     982772
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10230300,
+    "displayName": "Growth hormone receptor signaling",
+    "stId": "R-RNO-982772",
+    "stIdVersion": "R-RNO-982772.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Growth hormone receptor signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     982772
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10337051,
+    "displayName": "Growth hormone receptor signaling",
+    "stId": "R-CFA-982772",
+    "stIdVersion": "R-CFA-982772.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Growth hormone receptor signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     982772
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10451581,
+    "displayName": "Growth hormone receptor signaling",
+    "stId": "R-BTA-982772",
+    "stIdVersion": "R-BTA-982772.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Growth hormone receptor signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     982772
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10564525,
+    "displayName": "Growth hormone receptor signaling",
+    "stId": "R-SSC-982772",
+    "stIdVersion": "R-SSC-982772.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Growth hormone receptor signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     982772
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10656512,
+    "displayName": "Growth hormone receptor signaling",
+    "stId": "R-DRE-982772",
+    "stIdVersion": "R-DRE-982772.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Growth hormone receptor signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     982772
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10737568,
+    "displayName": "Growth hormone receptor signaling",
+    "stId": "R-XTR-982772",
+    "stIdVersion": "R-XTR-982772.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Growth hormone receptor signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     982772
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10834764,
+    "displayName": "Growth hormone receptor signaling",
+    "stId": "R-GGA-982772",
+    "stIdVersion": "R-GGA-982772.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Growth hormone receptor signaling"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     982772
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 1169268,
+    "displayName": "Growth hormone (Somatotropin or GH) is a key factor in deter...",
+    "text": "Growth hormone (Somatotropin or GH) is a key factor in determining lean body mass, stimulating the growth and metabolism of muscle, bone and cartilage cells, while reducing body fat. It has many other roles; it acts to regulate cell growth, differentiation, apoptosis, and reorganisation of the cytoskeleton, affecting diverse processes such as cardiac function, immune function, brain function, and aging.  GH also has insulin-like effects such as stimulating amino acid transport, protein synthesis, glucose transport, and lipogenesis. The growth hormone receptor (GHR) is a a member of the cytokine receptor family. When the dimeric receptor binds GH it undergoes a conformational change which leads to phosphorylation of key tyrosine residues in its cytoplasmic domains and activation of associated tyrosine kinase JAK2. This leads to recruitment of signaling molecules such as STAT5 and Src family kinases such as Lyn leading to ERK activation. The signal is attenuated by association of Suppressor of Cytokine Signaling (SOCS) proteins and SHP phosphatases which bind to or dephosphorylate specific phosphorylated tyrosines on GHR/JAK. The availability of GHR on the cell surface is regulated by at least two processes; internalization and cleavage from the suface by metalloproteases.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2021-09-15",
+  "hasEvent": [
+   {
+    "dbId": 982765,
+    "displayName": "Growth hormone forms dimers and oligomers",
+    "stId": "R-HSA-982765",
+    "stIdVersion": "R-HSA-982765.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Growth hormone forms dimers and oligomers"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Polymerisation"
+   },
+   {
+    "dbId": 982792,
+    "displayName": "Growth hormone receptor binds JAK2",
+    "stId": "R-HSA-982792",
+    "stIdVersion": "R-HSA-982792.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Growth hormone receptor binds JAK2"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 982775,
+    "displayName": "Growth hormone receptor dimerizes",
+    "stId": "R-HSA-982775",
+    "stIdVersion": "R-HSA-982775.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Growth hormone receptor dimerizes"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 982778,
+    "displayName": "Growth hormone binds the growth hormone receptor",
+    "stId": "R-HSA-982778",
+    "stIdVersion": "R-HSA-982778.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Growth hormone binds the growth hormone receptor"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 982768,
+    "displayName": "GH:GHR:JAK2 complex undergoes a conformational change",
+    "stId": "R-HSA-982768",
+    "stIdVersion": "R-HSA-982768.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GH:GHR:JAK2 complex undergoes a conformational change"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 982810,
+    "displayName": "JAK2 phosphorylation",
+    "stId": "R-HSA-982810",
+    "stIdVersion": "R-HSA-982810.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "JAK2 phosphorylation"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1168423,
+    "displayName": "JAK2 phosphorylation of IRS-1/2",
+    "stId": "R-HSA-1168423",
+    "stIdVersion": "R-HSA-1168423.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "JAK2 phosphorylation of IRS-1/2"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 982807,
+    "displayName": "JAK2 phosphorylation of GHR",
+    "stId": "R-HSA-982807",
+    "stIdVersion": "R-HSA-982807.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "JAK2 phosphorylation of GHR"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1168393,
+    "displayName": "STAT5 association with GHR",
+    "stId": "R-HSA-1168393",
+    "stIdVersion": "R-HSA-1168393.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "STAT5 association with GHR"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1168394,
+    "displayName": "STAT5 tyrosine phosphorylation",
+    "stId": "R-HSA-1168394",
+    "stIdVersion": "R-HSA-1168394.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "STAT5 tyrosine phosphorylation"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1168894,
+    "displayName": "p-STAT5A/B dissociates from the Growth Hormone receptor",
+    "stId": "R-HSA-1168894",
+    "stIdVersion": "R-HSA-1168894.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-STAT5A/B dissociates from the Growth Hormone receptor"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 452102,
+    "displayName": "p-STAT5 dimerizes",
+    "stId": "R-HSA-452102",
+    "stIdVersion": "R-HSA-452102.7",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "p-STAT5 dimerizes"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 507937,
+    "displayName": "STAT5 dimers translocate to the nucleus",
+    "stId": "R-HSA-507937",
+    "stIdVersion": "R-HSA-507937.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "STAT5 dimers translocate to the nucleus"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1168456,
+    "displayName": "Growth hormone receptor binds Lyn",
+    "stId": "R-HSA-1168456",
+    "stIdVersion": "R-HSA-1168456.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Growth hormone receptor binds Lyn"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1168459,
+    "displayName": "Lyn activates ERK",
+    "stId": "R-HSA-1168459",
+    "stIdVersion": "R-HSA-1168459.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Lyn activates ERK"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1168768,
+    "displayName": "JAK2 binds STAT1/3",
+    "stId": "R-HSA-1168768",
+    "stIdVersion": "R-HSA-1168768.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "JAK2 binds STAT1/3"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1168767,
+    "displayName": "JAK2 phosphorylates STAT1/STAT3",
+    "stId": "R-HSA-1168767",
+    "stIdVersion": "R-HSA-1168767.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "JAK2 phosphorylates STAT1/STAT3"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1168809,
+    "displayName": "SOCS binding to GHR",
+    "stId": "R-HSA-1168809",
+    "stIdVersion": "R-HSA-1168809.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "SOCS binding to GHR"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1168813,
+    "displayName": "SOCS binding to JAK2",
+    "stId": "R-HSA-1168813",
+    "stIdVersion": "R-HSA-1168813.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "SOCS binding to JAK2"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1168445,
+    "displayName": "PTP1B binds the GH receptor complex",
+    "stId": "R-HSA-1168445",
+    "stIdVersion": "R-HSA-1168445.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PTP1B binds the GH receptor complex"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1169192,
+    "displayName": "PTP1B dephosphorylates GHR",
+    "stId": "R-HSA-1169192",
+    "stIdVersion": "R-HSA-1169192.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PTP1B dephosphorylates GHR"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1169210,
+    "displayName": "PTP1B dephosphorylates JAK2",
+    "stId": "R-HSA-1169210",
+    "stIdVersion": "R-HSA-1169210.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "PTP1B dephosphorylates JAK2"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1168839,
+    "displayName": "SHP1 (PTPN6) binds JAK2 in the receptor complex",
+    "stId": "R-HSA-1168839",
+    "stIdVersion": "R-HSA-1168839.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "SHP1 (PTPN6) binds JAK2 in the receptor complex"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1169188,
+    "displayName": "SHP1 (PTPN6) dephosphorylates JAK2",
+    "stId": "R-HSA-1169188",
+    "stIdVersion": "R-HSA-1169188.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "SHP1 (PTPN6) dephosphorylates JAK2"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1168777,
+    "displayName": "Metalloprotease cleavage of GHR",
+    "stId": "R-HSA-1168777",
+    "stIdVersion": "R-HSA-1168777.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Metalloprotease cleavage of GHR"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1362485,
+    "displayName": "GHBP binds GH",
+    "stId": "R-HSA-1362485",
+    "stIdVersion": "R-HSA-1362485.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GHBP binds GH"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1362465,
+    "displayName": "GHBP binds GHR",
+    "stId": "R-HSA-1362465",
+    "stIdVersion": "R-HSA-1362465.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GHBP binds GHR"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1168789,
+    "displayName": "GHR internalization",
+    "stId": "R-HSA-1168789",
+    "stIdVersion": "R-HSA-1168789.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "GHR internalization"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     982772
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

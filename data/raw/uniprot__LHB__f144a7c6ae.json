@@ -1,0 +1,83 @@
+{
+ "source": "uniprot",
+ "query": "LHB",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:LHB) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:21:35+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P01229",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Lutropin subunit beta"
+      },
+      "shortNames": [
+       {
+        "value": "Lutropin beta chain"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Luteinizing hormone subunit beta"
+       },
+       "shortNames": [
+        {
+         "value": "LH-B"
+        },
+        {
+         "value": "LSH-B"
+        },
+        {
+         "value": "LSH-beta"
+        }
+       ]
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "LHB"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Promotes spermatogenesis and ovulation by stimulating the testes and ovaries to synthesize steroids"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "3972",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00000378AB"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,1454 @@
+{
+ "source": "quickgo_terms",
+ "query": "O15243_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0000139,GO:0005102,GO:0005515,GO:0005768,GO:0005794,GO:0005829,GO:0010008,GO:0034424,GO:0042147,GO:0046426,GO:0060400,GO:1903749,GO:2000009",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:42:21+00:00",
+ "response": {
+  "numberOfHits": 13,
+  "results": [
+   {
+    "id": "GO:0042147",
+    "isObsolete": false,
+    "name": "retrograde transport, endosome to Golgi",
+    "definition": {
+     "text": "The directed movement of membrane-bounded vesicles from endosomes back to the trans-Golgi network where they are recycled for further rounds of transport.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "10873832"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "16936697"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "retrograde (endosome to Golgi) transport",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0071955",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034498",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034499",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030904",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:1905280",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1905279",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1905281",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005794",
+    "isObsolete": false,
+    "name": "Golgi apparatus",
+    "definition": {
+     "text": "A membrane-bound cytoplasmic organelle of the endomembrane system that further processes the core oligosaccharides (e.g. N-glycans) added to proteins in the endoplasmic reticulum and packages them into membrane-bound vesicles. The Golgi apparatus operates at the intersection of the secretory, lysosomal, and endocytic pathways.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "9695800"
+      }
+     ]
+    },
+    "comment": "Note that the Golgi apparatus can be located in various places in the cytoplasm. In plants and lower animal cells, the Golgi apparatus exists as many copies of discrete stacks dispersed throughout the cytoplasm, while the Golgi apparatus of interphase mammalian cells is a juxtanuclear, often pericentriolar reticulum, where the discrete Golgi stacks are stitched together to form a compact and interconnected ribbon, sometimes called the Golgi ribbon.",
+    "synonyms": [
+     {
+      "name": "Golgi",
+      "type": "broad"
+     },
+     {
+      "name": "Golgi complex",
+      "type": "exact"
+     },
+     {
+      "name": "Golgi ribbon",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0036063",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030126",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005796",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000938",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0017119",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034066",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032468",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0098791",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0150051",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034044",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990072",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000139",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990071",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070931",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030130",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005801",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070916",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005768",
+    "isObsolete": false,
+    "name": "endosome",
+    "definition": {
+     "text": "A vacuole to which materials ingested by endocytosis are delivered.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "19696797"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0033263",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036019",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098830",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055037",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098845",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002499",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0160313",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031904",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044352",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097422",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097443",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010008",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036452",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990071",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005829",
+    "isObsolete": false,
+    "name": "cytosol",
+    "definition": {
+     "text": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes."
+    },
+    "children": [
+     {
+      "id": "GO:7770127",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005971",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009316",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990788",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0022626",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097342",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0106002",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0008074",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0170069",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072379",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990228",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097495",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1901950",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990201",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0008385",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990205",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000345",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006895",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990061",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061725",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042147",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990121",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005833",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016465",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005831",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043540",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0062092",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099522",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099524",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1904962",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099523",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090160",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005945",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990233",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090730",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990235",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034752",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090119",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:7770128",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990133",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002186",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002184",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990198",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043293",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990200",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0170081",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990202",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0160074",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990588",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005836",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005832",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099524",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033596",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045249",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016482",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099523",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000015",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045247",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061702",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005515",
+    "isObsolete": false,
+    "name": "protein binding",
+    "definition": {
+     "text": "Binding to a protein."
+    },
+    "synonyms": [
+     {
+      "name": "glycoprotein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "protein amino acid binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031072",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140081",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032092",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010313",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043393",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0031720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990405",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051087",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001965",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005516",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990935",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001848",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032091",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046980",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043394",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001846",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051959",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019955",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005102",
+    "isObsolete": false,
+    "name": "signaling receptor binding",
+    "definition": {
+     "text": "Binding to one or more specific sites on a receptor molecule, a macromolecule that undergoes combination with a hormone, neurotransmitter, drug or intracellular messenger to initiate a change in cell function.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "comment": "Where appropriate, also consider annotating to 'receptor agonist activity ; GO:0048018'.",
+    "synonyms": [
+     {
+      "name": "receptor-associated protein activity",
+      "type": "related"
+     },
+     {
+      "name": "receptor binding",
+      "type": "broad"
+     },
+     {
+      "name": "receptor ligand",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070851",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005115",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005159",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005117",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042975",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005113",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030215",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042615",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990890",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005121",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090722",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034190",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034987",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033130",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043125",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042608",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042287",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900121",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0048495",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035254",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990631",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005118",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030971",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039556",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005158",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039552",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005112",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033612",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050786",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042043",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042614",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097109",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046703",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030370",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042610",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030987",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038191",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005126",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005122",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005124",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990459",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046875",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001664",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017098",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050811",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990460",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900120",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0051427",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005176",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005178",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030156",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042609",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:2000009",
+    "isObsolete": false,
+    "name": "negative regulation of protein localization to cell surface",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of protein localization to the cell surface."
+    },
+    "synonyms": [
+     {
+      "name": "negative regulation of protein localisation at cell surface",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of protein localization at cell surface",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000139",
+    "isObsolete": false,
+    "name": "Golgi membrane",
+    "definition": {
+     "text": "The lipid bilayer surrounding any of the compartments of the Golgi apparatus."
+    },
+    "synonyms": [
+     {
+      "name": "Golgi apparatus membrane",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0048194",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0098547",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000136",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098548",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090498",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060400",
+    "isObsolete": false,
+    "name": "negative regulation of growth hormone receptor signaling pathway",
+    "definition": {
+     "text": "Any process that decreases the rate, frequency or extent of the growth hormone receptor signaling pathway. The growth hormone receptor signaling pathway is the series of molecular signals generated as a consequence of growth hormone receptor binding to its physiological ligand."
+    },
+    "synonyms": [
+     {
+      "name": "negative regulation of growth hormone receptor signalling pathway",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1903749",
+    "isObsolete": true,
+    "name": "obsolete positive regulation of protein localization to mitochondrion",
+    "definition": {
+     "text": "OBSOLETE. Any process that activates or increases the frequency, rate or extent of protein localization to mitochondrion.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000058"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "16857185"
+      }
+     ]
+    },
+    "comment": "The reason for obsoletion is that this term represents a phenotype and was added in error. Consider annotating to positive regulation of the specific process being regulated (e.g. positive regulation of mitophagy) or to a specific mitochondrial protein import pathway; if the underlying evidence is a readout or a phenotype, or the mechanism is unclear, consider removal rather than re-annotation.",
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0010008",
+    "isObsolete": false,
+    "name": "endosome membrane",
+    "definition": {
+     "text": "The lipid bilayer surrounding an endosome."
+    },
+    "synonyms": [
+     {
+      "name": "endosomal membrane",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0031901",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031902",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098954",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140622",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0160056",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010009",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036020",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098565",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0055038",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070676",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0031313",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000814",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034424",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990621",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000813",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098895",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000815",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0034424",
+    "isObsolete": false,
+    "name": "Vps55/Vps68 complex",
+    "definition": {
+     "text": "A membrane-associated protein complex that is required for a late stage of endosomal transport. In budding yeast, this complex consists of Vps55p and Vps68p proteins.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "18216282"
+      }
+     ]
+    },
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0046426",
+    "isObsolete": false,
+    "name": "negative regulation of receptor signaling pathway via JAK-STAT",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of a receptor signaling pathway via JAK-STAT."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of JAK-STAT cascade",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of JAK-STAT cascade",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of JAK-STAT cascade",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of JAK-STAT cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of STAT protein import into nucleus",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of STAT protein nuclear translocation",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0042532",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

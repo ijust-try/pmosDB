@@ -1,0 +1,168 @@
+{
+ "source": "uniprot",
+ "query": "PRL",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:PRL) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:43:13+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P01236",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Prolactin"
+      },
+      "shortNames": [
+       {
+        "value": "PRL"
+       }
+      ]
+     },
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "PRL"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Prolactin acts primarily on the mammary gland by promoting lactation"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "5617",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000001C13"
+    }
+   },
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P40424",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Pre-B-cell leukemia transcription factor 1"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Homeobox protein PBX1"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Homeobox protein PRL"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "PBX1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P41778"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12609849"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21746878"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7791786"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8327485"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9191052"
+         }
+        ],
+        "value": "Transcription factor which binds the DNA sequence 5'-TGATTGAT-3' as part of a heterodimer with HOX proteins such as HOXA1, HOXA5, HOXB7 and HOXB8 (PubMed:9191052). Binds to the DNA sequence 5'-TGATTGAC-3' in complex with a nuclear factor which is not a class I HOX protein (PubMed:9191052). Has also been shown to bind the DNA sequence 5'-ATCAATCAA-3' cooperatively with HOXA5, HOXB7, HOXB8, HOXC8 and HOXD4 (PubMed:7791786, PubMed:8327485). Acts as a transcriptional activator of PF4 in complex with MEIS1 (PubMed:12609849). Also activates transcription of SOX3 in complex with MEIS1 by binding to the 5'-TGATTGAC-3' consensus sequence (By similarity). In natural killer cells, binds to the NFIL3 promoter and acts as a transcriptional activator of NFIL3, promoting natural killer cell development (By similarity). Plays a role in the cAMP-dependent regulation of CYP17A1 gene expression via its cAMP-regulatory sequence (CRS1) (By similarity). Probably in complex with MEIS2, involved in transcriptional regulation by KLF4 (PubMed:21746878). Acts as a transcriptional activator of NKX2-5 and a transcriptional repressor of CDKN2B (By similarity). Together with NKX2-5, required for spleen development through a mechanism that involves CDKN2B repression (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P41778"
+         }
+        ],
+        "value": "As part of a PDX1:PBX1b:MEIS2B complex in pancreatic acinar cells, is involved in the transcriptional activation of the ELA1 enhancer; the complex binds to the enhancer B element and cooperates with the transcription factor 1 complex (PTF1) bound to the enhancer A element"
+       }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "Isoform PBX1b"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "5087",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00000213E1"
+    }
+   }
+  ]
+ }
+}

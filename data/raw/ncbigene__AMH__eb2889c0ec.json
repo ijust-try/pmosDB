@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "AMH",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "268",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:20:34+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "268"
+   ],
+   "268": {
+    "uid": "268",
+    "name": "AMH",
+    "description": "anti-Mullerian hormone",
+    "status": "",
+    "currentid": "",
+    "chromosome": "19",
+    "geneticsource": "genomic",
+    "maplocation": "19p13.3",
+    "otheraliases": "MIF, MIS",
+    "otherdesignations": "anti-Muellerian hormone|Mullerian inhibiting factor|Mullerian inhibiting substance|muellerian-inhibiting factor|muellerian-inhibiting substance",
+    "nomenclaturesymbol": "AMH",
+    "nomenclaturename": "anti-Mullerian hormone",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "600957"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "19",
+      "chraccver": "NC_000019.10",
+      "chrstart": 2249322,
+      "chrstop": 2252072,
+      "exoncount": 5
+     }
+    ],
+    "geneweight": 22715,
+    "summary": "This gene encodes a secreted ligand of the TGF-beta (transforming growth factor-beta) superfamily of proteins. Ligands of this family bind various TGF-beta receptors leading to recruitment and activation of SMAD family transcription factors that regulate gene expression. The encoded preproprotein is proteolytically processed to generate N- and C-terminal cleavage products that homodimerize and associate to form a biologically active noncovalent complex. This complex binds to the anti-Mullerian hormone receptor type 2 and causes the regression of Mullerian ducts in the male embryo that would otherwise differentiate into the uterus and fallopian tubes. This protein also plays a role in Leydig cell differentiation and function and follicular development in adult females. Mutations in this gene result in persistent Mullerian duct syndrome. [provided by RefSeq, Jul 2016]",
+    "chrsort": "19",
+    "chrstart": 2249322,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000019.10",
+      "chrstart": 2249322,
+      "chrstop": 2252072
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060943.1",
+      "chrstart": 2222965,
+      "chrstop": 2225715
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000019.10",
+      "chrstart": 2249322,
+      "chrstop": 2252072
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060943.1",
+      "chrstart": 2222965,
+      "chrstop": 2225715
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000019.10",
+      "chrstart": 2249322,
+      "chrstop": 2252072
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060943.1",
+      "chrstart": 2222965,
+      "chrstop": 2225715
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000019.10",
+      "chrstart": 2249322,
+      "chrstop": 2252072
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060943.1",
+      "chrstart": 2222965,
+      "chrstop": 2225715
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000019.10",
+      "chrstart": 2249322,
+      "chrstop": 2252072
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060943.1",
+      "chrstart": 2222965,
+      "chrstop": 2225715
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000019.10",
+      "chrstart": 2249322,
+      "chrstop": 2252072
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000019.9",
+      "chrstart": 2249321,
+      "chrstop": 2252071
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000019.9",
+      "chrstart": 2249321,
+      "chrstop": 2252071
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000019.9",
+      "chrstart": 2249112,
+      "chrstop": 2252071
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000151.1",
+      "chrstart": 2020228,
+      "chrstop": 2023187
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018930.2",
+      "chrstart": 2248615,
+      "chrstop": 2251574
+     }
+    ]
+   }
+  }
+ }
+}

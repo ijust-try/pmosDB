@@ -1,0 +1,785 @@
+{
+ "source": "quickgo_terms",
+ "query": "Q8TEH3_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0005085,GO:0005829,GO:0006897,GO:0030136,GO:0030665,GO:0032266,GO:0032456,GO:0032483,GO:0042734,GO:1901981",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:38:04+00:00",
+ "response": {
+  "numberOfHits": 10,
+  "results": [
+   {
+    "id": "GO:0030665",
+    "isObsolete": false,
+    "name": "clathrin-coated vesicle membrane",
+    "definition": {
+     "text": "The lipid bilayer surrounding a clathrin-coated vesicle."
+    },
+    "synonyms": [
+     {
+      "name": "clathrin coated vesicle membrane",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030669",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070083",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0012510",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030125",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060203",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060201",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061202",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030136",
+    "isObsolete": false,
+    "name": "clathrin-coated vesicle",
+    "definition": {
+     "text": "A vesicle with a coat formed of clathrin connected to the membrane via one of the clathrin adaptor complexes.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "11252894"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0060198",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030140",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045334",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033093",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030665",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042734",
+    "isObsolete": false,
+    "name": "presynaptic membrane",
+    "definition": {
+     "text": "A specialized area of membrane of the axon terminal that faces the plasma membrane of the neuron or muscle fiber with which the axon terminal establishes a synaptic junction; many synaptic junctions exhibit structural presynaptic characteristics, such as conical, electron-dense internal protrusions, that distinguish it from the remainder of the axon plasma membrane.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "pre-synaptic membrane",
+      "type": "exact"
+     },
+     {
+      "name": "presynaptic plasma membrane",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0099508",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099507",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0098835",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048787",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036062",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098888",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005829",
+    "isObsolete": false,
+    "name": "cytosol",
+    "definition": {
+     "text": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes."
+    },
+    "children": [
+     {
+      "id": "GO:7770127",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005971",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009316",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990788",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0022626",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097342",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0106002",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0008074",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0170069",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072379",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990228",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097495",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1901950",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990201",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0008385",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990205",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000345",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006895",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990061",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061725",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042147",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990121",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005833",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016465",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005831",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043540",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0062092",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099522",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099524",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1904962",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099523",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090160",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005945",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990233",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090730",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990235",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034752",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090119",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:7770128",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990133",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002186",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002184",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990198",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043293",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990200",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0170081",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990202",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0160074",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990588",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005836",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005832",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099524",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033596",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045249",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016482",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099523",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000015",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045247",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061702",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005085",
+    "isObsolete": false,
+    "name": "guanyl-nucleotide exchange factor activity",
+    "definition": {
+     "text": "Stimulates the exchange of GDP to GTP on a signaling GTPase, changing its conformation to its active form. Guanine nucleotide exchange factors (GEFs) act by stimulating the release of guanosine diphosphate (GDP) to allow binding of guanosine triphosphate (GTP), which is more abundant in the cell under normal cellular physiological conditions.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "23303910"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "27218782"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "ARF guanyl-nucleotide exchange factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "cAMP-dependent guanyl-nucleotide exchange factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "GDP-dissociation stimulator activity",
+      "type": "exact"
+     },
+     {
+      "name": "GDS",
+      "type": "exact"
+     },
+     {
+      "name": "GEF",
+      "type": "exact"
+     },
+     {
+      "name": "GNRP",
+      "type": "narrow"
+     },
+     {
+      "name": "guanyl-nucleotide release factor activity",
+      "type": "exact"
+     },
+     {
+      "name": "guanyl-nucleotide releasing factor",
+      "type": "exact"
+     },
+     {
+      "name": "Rab guanyl-nucleotide exchange factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "Rac guanyl-nucleotide exchange factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "Ral guanyl-nucleotide exchange factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "Ran guanyl-nucleotide exchange factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "Rap guanyl-nucleotide exchange factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "Ras guanyl-nucleotide exchange factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "RhoGEF",
+      "type": "exact"
+     },
+     {
+      "name": "Rho guanine nucleotide exchange factor",
+      "type": "exact"
+     },
+     {
+      "name": "Rho guanyl-nucleotide exchange factor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "Sar guanyl-nucleotide exchange factor activity",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1905098",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0032045",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006897",
+    "isObsolete": false,
+    "name": "endocytosis",
+    "definition": {
+     "text": "A cellular process in which cells take up external materials or membrane constituents by the invagination of a part of the plasma membrane to form a new membrane-bounded vesicle.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      },
+      {
+       "dbCode": "ISBN",
+       "dbId": "0716731363"
+      },
+      {
+       "dbCode": "Wikipedia",
+       "dbId": "Endocytosis"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "endocytic import into cell",
+      "type": "exact"
+     },
+     {
+      "name": "nonselective vesicle endocytosis",
+      "type": "related"
+     },
+     {
+      "name": "plasma membrane invagination",
+      "type": "narrow"
+     },
+     {
+      "name": "vesicle endocytosis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990252",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0072584",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035037",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140239",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140238",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006898",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770084",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006907",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990964",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:7770083",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006909",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070086",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098843",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0045806",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0099051",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045807",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0120207",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030100",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1990528",
+      "relation": "capable_of_part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1901981",
+    "isObsolete": false,
+    "name": "phosphatidylinositol phosphate binding",
+    "definition": {
+     "text": "Binding to phosphatidylinositol phosphate.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "23445487"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0070273",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080025",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032266",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010314",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005547",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005546",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0032483",
+    "isObsolete": false,
+    "name": "regulation of Rab protein signal transduction",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of Rab protein signal transduction."
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0032456",
+    "isObsolete": false,
+    "name": "endocytic recycling",
+    "definition": {
+     "text": "The directed movement of membrane-bounded vesicles from endosomes back to the plasma membrane, a trafficking pathway that promotes the recycling of internalized transmembrane proteins.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "16473635"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "23563491"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "retrograde transport, endosome to plasma membrane",
+      "type": "exact"
+     },
+     {
+      "name": "retrograde transport of endocytic vesicles",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2001135",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0030904",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:2001136",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1990745",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0032458",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032457",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099639",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055037",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:2001137",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0032266",
+    "isObsolete": false,
+    "name": "phosphatidylinositol-3-phosphate binding",
+    "definition": {
+     "text": "Binding to phosphatidylinositol-3-phosphate, a derivative of phosphatidylinositol in which the inositol ring is phosphorylated at the 3' position.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "10209156"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "11395417"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "11557775"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "phosphatidylinositol 3-phosphate binding",
+      "type": "exact"
+     },
+     {
+      "name": "PtdIns-3-P binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990455",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

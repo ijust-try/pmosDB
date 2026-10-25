@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "Dihydrotestosterone",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "Dihydrotestosterone AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-12T09:43:04+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "471",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "31792459",
+    "39871124",
+    "35787106"
+   ],
+   "translationset": [
+    {
+     "from": "Dihydrotestosterone",
+     "to": "\"dihydrotestosterone\"[Supplementary Concept] OR \"dihydrotestosterone\"[All Fields] OR \"dihydrotestosterone\"[MeSH Terms] OR \"dihydrotestosterones\"[All Fields]"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"dihydrotestosterone\"[Supplementary Concept] OR \"dihydrotestosterone\"[All Fields] OR \"dihydrotestosterone\"[MeSH Terms] OR \"dihydrotestosterones\"[All Fields]) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

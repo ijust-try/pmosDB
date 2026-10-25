@@ -1,0 +1,779 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-3769402",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-3769402",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:42:29+00:00",
+ "response": {
+  "dbId": 3769402,
+  "displayName": "Deactivation of the beta-catenin transactivating complex",
+  "stId": "R-HSA-3769402",
+  "stIdVersion": "R-HSA-3769402.5",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Deactivation of the beta-catenin transactivating complex"
+  ],
+  "releaseDate": "2014-03-12",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12828944,
+    "displayName": "BioModels Database:BIOMD0000000653",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000653",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000653",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828946,
+    "displayName": "BioModels Database:BIOMD0000000656",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000656",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000656",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828986,
+    "displayName": "BioModels Database:BIOMD0000000149",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000149",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000149",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828948,
+    "displayName": "BioModels Database:BIOMD0000000648",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000648",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000648",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828952,
+    "displayName": "BioModels Database:BIOMD0000000655",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000655",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000655",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828954,
+    "displayName": "BioModels Database:BIOMD0000000652",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000652",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000652",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828956,
+    "displayName": "BioModels Database:BIOMD0000000654",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000654",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000654",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 3772347,
+    "displayName": "ICAT inhibits beta-catenin binding to Tcf/Lef-family transcription factors and the general coactivator p300 using independent structural modules",
+    "title": "ICAT inhibits beta-catenin binding to Tcf/Lef-family transcription factors and the general coactivator p300 using independent structural modules",
+    "journal": "Mol. Cell",
+    "pages": "573-84",
+    "pubMedIdentifier": 12408825,
+    "volume": 10,
+    "year": 2002,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12408825",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3772370,
+    "displayName": "The crystal structure of the beta-catenin/ICAT complex reveals the inhibitory mechanism of ICAT",
+    "title": "The crystal structure of the beta-catenin/ICAT complex reveals the inhibitory mechanism of ICAT",
+    "journal": "Mol. Cell",
+    "pages": "563-71",
+    "pubMedIdentifier": 12408824,
+    "volume": 10,
+    "year": 2002,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12408824",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3361761,
+    "displayName": "The APC tumor suppressor binds to C-terminal binding protein to divert nuclear beta-catenin from TCF",
+    "title": "The APC tumor suppressor binds to C-terminal binding protein to divert nuclear beta-catenin from TCF",
+    "journal": "Dev. Cell",
+    "pages": "677-85",
+    "pubMedIdentifier": 15525529,
+    "volume": 7,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15525529",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3322328,
+    "displayName": "The APC tumor suppressor counteracts beta-catenin activation and H3K4 methylation at Wnt target genes",
+    "title": "The APC tumor suppressor counteracts beta-catenin activation and H3K4 methylation at Wnt target genes",
+    "journal": "Genes Dev.",
+    "pages": "586-600",
+    "pubMedIdentifier": 16510874,
+    "volume": 20,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16510874",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3772348,
+    "displayName": "Inhibition of Wnt signaling by ICAT, a novel beta-catenin-interacting protein",
+    "title": "Inhibition of Wnt signaling by ICAT, a novel beta-catenin-interacting protein",
+    "journal": "Genes Dev.",
+    "pages": "1741-9",
+    "pubMedIdentifier": 10898789,
+    "volume": 14,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10898789",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3769222,
+    "displayName": "Chibby, a nuclear beta-catenin-associated antagonist of the Wnt/Wingless pathway",
+    "title": "Chibby, a nuclear beta-catenin-associated antagonist of the Wnt/Wingless pathway",
+    "journal": "Nature",
+    "pages": "905-9",
+    "pubMedIdentifier": 12712206,
+    "volume": 422,
+    "year": 2003,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12712206",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3769219,
+    "displayName": "Chibby cooperates with 14-3-3 to regulate beta-catenin subcellular distribution and signaling activity",
+    "title": "Chibby cooperates with 14-3-3 to regulate beta-catenin subcellular distribution and signaling activity",
+    "journal": "J. Cell Biol.",
+    "pages": "1141-54",
+    "pubMedIdentifier": 18573912,
+    "volume": 181,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18573912",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3451150,
+    "displayName": "Pontin52 and reptin52 function as antagonistic regulators of beta-catenin signalling activity",
+    "title": "Pontin52 and reptin52 function as antagonistic regulators of beta-catenin signalling activity",
+    "journal": "EMBO J.",
+    "pages": "6121-30",
+    "pubMedIdentifier": 11080158,
+    "volume": 19,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11080158",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3772362,
+    "displayName": "Silencing mediator for retinoid and thyroid hormone receptor and nuclear receptor corepressor attenuate transcriptional activation by the beta-catenin-TCF4 complex",
+    "title": "Silencing mediator for retinoid and thyroid hormone receptor and nuclear receptor corepressor attenuate transcriptional activation by the beta-catenin-TCF4 complex",
+    "journal": "J. Biol. Chem.",
+    "pages": "25988-99",
+    "pubMedIdentifier": 18632669,
+    "volume": 283,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18632669",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3772375,
+    "displayName": "The tumor suppressor Fhit acts as a repressor of beta-catenin transcriptional activity",
+    "title": "The tumor suppressor Fhit acts as a repressor of beta-catenin transcriptional activity",
+    "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+    "pages": "20344-9",
+    "pubMedIdentifier": 18077326,
+    "volume": 104,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18077326",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5323435,
+    "displayName": "Inactivation of Chibby affects function of motile airway cilia",
+    "title": "Inactivation of Chibby affects function of motile airway cilia",
+    "journal": "J. Cell Biol.",
+    "pages": "225-33",
+    "pubMedIdentifier": 19364920,
+    "volume": 185,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19364920",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10107002,
+    "displayName": "Deactivation of the beta-catenin transactivating complex",
+    "stId": "R-MMU-3769402",
+    "stIdVersion": "R-MMU-3769402.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deactivation of the beta-catenin transactivating complex"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     3769402
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10230774,
+    "displayName": "Deactivation of the beta-catenin transactivating complex",
+    "stId": "R-RNO-3769402",
+    "stIdVersion": "R-RNO-3769402.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deactivation of the beta-catenin transactivating complex"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     3769402
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10337501,
+    "displayName": "Deactivation of the beta-catenin transactivating complex",
+    "stId": "R-CFA-3769402",
+    "stIdVersion": "R-CFA-3769402.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deactivation of the beta-catenin transactivating complex"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     3769402
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10452059,
+    "displayName": "Deactivation of the beta-catenin transactivating complex",
+    "stId": "R-BTA-3769402",
+    "stIdVersion": "R-BTA-3769402.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deactivation of the beta-catenin transactivating complex"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     3769402
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10565003,
+    "displayName": "Deactivation of the beta-catenin transactivating complex",
+    "stId": "R-SSC-3769402",
+    "stIdVersion": "R-SSC-3769402.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deactivation of the beta-catenin transactivating complex"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     3769402
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10656964,
+    "displayName": "Deactivation of the beta-catenin transactivating complex",
+    "stId": "R-DRE-3769402",
+    "stIdVersion": "R-DRE-3769402.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deactivation of the beta-catenin transactivating complex"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     3769402
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10738008,
+    "displayName": "Deactivation of the beta-catenin transactivating complex",
+    "stId": "R-XTR-3769402",
+    "stIdVersion": "R-XTR-3769402.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deactivation of the beta-catenin transactivating complex"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     3769402
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10835238,
+    "displayName": "Deactivation of the beta-catenin transactivating complex",
+    "stId": "R-GGA-3769402",
+    "stIdVersion": "R-GGA-3769402.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deactivation of the beta-catenin transactivating complex"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     3769402
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10920459,
+    "displayName": "Deactivation of the beta-catenin transactivating complex",
+    "stId": "R-DME-3769402",
+    "stIdVersion": "R-DME-3769402.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deactivation of the beta-catenin transactivating complex"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     3769402
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11003249,
+    "displayName": "Deactivation of the beta-catenin transactivating complex",
+    "stId": "R-CEL-3769402",
+    "stIdVersion": "R-CEL-3769402.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deactivation of the beta-catenin transactivating complex"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     3769402
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 3772457,
+    "displayName": "The mechanisms involved in downregulation of TCF-dependent t...",
+    "text": "The mechanisms involved in downregulation of TCF-dependent transcription are not yet very well understood. beta-catenin is known to recruit a number of transcriptional repressors, including Reptin, SMRT and NCoR, to the TCF/LEF complex, allowing the transition from activation to repression (Bauer et al, 2000; Weiske et al, 2007; Song and Gelmann, 2008).  CTNNBIP1 (also known as ICAT) and Chibby are inhibitors of TCF-dependent signaling that function by binding directly to beta-catenin and preventing interactions with critical components of the transactivation machinery (Takemaru et al, 2003; Li et al, 2008; Tago et al, 2000; Graham et al, 2002; Daniels and Weiss, 2002).  Chibby additionally promotes the nuclear export of beta-catenin in conjunction with 14-3-3/YWHAZ proteins (Takemura et al, 2003; Li et al, 2008).  A couple of recent studies have also suggested a role for nuclear APC in the disassembly of the beta-catenin activation complex (Hamada and Bienz, 2004; Sierra et al, 2006). It is worth noting that while some of the players involved in the disassembly of the beta-catenin transactivating complex are beginning to be worked out in vitro, the significance of their role in vivo is not yet fully understood, and some can be knocked out with little effect on endogenous WNT signaling (see for instance Voronina et al, 2009).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/r-hsa-3769402.1",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2015-03-23",
+  "hasEvent": [
+   {
+    "dbId": 3322431,
+    "displayName": "XIAP binds TLE",
+    "stId": "R-HSA-3322431",
+    "stIdVersion": "R-HSA-3322431.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "XIAP binds TLE"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3769402
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3322429,
+    "displayName": "XIAP monoubiquinates TLE",
+    "stId": "R-HSA-3322429",
+    "stIdVersion": "R-HSA-3322429.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "XIAP monoubiquinates TLE"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3769402
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3322434,
+    "displayName": "XIAP dissociates from ub-TLE",
+    "stId": "R-HSA-3322434",
+    "stIdVersion": "R-HSA-3322434.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "XIAP dissociates from ub-TLE"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3769402
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3364042,
+    "displayName": "APC promotes disassembly of beta-catenin transactivation complex",
+    "stId": "R-HSA-3364042",
+    "stIdVersion": "R-HSA-3364042.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "APC promotes disassembly of beta-catenin transactivation complex"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3769402
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 3361751,
+    "displayName": "beta-catenin is replaced by repression complexes at the promoter",
+    "stId": "R-HSA-3361751",
+    "stIdVersion": "R-HSA-3361751.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "beta-catenin is replaced by repression complexes at the promoter"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3769402
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 3769383,
+    "displayName": "CBY1 binds beta-catenin",
+    "stId": "R-HSA-3769383",
+    "stIdVersion": "R-HSA-3769383.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CBY1 binds beta-catenin"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3769402
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3769394,
+    "displayName": "AKT phosphorylates CBY1",
+    "stId": "R-HSA-3769394",
+    "stIdVersion": "R-HSA-3769394.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AKT phosphorylates CBY1"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3769402
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3769393,
+    "displayName": "YWHAZ binds p-CBY:CTNNB1",
+    "stId": "R-HSA-3769393",
+    "stIdVersion": "R-HSA-3769393.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "YWHAZ binds p-CBY:CTNNB1"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3769402
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3769391,
+    "displayName": "XPO1 binds the beta-catenin:CBY complex",
+    "stId": "R-HSA-3769391",
+    "stIdVersion": "R-HSA-3769391.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "XPO1 binds the beta-catenin:CBY complex"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3769402
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3769392,
+    "displayName": "YWHAZ and XPO1 mediate the nuclear export of beta-catenin",
+    "stId": "R-HSA-3769392",
+    "stIdVersion": "R-HSA-3769392.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "YWHAZ and XPO1 mediate the nuclear export of beta-catenin"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3769402
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 3772430,
+    "displayName": "CTNNBIP1 binds beta-catenin",
+    "stId": "R-HSA-3772430",
+    "stIdVersion": "R-HSA-3772430.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CTNNBIP1 binds beta-catenin"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3769402
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5368580,
+    "displayName": "CHD8 binds beta-catenin to negatively regulate WNT-dependent gene expression",
+    "stId": "R-HSA-5368580",
+    "stIdVersion": "R-HSA-5368580.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CHD8 binds beta-catenin to negatively regulate WNT-dependent gene expression"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3769402
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5626938,
+    "displayName": "Beta-catenin binds SOX proteins",
+    "stId": "R-HSA-5626938",
+    "stIdVersion": "R-HSA-5626938.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Beta-catenin binds SOX proteins"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3769402
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5665608,
+    "displayName": "TCF:Beta-catenin binds SOX proteins",
+    "stId": "R-HSA-5665608",
+    "stIdVersion": "R-HSA-5665608.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TCF:Beta-catenin binds SOX proteins"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3769402
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

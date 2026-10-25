@@ -1,0 +1,1689 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-5693565",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-5693565",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:37:25+00:00",
+ "response": {
+  "dbId": 5693565,
+  "displayName": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+  "stId": "R-HSA-5693565",
+  "stIdVersion": "R-HSA-5693565.7",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+  ],
+  "releaseDate": "2015-09-22",
+  "releaseStatus": "UPDATED",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12829102,
+    "displayName": "BioModels Database:BIOMD0000000188",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000188",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000188",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12828960,
+    "displayName": "BioModels Database:BIOMD0000000940",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000940",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000940",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12829104,
+    "displayName": "BioModels Database:BIOMD0000000634",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000634",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000634",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 7660,
+    "displayName": "nucleoplasm",
+    "accession": "0005654",
+    "databaseName": "GO",
+    "definition": "That part of the nuclear content other than the chromosomes or the nucleolus.",
+    "name": "nucleoplasm",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "figure": [
+   {
+    "dbId": 111406,
+    "displayName": "/figures/RepairFoci.jpg",
+    "url": "/figures/RepairFoci.jpg",
+    "className": "Figure",
+    "schemaClass": "Figure"
+   }
+  ],
+  "precedingEvent": [
+   {
+    "dbId": 5693548,
+    "displayName": "Sensing of DNA Double Strand Breaks",
+    "stId": "R-HSA-5693548",
+    "stIdVersion": "R-HSA-5693548.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Sensing of DNA Double Strand Breaks"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "followingEvent": [
+     5693565
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2021-09-15",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 5693540,
+    "displayName": "MRN activates ATM",
+    "stId": "R-HSA-5693540",
+    "stIdVersion": "R-HSA-5693540.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "MRN activates ATM"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "followingEvent": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 5687895,
+    "displayName": "Activation of the cellular DNA damage response in the absence of DNA lesions",
+    "title": "Activation of the cellular DNA damage response in the absence of DNA lesions",
+    "journal": "Science",
+    "pages": "1507-10",
+    "pubMedIdentifier": 18483401,
+    "volume": 320,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18483401",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5682158,
+    "displayName": "ATM-dependent phosphorylation of nibrin in response to radiation exposure",
+    "title": "ATM-dependent phosphorylation of nibrin in response to radiation exposure",
+    "journal": "Nat. Genet.",
+    "pages": "115-9",
+    "pubMedIdentifier": 10802669,
+    "volume": 25,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10802669",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 83590,
+    "displayName": "DNA double-stranded breaks induce histone H2AX phosphorylation on serine 139.",
+    "title": "DNA double-stranded breaks induce histone H2AX phosphorylation on serine 139.",
+    "journal": "J Biol Chem",
+    "pages": "5858-68",
+    "pubMedIdentifier": 9488723,
+    "volume": 273,
+    "year": 1998,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9488723",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 914123,
+    "displayName": "ATM phosphorylates histone H2AX in response to DNA double-strand breaks",
+    "title": "ATM phosphorylates histone H2AX in response to DNA double-strand breaks",
+    "journal": "J Biol Chem",
+    "pages": "42462-7",
+    "pubMedIdentifier": 11571274,
+    "volume": 276,
+    "year": 2001,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11571274",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5682479,
+    "displayName": "Mdc1 couples DNA double-strand break recognition by Nbs1 with its H2AX-dependent chromatin retention",
+    "title": "Mdc1 couples DNA double-strand break recognition by Nbs1 with its H2AX-dependent chromatin retention",
+    "journal": "EMBO J.",
+    "pages": "2674-83",
+    "pubMedIdentifier": 15201865,
+    "volume": 23,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15201865",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5682186,
+    "displayName": "MDC1 directly binds phosphorylated histone H2AX to regulate cellular responses to DNA double-strand breaks",
+    "title": "MDC1 directly binds phosphorylated histone H2AX to regulate cellular responses to DNA double-strand breaks",
+    "journal": "Cell",
+    "pages": "1213-26",
+    "pubMedIdentifier": 16377563,
+    "volume": 123,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16377563",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5682526,
+    "displayName": "Structural mechanism of the phosphorylation-dependent dimerization of the MDC1 forkhead-associated domain",
+    "title": "Structural mechanism of the phosphorylation-dependent dimerization of the MDC1 forkhead-associated domain",
+    "journal": "Nucleic Acids Res.",
+    "pages": "3898-912",
+    "pubMedIdentifier": 22234877,
+    "volume": 40,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22234877",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5683931,
+    "displayName": "WSTF regulates the H2A.X DNA damage response via a novel tyrosine kinase activity",
+    "title": "WSTF regulates the H2A.X DNA damage response via a novel tyrosine kinase activity",
+    "journal": "Nature",
+    "pages": "57-62",
+    "pubMedIdentifier": 19092802,
+    "volume": 457,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19092802",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5683957,
+    "displayName": "Tyrosine dephosphorylation of H2AX modulates apoptosis and survival decisions",
+    "title": "Tyrosine dephosphorylation of H2AX modulates apoptosis and survival decisions",
+    "journal": "Nature",
+    "pages": "591-6",
+    "pubMedIdentifier": 19234442,
+    "volume": 458,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19234442",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5682555,
+    "displayName": "Orchestration of the DNA-damage response by the RNF8 ubiquitin ligase",
+    "title": "Orchestration of the DNA-damage response by the RNF8 ubiquitin ligase",
+    "journal": "Science",
+    "pages": "1637-40",
+    "pubMedIdentifier": 18006705,
+    "volume": 318,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18006705",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5682587,
+    "displayName": "HERC2 coordinates ubiquitin-dependent assembly of DNA repair factors on damaged chromosomes",
+    "title": "HERC2 coordinates ubiquitin-dependent assembly of DNA repair factors on damaged chromosomes",
+    "journal": "Nat. Cell Biol.",
+    "pages": "80-6; sup pp 1-12",
+    "pubMedIdentifier": 20023648,
+    "volume": 12,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20023648",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5682622,
+    "displayName": "Molecular insights into the function of RING finger (RNF)-containing proteins hRNF8 and hRNF168 in Ubc13/Mms2-dependent ubiquitylation",
+    "title": "Molecular insights into the function of RING finger (RNF)-containing proteins hRNF8 and hRNF168 in Ubc13/Mms2-dependent ubiquitylation",
+    "journal": "J. Biol. Chem.",
+    "pages": "23900-10",
+    "pubMedIdentifier": 22589545,
+    "volume": 287,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22589545",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5682944,
+    "displayName": "RNF8 ubiquitylates histones at DNA double-strand breaks and promotes assembly of repair proteins",
+    "title": "RNF8 ubiquitylates histones at DNA double-strand breaks and promotes assembly of repair proteins",
+    "journal": "Cell",
+    "pages": "887-900",
+    "pubMedIdentifier": 18001824,
+    "volume": 131,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18001824",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5682930,
+    "displayName": "The RIDDLE syndrome protein mediates a ubiquitin-dependent signaling cascade at sites of DNA damage",
+    "title": "The RIDDLE syndrome protein mediates a ubiquitin-dependent signaling cascade at sites of DNA damage",
+    "journal": "Cell",
+    "pages": "420-34",
+    "pubMedIdentifier": 19203578,
+    "volume": 136,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19203578",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5682943,
+    "displayName": "RNF8 transduces the DNA-damage signal via histone ubiquitylation and checkpoint protein assembly",
+    "title": "RNF8 transduces the DNA-damage signal via histone ubiquitylation and checkpoint protein assembly",
+    "journal": "Cell",
+    "pages": "901-14",
+    "pubMedIdentifier": 18001825,
+    "volume": 131,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18001825",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5682918,
+    "displayName": "RNF168 binds and amplifies ubiquitin conjugates on damaged chromosomes to allow accumulation of repair proteins",
+    "title": "RNF168 binds and amplifies ubiquitin conjugates on damaged chromosomes to allow accumulation of repair proteins",
+    "journal": "Cell",
+    "pages": "435-46",
+    "pubMedIdentifier": 19203579,
+    "volume": 136,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19203579",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5682988,
+    "displayName": "RNF8- and RNF168-dependent degradation of KDM4A/JMJD2A triggers 53BP1 recruitment to DNA damage sites",
+    "title": "RNF8- and RNF168-dependent degradation of KDM4A/JMJD2A triggers 53BP1 recruitment to DNA damage sites",
+    "journal": "EMBO J.",
+    "pages": "1865-78",
+    "pubMedIdentifier": 22373579,
+    "volume": 31,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22373579",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5683382,
+    "displayName": "Abraxas and RAP80 form a BRCA1 protein complex required for the DNA damage response",
+    "title": "Abraxas and RAP80 form a BRCA1 protein complex required for the DNA damage response",
+    "journal": "Science",
+    "pages": "1194-8",
+    "pubMedIdentifier": 17525340,
+    "volume": 316,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17525340",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5683603,
+    "displayName": "Ubc13/Rnf8 ubiquitin ligases control foci formation of the Rap80/Abraxas/Brca1/Brcc36 complex in response to DNA damage",
+    "title": "Ubc13/Rnf8 ubiquitin ligases control foci formation of the Rap80/Abraxas/Brca1/Brcc36 complex in response to DNA damage",
+    "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+    "pages": "20759-63",
+    "pubMedIdentifier": 18077395,
+    "volume": 104,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18077395",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5682980,
+    "displayName": "MMSET regulates histone H4K20 methylation and 53BP1 accumulation at DNA damage sites",
+    "title": "MMSET regulates histone H4K20 methylation and 53BP1 accumulation at DNA damage sites",
+    "journal": "Nature",
+    "pages": "124-8",
+    "pubMedIdentifier": 21293379,
+    "volume": 470,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21293379",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 83579,
+    "displayName": "Requirement of ATM-dependent phosphorylation of brca1 in the DNA damage response to double-strand breaks",
+    "title": "Requirement of ATM-dependent phosphorylation of brca1 in the DNA damage response to double-strand breaks",
+    "journal": "Science",
+    "pages": "1162-6",
+    "pubMedIdentifier": 10550055,
+    "volume": 286,
+    "year": 1999,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10550055",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5683725,
+    "displayName": "Role for ATM in DNA damage-induced phosphorylation of BRCA1",
+    "title": "Role for ATM in DNA damage-induced phosphorylation of BRCA1",
+    "journal": "Cancer Res.",
+    "pages": "3299-304",
+    "pubMedIdentifier": 10866324,
+    "volume": 60,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10866324",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5659849,
+    "displayName": "DNA damage-induced BARD1 phosphorylation is critical for the inhibition of messenger RNA processing by BRCA1/BARD1 complex",
+    "title": "DNA damage-induced BARD1 phosphorylation is critical for the inhibition of messenger RNA processing by BRCA1/BARD1 complex",
+    "journal": "Cancer Res.",
+    "pages": "4561-5",
+    "pubMedIdentifier": 16651405,
+    "volume": 66,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16651405",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5683396,
+    "displayName": "Characterisation of the sites of DNA damage-induced 53BP1 phosphorylation catalysed by ATM and ATR",
+    "title": "Characterisation of the sites of DNA damage-induced 53BP1 phosphorylation catalysed by ATM and ATR",
+    "journal": "DNA Repair (Amst.)",
+    "pages": "1536-44",
+    "pubMedIdentifier": 17553757,
+    "volume": 6,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17553757",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 110405,
+    "displayName": "53BP1, a mediator of the DNA damage checkpoint.",
+    "title": "53BP1, a mediator of the DNA damage checkpoint.",
+    "journal": "Science",
+    "pages": "1435-8",
+    "pubMedIdentifier": 12364621,
+    "volume": 298,
+    "year": 2002,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12364621",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5683732,
+    "displayName": "NFBD1/MDC1, 53BP1 and BRCA1 have both redundant and unique roles in the ATM pathway",
+    "title": "NFBD1/MDC1, 53BP1 and BRCA1 have both redundant and unique roles in the ATM pathway",
+    "journal": "Cell Cycle",
+    "pages": "3584-94",
+    "pubMedIdentifier": 19001859,
+    "volume": 7,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19001859",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5683739,
+    "displayName": "Threonine 68 is required for radiation-induced phosphorylation and activation of Cds1",
+    "title": "Threonine 68 is required for radiation-induced phosphorylation and activation of Cds1",
+    "journal": "Nat. Cell Biol.",
+    "pages": "762-5",
+    "pubMedIdentifier": 11025670,
+    "volume": 2,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11025670",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5686687,
+    "displayName": "A cell cycle-dependent regulatory circuit composed of 53BP1-RIF1 and BRCA1-CtIP controls DNA repair pathway choice",
+    "title": "A cell cycle-dependent regulatory circuit composed of 53BP1-RIF1 and BRCA1-CtIP controls DNA repair pathway choice",
+    "journal": "Mol. Cell",
+    "pages": "872-83",
+    "pubMedIdentifier": 23333306,
+    "volume": 49,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23333306",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10449529,
+    "displayName": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+    "stId": "R-BTA-5693565",
+    "stIdVersion": "R-BTA-5693565.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     5693565
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11137242,
+    "displayName": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+    "stId": "R-PFA-5693565",
+    "stIdVersion": "R-PFA-5693565.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     5693565
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11116092,
+    "displayName": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+    "stId": "R-SCE-5693565",
+    "stIdVersion": "R-SCE-5693565.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     5693565
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11087664,
+    "displayName": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+    "stId": "R-SPO-5693565",
+    "stIdVersion": "R-SPO-5693565.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     5693565
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11058528,
+    "displayName": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+    "stId": "R-DDI-5693565",
+    "stIdVersion": "R-DDI-5693565.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     5693565
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11003477,
+    "displayName": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+    "stId": "R-CEL-5693565",
+    "stIdVersion": "R-CEL-5693565.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     5693565
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10920697,
+    "displayName": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+    "stId": "R-DME-5693565",
+    "stIdVersion": "R-DME-5693565.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     5693565
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10832826,
+    "displayName": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+    "stId": "R-GGA-5693565",
+    "stIdVersion": "R-GGA-5693565.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     5693565
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10738254,
+    "displayName": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+    "stId": "R-XTR-5693565",
+    "stIdVersion": "R-XTR-5693565.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     5693565
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10657248,
+    "displayName": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+    "stId": "R-DRE-5693565",
+    "stIdVersion": "R-DRE-5693565.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     5693565
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10562531,
+    "displayName": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+    "stId": "R-SSC-5693565",
+    "stIdVersion": "R-SSC-5693565.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     5693565
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10335051,
+    "displayName": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+    "stId": "R-CFA-5693565",
+    "stIdVersion": "R-CFA-5693565.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     5693565
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10228218,
+    "displayName": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+    "stId": "R-RNO-5693565",
+    "stIdVersion": "R-RNO-5693565.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     5693565
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10104444,
+    "displayName": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks",
+    "stId": "R-MMU-5693565",
+    "stIdVersion": "R-MMU-5693565.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+    ],
+    "releaseDate": "2026-06-17",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     5693565
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 5693619,
+    "displayName": "Activated ATM phosphorylates a number of proteins involved i...",
+    "text": "Activated ATM phosphorylates a number of proteins involved in the DNA damage checkpoint and DNA repair (Thompson and Schild 2002, Ciccia and Elledge 2010), thereby triggering and coordinating accumulation of DNA DSB repair proteins in nuclear foci known as ionizing radiation-induced foci (IRIF). While IRIFs include chromatin regions kilobases away from the actual DSB site, this Reactome pathway represents simplified foci and events that happen proximal to the DNA DSB ends. In general, proteins localizing to the nuclear foci in response to ATM signaling are cooperatively retained at the DNA DSB site, forming a positive feedback loop and amplifying DNA damage response (Soutoglou and Misteli 2008).<p>Activated ATM phosphorylates the NBN (NBS1) subunit of the MRN complex (MRE11A:RAD50:NBN) (Gatei et al. 2000), as well as the nucleosome histone H2AFX (H2AX) on serine residue S139, producing gamma-H2AFX (gamma-H2AX) containing nucleosomes (Rogakou et al. 1998, Burma et al. 2001). H2AFX is phosphorylated on tyrosine 142 (Y142) under basal conditions (Xiao et al. 2009). After ATM-mediated phosphorylation of H2AFX on S139, tyrosine Y142 has to be dephosphorylated by EYA family phosphatases in order for the DNA repair to proceed and to avoid apoptosis induced by DNA DSBs (Cook et al. 2009). Gamma-H2AFX recruits MDC1 to DNA DSBs (Stucki et al. 2005). After ATM phosphorylates MDC1 (Liu et al. 2012), the MRN complex, gamma-H2AFX nucleosomes, and MDC1 serve as a core of the nuclear focus and a platform for the recruitment of other proteins involved in DNA damage signaling and repair (Lukas et al. 2004, Soutoglou and Misteli 2008).<p>RNF8 ubiquitin ligase binds phosphorylated MDC1 (Kolas et al. 2007) and, in cooperation with HERC2 and RNF168 (Bekker-Jensen et al. 2010, Campbell et al. 2012), ubiquitinates H2AFX (Mailand et al. 2007, Huen et al. 2007, Stewart et al. 2009, Doil et al. 2009) and histone demethylases KDM4A and KDM4B (Mallette et al. 2012).<p>Ubiquitinated gamma-H2AFX recruits UIMC1 (RAP80), promoting the assembly of the BRCA1-A complex at DNA DSBs. The BRCA1-A complex consists of RAP80, FAM175A (Abraxas), BRCA1:BARD1 heterodimer, BRCC3 (BRCC36), BRE (BRCC45) and BABAM1 (MERIT40, NBA1) (Wang et al. 2007, Wang and Elledge 2007)<p>Ubiquitin mediated degradation of KDM4A and KDM4B allows TP53BP1 (53BP1) to associate with histone H4 dimethylated on lysine K21 (H4K20Me2 mark) by WHSC1 at DNA DSB sites (Pei et al. 2011).<p>Once recruited to DNA DSBs, both BRCA1:BARD1 heterodimers and TP53BP1 are phosphorylated by ATM (Cortez et al. 1999, Gatei et al. 2000, Kim et al. 2006, Jowsey et al. 2007), which triggers recruitment and activation of CHEK2 (Chk2, Cds1) (Wang et al. 2002, Wilson and Stern 2008, Melchionna et al. 2000).<p>Depending on the cell cycle stage, BRCA1 and TP53BP1 competitively promote either homology directed repair (HDR) or nonhomologous end joining (NHEJ) of DNA DSBs. HDR through homologous recombination repair (HRR) or single strand annealing (SSA) is promoted by BRCA1 in association with RBBP8 (CtIP), while NHEJ is promoted by TP53BP1 in association with RIF1 (Escribano-Diaz et al. 2013). ",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821385,
+   "displayName": "four stars",
+   "definition": "structure upated after externally reviewed and then internally reviewed",
+   "name": [
+    "four stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "previousReviewStatus": {
+   "dbId": 9821384,
+   "displayName": "two stars",
+   "definition": "structure updated after externally and internally reviewed",
+   "name": [
+    "two stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-5693565.7",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2023-03-29",
+  "hasEvent": [
+   {
+    "dbId": 5693598,
+    "displayName": "ATM phosphorylates NBN",
+    "stId": "R-HSA-5693598",
+    "stIdVersion": "R-HSA-5693598.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ATM phosphorylates NBN"
+    ],
+    "releaseDate": "2003-11-03",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5683930,
+    "displayName": "WICH phosphorylates H2AFX on Y142",
+    "stId": "R-HSA-5683930",
+    "stIdVersion": "R-HSA-5683930.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "WICH phosphorylates H2AFX on Y142"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5693602,
+    "displayName": "ATM recognizes H2AFX-Nucleosomes",
+    "stId": "R-HSA-5693602",
+    "stIdVersion": "R-HSA-5693602.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ATM recognizes H2AFX-Nucleosomes"
+    ],
+    "releaseDate": "2003-11-03",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5693549,
+    "displayName": "ATM phosphorylates histone H2AFX on S139 at DNA DSBs",
+    "stId": "R-HSA-5693549",
+    "stIdVersion": "R-HSA-5693549.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ATM phosphorylates histone H2AFX on S139 at DNA DSBs"
+    ],
+    "releaseDate": "2003-11-03",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5683986,
+    "displayName": "APBB1 and MAPK8 bind diphosphorylated H2AFX",
+    "stId": "R-HSA-5683986",
+    "stIdVersion": "R-HSA-5683986.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "APBB1 and MAPK8 bind diphosphorylated H2AFX"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5683964,
+    "displayName": "ATM phosphorylates EYA1-4",
+    "stId": "R-HSA-5683964",
+    "stIdVersion": "R-HSA-5683964.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ATM phosphorylates EYA1-4"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5683967,
+    "displayName": "EYA1-4 dephosphorylates tyrosine Y142 of H2AFX",
+    "stId": "R-HSA-5683967",
+    "stIdVersion": "R-HSA-5683967.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "EYA1-4 dephosphorylates tyrosine Y142 of H2AFX"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5693583,
+    "displayName": "MDC1 associates with gamma-H2AFX at nuclear foci",
+    "stId": "R-HSA-5693583",
+    "stIdVersion": "R-HSA-5693583.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "MDC1 associates with gamma-H2AFX at nuclear foci"
+    ],
+    "releaseDate": "2003-11-03",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5693536,
+    "displayName": "ATM phosphorylates MDC1",
+    "stId": "R-HSA-5693536",
+    "stIdVersion": "R-HSA-5693536.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ATM phosphorylates MDC1"
+    ],
+    "releaseDate": "2003-11-03",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5682967,
+    "displayName": "WHSC1 binds DNA DSBs",
+    "stId": "R-HSA-5682967",
+    "stIdVersion": "R-HSA-5682967.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "WHSC1 binds DNA DSBs"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5682983,
+    "displayName": "ATM phosphorylates WHSC1",
+    "stId": "R-HSA-5682983",
+    "stIdVersion": "R-HSA-5682983.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ATM phosphorylates WHSC1"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5682965,
+    "displayName": "WHSC1 dimethylates histone H4 on lysine K21 at DSBs",
+    "stId": "R-HSA-5682965",
+    "stIdVersion": "R-HSA-5682965.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "WHSC1 dimethylates histone H4 on lysine K21 at DSBs"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5682992,
+    "displayName": "KDM4A,B bind H4K20Me2",
+    "stId": "R-HSA-5682992",
+    "stIdVersion": "R-HSA-5682992.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "KDM4A,B bind H4K20Me2"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5682588,
+    "displayName": "RNF8 binds phosphorylated MDC1 at DNA DSBs",
+    "stId": "R-HSA-5682588",
+    "stIdVersion": "R-HSA-5682588.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RNF8 binds phosphorylated MDC1 at DNA DSBs"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5682586,
+    "displayName": "HERC2 and PIAS4 are recruited to DNA DSBs",
+    "stId": "R-HSA-5682586",
+    "stIdVersion": "R-HSA-5682586.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HERC2 and PIAS4 are recruited to DNA DSBs"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5682598,
+    "displayName": "ATM phosphorylates HERC2",
+    "stId": "R-HSA-5682598",
+    "stIdVersion": "R-HSA-5682598.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ATM phosphorylates HERC2"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5682607,
+    "displayName": "PIAS4 SUMOylates HERC2 with SUMO1 at DNA DSBs",
+    "stId": "R-HSA-5682607",
+    "stIdVersion": "R-HSA-5682607.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PIAS4 SUMOylates HERC2 with SUMO1 at DNA DSBs"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5682629,
+    "displayName": "HERC2 facilitates UBE2N:UBE2V2 binding to RNF8",
+    "stId": "R-HSA-5682629",
+    "stIdVersion": "R-HSA-5682629.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HERC2 facilitates UBE2N:UBE2V2 binding to RNF8"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5682863,
+    "displayName": "RNF168 binds DNA DSBs",
+    "stId": "R-HSA-5682863",
+    "stIdVersion": "R-HSA-5682863.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RNF168 binds DNA DSBs"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5682858,
+    "displayName": "RNF8 and RNF168 ubiquitinate H2AFX",
+    "stId": "R-HSA-5682858",
+    "stIdVersion": "R-HSA-5682858.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RNF8 and RNF168 ubiquitinate H2AFX"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5683077,
+    "displayName": "RNF8 and RNF168 ubiquitinate KDM4A,B",
+    "stId": "R-HSA-5683077",
+    "stIdVersion": "R-HSA-5683077.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RNF8 and RNF168 ubiquitinate KDM4A,B"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5693566,
+    "displayName": "TP53BP1 associates with H4K20Me2 at DNA DSBs",
+    "stId": "R-HSA-5693566",
+    "stIdVersion": "R-HSA-5693566.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53BP1 associates with H4K20Me2 at DNA DSBs"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5683425,
+    "displayName": "ATM phosphorylates TP53BP1 at DNA DSBs",
+    "stId": "R-HSA-5683425",
+    "stIdVersion": "R-HSA-5683425.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ATM phosphorylates TP53BP1 at DNA DSBs"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5683405,
+    "displayName": "PPP5C dephosphorylates TP53BP1",
+    "stId": "R-HSA-5683405",
+    "stIdVersion": "R-HSA-5683405.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PPP5C dephosphorylates TP53BP1"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5683384,
+    "displayName": "UIMC1 and FAM175A bind DNA DSBs",
+    "stId": "R-HSA-5683384",
+    "stIdVersion": "R-HSA-5683384.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "UIMC1 and FAM175A bind DNA DSBs"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5659781,
+    "displayName": "BRCA1 forms a heterodimer with BARD1",
+    "stId": "R-HSA-5659781",
+    "stIdVersion": "R-HSA-5659781.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "BRCA1 forms a heterodimer with BARD1"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9701000,
+    "displayName": "BRCA1:BARD1 heterodimer autoubiquitinates",
+    "stId": "R-HSA-9701000",
+    "stIdVersion": "R-HSA-9701000.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "BRCA1:BARD1 heterodimer autoubiquitinates"
+    ],
+    "releaseDate": "2020-12-08",
+    "releaseStatus": "UPDATED",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9701003,
+    "displayName": "BAP1 binds BRCA1:BARD1 heterodimer",
+    "stId": "R-HSA-9701003",
+    "stIdVersion": "R-HSA-9701003.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "BAP1 binds BRCA1:BARD1 heterodimer"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9700998,
+    "displayName": "BAP1 disrupts the BRCA1:BARD1 heterodimer",
+    "stId": "R-HSA-9700998",
+    "stIdVersion": "R-HSA-9700998.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "BAP1 disrupts the BRCA1:BARD1 heterodimer"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9707051,
+    "displayName": "UBXN1 binds BRCA1:BARD1 heterodimer",
+    "stId": "R-HSA-9707051",
+    "stIdVersion": "R-HSA-9707051.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "UBXN1 binds BRCA1:BARD1 heterodimer"
+    ],
+    "releaseDate": "2020-12-08",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5683385,
+    "displayName": "Formation of BRCA1-A complex at DNA DSBs",
+    "stId": "R-HSA-5683385",
+    "stIdVersion": "R-HSA-5683385.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Formation of BRCA1-A complex at DNA DSBs"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5693551,
+    "displayName": "Phosphorylation of BRCA1-A complex at multiple sites by ATM",
+    "stId": "R-HSA-5693551",
+    "stIdVersion": "R-HSA-5693551.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of BRCA1-A complex at multiple sites by ATM"
+    ],
+    "releaseDate": "2003-11-03",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5683735,
+    "displayName": "CHEK2 is recruited to DNA DSBs",
+    "stId": "R-HSA-5683735",
+    "stIdVersion": "R-HSA-5683735.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CHEK2 is recruited to DNA DSBs"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 69891,
+    "displayName": "Phosphorylation and activation of CHEK2 by ATM",
+    "stId": "R-HSA-69891",
+    "stIdVersion": "R-HSA-69891.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation and activation of CHEK2 by ATM"
+    ],
+    "releaseDate": "2003-11-03",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5683774,
+    "displayName": "p-T68-CHEK2 dimerizes",
+    "stId": "R-HSA-5683774",
+    "stIdVersion": "R-HSA-5683774.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-T68-CHEK2 dimerizes"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5683792,
+    "displayName": "p-T68-CHEK2 autophosphorylates",
+    "stId": "R-HSA-5683792",
+    "stIdVersion": "R-HSA-5683792.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-T68-CHEK2 autophosphorylates"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5683801,
+    "displayName": "CHEK2 phosphorylates BRCA1",
+    "stId": "R-HSA-5683801",
+    "stIdVersion": "R-HSA-5683801.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CHEK2 phosphorylates BRCA1"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5693609,
+    "displayName": "ATM phosphorylates TP53 at S15",
+    "stId": "R-HSA-5693609",
+    "stIdVersion": "R-HSA-5693609.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ATM phosphorylates TP53 at S15"
+    ],
+    "releaseDate": "2003-11-03",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5686578,
+    "displayName": "Activated ATM phosphorylates ABL1",
+    "stId": "R-HSA-5686578",
+    "stIdVersion": "R-HSA-5686578.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Activated ATM phosphorylates ABL1"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9988827,
+    "displayName": "Activated ATM phosphorylates PHF6",
+    "stId": "R-HSA-9988827",
+    "stIdVersion": "R-HSA-9988827.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Activated ATM phosphorylates PHF6"
+    ],
+    "releaseDate": "2026-06-17",
+    "releaseStatus": "NEW",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9988829,
+    "displayName": "p-PHF6 binds SMARCA5",
+    "stId": "R-HSA-9988829",
+    "stIdVersion": "R-HSA-9988829.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-PHF6 binds SMARCA5"
+    ],
+    "releaseDate": "2026-06-17",
+    "releaseStatus": "NEW",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5693565
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

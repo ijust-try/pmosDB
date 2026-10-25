@@ -1,0 +1,90 @@
+{
+ "source": "uniprot",
+ "query": "AMHR2",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:AMHR2) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-12T09:20:47+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q16671",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Anti-Muellerian hormone type-2 receptor"
+      },
+      "ecNumbers": [
+       {
+        "value": "2.7.11.30"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Anti-Muellerian hormone type II receptor"
+       },
+       "shortNames": [
+        {
+         "value": "AMH type II receptor"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "MIS type II receptor"
+       },
+       "shortNames": [
+        {
+         "value": "MISRII"
+        },
+        {
+         "value": "MRII"
+        }
+       ]
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "AMHR2"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "On ligand binding, forms a receptor complex consisting of two type II and two type I transmembrane serine/threonine kinases. Type II receptors phosphorylate and activate type I receptors which autophosphorylate, then bind and activate SMAD transcriptional regulators. Receptor for anti-Muellerian hormone"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "269",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000125970"
+    }
+   }
+  ]
+ }
+}

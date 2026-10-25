@@ -1,0 +1,1129 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-1989781",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-1989781",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:42:01+00:00",
+ "response": {
+  "dbId": 1989781,
+  "displayName": "PPARA activates gene expression",
+  "stId": "R-HSA-1989781",
+  "stIdVersion": "R-HSA-1989781.6",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "PPARA activates gene expression"
+  ],
+  "releaseDate": "2011-12-06",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 12045,
+    "displayName": "endoplasmic reticulum membrane",
+    "accession": "0005789",
+    "databaseName": "GO",
+    "definition": "The lipid bilayer surrounding the endoplasmic reticulum.",
+    "name": "endoplasmic reticulum membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005789",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 984,
+    "displayName": "extracellular region",
+    "accession": "0005576",
+    "databaseName": "GO",
+    "definition": "The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite.",
+    "name": "extracellular region",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005576",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 13977,
+    "displayName": "lipid droplet",
+    "accession": "0005811",
+    "databaseName": "GO",
+    "definition": "An intracellular non-membrane-bounded organelle comprising a matrix of coalesced lipids surrounded by a phospholipid monolayer. May include associated proteins.",
+    "name": "lipid droplet",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005811",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 70616,
+    "displayName": "mitochondrial inner membrane",
+    "accession": "0005743",
+    "databaseName": "GO",
+    "definition": "The inner, i.e. lumen-facing, lipid bilayer of the mitochondrial envelope. It is highly folded to form cristae.",
+    "name": "mitochondrial inner membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005743",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 5460,
+    "displayName": "mitochondrial matrix",
+    "accession": "0005759",
+    "databaseName": "GO",
+    "definition": "The gel-like material, with considerable fine structure, that lies in the matrix space, or lumen, of a mitochondrion. It contains the enzymes of the tricarboxylic acid cycle and, in some organisms, the enzymes concerned with fatty acid oxidation.",
+    "name": "mitochondrial matrix",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005759",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 17906,
+    "displayName": "mitochondrial outer membrane",
+    "accession": "0005741",
+    "databaseName": "GO",
+    "definition": "The outer, i.e. cytoplasm-facing, lipid bilayer of the mitochondrial envelope.",
+    "name": "mitochondrial outer membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005741",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 7660,
+    "displayName": "nucleoplasm",
+    "accession": "0005654",
+    "databaseName": "GO",
+    "definition": "That part of the nuclear content other than the chromosomes or the nucleolus.",
+    "name": "nucleoplasm",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 17951,
+    "displayName": "peroxisomal matrix",
+    "accession": "0005782",
+    "databaseName": "GO",
+    "definition": "The volume contained within the membranes of a peroxisome; in many cells the matrix contains a crystalloid core largely composed of urate oxidase.",
+    "name": "peroxisomal matrix",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005782",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 17947,
+    "displayName": "peroxisomal membrane",
+    "accession": "0005778",
+    "databaseName": "GO",
+    "definition": "The lipid bilayer surrounding a peroxisome.",
+    "name": "peroxisomal membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005778",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 3320,
+   "displayName": "regulation of metabolic process",
+   "accession": "0019222",
+   "databaseName": "GO",
+   "definition": "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways within a cell or an organism.",
+   "name": "regulation of metabolic process",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0019222",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 400147,
+    "displayName": "Peroxisome proliferator activated receptors and lipoprotein metabolism",
+    "title": "Peroxisome proliferator activated receptors and lipoprotein metabolism",
+    "journal": "PPAR Res",
+    "pages": "132960",
+    "pubMedIdentifier": 18288277,
+    "volume": 2008,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18288277",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 400170,
+    "displayName": "Peroxisome proliferator-activated receptor alpha target genes",
+    "title": "Peroxisome proliferator-activated receptor alpha target genes",
+    "journal": "Cell Mol Life Sci",
+    "pages": "393-416",
+    "pubMedIdentifier": 14999402,
+    "volume": 61,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/14999402",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 400211,
+    "displayName": "Peroxisome proliferator-activated receptors, coactivators, and downstream targets",
+    "title": "Peroxisome proliferator-activated receptors, coactivators, and downstream targets",
+    "journal": "Cell Biochem Biophys",
+    "pages": "187-204",
+    "pubMedIdentifier": 11330046,
+    "volume": 32,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11330046",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 400127,
+    "displayName": "Peroxisome proliferator-activated receptors: nuclear control of metabolism",
+    "title": "Peroxisome proliferator-activated receptors: nuclear control of metabolism",
+    "journal": "Endocr Rev",
+    "pages": "649-88",
+    "pubMedIdentifier": 10529898,
+    "volume": 20,
+    "year": 1999,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10529898",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1998761,
+    "displayName": "Peroxisome proliferator-activated receptor alpha target genes",
+    "title": "Peroxisome proliferator-activated receptor alpha target genes",
+    "journal": "PPAR Res",
+    "pubMedIdentifier": 20936127,
+    "volume": 2010,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20936127",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 400179,
+    "displayName": "The set of genes regulated by PPAR-alpha is not fully known ...",
+    "text": "The set of genes regulated by PPAR-alpha is not fully known in humans, however many examples have been found in mice. Genes directly activated by PPAR-alpha contain peroxisome proliferator receptor elements (PPREs) in their promoters and include: <br>1) genes involved in fatty acid oxidation and ketogenesis (Acox1, Cyp4a, Acadm, Hmgcs2);<br>2) genes involved in fatty acid transport (Cd36, , Slc27a1, Fabp1, Cpt1a, Cpt2);<br>3) genes involved in producing fatty acids and very low density lipoproteins (Me1, Scd1);<br>4) genes encoding apolipoproteins (Apoa1, Apoa2, Apoa5);<br>5) genes involved in triglyceride clearance ( Angptl4);<br>6) genes involved in glycerol metabolism (Gpd1 in mouse);<br>7) genes involved in glucose metabolism (Pdk4);<br>8) genes involved in peroxisome proliferation (Pex11a);<br>9) genes involved in lipid storage (Plin, Adfp).<br>Many other genes are known to be regulated by PPAR-alpha but whether their regulation is direct or indirect remains to be found. These genes include: ACACA, FAS, SREBP1, FADS1, DGAT1, ABCA1, PLTP, ABCB4, UGT2B4, SULT2A1, Pnpla2, Acsl1, Slc27a4, many Acot genes, and others (reviewed in Rakhshandehroo et al. 2010). ",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2021-09-15",
+  "hasEvent": [
+   {
+    "dbId": 1655826,
+    "displayName": "Expression of 3-Hydroxy-3-methylglutaryl-coenzyme A Reductase (HMGCR)",
+    "stId": "R-HSA-1655826",
+    "stIdVersion": "R-HSA-1655826.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of 3-Hydroxy-3-methylglutaryl-coenzyme A Reductase (HMGCR)"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989765,
+    "displayName": "Expression of ABCA1",
+    "stId": "R-HSA-1989765",
+    "stIdVersion": "R-HSA-1989765.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of ABCA1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989762,
+    "displayName": "Expression of ABCB4",
+    "stId": "R-HSA-1989762",
+    "stIdVersion": "R-HSA-1989762.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of ABCB4"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989745,
+    "displayName": "Expression of ACADM",
+    "stId": "R-HSA-1989745",
+    "stIdVersion": "R-HSA-1989745.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of ACADM"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989749,
+    "displayName": "Expression of ACOX1",
+    "stId": "R-HSA-1989749",
+    "stIdVersion": "R-HSA-1989749.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of ACOX1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989778,
+    "displayName": "Expression of ACSL1",
+    "stId": "R-HSA-1989778",
+    "stIdVersion": "R-HSA-1989778.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of ACSL1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989774,
+    "displayName": "Expression of AGT",
+    "stId": "R-HSA-1989774",
+    "stIdVersion": "R-HSA-1989774.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of AGT"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1592238,
+    "displayName": "Expression of ALAS1",
+    "stId": "R-HSA-1592238",
+    "stIdVersion": "R-HSA-1592238.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of ALAS1",
+     "Expression of 5-aminolevulinate synthase 1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 560473,
+    "displayName": "Expression of ANGPTL4",
+    "stId": "R-HSA-560473",
+    "stIdVersion": "R-HSA-560473.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of ANGPTL4",
+     "Induction of Angiopoietin-related protein 4 (ANGPTL4) Expression"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989779,
+    "displayName": "Expression of ANKRD1",
+    "stId": "R-HSA-1989779",
+    "stIdVersion": "R-HSA-1989779.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of ANKRD1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989754,
+    "displayName": "Expression of APOA1",
+    "stId": "R-HSA-1989754",
+    "stIdVersion": "R-HSA-1989754.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of APOA1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989776,
+    "displayName": "Expression of APOA2",
+    "stId": "R-HSA-1989776",
+    "stIdVersion": "R-HSA-1989776.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of APOA2"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989761,
+    "displayName": "Expression of APOA5",
+    "stId": "R-HSA-1989761",
+    "stIdVersion": "R-HSA-1989761.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of APOA5"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 560517,
+    "displayName": "Expression of CD36 (platelet glycoprotein IV, FAT)",
+    "stId": "R-HSA-560517",
+    "stIdVersion": "R-HSA-560517.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of CD36 (platelet glycoprotein IV, FAT)",
+     "Induction of Platelet glycoprotein IV (PAS IV, CD36, GPIV) Expression During Adipogenesis"
+    ],
+    "releaseDate": "2011-03-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1801587,
+    "displayName": "Expression of Carnitine O-palmitoyltransferase 1 CPT1A",
+    "stId": "R-HSA-1801587",
+    "stIdVersion": "R-HSA-1801587.9",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Carnitine O-palmitoyltransferase 1 CPT1A"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989773,
+    "displayName": "Expression of CPT2",
+    "stId": "R-HSA-1989773",
+    "stIdVersion": "R-HSA-1989773.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of CPT2"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989764,
+    "displayName": "Expression of CYP1A1",
+    "stId": "R-HSA-1989764",
+    "stIdVersion": "R-HSA-1989764.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of CYP1A1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989755,
+    "displayName": "Expression of CYP4A11",
+    "stId": "R-HSA-1989755",
+    "stIdVersion": "R-HSA-1989755.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of CYP4A11"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989746,
+    "displayName": "Expression of CYP7A1",
+    "stId": "R-HSA-1989746",
+    "stIdVersion": "R-HSA-1989746.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of CYP7A1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989751,
+    "displayName": "Expression of FABP1",
+    "stId": "R-HSA-1989751",
+    "stIdVersion": "R-HSA-1989751.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of FABP1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989757,
+    "displayName": "Expression of FADS1",
+    "stId": "R-HSA-1989757",
+    "stIdVersion": "R-HSA-1989757.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of FADS1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989750,
+    "displayName": "Expression of FATP1 (SLC27A1)",
+    "stId": "R-HSA-1989750",
+    "stIdVersion": "R-HSA-1989750.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of FATP1 (SLC27A1)"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989747,
+    "displayName": "Expression of FHL2",
+    "stId": "R-HSA-1989747",
+    "stIdVersion": "R-HSA-1989747.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of FHL2"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1655850,
+    "displayName": "Expression of Farnesyldiphosphate Farnesyltransferase (FDFT1, Squalene Synthase)",
+    "stId": "R-HSA-1655850",
+    "stIdVersion": "R-HSA-1655850.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Farnesyldiphosphate Farnesyltransferase (FDFT1, Squalene Synthase)"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989759,
+    "displayName": "Expression of G0S2",
+    "stId": "R-HSA-1989759",
+    "stIdVersion": "R-HSA-1989759.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of G0S2"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989772,
+    "displayName": "Expression of GLIPR1",
+    "stId": "R-HSA-1989772",
+    "stIdVersion": "R-HSA-1989772.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of GLIPR1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989748,
+    "displayName": "Expression of GRHL1",
+    "stId": "R-HSA-1989748",
+    "stIdVersion": "R-HSA-1989748.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of GRHL1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1655848,
+    "displayName": "Expression of Hydroxymethylglutaryl coenzyme A synthase (HMGCS1)",
+    "stId": "R-HSA-1655848",
+    "stIdVersion": "R-HSA-1655848.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Hydroxymethylglutaryl coenzyme A synthase (HMGCS1)"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989760,
+    "displayName": "Expression of HMGCS2",
+    "stId": "R-HSA-1989760",
+    "stIdVersion": "R-HSA-1989760.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of HMGCS2"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989756,
+    "displayName": "Expression of ME1",
+    "stId": "R-HSA-1989756",
+    "stIdVersion": "R-HSA-1989756.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of ME1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1368065,
+    "displayName": "RORA and PPARA positively regulate and NR1D1 negatively regulates expression of NPAS2",
+    "stId": "R-HSA-1368065",
+    "stIdVersion": "R-HSA-1368065.11",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "RORA and PPARA positively regulate and NR1D1 negatively regulates expression of NPAS2",
+     "NPAS2 gene produces NPAS2"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989753,
+    "displayName": "Expression of PEX11A",
+    "stId": "R-HSA-1989753",
+    "stIdVersion": "R-HSA-1989753.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of PEX11A"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989770,
+    "displayName": "Expression of PLIN2",
+    "stId": "R-HSA-1989770",
+    "stIdVersion": "R-HSA-1989770.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of PLIN2"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 879724,
+    "displayName": "Expression of PPARA",
+    "stId": "R-HSA-879724",
+    "stIdVersion": "R-HSA-879724.6",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of PPARA"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989777,
+    "displayName": "Expression of RGL1",
+    "stId": "R-HSA-1989777",
+    "stIdVersion": "R-HSA-1989777.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of RGL1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989775,
+    "displayName": "Expression of SULT2A1",
+    "stId": "R-HSA-1989775",
+    "stIdVersion": "R-HSA-1989775.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of SULT2A1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989768,
+    "displayName": "Expression of TIAM2",
+    "stId": "R-HSA-1989768",
+    "stIdVersion": "R-HSA-1989768.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of TIAM2"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989771,
+    "displayName": "Expression of TNFRSF21",
+    "stId": "R-HSA-1989771",
+    "stIdVersion": "R-HSA-1989771.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of TNFRSF21"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989767,
+    "displayName": "Expression of TRIB3",
+    "stId": "R-HSA-1989767",
+    "stIdVersion": "R-HSA-1989767.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of TRIB3"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989752,
+    "displayName": "Expression of TXNRD1",
+    "stId": "R-HSA-1989752",
+    "stIdVersion": "R-HSA-1989752.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of TXNRD1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1989758,
+    "displayName": "Expression of UGT1A9",
+    "stId": "R-HSA-1989758",
+    "stIdVersion": "R-HSA-1989758.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of UGT1A9"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1989781
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

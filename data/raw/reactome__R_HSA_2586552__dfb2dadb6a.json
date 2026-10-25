@@ -1,0 +1,803 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-2586552",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-2586552",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:41:27+00:00",
+ "response": {
+  "dbId": 2586552,
+  "displayName": "Signaling by Leptin",
+  "stId": "R-HSA-2586552",
+  "stIdVersion": "R-HSA-2586552.4",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Signaling by Leptin"
+  ],
+  "releaseDate": "2013-09-18",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12829164,
+    "displayName": "BioModels Database:BIOMD0000001077",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000001077",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000001077",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12829166,
+    "displayName": "BioModels Database:BIOMD0000000314",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000314",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000314",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12829168,
+    "displayName": "BioModels Database:BIOMD0000000313",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000313",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000313",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 2730642,
+    "displayName": "Leptin receptor signaling: pathways to leptin resistance",
+    "title": "Leptin receptor signaling: pathways to leptin resistance",
+    "journal": "Front. Biosci.",
+    "pages": "2771-93",
+    "pubMedIdentifier": 21622208,
+    "volume": 16,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21622208",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2730643,
+    "displayName": "Leptin in human physiology and therapeutics",
+    "title": "Leptin in human physiology and therapeutics",
+    "journal": "Front Neuroendocrinol",
+    "pages": "377-93",
+    "pubMedIdentifier": 20600241,
+    "volume": 31,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20600241",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2730630,
+    "displayName": "Central leptin receptor action and resistance in obesity",
+    "title": "Central leptin receptor action and resistance in obesity",
+    "journal": "J. Investig. Med.",
+    "pages": "789-94",
+    "pubMedIdentifier": 20029269,
+    "volume": 57,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20029269",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2730633,
+    "displayName": "Mechanisms of leptin action and leptin resistance",
+    "title": "Mechanisms of leptin action and leptin resistance",
+    "journal": "Annu. Rev. Physiol.",
+    "pages": "537-56",
+    "pubMedIdentifier": 17937601,
+    "volume": 70,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17937601",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2730645,
+    "displayName": "Recent advances in understanding leptin signaling and leptin resistance",
+    "title": "Recent advances in understanding leptin signaling and leptin resistance",
+    "journal": "Am. J. Physiol. Endocrinol. Metab.",
+    "pages": "E1247-59",
+    "pubMedIdentifier": 19724019,
+    "volume": 297,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19724019",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3270574,
+    "displayName": "The role of adipokines in beta-cell failure of type 2 diabetes",
+    "title": "The role of adipokines in beta-cell failure of type 2 diabetes",
+    "journal": "J. Endocrinol.",
+    "pages": "T37-45",
+    "pubMedIdentifier": 22991412,
+    "volume": 216,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22991412",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3270578,
+    "displayName": "Leptin receptors",
+    "title": "Leptin receptors",
+    "journal": "Handb Exp Pharmacol",
+    "pages": "3-21",
+    "pubMedIdentifier": 22249808,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22249808",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3270576,
+    "displayName": "Evolution of leptin structure and function",
+    "title": "Evolution of leptin structure and function",
+    "journal": "Neuroendocrinology",
+    "pages": "21-38",
+    "pubMedIdentifier": 21677426,
+    "volume": 94,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21677426",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3318516,
+    "displayName": "The role of leptin in the control of insulin-glucose axis",
+    "title": "The role of leptin in the control of insulin-glucose axis",
+    "journal": "Front Neurosci",
+    "pages": "51",
+    "pubMedIdentifier": 23579596,
+    "volume": 7,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23579596",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3318527,
+    "displayName": "Leptin therapy, insulin sensitivity, and glucose homeostasis",
+    "title": "Leptin therapy, insulin sensitivity, and glucose homeostasis",
+    "journal": "Indian J Endocrinol Metab",
+    "pages": "S549-55",
+    "pubMedIdentifier": 23565489,
+    "volume": 16,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23565489",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3318520,
+    "displayName": "Leptin and the central nervous system control of glucose metabolism",
+    "title": "Leptin and the central nervous system control of glucose metabolism",
+    "journal": "Physiol. Rev.",
+    "pages": "389-411",
+    "pubMedIdentifier": 21527729,
+    "volume": 91,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21527729",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3318519,
+    "displayName": "Proinflammatory activities of leptin in non-autoimmune conditions",
+    "title": "Proinflammatory activities of leptin in non-autoimmune conditions",
+    "journal": "Inflamm Allergy Drug Targets",
+    "pages": "298-302",
+    "pubMedIdentifier": 22458591,
+    "volume": 11,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22458591",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3508841,
+    "displayName": "Role of leptin in the pancreatic ?-cell: effects and signaling pathways",
+    "title": "Role of leptin in the pancreatic ?-cell: effects and signaling pathways",
+    "journal": "J. Mol. Endocrinol.",
+    "pages": "R9-17",
+    "pubMedIdentifier": 22448029,
+    "volume": 49,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22448029",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3508870,
+    "displayName": "Obesity, leptin, and Alzheimer's disease",
+    "title": "Obesity, leptin, and Alzheimer's disease",
+    "journal": "Ann. N. Y. Acad. Sci.",
+    "pages": "15-29",
+    "pubMedIdentifier": 22211890,
+    "volume": 1243,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22211890",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3508838,
+    "displayName": "Yin and Yang of hypothalamic insulin and leptin signaling in regulating white adipose tissue metabolism",
+    "title": "Yin and Yang of hypothalamic insulin and leptin signaling in regulating white adipose tissue metabolism",
+    "journal": "Rev Endocr Metab Disord",
+    "pages": "235-43",
+    "pubMedIdentifier": 21713385,
+    "volume": 12,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21713385",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3508832,
+    "displayName": "Central insulin and leptin-mediated autonomic control of glucose homeostasis",
+    "title": "Central insulin and leptin-mediated autonomic control of glucose homeostasis",
+    "journal": "Trends Endocrinol. Metab.",
+    "pages": "275-85",
+    "pubMedIdentifier": 21489811,
+    "volume": 22,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21489811",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3508859,
+    "displayName": "Central leptin and ghrelin signalling: comparing and contrasting their mechanisms of action in the brain",
+    "title": "Central leptin and ghrelin signalling: comparing and contrasting their mechanisms of action in the brain",
+    "journal": "Rev Endocr Metab Disord",
+    "pages": "197-209",
+    "pubMedIdentifier": 21331644,
+    "volume": 12,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21331644",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3508828,
+    "displayName": "Identification of the global transcriptomic response of the hypothalamic arcuate nucleus to fasting and leptin",
+    "title": "Identification of the global transcriptomic response of the hypothalamic arcuate nucleus to fasting and leptin",
+    "journal": "J. Neuroendocrinol.",
+    "pages": "915-25",
+    "pubMedIdentifier": 20553370,
+    "volume": 22,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20553370",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 4420062,
+    "displayName": "Leptin receptors",
+    "title": "Leptin receptors",
+    "journal": "Eur. J. Med. Res.",
+    "pages": "50-4",
+    "pubMedIdentifier": 21147620,
+    "volume": 15,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21147620",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 4789065,
+    "displayName": "Oncogenic role and therapeutic target of leptin signaling in breast cancer and cancer stem cells",
+    "title": "Oncogenic role and therapeutic target of leptin signaling in breast cancer and cancer stem cells",
+    "journal": "Biochim. Biophys. Acta",
+    "pages": "207-22",
+    "pubMedIdentifier": 22289780,
+    "volume": 1825,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22289780",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 4789066,
+    "displayName": "Leptin and Inflammation",
+    "title": "Leptin and Inflammation",
+    "journal": "Curr Immunol Rev",
+    "pages": "70-79",
+    "pubMedIdentifier": 20198122,
+    "volume": 4,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20198122",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 4789053,
+    "displayName": "Leptin-cytokine crosstalk in breast cancer",
+    "title": "Leptin-cytokine crosstalk in breast cancer",
+    "journal": "Mol. Cell. Endocrinol.",
+    "pubMedIdentifier": 23562747,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23562747",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 2730635,
+    "displayName": "Leptin (LEP, OB, OBS), a circulating adipokine, and its rece...",
+    "text": "Leptin (LEP, OB, OBS), a circulating adipokine, and its receptor LEPR (DB, OBR) control food intake and energy balance and are implicated in obesity-related diseases (recently reviewed in Amitani et al. 2013, Dunmore and Brown 2013, Cottrell and Mercer 2012, La Cava 2012, Marroqui et al. 2012, Paz-Filho et al. 2012, Denver et al. 2011, Lee 2011, Marino et al. 2011, Morton and Schwartz 2011, Scherer and Buettner 2011, Shan and Yeo 2011, Wauman and Tavernier 2011, Dardeno et al. 2010, Bjorbaek 2009, Morris and Rui 2009, Myers et al. 2008), including cancer (Guo et al. 2012), inflammation (Newman and Gonzalez-Perez 2013, Iikuni et al. 2008), and angiogenesis (Gonzalez-Perez et al. 2013).<br>The identification of spontaneous mutations in the leptin gene (ob or LEP) and the leptin receptor gene (Ob-R, db or LEPR) genes in mice opened up a new field in obesity research. Leptin was discovered as the product of the gene affected by the ob (obesity) mutation, which causes obesity in mice. Likewise LEPR is the product of the gene affected by the db (diabetic) mutation. Leptin binding to LEPR induces canonical (JAK2/STATs; MAPK/ERK 1/2, PI-3K/AKT) and non-canonical signaling pathways (PKC, JNK, p38 MAPK and AMPK) in diverse cell types. The binding of leptin to the long isoform of LEPR (OB-Rl) initiates a phosphorylation cascade that results in transcriptional activation of target genes by STAT5 and STAT3 and activation of the PI3K pathway(not shown here), the MAPK/ERK pathway, and the mTOR/S6K pathway. Shorter LEPR isoforms with truncated intracellular domains are unable to activate the STAT pathway, but can transduce signals by way of activation of JAK2, IRS-1 or ERKs, including MAPKs.<br>LEPR is constitutively bound to the JAK2 kinase. Binding of LEP to LEPR causes a conformational change in LEPR that activates JAK2 autophosphorylation followed by phosphorylation of LEPR by JAK2. Phosphorylated LEPR binds STAT3, STAT5, and SHP2 which are then phosphorylated by JAK2. Phosphorylated JAK2 binds SH2B1 which then binds IRS1/2, resulting in phosphorylation of IRS1/2 by JAK2. Phosphorylated STAT3 and STAT5 dimerize and translocate to the nucleus where they activate transcription of target genes (Jovanovic et al. 2010). SHP2 activates the MAPK pathway. IRS1/2 activate the PI3K/AKT pathway which may be the activator of mTOR/S6K.<br>Several isoforms of LEPR have been identified (reviewed in Gorska et al. 2010). The long isoform (LEPRb, OBRb) is expressed in the hypothalamus and all types of immune cells. It is the only isoform known to fully activate signaling pathways in response to leptin. Shorter isoforms (LEPRa, LEPRc, LEPRd, and a soluble isoform LEPRe) are able to interact with JAK kinases and activate other pathways, however their roles in energy homeostasis are not fully characterized. ",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/REACT_169118.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2021-09-15",
+  "hasEvent": [
+   {
+    "dbId": 2586559,
+    "displayName": "Leptin Binds Leptin Receptor",
+    "stId": "R-HSA-2586559",
+    "stIdVersion": "R-HSA-2586559.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Leptin Binds Leptin Receptor",
+     "LEP Binds LEPR:JAK2"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2586555,
+    "displayName": "JAK2 Autophosphorylates in Response to Leptin",
+    "stId": "R-HSA-2586555",
+    "stIdVersion": "R-HSA-2586555.6",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "JAK2 Autophosphorylates in Response to Leptin"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2586553,
+    "displayName": "JAK2 Phosphorylates LEPR",
+    "stId": "R-HSA-2586553",
+    "stIdVersion": "R-HSA-2586553.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "JAK2 Phosphorylates LEPR"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2671747,
+    "displayName": "Phosphorylated LEPR Binds SHP2 (PTPN11)",
+    "stId": "R-HSA-2671747",
+    "stIdVersion": "R-HSA-2671747.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylated LEPR Binds SHP2 (PTPN11)"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2671742,
+    "displayName": "JAK2 Phosphorylates SHP2 (PTPN11) in Response to Leptin",
+    "stId": "R-HSA-2671742",
+    "stIdVersion": "R-HSA-2671742.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "JAK2 Phosphorylates SHP2 (PTPN11) in Response to Leptin"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2671855,
+    "displayName": "Phosphorylated LEPR Binds STAT5",
+    "stId": "R-HSA-2671855",
+    "stIdVersion": "R-HSA-2671855.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylated LEPR Binds STAT5"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2671829,
+    "displayName": "JAK2 Phosphorylates STAT5 in Response to Leptin",
+    "stId": "R-HSA-2671829",
+    "stIdVersion": "R-HSA-2671829.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "JAK2 Phosphorylates STAT5 in Response to Leptin"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2671876,
+    "displayName": "Phosphorylated STAT5 Dissociates from Leptin Receptor",
+    "stId": "R-HSA-2671876",
+    "stIdVersion": "R-HSA-2671876.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylated STAT5 Dissociates from Leptin Receptor"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 452102,
+    "displayName": "p-STAT5 dimerizes",
+    "stId": "R-HSA-452102",
+    "stIdVersion": "R-HSA-452102.7",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "p-STAT5 dimerizes"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 507937,
+    "displayName": "STAT5 dimers translocate to the nucleus",
+    "stId": "R-HSA-507937",
+    "stIdVersion": "R-HSA-507937.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "STAT5 dimers translocate to the nucleus"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2671868,
+    "displayName": "Phosphorylated LEPR Binds STAT3",
+    "stId": "R-HSA-2671868",
+    "stIdVersion": "R-HSA-2671868.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylated LEPR Binds STAT3"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2671850,
+    "displayName": "JAK2 Phosphoryates STAT3 in Response to Leptin",
+    "stId": "R-HSA-2671850",
+    "stIdVersion": "R-HSA-2671850.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "JAK2 Phosphoryates STAT3 in Response to Leptin"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2671839,
+    "displayName": "Phosphorylated STAT3 Dissociates from Leptin Receptor",
+    "stId": "R-HSA-2671839",
+    "stIdVersion": "R-HSA-2671839.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylated STAT3 Dissociates from Leptin Receptor"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2730595,
+    "displayName": "Phosphorylated STAT3 Forms Dimers",
+    "stId": "R-HSA-2730595",
+    "stIdVersion": "R-HSA-2730595.6",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylated STAT3 Forms Dimers"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2730599,
+    "displayName": "Phosphorylated STAT3 Dimer Translocates to the Nucleus",
+    "stId": "R-HSA-2730599",
+    "stIdVersion": "R-HSA-2730599.5",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylated STAT3 Dimer Translocates to the Nucleus"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2671872,
+    "displayName": "Phosphorylated LEP:LEPR:JAK2 Binds SH2B1",
+    "stId": "R-HSA-2671872",
+    "stIdVersion": "R-HSA-2671872.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylated LEP:LEPR:JAK2 Binds SH2B1"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2671873,
+    "displayName": "Phosphorylated LEP:LEPR:JAK2:SH2B1 Binds IRS1/2",
+    "stId": "R-HSA-2671873",
+    "stIdVersion": "R-HSA-2671873.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylated LEP:LEPR:JAK2:SH2B1 Binds IRS1/2"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2671862,
+    "displayName": "JAK2 Phosphorylates IRS in Response to Leptin",
+    "stId": "R-HSA-2671862",
+    "stIdVersion": "R-HSA-2671862.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "JAK2 Phosphorylates IRS in Response to Leptin"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2672302,
+    "displayName": "Phosphorylated LEPR Binds SOCS3",
+    "stId": "R-HSA-2672302",
+    "stIdVersion": "R-HSA-2672302.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylated LEPR Binds SOCS3"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2586552
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

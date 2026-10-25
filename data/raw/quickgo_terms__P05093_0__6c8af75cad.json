@@ -1,0 +1,2354 @@
+{
+ "source": "quickgo_terms",
+ "query": "P05093_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0004497,GO:0004508,GO:0005506,GO:0005783,GO:0005789,GO:0006694,GO:0006702,GO:0006704,GO:0007548,GO:0008202,GO:0008395,GO:0016705,GO:0016712,GO:0019825,GO:0020037,GO:0030424,GO:0034308,GO:0034651,GO:0042445,GO:0042446,GO:0042448,GO:0043025,GO:0120254",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:19:04+00:00",
+ "response": {
+  "numberOfHits": 23,
+  "results": [
+   {
+    "id": "GO:0006694",
+    "isObsolete": false,
+    "name": "steroid biosynthetic process",
+    "definition": {
+     "text": "The chemical reactions and pathways resulting in the formation of steroids, compounds with a 1,2,cyclopentanoperhydrophenanthrene nucleus; includes de novo formation and steroid interconversion by modification."
+    },
+    "synonyms": [
+     {
+      "name": "steroid anabolism",
+      "type": "exact"
+     },
+     {
+      "name": "steroid biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "steroid formation",
+      "type": "exact"
+     },
+     {
+      "name": "steroidogenesis",
+      "type": "exact"
+     },
+     {
+      "name": "steroid synthesis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1900581",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061370",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140876",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903449",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042368",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904463",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120178",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062174",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900812",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010894",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0045456",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016126",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016129",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050810",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0010893",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006704",
+    "isObsolete": false,
+    "name": "glucocorticoid biosynthetic process",
+    "definition": {
+     "text": "The chemical reactions and pathways resulting in the formation of glucocorticoids, hormonal C21 corticosteroids synthesized from cholesterol.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "glucocorticoid anabolism",
+      "type": "exact"
+     },
+     {
+      "name": "glucocorticoid biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "glucocorticoid formation",
+      "type": "exact"
+     },
+     {
+      "name": "glucocorticoid synthesis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0031947",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0031946",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0034651",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031948",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006702",
+    "isObsolete": false,
+    "name": "androgen biosynthetic process",
+    "definition": {
+     "text": "The chemical reactions and pathways resulting in the formation of androgens, C19 steroid hormones that can stimulate the development of male sexual characteristics.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "androgen anabolism",
+      "type": "exact"
+     },
+     {
+      "name": "androgen biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "androgen formation",
+      "type": "exact"
+     },
+     {
+      "name": "androgen synthesis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2000180",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0019825",
+    "isObsolete": false,
+    "name": "oxygen binding",
+    "definition": {
+     "text": "Binding to oxygen (O2)."
+    },
+    "synonyms": [
+     {
+      "name": "cytochrome P450",
+      "type": "narrow"
+     },
+     {
+      "name": "cytochrome P450 activity",
+      "type": "related"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005789",
+    "isObsolete": false,
+    "name": "endoplasmic reticulum membrane",
+    "definition": {
+     "text": "The lipid bilayer surrounding the endoplasmic reticulum."
+    },
+    "synonyms": [
+     {
+      "name": "ER membrane",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0072546",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0008250",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990604",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036502",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032937",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000506",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990332",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042765",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098553",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000835",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098554",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034098",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043541",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033017",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036513",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005787",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990578",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0160005",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031502",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030868",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030867",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009923",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098826",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042824",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042406",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005783",
+    "isObsolete": false,
+    "name": "endoplasmic reticulum",
+    "definition": {
+     "text": "The irregular network of unit membranes, visible only by electron microscopy, that occurs in the cytoplasm of many eukaryotic cells. The membranes form a complex meshwork of tubular channels, which are often expanded into slitlike cavities called cisternae. The ER takes two forms, rough (or granular), with ribosomes adhering to the outer surface, and smooth (with no ribosomes attached).",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "ER",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0044322",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140534",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005791",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005788",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009510",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000835",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990007",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097038",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070971",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016529",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032469",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0009511",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035437",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0098827",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005506",
+    "isObsolete": false,
+    "name": "iron ion binding",
+    "definition": {
+     "text": "Binding to an iron (Fe) ion."
+    },
+    "synonyms": [
+     {
+      "name": "iron binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0008198",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008199",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030424",
+    "isObsolete": false,
+    "name": "axon",
+    "definition": {
+     "text": "The long process of a neuron that conducts nerve impulses, usually away from the cell body to the terminals and varicosities, which are sites of storage and release of neurotransmitter.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0099124",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0044301",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901589",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044303",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1904115",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044304",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990032",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044300",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0150034",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044308",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990031",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990030",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097457",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099519",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0098930",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0043203",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044299",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042757",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042448",
+    "isObsolete": false,
+    "name": "progesterone metabolic process",
+    "definition": {
+     "text": "The chemical reactions and pathways involving progesterone, a steroid hormone produced in the ovary which prepares and maintains the uterus for pregnancy. Also found in plants.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "11392024"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "progesterone metabolism",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0006709",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006701",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042445",
+    "isObsolete": false,
+    "name": "hormone metabolic process",
+    "definition": {
+     "text": "The chemical reactions and pathways involving any hormone, naturally occurring substances secreted by specialized cells that affects the metabolism or behavior of other cells possessing functional receptors for the hormone."
+    },
+    "synonyms": [
+     {
+      "name": "cellular hormone metabolic process",
+      "type": "related"
+     },
+     {
+      "name": "hormone metabolism",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0009690",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008207",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006716",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008209",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030186",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016131",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032350",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0042573",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042572",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009850",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042403",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042446",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042447",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032351",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0032352",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0016486",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042810",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008210",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045455",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008212",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120122",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042446",
+    "isObsolete": false,
+    "name": "hormone biosynthetic process",
+    "definition": {
+     "text": "The chemical reactions and pathways resulting in the formation of any hormone, naturally occurring substances secreted by specialized cells that affects the metabolism or behavior of other cells possessing functional receptors for the hormone."
+    },
+    "synonyms": [
+     {
+      "name": "hormone anabolism",
+      "type": "exact"
+     },
+     {
+      "name": "hormone biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "hormone formation",
+      "type": "exact"
+     },
+     {
+      "name": "hormone synthesis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0006700",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009691",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006702",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006703",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046885",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0006705",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006718",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030187",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009851",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032353",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0046886",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0042811",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045456",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0004508",
+    "isObsolete": false,
+    "name": "steroid 17-alpha-monooxygenase activity",
+    "definition": {
+     "text": "Catalysis of the reaction: a C21-steroid + O2 + reduced [NADPH--hemoprotein reductase] = a 17alpha-hydroxy-C21-steroid + H+ + H2O + oxidized [NADPH--hemoprotein reductase].",
+     "xrefs": [
+      {
+       "dbCode": "RHEA",
+       "dbId": "65760"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "17alpha-hydroxylase-C17,20 lyase activity",
+      "type": "related"
+     },
+     {
+      "name": "cytochrome P45017alpha",
+      "type": "related"
+     },
+     {
+      "name": "cytochrome P450 CYP17",
+      "type": "narrow"
+     },
+     {
+      "name": "cytochrome P-450 (P-45017alpha,lyase)",
+      "type": "related"
+     },
+     {
+      "name": "cytochrome p450 XVIIA1 activity",
+      "type": "narrow"
+     },
+     {
+      "name": "steroid 17-alpha-hydroxylase/17,20 lyase activity",
+      "type": "related"
+     },
+     {
+      "name": "steroid 17alphahydroxylase/17,20 lyase activity",
+      "type": "related"
+     },
+     {
+      "name": "steroid 17-alpha-hydroxylase activity",
+      "type": "exact"
+     },
+     {
+      "name": "steroid 17alpha-hydroxylase activity",
+      "type": "related"
+     },
+     {
+      "name": "steroid 17-alpha-hydroxylase-C17-20 lyase activity",
+      "type": "exact"
+     },
+     {
+      "name": "steroid 17alpha-monooxygenase activity",
+      "type": "related"
+     },
+     {
+      "name": "steroid,hydrogen-donor:oxygen oxidoreductase (17alpha-hydroxylating)",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0047096",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0004497",
+    "isObsolete": false,
+    "name": "monooxygenase activity",
+    "definition": {
+     "text": "Catalysis of the incorporation of one atom of molecular oxygen (O2) into the substrate and the reduction of the other atom of O2 to water.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "1444267"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "hydroxylase activity",
+      "type": "related"
+     },
+     {
+      "name": "mixed-function oxidase",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0045289",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016716",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106244",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097258",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097259",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062183",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052694",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050113",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008401",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046424",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008389",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140382",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019113",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016703",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019135",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008391",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0018597",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016709",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031172",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052722",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044875",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050604",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102431",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071614",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050603",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046409",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0018690",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047546",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010291",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102733",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047563",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050016",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016712",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016713",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016714",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008395",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016715",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0016712",
+    "isObsolete": false,
+    "name": "oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",
+    "definition": {
+     "text": "Catalysis of an oxidation-reduction (redox) reaction in which hydrogen or electrons are transferred from reduced flavin or flavoprotein and one other donor, and one atom of oxygen is incorporated into one donor.",
+     "xrefs": [
+      {
+       "dbCode": "EC",
+       "dbId": "1.14.14.-"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "aryl-4-monooxygenase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "aryl hydrocarbon hydroxylase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "cytochrome p450 activity",
+      "type": "narrow"
+     },
+     {
+      "name": "cytochrome P450 CYP19",
+      "type": "narrow"
+     },
+     {
+      "name": "flavoprotein-linked monooxygenase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "flavoprotein monooxygenase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "microsomal monooxygenase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "microsomal P-450",
+      "type": "narrow"
+     },
+     {
+      "name": "microsomal p450 activity",
+      "type": "narrow"
+     },
+     {
+      "name": "substrate,reduced-flavoprotein:oxygen oxidoreductase (RH-hydroxylating or -epoxidizing)",
+      "type": "related"
+     },
+     {
+      "name": "unspecific monooxygenase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "xenobiotic monooxygenase activity",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0036239",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102002",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036190",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052582",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050598",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050594",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047082",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0101021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102598",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033782",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102556",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106223",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050051",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0018529",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120502",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004506",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0018684",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102289",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0018676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036209",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035302",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140989",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036201",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052871",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102627",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106144",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047646",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033771",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033775",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102684",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036191",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047087",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050597",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050593",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0101020",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102597",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047083",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033781",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102365",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050056",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004509",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051777",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120526",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047957",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120250",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052615",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008397",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036202",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050370",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102811",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102876",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102373",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072374",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102626",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120511",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0018631",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0018640",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050592",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004392",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102170",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106240",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036192",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047088",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050596",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140399",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102320",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033780",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102596",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102614",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047084",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070330",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004508",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008726",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0018674",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062047",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008390",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008123",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008398",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033773",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033777",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120512",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048000",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050591",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0018664",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036193",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102734",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102171",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036383",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106266",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047089",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102068",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102469",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050595",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033783",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0160191",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102557",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0018675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080014",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090489",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052741",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0018679",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102934",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102995",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036204",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102628",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102601",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033772",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102375",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0016705",
+    "isObsolete": false,
+    "name": "oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",
+    "definition": {
+     "text": "Catalysis of an oxidation-reduction (redox) reaction in which hydrogen or electrons are transferred from each of two donors, and molecular oxygen is reduced or incorporated into a donor.",
+     "xrefs": [
+      {
+       "dbCode": "EC",
+       "dbId": "1.14.-.-"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, miscellaneous",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0061897",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008391",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016709",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080104",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080106",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0018690",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047098",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062150",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120204",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080004",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008403",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016715",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045301",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008401",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016713",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140395",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042389",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016717",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047546",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008387",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080107",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008389",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102733",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050016",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052614",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062146",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071614",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050604",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001567",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061896",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140906",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061898",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016708",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0018597",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047563",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080103",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050214",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080105",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019135",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045485",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044875",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050292",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016712",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047882",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004666",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016716",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016714",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140685",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008388",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050498",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004501",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050603",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008395",
+    "isObsolete": false,
+    "name": "steroid hydroxylase activity",
+    "definition": {
+     "text": "Catalysis of the formation of a hydroxyl group on a steroid by incorporation of oxygen from O2.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0721662544"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "cytochrome P450 CYP2G1",
+      "type": "narrow"
+     },
+     {
+      "name": "olfactory-specific steroid hydroxylase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "steroid monooxygenase activity",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0004509",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004508",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004507",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004501",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042768",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062184",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008390",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030343",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001567",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050649",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008397",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031073",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050214",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070576",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047882",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050292",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035302",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0101020",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0160191",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062179",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0101021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008387",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008388",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008386",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008202",
+    "isObsolete": false,
+    "name": "steroid metabolic process",
+    "definition": {
+     "text": "The chemical reactions and pathways involving steroids, compounds with a 1,2,cyclopentanoperhydrophenanthrene nucleus.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198547684"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "steroid metabolism",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0008210",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008211",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008212",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042359",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008207",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045939",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0008209",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062173",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008206",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006694",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016131",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045455",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019218",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0016125",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045940",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043025",
+    "isObsolete": false,
+    "name": "neuronal cell body",
+    "definition": {
+     "text": "The portion of a neuron that includes the nucleus, but excludes cell projections such as axons and dendrites."
+    },
+    "comment": "Note that 'cell body' and 'cell soma' are not used in the literature for cells that lack projections, nor for some cells (e.g. yeast with mating projections) that do have projections.",
+    "synonyms": [
+     {
+      "name": "neuronal cell soma",
+      "type": "exact"
+     },
+     {
+      "name": "neuron cell body",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0043204",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032809",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043203",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044225",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044226",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0034308",
+    "isObsolete": false,
+    "name": "primary alcohol metabolic process",
+    "definition": {
+     "text": "The chemical reactions and pathways involving primary alcohols. A primary alcohol is any alcohol in which a hydroxy group, -OH, is attached to a saturated carbon atom which has either three hydrogen atoms attached to it or only one other carbon atom and two hydrogen atoms attached to it."
+    },
+    "synonyms": [
+     {
+      "name": "monohydric alcohol metabolic process",
+      "type": "exact"
+     },
+     {
+      "name": "primary alcohol metabolism",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0033306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034310",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009441",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042572",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070291",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032341",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902654",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034309",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006772",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015945",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006070",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034650",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006580",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016487",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006067",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044598",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0120254",
+    "isObsolete": false,
+    "name": "olefinic compound metabolic process",
+    "definition": {
+     "text": "The chemical reactions and pathways involving an olefinic compound, any compound which contains a carbon-carbon double bond (aka C=C)."
+    },
+    "synonyms": [
+     {
+      "name": "alkene substituted compound metabolic process",
+      "type": "exact"
+     },
+     {
+      "name": "alkene substituted compound metabolism",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0120255",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042574",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120256",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043651",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009801",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009803",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033494",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042572",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032341",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036109",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042448",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009687",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042854",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034650",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900673",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0034651",
+    "isObsolete": false,
+    "name": "cortisol biosynthetic process",
+    "definition": {
+     "text": "The chemical reactions and pathways resulting in the formation of cortisol, the steroid hormone 11-beta-17,21-trihydroxypregn-4-ene-3,20-dione. Cortisol is synthesized from cholesterol in the adrenal gland and controls carbohydrate, fat and protein metabolism and has anti-inflammatory properties."
+    },
+    "synonyms": [
+     {
+      "name": "cortisol anabolism",
+      "type": "narrow"
+     },
+     {
+      "name": "cortisol biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "cortisol formation",
+      "type": "exact"
+     },
+     {
+      "name": "cortisol synthesis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2000064",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:2000066",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:2000065",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0020037",
+    "isObsolete": false,
+    "name": "heme binding",
+    "definition": {
+     "text": "Binding to a heme, a compound composed of iron complexed in a porphyrin (tetrapyrrole) ring."
+    },
+    "synonyms": [
+     {
+      "name": "haem binding",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007548",
+    "isObsolete": false,
+    "name": "sex differentiation",
+    "definition": {
+     "text": "The establishment of the sex of an organism by physical differentiation."
+    },
+    "children": [
+     {
+      "id": "GO:0048806",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0046660",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046661",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045136",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045137",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035263",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048071",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

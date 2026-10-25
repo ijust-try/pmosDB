@@ -1,0 +1,1755 @@
+{
+ "source": "quickgo_terms",
+ "query": "P43694_50",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0035054,GO:0036302,GO:0042060,GO:0043066,GO:0043565,GO:0045165,GO:0045766,GO:0045787,GO:0045893,GO:0045944,GO:0048617,GO:0051525,GO:0055007,GO:0060290,GO:0060413,GO:0060575,GO:0061026,GO:0061049,GO:0061629,GO:0070410,GO:0071333,GO:0086004,GO:0090575,GO:0140297,GO:1902176,GO:1902895,GO:1905204,GO:1990837,GO:2001234",
+ "params": null,
+ "retrieved_at": "2026-10-12T09:39:58+00:00",
+ "response": {
+  "numberOfHits": 29,
+  "results": [
+   {
+    "id": "GO:0043565",
+    "isObsolete": false,
+    "name": "sequence-specific DNA binding",
+    "definition": {
+     "text": "Binding to DNA of a specific nucleotide composition, e.g. GC-rich DNA binding, or with a specific sequence motif or type of DNA e.g. promotor binding or rDNA binding."
+    },
+    "synonyms": [
+     {
+      "name": "sequence specific DNA binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0042162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008327",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110001",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1990837",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045322",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0141094",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098847",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0086004",
+    "isObsolete": false,
+    "name": "regulation of cardiac muscle cell contraction",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of cardiac muscle cell contraction."
+    },
+    "children": [
+     {
+      "id": "GO:0098909",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098911",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098910",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106135",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042060",
+    "isObsolete": false,
+    "name": "wound healing",
+    "definition": {
+     "text": "The series of events that restore integrity to a damaged tissue, following an injury.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "15269788"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0042381",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060054",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001778",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035314",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060055",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090505",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090303",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0002246",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061041",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1990110",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007596",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061045",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0055007",
+    "isObsolete": false,
+    "name": "cardiac muscle cell differentiation",
+    "definition": {
+     "text": "The process in which a cardiac muscle precursor cell acquires specialized features of a cardiac muscle cell. Cardiac muscle cells are striated muscle cells that are responsible for heart contraction."
+    },
+    "synonyms": [
+     {
+      "name": "cardiomyocyte differentiation",
+      "type": "exact"
+     },
+     {
+      "name": "heart muscle cell differentiation",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2000726",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0055013",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0055011",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055012",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000727",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0060932",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000725",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0060923",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060920",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043066",
+    "isObsolete": false,
+    "name": "negative regulation of apoptotic process",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of cell death by apoptotic process."
+    },
+    "comment": "This term should only be used when it is not possible to determine which phase or subtype of the apoptotic process is negatively regulated by a gene product. Whenever detailed information is available, the more granular children terms should be used.",
+    "synonyms": [
+     {
+      "name": "anti-apoptosis",
+      "type": "exact"
+     },
+     {
+      "name": "apoptosis inhibitor activity",
+      "type": "related"
+     },
+     {
+      "name": "down regulation of apoptosis",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of apoptosis",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of apoptosis",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of apoptosis",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of apoptosis",
+      "type": "narrow"
+     },
+     {
+      "name": "pro-survival",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2001234",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043524",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010656",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034351",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033033",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000352",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001054",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904036",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900118",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044336",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:2000107",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000270",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901693",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000811",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904746",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990713",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:1904650",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1905204",
+    "isObsolete": false,
+    "name": "negative regulation of connective tissue replacement",
+    "definition": {
+     "text": "Any process that stops, prevents or reduces the frequency, rate or extent of connective tissue replacement.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000058"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "25590961"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of connective tissue replacement",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of connective tissue replacement",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of connective tissue replacement",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of connective tissue replacement",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1904597",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0061049",
+    "isObsolete": false,
+    "name": "cell growth involved in cardiac muscle cell development",
+    "definition": {
+     "text": "The growth of a cardiac muscle cell, where growth contributes to the progression of the cell over time from its initial formation to its mature state."
+    },
+    "synonyms": [
+     {
+      "name": "cardiac muscle cell hypertrophy",
+      "type": "related"
+     },
+     {
+      "name": "cardiomyocyte growth",
+      "type": "related"
+     },
+     {
+      "name": "heart muscle cell growth",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0061051",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0061052",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0061050",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0061026",
+    "isObsolete": false,
+    "name": "cardiac muscle tissue regeneration",
+    "definition": {
+     "text": "The regrowth of cardiac muscle tissue to repair injured or damaged muscle fibers in the postnatal stage."
+    },
+    "children": [
+     {
+      "id": "GO:1905179",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1905180",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1905178",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0090575",
+    "isObsolete": false,
+    "name": "RNA polymerase II transcription regulator complex",
+    "definition": {
+     "text": "A transcription factor complex that acts at a regulatory region of a gene transcribed by RNA polymerase II."
+    },
+    "synonyms": [
+     {
+      "name": "RNA polymerase II transcription factor complex",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0008230",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990378",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030232",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036488",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062071",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070847",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070514",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035976",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990664",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990433",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990647",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030907",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005669",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070721",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089716",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071144",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990589",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990907",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990617",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000439",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032444",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990590",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071943",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016513",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033309",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140552",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070985",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005674",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005673",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990513",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005672",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034718",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051525",
+    "isObsolete": false,
+    "name": "NFAT protein binding",
+    "definition": {
+     "text": "Binding to NFAT (nuclear factor of activated T cells) proteins, a family of transcription factors. NFAT proteins have crucial roles in the development and function of the immune system.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "15928679"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "NFAT1 protein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "NFAT2 protein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "NFAT3 protein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "NFAT4 protein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "NFAT5 protein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "NFAT binding",
+      "type": "exact"
+     },
+     {
+      "name": "NFATc1 binding",
+      "type": "narrow"
+     },
+     {
+      "name": "NFATc2 binding",
+      "type": "narrow"
+     },
+     {
+      "name": "NFATc3 binding",
+      "type": "narrow"
+     },
+     {
+      "name": "NFATc4 binding",
+      "type": "narrow"
+     },
+     {
+      "name": "NFATc binding",
+      "type": "narrow"
+     },
+     {
+      "name": "NFATp binding",
+      "type": "narrow"
+     },
+     {
+      "name": "NFATx binding",
+      "type": "narrow"
+     },
+     {
+      "name": "non-calcium-regulated NFAT protein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "nuclear factor of activated T cell protein binding",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060413",
+    "isObsolete": false,
+    "name": "atrial septum morphogenesis",
+    "definition": {
+     "text": "The developmental process in which atrial septum is generated and organized. The atrial septum separates the upper chambers (the atria) of the heart from one another."
+    },
+    "synonyms": [
+     {
+      "name": "interatrial septum morphogenesis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0003289",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003290",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003291",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045766",
+    "isObsolete": false,
+    "name": "positive regulation of angiogenesis",
+    "definition": {
+     "text": "Any process that activates or increases angiogenesis."
+    },
+    "synonyms": [
+     {
+      "name": "activation of angiogenesis",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of angiogenesis",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of angiogenesis",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of angiogenesis",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of angiogenesis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1903672",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905555",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035470",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045787",
+    "isObsolete": false,
+    "name": "positive regulation of cell cycle",
+    "definition": {
+     "text": "Any process that activates or increases the rate or extent of progression through the cell cycle."
+    },
+    "synonyms": [
+     {
+      "name": "activation of progression through cell cycle",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of cell cycle progression",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of progression through cell cycle",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of progression through cell cycle",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of progression through cell cycle",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of progression through cell cycle",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of progression through cell cycle",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0045931",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051446",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090068",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045737",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045944",
+    "isObsolete": false,
+    "name": "positive regulation of transcription by RNA polymerase II",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of transcription from an RNA polymerase II promoter."
+    },
+    "synonyms": [
+     {
+      "name": "activation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "activation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of gene-specific transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of global transcription from Pol II promoter",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of transcription from Pol II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of transcription from RNA polymerase II promoter, global",
+      "type": "related"
+     },
+     {
+      "name": "stimulation of global transcription from RNA polymerase II promoter",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "up regulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "up-regulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "upregulation of global transcription from RNA polymerase II promoter",
+      "type": "related"
+     },
+     {
+      "name": "up regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of transcription from RNA polymerase II promoter",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060261",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900461",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001228",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990647",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0007221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990469",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:1905382",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060963",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110016",
+      "relation": "capable_of_part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045893",
+    "isObsolete": false,
+    "name": "positive regulation of DNA-templated transcription",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of cellular DNA-templated transcription."
+    },
+    "synonyms": [
+     {
+      "name": "activation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "activation of transcription, DNA-dependent",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of cellular transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of transcription, DNA-templated",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of gene-specific transcription",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of transcription, DNA-dependent",
+      "type": "narrow"
+     },
+     {
+      "name": "transcription activator activity",
+      "type": "related"
+     },
+     {
+      "name": "up regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "up-regulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "upregulation of gene-specific transcription",
+      "type": "related"
+     },
+     {
+      "name": "up regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of transcription, DNA-dependent",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of transcription, DNA-dependent",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0045945",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001070",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045944",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043856",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045943",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140543",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003713",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045895",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060566",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903109",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060196",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000144",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061435",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001216",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045991",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904281",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902895",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032786",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990513",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0061586",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060575",
+    "isObsolete": false,
+    "name": "intestinal epithelial cell differentiation",
+    "definition": {
+     "text": "The process in which a relatively unspecialized cell acquires specialized features of a columnar/cuboidal epithelial cell of the intestine."
+    },
+    "children": [
+     {
+      "id": "GO:0061453",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903703",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060576",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:7770024",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770023",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770022",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045165",
+    "isObsolete": false,
+    "name": "cell fate commitment",
+    "definition": {
+     "text": "The cellular developmental process by which a cell establishes the intrinsic character of a cell or tissue region irreversibly committing it to a particular fate.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0716731185"
+      }
+     ]
+    },
+    "comment": "Note that this term was 'cell fate determination' but the term name was changed to better match its existing definition and the child term 'cell fate determination; GO:0001709' was also created.",
+    "children": [
+     {
+      "id": "GO:0072154",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002360",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072153",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001709",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001708",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0010454",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0072151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048663",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072150",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060795",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090106",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010654",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014017",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007445",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048625",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002326",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002051",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048600",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021781",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060911",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070308",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045168",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0014813",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010453",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0072148",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055059",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072146",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001827",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042693",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002680",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021887",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010377",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010455",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0060581",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035854",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048865",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090377",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001830",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0035054",
+    "isObsolete": false,
+    "name": "embryonic heart tube anterior/posterior pattern specification",
+    "definition": {
+     "text": "The establishment, maintenance and elaboration of cell differentiation that results in the anterior/posterior subdivision of the embryonic heart tube. In Drosophila this results in subdivision of the dorsal vessel into to the posterior heart proper and the anterior aorta.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "12435360"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0035053",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035052",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0070410",
+    "isObsolete": false,
+    "name": "co-SMAD binding",
+    "definition": {
+     "text": "Binding to a common mediator SMAD signaling protein.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "19114992"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "common mediator SMAD binding",
+      "type": "exact"
+     },
+     {
+      "name": "common-mediator SMAD binding",
+      "type": "exact"
+     },
+     {
+      "name": "common partner SMAD binding",
+      "type": "exact"
+     },
+     {
+      "name": "common-partner SMAD binding",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060290",
+    "isObsolete": false,
+    "name": "transdifferentiation",
+    "definition": {
+     "text": "The conversion of a differentiated cell of one fate into a differentiated cell of another fate without first undergoing cell division or reversion to a more primitive or stem cell-like fate."
+    },
+    "children": [
+     {
+      "id": "GO:1903618",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1903619",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1903620",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0061629",
+    "isObsolete": false,
+    "name": "RNA polymerase II-specific DNA-binding transcription factor binding",
+    "definition": {
+     "text": "Binding to a sequence-specific DNA binding RNA polymerase II transcription factor, any of the factors that interact selectively and non-covalently with a specific DNA sequence in order to modulate transcription."
+    },
+    "synonyms": [
+     {
+      "name": "RNA polymerase II activating transcription factor binding",
+      "type": "related"
+     },
+     {
+      "name": "RNA polymerase II repressing transcription factor binding",
+      "type": "related"
+     },
+     {
+      "name": "RNA polymerase II sequence-specific DNA binding transcription factor binding",
+      "type": "exact"
+     },
+     {
+      "name": "RNA polymerase II sequence-specific DNA-binding transcription factor binding",
+      "type": "exact"
+     },
+     {
+      "name": "RNA polymerase II transcription factor binding",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0097677",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030957",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051525",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051059",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016922",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0048617",
+    "isObsolete": false,
+    "name": "embryonic foregut morphogenesis",
+    "definition": {
+     "text": "The process in which the anatomical structures of the foregut are generated and organized, during the embryonic phase."
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071333",
+    "isObsolete": false,
+    "name": "cellular response to glucose stimulus",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a glucose stimulus."
+    },
+    "children": [
+     {
+      "id": "GO:0010255",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035773",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1902895",
+    "isObsolete": false,
+    "name": "positive regulation of miRNA transcription",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of microRNA (miRNA) gene transcription.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000058"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "24699545"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "activation of pri-miRNA transcription from RNA polymerase II promoter",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of microRNA gene transcription",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of primary miRNA gene transcription",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of pri-miRNA gene transcription",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of pri-miRNA transcription by RNA polymerase II",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of pri-miRNA transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "up regulation of pri-miRNA transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of pri-miRNA transcription from RNA polymerase II promoter",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of pri-miRNA transcription from RNA polymerase II promoter",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:2001234",
+    "isObsolete": false,
+    "name": "negative regulation of apoptotic signaling pathway",
+    "definition": {
+     "text": "Any process that stops, prevents or reduces the frequency, rate or extent of apoptotic signaling pathway."
+    },
+    "synonyms": [
+     {
+      "name": "negative regulation of apoptotic signalling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2001237",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901029",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001243",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090201",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905101",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0036302",
+    "isObsolete": false,
+    "name": "atrioventricular canal development",
+    "definition": {
+     "text": "The progression of the atrioventricular canal over time, from its formation to the mature structure. The atrioventricular canal is the part of the heart connecting the atrium to the cardiac ventricle.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "14701881"
+      },
+      {
+       "dbCode": "UBERON",
+       "dbId": "0002087"
+      },
+      {
+       "dbCode": "ZFA",
+       "dbId": "0001315"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:1905222",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1990837",
+    "isObsolete": false,
+    "name": "sequence-specific double-stranded DNA binding",
+    "definition": {
+     "text": "Binding to double-stranded DNA of a specific nucleotide composition, e.g. GC-rich DNA binding, or with a specific sequence motif or type of DNA, e.g. promotor binding or rDNA binding."
+    },
+    "synonyms": [
+     {
+      "name": "sequence-specific dsDNA binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0071443",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003688",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990470",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003696",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031634",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000976",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003693",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044374",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0141180",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019237",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1902176",
+    "isObsolete": false,
+    "name": "negative regulation of oxidative stress-induced intrinsic apoptotic signaling pathway",
+    "definition": {
+     "text": "Any process that stops, prevents or reduces the frequency, rate or extent of an oxidative stress-induced intrinsic apoptotic signaling pathway.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "11672522"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of intrinsic apoptotic signaling pathway in response to oxidative stress",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of intrinsic apoptotic signaling pathway in response to oxidative stress",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of intrinsic apoptotic signaling pathway in response to oxidative stress",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of intrinsic apoptotic signaling pathway in response to oxidative stress",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of intrinsic apoptotic signaling pathway in response to oxidative stress",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1903751",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903377",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0140297",
+    "isObsolete": false,
+    "name": "DNA-binding transcription factor binding",
+    "definition": {
+     "text": "Binding to a DNA-binding transcription factor, a protein that interacts with a specific DNA sequence (sometimes referred to as a motif) within the regulatory region of a gene to modulate transcription."
+    },
+    "synonyms": [
+     {
+      "name": "activating transcription factor binding",
+      "type": "related"
+     },
+     {
+      "name": "repressing transcription factor binding",
+      "type": "related"
+     },
+     {
+      "name": "transcription activator binding",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0043425",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008140",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061629",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}
