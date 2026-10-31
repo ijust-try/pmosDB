@@ -1,17 +1,39 @@
-import { CheckCircle2, CircleDashed, ExternalLink, Server } from 'lucide-react';
+import { CheckCircle2, CircleDashed, ExternalLink } from 'lucide-react';
 import { PageContainer } from '../components/layout/AppShell';
 import { StatusPill, TypeBadge } from '../components/ui/Badges';
-import { DemoNotice, PageHeader, SectionTitle } from '../components/ui/PageHeader';
+import { DemoNotice, PageHeader } from '../components/ui/PageHeader';
 import { AsyncBoundary, LoadingRows } from '../components/ui/States';
 import { useAsync } from '../hooks/useAsync';
-import { apiConfig } from '../services/api.config';
-import { getDataSourceStatus, getDatasetStatus } from '../services/repository';
+import { getDataSourceStatus, getDatasetStatus, getSyncStatus } from '../services/repository';
 
 const CHECKS = ['Schema mapping', 'Identifier validation', 'Scheduled synchronisation'];
+
+/** Date-only values (a harvest day) stay dates; full timestamps are shown in IST. */
+function formatIst(iso: string): string {
+  if (iso.length === 10) {
+    return new Date(iso).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
+  }
+  const text = new Date(iso).toLocaleString('en-IN', {
+    timeZone: 'Asia/Kolkata',
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+  });
+  return `${text} IST`;
+}
+
+const OUTCOME_LABEL: Record<string, string> = {
+  synced: 'Synchronised: new data pulled',
+  checked: 'Checked: no new upstream release',
+  'rebuilt-from-cache': 'Rebuilt from cached data',
+};
 
 export default function SourcesPage() {
   const sources = useAsync(() => getDataSourceStatus(), []);
   const status = useAsync(() => getDatasetStatus(), []);
+  const sync = useAsync(() => getSyncStatus(), []);
   const isLive = status.data?.mode === 'live';
 
   return (
@@ -26,8 +48,8 @@ export default function SourcesPage() {
           <div className="flex items-start gap-2.5 rounded-lg border border-sage/25 bg-sage-soft/60 px-3.5 py-2.5 text-[12.5px] leading-relaxed text-sage">
             <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-sage" aria-hidden />
             <p>
-              The local PMOS API is connected and serving the FK-stitched relational database. "Connected" below means records from
-              that source were ingested by Person A and cross-referenced into relationships by Person B.
+              Records shown across PMOS are drawn from the public databases below. "Connected" means records from that source have
+              been ingested and cross-referenced into relationships.
             </p>
           </div>
         ) : (
@@ -37,6 +59,43 @@ export default function SourcesPage() {
           </DemoNotice>
         )}
       </div>
+
+      {sync.data && (
+        <section className="panel mb-6 p-5" aria-label="Automatic synchronisation">
+          <p className="eyebrow mb-3">Automatic synchronisation</p>
+          <dl className="grid gap-x-8 gap-y-2 text-[13px] sm:grid-cols-2">
+            <div className="flex gap-2">
+              <dt className="w-28 shrink-0 text-ink-mute">Schedule</dt>
+              <dd className="font-semibold text-ink">{sync.data.schedule}</dd>
+            </div>
+            <div className="flex gap-2">
+              <dt className="w-28 shrink-0 text-ink-mute">Next run</dt>
+              <dd className="font-mono text-ink">{formatIst(sync.data.nextRun)}</dd>
+            </div>
+            <div className="flex gap-2">
+              <dt className="w-28 shrink-0 text-ink-mute">Last checked</dt>
+              <dd className="font-mono text-ink">{sync.data.lastChecked ? formatIst(sync.data.lastChecked) : 'Not yet'}</dd>
+            </div>
+            <div className="flex gap-2">
+              <dt className="w-28 shrink-0 text-ink-mute">Last synchronised</dt>
+              <dd className="font-mono text-ink">{sync.data.lastSynced ? formatIst(sync.data.lastSynced) : 'Not yet'}</dd>
+            </div>
+            {sync.data.lastOutcome && (
+              <div className="flex gap-2 sm:col-span-2">
+                <dt className="w-28 shrink-0 text-ink-mute">Last result</dt>
+                <dd className="text-ink-soft">
+                  {OUTCOME_LABEL[sync.data.lastOutcome] ?? sync.data.lastOutcome}
+                  {sync.data.lastReason ? ` (${sync.data.lastReason})` : ''}
+                </dd>
+              </div>
+            )}
+          </dl>
+          <p className="mt-3 text-[12px] leading-relaxed text-ink-mute">
+            Each run checks the upstream releases of UniProt, Reactome and Open Targets. New data is pulled from all sources when any
+            of them has published a new release, or when the last full synchronisation is over four weeks old.
+          </p>
+        </section>
+      )}
 
       <AsyncBoundary state={sources} loading={<LoadingRows rows={5} />}>
         {(list) => (
@@ -62,9 +121,15 @@ export default function SourcesPage() {
                   <div className="flex gap-2">
                     <dt className="w-28 shrink-0 text-ink-mute">Last synchronised</dt>
                     <dd className={s.lastSync ? 'font-mono text-ink' : 'italic text-ink-faint'}>
-                      {s.lastSync ? new Date(s.lastSync).toLocaleString() : 'Never synchronised'}
+                      {s.lastSync ? formatIst(s.lastSync) : 'Never synchronised'}
                     </dd>
                   </div>
+                  {s.version && (
+                    <div className="flex gap-2">
+                      <dt className="w-28 shrink-0 text-ink-mute">Upstream version</dt>
+                      <dd className="font-mono text-ink">{s.version}</dd>
+                    </div>
+                  )}
                   <div className="flex gap-2">
                     <dt className="w-28 shrink-0 text-ink-mute">Validation note</dt>
                     <dd className="text-ink-soft">{s.validationNote}</dd>
@@ -75,7 +140,7 @@ export default function SourcesPage() {
                   <p className="eyebrow mb-2">Integration &amp; validation</p>
                   <ul className="space-y-1">
                     {CHECKS.map((c) =>
-                      isLive ? (
+                      isLive && (c !== 'Scheduled synchronisation' || sync.data) ? (
                         <li key={c} className="flex items-center gap-2 text-[12.5px] text-ink-soft">
                           <CheckCircle2 size={13} className="text-sage" aria-hidden /> {c}
                           <span className="ml-auto text-[11px] text-sage">Done</span>
@@ -99,31 +164,6 @@ export default function SourcesPage() {
         )}
       </AsyncBoundary>
 
-      <section className="mt-12">
-        <SectionTitle eyebrow="Backend" title="Connection settings" />
-        <div className="panel grid gap-5 p-5 md:grid-cols-[auto_1fr]">
-          <div className="grid h-11 w-11 place-items-center rounded-lg bg-midnight text-teal-bright">
-            <Server size={20} aria-hidden />
-          </div>
-          <div>
-            <dl className="grid gap-x-8 gap-y-1.5 text-[13px] sm:grid-cols-2">
-              <div className="flex gap-2">
-                <dt className="w-24 text-ink-mute">Mode</dt>
-                <dd className="font-semibold">{status.data?.label ?? '…'}</dd>
-              </div>
-              <div className="flex gap-2">
-                <dt className="w-24 text-ink-mute">API base URL</dt>
-                <dd className="font-mono text-[12.5px]">{apiConfig.baseUrl}</dd>
-              </div>
-            </dl>
-            <p className="mt-3 max-w-2xl text-[12.5px] leading-relaxed text-ink-mute">
-              To connect the real backend, set <code className="font-mono text-ink-soft">VITE_USE_MOCK=false</code> and{' '}
-              <code className="font-mono text-ink-soft">VITE_API_BASE_URL</code> in <code className="font-mono text-ink-soft">.env</code>, then adapt
-              <code className="font-mono text-ink-soft"> src/services/normalisers.ts</code>. See the README for the full integration guide.
-            </p>
-          </div>
-        </div>
-      </section>
     </PageContainer>
   );
 }

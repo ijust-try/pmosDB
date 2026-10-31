@@ -3,7 +3,7 @@
  "query": "R-HSA-74751",
  "url": "https://reactome.org/ContentService/data/query/R-HSA-74751",
  "params": null,
- "retrieved_at": "2026-10-12T09:20:00+00:00",
+ "retrieved_at": "2026-10-31T04:35:15+00:00",
  "response": {
   "dbId": 74751,
   "displayName": "Insulin receptor signalling cascade",
@@ -19,7 +19,7 @@
   "speciesName": "Homo sapiens",
   "crossReference": [
    {
-    "dbId": 12829192,
+    "dbId": 12849282,
     "displayName": "BioModels Database:BIOMD0000000448",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000448",
@@ -28,7 +28,7 @@
     "schemaClass": "DatabaseIdentifier"
    },
    {
-    "dbId": 12829190,
+    "dbId": 12849280,
     "displayName": "BioModels Database:BIOMD0000000449",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000449",
@@ -37,7 +37,7 @@
     "schemaClass": "DatabaseIdentifier"
    },
    {
-    "dbId": 12829162,
+    "dbId": 12849252,
     "displayName": "BioModels Database:BIOMD0000000356",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000356",
@@ -46,7 +46,7 @@
     "schemaClass": "DatabaseIdentifier"
    },
    {
-    "dbId": 12829022,
+    "dbId": 12849112,
     "displayName": "BioModels Database:BIOMD0000000468",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000468",
@@ -61,7 +61,7 @@
     "displayName": "cytosol",
     "accession": "0005829",
     "databaseName": "GO",
-    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
     "name": "cytosol",
     "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
     "className": "Compartment",
@@ -107,196 +107,7 @@
   ],
   "orthologousEvent": [
    {
-    "dbId": 10228442,
-    "displayName": "Insulin receptor signalling cascade",
-    "stId": "R-RNO-74751",
-    "stIdVersion": "R-RNO-74751.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "Insulin receptor signalling cascade"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Rattus norvegicus",
-    "inferredFrom": [
-     74751
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11136468,
-    "displayName": "Insulin receptor signalling cascade",
-    "stId": "R-PFA-74751",
-    "stIdVersion": "R-PFA-74751.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "Insulin receptor signalling cascade"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Plasmodium falciparum",
-    "inferredFrom": [
-     74751
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11115084,
-    "displayName": "Insulin receptor signalling cascade",
-    "stId": "R-SCE-74751",
-    "stIdVersion": "R-SCE-74751.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "Insulin receptor signalling cascade"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Saccharomyces cerevisiae",
-    "inferredFrom": [
-     74751
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11086658,
-    "displayName": "Insulin receptor signalling cascade",
-    "stId": "R-SPO-74751",
-    "stIdVersion": "R-SPO-74751.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 5,
-    "name": [
-     "Insulin receptor signalling cascade"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Schizosaccharomyces pombe",
-    "inferredFrom": [
-     74751
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11057240,
-    "displayName": "Insulin receptor signalling cascade",
-    "stId": "R-DDI-74751",
-    "stIdVersion": "R-DDI-74751.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "Insulin receptor signalling cascade"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Dictyostelium discoideum",
-    "inferredFrom": [
-     74751
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11001697,
-    "displayName": "Insulin receptor signalling cascade",
-    "stId": "R-CEL-74751",
-    "stIdVersion": "R-CEL-74751.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "Insulin receptor signalling cascade"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Caenorhabditis elegans",
-    "inferredFrom": [
-     74751
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10918599,
-    "displayName": "Insulin receptor signalling cascade",
-    "stId": "R-DME-74751",
-    "stIdVersion": "R-DME-74751.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 5,
-    "name": [
-     "Insulin receptor signalling cascade"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Drosophila melanogaster",
-    "inferredFrom": [
-     74751
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10833030,
-    "displayName": "Insulin receptor signalling cascade",
-    "stId": "R-GGA-74751",
-    "stIdVersion": "R-GGA-74751.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "Insulin receptor signalling cascade"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Gallus gallus",
-    "inferredFrom": [
-     74751
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10735992,
-    "displayName": "Insulin receptor signalling cascade",
-    "stId": "R-XTR-74751",
-    "stIdVersion": "R-XTR-74751.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "Insulin receptor signalling cascade"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Xenopus tropicalis",
-    "inferredFrom": [
-     74751
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10654862,
+    "dbId": 10686974,
     "displayName": "Insulin receptor signalling cascade",
     "stId": "R-DRE-74751",
     "stIdVersion": "R-DRE-74751.1",
@@ -306,7 +117,7 @@
     "name": [
      "Insulin receptor signalling cascade"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Danio rerio",
     "inferredFrom": [
      74751
@@ -317,7 +128,175 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10562751,
+    "dbId": 11170822,
+    "displayName": "Insulin receptor signalling cascade",
+    "stId": "R-PFA-74751",
+    "stIdVersion": "R-PFA-74751.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "Insulin receptor signalling cascade"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     74751
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11149264,
+    "displayName": "Insulin receptor signalling cascade",
+    "stId": "R-SCE-74751",
+    "stIdVersion": "R-SCE-74751.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "Insulin receptor signalling cascade"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     74751
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11120679,
+    "displayName": "Insulin receptor signalling cascade",
+    "stId": "R-SPO-74751",
+    "stIdVersion": "R-SPO-74751.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 5,
+    "name": [
+     "Insulin receptor signalling cascade"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     74751
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11091079,
+    "displayName": "Insulin receptor signalling cascade",
+    "stId": "R-DDI-74751",
+    "stIdVersion": "R-DDI-74751.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "Insulin receptor signalling cascade"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     74751
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11035238,
+    "displayName": "Insulin receptor signalling cascade",
+    "stId": "R-CEL-74751",
+    "stIdVersion": "R-CEL-74751.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "Insulin receptor signalling cascade"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     74751
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10951877,
+    "displayName": "Insulin receptor signalling cascade",
+    "stId": "R-DME-74751",
+    "stIdVersion": "R-DME-74751.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 5,
+    "name": [
+     "Insulin receptor signalling cascade"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     74751
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10865931,
+    "displayName": "Insulin receptor signalling cascade",
+    "stId": "R-GGA-74751",
+    "stIdVersion": "R-GGA-74751.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "Insulin receptor signalling cascade"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     74751
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10768335,
+    "displayName": "Insulin receptor signalling cascade",
+    "stId": "R-XTR-74751",
+    "stIdVersion": "R-XTR-74751.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "Insulin receptor signalling cascade"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     74751
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10594414,
     "displayName": "Insulin receptor signalling cascade",
     "stId": "R-SSC-74751",
     "stIdVersion": "R-SSC-74751.1",
@@ -327,7 +306,7 @@
     "name": [
      "Insulin receptor signalling cascade"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Sus scrofa",
     "inferredFrom": [
      74751
@@ -338,7 +317,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10449755,
+    "dbId": 10481055,
     "displayName": "Insulin receptor signalling cascade",
     "stId": "R-BTA-74751",
     "stIdVersion": "R-BTA-74751.1",
@@ -348,7 +327,7 @@
     "name": [
      "Insulin receptor signalling cascade"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Bos taurus",
     "inferredFrom": [
      74751
@@ -359,7 +338,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10335275,
+    "dbId": 10366237,
     "displayName": "Insulin receptor signalling cascade",
     "stId": "R-CFA-74751",
     "stIdVersion": "R-CFA-74751.1",
@@ -369,7 +348,7 @@
     "name": [
      "Insulin receptor signalling cascade"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Canis familiaris",
     "inferredFrom": [
      74751
@@ -380,7 +359,28 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10104666,
+    "dbId": 10258924,
+    "displayName": "Insulin receptor signalling cascade",
+    "stId": "R-RNO-74751",
+    "stIdVersion": "R-RNO-74751.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "Insulin receptor signalling cascade"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     74751
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10117596,
     "displayName": "Insulin receptor signalling cascade",
     "stId": "R-MMU-74751",
     "stIdVersion": "R-MMU-74751.1",
@@ -390,7 +390,7 @@
     "name": [
      "Insulin receptor signalling cascade"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Mus musculus",
     "inferredFrom": [
      74751

@@ -3,7 +3,7 @@
  "query": "MONDO_0008487_p4",
  "url": "https://api.platform.opentargets.org/api/v4/graphql",
  "params": null,
- "retrieved_at": "2026-10-12T09:18:50+00:00",
+ "retrieved_at": "2026-10-31T04:33:35+00:00",
  "response": {
   "data": {
    "disease": {
@@ -406,6 +406,13 @@
       },
       {
        "target": {
+        "id": "ENSG00000155313",
+        "approvedSymbol": "USP25"
+       },
+       "score": 0.07483992057365212
+      },
+      {
+       "target": {
         "id": "ENSG00000095303",
         "approvedSymbol": "PTGS1"
        },
@@ -415,13 +422,6 @@
        "target": {
         "id": "ENSG00000203875",
         "approvedSymbol": "SNHG5"
-       },
-       "score": 0.07483992057365212
-      },
-      {
-       "target": {
-        "id": "ENSG00000155313",
-        "approvedSymbol": "USP25"
        },
        "score": 0.07483992057365212
       },
@@ -476,13 +476,6 @@
       },
       {
        "target": {
-        "id": "ENSG00000131504",
-        "approvedSymbol": "DIAPH1"
-       },
-       "score": 0.07428555079162505
-      },
-      {
-       "target": {
         "id": "ENSG00000162298",
         "approvedSymbol": "SYVN1"
        },
@@ -504,6 +497,13 @@
       },
       {
        "target": {
+        "id": "ENSG00000131504",
+        "approvedSymbol": "DIAPH1"
+       },
+       "score": 0.07428555079162505
+      },
+      {
+       "target": {
         "id": "ENSG00000137714",
         "approvedSymbol": "FDX1"
        },
@@ -515,90 +515,6 @@
         "approvedSymbol": "C5"
        },
        "score": 0.07397022207501977
-      },
-      {
-       "target": {
-        "id": "ENSG00000148248",
-        "approvedSymbol": "SURF4"
-       },
-       "score": 0.07391597093694036
-      },
-      {
-       "target": {
-        "id": "ENSG00000115252",
-        "approvedSymbol": "PDE1A"
-       },
-       "score": 0.07391597093694036
-      },
-      {
-       "target": {
-        "id": "ENSG00000139899",
-        "approvedSymbol": "CBLN3"
-       },
-       "score": 0.07391597093694036
-      },
-      {
-       "target": {
-        "id": "ENSG00000139053",
-        "approvedSymbol": "PDE6H"
-       },
-       "score": 0.07391597093694036
-      },
-      {
-       "target": {
-        "id": "ENSG00000168140",
-        "approvedSymbol": "VASN"
-       },
-       "score": 0.07391597093694036
-      },
-      {
-       "target": {
-        "id": "ENSG00000135766",
-        "approvedSymbol": "EGLN1"
-       },
-       "score": 0.07391597093694036
-      },
-      {
-       "target": {
-        "id": "ENSG00000129151",
-        "approvedSymbol": "BBOX1"
-       },
-       "score": 0.07391597093694036
-      },
-      {
-       "target": {
-        "id": "ENSG00000123360",
-        "approvedSymbol": "PDE1B"
-       },
-       "score": 0.07391597093694036
-      },
-      {
-       "target": {
-        "id": "ENSG00000128271",
-        "approvedSymbol": "ADORA2A"
-       },
-       "score": 0.07391597093694036
-      },
-      {
-       "target": {
-        "id": "ENSG00000111674",
-        "approvedSymbol": "ENO2"
-       },
-       "score": 0.07391597093694036
-      },
-      {
-       "target": {
-        "id": "ENSG00000160191",
-        "approvedSymbol": "PDE9A"
-       },
-       "score": 0.07391597093694036
-      },
-      {
-       "target": {
-        "id": "ENSG00000171408",
-        "approvedSymbol": "PDE7B"
-       },
-       "score": 0.07391597093694036
       },
       {
        "target": {
@@ -644,6 +560,69 @@
       },
       {
        "target": {
+        "id": "ENSG00000138735",
+        "approvedSymbol": "PDE5A"
+       },
+       "score": 0.07391597093694036
+      },
+      {
+       "target": {
+        "id": "ENSG00000185527",
+        "approvedSymbol": "PDE6G"
+       },
+       "score": 0.07391597093694036
+      },
+      {
+       "target": {
+        "id": "ENSG00000113231",
+        "approvedSymbol": "PDE8B"
+       },
+       "score": 0.07391597093694036
+      },
+      {
+       "target": {
+        "id": "ENSG00000148248",
+        "approvedSymbol": "SURF4"
+       },
+       "score": 0.07391597093694036
+      },
+      {
+       "target": {
+        "id": "ENSG00000115252",
+        "approvedSymbol": "PDE1A"
+       },
+       "score": 0.07391597093694036
+      },
+      {
+       "target": {
+        "id": "ENSG00000139899",
+        "approvedSymbol": "CBLN3"
+       },
+       "score": 0.07391597093694036
+      },
+      {
+       "target": {
+        "id": "ENSG00000139053",
+        "approvedSymbol": "PDE6H"
+       },
+       "score": 0.07391597093694036
+      },
+      {
+       "target": {
+        "id": "ENSG00000168140",
+        "approvedSymbol": "VASN"
+       },
+       "score": 0.07391597093694036
+      },
+      {
+       "target": {
+        "id": "ENSG00000135766",
+        "approvedSymbol": "EGLN1"
+       },
+       "score": 0.07391597093694036
+      },
+      {
+       "target": {
         "id": "ENSG00000156973",
         "approvedSymbol": "PDE6D"
        },
@@ -660,6 +639,48 @@
        "target": {
         "id": "ENSG00000145244",
         "approvedSymbol": "CORIN"
+       },
+       "score": 0.07391597093694036
+      },
+      {
+       "target": {
+        "id": "ENSG00000110243",
+        "approvedSymbol": "APOA5"
+       },
+       "score": 0.07391597093694036
+      },
+      {
+       "target": {
+        "id": "ENSG00000154678",
+        "approvedSymbol": "PDE1C"
+       },
+       "score": 0.07391597093694036
+      },
+      {
+       "target": {
+        "id": "ENSG00000184588",
+        "approvedSymbol": "PDE4B"
+       },
+       "score": 0.07391597093694036
+      },
+      {
+       "target": {
+        "id": "ENSG00000105650",
+        "approvedSymbol": "PDE4C"
+       },
+       "score": 0.07391597093694036
+      },
+      {
+       "target": {
+        "id": "ENSG00000152270",
+        "approvedSymbol": "PDE3B"
+       },
+       "score": 0.07391597093694036
+      },
+      {
+       "target": {
+        "id": "ENSG00000170385",
+        "approvedSymbol": "SLC30A1"
        },
        "score": 0.07391597093694036
       },
@@ -688,27 +709,6 @@
        "target": {
         "id": "ENSG00000182333",
         "approvedSymbol": "LIPF"
-       },
-       "score": 0.07391597093694036
-      },
-      {
-       "target": {
-        "id": "ENSG00000110243",
-        "approvedSymbol": "APOA5"
-       },
-       "score": 0.07391597093694036
-      },
-      {
-       "target": {
-        "id": "ENSG00000154678",
-        "approvedSymbol": "PDE1C"
-       },
-       "score": 0.07391597093694036
-      },
-      {
-       "target": {
-        "id": "ENSG00000184588",
-        "approvedSymbol": "PDE4B"
        },
        "score": 0.07391597093694036
       }

@@ -16,12 +16,14 @@ each with real `FOREIGN KEY` constraints back to Person A's tables:
 | `gene_pcos_association` | gene ↔ PCOS (process) | `data/clean/open_targets_pcos.csv`, filtered to genes already in `genes` |
 | `biomarker_protein_link` | biomarker ↔ protein | `biomarkers.uniprot_accession` = `proteins.protein_id` |
 | `hormone_protein_link` | hormone ↔ protein | `hormones.uniprot_accession` = `proteins.protein_id` |
-| `therapeutic_target_candidate` | drug ↔ gene | regex match of gene symbol/name in `therapeutics.mechanism` text |
+| `therapeutic_target` | drug ↔ gene | curated mechanism-of-action targets from Open Targets (ChEMBL), harvested by `sync/` |
 
-Everything except `therapeutic_target_candidate` is a verified join (`RelationStatus =
-'project-document'`). The text-matched drug-target candidates are flagged
-`'demo-unvalidated'` — they're a lead, not a curated fact — and carry a `note` with the
-exact matched snippet so a reviewer can check it.
+Every join is sourced (`RelationStatus = 'project-document'`). Drug → gene `targets` edges
+come only from Open Targets mechanism-of-action records (curated by ChEMBL); the earlier
+regex match on mechanism text has been removed. Each edge's `note` carries the mechanism
+and the ChEMBL id. Pathways, hormones, processes and publications shown for a drug or
+pathway are derived in the frontend by following these edges (gene → protein → pathway);
+they are not stored as separate edges.
 
 Run it standalone to (re)build the tables without starting the server:
 
@@ -73,6 +75,7 @@ hardcoded in `pmos-biograph`'s `src/data/mock.ts` (`DEFAULT_GRAPH_FOCUS =
 - `open_targets_pcos.csv` has 500 genes; only the 36 already curated into `genes` get a
   `gene_pcos_association` row and therefore a graph edge. The other 464 are not
   fabricated into `Gene` entities.
-- Therapeutics have no curated target-gene column from Person A, so `targets` edges are
-  text-derived candidates only (see table above) — check `note` before treating one as
-  fact.
+- Drugs with no curated mechanism of action in Open Targets (currently Myo-inositol and
+  N-Acetylcysteine) have no `targets` edge, so they show no genes or pathways. Mechanisms
+  that target a large protein complex (e.g. Metformin → mitochondrial complex I, ~50
+  subunits) are not expanded into gene edges; see `unresolved_mappings.csv`.

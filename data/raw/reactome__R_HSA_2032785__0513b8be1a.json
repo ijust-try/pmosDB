@@ -3,7 +3,7 @@
  "query": "R-HSA-2032785",
  "url": "https://reactome.org/ContentService/data/query/R-HSA-2032785",
  "params": null,
- "retrieved_at": "2026-10-12T09:39:47+00:00",
+ "retrieved_at": "2026-10-31T04:41:41+00:00",
  "response": {
   "dbId": 2032785,
   "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
@@ -23,7 +23,7 @@
     "displayName": "cytosol",
     "accession": "0005829",
     "databaseName": "GO",
-    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
     "name": "cytosol",
     "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
     "className": "Compartment",
@@ -34,7 +34,7 @@
     "displayName": "nucleoplasm",
     "accession": "0005654",
     "databaseName": "GO",
-    "definition": "That part of the nuclear content other than the chromosomes or the nucleolus.",
+    "definition": "\"That part of the nuclear content other than the chromosomes or the nucleolus.\" [GOC:ma, ISBN:0124325653]",
     "name": "nucleoplasm",
     "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
     "className": "Compartment",
@@ -46,7 +46,7 @@
    "displayName": "transcription initiation at RNA polymerase II promoter",
    "accession": "0006367",
    "databaseName": "GO",
-   "definition": "A transcription initiation process that takes place at a RNA polymerase II gene promoter. Messenger RNAs (mRNA) genes, as well as some non-coding RNAs, are transcribed by RNA polymerase II.",
+   "definition": "\"A transcription initiation process that takes place at a RNA polymerase II gene promoter. Messenger RNAs (mRNA) genes, as well as some non-coding RNAs, are transcribed by RNA polymerase II.\" [GOC:mah, GOC:txnOH]",
    "name": "transcription initiation at RNA polymerase II promoter",
    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0006367",
    "className": "GO_BiologicalProcess",
@@ -82,7 +82,7 @@
   ],
   "orthologousEvent": [
    {
-    "dbId": 10106834,
+    "dbId": 10119764,
     "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
     "stId": "R-MMU-2032785",
     "stIdVersion": "R-MMU-2032785.1",
@@ -92,7 +92,7 @@
     "name": [
      "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Mus musculus",
     "inferredFrom": [
      2032785
@@ -103,49 +103,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 11003071,
-    "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
-    "stId": "R-CEL-2032785",
-    "stIdVersion": "R-CEL-2032785.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Caenorhabditis elegans",
-    "inferredFrom": [
-     2032785
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10920299,
-    "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
-    "stId": "R-DME-2032785",
-    "stIdVersion": "R-DME-2032785.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Drosophila melanogaster",
-    "inferredFrom": [
-     2032785
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10835064,
+    "dbId": 10867969,
     "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
     "stId": "R-GGA-2032785",
     "stIdVersion": "R-GGA-2032785.1",
@@ -155,7 +113,7 @@
     "name": [
      "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Gallus gallus",
     "inferredFrom": [
      2032785
@@ -166,7 +124,49 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10737830,
+    "dbId": 11036612,
+    "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+    "stId": "R-CEL-2032785",
+    "stIdVersion": "R-CEL-2032785.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     2032785
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10953567,
+    "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+    "stId": "R-DME-2032785",
+    "stIdVersion": "R-DME-2032785.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     2032785
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10770169,
     "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
     "stId": "R-XTR-2032785",
     "stIdVersion": "R-XTR-2032785.1",
@@ -176,7 +176,7 @@
     "name": [
      "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Xenopus tropicalis",
     "inferredFrom": [
      2032785
@@ -187,7 +187,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10656792,
+    "dbId": 10688906,
     "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
     "stId": "R-DRE-2032785",
     "stIdVersion": "R-DRE-2032785.1",
@@ -197,7 +197,7 @@
     "name": [
      "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Danio rerio",
     "inferredFrom": [
      2032785
@@ -208,7 +208,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10564829,
+    "dbId": 10596488,
     "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
     "stId": "R-SSC-2032785",
     "stIdVersion": "R-SSC-2032785.1",
@@ -218,7 +218,7 @@
     "name": [
      "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Sus scrofa",
     "inferredFrom": [
      2032785
@@ -229,7 +229,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10451887,
+    "dbId": 10483183,
     "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
     "stId": "R-BTA-2032785",
     "stIdVersion": "R-BTA-2032785.1",
@@ -239,7 +239,7 @@
     "name": [
      "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Bos taurus",
     "inferredFrom": [
      2032785
@@ -250,7 +250,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10337347,
+    "dbId": 10368305,
     "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
     "stId": "R-CFA-2032785",
     "stIdVersion": "R-CFA-2032785.1",
@@ -260,7 +260,7 @@
     "name": [
      "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Canis familiaris",
     "inferredFrom": [
      2032785
@@ -271,7 +271,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10230600,
+    "dbId": 10261078,
     "displayName": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
     "stId": "R-RNO-2032785",
     "stIdVersion": "R-RNO-2032785.1",
@@ -281,7 +281,7 @@
     "name": [
      "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Rattus norvegicus",
     "inferredFrom": [
      2032785

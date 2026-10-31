@@ -1,0 +1,29 @@
+{
+ "source": "opentargets_drug",
+ "query": "drug_CHEMBL4084119",
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "params": null,
+ "retrieved_at": "2026-10-31T04:33:52+00:00",
+ "response": {
+  "data": {
+   "drug": {
+    "id": "CHEMBL4084119",
+    "name": "LIRAGLUTIDE",
+    "mechanismsOfAction": {
+     "rows": [
+      {
+       "mechanismOfAction": "Glucagon-like peptide 1 receptor agonist",
+       "actionType": "AGONIST",
+       "targets": [
+        {
+         "id": "ENSG00000112164",
+         "approvedSymbol": "GLP1R"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

@@ -64,8 +64,8 @@ export default function OverviewPage() {
             <div className="flex items-start gap-2.5 rounded-lg border border-sage/25 bg-sage-soft/60 px-3.5 py-2.5 text-[12.5px] leading-relaxed text-sage">
               <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-sage" aria-hidden />
               <p>
-                <strong>Backend connected.</strong> Records below are read from the FK-stitched relational database built from real
-                NCBI, UniProt, Reactome, PubChem, PubMed and Open Targets records.
+                <strong>Live data.</strong> Records below are built from real NCBI, UniProt, Reactome, PubChem, PubMed and Open Targets
+                records.
               </p>
             </div>
           ) : (

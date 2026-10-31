@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "GPD2",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "2820",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T04:46:49+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "2820"
+   ],
+   "2820": {
+    "uid": "2820",
+    "name": "GPD2",
+    "description": "glycerol-3-phosphate dehydrogenase 2",
+    "status": "",
+    "currentid": "",
+    "chromosome": "2",
+    "geneticsource": "genomic",
+    "maplocation": "2q24.1",
+    "otheraliases": "GDH2, GPDM, mGDH, mGPDH",
+    "otherdesignations": "glycerol-3-phosphate dehydrogenase, mitochondrial|GPD-M|GPDH-M|glycerol-3-phosphate dehydrogenase 2 (mitochondrial)|mitochondrial glycerophosphate dehydrogenase|mitohondrial glycerophosphate dehydrogenase|mtGPD|testicular tissue protein Li 76",
+    "nomenclaturesymbol": "GPD2",
+    "nomenclaturename": "glycerol-3-phosphate dehydrogenase 2",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "138430"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "2",
+      "chraccver": "NC_000002.12",
+      "chrstart": 156400280,
+      "chrstop": 156586402,
+      "exoncount": 26
+     }
+    ],
+    "geneweight": 1974,
+    "summary": "The protein encoded by this gene localizes to the inner mitochondrial membrane and catalyzes the conversion of glycerol-3-phosphate to dihydroxyacetone phosphate, using FAD as a cofactor. Along with GDP1, the encoded protein constitutes the glycerol phosphate shuttle, which reoxidizes NADH formed during glycolysis. Two transcript variants encoding the same protein have been found for this gene.[provided by RefSeq, Jan 2010]",
+    "chrsort": "02",
+    "chrstart": 156400280,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 156400280,
+      "chrstop": 156586402
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 156852574,
+      "chrstop": 157039186
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 156400280,
+      "chrstop": 156586402
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 156852574,
+      "chrstop": 157039186
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 156400280,
+      "chrstop": 156586402
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 156852574,
+      "chrstop": 157039186
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 156400280,
+      "chrstop": 156586402
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 156852574,
+      "chrstop": 157039186
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 156400280,
+      "chrstop": 156586402
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 156888371,
+      "chrstop": 157039186
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000002.12",
+      "chrstart": 156435289,
+      "chrstop": 156586402
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000002.11",
+      "chrstart": 157292063,
+      "chrstop": 157442914
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000002.11",
+      "chrstart": 157292063,
+      "chrstop": 157442914
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000002.11",
+      "chrstart": 157291964,
+      "chrstop": 157442914
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000134.1",
+      "chrstart": 149177054,
+      "chrstop": 149329144
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018913.2",
+      "chrstart": 157298012,
+      "chrstop": 157448943
+     }
+    ]
+   }
+  }
+ }
+}

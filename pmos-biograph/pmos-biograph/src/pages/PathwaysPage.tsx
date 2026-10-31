@@ -55,27 +55,40 @@ function PathwayDetailPanel({ id }: { id: string }) {
       <div className="grid gap-5 md:grid-cols-2">
         <section className="panel p-5">
           <p className="eyebrow mb-3">Associated genes</p>
-          <EntityChips entities={d.genes} empty="No genes linked through encoded proteins yet." />
+          <EntityChips entities={d.genes} empty="No member genes are mapped to this pathway." />
         </section>
         <section className="panel p-5">
           <p className="eyebrow mb-3">Associated proteins</p>
-          <EntityChips entities={d.proteins} empty="No proteins linked yet." />
+          <EntityChips entities={d.proteins} empty="No member proteins are mapped to this pathway." />
         </section>
         <section className="panel p-5">
           <p className="eyebrow mb-3">Related biological processes</p>
-          <EntityChips entities={d.processes} empty="No biological processes linked yet." />
+          <EntityChips entities={d.processes} empty="None of this pathway's member genes has a condition-level association in Open Targets." />
+          {d.processes.length > 0 && (
+            <p className="mt-3 text-[11.5px] leading-relaxed text-ink-mute">
+              Conditions associated (Open Targets) with the pathway's member genes. An association record, not a causal claim.
+            </p>
+          )}
         </section>
         <section className="panel p-5">
           <p className="eyebrow mb-3">Related hormones</p>
-          <EntityChips entities={d.hormones} empty="No hormones linked yet." />
+          <EntityChips entities={d.hormones} empty="No hormones are associated with this pathway's member proteins." />
         </section>
         <section className="panel p-5">
           <p className="eyebrow mb-3">Connected therapeutics</p>
-          <EntityChips entities={d.therapeutics} empty="No therapeutics are linked to this pathway in the data." />
+          <EntityChips entities={d.therapeutics} empty="No compound in the data has a curated target among this pathway's member genes." />
+          {d.therapeutics.length > 0 && (
+            <p className="mt-3 text-[11.5px] leading-relaxed text-ink-mute">
+              Compounds whose curated target (Open Targets / ChEMBL) is a member gene of this pathway.
+            </p>
+          )}
         </section>
         <section className="panel p-5">
           <p className="eyebrow mb-3">Publications</p>
-          <EntityChips entities={d.publications} empty="No publications are linked to this pathway yet." />
+          <EntityChips entities={d.publications} empty="No publications are linked to this pathway's member genes." />
+          {d.publications.length > 0 && (
+            <p className="mt-3 text-[11.5px] leading-relaxed text-ink-mute">Literature supporting the pathway's member genes.</p>
+          )}
         </section>
       </div>
     </div>

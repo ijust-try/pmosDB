@@ -1,0 +1,29 @@
+{
+ "source": "opentargets_drug",
+ "query": "drug_CHEMBL409",
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "params": null,
+ "retrieved_at": "2026-10-31T04:33:49+00:00",
+ "response": {
+  "data": {
+   "drug": {
+    "id": "CHEMBL409",
+    "name": "BICALUTAMIDE",
+    "mechanismsOfAction": {
+     "rows": [
+      {
+       "mechanismOfAction": "Androgen Receptor antagonist",
+       "actionType": "ANTAGONIST",
+       "targets": [
+        {
+         "id": "ENSG00000169083",
+         "approvedSymbol": "AR"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

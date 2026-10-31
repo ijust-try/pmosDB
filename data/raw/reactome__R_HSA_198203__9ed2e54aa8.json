@@ -3,7 +3,7 @@
  "query": "R-HSA-198203",
  "url": "https://reactome.org/ContentService/data/query/R-HSA-198203",
  "params": null,
- "retrieved_at": "2026-10-12T09:41:24+00:00",
+ "retrieved_at": "2026-10-31T04:43:25+00:00",
  "response": {
   "dbId": 198203,
   "displayName": "PI3K/AKT activation",
@@ -19,7 +19,7 @@
   "speciesName": "Homo sapiens",
   "crossReference": [
    {
-    "dbId": 12828978,
+    "dbId": 12849068,
     "displayName": "BioModels Database:BIOMD0000000581",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000581",
@@ -33,7 +33,7 @@
    "displayName": "phosphatidylinositol 3-kinase/protein kinase B signal transduction",
    "accession": "0043491",
    "databaseName": "GO",
-   "definition": "An intracellular signaling cassette that starts with phosphatidylinositol 3-kinase (PI3K) activation, production of phosphatidylinositol 3-phosphate (PI3P), activation of PDK1, which recruits and ending with the activation of protein kinase B (PKB, also known as Akt). PI3K is activated by cell surface receptors. Note that PTEN is an inhibitor of the pathway.",
+   "definition": "\"An intracellular signaling cassette that starts with phosphatidylinositol 3-kinase (PI3K) activation, production of phosphatidylinositol 3-phosphate (PI3P), activation of PDK1, which recruits and ending with the activation of protein kinase B (PKB, also known as Akt). PI3K is activated by cell surface receptors. Note that PTEN is an inhibitor of the pathway.\" [PMID:20517722, PMID:22952397]",
    "name": "phosphatidylinositol 3-kinase/protein kinase B signal transduction",
    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0043491",
    "className": "GO_BiologicalProcess",
@@ -69,18 +69,18 @@
   ],
   "orthologousEvent": [
    {
-    "dbId": 11087084,
+    "dbId": 10118604,
     "displayName": "PI3K/AKT activation",
-    "stId": "R-SPO-198203",
-    "stIdVersion": "R-SPO-198203.1",
+    "stId": "R-MMU-198203",
+    "stIdVersion": "R-MMU-198203.1",
     "isInDisease": false,
     "isInferred": true,
     "maxDepth": 2,
     "name": [
      "PI3K/AKT activation"
     ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Schizosaccharomyces pombe",
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
     "inferredFrom": [
      198203
     ],
@@ -90,7 +90,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 11115470,
+    "dbId": 11149646,
     "displayName": "PI3K/AKT activation",
     "stId": "R-SCE-198203",
     "stIdVersion": "R-SCE-198203.1",
@@ -100,7 +100,7 @@
     "name": [
      "PI3K/AKT activation"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Saccharomyces cerevisiae",
     "inferredFrom": [
      198203
@@ -111,7 +111,28 @@
     "className": "Pathway"
    },
    {
-    "dbId": 11002319,
+    "dbId": 11121091,
+    "displayName": "PI3K/AKT activation",
+    "stId": "R-SPO-198203",
+    "stIdVersion": "R-SPO-198203.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI3K/AKT activation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     198203
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11035862,
     "displayName": "PI3K/AKT activation",
     "stId": "R-CEL-198203",
     "stIdVersion": "R-CEL-198203.1",
@@ -121,7 +142,7 @@
     "name": [
      "PI3K/AKT activation"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Caenorhabditis elegans",
     "inferredFrom": [
      198203
@@ -132,7 +153,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10919473,
+    "dbId": 10952739,
     "displayName": "PI3K/AKT activation",
     "stId": "R-DME-198203",
     "stIdVersion": "R-DME-198203.1",
@@ -142,7 +163,7 @@
     "name": [
      "PI3K/AKT activation"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Drosophila melanogaster",
     "inferredFrom": [
      198203
@@ -153,7 +174,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10833958,
+    "dbId": 10866857,
     "displayName": "PI3K/AKT activation",
     "stId": "R-GGA-198203",
     "stIdVersion": "R-GGA-198203.1",
@@ -163,7 +184,7 @@
     "name": [
      "PI3K/AKT activation"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Gallus gallus",
     "inferredFrom": [
      198203
@@ -174,7 +195,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10736852,
+    "dbId": 10769193,
     "displayName": "PI3K/AKT activation",
     "stId": "R-XTR-198203",
     "stIdVersion": "R-XTR-198203.1",
@@ -184,7 +205,7 @@
     "name": [
      "PI3K/AKT activation"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Xenopus tropicalis",
     "inferredFrom": [
      198203
@@ -195,7 +216,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10655780,
+    "dbId": 10687892,
     "displayName": "PI3K/AKT activation",
     "stId": "R-DRE-198203",
     "stIdVersion": "R-DRE-198203.1",
@@ -205,7 +226,7 @@
     "name": [
      "PI3K/AKT activation"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Danio rerio",
     "inferredFrom": [
      198203
@@ -216,7 +237,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10563733,
+    "dbId": 10595394,
     "displayName": "PI3K/AKT activation",
     "stId": "R-SSC-198203",
     "stIdVersion": "R-SSC-198203.1",
@@ -226,7 +247,7 @@
     "name": [
      "PI3K/AKT activation"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Sus scrofa",
     "inferredFrom": [
      198203
@@ -237,7 +258,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10450757,
+    "dbId": 10482055,
     "displayName": "PI3K/AKT activation",
     "stId": "R-BTA-198203",
     "stIdVersion": "R-BTA-198203.1",
@@ -247,7 +268,7 @@
     "name": [
      "PI3K/AKT activation"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Bos taurus",
     "inferredFrom": [
      198203
@@ -258,7 +279,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10336237,
+    "dbId": 10367197,
     "displayName": "PI3K/AKT activation",
     "stId": "R-CFA-198203",
     "stIdVersion": "R-CFA-198203.1",
@@ -268,7 +289,7 @@
     "name": [
      "PI3K/AKT activation"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Canis familiaris",
     "inferredFrom": [
      198203
@@ -279,7 +300,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10229452,
+    "dbId": 10259932,
     "displayName": "PI3K/AKT activation",
     "stId": "R-RNO-198203",
     "stIdVersion": "R-RNO-198203.1",
@@ -289,29 +310,8 @@
     "name": [
      "PI3K/AKT activation"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Rattus norvegicus",
-    "inferredFrom": [
-     198203
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10105676,
-    "displayName": "PI3K/AKT activation",
-    "stId": "R-MMU-198203",
-    "stIdVersion": "R-MMU-198203.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "PI3K/AKT activation"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Mus musculus",
     "inferredFrom": [
      198203
     ],

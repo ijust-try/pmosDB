@@ -1,0 +1,810 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-189200",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-189200",
+ "params": null,
+ "retrieved_at": "2026-10-31T04:47:21+00:00",
+ "response": {
+  "dbId": 189200,
+  "displayName": "Cellular hexose transport",
+  "stId": "R-HSA-189200",
+  "stIdVersion": "R-HSA-189200.7",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Cellular hexose transport"
+  ],
+  "releaseDate": "2006-01-23",
+  "speciesName": "Homo sapiens",
+  "goBiologicalProcess": {
+   "dbId": 20541,
+   "displayName": "hexose transmembrane transport",
+   "accession": "0008645",
+   "databaseName": "GO",
+   "definition": "\"The process in which hexose is transported across a membrane. Hexoses are aldoses with a chain of six carbon atoms in the molecule.\" [GOC:vw]",
+   "name": "hexose transmembrane transport",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0008645",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 428798,
+    "displayName": "The extended GLUT-family of sugar/polyol transport facilitators: nomenclature, sequence characteristics, and potential function of its novel members (review)",
+    "title": "The extended GLUT-family of sugar/polyol transport facilitators: nomenclature, sequence characteristics, and potential function of its novel members (review)",
+    "journal": "Mol Membr Biol",
+    "pages": "247-56",
+    "pubMedIdentifier": 11780753,
+    "volume": 18,
+    "year": 2001,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11780753",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 191107,
+    "displayName": "Apical GLUT2: a major pathway of intestinal sugar absorption",
+    "title": "Apical GLUT2: a major pathway of intestinal sugar absorption",
+    "journal": "Diabetes",
+    "pages": "3056-62",
+    "pubMedIdentifier": 16186415,
+    "volume": 54,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16186415",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 428778,
+    "displayName": "Functional properties and genomics of glucose transporters",
+    "title": "Functional properties and genomics of glucose transporters",
+    "journal": "Curr Genomics",
+    "pages": "113-28",
+    "pubMedIdentifier": 18660845,
+    "volume": 8,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18660845",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 428773,
+    "displayName": "Glucose transporters (GLUT and SGLT): expanded families of sugar transport proteins",
+    "title": "Glucose transporters (GLUT and SGLT): expanded families of sugar transport proteins",
+    "journal": "Br J Nutr",
+    "pages": "3-9",
+    "pubMedIdentifier": 12568659,
+    "volume": 89,
+    "year": 2003,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12568659",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 189251,
+    "displayName": "Surprising versatility of Na+-glucose cotransporters: SLC5",
+    "title": "Surprising versatility of Na+-glucose cotransporters: SLC5",
+    "journal": "Physiology (Bethesda)",
+    "pages": "370-6",
+    "pubMedIdentifier": 15546855,
+    "volume": 19,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15546855",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10118460,
+    "displayName": "Cellular hexose transport",
+    "stId": "R-MMU-189200",
+    "stIdVersion": "R-MMU-189200.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Cellular hexose transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     189200
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10259788,
+    "displayName": "Cellular hexose transport",
+    "stId": "R-RNO-189200",
+    "stIdVersion": "R-RNO-189200.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Cellular hexose transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     189200
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10367043,
+    "displayName": "Cellular hexose transport",
+    "stId": "R-CFA-189200",
+    "stIdVersion": "R-CFA-189200.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Cellular hexose transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     189200
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10481909,
+    "displayName": "Cellular hexose transport",
+    "stId": "R-BTA-189200",
+    "stIdVersion": "R-BTA-189200.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Cellular hexose transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     189200
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10595260,
+    "displayName": "Cellular hexose transport",
+    "stId": "R-SSC-189200",
+    "stIdVersion": "R-SSC-189200.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Cellular hexose transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     189200
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10687738,
+    "displayName": "Cellular hexose transport",
+    "stId": "R-DRE-189200",
+    "stIdVersion": "R-DRE-189200.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Cellular hexose transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     189200
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10769047,
+    "displayName": "Cellular hexose transport",
+    "stId": "R-XTR-189200",
+    "stIdVersion": "R-XTR-189200.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Cellular hexose transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     189200
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10866705,
+    "displayName": "Cellular hexose transport",
+    "stId": "R-GGA-189200",
+    "stIdVersion": "R-GGA-189200.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Cellular hexose transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     189200
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10953103,
+    "displayName": "Cellular hexose transport",
+    "stId": "R-DME-189200",
+    "stIdVersion": "R-DME-189200.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Cellular hexose transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     189200
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11036204,
+    "displayName": "Cellular hexose transport",
+    "stId": "R-CEL-189200",
+    "stIdVersion": "R-CEL-189200.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Cellular hexose transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     189200
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11091819,
+    "displayName": "Cellular hexose transport",
+    "stId": "R-DDI-189200",
+    "stIdVersion": "R-DDI-189200.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Cellular hexose transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     189200
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11121829,
+    "displayName": "Cellular hexose transport",
+    "stId": "R-SPO-189200",
+    "stIdVersion": "R-SPO-189200.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Cellular hexose transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     189200
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11149834,
+    "displayName": "Cellular hexose transport",
+    "stId": "R-SCE-189200",
+    "stIdVersion": "R-SCE-189200.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Cellular hexose transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     189200
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11171188,
+    "displayName": "Cellular hexose transport",
+    "stId": "R-PFA-189200",
+    "stIdVersion": "R-PFA-189200.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Cellular hexose transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     189200
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 189232,
+    "displayName": "Two gene families are responsible for glucose transport in h...",
+    "text": "Two gene families are responsible for glucose transport in humans. SLC2 (encoding GLUTs) and SLC5 (encoding SGLTs) families mediate glucose absorption in the small intestine, glucose reabsorption in the kidney, glucose uptake by the brain across the blood-brain barrier and glucose release by all cells in the body. Glucose is taken up from interstitial fluid by a passive, facilitative transport driven by the diffusion gradient of glucose (and other sugars) across the plasma membrane. This process is mediated by a family of Na+-independent, facilitative glucose transporters (GLUTs) encoded by the SLC2A gene family (Zhao & Keating 2007; Wood & Trayhurn 2003). There are 14 members belonging to this family (GLUT1-12, 14 and HMIT (H+/myo-inositol symporter)). The GLUT family can be subdivided into three subclasses (I-III) based on sequence similarity and characteristic sequence motifs (Joost & Thorens 2001).<p>Hexoses, notably fructose, glucose, and galactose, generated in the lumen of the small intestine by breakdown of dietary carbohydrate are taken up by enterocytes lining the microvilli of the small intestine and released from them into the blood. Uptake into enterocytes is mediated by two transporters localized on the lumenal surfaces of the cells, SGLT1 (glucose and galactose, together with sodium ions) and GLUT5 (fructose). GLUT2, localized on the basolateral surfaces of enterocytes, mediates the release of these hexoses into the blood (Wright et al. 2004). GLUT2 may also play a role in hexose uptake from the gut lumen into enterocytes when the lumenal content of monosaccharides is very high (Kellet & Brot-Laroche 2005) and GLUT5 mediates fructose uptake from the blood into cells of the body, notably hepatocytes.<p>Cells take up glucose by facilitated diffusion, via glucose transporters (GLUTs) associated with the plasma membrane, a reversible reaction. Four tissue-specific GLUT isoforms are known. Glucose in the cytosol is phosphorylated by tissue-specific kinases to yield glucose 6-phosphate, which cannot cross the plasma membrane because of its negative charge. In the liver, this reaction is catalyzed by glucokinase which has a low affinity for glucose (Km about 10 mM) but is not inhibited by glucose 6-phosphate. In other tissues, this reaction is catalyzed by isoforms of hexokinase. Hexokinases are feedback-inhibited by glucose 6-phosphate and have a high affinity for glucose (Km about 0.1 mM). Liver cells can thus accumulate large amounts of glucose 6-phosphate but only when blood glucose concentrations are high, while most other tissues can take up glucose even when blood glucose concentrations are low but cannot accumulate much intracellular glucose 6-phosphate. These differences are consistent with the view that that the liver functions to buffer blood glucose concentrations, while most other tissues take up glucose to meet immediate metabolic needs.<p>Glucose 6-phosphatase, expressed in liver and kidney, allows glucose 6-phosphate generated by gluconeogenesis (both tissues) and glycogen breakdown (liver) to leave the cell. The absence of glucose 6-phosphatase from other tissues makes glucose uptake by these tissues essentially irreversible, consistent with the view that cells in these tissues take up glucose for local metabolic use.<p>Class II facilitative transporters consist of GLUT5, 7, 9 and 11 (Zhao & Keating 2007, Wood & Trayhurn 2003).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/REACT_9441.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2022-06-09",
+  "hasEvent": [
+   {
+    "dbId": 5339524,
+    "displayName": "GLUT1 (SLC2A1) tetramer transports Glc from extracellular region to cytosol",
+    "stId": "R-HSA-5339524",
+    "stIdVersion": "R-HSA-5339524.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GLUT1 (SLC2A1) tetramer transports Glc from extracellular region to cytosol"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 450088,
+    "displayName": "GLUT1 tetramer binds 4xATP",
+    "stId": "R-HSA-450088",
+    "stIdVersion": "R-HSA-450088.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GLUT1 tetramer binds 4xATP"
+    ],
+    "releaseDate": "2010-03-16",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 450092,
+    "displayName": "GLUT1:ATP tetramer dissociates to GLUT1 tetramer and 4xATP",
+    "stId": "R-HSA-450092",
+    "stIdVersion": "R-HSA-450092.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GLUT1:ATP tetramer dissociates to GLUT1 tetramer and 4xATP"
+    ],
+    "releaseDate": "2010-03-16",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8981574,
+    "displayName": "GLUT2 (SLC2A2) tetramer transports Glc from extracellular region to cytosol",
+    "stId": "R-HSA-8981574",
+    "stIdVersion": "R-HSA-8981574.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GLUT2 (SLC2A2) tetramer transports Glc from extracellular region to cytosol"
+    ],
+    "releaseDate": "2004-07-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 450095,
+    "displayName": "GLUT2 (SLC2A2) transports Glc from cytosol to extracellular region",
+    "stId": "R-HSA-450095",
+    "stIdVersion": "R-HSA-450095.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GLUT2 (SLC2A2) transports Glc from cytosol to extracellular region",
+     "alpha-D-glucose (cytosol) <=> alpha-D-glucose (extracellular)",
+     "Glucose is secreted across the plasma membrane"
+    ],
+    "releaseDate": "2010-03-16",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8981564,
+    "displayName": "GLUT3 (SLC2A3) tetramer transports Glc from extracellular region to cytosol",
+    "stId": "R-HSA-8981564",
+    "stIdVersion": "R-HSA-8981564.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GLUT3 (SLC2A3) tetramer transports Glc from extracellular region to cytosol"
+    ],
+    "releaseDate": "2004-07-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8981570,
+    "displayName": "GLUT4 (SLC2A4) tetramer transports Glc from extracellular region to cytosol",
+    "stId": "R-HSA-8981570",
+    "stIdVersion": "R-HSA-8981570.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GLUT4 (SLC2A4) tetramer transports Glc from extracellular region to cytosol"
+    ],
+    "releaseDate": "2004-07-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 429036,
+    "displayName": "SLC2A9 transports Fru, Glc, urate",
+    "stId": "R-HSA-429036",
+    "stIdVersion": "R-HSA-429036.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SLC2A9 transports Fru, Glc, urate"
+    ],
+    "releaseDate": "2009-09-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 429094,
+    "displayName": "SLC2A6,8,10,12 transport Glc from extracellular region to cytosol",
+    "stId": "R-HSA-429094",
+    "stIdVersion": "R-HSA-429094.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SLC2A6,8,10,12 transport Glc from extracellular region to cytosol",
+     "Glucose transport by class III GLUTs"
+    ],
+    "releaseDate": "2009-09-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 428779,
+    "displayName": "GLUT7 and GLUT11 transport glucose and fructose",
+    "stId": "R-HSA-428779",
+    "stIdVersion": "R-HSA-428779.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GLUT7 and GLUT11 transport glucose and fructose"
+    ],
+    "releaseDate": "2009-09-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8981553,
+    "displayName": "GLUT14 (SLC2A14) tetramer transports Glc from extracellular region to cytosol",
+    "stId": "R-HSA-8981553",
+    "stIdVersion": "R-HSA-8981553.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GLUT14 (SLC2A14) tetramer transports Glc from extracellular region to cytosol"
+    ],
+    "releaseDate": "2004-07-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 189208,
+    "displayName": "SLC5A2 cotransports Na+ and glucose from extracellular region to cytosol",
+    "stId": "R-HSA-189208",
+    "stIdVersion": "R-HSA-189208.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SLC5A2 cotransports Na+ and glucose from extracellular region to cytosol"
+    ],
+    "releaseDate": "2006-01-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9728150,
+    "displayName": "SLC5A2 binds gliflozins",
+    "stId": "R-HSA-9728150",
+    "stIdVersion": "R-HSA-9728150.2",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SLC5A2 binds gliflozins"
+    ],
+    "releaseDate": "2022-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8876283,
+    "displayName": "SLC5A10 cotransports Na+ with Man, Fru from extracellular region to cytosol",
+    "stId": "R-HSA-8876283",
+    "stIdVersion": "R-HSA-8876283.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SLC5A10 cotransports Na+ with Man, Fru from extracellular region to cytosol"
+    ],
+    "releaseDate": "2016-09-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8875902,
+    "displayName": "SLC45A3 transports Glc from extracellular region to cytosol",
+    "stId": "R-HSA-8875902",
+    "stIdVersion": "R-HSA-8875902.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SLC45A3 transports Glc from extracellular region to cytosol"
+    ],
+    "releaseDate": "2016-09-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8876319,
+    "displayName": "SLC50A1 transports Glc from cytosol to extracellular region",
+    "stId": "R-HSA-8876319",
+    "stIdVersion": "R-HSA-8876319.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SLC50A1 transports Glc from cytosol to extracellular region"
+    ],
+    "releaseDate": "2016-09-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 429613,
+    "displayName": "SLC5As, NAGLT1 cotransport Glc and Na+ from extracellular region to cytosol",
+    "stId": "R-HSA-429613",
+    "stIdVersion": "R-HSA-429613.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SLC5As, NAGLT1 cotransport Glc and Na+ from extracellular region to cytosol",
+     "Co-transport (influx) of glucose and Na+ ions by SLC5As, NAGLT1"
+    ],
+    "releaseDate": "2009-09-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 429567,
+    "displayName": "Co-transport (influx) of glucose/mannose and Na+ ions by SGLT4",
+    "stId": "R-HSA-429567",
+    "stIdVersion": "R-HSA-429567.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Co-transport (influx) of glucose/mannose and Na+ ions by SGLT4"
+    ],
+    "releaseDate": "2009-09-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189200
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

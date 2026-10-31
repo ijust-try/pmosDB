@@ -1,0 +1,540 @@
+{
+ "source": "quickgo_terms",
+ "query": "P43304_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0004368,GO:0005509,GO:0005739,GO:0005743,GO:0006072,GO:0006127,GO:0019563",
+ "params": null,
+ "retrieved_at": "2026-10-31T04:46:58+00:00",
+ "response": {
+  "numberOfHits": 7,
+  "results": [
+   {
+    "id": "GO:0005743",
+    "isObsolete": false,
+    "name": "mitochondrial inner membrane",
+    "definition": {
+     "text": "The inner, i.e. lumen-facing, lipid bilayer of the mitochondrial envelope. It is highly folded to form cristae."
+    },
+    "synonyms": [
+     {
+      "name": "inner mitochondrial membrane",
+      "type": "exact"
+     },
+     {
+      "name": "inner mitochondrion membrane",
+      "type": "exact"
+     },
+     {
+      "name": "mitochondrion inner membrane",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0097002",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098800",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031314",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044284",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099617",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030061",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005739",
+    "isObsolete": false,
+    "name": "mitochondrion",
+    "definition": {
+     "text": "A semiautonomous, self replicating organelle that occurs in varying numbers, shapes, and sizes in the cytoplasm of virtually all eukaryotic cells. It is notably the site of tissue respiration.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "comment": "Some anaerobic or microaerophilic organisms (e.g. Entamoeba histolytica, Giardia intestinalis and several Microsporidia species) do not have mitochondria, and contain mitochondrion-related organelles (MROs) instead, called mitosomes or hydrogenosomes, very likely derived from mitochondria. To annotate gene products located in these mitochondrial relics in species such as Entamoeba histolytica, Giardia intestinalis or others, please use GO:0032047 'mitosome' or GO:0042566 'hydrogenosome'. (See PMID:24316280 for a list of species currently known to contain mitochondrion-related organelles.)",
+    "synonyms": [
+     {
+      "name": "mitochondria",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0080156",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0006390",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0017133",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0051560",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000959",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019093",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000957",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0006264",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070899",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000262",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033615",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0033617",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0035694",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0031019",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070124",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0032043",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0034246",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070126",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0032981",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0009841",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090139",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070903",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0090615",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000964",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070901",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042776",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0034551",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0034553",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0002187",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031966",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043294",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019910",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034982",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0090646",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1900864",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005740",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006393",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0043504",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000958",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005759",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1905951",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0072656",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0030678",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097745",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0016507",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070125",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0032543",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0032042",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0034245",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044290",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090616",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070902",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0033108",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005741",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:7770126",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000963",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0140053",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000965",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0020023",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042645",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070900",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042775",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0051882",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990180",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0098798",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:2000827",
+      "relation": "occurs_in"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005509",
+    "isObsolete": false,
+    "name": "calcium ion binding",
+    "definition": {
+     "text": "Binding to a calcium ion (Ca2+)."
+    },
+    "synonyms": [
+     {
+      "name": "calcium ion storage activity",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0099534",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099567",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110158",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1901876",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1990661",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1990660",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1990662",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0004368",
+    "isObsolete": false,
+    "name": "glycerol-3-phosphate dehydrogenase (quinone) activity",
+    "definition": {
+     "text": "Catalysis of the reaction: sn-glycerol 3-phosphate + a quinone = glycerone phosphate + a quinol.",
+     "xrefs": [
+      {
+       "dbCode": "EC",
+       "dbId": "1.1.5.3"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "FAD-dependent glycerol-3-phosphate dehydrogenase",
+      "type": "related"
+     },
+     {
+      "name": "flavin-linked glycerol-3-phosphate dehydrogenase",
+      "type": "related"
+     },
+     {
+      "name": "glycerol-3-phosphate CoQ reductase",
+      "type": "related"
+     },
+     {
+      "name": "glycerophosphate dehydrogenase activity",
+      "type": "related"
+     },
+     {
+      "name": "L-glycerophosphate dehydrogenase activity",
+      "type": "related"
+     },
+     {
+      "name": "sn-glycerol-3-phosphate dehydrogenase activity",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0009331",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006127",
+    "isObsolete": false,
+    "name": "glycerol-3-phosphate shuttle",
+    "definition": {
+     "text": "The process of transferring reducing equivalents from NADH in the cytosol into the mitochondria via glycerol-3-phosphate. Cytosolic glycerol-3-phosphate dehydrogenase uses NADH to convert dihydroxyacetone phosphate (DHAP) to glycerol-3-phosphate (G3P) in the cytosol; G3P then diffuses into the mitochondria where mitochondrial glycerol-3-phosphate dehydrogenase uses FAD to convert G3P back to DHAP; the electrons on the reduced FADH2 are then available for use in the electron transport chain, and DHAP returns to the cytosol to complete the cycle.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "16368075"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "glycerol phosphate shuttle",
+      "type": "exact"
+     },
+     {
+      "name": "glycerophosphate shuttle",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006072",
+    "isObsolete": false,
+    "name": "glycerol-3-phosphate metabolic process",
+    "definition": {
+     "text": "The chemical reactions and pathways involving glycerol-3-phosphate, a phosphoric monoester of glycerol.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "glycerol-3-phosphate metabolism",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0046168",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046167",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0019563",
+    "isObsolete": false,
+    "name": "glycerol catabolic process",
+    "definition": {
+     "text": "The chemical reactions and pathways resulting in the breakdown of glycerol, 1,2,3-propanetriol, a sweet, hygroscopic, viscous liquid, widely distributed in nature as a constituent of many lipids.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "glycerol breakdown",
+      "type": "exact"
+     },
+     {
+      "name": "glycerol catabolism",
+      "type": "exact"
+     },
+     {
+      "name": "glycerol degradation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0019588",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

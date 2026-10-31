@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "SRD5A2",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "6716",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T04:47:30+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "6716"
+   ],
+   "6716": {
+    "uid": "6716",
+    "name": "SRD5A2",
+    "description": "steroid 5 alpha-reductase 2",
+    "status": "",
+    "currentid": "",
+    "chromosome": "2",
+    "geneticsource": "genomic",
+    "maplocation": "2p23.1",
+    "otheraliases": "",
+    "otherdesignations": "3-oxo-5-alpha-steroid 4-dehydrogenase 2|5 alpha-SR2|S5AR 2|SR type 2|steroid-5-alpha-reductase, alpha polypeptide 2 (3-oxo-5 alpha-steroid delta 4-dehydrogenase alpha 2)|type II 5-alpha reductase",
+    "nomenclaturesymbol": "SRD5A2",
+    "nomenclaturename": "steroid 5 alpha-reductase 2",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "607306"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "2",
+      "chraccver": "NC_000002.12",
+      "chrstart": 31663008,
+      "chrstop": 31522479,
+      "exoncount": 9
+     }
+    ],
+    "geneweight": 19892,
+    "summary": "This gene encodes a microsomal protein expressed at high levels in androgen-sensitive tissues such as the prostate. The encoded protein is active at acidic pH and is sensitive to the 4-azasteroid inhibitor finasteride. Deficiencies in this gene can result in male pseudohermaphroditism, specifically pseudovaginal perineoscrotal hypospadias (PPSH). [provided by RefSeq, Jul 2008]",
+    "chrsort": "02",
+    "chrstart": 31522479,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 31663008,
+      "chrstop": 31522479
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 31707767,
+      "chrstop": 31567194
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 31663008,
+      "chrstop": 31522479
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 31707767,
+      "chrstop": 31567194
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 31663008,
+      "chrstop": 31522479
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 31707767,
+      "chrstop": 31567194
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 31663008,
+      "chrstop": 31522479
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 31707767,
+      "chrstop": 31567194
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 31663008,
+      "chrstop": 31522479
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 31625721,
+      "chrstop": 31567194
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000002.12",
+      "chrstart": 31665650,
+      "chrstop": 31522479
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000002.11",
+      "chrstart": 31806006,
+      "chrstop": 31747549
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000002.11",
+      "chrstart": 31806006,
+      "chrstop": 31747549
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000002.11",
+      "chrstart": 31806039,
+      "chrstop": 31749655
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000134.1",
+      "chrstart": 31542000,
+      "chrstop": 31485636
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018913.2",
+      "chrstart": 31734472,
+      "chrstop": 31678088
+     }
+    ]
+   }
+  }
+ }
+}

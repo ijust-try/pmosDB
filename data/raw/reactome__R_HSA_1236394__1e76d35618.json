@@ -3,7 +3,7 @@
  "query": "R-HSA-1236394",
  "url": "https://reactome.org/ContentService/data/query/R-HSA-1236394",
  "params": null,
- "retrieved_at": "2026-10-12T09:36:39+00:00",
+ "retrieved_at": "2026-10-31T04:38:20+00:00",
  "response": {
   "dbId": 1236394,
   "displayName": "Signaling by ERBB4",
@@ -19,7 +19,7 @@
   "speciesName": "Homo sapiens",
   "crossReference": [
    {
-    "dbId": 12828976,
+    "dbId": 12849066,
     "displayName": "BioModels Database:BIOMD0000000255",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000255",
@@ -28,7 +28,7 @@
     "schemaClass": "DatabaseIdentifier"
    },
    {
-    "dbId": 12828982,
+    "dbId": 12849072,
     "displayName": "BioModels Database:BIOMD0000000175",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000175",
@@ -43,7 +43,7 @@
     "displayName": "cytosol",
     "accession": "0005829",
     "databaseName": "GO",
-    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
     "name": "cytosol",
     "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
     "className": "Compartment",
@@ -54,7 +54,7 @@
     "displayName": "extracellular region",
     "accession": "0005576",
     "databaseName": "GO",
-    "definition": "The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite.",
+    "definition": "\"The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite.\" [GOC:curators]",
     "name": "extracellular region",
     "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005576",
     "className": "Compartment",
@@ -65,7 +65,7 @@
     "displayName": "plasma membrane",
     "accession": "0005886",
     "databaseName": "GO",
-    "definition": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+    "definition": "\"The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.\" [ISBN:0716731363]",
     "name": "plasma membrane",
     "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
     "className": "Compartment",
@@ -696,7 +696,7 @@
   ],
   "orthologousEvent": [
    {
-    "dbId": 10106584,
+    "dbId": 10119512,
     "displayName": "Signaling by ERBB4",
     "stId": "R-MMU-1236394",
     "stIdVersion": "R-MMU-1236394.1",
@@ -706,7 +706,7 @@
     "name": [
      "Signaling by ERBB4"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Mus musculus",
     "inferredFrom": [
      1236394
@@ -717,154 +717,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10920087,
-    "displayName": "Signaling by ERBB4",
-    "stId": "R-DME-1236394",
-    "stIdVersion": "R-DME-1236394.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 3,
-    "name": [
-     "Signaling by ERBB4"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Drosophila melanogaster",
-    "inferredFrom": [
-     1236394
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11002929,
-    "displayName": "Signaling by ERBB4",
-    "stId": "R-CEL-1236394",
-    "stIdVersion": "R-CEL-1236394.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 3,
-    "name": [
-     "Signaling by ERBB4"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Caenorhabditis elegans",
-    "inferredFrom": [
-     1236394
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10834814,
-    "displayName": "Signaling by ERBB4",
-    "stId": "R-GGA-1236394",
-    "stIdVersion": "R-GGA-1236394.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 3,
-    "name": [
-     "Signaling by ERBB4"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Gallus gallus",
-    "inferredFrom": [
-     1236394
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10737620,
-    "displayName": "Signaling by ERBB4",
-    "stId": "R-XTR-1236394",
-    "stIdVersion": "R-XTR-1236394.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 3,
-    "name": [
-     "Signaling by ERBB4"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Xenopus tropicalis",
-    "inferredFrom": [
-     1236394
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10656550,
-    "displayName": "Signaling by ERBB4",
-    "stId": "R-DRE-1236394",
-    "stIdVersion": "R-DRE-1236394.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 3,
-    "name": [
-     "Signaling by ERBB4"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Danio rerio",
-    "inferredFrom": [
-     1236394
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10564579,
-    "displayName": "Signaling by ERBB4",
-    "stId": "R-SSC-1236394",
-    "stIdVersion": "R-SSC-1236394.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 3,
-    "name": [
-     "Signaling by ERBB4"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Sus scrofa",
-    "inferredFrom": [
-     1236394
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10451637,
-    "displayName": "Signaling by ERBB4",
-    "stId": "R-BTA-1236394",
-    "stIdVersion": "R-BTA-1236394.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 3,
-    "name": [
-     "Signaling by ERBB4"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Bos taurus",
-    "inferredFrom": [
-     1236394
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10337103,
+    "dbId": 10368063,
     "displayName": "Signaling by ERBB4",
     "stId": "R-CFA-1236394",
     "stIdVersion": "R-CFA-1236394.1",
@@ -874,7 +727,7 @@
     "name": [
      "Signaling by ERBB4"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Canis familiaris",
     "inferredFrom": [
      1236394
@@ -885,7 +738,154 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10230354,
+    "dbId": 10867717,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-GGA-1236394",
+    "stIdVersion": "R-GGA-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11036472,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-CEL-1236394",
+    "stIdVersion": "R-CEL-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10953357,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-DME-1236394",
+    "stIdVersion": "R-DME-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10769961,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-XTR-1236394",
+    "stIdVersion": "R-XTR-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10688666,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-DRE-1236394",
+    "stIdVersion": "R-DRE-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10596240,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-SSC-1236394",
+    "stIdVersion": "R-SSC-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10482935,
+    "displayName": "Signaling by ERBB4",
+    "stId": "R-BTA-1236394",
+    "stIdVersion": "R-BTA-1236394.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB4"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     1236394
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10260834,
     "displayName": "Signaling by ERBB4",
     "stId": "R-RNO-1236394",
     "stIdVersion": "R-RNO-1236394.1",
@@ -895,7 +895,7 @@
     "name": [
      "Signaling by ERBB4"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Rattus norvegicus",
     "inferredFrom": [
      1236394

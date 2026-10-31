@@ -154,6 +154,21 @@ export interface DataSource {
   /** ISO timestamp. `null` until a real sync exists. */
   lastSync: string | null;
   validationNote: string;
+  /** Upstream release/version seen at the last check, when the source reports one. */
+  version?: string;
+  /** ISO timestamp of the last upstream version check. */
+  lastChecked?: string;
+}
+
+/** State of the automatic weekly synchronisation. */
+export interface SyncStatus {
+  schedule: string;
+  /** ISO timestamp of the next scheduled run. */
+  nextRun: string;
+  lastChecked: string | null;
+  lastSynced: string | null;
+  lastOutcome: string | null;
+  lastReason: string | null;
 }
 
 export type IntegrationStatus = 'connected' | 'demo-data' | 'awaiting-integration';

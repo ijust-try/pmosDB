@@ -16,6 +16,7 @@ import type {
   PublicationItem,
   Relationship,
   SearchHit,
+  SyncStatus,
 } from '../types';
 
 export const normaliseEntity = (raw: unknown): Entity => raw as Entity;
@@ -26,4 +27,5 @@ export const normaliseListPage = (raw: unknown): Page<ListItem> => raw as Page<L
 export const normaliseGraph = (raw: unknown): GraphData => raw as GraphData;
 export const normalisePublicationItem = (raw: unknown): PublicationItem => raw as PublicationItem;
 export const normaliseSource = (raw: unknown): DataSource => raw as DataSource;
+export const normaliseSyncStatus = (raw: unknown): SyncStatus | null => (raw ? (raw as SyncStatus) : null);
 export const normaliseSummary = (raw: unknown): DatasetSummary => raw as DatasetSummary;

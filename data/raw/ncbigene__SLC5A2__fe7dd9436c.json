@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "SLC5A2",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "6524",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T04:47:13+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "6524"
+   ],
+   "6524": {
+    "uid": "6524",
+    "name": "SLC5A2",
+    "description": "solute carrier family 5 member 2",
+    "status": "",
+    "currentid": "",
+    "chromosome": "16",
+    "geneticsource": "genomic",
+    "maplocation": "16p11.2",
+    "otheraliases": "SGLT2",
+    "otherdesignations": "sodium/glucose cotransporter 2|Na(+)/glucose cotransporter 2|low affinity sodium-glucose cotransporter|solute carrier family 5 (sodium/glucose cotransporter), member 2|solute carrier family 5 (sodium/glucose transporter), member 2",
+    "nomenclaturesymbol": "SLC5A2",
+    "nomenclaturename": "solute carrier family 5 member 2",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "182381"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "16",
+      "chraccver": "NC_000016.10",
+      "chrstart": 31483122,
+      "chrstop": 31490768,
+      "exoncount": 14
+     }
+    ],
+    "geneweight": 56083,
+    "summary": "This gene encodes a member of the sodium glucose cotransporter family which are sodium-dependent glucose transport proteins. The encoded protein is the major cotransporter involved in glucose reabsorption in the kidney. Mutations in this gene are associated with renal glucosuria. Two transcript variants, one protein-coding and one not, have been found for this gene. [provided by RefSeq, Feb 2015]",
+    "chrsort": "16",
+    "chrstart": 31483122,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000016.10",
+      "chrstart": 31483122,
+      "chrstop": 31490768
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060940.1",
+      "chrstart": 31870509,
+      "chrstop": 31878161
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000016.10",
+      "chrstart": 31483122,
+      "chrstop": 31490768
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060940.1",
+      "chrstart": 31870509,
+      "chrstop": 31878161
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000016.10",
+      "chrstart": 31483122,
+      "chrstop": 31490768
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060940.1",
+      "chrstart": 31870509,
+      "chrstop": 31878161
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000016.10",
+      "chrstart": 31483122,
+      "chrstop": 31490768
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060940.1",
+      "chrstart": 31870509,
+      "chrstop": 31878161
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000016.10",
+      "chrstart": 31483122,
+      "chrstop": 31490768
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060940.1",
+      "chrstart": 31870509,
+      "chrstop": 31878161
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000016.10",
+      "chrstart": 31482534,
+      "chrstop": 31490768
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000016.9",
+      "chrstart": 31494443,
+      "chrstop": 31502089
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000016.9",
+      "chrstart": 31494443,
+      "chrstop": 31502089
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000016.9",
+      "chrstart": 31494438,
+      "chrstop": 31502090
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000148.1",
+      "chrstart": 29054638,
+      "chrstop": 29062296
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018927.2",
+      "chrstart": 32813087,
+      "chrstop": 32820739
+     }
+    ]
+   }
+  }
+ }
+}

@@ -17,6 +17,7 @@ import {
   normaliseSearchHit,
   normaliseSource,
   normaliseSummary,
+  normaliseSyncStatus,
 } from './normalisers';
 
 export class ApiError extends Error {
@@ -42,9 +43,7 @@ async function get<T>(path: string, params?: Record<string, unknown>): Promise<T
     return (await res.json()) as T;
   } catch (err) {
     if (err instanceof ApiError) throw err;
-    throw new ApiError(
-      `Could not reach the PMOS backend at ${apiConfig.baseUrl}. Check VITE_API_BASE_URL or switch back to demo data.`,
-    );
+    throw new ApiError('Could not load data right now. Please check your connection and try again.');
   } finally {
     clearTimeout(timer);
   }
@@ -89,5 +88,8 @@ export const remoteBackend: Backend = {
   },
   async getSummary() {
     return normaliseSummary(await get(ep.summary));
+  },
+  async getSyncStatus() {
+    return normaliseSyncStatus(await get(ep.sync));
   },
 };

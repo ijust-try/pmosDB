@@ -45,7 +45,7 @@ export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
         </div>
         <p className="mt-1.5 text-[11.5px] leading-relaxed text-slate-400">
           {isLive
-            ? 'Interface reading from the FK-stitched relational database via the local PMOS API.'
+            ? 'Interface reading from the PMOS knowledge base, built from public biological databases.'
             : 'Interface running on an illustrative dataset. Backend and relational database integration is pending.'}
         </p>
       </div>

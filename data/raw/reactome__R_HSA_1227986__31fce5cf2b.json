@@ -3,7 +3,7 @@
  "query": "R-HSA-1227986",
  "url": "https://reactome.org/ContentService/data/query/R-HSA-1227986",
  "params": null,
- "retrieved_at": "2026-10-12T09:36:38+00:00",
+ "retrieved_at": "2026-10-31T04:38:18+00:00",
  "response": {
   "dbId": 1227986,
   "displayName": "Signaling by ERBB2",
@@ -19,7 +19,7 @@
   "speciesName": "Homo sapiens",
   "crossReference": [
    {
-    "dbId": 12828976,
+    "dbId": 12849066,
     "displayName": "BioModels Database:BIOMD0000000255",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000255",
@@ -28,7 +28,7 @@
     "schemaClass": "DatabaseIdentifier"
    },
    {
-    "dbId": 12828982,
+    "dbId": 12849072,
     "displayName": "BioModels Database:BIOMD0000000175",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000175",
@@ -37,7 +37,7 @@
     "schemaClass": "DatabaseIdentifier"
    },
    {
-    "dbId": 12828942,
+    "dbId": 12849032,
     "displayName": "BioModels Database:BIOMD0000000883",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000883",
@@ -46,7 +46,7 @@
     "schemaClass": "DatabaseIdentifier"
    },
    {
-    "dbId": 12828996,
+    "dbId": 12849086,
     "displayName": "BioModels Database:BIOMD0000000424",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000424",
@@ -61,7 +61,7 @@
     "displayName": "cytosol",
     "accession": "0005829",
     "databaseName": "GO",
-    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
     "name": "cytosol",
     "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
     "className": "Compartment",
@@ -72,7 +72,7 @@
     "displayName": "plasma membrane",
     "accession": "0005886",
     "databaseName": "GO",
-    "definition": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+    "definition": "\"The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.\" [ISBN:0716731363]",
     "name": "plasma membrane",
     "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
     "className": "Compartment",
@@ -83,7 +83,7 @@
     "displayName": "extracellular region",
     "accession": "0005576",
     "databaseName": "GO",
-    "definition": "The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite.",
+    "definition": "\"The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite.\" [GOC:curators]",
     "name": "extracellular region",
     "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005576",
     "className": "Compartment",
@@ -104,7 +104,7 @@
    "displayName": "ERBB2 signaling pathway",
    "accession": "0038128",
    "databaseName": "GO",
-   "definition": "The series of molecular signals initiated by binding of a ligand to the tyrosine kinase receptor ERBB2 on the surface of a cell. The pathway ends with regulation of a downstream cellular process, e.g. transcription. ERBB2 receptors are themselves unable to bind to ligands, but act as a signal-amplifying tyrosine kinase within a heterodimeric pair.",
+   "definition": "\"The series of molecular signals initiated by binding of a ligand to the tyrosine kinase receptor ERBB2 on the surface of a cell. The pathway ends with regulation of a downstream cellular process, e.g. transcription. ERBB2 receptors are themselves unable to bind to ligands, but act as a signal-amplifying tyrosine kinase within a heterodimeric pair.\" [GOC:jc, PMID:16460914]",
    "name": "ERBB2 signaling pathway",
    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0038128",
    "className": "GO_BiologicalProcess",
@@ -112,175 +112,7 @@
   },
   "orthologousEvent": [
    {
-    "dbId": 10106606,
-    "displayName": "Signaling by ERBB2",
-    "stId": "R-MMU-1227986",
-    "stIdVersion": "R-MMU-1227986.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 4,
-    "name": [
-     "Signaling by ERBB2"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Mus musculus",
-    "inferredFrom": [
-     1227986
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10737638,
-    "displayName": "Signaling by ERBB2",
-    "stId": "R-XTR-1227986",
-    "stIdVersion": "R-XTR-1227986.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 3,
-    "name": [
-     "Signaling by ERBB2"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Xenopus tropicalis",
-    "inferredFrom": [
-     1227986
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10834836,
-    "displayName": "Signaling by ERBB2",
-    "stId": "R-GGA-1227986",
-    "stIdVersion": "R-GGA-1227986.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 4,
-    "name": [
-     "Signaling by ERBB2"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Gallus gallus",
-    "inferredFrom": [
-     1227986
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11002921,
-    "displayName": "Signaling by ERBB2",
-    "stId": "R-CEL-1227986",
-    "stIdVersion": "R-CEL-1227986.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 3,
-    "name": [
-     "Signaling by ERBB2"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Caenorhabditis elegans",
-    "inferredFrom": [
-     1227986
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10656572,
-    "displayName": "Signaling by ERBB2",
-    "stId": "R-DRE-1227986",
-    "stIdVersion": "R-DRE-1227986.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 4,
-    "name": [
-     "Signaling by ERBB2"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Danio rerio",
-    "inferredFrom": [
-     1227986
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10564601,
-    "displayName": "Signaling by ERBB2",
-    "stId": "R-SSC-1227986",
-    "stIdVersion": "R-SSC-1227986.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 4,
-    "name": [
-     "Signaling by ERBB2"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Sus scrofa",
-    "inferredFrom": [
-     1227986
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10337125,
-    "displayName": "Signaling by ERBB2",
-    "stId": "R-CFA-1227986",
-    "stIdVersion": "R-CFA-1227986.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 3,
-    "name": [
-     "Signaling by ERBB2"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Canis familiaris",
-    "inferredFrom": [
-     1227986
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10230376,
-    "displayName": "Signaling by ERBB2",
-    "stId": "R-RNO-1227986",
-    "stIdVersion": "R-RNO-1227986.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 4,
-    "name": [
-     "Signaling by ERBB2"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Rattus norvegicus",
-    "inferredFrom": [
-     1227986
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11058194,
+    "dbId": 11092023,
     "displayName": "Signaling by ERBB2",
     "stId": "R-DDI-1227986",
     "stIdVersion": "R-DDI-1227986.1",
@@ -290,7 +122,7 @@
     "name": [
      "Signaling by ERBB2"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Dictyostelium discoideum",
     "inferredFrom": [
      1227986
@@ -301,7 +133,49 @@
     "className": "Pathway"
    },
    {
-    "dbId": 11087926,
+    "dbId": 11036464,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-CEL-1227986",
+    "stIdVersion": "R-CEL-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10867739,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-GGA-1227986",
+    "stIdVersion": "R-GGA-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11121945,
     "displayName": "Signaling by ERBB2",
     "stId": "R-SPO-1227986",
     "stIdVersion": "R-SPO-1227986.1",
@@ -311,7 +185,7 @@
     "name": [
      "Signaling by ERBB2"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Schizosaccharomyces pombe",
     "inferredFrom": [
      1227986
@@ -322,7 +196,91 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10451659,
+    "dbId": 10953371,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-DME-1227986",
+    "stIdVersion": "R-DME-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10769979,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-XTR-1227986",
+    "stIdVersion": "R-XTR-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10368085,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-CFA-1227986",
+    "stIdVersion": "R-CFA-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10688688,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-DRE-1227986",
+    "stIdVersion": "R-DRE-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10482957,
     "displayName": "Signaling by ERBB2",
     "stId": "R-BTA-1227986",
     "stIdVersion": "R-BTA-1227986.1",
@@ -332,7 +290,7 @@
     "name": [
      "Signaling by ERBB2"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Bos taurus",
     "inferredFrom": [
      1227986
@@ -343,18 +301,60 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10920101,
+    "dbId": 10260856,
     "displayName": "Signaling by ERBB2",
-    "stId": "R-DME-1227986",
-    "stIdVersion": "R-DME-1227986.1",
+    "stId": "R-RNO-1227986",
+    "stIdVersion": "R-RNO-1227986.1",
     "isInDisease": false,
     "isInferred": true,
     "maxDepth": 4,
     "name": [
      "Signaling by ERBB2"
     ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Drosophila melanogaster",
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10119534,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-MMU-1227986",
+    "stIdVersion": "R-MMU-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     1227986
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10596262,
+    "displayName": "Signaling by ERBB2",
+    "stId": "R-SSC-1227986",
+    "stIdVersion": "R-SSC-1227986.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "Signaling by ERBB2"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
     "inferredFrom": [
      1227986
     ],

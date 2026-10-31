@@ -3,7 +3,7 @@
  "query": "R-HSA-909733",
  "url": "https://reactome.org/ContentService/data/query/R-HSA-909733",
  "params": null,
- "retrieved_at": "2026-10-12T09:39:06+00:00",
+ "retrieved_at": "2026-10-31T04:40:54+00:00",
  "response": {
   "dbId": 909733,
   "displayName": "Interferon alpha/beta signaling",
@@ -19,7 +19,7 @@
   "speciesName": "Homo sapiens",
   "crossReference": [
    {
-    "dbId": 12829160,
+    "dbId": 12849250,
     "displayName": "BioModels Database:BIOMD0000000968",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000968",
@@ -28,7 +28,7 @@
     "schemaClass": "DatabaseIdentifier"
    },
    {
-    "dbId": 12828962,
+    "dbId": 12849052,
     "displayName": "BioModels Database:BIOMD0000000477",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000477",
@@ -42,7 +42,7 @@
    "displayName": "type I interferon-mediated signaling pathway",
    "accession": "0060337",
    "databaseName": "GO",
-   "definition": "The series of molecular signals initiated by type I interferon binding to its receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription. Type I interferons include the interferon-alpha, beta, delta, episilon, zeta, kappa, tau, and omega gene families.",
+   "definition": "\"The series of molecular signals initiated by type I interferon binding to its receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription. Type I interferons include the interferon-alpha, beta, delta, episilon, zeta, kappa, tau, and omega gene families.\" [GOC:add, GOC:dph, GOC:signaling, PMID:32464097]",
    "name": "type I interferon-mediated signaling pathway",
    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0060337",
    "className": "GO_BiologicalProcess",
@@ -104,7 +104,7 @@
   ],
   "orthologousEvent": [
    {
-    "dbId": 10106464,
+    "dbId": 10119392,
     "displayName": "Interferon alpha/beta signaling",
     "stId": "R-MMU-909733",
     "stIdVersion": "R-MMU-909733.1",
@@ -114,7 +114,7 @@
     "name": [
      "Interferon alpha/beta signaling"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Mus musculus",
     "inferredFrom": [
      909733
@@ -125,7 +125,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10230234,
+    "dbId": 10260714,
     "displayName": "Interferon alpha/beta signaling",
     "stId": "R-RNO-909733",
     "stIdVersion": "R-RNO-909733.1",
@@ -135,7 +135,7 @@
     "name": [
      "Interferon alpha/beta signaling"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Rattus norvegicus",
     "inferredFrom": [
      909733
@@ -146,18 +146,18 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10834702,
+    "dbId": 10367951,
     "displayName": "Interferon alpha/beta signaling",
-    "stId": "R-GGA-909733",
-    "stIdVersion": "R-GGA-909733.1",
+    "stId": "R-CFA-909733",
+    "stIdVersion": "R-CFA-909733.1",
     "isInDisease": false,
     "isInferred": true,
     "maxDepth": 3,
     "name": [
      "Interferon alpha/beta signaling"
     ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Gallus gallus",
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
     "inferredFrom": [
      909733
     ],
@@ -167,91 +167,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10919987,
-    "displayName": "Interferon alpha/beta signaling",
-    "stId": "R-DME-909733",
-    "stIdVersion": "R-DME-909733.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "Interferon alpha/beta signaling"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Drosophila melanogaster",
-    "inferredFrom": [
-     909733
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11002811,
-    "displayName": "Interferon alpha/beta signaling",
-    "stId": "R-CEL-909733",
-    "stIdVersion": "R-CEL-909733.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "Interferon alpha/beta signaling"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Caenorhabditis elegans",
-    "inferredFrom": [
-     909733
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11058924,
-    "displayName": "Interferon alpha/beta signaling",
-    "stId": "R-DDI-909733",
-    "stIdVersion": "R-DDI-909733.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "Interferon alpha/beta signaling"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Dictyostelium discoideum",
-    "inferredFrom": [
-     909733
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10737500,
-    "displayName": "Interferon alpha/beta signaling",
-    "stId": "R-XTR-909733",
-    "stIdVersion": "R-XTR-909733.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 3,
-    "name": [
-     "Interferon alpha/beta signaling"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Xenopus tropicalis",
-    "inferredFrom": [
-     909733
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10564459,
+    "dbId": 10596120,
     "displayName": "Interferon alpha/beta signaling",
     "stId": "R-SSC-909733",
     "stIdVersion": "R-SSC-909733.1",
@@ -261,7 +177,7 @@
     "name": [
      "Interferon alpha/beta signaling"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Sus scrofa",
     "inferredFrom": [
      909733
@@ -272,7 +188,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10656446,
+    "dbId": 10688562,
     "displayName": "Interferon alpha/beta signaling",
     "stId": "R-DRE-909733",
     "stIdVersion": "R-DRE-909733.1",
@@ -282,7 +198,7 @@
     "name": [
      "Interferon alpha/beta signaling"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Danio rerio",
     "inferredFrom": [
      909733
@@ -293,18 +209,18 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10451515,
+    "dbId": 10769841,
     "displayName": "Interferon alpha/beta signaling",
-    "stId": "R-BTA-909733",
-    "stIdVersion": "R-BTA-909733.1",
+    "stId": "R-XTR-909733",
+    "stIdVersion": "R-XTR-909733.1",
     "isInDisease": false,
     "isInferred": true,
     "maxDepth": 3,
     "name": [
      "Interferon alpha/beta signaling"
     ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Bos taurus",
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
     "inferredFrom": [
      909733
     ],
@@ -314,18 +230,102 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10336991,
+    "dbId": 10953257,
     "displayName": "Interferon alpha/beta signaling",
-    "stId": "R-CFA-909733",
-    "stIdVersion": "R-CFA-909733.1",
+    "stId": "R-DME-909733",
+    "stIdVersion": "R-DME-909733.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Interferon alpha/beta signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     909733
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11036354,
+    "displayName": "Interferon alpha/beta signaling",
+    "stId": "R-CEL-909733",
+    "stIdVersion": "R-CEL-909733.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Interferon alpha/beta signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     909733
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11092759,
+    "displayName": "Interferon alpha/beta signaling",
+    "stId": "R-DDI-909733",
+    "stIdVersion": "R-DDI-909733.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Interferon alpha/beta signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     909733
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10867605,
+    "displayName": "Interferon alpha/beta signaling",
+    "stId": "R-GGA-909733",
+    "stIdVersion": "R-GGA-909733.1",
     "isInDisease": false,
     "isInferred": true,
     "maxDepth": 3,
     "name": [
      "Interferon alpha/beta signaling"
     ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Canis familiaris",
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     909733
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10482813,
+    "displayName": "Interferon alpha/beta signaling",
+    "stId": "R-BTA-909733",
+    "stIdVersion": "R-BTA-909733.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Interferon alpha/beta signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
     "inferredFrom": [
      909733
     ],

@@ -1,0 +1,29 @@
+{
+ "source": "opentargets_drug",
+ "query": "drug_CHEMBL429910",
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "params": null,
+ "retrieved_at": "2026-10-31T04:33:54+00:00",
+ "response": {
+  "data": {
+   "drug": {
+    "id": "CHEMBL429910",
+    "name": "DAPAGLIFLOZIN",
+    "mechanismsOfAction": {
+     "rows": [
+      {
+       "mechanismOfAction": "Sodium/glucose cotransporter 2 inhibitor",
+       "actionType": "INHIBITOR",
+       "targets": [
+        {
+         "id": "ENSG00000140675",
+         "approvedSymbol": "SLC5A2"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

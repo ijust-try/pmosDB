@@ -39,6 +39,7 @@ ROUTES = {
     "publications": re.compile(r"^/api/publications$"),
     "sources": re.compile(r"^/api/sources$"),
     "summary": re.compile(r"^/api/summary$"),
+    "sync": re.compile(r"^/api/sync$"),
 }
 
 
@@ -156,6 +157,10 @@ class Handler(BaseHTTPRequestHandler):
 
             if ROUTES["sources"].match(path):
                 self._send_json(pmos_data.get_sources(INDEX))
+                return
+
+            if ROUTES["sync"].match(path):
+                self._send_json(pmos_data.get_sync_status())
                 return
 
             if ROUTES["summary"].match(path):

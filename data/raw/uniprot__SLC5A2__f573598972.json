@@ -1,0 +1,127 @@
+{
+ "source": "uniprot",
+ "query": "SLC5A2",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:SLC5A2) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T04:47:14+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P31639",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "37217492"
+        },
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "38057552"
+        }
+       ],
+       "value": "Sodium/glucose cotransporter 2"
+      },
+      "shortNames": [
+       {
+        "value": "Na(+)/glucose cotransporter 2"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Low affinity sodium-glucose cotransporter"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Solute carrier family 5 member 2"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "14614622"
+        }
+       ],
+       "value": "SLC5A2"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q923I7"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20980548"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28592437"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "34880493"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "37217492"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "38057552"
+         }
+        ],
+        "value": "Electrogenic Na(+)-coupled sugar symporter that actively transports D-glucose at the plasma membrane, with a Na(+) to sugar coupling ratio of 1:1 (PubMed:20980548, PubMed:28592437, PubMed:34880493, PubMed:37217492, PubMed:38057552). Transporter activity is driven by a transmembrane Na(+) electrochemical gradient set by the Na(+)/K(+) pump (PubMed:20980548, PubMed:28592437, PubMed:34880493). Unlike SLC5A1/SGLT1, requires the auxiliary protein PDZK1IP1/MAP17 for full transporter activity (PubMed:37217492). Has a primary role in D-glucose reabsorption from glomerular filtrate across the brush border of the early proximal tubules of the kidney (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "6524",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000004D0A0"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "source": "opentargets_drug",
+ "query": "search_metformin",
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "params": null,
+ "retrieved_at": "2026-10-31T04:33:36+00:00",
+ "response": {
+  "data": {
+   "search": {
+    "hits": [
+     {
+      "id": "CHEMBL1431",
+      "name": "METFORMIN"
+     },
+     {
+      "id": "CHEMBL121",
+      "name": "ROSIGLITAZONE"
+     },
+     {
+      "id": "CHEMBL4297654",
+      "name": "BIGUANIDE"
+     },
+     {
+      "id": "CHEMBL1703",
+      "name": "METFORMIN HYDROCHLORIDE"
+     },
+     {
+      "id": "CHEMBL2108299",
+      "name": "METFORMIN GLYCINATE"
+     }
+    ]
+   }
+  }
+ }
+}

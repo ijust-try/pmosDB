@@ -1,0 +1,29 @@
+{
+ "source": "opentargets_drug",
+ "query": "drug_CHEMBL1444",
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "params": null,
+ "retrieved_at": "2026-10-31T04:33:42+00:00",
+ "response": {
+  "data": {
+   "drug": {
+    "id": "CHEMBL1444",
+    "name": "LETROZOLE",
+    "mechanismsOfAction": {
+     "rows": [
+      {
+       "mechanismOfAction": "Cytochrome P450 19A1 inhibitor",
+       "actionType": "INHIBITOR",
+       "targets": [
+        {
+         "id": "ENSG00000137869",
+         "approvedSymbol": "CYP19A1"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

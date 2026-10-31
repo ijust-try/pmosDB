@@ -191,6 +191,10 @@ export const mockBackend: Backend = {
     return delay(DATA_SOURCES);
   },
 
+  async getSyncStatus() {
+    return delay(null);
+  },
+
   async getSummary() {
     const entityCounts = Object.fromEntries(
       (['gene', 'protein', 'hormone', 'biomarker', 'pathway', 'therapeutic', 'publication', 'process'] as EntityType[]).map(

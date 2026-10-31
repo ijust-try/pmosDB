@@ -1,0 +1,181 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-5658208",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-5658208",
+ "params": null,
+ "retrieved_at": "2026-10-31T04:47:22+00:00",
+ "response": {
+  "dbId": 5658208,
+  "displayName": "Defective SLC5A2 causes renal glucosuria (GLYS1)",
+  "stId": "R-HSA-5658208",
+  "stIdVersion": "R-HSA-5658208.4",
+  "isInDisease": true,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Defective SLC5A2 causes renal glucosuria (GLYS1)"
+  ],
+  "releaseDate": "2015-09-22",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12849116,
+    "displayName": "BioModels Database:BIOMD0000000054",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000054",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000054",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12061289,
+    "displayName": "Mondo:0006510",
+    "databaseName": "Mondo",
+    "identifier": "0006510",
+    "url": "https://monarchinitiative.org/MONDO:0006510",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12849118,
+    "displayName": "BioModels Database:BIOMD0000000570",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000570",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000570",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "disease": [
+   {
+    "dbId": 5638228,
+    "displayName": "renal tubular transport disease",
+    "databaseName": "DOID",
+    "identifier": "447",
+    "name": [
+     "renal tubular transport disease"
+    ],
+    "synonym": [
+     "inborn renal tubular transport disorder"
+    ],
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/doid/terms?obo_id=DOID:447",
+    "className": "Disease",
+    "schemaClass": "Disease"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 5658175,
+    "displayName": "Familial renal glucosuria and SGLT2: from a mendelian trait to a therapeutic target",
+    "title": "Familial renal glucosuria and SGLT2: from a mendelian trait to a therapeutic target",
+    "journal": "Clin J Am Soc Nephrol",
+    "pages": "133-41",
+    "pubMedIdentifier": 19965550,
+    "volume": 5,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19965550",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5658179,
+    "displayName": "Effect of kidney disease on glucose handling (including genetic defects)",
+    "title": "Effect of kidney disease on glucose handling (including genetic defects)",
+    "journal": "Kidney Int. Suppl.",
+    "pages": "S7-13",
+    "pubMedIdentifier": 21358700,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21358700",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 5658176,
+    "displayName": "The human gene SLC5A2 encodes a sodium-dependent glucose tra...",
+    "text": "The human gene SLC5A2 encodes a sodium-dependent glucose transporter (SGLT2), expressed in many tissues but primarily in the kidney, specifically S1 and S2 proximal tubule segments. It is a low affinity, high capacity transporter of glucose across the apical membrane, with co-transport of Na+ ions in a 1:1 ratio and is the main transporter of glucose in the kidney, responsible for approximately 98% of glucose reabsorption (reaminder by SGLT1). Defects in SLC5A2 are the cause of renal glucosuria (GLYS1; MIM:233100), an autosomal recessive renal tubular disorder characterised by glucosuria in the absence of both hyperglycemia and generalized proximal tubular dysfunction. Establishing definite genotype–phenotype correlations for GLYS1 is made difficult by variable expression of SLC5A2 and because other genes may have an impact on overall renal glucose resorption. Drugs that inhibit SLC5A2 are used to treat type 2 diabetes (T2D). The strategy to reduce hyperglycemia in T2D is to target renal glucose reabsorption by inhibiting SLC5A2 (Santer & Calado 2010, Calado et al. 2011).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2019-03-25",
+  "hasEvent": [
+   {
+    "dbId": 5658163,
+    "displayName": "Defective SLC5A2 does not cotransport Glc and Na+ from extracellular region to cytosol",
+    "stId": "R-HSA-5658163",
+    "stIdVersion": "R-HSA-5658163.4",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Defective SLC5A2 does not cotransport Glc and Na+ from extracellular region to cytosol"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5658208
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "FailedReaction"
+   }
+  ],
+  "normalPathway": {
+   "dbId": 189200,
+   "displayName": "Cellular hexose transport",
+   "stId": "R-HSA-189200",
+   "stIdVersion": "R-HSA-189200.7",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 2,
+   "name": [
+    "Cellular hexose transport"
+   ],
+   "releaseDate": "2006-01-23",
+   "speciesName": "Homo sapiens",
+   "doi": "10.3180/REACT_9441.1",
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "lastUpdatedDate": "2022-06-09",
+   "diseasePathways": [
+    5658208
+   ],
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

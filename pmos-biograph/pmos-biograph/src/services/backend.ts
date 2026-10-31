@@ -12,6 +12,7 @@ import type {
   PublicationQuery,
   SearchHit,
   SearchOptions,
+  SyncStatus,
   Therapeutic,
 } from '../types';
 
@@ -30,4 +31,6 @@ export interface Backend {
   getPublications(query?: PublicationQuery): Promise<PublicationItem[]>;
   getSources(): Promise<DataSource[]>;
   getSummary(): Promise<DatasetSummary>;
+  /** `null` when no synchronisation schedule exists (demo data). */
+  getSyncStatus(): Promise<SyncStatus | null>;
 }

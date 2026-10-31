@@ -3,7 +3,7 @@
  "query": "R-HSA-8939236",
  "url": "https://reactome.org/ContentService/data/query/R-HSA-8939236",
  "params": null,
- "retrieved_at": "2026-10-12T09:40:24+00:00",
+ "retrieved_at": "2026-10-31T04:42:19+00:00",
  "response": {
   "dbId": 8939236,
   "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
@@ -22,7 +22,7 @@
    "displayName": "regulation of hematopoietic stem cell differentiation",
    "accession": "1902036",
    "databaseName": "GO",
-   "definition": "Any process that modulates the frequency, rate or extent of hematopoietic stem cell differentiation.",
+   "definition": "\"Any process that modulates the frequency, rate or extent of hematopoietic stem cell differentiation.\" [GOC:TermGenie, PMID:23403623]",
    "name": "regulation of hematopoietic stem cell differentiation",
    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:1902036",
    "className": "GO_BiologicalProcess",
@@ -97,175 +97,7 @@
   ],
   "orthologousEvent": [
    {
-    "dbId": 10231270,
-    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
-    "stId": "R-RNO-8939236",
-    "stIdVersion": "R-RNO-8939236.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Rattus norvegicus",
-    "inferredFrom": [
-     8939236
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11003761,
-    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
-    "stId": "R-CEL-8939236",
-    "stIdVersion": "R-CEL-8939236.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Caenorhabditis elegans",
-    "inferredFrom": [
-     8939236
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10920883,
-    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
-    "stId": "R-DME-8939236",
-    "stIdVersion": "R-DME-8939236.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Drosophila melanogaster",
-    "inferredFrom": [
-     8939236
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10835734,
-    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
-    "stId": "R-GGA-8939236",
-    "stIdVersion": "R-GGA-8939236.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Gallus gallus",
-    "inferredFrom": [
-     8939236
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10738484,
-    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
-    "stId": "R-XTR-8939236",
-    "stIdVersion": "R-XTR-8939236.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Xenopus tropicalis",
-    "inferredFrom": [
-     8939236
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10657472,
-    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
-    "stId": "R-DRE-8939236",
-    "stIdVersion": "R-DRE-8939236.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Danio rerio",
-    "inferredFrom": [
-     8939236
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10565503,
-    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
-    "stId": "R-SSC-8939236",
-    "stIdVersion": "R-SSC-8939236.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Sus scrofa",
-    "inferredFrom": [
-     8939236
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10452557,
-    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
-    "stId": "R-BTA-8939236",
-    "stIdVersion": "R-BTA-8939236.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Bos taurus",
-    "inferredFrom": [
-     8939236
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10337979,
+    "dbId": 10368943,
     "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
     "stId": "R-CFA-8939236",
     "stIdVersion": "R-CFA-8939236.1",
@@ -275,7 +107,7 @@
     "name": [
      "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Canis familiaris",
     "inferredFrom": [
      8939236
@@ -286,7 +118,175 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10107500,
+    "dbId": 11037316,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-CEL-8939236",
+    "stIdVersion": "R-CEL-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10954157,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-DME-8939236",
+    "stIdVersion": "R-DME-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10868645,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-GGA-8939236",
+    "stIdVersion": "R-GGA-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10770829,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-XTR-8939236",
+    "stIdVersion": "R-XTR-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10689590,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-DRE-8939236",
+    "stIdVersion": "R-DRE-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10597168,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-SSC-8939236",
+    "stIdVersion": "R-SSC-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10483859,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-BTA-8939236",
+    "stIdVersion": "R-BTA-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10261754,
+    "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "stId": "R-RNO-8939236",
+    "stIdVersion": "R-RNO-8939236.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     8939236
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10120436,
     "displayName": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
     "stId": "R-MMU-8939236",
     "stIdVersion": "R-MMU-8939236.1",
@@ -296,7 +296,7 @@
     "name": [
      "RUNX1 regulates transcription of genes involved in differentiation of HSCs"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Mus musculus",
     "inferredFrom": [
      8939236

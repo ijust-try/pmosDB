@@ -3,7 +3,7 @@
  "query": "MONDO_0008487_p0",
  "url": "https://api.platform.opentargets.org/api/v4/graphql",
  "params": null,
- "retrieved_at": "2026-10-12T09:18:45+00:00",
+ "retrieved_at": "2026-10-31T04:33:31+00:00",
  "response": {
   "data": {
    "disease": {
@@ -203,13 +203,6 @@
       },
       {
        "target": {
-        "id": "ENSG00000198886",
-        "approvedSymbol": "MT-ND4"
-       },
-       "score": 0.4201253039282596
-      },
-      {
-       "target": {
         "id": "ENSG00000198695",
         "approvedSymbol": "MT-ND6"
        },
@@ -217,15 +210,15 @@
       },
       {
        "target": {
-        "id": "ENSG00000178127",
-        "approvedSymbol": "NDUFV2"
+        "id": "ENSG00000198886",
+        "approvedSymbol": "MT-ND4"
        },
-       "score": 0.41984811903724606
+       "score": 0.4201253039282596
       },
       {
        "target": {
-        "id": "ENSG00000139180",
-        "approvedSymbol": "NDUFA9"
+        "id": "ENSG00000178127",
+        "approvedSymbol": "NDUFV2"
        },
        "score": 0.41984811903724606
       },
@@ -245,6 +238,13 @@
       },
       {
        "target": {
+        "id": "ENSG00000139180",
+        "approvedSymbol": "NDUFA9"
+       },
+       "score": 0.41984811903724606
+      },
+      {
+       "target": {
         "id": "ENSG00000147123",
         "approvedSymbol": "NDUFB11"
        },
@@ -259,29 +259,71 @@
       },
       {
        "target": {
-        "id": "ENSG00000267855",
-        "approvedSymbol": "NDUFA7"
+        "id": "ENSG00000099795",
+        "approvedSymbol": "NDUFB7"
        },
        "score": 0.4189241694005343
       },
       {
        "target": {
-        "id": "ENSG00000185633",
-        "approvedSymbol": "COXFA4L2"
+        "id": "ENSG00000115159",
+        "approvedSymbol": "GPD2"
        },
        "score": 0.4189241694005343
       },
       {
        "target": {
-        "id": "ENSG00000184983",
-        "approvedSymbol": "NDUFA6"
+        "id": "ENSG00000184752",
+        "approvedSymbol": "NDUFA12"
        },
        "score": 0.4189241694005343
       },
       {
        "target": {
-        "id": "ENSG00000198840",
-        "approvedSymbol": "MT-ND3"
+        "id": "ENSG00000168653",
+        "approvedSymbol": "NDUFS5"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000145494",
+        "approvedSymbol": "NDUFS6"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000178057",
+        "approvedSymbol": "NDUFAF3"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000109390",
+        "approvedSymbol": "NDUFC1"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000128609",
+        "approvedSymbol": "NDUFA5"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000137806",
+        "approvedSymbol": "NDUFAF1"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000165264",
+        "approvedSymbol": "NDUFB6"
        },
        "score": 0.4189241694005343
       },
@@ -317,6 +359,90 @@
        "target": {
         "id": "ENSG00000158864",
         "approvedSymbol": "NDUFS2"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000267855",
+        "approvedSymbol": "NDUFA7"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000185633",
+        "approvedSymbol": "COXFA4L2"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000184983",
+        "approvedSymbol": "NDUFA6"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000198840",
+        "approvedSymbol": "MT-ND3"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000130414",
+        "approvedSymbol": "NDUFA10"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000115286",
+        "approvedSymbol": "NDUFS7"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000090266",
+        "approvedSymbol": "NDUFB2"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000136521",
+        "approvedSymbol": "NDUFB5"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000164182",
+        "approvedSymbol": "NDUFAF2"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000123545",
+        "approvedSymbol": "NDUFAF4"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000183648",
+        "approvedSymbol": "NDUFB1"
+       },
+       "score": 0.4189241694005343
+      },
+      {
+       "target": {
+        "id": "ENSG00000167792",
+        "approvedSymbol": "NDUFV1"
        },
        "score": 0.4189241694005343
       },
@@ -387,132 +513,6 @@
        "target": {
         "id": "ENSG00000065518",
         "approvedSymbol": "NDUFB4"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000115286",
-        "approvedSymbol": "NDUFS7"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000167792",
-        "approvedSymbol": "NDUFV1"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000183648",
-        "approvedSymbol": "NDUFB1"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000164182",
-        "approvedSymbol": "NDUFAF2"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000123545",
-        "approvedSymbol": "NDUFAF4"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000130414",
-        "approvedSymbol": "NDUFA10"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000090266",
-        "approvedSymbol": "NDUFB2"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000136521",
-        "approvedSymbol": "NDUFB5"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000109390",
-        "approvedSymbol": "NDUFC1"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000178057",
-        "approvedSymbol": "NDUFAF3"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000137806",
-        "approvedSymbol": "NDUFAF1"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000165264",
-        "approvedSymbol": "NDUFB6"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000128609",
-        "approvedSymbol": "NDUFA5"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000099795",
-        "approvedSymbol": "NDUFB7"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000115159",
-        "approvedSymbol": "GPD2"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000184752",
-        "approvedSymbol": "NDUFA12"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000168653",
-        "approvedSymbol": "NDUFS5"
-       },
-       "score": 0.4189241694005343
-      },
-      {
-       "target": {
-        "id": "ENSG00000145494",
-        "approvedSymbol": "NDUFS6"
        },
        "score": 0.4189241694005343
       },

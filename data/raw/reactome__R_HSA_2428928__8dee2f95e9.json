@@ -3,7 +3,7 @@
  "query": "R-HSA-2428928",
  "url": "https://reactome.org/ContentService/data/query/R-HSA-2428928",
  "params": null,
- "retrieved_at": "2026-10-12T09:41:26+00:00",
+ "retrieved_at": "2026-10-31T04:43:28+00:00",
  "response": {
   "dbId": 2428928,
   "displayName": "IRS-related events triggered by IGF1R",
@@ -19,7 +19,7 @@
   "speciesName": "Homo sapiens",
   "crossReference": [
    {
-    "dbId": 12829190,
+    "dbId": 12849280,
     "displayName": "BioModels Database:BIOMD0000000449",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000449",
@@ -28,7 +28,7 @@
     "schemaClass": "DatabaseIdentifier"
    },
    {
-    "dbId": 12829162,
+    "dbId": 12849252,
     "displayName": "BioModels Database:BIOMD0000000356",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000356",
@@ -43,7 +43,7 @@
     "displayName": "cytosol",
     "accession": "0005829",
     "databaseName": "GO",
-    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
     "name": "cytosol",
     "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
     "className": "Compartment",
@@ -54,7 +54,7 @@
     "displayName": "plasma membrane",
     "accession": "0005886",
     "databaseName": "GO",
-    "definition": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+    "definition": "\"The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.\" [ISBN:0716731363]",
     "name": "plasma membrane",
     "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
     "className": "Compartment",
@@ -143,259 +143,7 @@
   ],
   "orthologousEvent": [
    {
-    "dbId": 10654876,
-    "displayName": "IRS-related events triggered by IGF1R",
-    "stId": "R-DRE-2428928",
-    "stIdVersion": "R-DRE-2428928.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "IRS-related events triggered by IGF1R"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Danio rerio",
-    "inferredFrom": [
-     2428928
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11136462,
-    "displayName": "IRS-related events triggered by IGF1R",
-    "stId": "R-PFA-2428928",
-    "stIdVersion": "R-PFA-2428928.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "IRS-related events triggered by IGF1R"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Plasmodium falciparum",
-    "inferredFrom": [
-     2428928
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11115086,
-    "displayName": "IRS-related events triggered by IGF1R",
-    "stId": "R-SCE-2428928",
-    "stIdVersion": "R-SCE-2428928.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "IRS-related events triggered by IGF1R"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Saccharomyces cerevisiae",
-    "inferredFrom": [
-     2428928
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11086660,
-    "displayName": "IRS-related events triggered by IGF1R",
-    "stId": "R-SPO-2428928",
-    "stIdVersion": "R-SPO-2428928.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 5,
-    "name": [
-     "IRS-related events triggered by IGF1R"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Schizosaccharomyces pombe",
-    "inferredFrom": [
-     2428928
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11057242,
-    "displayName": "IRS-related events triggered by IGF1R",
-    "stId": "R-DDI-2428928",
-    "stIdVersion": "R-DDI-2428928.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "IRS-related events triggered by IGF1R"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Dictyostelium discoideum",
-    "inferredFrom": [
-     2428928
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11001699,
-    "displayName": "IRS-related events triggered by IGF1R",
-    "stId": "R-CEL-2428928",
-    "stIdVersion": "R-CEL-2428928.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "IRS-related events triggered by IGF1R"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Caenorhabditis elegans",
-    "inferredFrom": [
-     2428928
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10918601,
-    "displayName": "IRS-related events triggered by IGF1R",
-    "stId": "R-DME-2428928",
-    "stIdVersion": "R-DME-2428928.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 5,
-    "name": [
-     "IRS-related events triggered by IGF1R"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Drosophila melanogaster",
-    "inferredFrom": [
-     2428928
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10833042,
-    "displayName": "IRS-related events triggered by IGF1R",
-    "stId": "R-GGA-2428928",
-    "stIdVersion": "R-GGA-2428928.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "IRS-related events triggered by IGF1R"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Gallus gallus",
-    "inferredFrom": [
-     2428928
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10736004,
-    "displayName": "IRS-related events triggered by IGF1R",
-    "stId": "R-XTR-2428928",
-    "stIdVersion": "R-XTR-2428928.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "IRS-related events triggered by IGF1R"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Xenopus tropicalis",
-    "inferredFrom": [
-     2428928
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10562763,
-    "displayName": "IRS-related events triggered by IGF1R",
-    "stId": "R-SSC-2428928",
-    "stIdVersion": "R-SSC-2428928.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "IRS-related events triggered by IGF1R"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Sus scrofa",
-    "inferredFrom": [
-     2428928
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10449767,
-    "displayName": "IRS-related events triggered by IGF1R",
-    "stId": "R-BTA-2428928",
-    "stIdVersion": "R-BTA-2428928.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "IRS-related events triggered by IGF1R"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Bos taurus",
-    "inferredFrom": [
-     2428928
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10335287,
-    "displayName": "IRS-related events triggered by IGF1R",
-    "stId": "R-CFA-2428928",
-    "stIdVersion": "R-CFA-2428928.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 6,
-    "name": [
-     "IRS-related events triggered by IGF1R"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Canis familiaris",
-    "inferredFrom": [
-     2428928
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10228454,
+    "dbId": 10258936,
     "displayName": "IRS-related events triggered by IGF1R",
     "stId": "R-RNO-2428928",
     "stIdVersion": "R-RNO-2428928.1",
@@ -405,7 +153,7 @@
     "name": [
      "IRS-related events triggered by IGF1R"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Rattus norvegicus",
     "inferredFrom": [
      2428928
@@ -416,7 +164,259 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10104678,
+    "dbId": 11170824,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-PFA-2428928",
+    "stIdVersion": "R-PFA-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11149266,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-SCE-2428928",
+    "stIdVersion": "R-SCE-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11120673,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-SPO-2428928",
+    "stIdVersion": "R-SPO-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 5,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11091073,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-DDI-2428928",
+    "stIdVersion": "R-DDI-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11035240,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-CEL-2428928",
+    "stIdVersion": "R-CEL-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10951871,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-DME-2428928",
+    "stIdVersion": "R-DME-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 5,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10865943,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-GGA-2428928",
+    "stIdVersion": "R-GGA-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10768347,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-XTR-2428928",
+    "stIdVersion": "R-XTR-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10686988,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-DRE-2428928",
+    "stIdVersion": "R-DRE-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10594426,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-SSC-2428928",
+    "stIdVersion": "R-SSC-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10481067,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-BTA-2428928",
+    "stIdVersion": "R-BTA-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10366249,
+    "displayName": "IRS-related events triggered by IGF1R",
+    "stId": "R-CFA-2428928",
+    "stIdVersion": "R-CFA-2428928.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 6,
+    "name": [
+     "IRS-related events triggered by IGF1R"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     2428928
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10117608,
     "displayName": "IRS-related events triggered by IGF1R",
     "stId": "R-MMU-2428928",
     "stIdVersion": "R-MMU-2428928.1",
@@ -426,7 +426,7 @@
     "name": [
      "IRS-related events triggered by IGF1R"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Mus musculus",
     "inferredFrom": [
      2428928

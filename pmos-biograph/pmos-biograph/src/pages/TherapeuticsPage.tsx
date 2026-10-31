@@ -12,7 +12,8 @@ import { useDebounce } from '../hooks/useDebounce';
 import { getTherapeuticDetail, getTherapeutics, searchEntities } from '../services/repository';
 import type { Therapeutic } from '../types';
 
-const NOT_CURATED = 'Not yet curated';
+const NOT_CURATED = 'No curated target in Open Targets';
+const GO_PREVIEW = 10;
 
 function TherapeuticDetailPanel({ id }: { id: string }) {
   const state = useAsync(() => getTherapeuticDetail(id), [id]);
@@ -75,28 +76,80 @@ function TherapeuticDetailPanel({ id }: { id: string }) {
             </div>
             <div className="grid grid-cols-[130px_1fr] gap-3 px-5 py-2.5">
               <dt className="text-ink-mute">Biological target</dt>
-              <dd className="italic text-ink-faint">{NOT_CURATED}</dd>
+              <dd>
+                {d.targets.length === 0 ? (
+                  <span className="italic text-ink-faint">{NOT_CURATED}</span>
+                ) : (
+                  <ul className="space-y-2">
+                    {d.targets.map(({ gene, note }) => (
+                      <li key={gene.id}>
+                        <Link to={`/entity/${gene.id}`} className="font-semibold text-teal hover:underline">
+                          {gene.name}
+                        </Link>
+                        {note && <p className="mt-0.5 text-[12px] leading-snug text-ink-mute">{note}</p>}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </dd>
             </div>
           </dl>
           <p className="border-t border-line bg-paper px-5 py-3 text-[11.5px] leading-relaxed text-ink-mute">
-            Mechanism and target are shown only when supported by imported data. None is inferred here.
+            Targets are curated mechanism-of-action records from Open Targets (ChEMBL). None is inferred here.
           </p>
         </section>
 
         <section className="panel p-5">
           <p className="eyebrow mb-3">Associated genes</p>
-          <EntityChips entities={d.genes} empty="No genes linked yet." />
+          <EntityChips entities={d.genes} empty="No curated target gene is recorded for this compound." />
         </section>
         <section className="panel p-5">
           <p className="eyebrow mb-3">Associated pathways</p>
-          <EntityChips entities={d.pathways} empty="No pathways linked yet." />
+          <EntityChips
+            entities={d.pathways}
+            empty={
+              d.genes.length
+                ? "No Reactome pathways are mapped to this compound's target proteins."
+                : 'No curated target is recorded, so no pathways can be derived.'
+            }
+          />
+          {d.pathways.length > 0 && (
+            <p className="mt-3 text-[11.5px] leading-relaxed text-ink-mute">
+              Reached through the target gene and its protein in Reactome. This is membership of the target, not a claim that the
+              compound acts on the pathway directly.
+            </p>
+          )}
         </section>
         <section className="panel p-5">
           <p className="eyebrow mb-3">Biological context</p>
           <EntityChips
-            entities={d.neighbours.filter((n) => n.entity.type === 'process').map((n) => n.entity)}
-            empty="No biological context linked yet."
+            entities={d.processes}
+            empty={
+              d.goProcesses.length
+                ? 'No condition-level association for the target gene in Open Targets.'
+                : 'No biological context is available without a curated target.'
+            }
           />
+          {d.processes.length > 0 && (
+            <p className="mt-2 text-[11.5px] leading-relaxed text-ink-mute">
+              Condition associated with the target gene in Open Targets. This is an association record, not evidence of efficacy.
+            </p>
+          )}
+          {d.goProcesses.length > 0 && (
+            <div className="mt-4 border-t border-line pt-3">
+              <p className="mb-2 text-[11.5px] font-bold text-ink-mute">Gene Ontology biological processes of the target</p>
+              <ul className="flex flex-wrap gap-1.5">
+                {d.goProcesses.slice(0, GO_PREVIEW).map((term) => (
+                  <li key={term} className="rounded-md bg-sand/70 px-2 py-0.5 text-[12px] text-ink-soft">
+                    {term}
+                  </li>
+                ))}
+              </ul>
+              {d.goProcesses.length > GO_PREVIEW && (
+                <p className="mt-2 text-[11.5px] text-ink-faint">+{d.goProcesses.length - GO_PREVIEW} more annotated terms</p>
+              )}
+            </div>
+          )}
         </section>
         <section className="panel p-5">
           <p className="eyebrow mb-3">Publications</p>

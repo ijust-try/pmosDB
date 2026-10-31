@@ -3,7 +3,7 @@
  "query": "R-HSA-2028269",
  "url": "https://reactome.org/ContentService/data/query/R-HSA-2028269",
  "params": null,
- "retrieved_at": "2026-10-12T09:40:23+00:00",
+ "retrieved_at": "2026-10-31T04:42:17+00:00",
  "response": {
   "dbId": 2028269,
   "displayName": "Signaling by Hippo",
@@ -24,7 +24,7 @@
     "displayName": "cytosol",
     "accession": "0005829",
     "databaseName": "GO",
-    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
     "name": "cytosol",
     "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
     "className": "Compartment",
@@ -45,7 +45,7 @@
    "displayName": "hippo signaling",
    "accession": "0035329",
    "databaseName": "GO",
-   "definition": "An intracellular signaling cascade that starts with the activation of hippo (STK4/MST1 and STK3/MST2 in mammals and hpo kinase in Drosophila). Hippo then phosphorylates LATS1/2, which in turn phosphoylates the transcriptional co-activator YAP1 (yki in Drosophila), leading to its cytosolic retention and/or degradation.",
+   "definition": "\"An intracellular signaling cascade that starts with the activation of hippo (STK4/MST1 and STK3/MST2 in mammals and hpo kinase in Drosophila). Hippo then phosphorylates LATS1/2, which in turn phosphoylates the transcriptional co-activator YAP1 (yki in Drosophila), leading to its cytosolic retention and/or degradation.\" [PMID:17318211, PMID:18328423, PMID:36347846]",
    "name": "hippo signaling",
    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0035329",
    "className": "GO_BiologicalProcess",
@@ -185,7 +185,7 @@
   ],
   "orthologousEvent": [
    {
-    "dbId": 10106824,
+    "dbId": 10119754,
     "displayName": "Signaling by Hippo",
     "stId": "R-MMU-2028269",
     "stIdVersion": "R-MMU-2028269.1",
@@ -196,7 +196,7 @@
      "Signaling by Hippo",
      "Hippo signaling cascade"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Mus musculus",
     "inferredFrom": [
      2028269
@@ -207,29 +207,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 11058288,
-    "displayName": "Signaling by Hippo",
-    "stId": "R-DDI-2028269",
-    "stIdVersion": "R-DDI-2028269.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "Signaling by Hippo",
-     "Hippo signaling cascade"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Dictyostelium discoideum",
-    "inferredFrom": [
-     2028269
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 11003063,
+    "dbId": 11036604,
     "displayName": "Signaling by Hippo",
     "stId": "R-CEL-2028269",
     "stIdVersion": "R-CEL-2028269.1",
@@ -240,7 +218,7 @@
      "Signaling by Hippo",
      "Hippo signaling cascade"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Caenorhabditis elegans",
     "inferredFrom": [
      2028269
@@ -251,7 +229,29 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10920293,
+    "dbId": 11092115,
+    "displayName": "Signaling by Hippo",
+    "stId": "R-DDI-2028269",
+    "stIdVersion": "R-DDI-2028269.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by Hippo",
+     "Hippo signaling cascade"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     2028269
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10953561,
     "displayName": "Signaling by Hippo",
     "stId": "R-DME-2028269",
     "stIdVersion": "R-DME-2028269.1",
@@ -262,7 +262,7 @@
      "Signaling by Hippo",
      "Hippo signaling cascade"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Drosophila melanogaster",
     "inferredFrom": [
      2028269
@@ -273,7 +273,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10835058,
+    "dbId": 10867963,
     "displayName": "Signaling by Hippo",
     "stId": "R-GGA-2028269",
     "stIdVersion": "R-GGA-2028269.1",
@@ -284,7 +284,7 @@
      "Signaling by Hippo",
      "Hippo signaling cascade"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Gallus gallus",
     "inferredFrom": [
      2028269
@@ -295,7 +295,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10737824,
+    "dbId": 10770163,
     "displayName": "Signaling by Hippo",
     "stId": "R-XTR-2028269",
     "stIdVersion": "R-XTR-2028269.1",
@@ -306,7 +306,7 @@
      "Signaling by Hippo",
      "Hippo signaling cascade"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Xenopus tropicalis",
     "inferredFrom": [
      2028269
@@ -317,7 +317,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10656788,
+    "dbId": 10688902,
     "displayName": "Signaling by Hippo",
     "stId": "R-DRE-2028269",
     "stIdVersion": "R-DRE-2028269.1",
@@ -328,7 +328,7 @@
      "Signaling by Hippo",
      "Hippo signaling cascade"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Danio rerio",
     "inferredFrom": [
      2028269
@@ -339,7 +339,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10230590,
+    "dbId": 10261068,
     "displayName": "Signaling by Hippo",
     "stId": "R-RNO-2028269",
     "stIdVersion": "R-RNO-2028269.1",
@@ -350,7 +350,7 @@
      "Signaling by Hippo",
      "Hippo signaling cascade"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Rattus norvegicus",
     "inferredFrom": [
      2028269
@@ -361,7 +361,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10337335,
+    "dbId": 10368293,
     "displayName": "Signaling by Hippo",
     "stId": "R-CFA-2028269",
     "stIdVersion": "R-CFA-2028269.1",
@@ -372,7 +372,7 @@
      "Signaling by Hippo",
      "Hippo signaling cascade"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Canis familiaris",
     "inferredFrom": [
      2028269
@@ -383,7 +383,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10451877,
+    "dbId": 10483173,
     "displayName": "Signaling by Hippo",
     "stId": "R-BTA-2028269",
     "stIdVersion": "R-BTA-2028269.1",
@@ -394,7 +394,7 @@
      "Signaling by Hippo",
      "Hippo signaling cascade"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Bos taurus",
     "inferredFrom": [
      2028269
@@ -405,7 +405,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10564817,
+    "dbId": 10596476,
     "displayName": "Signaling by Hippo",
     "stId": "R-SSC-2028269",
     "stIdVersion": "R-SSC-2028269.1",
@@ -416,7 +416,7 @@
      "Signaling by Hippo",
      "Hippo signaling cascade"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Sus scrofa",
     "inferredFrom": [
      2028269

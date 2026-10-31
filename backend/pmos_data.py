@@ -17,13 +17,15 @@ Contract with Person A (data layer, notebook1.ipynb):
 
 What this module adds to the database (idempotent — safe to re-run):
     gene_protein_link, protein_pathway_link, entity_publication_link,
-    gene_pcos_association, biomarker_protein_link, hormone_protein_link,
-    therapeutic_target_candidate
+    gene_pcos_association, biomarker_protein_link, hormone_protein_link
     -- all with real FOREIGN KEY constraints back to Person A's tables.
+    Drug -> target links come from Open Targets (`therapeutic_target`, written by sync/).
 """
 from __future__ import annotations
 
 import csv
+import datetime as dt
+import json
 import re
 import sqlite3
 import unicodedata
@@ -34,6 +36,8 @@ from typing import Iterable
 ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = ROOT / "pmos_knowledge_base.db"
 CLEAN_DIR = ROOT / "data" / "clean"
+SYNC_STATE_PATH = ROOT / "data" / "sync_state.json"
+IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 
 DOC = "project-document"  # Verification / RelationStatus: real, sourced data
 DEMO_UNVALIDATED = "demo-unvalidated"  # RelationStatus: inferred, not curated
@@ -66,7 +70,11 @@ SOURCE_META = {
     "reactome": ("Reactome", "Pathway membership for gene products", ["pathway"]),
     "gene-ontology": ("Gene Ontology (QuickGO)", "Functional annotations for proteins", ["protein"]),
     "pubchem": ("PubChem", "Small-molecule hormone and therapeutic identifiers", ["hormone", "therapeutic"]),
-    "open-targets": ("Open Targets", "Gene-disease association evidence for PCOS", ["gene", "process"]),
+    "open-targets": (
+        "Open Targets",
+        "Gene-disease association evidence for PCOS, and curated drug mechanism-of-action targets (ChEMBL)",
+        ["gene", "process", "therapeutic"],
+    ),
     "pubmed": ("PubMed", "Supporting literature", ["publication"]),
 }
 
@@ -177,13 +185,11 @@ CREATE TABLE IF NOT EXISTS hormone_protein_link (
     protein_id   TEXT NOT NULL REFERENCES proteins(protein_id),
     PRIMARY KEY (hormone_name, protein_id)
 );
-CREATE TABLE IF NOT EXISTS therapeutic_target_candidate (
-    drug_name    TEXT NOT NULL REFERENCES therapeutics(drug_name),
-    gene_symbol  TEXT NOT NULL REFERENCES genes(gene_symbol),
-    matched_text TEXT,
-    PRIMARY KEY (drug_name, gene_symbol)
-);
 """
+
+
+def _table_exists(conn: sqlite3.Connection, name: str) -> bool:
+    return conn.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name=?", (name,)).fetchone() is not None
 
 
 def _read_csv(name: str) -> list[dict]:
@@ -276,47 +282,16 @@ def _populate_hormone_protein_link(conn: sqlite3.Connection) -> None:
     )
 
 
-def _populate_therapeutic_target_candidates(conn: sqlite3.Connection) -> None:
-    """Text-derived candidate gene targets for drugs, from Person A's mechanism text.
-
-    These are NOT a curated source — they are a regex match against the mechanism
-    description. Marked RelationStatus = 'demo-unvalidated' downstream so the UI shows
-    them as unverified, matching the project's "never infer biology silently" rule.
-    """
-    genes = conn.execute("SELECT gene_symbol, name FROM genes").fetchall()
-    drugs = conn.execute("SELECT drug_name, mechanism FROM therapeutics").fetchall()
-    candidates: list[tuple[str, str, str]] = []
-    for drug in drugs:
-        mechanism = drug["mechanism"] or ""
-        for gene in genes:
-            symbol_hit = re.search(rf"\b{re.escape(gene['gene_symbol'])}\b", mechanism)
-            name_hit = None
-            if gene["name"] and len(gene["name"]) >= 12:
-                name_hit = re.search(re.escape(gene["name"]), mechanism, re.IGNORECASE)
-            match = symbol_hit or name_hit
-            if match:
-                start = max(0, match.start() - 40)
-                end = min(len(mechanism), match.end() + 40)
-                snippet = mechanism[start:end].strip()
-                candidates.append((drug["drug_name"], gene["gene_symbol"], snippet))
-    conn.execute("DELETE FROM therapeutic_target_candidate")
-    conn.executemany(
-        "INSERT OR IGNORE INTO therapeutic_target_candidate(drug_name, gene_symbol, matched_text) "
-        "VALUES (?, ?, ?)",
-        candidates,
-    )
-
-
 def init_relationships(conn: sqlite3.Connection) -> None:
     """Create (if needed) and (re)populate all FK-stitched relationship tables."""
     conn.executescript(_SCHEMA)
+    conn.execute("DROP TABLE IF EXISTS therapeutic_target_candidate")  # retired: was a regex match on free text
     _populate_gene_protein_link(conn)
     _populate_protein_pathway_link(conn)
     _populate_entity_publication_link(conn)
     _populate_gene_pcos_association(conn)
     _populate_biomarker_protein_link(conn)
     _populate_hormone_protein_link(conn)
-    _populate_therapeutic_target_candidates(conn)
     conn.commit()
 
 
@@ -642,15 +617,16 @@ def build_index(conn: sqlite3.Connection) -> Index:
         if hid in index.by_id and pid:
             index.add_relationship(relationship(f"{hid}->{pid}:assoc", hid, pid, "associated with", DOC))
 
-    # therapeutic --targets--> gene (text-derived candidate, unvalidated)
-    for row in conn.execute("SELECT drug_name, gene_symbol, matched_text FROM therapeutic_target_candidate"):
-        tid = therapeutic_id(row["drug_name"])
-        gid = gene_id(row["gene_symbol"])
-        if tid in index.by_id and gid in index.by_id:
-            note = f'Text match in mechanism: "...{row["matched_text"]}..."'
-            index.add_relationship(
-                relationship(f"{tid}->{gid}:targets", tid, gid, "targets", DEMO_UNVALIDATED, note)
-            )
+    # therapeutic --targets--> gene (curated mechanism of action: Open Targets / ChEMBL)
+    if _table_exists(conn, "therapeutic_target"):
+        for row in conn.execute(
+            "SELECT drug_name, gene_symbol, action_type, mechanism_of_action, chembl_id FROM therapeutic_target"
+        ):
+            tid = therapeutic_id(row["drug_name"])
+            gid = gene_id(row["gene_symbol"])
+            if tid in index.by_id and gid in index.by_id:
+                note = f"{row['mechanism_of_action']}. Source: Open Targets / ChEMBL {row['chembl_id']}"
+                index.add_relationship(relationship(f"{tid}->{gid}:targets", tid, gid, "targets", DOC, note))
 
     index.sources_meta = _build_sources_meta(conn, index)
     return index
@@ -666,7 +642,10 @@ def _build_sources_meta(conn: sqlite3.Connection, index: Index) -> dict[str, dic
             if row["retrieved_on"] and row["retrieved_on"] > last_sync_by_source.get(sid, ""):
                 last_sync_by_source[sid] = row["retrieved_on"]
     ot_count = conn.execute("SELECT COUNT(*) FROM gene_pcos_association").fetchone()[0]
+    if _table_exists(conn, "therapeutic_target"):
+        ot_count += conn.execute("SELECT COUNT(*) FROM therapeutic_target").fetchone()[0]
     record_count_by_source["open-targets"] = ot_count
+    state = load_sync_state()
     meta = {}
     for sid, (name, contributes, entity_types) in SOURCE_META.items():
         meta[sid] = {
@@ -684,10 +663,50 @@ def _build_sources_meta(conn: sqlite3.Connection, index: Index) -> dict[str, dic
                 "open-targets": "https://platform.opentargets.org/",
                 "pubmed": "https://pubmed.ncbi.nlm.nih.gov/",
             }[sid],
-            "lastSync": last_sync_by_source.get(sid),
+            "lastSync": state["sources"].get(sid, {}).get("syncedAt") or last_sync_by_source.get(sid),
             "validationNote": f"{record_count_by_source.get(sid, 0)} records ingested and cross-referenced during FK stitching.",
         }
+        if state["sources"].get(sid, {}).get("version"):
+            meta[sid]["version"] = state["sources"][sid]["version"]
+        if state["sources"].get(sid, {}).get("checkedAt"):
+            meta[sid]["lastChecked"] = state["sources"][sid]["checkedAt"]
     return meta
+
+
+# --------------------------------------------------------------------------- synchronisation status
+
+def load_sync_state() -> dict:
+    empty = {"schedule": None, "lastSyncedAt": None, "lastCheckedAt": None, "sources": {}, "history": []}
+    try:
+        return {**empty, **json.loads(SYNC_STATE_PATH.read_text(encoding="utf-8"))}
+    except (OSError, ValueError):
+        return empty
+
+
+def next_scheduled_run(schedule: dict, now: dt.datetime | None = None) -> str:
+    """Next occurrence of the weekly schedule (weekday/hour/minute in IST), as an ISO timestamp with offset."""
+    now = (now or dt.datetime.now(IST)).astimezone(IST)
+    candidate = now.replace(hour=schedule["hourIst"], minute=schedule["minuteIst"], second=0, microsecond=0)
+    candidate += dt.timedelta(days=(schedule["weekday"] - now.weekday()) % 7)
+    if candidate <= now:
+        candidate += dt.timedelta(days=7)
+    return candidate.isoformat()
+
+
+def get_sync_status() -> dict | None:
+    state = load_sync_state()
+    schedule = state["schedule"]
+    if not schedule:
+        return None
+    last = state["history"][0] if state["history"] else None
+    return {
+        "schedule": schedule["label"],
+        "nextRun": next_scheduled_run(schedule),
+        "lastChecked": state["lastCheckedAt"],
+        "lastSynced": state["lastSyncedAt"],
+        "lastOutcome": last["outcome"] if last else None,
+        "lastReason": last["reason"] if last else None,
+    }
 
 
 # --------------------------------------------------------------------------- query API (mirrors Backend interface)

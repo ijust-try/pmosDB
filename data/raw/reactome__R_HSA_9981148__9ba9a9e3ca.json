@@ -3,7 +3,7 @@
  "query": "R-HSA-9981148",
  "url": "https://reactome.org/ContentService/data/query/R-HSA-9981148",
  "params": null,
- "retrieved_at": "2026-10-12T09:40:31+00:00",
+ "retrieved_at": "2026-10-31T04:42:29+00:00",
  "response": {
   "dbId": 9981148,
   "displayName": "Developmental Lineage of Pancreatic Endocrine Mid Progenitor Cells",
@@ -16,7 +16,6 @@
    "Developmental Lineage of Pancreatic Endocrine Mid Progenitor Cells"
   ],
   "releaseDate": "2026-06-17",
-  "releaseStatus": "NEW",
   "speciesName": "Homo sapiens",
   "literatureReference": [
    {
@@ -299,7 +298,6 @@
      "Trunk bipotent pancreatic progenitor cell produces progenitor cell of endocrine pancreas"
     ],
     "releaseDate": "2026-06-17",
-    "releaseStatus": "NEW",
     "speciesName": "Homo sapiens",
     "eventOf": [
      9981148
@@ -321,7 +319,6 @@
      "Early progenitor cell of endocrine pancreas produces mid-progenitor cell of endocrine pancreas"
     ],
     "releaseDate": "2026-06-17",
-    "releaseStatus": "NEW",
     "speciesName": "Homo sapiens",
     "eventOf": [
      9981148
@@ -332,6 +329,25 @@
     "schemaClass": "CellDevelopmentStep"
    }
   ],
+  "tissue": {
+   "dbId": 9928163,
+   "displayName": "pancreatic epithelial bud",
+   "databaseName": "UBERON",
+   "definition": "The embryonic pancreas develops from two separate anlagen in the foregut epithelium, one dorsal and two ventral pancreatic buds[PMID].",
+   "identifier": "0003922",
+   "name": [
+    "pancreatic epithelial bud"
+   ],
+   "synonym": [
+    "pancreatic buds",
+    "pancreas epithelium",
+    "pancreatic bud",
+    "pancreatic anlage"
+   ],
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/terms?obo_id=UBERON:0003922",
+   "className": "Anatomy",
+   "schemaClass": "Anatomy"
+  },
   "schemaClass": "CellLineagePath",
   "className": "CellLineagePath"
  }

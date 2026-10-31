@@ -1,0 +1,2095 @@
+{
+ "source": "quickgo_terms",
+ "query": "P31639_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0000017,GO:0005362,GO:0005412,GO:0005515,GO:0005886,GO:0005975,GO:0008645,GO:0015151,GO:0016020,GO:0016324,GO:0022857,GO:0035623,GO:0055056,GO:0055085,GO:0070062,GO:0098708,GO:0098719,GO:1902495,GO:1904659",
+ "params": null,
+ "retrieved_at": "2026-10-31T04:47:25+00:00",
+ "response": {
+  "numberOfHits": 19,
+  "results": [
+   {
+    "id": "GO:0016020",
+    "isObsolete": false,
+    "name": "membrane",
+    "definition": {
+     "text": "A lipid bilayer along with all the proteins and protein complexes embedded in it and attached to it.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "integral component of membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral to membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "membrane region",
+      "type": "narrow"
+     },
+     {
+      "name": "region of membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "transmembrane",
+      "type": "related"
+     },
+     {
+      "name": "whole membrane",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0140549",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019867",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042175",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031090",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005628",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770114",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032594",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019898",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098590",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062137",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097478",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098796",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098552",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070056",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098857",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005905",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048475",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034357",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005642",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005886",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036362",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0015151",
+    "isObsolete": false,
+    "name": "alpha-glucoside transmembrane transporter activity",
+    "definition": {
+     "text": "Enables the transfer of alpha-glucosides from one side of a membrane to the other. Alpha-glucosides are glycosides in which the sugar group is a glucose residue, and the anomeric carbon of the bond is in an alpha configuration.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      },
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815340729"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "28510148"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0005352",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008645",
+    "isObsolete": false,
+    "name": "hexose transmembrane transport",
+    "definition": {
+     "text": "The process in which hexose is transported across a membrane. Hexoses are aldoses with a chain of six carbon atoms in the molecule."
+    },
+    "comment": "Note that this term is not intended for use in annotating lateral movement within membranes.",
+    "synonyms": [
+     {
+      "name": "hexose membrane transport",
+      "type": "related"
+     },
+     {
+      "name": "hexose transport",
+      "type": "related"
+     },
+     {
+      "name": "high-affinity hexose transport",
+      "type": "narrow"
+     },
+     {
+      "name": "low-affinity hexose transport",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0015762",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015149",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0015761",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904659",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015756",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015757",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140271",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015754",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015755",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005886",
+    "isObsolete": false,
+    "name": "plasma membrane",
+    "definition": {
+     "text": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0716731363"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "bacterial inner membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "cell membrane",
+      "type": "exact"
+     },
+     {
+      "name": "cellular membrane",
+      "type": "exact"
+     },
+     {
+      "name": "cytoplasmic membrane",
+      "type": "exact"
+     },
+     {
+      "name": "inner endospore membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral component of plasma membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral to plasma membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "juxtamembrane",
+      "type": "broad"
+     },
+     {
+      "name": "plasmalemma",
+      "type": "exact"
+     },
+     {
+      "name": "plasma membrane lipid bilayer",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0097524",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033616",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0044862",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019897",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098953",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0044298",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042383",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046868",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032584",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009510",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000222",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097197",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001891",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001772",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098590",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030936",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009897",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009898",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032178",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030094",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031979",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099632",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042774",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0043113",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0033012",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031910",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016328",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031911",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990014",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009548",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070014",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098797",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031257",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031256",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098802",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033181",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044853",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001533",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033101",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009546",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005515",
+    "isObsolete": false,
+    "name": "protein binding",
+    "definition": {
+     "text": "Binding to a protein."
+    },
+    "synonyms": [
+     {
+      "name": "glycoprotein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "protein amino acid binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031072",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140081",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032092",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010313",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043393",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0031720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990405",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051087",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001965",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005516",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990935",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001848",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032091",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046980",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043394",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001846",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051959",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019955",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005975",
+    "isObsolete": false,
+    "name": "carbohydrate metabolic process",
+    "definition": {
+     "text": "The chemical reactions and pathways involving carbohydrates, any of a group of organic compounds based of the general formula Cx(H2O)y.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "carbohydrate metabolism",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1901275",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016052",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005996",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016051",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006071",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051478",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045913",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0006097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019519",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005976",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046835",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006109",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0006059",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045912",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0019580",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042836",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009311",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005362",
+    "isObsolete": false,
+    "name": "low-affinity D-glucose:sodium symporter activity",
+    "definition": {
+     "text": "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: D-glucose(out) + Na+(out) = D-glucose(in) + Na+(in). In low-affinity transport the transporter is able to bind the solute only if it is present at very high concentrations.",
+     "xrefs": [
+      {
+       "dbCode": "TC",
+       "dbId": "2.A.21.3.-"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "low-affinity glucose-sodium cotransporter activity",
+      "type": "broad"
+     },
+     {
+      "name": "low-affinity glucose:sodium symporter activity",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005412",
+    "isObsolete": false,
+    "name": "D-glucose:sodium symporter activity",
+    "definition": {
+     "text": "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: D-glucose(out) + Na+(out) = D-glucose(in) + Na+(in).",
+     "xrefs": [
+      {
+       "dbCode": "TC",
+       "dbId": "2.A.21.3.-"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "glucose:sodium symporter activity",
+      "type": "exact"
+     },
+     {
+      "name": "sodium/glucose symporter activity",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0005362",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000017",
+    "isObsolete": false,
+    "name": "alpha-glucoside transport",
+    "definition": {
+     "text": "The directed movement of alpha-glucosides into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Alpha-glucosides are glycosides in which the sugar group is a glucose residue, and the anomeric carbon of the bond is in an alpha configuration.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "9919658"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0015151",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0016324",
+    "isObsolete": false,
+    "name": "apical plasma membrane",
+    "definition": {
+     "text": "The region of the plasma membrane located at the apical end of the cell."
+    },
+    "children": [
+     {
+      "id": "GO:0031526",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0046691",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098592",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098591",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120001",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120003",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0098719",
+    "isObsolete": false,
+    "name": "sodium ion import across plasma membrane",
+    "definition": {
+     "text": "The directed movement of sodium ions from outside of a cell, across the plasma membrane and into the cytosol."
+    },
+    "synonyms": [
+     {
+      "name": "sodium import",
+      "type": "exact"
+     },
+     {
+      "name": "sodium ion import",
+      "type": "related"
+     },
+     {
+      "name": "sodium ion import into cell",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1903782",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1903783",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0015498",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903784",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0098708",
+    "isObsolete": false,
+    "name": "D-glucose import across plasma membrane",
+    "definition": {
+     "text": "The directed movement of D-glucose from outside of a cell, across the plasma membrane and into the cytosol."
+    },
+    "synonyms": [
+     {
+      "name": "glucose import across plasma membrane",
+      "type": "exact"
+     },
+     {
+      "name": "glucose import into cell",
+      "type": "exact"
+     },
+     {
+      "name": "high affinity glucose import",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0046324",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0046326",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0044381",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046325",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0070062",
+    "isObsolete": false,
+    "name": "extracellular exosome",
+    "definition": {
+     "text": "A vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane. Extracellular exosomes, also simply called exosomes, have a diameter of about 40-100 nm.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "15908444"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "17641064"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "19442504"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "19498381"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "22418571"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "24009894"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "exosome",
+      "type": "exact"
+     },
+     {
+      "name": "extracellular vesicular exosome",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990563",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0035623",
+    "isObsolete": false,
+    "name": "renal D-glucose absorption",
+    "definition": {
+     "text": "A renal system process in which D-glucose is taken up from the collecting ducts and proximal and distal loops of the nephron. In non-mammalian species, absorption may occur in related structures.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "11269503"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "glucose reabsorption",
+      "type": "exact"
+     },
+     {
+      "name": "nephron glucose absorption",
+      "type": "exact"
+     },
+     {
+      "name": "renal glucose absorption",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1904659",
+    "isObsolete": false,
+    "name": "D-glucose transmembrane transport",
+    "definition": {
+     "text": "The process in which D-glucose is transported across a membrane.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000069"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "9090050"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "glucose transmembrane transport",
+      "type": "exact"
+     },
+     {
+      "name": "glucose transport",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0010827",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0010828",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0010829",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0035623",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098708",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0055056",
+    "isObsolete": false,
+    "name": "D-glucose transmembrane transporter activity",
+    "definition": {
+     "text": "Enables the transfer of the D-enantiomer of the hexose monosaccharide glucose from one side of a membrane to the other."
+    },
+    "children": [
+     {
+      "id": "GO:0022871",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005356",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005412",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022855",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015304",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022881",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0055085",
+    "isObsolete": false,
+    "name": "transmembrane transport",
+    "definition": {
+     "text": "The process in which a solute is transported across a lipid bilayer, from one side of a membrane to the other."
+    },
+    "comment": "Transmembrane transport is the transport of a solute across a lipid bilayer. Note that transport through the nuclear pore complex is not transmembrane because the nuclear membrane is a double membrane and is not traversed. For transport through the nuclear pore, consider instead the term 'nucleocytoplasmic transport ; GO:0006913' and its children. Note also that this term is not intended for use in annotating lateral movement within membranes.",
+    "synonyms": [
+     {
+      "name": "ATP hydrolysis coupled transmembrane transport",
+      "type": "narrow"
+     },
+     {
+      "name": "membrane transport",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990542",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902616",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097080",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035378",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071806",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901679",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022857",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140115",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034764",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0015791",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098739",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902418",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046618",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0170006",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043251",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035445",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001407",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006855",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003333",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072531",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034486",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034762",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1902047",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035436",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072488",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045117",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901962",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034220",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080170",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070715",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035461",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071994",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035672",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140820",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000316",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043252",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015905",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070811",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902603",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035382",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046967",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902358",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034763",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0015699",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072530",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035927",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140317",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015780",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901684",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072489",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901642",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035435",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1902495",
+    "isObsolete": false,
+    "name": "transmembrane transporter complex",
+    "definition": {
+     "text": "A transmembrane protein complex which enables the transfer of a substance from one side of a membrane to the other.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "18024586"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0009357",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110067",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990281",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903103",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061841",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903114",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903113",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045271",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990195",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062155",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033573",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990662",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990207",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902509",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045277",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034702",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045275",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098533",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990203",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061993",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009319",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0022857",
+    "isObsolete": false,
+    "name": "transmembrane transporter activity",
+    "definition": {
+     "text": "Enables the transfer of a substance, usually a specific substance or a group of related substances, from one side of a membrane to the other.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815340729"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "substrate-specific transmembrane transporter activity",
+      "type": "related"
+     },
+     {
+      "name": "substrate-specific transporter activity",
+      "type": "related"
+     },
+     {
+      "name": "uptake permease activity",
+      "type": "related"
+     },
+     {
+      "name": "uptake transmembrane transporter activity",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0160283",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901702",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0170001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015651",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015551",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022898",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0046943",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015112",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015171",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031928",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035673",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005326",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080161",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015083",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035379",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015665",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015166",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015621",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015205",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770027",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022803",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010290",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015105",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015567",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022809",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072349",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015098",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015107",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015109",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042898",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005275",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015224",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042910",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015075",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904680",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902495",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0015203",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015220",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901683",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015654",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030184",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0170004",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015115",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090482",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015113",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031925",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901474",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031927",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019534",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901515",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015232",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901513",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022884",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017077",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015932",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022804",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015562",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015104",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0170055",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015144",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015545",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015106",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015605",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005372",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070835",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015204",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015603",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901375",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770111",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

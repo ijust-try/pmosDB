@@ -3,7 +3,7 @@
  "query": "R-HSA-74749",
  "url": "https://reactome.org/ContentService/data/query/R-HSA-74749",
  "params": null,
- "retrieved_at": "2026-10-12T09:19:59+00:00",
+ "retrieved_at": "2026-10-31T04:35:14+00:00",
  "response": {
   "dbId": 74749,
   "displayName": "Signal attenuation",
@@ -19,7 +19,7 @@
   "speciesName": "Homo sapiens",
   "crossReference": [
    {
-    "dbId": 12829018,
+    "dbId": 12849108,
     "displayName": "BioModels Database:BIOMD0000000466",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000466",
@@ -28,7 +28,7 @@
     "schemaClass": "DatabaseIdentifier"
    },
    {
-    "dbId": 12829022,
+    "dbId": 12849112,
     "displayName": "BioModels Database:BIOMD0000000468",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000468",
@@ -37,7 +37,7 @@
     "schemaClass": "DatabaseIdentifier"
    },
    {
-    "dbId": 12828996,
+    "dbId": 12849086,
     "displayName": "BioModels Database:BIOMD0000000424",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000424",
@@ -52,7 +52,7 @@
     "displayName": "cytosol",
     "accession": "0005829",
     "databaseName": "GO",
-    "definition": "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
     "name": "cytosol",
     "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
     "className": "Compartment",
@@ -61,91 +61,7 @@
   ],
   "orthologousEvent": [
    {
-    "dbId": 10228618,
-    "displayName": "Signal attenuation",
-    "stId": "R-RNO-74749",
-    "stIdVersion": "R-RNO-74749.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "Signal attenuation"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Rattus norvegicus",
-    "inferredFrom": [
-     74749
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10918745,
-    "displayName": "Signal attenuation",
-    "stId": "R-DME-74749",
-    "stIdVersion": "R-DME-74749.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "Signal attenuation"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Drosophila melanogaster",
-    "inferredFrom": [
-     74749
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10833190,
-    "displayName": "Signal attenuation",
-    "stId": "R-GGA-74749",
-    "stIdVersion": "R-GGA-74749.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "Signal attenuation"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Gallus gallus",
-    "inferredFrom": [
-     74749
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10736146,
-    "displayName": "Signal attenuation",
-    "stId": "R-XTR-74749",
-    "stIdVersion": "R-XTR-74749.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 2,
-    "name": [
-     "Signal attenuation"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Xenopus tropicalis",
-    "inferredFrom": [
-     74749
-    ],
-    "hasDiagram": false,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10655040,
+    "dbId": 10687152,
     "displayName": "Signal attenuation",
     "stId": "R-DRE-74749",
     "stIdVersion": "R-DRE-74749.1",
@@ -155,7 +71,7 @@
     "name": [
      "Signal attenuation"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Danio rerio",
     "inferredFrom": [
      74749
@@ -166,7 +82,70 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10562927,
+    "dbId": 10952017,
+    "displayName": "Signal attenuation",
+    "stId": "R-DME-74749",
+    "stIdVersion": "R-DME-74749.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signal attenuation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     74749
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10866091,
+    "displayName": "Signal attenuation",
+    "stId": "R-GGA-74749",
+    "stIdVersion": "R-GGA-74749.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signal attenuation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     74749
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10768489,
+    "displayName": "Signal attenuation",
+    "stId": "R-XTR-74749",
+    "stIdVersion": "R-XTR-74749.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signal attenuation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     74749
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10594590,
     "displayName": "Signal attenuation",
     "stId": "R-SSC-74749",
     "stIdVersion": "R-SSC-74749.1",
@@ -176,7 +155,7 @@
     "name": [
      "Signal attenuation"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Sus scrofa",
     "inferredFrom": [
      74749
@@ -187,7 +166,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10449929,
+    "dbId": 10481229,
     "displayName": "Signal attenuation",
     "stId": "R-BTA-74749",
     "stIdVersion": "R-BTA-74749.1",
@@ -197,7 +176,7 @@
     "name": [
      "Signal attenuation"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Bos taurus",
     "inferredFrom": [
      74749
@@ -208,7 +187,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10335445,
+    "dbId": 10366407,
     "displayName": "Signal attenuation",
     "stId": "R-CFA-74749",
     "stIdVersion": "R-CFA-74749.1",
@@ -218,7 +197,7 @@
     "name": [
      "Signal attenuation"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Canis familiaris",
     "inferredFrom": [
      74749
@@ -229,7 +208,28 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10104842,
+    "dbId": 10259100,
+    "displayName": "Signal attenuation",
+    "stId": "R-RNO-74749",
+    "stIdVersion": "R-RNO-74749.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signal attenuation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     74749
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10117772,
     "displayName": "Signal attenuation",
     "stId": "R-MMU-74749",
     "stIdVersion": "R-MMU-74749.1",
@@ -239,7 +239,7 @@
     "name": [
      "Signal attenuation"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Mus musculus",
     "inferredFrom": [
      74749

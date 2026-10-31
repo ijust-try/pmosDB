@@ -23,5 +23,6 @@ export const apiConfig = {
     publications: '/publications',
     sources: '/sources',
     summary: '/summary',
+    sync: '/sync',
   },
 } as const;

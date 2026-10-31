@@ -3,7 +3,7 @@
  "query": "R-HSA-877300",
  "url": "https://reactome.org/ContentService/data/query/R-HSA-877300",
  "params": null,
- "retrieved_at": "2026-10-12T09:39:05+00:00",
+ "retrieved_at": "2026-10-31T04:40:53+00:00",
  "response": {
   "dbId": 877300,
   "displayName": "Interferon gamma signaling",
@@ -19,7 +19,7 @@
   "speciesName": "Homo sapiens",
   "crossReference": [
    {
-    "dbId": 12829164,
+    "dbId": 12849254,
     "displayName": "BioModels Database:BIOMD0000001077",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000001077",
@@ -28,7 +28,7 @@
     "schemaClass": "DatabaseIdentifier"
    },
    {
-    "dbId": 12829168,
+    "dbId": 12849258,
     "displayName": "BioModels Database:BIOMD0000000313",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000313",
@@ -37,7 +37,7 @@
     "schemaClass": "DatabaseIdentifier"
    },
    {
-    "dbId": 12829160,
+    "dbId": 12849250,
     "displayName": "BioModels Database:BIOMD0000000968",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000968",
@@ -46,7 +46,7 @@
     "schemaClass": "DatabaseIdentifier"
    },
    {
-    "dbId": 12828962,
+    "dbId": 12849052,
     "displayName": "BioModels Database:BIOMD0000000477",
     "databaseName": "BioModels Database",
     "identifier": "BIOMD0000000477",
@@ -60,7 +60,7 @@
    "displayName": "type II interferon-mediated signaling pathway",
    "accession": "0060333",
    "databaseName": "GO",
-   "definition": "The series of molecular signals initiated by interferon-gamma binding to its receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription. Interferon gamma is the only member of the type II interferon found so far.",
+   "definition": "\"The series of molecular signals initiated by interferon-gamma binding to its receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription. Interferon gamma is the only member of the type II interferon found so far.\" [GOC:add, GOC:dph, GOC:signaling, PMID:28901902]",
    "name": "type II interferon-mediated signaling pathway",
    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0060333",
    "className": "GO_BiologicalProcess",
@@ -122,7 +122,28 @@
   ],
   "orthologousEvent": [
    {
-    "dbId": 10230210,
+    "dbId": 10119368,
+    "displayName": "Interferon gamma signaling",
+    "stId": "R-MMU-877300",
+    "stIdVersion": "R-MMU-877300.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Interferon gamma signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     877300
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10260690,
     "displayName": "Interferon gamma signaling",
     "stId": "R-RNO-877300",
     "stIdVersion": "R-RNO-877300.1",
@@ -132,7 +153,7 @@
     "name": [
      "Interferon gamma signaling"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Rattus norvegicus",
     "inferredFrom": [
      877300
@@ -143,7 +164,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10336967,
+    "dbId": 10367927,
     "displayName": "Interferon gamma signaling",
     "stId": "R-CFA-877300",
     "stIdVersion": "R-CFA-877300.1",
@@ -153,7 +174,7 @@
     "name": [
      "Interferon gamma signaling"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Canis familiaris",
     "inferredFrom": [
      877300
@@ -164,7 +185,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10451491,
+    "dbId": 10482789,
     "displayName": "Interferon gamma signaling",
     "stId": "R-BTA-877300",
     "stIdVersion": "R-BTA-877300.1",
@@ -174,7 +195,7 @@
     "name": [
      "Interferon gamma signaling"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Bos taurus",
     "inferredFrom": [
      877300
@@ -185,7 +206,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10564433,
+    "dbId": 10596094,
     "displayName": "Interferon gamma signaling",
     "stId": "R-SSC-877300",
     "stIdVersion": "R-SSC-877300.1",
@@ -195,7 +216,7 @@
     "name": [
      "Interferon gamma signaling"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Sus scrofa",
     "inferredFrom": [
      877300
@@ -206,7 +227,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10656420,
+    "dbId": 10688536,
     "displayName": "Interferon gamma signaling",
     "stId": "R-DRE-877300",
     "stIdVersion": "R-DRE-877300.1",
@@ -216,7 +237,7 @@
     "name": [
      "Interferon gamma signaling"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Danio rerio",
     "inferredFrom": [
      877300
@@ -227,7 +248,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10737476,
+    "dbId": 10769817,
     "displayName": "Interferon gamma signaling",
     "stId": "R-XTR-877300",
     "stIdVersion": "R-XTR-877300.1",
@@ -237,7 +258,7 @@
     "name": [
      "Interferon gamma signaling"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Xenopus tropicalis",
     "inferredFrom": [
      877300
@@ -248,28 +269,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10834678,
-    "displayName": "Interferon gamma signaling",
-    "stId": "R-GGA-877300",
-    "stIdVersion": "R-GGA-877300.1",
-    "isInDisease": false,
-    "isInferred": true,
-    "maxDepth": 3,
-    "name": [
-     "Interferon gamma signaling"
-    ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Gallus gallus",
-    "inferredFrom": [
-     877300
-    ],
-    "hasDiagram": true,
-    "hasEHLD": false,
-    "schemaClass": "Pathway",
-    "className": "Pathway"
-   },
-   {
-    "dbId": 10919967,
+    "dbId": 10953237,
     "displayName": "Interferon gamma signaling",
     "stId": "R-DME-877300",
     "stIdVersion": "R-DME-877300.1",
@@ -279,7 +279,7 @@
     "name": [
      "Interferon gamma signaling"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Drosophila melanogaster",
     "inferredFrom": [
      877300
@@ -290,7 +290,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 11002789,
+    "dbId": 11036332,
     "displayName": "Interferon gamma signaling",
     "stId": "R-CEL-877300",
     "stIdVersion": "R-CEL-877300.1",
@@ -300,7 +300,7 @@
     "name": [
      "Interferon gamma signaling"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Caenorhabditis elegans",
     "inferredFrom": [
      877300
@@ -311,7 +311,7 @@
     "className": "Pathway"
    },
    {
-    "dbId": 11058086,
+    "dbId": 11091915,
     "displayName": "Interferon gamma signaling",
     "stId": "R-DDI-877300",
     "stIdVersion": "R-DDI-877300.1",
@@ -321,7 +321,7 @@
     "name": [
      "Interferon gamma signaling"
     ],
-    "releaseDate": "2026-06-17",
+    "releaseDate": "2026-09-16",
     "speciesName": "Dictyostelium discoideum",
     "inferredFrom": [
      877300
@@ -332,18 +332,18 @@
     "className": "Pathway"
    },
    {
-    "dbId": 10106440,
+    "dbId": 10867581,
     "displayName": "Interferon gamma signaling",
-    "stId": "R-MMU-877300",
-    "stIdVersion": "R-MMU-877300.1",
+    "stId": "R-GGA-877300",
+    "stIdVersion": "R-GGA-877300.1",
     "isInDisease": false,
     "isInferred": true,
     "maxDepth": 3,
     "name": [
      "Interferon gamma signaling"
     ],
-    "releaseDate": "2026-06-17",
-    "speciesName": "Mus musculus",
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
     "inferredFrom": [
      877300
     ],
