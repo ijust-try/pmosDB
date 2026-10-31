@@ -1,0 +1,1562 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-4420097",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-4420097",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:56:08+00:00",
+ "response": {
+  "dbId": 4420097,
+  "displayName": "VEGFA-VEGFR2 Pathway",
+  "stId": "R-HSA-4420097",
+  "stIdVersion": "R-HSA-4420097.7",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 3,
+  "name": [
+   "VEGFA-VEGFR2 Pathway"
+  ],
+  "releaseDate": "2014-06-10",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "\"The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.\" [ISBN:0716731363]",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 195540,
+    "displayName": "VEGF receptor signalling - in control of vascular function",
+    "title": "VEGF receptor signalling - in control of vascular function",
+    "journal": "Nat Rev Mol Cell Biol",
+    "pages": "359-71",
+    "pubMedIdentifier": 16633338,
+    "volume": 7,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16633338",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 195474,
+    "displayName": "VEGF-receptor signal transduction",
+    "title": "VEGF-receptor signal transduction",
+    "journal": "Trends Biochem Sci",
+    "pages": "488-94",
+    "pubMedIdentifier": 13678960,
+    "volume": 28,
+    "year": 2003,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/13678960",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 4420152,
+    "displayName": "VEGFs and receptors involved in angiogenesis versus lymphangiogenesis",
+    "title": "VEGFs and receptors involved in angiogenesis versus lymphangiogenesis",
+    "journal": "Curr. Opin. Cell Biol.",
+    "pages": "154-65",
+    "pubMedIdentifier": 19230644,
+    "volume": 21,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19230644",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5229170,
+    "displayName": "Vascular endothelial growth factor family of ligands and receptors: review",
+    "title": "Vascular endothelial growth factor family of ligands and receptors: review",
+    "journal": "Blood Cells Mol. Dis.",
+    "pages": "258-68",
+    "pubMedIdentifier": 17344076,
+    "volume": 38,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17344076",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10118444,
+    "displayName": "VEGFA-VEGFR2 Pathway",
+    "stId": "R-MMU-4420097",
+    "stIdVersion": "R-MMU-4420097.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "VEGFA-VEGFR2 Pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     4420097
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11170992,
+    "displayName": "VEGFA-VEGFR2 Pathway",
+    "stId": "R-PFA-4420097",
+    "stIdVersion": "R-PFA-4420097.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "VEGFA-VEGFR2 Pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     4420097
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11149586,
+    "displayName": "VEGFA-VEGFR2 Pathway",
+    "stId": "R-SCE-4420097",
+    "stIdVersion": "R-SCE-4420097.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "VEGFA-VEGFR2 Pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     4420097
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11121037,
+    "displayName": "VEGFA-VEGFR2 Pathway",
+    "stId": "R-SPO-4420097",
+    "stIdVersion": "R-SPO-4420097.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "VEGFA-VEGFR2 Pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     4420097
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11091489,
+    "displayName": "VEGFA-VEGFR2 Pathway",
+    "stId": "R-DDI-4420097",
+    "stIdVersion": "R-DDI-4420097.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "VEGFA-VEGFR2 Pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     4420097
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11035650,
+    "displayName": "VEGFA-VEGFR2 Pathway",
+    "stId": "R-CEL-4420097",
+    "stIdVersion": "R-CEL-4420097.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "VEGFA-VEGFR2 Pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     4420097
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10952519,
+    "displayName": "VEGFA-VEGFR2 Pathway",
+    "stId": "R-DME-4420097",
+    "stIdVersion": "R-DME-4420097.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "VEGFA-VEGFR2 Pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     4420097
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10866689,
+    "displayName": "VEGFA-VEGFR2 Pathway",
+    "stId": "R-GGA-4420097",
+    "stIdVersion": "R-GGA-4420097.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "VEGFA-VEGFR2 Pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     4420097
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10770227,
+    "displayName": "VEGFA-VEGFR2 Pathway",
+    "stId": "R-XTR-4420097",
+    "stIdVersion": "R-XTR-4420097.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "VEGFA-VEGFR2 Pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     4420097
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10687724,
+    "displayName": "VEGFA-VEGFR2 Pathway",
+    "stId": "R-DRE-4420097",
+    "stIdVersion": "R-DRE-4420097.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "VEGFA-VEGFR2 Pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     4420097
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10595244,
+    "displayName": "VEGFA-VEGFR2 Pathway",
+    "stId": "R-SSC-4420097",
+    "stIdVersion": "R-SSC-4420097.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "VEGFA-VEGFR2 Pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     4420097
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10481893,
+    "displayName": "VEGFA-VEGFR2 Pathway",
+    "stId": "R-BTA-4420097",
+    "stIdVersion": "R-BTA-4420097.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "VEGFA-VEGFR2 Pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     4420097
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10368297,
+    "displayName": "VEGFA-VEGFR2 Pathway",
+    "stId": "R-CFA-4420097",
+    "stIdVersion": "R-CFA-4420097.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "VEGFA-VEGFR2 Pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     4420097
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10259772,
+    "displayName": "VEGFA-VEGFR2 Pathway",
+    "stId": "R-RNO-4420097",
+    "stIdVersion": "R-RNO-4420097.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "VEGFA-VEGFR2 Pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     4420097
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 4420131,
+    "displayName": "Angiogenesis is the formation of new blood vessels from pree...",
+    "text": "Angiogenesis is the formation of new blood vessels from preexisting vasculature. One of the most important proangiogenic factors is vascular endothelial growth factor (VEGF). VEGF exerts its biologic effect through interaction with transmembrane tyrosine kinase receptors VEGFR, selectively expressed on vascular endothelial cells. VEGFA signaling through VEGFR2 is the major pathway that activates angiogenesis by inducing the proliferation, survival, sprouting and migration of endothelial cells (ECs), and also by increasing endothelial permeability (Lohela et al. 2009, Shibuya & Claesson-Welsh 2006, Claesson-Welsh & Welsh, 2013). The critical role of VEGFR2 in vascular development is highlighted by the fact that VEGFR2-/- mice die at E8.5-9.5 due to defective development of blood islands, endothelial cells and haematopoietic cells (Shalaby et al. 1995).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/REACT_228166.1",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2023-03-29",
+  "hasEvent": [
+   {
+    "dbId": 9691215,
+    "displayName": "VEGFA-165 dimer binds VEGFR2 dimer",
+    "stId": "R-HSA-9691215",
+    "stIdVersion": "R-HSA-9691215.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "VEGFA-165 dimer binds VEGFR2 dimer"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9679477,
+    "displayName": "VEGFA-165 dimer binds VEGFA inhibitors",
+    "stId": "R-HSA-9679477",
+    "stIdVersion": "R-HSA-9679477.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "VEGFA-165 dimer binds VEGFA inhibitors"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4420117,
+    "displayName": "VEGFR2 autophosphorylates",
+    "stId": "R-HSA-4420117",
+    "stIdVersion": "R-HSA-4420117.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "VEGFR2 autophosphorylates"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4420099,
+    "displayName": "p-6Y-VEGFR2 binds SHB ",
+    "stId": "R-HSA-4420099",
+    "stIdVersion": "R-HSA-4420099.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-6Y-VEGFR2 binds SHB "
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4420128,
+    "displayName": "SRC-1 phosphorylates SHB",
+    "stId": "R-HSA-4420128",
+    "stIdVersion": "R-HSA-4420128.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SRC-1 phosphorylates SHB"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4420083,
+    "displayName": "PTK2 binds p-S-SHB and is recruited to p-6Y-VEGFR2",
+    "stId": "R-HSA-4420083",
+    "stIdVersion": "R-HSA-4420083.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PTK2 binds p-S-SHB and is recruited to p-6Y-VEGFR2"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218642,
+    "displayName": "PTK2 autophosphorylates",
+    "stId": "R-HSA-5218642",
+    "stIdVersion": "R-HSA-5218642.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PTK2 autophosphorylates"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218645,
+    "displayName": "SRC-1 binds p-Y397-PTK2",
+    "stId": "R-HSA-5218645",
+    "stIdVersion": "R-HSA-5218645.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SRC-1 binds p-Y397-PTK2"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218640,
+    "displayName": "SRC-1 phosphorylates p-Y397-PTK2",
+    "stId": "R-HSA-5218640",
+    "stIdVersion": "R-HSA-5218640.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SRC-1 phosphorylates p-Y397-PTK2"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218818,
+    "displayName": "Integrin alphaVbeta3 binds p-6Y-VEGFR2",
+    "stId": "R-HSA-5218818",
+    "stIdVersion": "R-HSA-5218818.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Integrin alphaVbeta3 binds p-6Y-VEGFR2"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218643,
+    "displayName": "HSP90AA1 binds p-6Y-VEGFR2",
+    "stId": "R-HSA-5218643",
+    "stIdVersion": "R-HSA-5218643.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HSP90AA1 binds p-6Y-VEGFR2"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928647,
+    "displayName": "RHOA:GTP:Mg2+ binds ROCK1,ROCK2",
+    "stId": "R-HSA-3928647",
+    "stIdVersion": "R-HSA-3928647.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RHOA:GTP:Mg2+ binds ROCK1,ROCK2"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5228992,
+    "displayName": "ROCK1,ROCK2 are activated",
+    "stId": "R-HSA-5228992",
+    "stIdVersion": "R-HSA-5228992.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ROCK1,ROCK2 are activated"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218826,
+    "displayName": "Active ROCK1,ROCK2 phosphorylates p-5Y-PTK2 on S732",
+    "stId": "R-HSA-5218826",
+    "stIdVersion": "R-HSA-5218826.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Active ROCK1,ROCK2 phosphorylates p-5Y-PTK2 on S732"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218836,
+    "displayName": "PTK2beta binds alphaVbeta3",
+    "stId": "R-HSA-5218836",
+    "stIdVersion": "R-HSA-5218836.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PTK2beta binds alphaVbeta3"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218830,
+    "displayName": "SRC-1 phosphorylates PTK2-beta",
+    "stId": "R-HSA-5218830",
+    "stIdVersion": "R-HSA-5218830.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SRC-1 phosphorylates PTK2-beta"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218851,
+    "displayName": "p-Y402-PTK2B phosphorylates p-5Y,S732-PTK2 on Y407",
+    "stId": "R-HSA-5218851",
+    "stIdVersion": "R-HSA-5218851.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-Y402-PTK2B phosphorylates p-5Y,S732-PTK2 on Y407"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218838,
+    "displayName": "PXN binds p-6Y,S732-PTK2",
+    "stId": "R-HSA-5218838",
+    "stIdVersion": "R-HSA-5218838.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PXN binds p-6Y,S732-PTK2"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218809,
+    "displayName": "PTK2 and SRC-1 phosphorylate PXN on Y31 and Y118",
+    "stId": "R-HSA-5218809",
+    "stIdVersion": "R-HSA-5218809.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PTK2 and SRC-1 phosphorylate PXN on Y31 and Y118"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218855,
+    "displayName": "BCAR1 binds p-7Y-PTK2",
+    "stId": "R-HSA-5218855",
+    "stIdVersion": "R-HSA-5218855.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "BCAR1 binds p-7Y-PTK2"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218828,
+    "displayName": "PTK2/SRC-1 phosphorylates BCAR1",
+    "stId": "R-HSA-5218828",
+    "stIdVersion": "R-HSA-5218828.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "PTK2/SRC-1 phosphorylates BCAR1"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218822,
+    "displayName": "CRK binds BCAR1 and or PXN",
+    "stId": "R-HSA-5218822",
+    "stIdVersion": "R-HSA-5218822.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CRK binds BCAR1 and or PXN"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218811,
+    "displayName": "DOCK180:ELMO binds CRK",
+    "stId": "R-HSA-5218811",
+    "stIdVersion": "R-HSA-5218811.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "DOCK180:ELMO binds CRK"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218839,
+    "displayName": "DOCK180:ELMO exchanges GTP for GDP, activating RAC1",
+    "stId": "R-HSA-5218839",
+    "stIdVersion": "R-HSA-5218839.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "DOCK180:ELMO exchanges GTP for GDP, activating RAC1"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2029465,
+    "displayName": "RAC1:GTP and PIP3 bind WAVE Regulatory Complex (WRC)",
+    "stId": "R-HSA-2029465",
+    "stIdVersion": "R-HSA-2029465.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RAC1:GTP and PIP3 bind WAVE Regulatory Complex (WRC)"
+    ],
+    "releaseDate": "2013-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4420107,
+    "displayName": "p-6Y-VEGFR2 binds SHC-transforming protein 2",
+    "stId": "R-HSA-4420107",
+    "stIdVersion": "R-HSA-4420107.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-6Y-VEGFR2 binds SHC-transforming protein 2"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4420143,
+    "displayName": "p-6Y-VEGFR2 binds SH2D2A",
+    "stId": "R-HSA-4420143",
+    "stIdVersion": "R-HSA-4420143.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-6Y-VEGFR2 binds SH2D2A"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4420140,
+    "displayName": "SRC1-1 binds SH2D2A and is recruited to VEGFR2",
+    "stId": "R-HSA-4420140",
+    "stIdVersion": "R-HSA-4420140.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SRC1-1 binds SH2D2A and is recruited to VEGFR2"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4420206,
+    "displayName": "Phosphorylation of SRC-1",
+    "stId": "R-HSA-4420206",
+    "stIdVersion": "R-HSA-4420206.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of SRC-1"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5357432,
+    "displayName": "AXL binds SRC-1",
+    "stId": "R-HSA-5357432",
+    "stIdVersion": "R-HSA-5357432.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AXL binds SRC-1"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5357429,
+    "displayName": "AXL autophosphorylates on Y779 and Y821",
+    "stId": "R-HSA-5357429",
+    "stIdVersion": "R-HSA-5357429.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AXL autophosphorylates on Y779 and Y821"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5357479,
+    "displayName": "p-AXL binds PI3K",
+    "stId": "R-HSA-5357479",
+    "stIdVersion": "R-HSA-5357479.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-AXL binds PI3K"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218852,
+    "displayName": "p-6Y-VEGFR2 binds PI3K",
+    "stId": "R-HSA-5218852",
+    "stIdVersion": "R-HSA-5218852.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "p-6Y-VEGFR2 binds PI3K"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218819,
+    "displayName": "VEGFA dimer:p-6Y-VEGFR2 dimer:PI3K phosphorylates PIP2 to PIP3",
+    "stId": "R-HSA-5218819",
+    "stIdVersion": "R-HSA-5218819.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "VEGFA dimer:p-6Y-VEGFR2 dimer:PI3K phosphorylates PIP2 to PIP3"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 434637,
+    "displayName": "PI(3,4,5)P3 binds VAV1,2,3",
+    "stId": "R-HSA-434637",
+    "stIdVersion": "R-HSA-434637.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "PI(3,4,5)P3 binds VAV1,2,3"
+    ],
+    "releaseDate": "2009-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218820,
+    "displayName": "Src kinases phosphorylate VAV",
+    "stId": "R-HSA-5218820",
+    "stIdVersion": "R-HSA-5218820.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Src kinases phosphorylate VAV"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8951586,
+    "displayName": "p-VAV family:PIP3 binds RAC1:GDP",
+    "stId": "R-HSA-8951586",
+    "stIdVersion": "R-HSA-8951586.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-VAV family:PIP3 binds RAC1:GDP"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218850,
+    "displayName": "VAV exchanges GTP for GDP on RAC1, activating it",
+    "stId": "R-HSA-5218850",
+    "stIdVersion": "R-HSA-5218850.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "VAV exchanges GTP for GDP on RAC1, activating it"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218920,
+    "displayName": "VEGFR2 mediated vascular permeability",
+    "stId": "R-HSA-5218920",
+    "stIdVersion": "R-HSA-5218920.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "VEGFR2 mediated vascular permeability"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2022-04-07",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 5218827,
+    "displayName": "NADPH oxidase 2 (NOX2) complex binds RAC1",
+    "stId": "R-HSA-5218827",
+    "stIdVersion": "R-HSA-5218827.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NADPH oxidase 2 (NOX2) complex binds RAC1"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218841,
+    "displayName": "NADPH oxidase 2 generates superoxide from oxygen",
+    "stId": "R-HSA-5218841",
+    "stIdVersion": "R-HSA-5218841.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NADPH oxidase 2 generates superoxide from oxygen"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218815,
+    "displayName": "p-6Y-VEGFR2 binds NCK",
+    "stId": "R-HSA-5218815",
+    "stIdVersion": "R-HSA-5218815.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-6Y-VEGFR2 binds NCK"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218824,
+    "displayName": "p-6Y-VEGFR2 binds FYN",
+    "stId": "R-HSA-5218824",
+    "stIdVersion": "R-HSA-5218824.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-6Y-VEGFR2 binds FYN"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218806,
+    "displayName": "FYN autophosphorylates",
+    "stId": "R-HSA-5218806",
+    "stIdVersion": "R-HSA-5218806.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "FYN autophosphorylates"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218854,
+    "displayName": "p-Y420-FYN is phosphorylated on S21",
+    "stId": "R-HSA-5218854",
+    "stIdVersion": "R-HSA-5218854.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-Y420-FYN is phosphorylated on S21"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218847,
+    "displayName": "PAK2 binds NCK",
+    "stId": "R-HSA-5218847",
+    "stIdVersion": "R-HSA-5218847.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PAK2 binds NCK"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218829,
+    "displayName": "VEGF induces CDC42 activation by unknown mechanism",
+    "stId": "R-HSA-5218829",
+    "stIdVersion": "R-HSA-5218829.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "VEGF induces CDC42 activation by unknown mechanism"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 5218832,
+    "displayName": "CDC42:GTP binds PAK2",
+    "stId": "R-HSA-5218832",
+    "stIdVersion": "R-HSA-5218832.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CDC42:GTP binds PAK2"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218814,
+    "displayName": "PAK2 autophorylates",
+    "stId": "R-HSA-5218814",
+    "stIdVersion": "R-HSA-5218814.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PAK2 autophorylates"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218812,
+    "displayName": "FYN phosphorylates PAK2",
+    "stId": "R-HSA-5218812",
+    "stIdVersion": "R-HSA-5218812.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "FYN phosphorylates PAK2"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218804,
+    "displayName": "p38 MAPK activation by VEGFR",
+    "stId": "R-HSA-5218804",
+    "stIdVersion": "R-HSA-5218804.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p38 MAPK activation by VEGFR"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 187688,
+    "displayName": "p38 MAPK phosphorylates MAPKAPK2, MAPKAPK3",
+    "stId": "R-HSA-187688",
+    "stIdVersion": "R-HSA-187688.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p38 MAPK phosphorylates MAPKAPK2, MAPKAPK3"
+    ],
+    "releaseDate": "2007-12-11",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5218916,
+    "displayName": "p-MAPK2/3 phosphorylates HSP27",
+    "stId": "R-HSA-5218916",
+    "stIdVersion": "R-HSA-5218916.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-MAPK2/3 phosphorylates HSP27"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 5218921,
+    "displayName": "VEGFR2 mediated cell proliferation",
+    "stId": "R-HSA-5218921",
+    "stIdVersion": "R-HSA-5218921.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "VEGFR2 mediated cell proliferation"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     4420097
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2018-12-13",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

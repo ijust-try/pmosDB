@@ -1,0 +1,67 @@
+{
+ "source": "uniprot",
+ "query": "CAGE1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:CAGE1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:45:11+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q8TC20",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Cancer-associated gene 1 protein"
+      },
+      "shortNames": [
+       {
+        "value": "CAGE-1"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Cancer/testis antigen 3"
+       },
+       "shortNames": [
+        {
+         "value": "CT3"
+        }
+       ]
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "CAGE1"
+      }
+     }
+    ],
+    "comments": [],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "285782",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000F3BE14"
+    }
+   }
+  ]
+ }
+}

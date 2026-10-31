@@ -1,0 +1,121 @@
+{
+ "source": "uniprot",
+ "query": "GFRAL",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:GFRAL) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:50:50+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q6UXV0",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "28846097"
+        }
+       ],
+       "value": "GDNF family receptor alpha-like"
+      }
+     },
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "28846097"
+        },
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:32789"
+        }
+       ],
+       "value": "GFRAL"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q6SJE0"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28846097"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28846098"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28846099"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28953886"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "31535977"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "32661391"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "36630958"
+         }
+        ],
+        "value": "Brainstem-restricted receptor for GDF15 hormone, which triggers an aversive response, characterized by nausea, vomiting, and/or loss of appetite in response to various stresses (PubMed:28846097, PubMed:28846098, PubMed:28846099, PubMed:28953886, PubMed:36630958). The aversive response is both required to reduce continuing exposure to those stresses at the time of exposure and to promote avoidance behavior in the future (PubMed:28846097, PubMed:28846098, PubMed:28846099, PubMed:28953886, PubMed:36630958). The GDF15-GFRAL aversive response is triggered by stresses, such as anticancer drugs (camptothecin or cisplatin), cancers or drugs such as metformin (PubMed:32661391). Upon interaction with its ligand, GDF15, mediates the GDF15-induced autophosphorylation and activation of the RET tyrosine kinase receptor, leading to activation of MAPK- and AKT- signaling pathways (PubMed:31535977, PubMed:32661391). Ligand-binding activates GFRAL-expressing neurons localized in the area postrema and nucleus tractus solitarius of the brainstem (By similarity). The GDF15-GFRAL signal induces expression of genes involved in metabolism, such as lipid metabolism in adipose tissues (PubMed:32661391)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "389400",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000023780D"
+    }
+   }
+  ]
+ }
+}

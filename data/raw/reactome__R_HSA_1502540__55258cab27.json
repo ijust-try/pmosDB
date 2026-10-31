@@ -1,0 +1,565 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-1502540",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-1502540",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:51:27+00:00",
+ "response": {
+  "dbId": 1502540,
+  "displayName": "Signaling by Activin",
+  "stId": "R-HSA-1502540",
+  "stIdVersion": "R-HSA-1502540.5",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 3,
+  "name": [
+   "Signaling by Activin"
+  ],
+  "releaseDate": "2012-12-04",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12849222,
+    "displayName": "BioModels Database:BIOMD0000000173",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000173",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000173",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 984,
+    "displayName": "extracellular region",
+    "accession": "0005576",
+    "databaseName": "GO",
+    "definition": "\"The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite.\" [GOC:curators]",
+    "name": "extracellular region",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005576",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "\"The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.\" [ISBN:0716731363]",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 1181075,
+    "displayName": "Activation of signalling by the activin receptor complex",
+    "title": "Activation of signalling by the activin receptor complex",
+    "journal": "Mol Cell Biol",
+    "pages": "1066-73",
+    "pubMedIdentifier": 8622651,
+    "volume": 16,
+    "year": 1996,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8622651",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 208144,
+    "displayName": "Formation and activation by phosphorylation of activin receptor complexes",
+    "title": "Formation and activation by phosphorylation of activin receptor complexes",
+    "journal": "Mol Endocrinol",
+    "pages": "367-79",
+    "pubMedIdentifier": 8721982,
+    "volume": 10,
+    "year": 1996,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8721982",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2470506,
+    "displayName": "Structural studies of the TGF-?s and their receptors - insights into evolution of the TGF-? superfamily",
+    "title": "Structural studies of the TGF-?s and their receptors - insights into evolution of the TGF-? superfamily",
+    "journal": "FEBS Lett.",
+    "pages": "1860-70",
+    "pubMedIdentifier": 22651914,
+    "volume": 586,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22651914",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2584278,
+    "displayName": "Activin signaling and its role in regulation of cell proliferation, apoptosis, and carcinogenesis",
+    "title": "Activin signaling and its role in regulation of cell proliferation, apoptosis, and carcinogenesis",
+    "journal": "Exp. Biol. Med. (Maywood)",
+    "pages": "534-44",
+    "pubMedIdentifier": 16636301,
+    "volume": 231,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16636301",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 11035582,
+    "displayName": "Signaling by Activin",
+    "stId": "R-CEL-1502540",
+    "stIdVersion": "R-CEL-1502540.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by Activin"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     1502540
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10952401,
+    "displayName": "Signaling by Activin",
+    "stId": "R-DME-1502540",
+    "stIdVersion": "R-DME-1502540.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Signaling by Activin"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     1502540
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10866551,
+    "displayName": "Signaling by Activin",
+    "stId": "R-GGA-1502540",
+    "stIdVersion": "R-GGA-1502540.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by Activin"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     1502540
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10768919,
+    "displayName": "Signaling by Activin",
+    "stId": "R-XTR-1502540",
+    "stIdVersion": "R-XTR-1502540.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by Activin"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     1502540
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10688654,
+    "displayName": "Signaling by Activin",
+    "stId": "R-DRE-1502540",
+    "stIdVersion": "R-DRE-1502540.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by Activin"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     1502540
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10595100,
+    "displayName": "Signaling by Activin",
+    "stId": "R-SSC-1502540",
+    "stIdVersion": "R-SSC-1502540.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by Activin"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     1502540
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10481743,
+    "displayName": "Signaling by Activin",
+    "stId": "R-BTA-1502540",
+    "stIdVersion": "R-BTA-1502540.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by Activin"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     1502540
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10366881,
+    "displayName": "Signaling by Activin",
+    "stId": "R-CFA-1502540",
+    "stIdVersion": "R-CFA-1502540.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by Activin"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     1502540
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10259624,
+    "displayName": "Signaling by Activin",
+    "stId": "R-RNO-1502540",
+    "stIdVersion": "R-RNO-1502540.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by Activin"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     1502540
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10118290,
+    "displayName": "Signaling by Activin",
+    "stId": "R-MMU-1502540",
+    "stIdVersion": "R-MMU-1502540.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Signaling by Activin"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     1502540
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 1502541,
+    "displayName": "Activin was initially discovered as an activator of follicle...",
+    "text": "Activin was initially discovered as an activator of follicle stimulating hormone in the pituitary gland. It has since been shown to be an important participant in the differentiation of embryonic cells into mesodermal and endodermal layers. Activin binds the Activin receptor and triggers downstream events: phosphorylation of SMAD2 and SMAD3 followed by activation of gene expression (reviewed in Attisano et al. 1996, Willis et al. 1996, Chen et al. 2006, Hinck 2012).  Activins are dimers comprising activin A (INHBA:INHBA), activin AB (INHBA:INHBB), and activin B (INHBB:INHBB). Activin first binds the type II receptor (ACVR2A, ACVR2B) and this complex then interacts with the type I receptor (ACVR1B, ACVR1C) (Attisano et al. 1996). The type II receptor phosphorylates the type I receptor and then the phosphorylated type I receptor phosphorylates SMAD2 and SMAD3. Dimers of phosphorylated SMAD2/3 bind SMAD4 and the resulting ternary complex enters the nucleus and activates target genes.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/REACT_150238.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2023-09-13",
+  "hasEvent": [
+   {
+    "dbId": 1181153,
+    "displayName": "Activin A,AB,B binds Activin Receptor ACVR2A,B:ACVR1B",
+    "stId": "R-HSA-1181153",
+    "stIdVersion": "R-HSA-1181153.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Activin A,AB,B binds Activin Receptor ACVR2A,B:ACVR1B"
+    ],
+    "releaseDate": "2012-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1502540
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2470483,
+    "displayName": "Activin AB,B binds Activin Receptor ACVR2A,B:ACVR1C",
+    "stId": "R-HSA-2470483",
+    "stIdVersion": "R-HSA-2470483.5",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Activin AB,B binds Activin Receptor ACVR2A,B:ACVR1C"
+    ],
+    "releaseDate": "2012-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1502540
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1181149,
+    "displayName": "ACVR2A,B (ActRIIA,B) phosphorylates ACVR1B (ActRIB, ALK4) in response to Activin",
+    "stId": "R-HSA-1181149",
+    "stIdVersion": "R-HSA-1181149.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ACVR2A,B (ActRIIA,B) phosphorylates ACVR1B (ActRIB, ALK4) in response to Activin"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1502540
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2470508,
+    "displayName": "ACVR2A,B (ActRIIA,B) phosphorylates ACVR1C (ActRIC, ALK7) in response to Activin",
+    "stId": "R-HSA-2470508",
+    "stIdVersion": "R-HSA-2470508.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "ACVR2A,B (ActRIIA,B) phosphorylates ACVR1C (ActRIC, ALK7) in response to Activin"
+    ],
+    "releaseDate": "2012-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1502540
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1549526,
+    "displayName": "Phosphorylation of SMAD2,3 by Activin:Activin Receptor",
+    "stId": "R-HSA-1549526",
+    "stIdVersion": "R-HSA-1549526.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of SMAD2,3 by Activin:Activin Receptor"
+    ],
+    "releaseDate": "2012-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1502540
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 170847,
+    "displayName": "Phosphorylated SMAD2 and SMAD3 form a complex with SMAD4",
+    "stId": "R-HSA-170847",
+    "stIdVersion": "R-HSA-170847.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylated SMAD2 and SMAD3 form a complex with SMAD4"
+    ],
+    "releaseDate": "2006-04-24",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1502540
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 173488,
+    "displayName": "The SMAD2/3:SMAD4 complex transfers to the nucleus",
+    "stId": "R-HSA-173488",
+    "stIdVersion": "R-HSA-173488.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "The SMAD2/3:SMAD4 complex transfers to the nucleus"
+    ],
+    "releaseDate": "2006-04-24",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1502540
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1225919,
+    "displayName": "Phospho R-SMAD(SMAD2,3):CO-SMAD(SMAD4):FOXH1 binds Activin Response Element",
+    "stId": "R-HSA-1225919",
+    "stIdVersion": "R-HSA-1225919.7",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Phospho R-SMAD(SMAD2,3):CO-SMAD(SMAD4):FOXH1 binds Activin Response Element"
+    ],
+    "releaseDate": "2011-09-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1502540
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2473224,
+    "displayName": "Antagonism of Activin by Follistatin",
+    "stId": "R-HSA-2473224",
+    "stIdVersion": "R-HSA-2473224.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Antagonism of Activin by Follistatin"
+    ],
+    "releaseDate": "2012-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1502540
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2017-12-18",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

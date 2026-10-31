@@ -1,0 +1,45 @@
+{
+ "source": "ncbigene",
+ "query": "VDR",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "gene",
+  "term": "VDR[sym] AND 9606[taxid]",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T06:01:43+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "2",
+   "retmax": "2",
+   "retstart": "0",
+   "idlist": [
+    "7421",
+    "5135"
+   ],
+   "translationset": [],
+   "translationstack": [
+    {
+     "term": "VDR[sym]",
+     "field": "sym",
+     "count": "583",
+     "explode": "N"
+    },
+    {
+     "term": "9606[taxid]",
+     "field": "taxid",
+     "count": "360596",
+     "explode": "N"
+    },
+    "AND"
+   ],
+   "querytranslation": "VDR[sym] AND 9606[taxid]"
+  }
+ }
+}

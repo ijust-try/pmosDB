@@ -1,0 +1,138 @@
+{
+ "source": "uniprot",
+ "query": "MC4R",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:MC4R) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:52:50+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P32245",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Melanocortin receptor 4"
+      },
+      "shortNames": [
+       {
+        "value": "MC4-R"
+       }
+      ]
+     }
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "29311635"
+        },
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:6932"
+        }
+       ],
+       "value": "MC4R"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12588803"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12646665"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "14764818"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19737927"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25163632"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "29311635"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "32327598"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "33858992"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "39562740"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "39951488"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8392067"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9311920"
+         }
+        ],
+        "value": "G protein-coupled receptor that binds melanocyte-stimulating hormones (alpha- and beta-MSH) and corticotropin/ACTH, which are peptide products of the POMC precursor (PubMed:12646665, PubMed:14764818, PubMed:25163632, PubMed:32327598, PubMed:33858992, PubMed:8392067). Functions as a central component of the leptin-melanocortin pathway, which is essential for maintaining energy homeostasis (PubMed:32327598, PubMed:33858992). Upon activation, couples to G(s) protein, stimulating adenylate cyclase and the cAMP-dependent signaling pathway, which promotes anorexogenic signaling in the hypothalamus and contributes to a negative energy balance (PubMed:12588803, PubMed:14764818, PubMed:25163632, PubMed:33858992). Regulates food intake: activation by agonists suppresses appetite, whereas the antagonist Agouti-related protein/AGRP precludes agonist-induced signaling, thereby stimulating appetite (PubMed:9311920, PubMed:29311635). Modulates the firing activity of neurons in paraventricular nucleus (PVN) of the hypothalamus via alpha-MSH and AGRP regulation of inwardly rectifying potassium channel KCNJ13 closure, independently of G(s) signaling (PubMed:32327598). In the PVN, also interacts with opsin 3/OPN3, which couples to G(i/o) proteins to inhibit MC4R-mediated cAMP signaling, thereby promoting food intake (PubMed:39951488). In intestinal epithelial cells, contributes to inhibition of hepatic glucose production via nesfatin-1/NUCB2, leading to increased cAMP levels and glucagon-like peptide 1 (GLP-1) secretion (PubMed:39562740). Interaction with MGRN1 displaces the G(s) protein, further decreasing MC4R signaling activity (PubMed:19737927). Also activated by gamma-MSH, though with low potency (PubMed:8392067)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "4160",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000013E5E3"
+    }
+   }
+  ]
+ }
+}

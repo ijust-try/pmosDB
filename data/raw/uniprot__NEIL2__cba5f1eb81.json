@@ -1,0 +1,121 @@
+{
+ "source": "uniprot",
+ "query": "NEIL2",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:NEIL2) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:54:09+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q969S2",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Endonuclease 8-like 2"
+      },
+      "ecNumbers": [
+       {
+        "value": "3.2.2.-"
+       },
+       {
+        "value": "4.2.99.18"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "DNA glycosylase/AP lyase Neil2"
+       }
+      },
+      {
+       "fullName": {
+        "value": "DNA-(apurinic or apyrimidinic site) lyase Neil2"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Endonuclease VIII-like 2"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Nei homolog 2"
+       },
+       "shortNames": [
+        {
+         "value": "NEH2"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Nei-like protein 2"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "NEIL2"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12097317"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "14522990"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15175427"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15339932"
+         }
+        ],
+        "value": "Involved in base excision repair of DNA damaged by oxidation or by mutagenic agents. Has DNA glycosylase activity towards 5-hydroxyuracil and other oxidized derivatives of cytosine with a preference for mismatched double-stranded DNA (DNA bubbles). Has low or no DNA glycosylase activity towards thymine glycol, 2-hydroxyadenine, hypoxanthine and 8-oxoguanine. Has AP (apurinic/apyrimidinic) lyase activity and introduces nicks in the DNA strand. Cleaves the DNA backbone by beta-delta elimination to generate a single-strand break at the site of the removed base with both 3'- and 5'-phosphates"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "252969",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000006D86F"
+    }
+   }
+  ]
+ }
+}

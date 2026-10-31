@@ -1,0 +1,87 @@
+{
+ "source": "uniprot",
+ "query": "MMP8",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:MMP8) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:53:30+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P22894",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Neutrophil collagenase"
+      },
+      "ecNumbers": [
+       {
+        "value": "3.4.24.34"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Matrix metalloproteinase-8"
+       },
+       "shortNames": [
+        {
+         "value": "MMP-8"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "PMNL collagenase"
+       },
+       "shortNames": [
+        {
+         "value": "PMNL-CL"
+        }
+       ]
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "MMP8"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Can degrade fibrillar type I, II, and III collagens"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "4317",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00000422BB"
+    }
+   }
+  ]
+ }
+}

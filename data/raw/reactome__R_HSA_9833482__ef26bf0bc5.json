@@ -1,0 +1,1484 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9833482",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9833482",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:58:55+00:00",
+ "response": {
+  "dbId": 9833482,
+  "displayName": "PKR-mediated signaling",
+  "stId": "R-HSA-9833482",
+  "stIdVersion": "R-HSA-9833482.3",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "PKR-mediated signaling"
+  ],
+  "releaseDate": "2023-09-13",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 2454459,
+   "displayName": "PKR/eIFalpha signaling",
+   "accession": "0039585",
+   "databaseName": "GO",
+   "definition": "\"An intracellular signaling cassette that starts with activation and autophosphorylation of PKR (also known as EIF2AK2), which phosphorylates proteins including the translation initiation factor eIF2 to inhibit translation. PKR is activated by stress signals and during the antiviral response, activated by binding to viral double-stranded RNA (dsRNA) leading to inhibition of protein synthesis during viral infection.\" [PMID:21204021, PMID:22102852, PMID:27629041, PMID:9843495, VZ:1576]",
+   "name": "PKR/eIFalpha signaling",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0039585",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 9833547,
+    "displayName": "ISGylation in Innate Antiviral Immunity and Pathogen Defense Responses: A Review",
+    "title": "ISGylation in Innate Antiviral Immunity and Pathogen Defense Responses: A Review",
+    "journal": "Front Cell Dev Biol",
+    "pages": "788410",
+    "pubMedIdentifier": 34901029,
+    "volume": 9,
+    "year": 2021,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/34901029",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9833536,
+    "displayName": "The search for a PKR code-differential regulation of protein kinase R activity by diverse RNA and protein regulators",
+    "title": "The search for a PKR code-differential regulation of protein kinase R activity by diverse RNA and protein regulators",
+    "journal": "RNA",
+    "pages": "539-556",
+    "pubMedIdentifier": 30770398,
+    "volume": 25,
+    "year": 2019,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30770398",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9833563,
+    "displayName": "Mechanism of interferon action: inhibition of viral messenger ribonucleic acid translation in L-cell extracts",
+    "title": "Mechanism of interferon action: inhibition of viral messenger ribonucleic acid translation in L-cell extracts",
+    "journal": "J Virol",
+    "pages": "1184-98",
+    "pubMedIdentifier": 4345494,
+    "volume": 10,
+    "year": 1972,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/4345494",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9833528,
+    "displayName": "Nature of inhibitor of cell-free protein synthesis formed in response to interferon and double-stranded RNA",
+    "title": "Nature of inhibitor of cell-free protein synthesis formed in response to interferon and double-stranded RNA",
+    "journal": "Nature",
+    "pages": "540-2",
+    "pubMedIdentifier": 196217,
+    "volume": 268,
+    "year": 1977,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/196217",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9833557,
+    "displayName": "The cell stress response: extreme times call for post-transcriptional measures",
+    "title": "The cell stress response: extreme times call for post-transcriptional measures",
+    "journal": "Wiley Interdiscip Rev RNA",
+    "pages": "e1578",
+    "pubMedIdentifier": 31755249,
+    "volume": 11,
+    "year": 2020,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31755249",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9833546,
+    "displayName": "Inhibition of PKR by Viruses",
+    "title": "Inhibition of PKR by Viruses",
+    "journal": "Front Microbiol",
+    "pages": "757238",
+    "pubMedIdentifier": 34759908,
+    "volume": 12,
+    "year": 2021,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/34759908",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9833523,
+    "displayName": "The impact of PKR activation: from neurodegeneration to cancer",
+    "title": "The impact of PKR activation: from neurodegeneration to cancer",
+    "journal": "FASEB J",
+    "pages": "1965-74",
+    "pubMedIdentifier": 24522206,
+    "volume": 28,
+    "year": 2014,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24522206",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9833564,
+    "displayName": "Protein kinase R and the inflammasome",
+    "title": "Protein kinase R and the inflammasome",
+    "journal": "J Interferon Cytokine Res",
+    "pages": "447-54",
+    "pubMedIdentifier": 24905201,
+    "volume": 34,
+    "year": 2014,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24905201",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9833535,
+    "displayName": "The integrated stress response: From mechanism to disease",
+    "title": "The integrated stress response: From mechanism to disease",
+    "journal": "Science",
+    "pubMedIdentifier": 32327570,
+    "volume": 368,
+    "year": 2020,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32327570",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9833552,
+    "displayName": "Regulation of innate immunity through RNA structure and the protein kinase PKR",
+    "title": "Regulation of innate immunity through RNA structure and the protein kinase PKR",
+    "journal": "Curr Opin Struct Biol",
+    "pages": "119-27",
+    "pubMedIdentifier": 21145228,
+    "volume": 21,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21145228",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9833560,
+    "displayName": "The role of protein kinase R in the interferon response",
+    "title": "The role of protein kinase R in the interferon response",
+    "journal": "J Interferon Cytokine Res",
+    "pages": "59-70",
+    "pubMedIdentifier": 21166592,
+    "volume": 31,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21166592",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9833553,
+    "displayName": "Functional characterization of and cooperation between the double-stranded RNA-binding motifs of the protein kinase PKR",
+    "title": "Functional characterization of and cooperation between the double-stranded RNA-binding motifs of the protein kinase PKR",
+    "journal": "J Biol Chem",
+    "pages": "9936-44",
+    "pubMedIdentifier": 11134010,
+    "volume": 276,
+    "year": 2001,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11134010",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9833538,
+    "displayName": "The dsRNA protein kinase PKR: virus and cell control",
+    "title": "The dsRNA protein kinase PKR: virus and cell control",
+    "journal": "Biochimie",
+    "pages": "799-811",
+    "pubMedIdentifier": 17451862,
+    "volume": 89,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17451862",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9836674,
+    "displayName": "PHOrming the inflammasome: phosphorylation is a critical switch in inflammasome signalling",
+    "title": "PHOrming the inflammasome: phosphorylation is a critical switch in inflammasome signalling",
+    "journal": "Biochem Soc Trans",
+    "pages": "2495-2507",
+    "pubMedIdentifier": 34854899,
+    "volume": 49,
+    "year": 2021,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/34854899",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9839737,
+    "displayName": "Induction of apoptosis by the dsRNA-dependent protein kinase (PKR): mechanism of action",
+    "title": "Induction of apoptosis by the dsRNA-dependent protein kinase (PKR): mechanism of action",
+    "journal": "Apoptosis",
+    "pages": "107-14",
+    "pubMedIdentifier": 11232238,
+    "volume": 5,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11232238",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9841957,
+    "displayName": "Structure and function of the protein kinase R",
+    "title": "Structure and function of the protein kinase R",
+    "journal": "Curr Top Microbiol Immunol",
+    "pages": "253-92",
+    "pubMedIdentifier": 17969452,
+    "volume": 316,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17969452",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9834832,
+    "displayName": "PACT, a protein activator of the interferon-induced protein kinase, PKR",
+    "title": "PACT, a protein activator of the interferon-induced protein kinase, PKR",
+    "journal": "EMBO J",
+    "pages": "4379-90",
+    "pubMedIdentifier": 9687506,
+    "volume": 17,
+    "year": 1998,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9687506",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9841958,
+    "displayName": "mRNA decapping enzyme 1a (Dcp1a)-induced translational arrest through protein kinase R (PKR) activation requires the N-terminal enabled vasodilator-stimulated protein homology 1 (EVH1) domain",
+    "title": "mRNA decapping enzyme 1a (Dcp1a)-induced translational arrest through protein kinase R (PKR) activation requires the N-terminal enabled vasodilator-stimulated protein homology 1 (EVH1) domain",
+    "journal": "J Biol Chem",
+    "pages": "3936-49",
+    "pubMedIdentifier": 24382890,
+    "volume": 289,
+    "year": 2014,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24382890",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9835122,
+    "displayName": "Characterization of the heparin-mediated activation of PKR, the interferon-inducible RNA-dependent protein kinase",
+    "title": "Characterization of the heparin-mediated activation of PKR, the interferon-inducible RNA-dependent protein kinase",
+    "journal": "Virology",
+    "pages": "180-8",
+    "pubMedIdentifier": 8661426,
+    "volume": 221,
+    "year": 1996,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8661426",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9835127,
+    "displayName": "Identification of the heparin-binding domains of the interferon-induced protein kinase, PKR",
+    "title": "Identification of the heparin-binding domains of the interferon-induced protein kinase, PKR",
+    "journal": "FEBS J",
+    "pages": "1425-39",
+    "pubMedIdentifier": 15752359,
+    "volume": 272,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15752359",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10120848,
+    "displayName": "PKR-mediated signaling",
+    "stId": "R-MMU-9833482",
+    "stIdVersion": "R-MMU-9833482.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PKR-mediated signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     9833482
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10262146,
+    "displayName": "PKR-mediated signaling",
+    "stId": "R-RNO-9833482",
+    "stIdVersion": "R-RNO-9833482.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PKR-mediated signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     9833482
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10484253,
+    "displayName": "PKR-mediated signaling",
+    "stId": "R-BTA-9833482",
+    "stIdVersion": "R-BTA-9833482.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PKR-mediated signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     9833482
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10869023,
+    "displayName": "PKR-mediated signaling",
+    "stId": "R-GGA-9833482",
+    "stIdVersion": "R-GGA-9833482.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PKR-mediated signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     9833482
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11171870,
+    "displayName": "PKR-mediated signaling",
+    "stId": "R-PFA-9833482",
+    "stIdVersion": "R-PFA-9833482.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PKR-mediated signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     9833482
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11037562,
+    "displayName": "PKR-mediated signaling",
+    "stId": "R-CEL-9833482",
+    "stIdVersion": "R-CEL-9833482.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PKR-mediated signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     9833482
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11092797,
+    "displayName": "PKR-mediated signaling",
+    "stId": "R-DDI-9833482",
+    "stIdVersion": "R-DDI-9833482.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PKR-mediated signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     9833482
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11150600,
+    "displayName": "PKR-mediated signaling",
+    "stId": "R-SCE-9833482",
+    "stIdVersion": "R-SCE-9833482.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PKR-mediated signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     9833482
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11122023,
+    "displayName": "PKR-mediated signaling",
+    "stId": "R-SPO-9833482",
+    "stIdVersion": "R-SPO-9833482.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PKR-mediated signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     9833482
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10369361,
+    "displayName": "PKR-mediated signaling",
+    "stId": "R-CFA-9833482",
+    "stIdVersion": "R-CFA-9833482.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PKR-mediated signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     9833482
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10597582,
+    "displayName": "PKR-mediated signaling",
+    "stId": "R-SSC-9833482",
+    "stIdVersion": "R-SSC-9833482.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PKR-mediated signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     9833482
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10689958,
+    "displayName": "PKR-mediated signaling",
+    "stId": "R-DRE-9833482",
+    "stIdVersion": "R-DRE-9833482.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PKR-mediated signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     9833482
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10771187,
+    "displayName": "PKR-mediated signaling",
+    "stId": "R-XTR-9833482",
+    "stIdVersion": "R-XTR-9833482.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PKR-mediated signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     9833482
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10954481,
+    "displayName": "PKR-mediated signaling",
+    "stId": "R-DME-9833482",
+    "stIdVersion": "R-DME-9833482.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PKR-mediated signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     9833482
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9833566,
+    "displayName": "Interferon-induced, double-stranded RNA-activated protein ki...",
+    "text": "Interferon-induced, double-stranded RNA-activated protein kinase PKR (EIF2AK2) mainly halts cellular protein translation by phosphorylating eIF2α, which blocks the recycling of GDP-eIF2 to GTP-eIF2 required for cap-dependent translation initiation. PKR is constitutively expressed at low level, and its expression is up-regulated by interferon alpha/beta signaling. PKR is mainly localized in the cytoplasm with a small fraction in the nucleus (Tian & Mathews 2001). <br>PKR was identified in the 1970s (Friedman et al, 1972; Kerr et al., 1977). Its activation is characterized by the shifting of its monomer/dimer equilibrium towards the dimer, with subsequent autophosphorylation (reviewed by Sadler & Williams, 2007; Bou-Nader et al, 2019). Possible activating factors include binding of viral dsRNA to the PKR dsRNA binding domain (reviewed by Nallagatla et al, 2011), as well as cellular proteins (ISG15, PACT, DCP1A) and heparin (Patel & Sen, 1998; Dougherty et al., 2014; George et al., 1996; Fasciano et al., 2005; reviewed by Zhang et al, 2021). General translation shutdown by PKR can therefore be promoted by both viral infection and the integrated response of the cell to stress stimuli (reviewed by Pizzinga et al, 2019; Costa-Mattioli & Walter, 2020). Several cellular inhibitors of PKR activation and eIF2α phosphorylation by PKR have been identified and binding of PKR to viral proteins from RNA viruses (e.g. HIV, influenza A, RSV) has also been shown to contribute to inhibition (reviewed by Cesaro & Michiels, 2021). In addition to its role in translation shutdown via eIF2α, PKR affects translation through NFAR protein phosphorylation; it can also phosphorylate RNA helicase A, CDC2, and MKK6, thus modulating RNA metabolism, G2 arrest, and p38 MAPK activation. Finally, PKR can bind to TRAF proteins, the IkappaB kinase complex, GSK-3beta, and several inflammasome components leading to NF-kappa B activation, tau phosphorylation, apoptosis, and inflammasome activation (reviewed by Gil & Esteban, 2000; Garcia et al, 2007; Pindel & Sadler, 2011; Marchal et al, 2014; Yim & Williams, 2014; McKey et al, 2021).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-9833482.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 9839016,
+    "displayName": "PKR binds viral dsRNA",
+    "stId": "R-HSA-9839016",
+    "stIdVersion": "R-HSA-9839016.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PKR binds viral dsRNA"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9833777,
+    "displayName": "PKR binds activating host RNA",
+    "stId": "R-HSA-9833777",
+    "stIdVersion": "R-HSA-9833777.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PKR binds activating host RNA"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9833723,
+    "displayName": "PKR forms a dimer",
+    "stId": "R-HSA-9833723",
+    "stIdVersion": "R-HSA-9833723.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PKR forms a dimer"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9833820,
+    "displayName": "PKR dimer autophosphorylates",
+    "stId": "R-HSA-9833820",
+    "stIdVersion": "R-HSA-9833820.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PKR dimer autophosphorylates"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9833973,
+    "displayName": "ISGylation of PKR",
+    "stId": "R-HSA-9833973",
+    "stIdVersion": "R-HSA-9833973.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ISGylation of PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9834809,
+    "displayName": "SUMOylation of PKR",
+    "stId": "R-HSA-9834809",
+    "stIdVersion": "R-HSA-9834809.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SUMOylation of PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9834821,
+    "displayName": "p-PRKRA dimer binds PKR",
+    "stId": "R-HSA-9834821",
+    "stIdVersion": "R-HSA-9834821.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-PRKRA dimer binds PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9834807,
+    "displayName": "ILF3 binds PKR",
+    "stId": "R-HSA-9834807",
+    "stIdVersion": "R-HSA-9834807.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ILF3 binds PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9835121,
+    "displayName": "Heparin binds PKR",
+    "stId": "R-HSA-9835121",
+    "stIdVersion": "R-HSA-9835121.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Heparin binds PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9835189,
+    "displayName": "NCK1 binds PKR",
+    "stId": "R-HSA-9835189",
+    "stIdVersion": "R-HSA-9835189.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NCK1 binds PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9835328,
+    "displayName": "NPM binds PKR",
+    "stId": "R-HSA-9835328",
+    "stIdVersion": "R-HSA-9835328.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NPM binds PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9835358,
+    "displayName": "p-TARBP2 binds PKR",
+    "stId": "R-HSA-9835358",
+    "stIdVersion": "R-HSA-9835358.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-TARBP2 binds PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9835385,
+    "displayName": "DUS2 binds PKR",
+    "stId": "R-HSA-9835385",
+    "stIdVersion": "R-HSA-9835385.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "DUS2 binds PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9835411,
+    "displayName": "FA core complex:HSP70s binds PKR",
+    "stId": "R-HSA-9835411",
+    "stIdVersion": "R-HSA-9835411.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "FA core complex:HSP70s binds PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9835443,
+    "displayName": "STAT1,STAT3 binds PKR",
+    "stId": "R-HSA-9835443",
+    "stIdVersion": "R-HSA-9835443.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "STAT1,STAT3 binds PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9835454,
+    "displayName": "DNAJC3 binds PKR",
+    "stId": "R-HSA-9835454",
+    "stIdVersion": "R-HSA-9835454.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "DNAJC3 binds PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9835992,
+    "displayName": "VTRNA2-1 binds PKR",
+    "stId": "R-HSA-9835992",
+    "stIdVersion": "R-HSA-9835992.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "VTRNA2-1 binds PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9835949,
+    "displayName": "HIV Tat72 binds PKR",
+    "stId": "R-HSA-9835949",
+    "stIdVersion": "R-HSA-9835949.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HIV Tat72 binds PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 168896,
+    "displayName": "NS1 binds PKR",
+    "stId": "R-HSA-168896",
+    "stIdVersion": "R-HSA-168896.8",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NS1 binds PKR"
+    ],
+    "releaseDate": "2005-04-11",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9833436,
+    "displayName": "RSV N binds PKR",
+    "stId": "R-HSA-9833436",
+    "stIdVersion": "R-HSA-9833436.3",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RSV N binds PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9835944,
+    "displayName": "ADAR1 binds PKR",
+    "stId": "R-HSA-9835944",
+    "stIdVersion": "R-HSA-9835944.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ADAR1 binds PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9836606,
+    "displayName": "SPHK1 binds PKR",
+    "stId": "R-HSA-9836606",
+    "stIdVersion": "R-HSA-9836606.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SPHK1 binds PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9835940,
+    "displayName": "HCMV TRS1 binds PKR dimer",
+    "stId": "R-HSA-9835940",
+    "stIdVersion": "R-HSA-9835940.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HCMV TRS1 binds PKR dimer"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9839025,
+    "displayName": "HIV TAR RNA binds PKR",
+    "stId": "R-HSA-9839025",
+    "stIdVersion": "R-HSA-9839025.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HIV TAR RNA binds PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9836702,
+    "displayName": "PKR inhibitors bind PKR",
+    "stId": "R-HSA-9836702",
+    "stIdVersion": "R-HSA-9836702.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PKR inhibitors bind PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9835885,
+    "displayName": "p-PKR dimer phosphorylates eIF2-alpha",
+    "stId": "R-HSA-9835885",
+    "stIdVersion": "R-HSA-9835885.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-PKR dimer phosphorylates eIF2-alpha"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9836159,
+    "displayName": "p-PKR dimer phosphorylates DHX9",
+    "stId": "R-HSA-9836159",
+    "stIdVersion": "R-HSA-9836159.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-PKR dimer phosphorylates DHX9"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9836184,
+    "displayName": "p-PKR dimer phosphorylates CDK1",
+    "stId": "R-HSA-9836184",
+    "stIdVersion": "R-HSA-9836184.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-PKR dimer phosphorylates CDK1"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9836322,
+    "displayName": "p-PKR dimer phosphorylates MKK6",
+    "stId": "R-HSA-9836322",
+    "stIdVersion": "R-HSA-9836322.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-PKR dimer phosphorylates MKK6"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9833635,
+    "displayName": "p-PKR dimer localizes to the nucleus",
+    "stId": "R-HSA-9833635",
+    "stIdVersion": "R-HSA-9833635.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-PKR dimer localizes to the nucleus"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9836362,
+    "displayName": "p-PKR dimer phosphorylates TP53 tetramer",
+    "stId": "R-HSA-9836362",
+    "stIdVersion": "R-HSA-9836362.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-PKR dimer phosphorylates TP53 tetramer"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9836383,
+    "displayName": "p-PKR dimer phosphorylates ILF3:ILF2",
+    "stId": "R-HSA-9836383",
+    "stIdVersion": "R-HSA-9836383.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-PKR dimer phosphorylates ILF3:ILF2"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9836404,
+    "displayName": "p-PKR dimer phosphorylates MAPT",
+    "stId": "R-HSA-9836404",
+    "stIdVersion": "R-HSA-9836404.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-PKR dimer phosphorylates MAPT"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9836435,
+    "displayName": "p-PKR dimer phosphorylates SNCA",
+    "stId": "R-HSA-9836435",
+    "stIdVersion": "R-HSA-9836435.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-PKR dimer phosphorylates SNCA"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9836449,
+    "displayName": "p-PKR dimer phosphorylates HIV tat",
+    "stId": "R-HSA-9836449",
+    "stIdVersion": "R-HSA-9836449.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-PKR dimer phosphorylates HIV tat"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9836500,
+    "displayName": "IKK complex is activated by PKR",
+    "stId": "R-HSA-9836500",
+    "stIdVersion": "R-HSA-9836500.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IKK complex is activated by PKR"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9836515,
+    "displayName": "p-PKR dimer phosphorylates PTPN2",
+    "stId": "R-HSA-9836515",
+    "stIdVersion": "R-HSA-9836515.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-PKR dimer phosphorylates PTPN2"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9836617,
+    "displayName": "p-PKR dimer phosphorylates SPHK1",
+    "stId": "R-HSA-9836617",
+    "stIdVersion": "R-HSA-9836617.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-PKR dimer phosphorylates SPHK1"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9836621,
+    "displayName": "p-S225-SPHK1 localizes to cytosol",
+    "stId": "R-HSA-9836621",
+    "stIdVersion": "R-HSA-9836621.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-S225-SPHK1 localizes to cytosol"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9836664,
+    "displayName": "p-PKR dimer phosphorylates PPP2R5A",
+    "stId": "R-HSA-9836664",
+    "stIdVersion": "R-HSA-9836664.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-PKR dimer phosphorylates PPP2R5A"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9833482
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

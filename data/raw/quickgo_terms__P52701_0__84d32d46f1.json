@@ -1,0 +1,2652 @@
+{
+ "source": "quickgo_terms",
+ "query": "P52701_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0000287,GO:0000400,GO:0000710,GO:0000785,GO:0003677,GO:0003682,GO:0003684,GO:0003690,GO:0005515,GO:0005524,GO:0005634,GO:0005654,GO:0005694,GO:0006281,GO:0006298,GO:0006325,GO:0007283,GO:0008094,GO:0008340,GO:0008630,GO:0009411,GO:0016446,GO:0016447,GO:0019899,GO:0030983,GO:0032137,GO:0032142,GO:0032143,GO:0032301,GO:0032357,GO:0032405,GO:0042803,GO:0043531,GO:0043570,GO:0045190,GO:0045910,GO:0097193,GO:0140003,GO:0140664",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:53:50+00:00",
+ "response": {
+  "numberOfHits": 39,
+  "results": [
+   {
+    "id": "GO:0043570",
+    "isObsolete": false,
+    "name": "maintenance of DNA repeat elements",
+    "definition": {
+     "text": "Any process involved in sustaining the fidelity and copy number of DNA repeat elements."
+    },
+    "children": [
+     {
+      "id": "GO:0035753",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043007",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043571",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005634",
+    "isObsolete": false,
+    "name": "nucleus",
+    "definition": {
+     "text": "A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell's chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent."
+    },
+    "synonyms": [
+     {
+      "name": "cell nucleus",
+      "type": "exact"
+     },
+     {
+      "name": "horsetail nucleus",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0000152",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000176",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043224",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140513",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048556",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048555",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071027",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0031039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031965",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033260",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0071028",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005880",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005635",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000228",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031040",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019908",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048353",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045120",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097571",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097572",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905754",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046818",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043073",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000794",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034753",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031981",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043076",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005640",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0051457",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000943",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140510",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043599",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043596",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042405",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0110093",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0110092",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005654",
+    "isObsolete": false,
+    "name": "nucleoplasm",
+    "definition": {
+     "text": "That part of the nuclear content other than the chromosomes or the nucleolus.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0124325653"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0140168",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000118",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016604",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031261",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035097",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005656",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990826",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0055029",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0008023",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005694",
+    "isObsolete": false,
+    "name": "chromosome",
+    "definition": {
+     "text": "A structure composed of a very long molecule of DNA and associated proteins (e.g. histones) that carries hereditary information.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198547684"
+      }
+     ]
+    },
+    "comment": "Chromosomes include parts that are not part of the chromatin. Examples include the kinetochore.",
+    "synonyms": [
+     {
+      "name": "chromatid",
+      "type": "related"
+     },
+     {
+      "name": "interphase chromosome",
+      "type": "narrow"
+     },
+     {
+      "name": "prophase chromosome",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0031391",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005657",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031390",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000228",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030849",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031422",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000796",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000785",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005700",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090734",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043850",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0008278",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097047",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000793",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009508",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098687",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000808",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031389",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000262",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000803",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033193",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0019899",
+    "isObsolete": false,
+    "name": "enzyme binding",
+    "definition": {
+     "text": "Binding to an enzyme, a protein with catalytic activity."
+    },
+    "children": [
+     {
+      "id": "GO:0044390",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035035",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990226",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002020",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044547",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035226",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098650",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990827",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035473",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032145",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050998",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010180",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031996",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035375",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044549",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044389",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044388",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019902",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042826",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019900",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032190",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051020",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043274",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051117",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008179",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070063",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0003690",
+    "isObsolete": false,
+    "name": "double-stranded DNA binding",
+    "definition": {
+     "text": "Binding to double-stranded DNA."
+    },
+    "synonyms": [
+     {
+      "name": "dsDNA binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0071565",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0097100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061776",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071564",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0016514",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1990837",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016586",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0044729",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106260",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035060",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0140091",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0003691",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003692",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140093",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0010385",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140092",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0003682",
+    "isObsolete": false,
+    "name": "chromatin binding",
+    "definition": {
+     "text": "Binding to chromatin, the network of fibers of DNA, protein, and sometimes RNA, that make up the chromosomes of the eukaryotic nucleus during interphase.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "20404130"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "lamin/chromatin binding",
+      "type": "narrow"
+     },
+     {
+      "name": "microtubule/chromatin interaction",
+      "type": "narrow"
+     },
+     {
+      "name": "nuclear membrane vesicle binding to chromatin",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0035563",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1990841",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031490",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031491",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990188",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035562",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0003684",
+    "isObsolete": false,
+    "name": "damaged DNA binding",
+    "definition": {
+     "text": "Binding to damaged DNA."
+    },
+    "synonyms": [
+     {
+      "name": "DNA repair enzyme",
+      "type": "related"
+     },
+     {
+      "name": "DNA repair protein",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0032131",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032356",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990165",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140431",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0003677",
+    "isObsolete": false,
+    "name": "DNA binding",
+    "definition": {
+     "text": "Any molecular function by which a gene product interacts selectively and non-covalently with DNA (deoxyribonucleic acid)."
+    },
+    "synonyms": [
+     {
+      "name": "microtubule/chromatin interaction",
+      "type": "related"
+     },
+     {
+      "name": "plasmid binding",
+      "type": "narrow"
+     },
+     {
+      "name": "structure specific DNA binding",
+      "type": "related"
+     },
+     {
+      "name": "structure-specific DNA binding",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0043392",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0031490",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070336",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003690",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008301",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051880",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032116",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0045142",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003684",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051101",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0036411",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0003697",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990243",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0003681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043565",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000217",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045027",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099077",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010844",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043388",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0000497",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006298",
+    "isObsolete": false,
+    "name": "mismatch repair",
+    "definition": {
+     "text": "A system for the correction of errors in which an incorrect base, which cannot form hydrogen bonds with the corresponding base in the parent strand, is incorporated into the daughter strand. The mismatch repair system promotes genomic fidelity by repairing base-base mismatches, insertion-deletion loops and heterologies generated during DNA replication and recombination.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "11687886"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "long patch mismatch repair system",
+      "type": "narrow"
+     },
+     {
+      "name": "mismatch repair, MutL-like pathway",
+      "type": "related"
+     },
+     {
+      "name": "MMR",
+      "type": "exact"
+     },
+     {
+      "name": "MutS/MutL/MutH pathway",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0032423",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0000710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070716",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032425",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0032300",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0032424",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008630",
+    "isObsolete": false,
+    "name": "intrinsic apoptotic signaling pathway in response to DNA damage",
+    "definition": {
+     "text": "The series of molecular signals in which an intracellular signal is conveyed to trigger the apoptotic death of a cell. The pathway is induced by the detection of DNA damage, and ends when the execution phase of apoptosis is triggered."
+    },
+    "synonyms": [
+     {
+      "name": "DNA damage response, signal transduction resulting in induction of apoptosis",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0042771",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902230",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1902231",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1902229",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042803",
+    "isObsolete": false,
+    "name": "protein homodimerization activity",
+    "definition": {
+     "text": "Binding to an identical protein to form a homodimer."
+    },
+    "synonyms": [
+     {
+      "name": "dimerization activity",
+      "type": "broad"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005515",
+    "isObsolete": false,
+    "name": "protein binding",
+    "definition": {
+     "text": "Binding to a protein."
+    },
+    "synonyms": [
+     {
+      "name": "glycoprotein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "protein amino acid binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031072",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140081",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032092",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010313",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043393",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0031720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990405",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051087",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001965",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005516",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990935",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001848",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032091",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046980",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043394",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001846",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051959",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019955",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005524",
+    "isObsolete": false,
+    "name": "ATP binding",
+    "definition": {
+     "text": "Binding to ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "Mg-ATP binding",
+      "type": "exact"
+     },
+     {
+      "name": "MgATP binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0000774",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1990710",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1990621",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030983",
+    "isObsolete": false,
+    "name": "mismatched DNA binding",
+    "definition": {
+     "text": "Binding to a double-stranded DNA region containing one or more mismatches."
+    },
+    "synonyms": [
+     {
+      "name": "mispair binding",
+      "type": "exact"
+     },
+     {
+      "name": "mispaired DNA binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0035485",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035484",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035487",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032137",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035486",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035489",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032135",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035488",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032136",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990710",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0140664",
+    "isObsolete": false,
+    "name": "ATP-dependent DNA damage sensor activity",
+    "definition": {
+     "text": "A molecule that recognises toxic DNA structures, and initiates a signaling response, driven by ATP hydrolysis.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "33302090"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "33510387"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "ATP-dependent DNA damage sensing activity",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043531",
+    "isObsolete": false,
+    "name": "ADP binding",
+    "definition": {
+     "text": "Binding to ADP, adenosine 5'-diphosphate."
+    },
+    "synonyms": [
+     {
+      "name": "adenosine 5'-diphosphate binding",
+      "type": "exact"
+     },
+     {
+      "name": "adenosine diphosphate binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0000774",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0016447",
+    "isObsolete": false,
+    "name": "somatic recombination of immunoglobulin gene segments",
+    "definition": {
+     "text": "The process in which immunoglobulin genes are formed through recombination of the germline genetic elements, as known as immunoglobulin gene segments, within a single locus.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0781735149"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "somatic recombination of antibody gene segments",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0002204",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002570",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002452",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033152",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0016446",
+    "isObsolete": false,
+    "name": "somatic hypermutation of immunoglobulin genes",
+    "definition": {
+     "text": "Mutations occurring somatically that result in amino acid changes in the rearranged V regions of immunoglobulins.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0781735149"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "11205330"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "11205333"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "14975236"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "7813007"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "somatic hypermutation of antibody genes",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008340",
+    "isObsolete": false,
+    "name": "determination of adult lifespan",
+    "definition": {
+     "text": "The pathways that regulate the duration of the adult phase of the life-cycle of an animal.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "25561524"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "273723695"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "3424805"
+      }
+     ]
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006325",
+    "isObsolete": false,
+    "name": "chromatin organization",
+    "definition": {
+     "text": "The assembly or remodeling of chromatin composed of DNA complexed with histones, other associated proteins, and sometimes RNA.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "20404130"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "chromatin assembly",
+      "type": "narrow"
+     },
+     {
+      "name": "chromatin assembly/disassembly",
+      "type": "related"
+     },
+     {
+      "name": "chromatin assembly or disassembly",
+      "type": "related"
+     },
+     {
+      "name": "chromatin maintenance",
+      "type": "broad"
+     },
+     {
+      "name": "chromatin modification",
+      "type": "related"
+     },
+     {
+      "name": "chromatin organisation",
+      "type": "exact"
+     },
+     {
+      "name": "DNA replication-independent chromatin assembly",
+      "type": "narrow"
+     },
+     {
+      "name": "DNA replication-independent chromatin organization",
+      "type": "narrow"
+     },
+     {
+      "name": "DNA replication-independent nucleosome organisation",
+      "type": "narrow"
+     },
+     {
+      "name": "DNA replication-independent nuclesome assembly",
+      "type": "narrow"
+     },
+     {
+      "name": "establishment of chromatin architecture",
+      "type": "exact"
+     },
+     {
+      "name": "establishment or maintenance of chromatin architecture",
+      "type": "exact"
+     },
+     {
+      "name": "transcription-coupled nucleosome assembly",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0035041",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990700",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902275",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0140588",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006338",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006335",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905268",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0006334",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034080",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0141119",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905269",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0035092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140463",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070828",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045910",
+    "isObsolete": false,
+    "name": "negative regulation of DNA recombination",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of DNA recombination."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of DNA recombination",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of DNA recombination",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of DNA recombination",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of DNA recombination",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060543",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007537",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000042",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045128",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045950",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061808",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045829",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048239",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903111",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006281",
+    "isObsolete": false,
+    "name": "DNA repair",
+    "definition": {
+     "text": "The process of restoring DNA after damage. Genomes are subject to damage by chemical and physical agents in the environment (e.g. UV and ionizing radiations, chemical mutagens, fungal and bacterial toxins, etc.) and by free radicals or alkylating agents endogenously generated in metabolism. DNA is also damaged because of errors during its replication. A variety of different DNA repair pathways have been reported that include direct reversal, base excision repair, nucleotide excision repair, photoreactivation, bypass, double-strand break repair pathway, and mismatch repair pathway.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "11563486"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0097196",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0106300",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009380",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0006290",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045739",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0006284",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006289",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106044",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006298",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0141168",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045004",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000725",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045738",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0006282",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0070914",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000012",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006307",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036297",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000731",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006302",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990391",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0010213",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043504",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045190",
+    "isObsolete": false,
+    "name": "isotype switching",
+    "definition": {
+     "text": "The switching of activated B cells from IgM biosynthesis to biosynthesis of other isotypes of immunoglobulin, accomplished through a recombination process involving an intrachromosomal deletion involving switch regions that reside 5' of each constant region gene segment in the immunoglobulin heavy chain locus.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0781735149"
+      }
+     ]
+    },
+    "comment": "Note that IgM and IgD can be coexpressed by B cells via an alternate splicing mechanism, but true recombinational isotype switching to IgD has been demonstrated as well. Note that this term is best used to annotate gene products which are involved in the mechanism of DNA recombination used in isotype switching, like the B cell specific Swap70 factor in the mouse, rather than gene products which promote isotype switching such as cytokines or co-stimulatory molecules, which should instead be annotated to 'regulation of isotype switching ; GO:0045191'.",
+    "synonyms": [
+     {
+      "name": "class switching",
+      "type": "exact"
+     },
+     {
+      "name": "class switch recombination",
+      "type": "exact"
+     },
+     {
+      "name": "isotype switch recombination",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0045191",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0048289",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045830",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0048291",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048292",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045829",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0048290",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008094",
+    "isObsolete": false,
+    "name": "ATP-dependent activity, acting on DNA",
+    "definition": {
+     "text": "Catalytic activity that acts to modify DNA, driven by ATP hydrolysis."
+    },
+    "synonyms": [
+     {
+      "name": "adenosinetriphosphatase (DNA-dependent)",
+      "type": "exact"
+     },
+     {
+      "name": "ATPase, acting on DNA",
+      "type": "exact"
+     },
+     {
+      "name": "ATPase activity, acting on DNA",
+      "type": "exact"
+     },
+     {
+      "name": "DNA-dependent adenosinetriphosphatase activity",
+      "type": "exact"
+     },
+     {
+      "name": "DNA dependent ATPase activity",
+      "type": "exact"
+     },
+     {
+      "name": "DNA-dependent ATPase activity",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990710",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0120328",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036310",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140664",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140083",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003689",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140658",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033677",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061860",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770122",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015616",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003918",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000400",
+    "isObsolete": false,
+    "name": "four-way junction DNA binding",
+    "definition": {
+     "text": "Binding to a DNA segment containing four-way junctions, also known as Holliday junctions, a structure where two DNA double strands are held together by reciprocal exchange of two of the four strands, one strand each from the two original helices.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815332181"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "15563464"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "forked DNA binding",
+      "type": "broad"
+     },
+     {
+      "name": "Holliday junction binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0000402",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000401",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000287",
+    "isObsolete": false,
+    "name": "magnesium ion binding",
+    "definition": {
+     "text": "Binding to a magnesium (Mg) ion."
+    },
+    "synonyms": [
+     {
+      "name": "magnesium binding",
+      "type": "exact"
+     },
+     {
+      "name": "Mg binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990710",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0097193",
+    "isObsolete": false,
+    "name": "intrinsic apoptotic signaling pathway",
+    "definition": {
+     "text": "The series of molecular signals in which an intracellular signal is conveyed to trigger the apoptotic death of a cell. The pathway starts with reception of an intracellular signal (e.g. DNA damage, endoplasmic reticulum stress, oxidative stress etc.), and ends when the execution phase of apoptosis is triggered. The intrinsic apoptotic signaling pathway is crucially regulated by permeabilization of the mitochondrial outer membrane (MOMP).",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "11919192"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "17340152"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "18852119"
+      }
+     ]
+    },
+    "comment": "The signals that start intrinsic apoptosis may come from extracellular sources (e.g. oxidative stress, UV exposure), but the reception of the signal and thus the signaling pathway start inside the cell (as a result of DNA damage, redox imbalance, etc.). Examples are ZPR9 (ZNF622) and ASK1 (MAP3K5) (UniProt symbols Q969S3 and Q99683) in PMID:21771788. A diagram of the intrinsic apoptotic pathway including examples of molecular players can be found in Figure 2 in PMID:21760595.",
+    "synonyms": [
+     {
+      "name": "induction of apoptosis by intracellular signals",
+      "type": "related"
+     },
+     {
+      "name": "intrinsic apoptosis",
+      "type": "narrow"
+     },
+     {
+      "name": "intrinsic apoptotic pathway",
+      "type": "exact"
+     },
+     {
+      "name": "intrinsic apoptotic signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "mitochondrial-mediated apoptotic pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990442",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001243",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:2001244",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0008627",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070059",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990144",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008631",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008630",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001242",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000710",
+    "isObsolete": false,
+    "name": "meiotic mismatch repair",
+    "definition": {
+     "text": "A system for the identification and correction of base-base mismatches, small insertion-deletion loops, and regions of heterology that are present in duplex DNA formed with strands from two recombining molecules. Correction of the mismatch can result in non-Mendelian segregation of alleles following meiosis.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "10357855"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0010777",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000785",
+    "isObsolete": false,
+    "name": "chromatin",
+    "definition": {
+     "text": "The ordered and organized complex of DNA, protein, and sometimes RNA, that forms the chromosome.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "20404130"
+      }
+     ]
+    },
+    "comment": "Chromosomes include parts that are not part of the chromatin. Examples include the kinetochore.",
+    "synonyms": [
+     {
+      "name": "chromosome scaffold",
+      "type": "related"
+     },
+     {
+      "name": "cytoplasmic chromatin",
+      "type": "narrow"
+     },
+     {
+      "name": "nuclear chromatin",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0046536",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033503",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0106250",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0061638",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005726",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030874",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035101",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034967",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070211",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000792",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000123",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000791",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070210",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070603",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034974",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032798",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030527",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000786",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000981",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070823",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070822",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0032142",
+    "isObsolete": false,
+    "name": "single guanine insertion binding",
+    "definition": {
+     "text": "Binding to a double-stranded DNA region containing a single guanine insertion or a deletion that results in an unpaired guanine."
+    },
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0032143",
+    "isObsolete": false,
+    "name": "single thymine insertion binding",
+    "definition": {
+     "text": "Binding to a double-stranded DNA region containing a single thymine insertion or a deletion that results in an unpaired thymine."
+    },
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0032137",
+    "isObsolete": false,
+    "name": "guanine/thymine mispair binding",
+    "definition": {
+     "text": "Binding to a double-stranded DNA region containing a G/T mispair."
+    },
+    "synonyms": [
+     {
+      "name": "G/T mispair binding",
+      "type": "exact"
+     },
+     {
+      "name": "T/G mispair binding",
+      "type": "exact"
+     },
+     {
+      "name": "thymine/guanine mispair binding",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0009411",
+    "isObsolete": false,
+    "name": "response to UV",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an ultraviolet radiation (UV light) stimulus. Ultraviolet radiation is electromagnetic radiation with a wavelength in the range of 10 to 380 nanometers."
+    },
+    "synonyms": [
+     {
+      "name": "response to ultraviolet light stimulus",
+      "type": "exact"
+     },
+     {
+      "name": "response to ultraviolet radiation stimulus",
+      "type": "exact"
+     },
+     {
+      "name": "response to UV light stimulus",
+      "type": "exact"
+     },
+     {
+      "name": "response to UV radiation stimulus",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0010225",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043478",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010224",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009650",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070141",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034644",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009589",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007283",
+    "isObsolete": false,
+    "name": "spermatogenesis",
+    "definition": {
+     "text": "The developmental process by which male germ line stem cells self renew or give rise to successive cell types resulting in the development of a spermatozoa.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "9780878933846"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "28073824"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "30990821"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "generation of spermatozoa",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0048140",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030726",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061989",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030724",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007284",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048137",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007285",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048515",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048136",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048133",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0160087",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0140003",
+    "isObsolete": false,
+    "name": "histone H3K36me3 reader activity",
+    "definition": {
+     "text": "A histone reader that recognizes a histone H3 trimethylated at lysine 36.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "15489290"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "16364921"
+      }
+     ]
+    },
+    "comment": "Comment: Note that the residue position corresponds to the canonical human H3 histone (UniProtKB:P84243); this residue is conserved across all eukaryotes. Residue 1 is the first residue following removal of the initiating Methionine (Met). Note that each histone is encoded by multiple genes, and sequences may vary across different genes within an organism.",
+    "synonyms": [
+     {
+      "name": "H3-K36me3 modified histone binding",
+      "type": "narrow"
+     },
+     {
+      "name": "H3K36me3 modified histone binding",
+      "type": "narrow"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0032405",
+    "isObsolete": false,
+    "name": "MutLalpha complex binding",
+    "definition": {
+     "text": "Binding to a MutLalpha mismatch repair complex."
+    },
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0032301",
+    "isObsolete": false,
+    "name": "MutSalpha complex",
+    "definition": {
+     "text": "A heterodimer involved in the recognition and repair of base-base and small insertion/deletion mismatches. In human the complex consists of two subunits, MSH2 and MSH6.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "11005803"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "MMR complex",
+      "type": "broad"
+     },
+     {
+      "name": "MSH2/MSH6 complex",
+      "type": "exact"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0032357",
+    "isObsolete": false,
+    "name": "oxidized purine DNA binding",
+    "definition": {
+     "text": "Binding to a DNA region containing an oxidized purine residue."
+    },
+    "synonyms": [
+     {
+      "name": "oxidised purine DNA binding",
+      "type": "exact"
+     },
+     {
+      "name": "oxidized purine base DNA binding",
+      "type": "exact"
+     },
+     {
+      "name": "oxidized purine nucleobase DNA binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1905773",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

@@ -1,0 +1,720 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-196791",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-196791",
+ "params": null,
+ "retrieved_at": "2026-10-31T06:01:49+00:00",
+ "response": {
+  "dbId": 196791,
+  "displayName": "Vitamin D (calciferol) metabolism",
+  "stId": "R-HSA-196791",
+  "stIdVersion": "R-HSA-196791.9",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Vitamin D (calciferol) metabolism"
+  ],
+  "releaseDate": "2008-06-30",
+  "speciesName": "Homo sapiens",
+  "goBiologicalProcess": {
+   "dbId": 11287,
+   "displayName": "vitamin D metabolic process",
+   "accession": "0042359",
+   "databaseName": "GO",
+   "definition": "\"The chemical reactions and pathways involving vitamin D, any of a group of related, fat-soluble compounds that are derived from delta-5,7 steroids and play a central role in calcium metabolism. Specific forms of vitamin D include calciferol (ergocalciferol; vitamin D2) and cholecalciferol (calciol; vitamin D3).\" [GOC:mah, ISBN:0471331309]",
+   "name": "vitamin D metabolic process",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0042359",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 8963930,
+    "displayName": "Vitamin D: Metabolism, Molecular Mechanism of Action, and Pleiotropic Effects",
+    "title": "Vitamin D: Metabolism, Molecular Mechanism of Action, and Pleiotropic Effects",
+    "journal": "Physiol. Rev.",
+    "pages": "365-408",
+    "pubMedIdentifier": 26681795,
+    "volume": 96,
+    "year": 2016,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26681795",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10118758,
+    "displayName": "Vitamin D (calciferol) metabolism",
+    "stId": "R-MMU-196791",
+    "stIdVersion": "R-MMU-196791.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vitamin D (calciferol) metabolism"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     196791
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10260084,
+    "displayName": "Vitamin D (calciferol) metabolism",
+    "stId": "R-RNO-196791",
+    "stIdVersion": "R-RNO-196791.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vitamin D (calciferol) metabolism"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     196791
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10367321,
+    "displayName": "Vitamin D (calciferol) metabolism",
+    "stId": "R-CFA-196791",
+    "stIdVersion": "R-CFA-196791.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vitamin D (calciferol) metabolism"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     196791
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10482191,
+    "displayName": "Vitamin D (calciferol) metabolism",
+    "stId": "R-BTA-196791",
+    "stIdVersion": "R-BTA-196791.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vitamin D (calciferol) metabolism"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     196791
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10595518,
+    "displayName": "Vitamin D (calciferol) metabolism",
+    "stId": "R-SSC-196791",
+    "stIdVersion": "R-SSC-196791.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vitamin D (calciferol) metabolism"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     196791
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10688038,
+    "displayName": "Vitamin D (calciferol) metabolism",
+    "stId": "R-DRE-196791",
+    "stIdVersion": "R-DRE-196791.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vitamin D (calciferol) metabolism"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     196791
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10769301,
+    "displayName": "Vitamin D (calciferol) metabolism",
+    "stId": "R-XTR-196791",
+    "stIdVersion": "R-XTR-196791.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vitamin D (calciferol) metabolism"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     196791
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10867015,
+    "displayName": "Vitamin D (calciferol) metabolism",
+    "stId": "R-GGA-196791",
+    "stIdVersion": "R-GGA-196791.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vitamin D (calciferol) metabolism"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     196791
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10952785,
+    "displayName": "Vitamin D (calciferol) metabolism",
+    "stId": "R-DME-196791",
+    "stIdVersion": "R-DME-196791.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vitamin D (calciferol) metabolism"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     196791
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11035906,
+    "displayName": "Vitamin D (calciferol) metabolism",
+    "stId": "R-CEL-196791",
+    "stIdVersion": "R-CEL-196791.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vitamin D (calciferol) metabolism"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     196791
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11091621,
+    "displayName": "Vitamin D (calciferol) metabolism",
+    "stId": "R-DDI-196791",
+    "stIdVersion": "R-DDI-196791.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vitamin D (calciferol) metabolism"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     196791
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 209942,
+    "displayName": "Vitamin D3 (VD3, cholecalciferol) is a steroid hormone that ...",
+    "text": "Vitamin D3 (VD3, cholecalciferol) is a steroid hormone that principally plays roles in regulating intestinal calcium absorption and in bone metabolism. It is obtained from the diet and produced in the skin by photolysis of 7-dehydrocholesterol and released into the bloodstream. Very few foods (eg. oily fish, mushrooms exposed to sunlight and cod liver oil) are natural sources of vitamin D.  A small number of countries in the world artificially fortify a few foods with vitamin D. The metabolites of vitamin D are carried in the circulation bound to a plasma protein called vitamin D binding protein (GC) (for review see Delanghe et al. 2015, Chun 2012). Vitamin D undergoes two subsequent hydroxylations to form the active form of the vitamin, 1-alpha, 25-dihydroxyvitamin D (1,25(OH)2D). The first hydroxylation takes place in the liver followed by subsequent transport to the kidney where the second hydroxylation takes place. 1,25(OH)2D acts by binding to nuclear vitamin D receptors (Neme et al. 2017) and it has been estimated that upwards of 2000 genes are directly or indirectly regulated which are involved in calcium homeostasis, immune responses, cellular growth, differentiation and apoptosis (Hossein-nezhad et al. 2013, Hossein-nezhad & Holick 2013). Inactivation of 1,25(OH)2D occurs via C23/C24 oxidation catalysed by cytochrome CYP24A1 enzyme (Christakos et al. 2016).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "previousReviewStatus": {
+   "dbId": 9821385,
+   "displayName": "four stars",
+   "definition": "structure upated after externally reviewed and then internally reviewed",
+   "name": [
+    "four stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-196791.4",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2022-06-09",
+  "hasEvent": [
+   {
+    "dbId": 209754,
+    "displayName": "Photolytic cleavage and thermal isomerization of 7-dehydroCHOL",
+    "stId": "R-HSA-209754",
+    "stIdVersion": "R-HSA-209754.5",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Photolytic cleavage and thermal isomerization of 7-dehydroCHOL"
+    ],
+    "releaseDate": "2008-06-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8963872,
+    "displayName": "VD3 translocates from ER membrane to extracellular region",
+    "stId": "R-HSA-8963872",
+    "stIdVersion": "R-HSA-8963872.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "VD3 translocates from ER membrane to extracellular region"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 209738,
+    "displayName": "VD3 binds GC",
+    "stId": "R-HSA-209738",
+    "stIdVersion": "R-HSA-209738.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "VD3 binds GC"
+    ],
+    "releaseDate": "2017-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8963851,
+    "displayName": "VD3 dissociates from GC",
+    "stId": "R-HSA-8963851",
+    "stIdVersion": "R-HSA-8963851.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "VD3 dissociates from GC"
+    ],
+    "releaseDate": "2017-09-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 350147,
+    "displayName": "VD3 translocates from extracellular region to ER membrane",
+    "stId": "R-HSA-350147",
+    "stIdVersion": "R-HSA-350147.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "VD3 translocates from extracellular region to ER membrane"
+    ],
+    "releaseDate": "2008-06-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 209845,
+    "displayName": "CYP2R1 25-hydroxylates VD3 to 25(OH)D",
+    "stId": "R-HSA-209845",
+    "stIdVersion": "R-HSA-209845.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP2R1 25-hydroxylates VD3 to 25(OH)D"
+    ],
+    "releaseDate": "2008-06-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6807242,
+    "displayName": "25(OH)D translocates from ER membrane to extracellular region",
+    "stId": "R-HSA-6807242",
+    "stIdVersion": "R-HSA-6807242.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "25(OH)D translocates from ER membrane to extracellular region"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 209944,
+    "displayName": "25(OH)D binds GC",
+    "stId": "R-HSA-209944",
+    "stIdVersion": "R-HSA-209944.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "25(OH)D binds GC"
+    ],
+    "releaseDate": "2008-06-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 350186,
+    "displayName": "CUBN binds GC:25(OH)D",
+    "stId": "R-HSA-350186",
+    "stIdVersion": "R-HSA-350186.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CUBN binds GC:25(OH)D",
+     "DBP:Calcidiol is sequestered by cubilin on the cell surface"
+    ],
+    "releaseDate": "2008-06-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 350168,
+    "displayName": "LRP2-mediated uptake of extracellular CUBN:GC:25(OH)D",
+    "stId": "R-HSA-350168",
+    "stIdVersion": "R-HSA-350168.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "LRP2-mediated uptake of extracellular CUBN:GC:25(OH)D"
+    ],
+    "releaseDate": "2008-06-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 209760,
+    "displayName": "Endocytic translocation of CUBN:GC:25(OH)D to lysosomal lumen",
+    "stId": "R-HSA-209760",
+    "stIdVersion": "R-HSA-209760.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Endocytic translocation of CUBN:GC:25(OH)D to lysosomal lumen"
+    ],
+    "releaseDate": "2008-06-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 350158,
+    "displayName": "LGMN hydrolyzes GC, releasing CUBN and 25(OH)D",
+    "stId": "R-HSA-350158",
+    "stIdVersion": "R-HSA-350158.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "LGMN hydrolyzes GC, releasing CUBN and 25(OH)D"
+    ],
+    "releaseDate": "2008-06-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 209766,
+    "displayName": "25(OH)D translocates from lysosomal lumen to cytosol",
+    "stId": "R-HSA-209766",
+    "stIdVersion": "R-HSA-209766.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "25(OH)D translocates from lysosomal lumen to cytosol"
+    ],
+    "releaseDate": "2008-06-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 209868,
+    "displayName": "CYP27B1 hydroxylates 25(OH)D to 1,25(OH)2D",
+    "stId": "R-HSA-209868",
+    "stIdVersion": "R-HSA-209868.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP27B1 hydroxylates 25(OH)D to 1,25(OH)2D"
+    ],
+    "releaseDate": "2008-06-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 209765,
+    "displayName": "CYP24A1 hydroxylates 1,25(OH)2D, inactivating it",
+    "stId": "R-HSA-209765",
+    "stIdVersion": "R-HSA-209765.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYP24A1 hydroxylates 1,25(OH)2D, inactivating it"
+    ],
+    "releaseDate": "2008-06-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8963913,
+    "displayName": "1,25(OH)2D translocates from cytosol to nucleoplasm",
+    "stId": "R-HSA-8963913",
+    "stIdVersion": "R-HSA-8963913.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "1,25(OH)2D translocates from cytosol to nucleoplasm"
+    ],
+    "releaseDate": "2017-12-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 8963915,
+    "displayName": "1,25(OH)2D binds VDR",
+    "stId": "R-HSA-8963915",
+    "stIdVersion": "R-HSA-8963915.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "1,25(OH)2D binds VDR"
+    ],
+    "releaseDate": "2017-12-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4546387,
+    "displayName": "PIAS4 SUMOylates VDR with SUMO2",
+    "stId": "R-HSA-4546387",
+    "stIdVersion": "R-HSA-4546387.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PIAS4 SUMOylates VDR with SUMO2"
+    ],
+    "releaseDate": "2017-12-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9660192,
+    "displayName": "VDR agonists bind VDR",
+    "stId": "R-HSA-9660192",
+    "stIdVersion": "R-HSA-9660192.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "VDR agonists bind VDR"
+    ],
+    "releaseDate": "2022-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     196791
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

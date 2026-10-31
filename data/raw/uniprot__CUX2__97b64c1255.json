@@ -1,0 +1,73 @@
+{
+ "source": "uniprot",
+ "query": "CUX2",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:CUX2) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:45:42+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "O14529",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Homeobox protein cut-like 2"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Homeobox protein cux-2"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "CUX2"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P70298"
+         }
+        ],
+        "value": "Transcription factor involved in the control of neuronal proliferation and differentiation in the brain. Regulates dendrite development and branching, dendritic spine formation, and synaptogenesis in cortical layers II-III. Binds to DNA in a sequence-specific manner"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "23316",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00001FBB07"
+    }
+   }
+  ]
+ }
+}

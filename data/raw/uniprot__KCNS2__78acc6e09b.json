@@ -1,0 +1,95 @@
+{
+ "source": "uniprot",
+ "query": "KCNS2",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:KCNS2) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:51:46+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q9ULS6",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "Delayed-rectifier potassium channel regulatory subunit KCNS2"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Delayed-rectifier K(+) channel alpha subunit 2"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Delayed-rectifier potassium channel subunit Kv9.2"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Potassium voltage-gated channel subfamily S member 2"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:6301"
+        }
+       ],
+       "value": "KCNS2"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "O35174"
+         }
+        ],
+        "value": "Potassium channel regulatory subunit that modulate the delayed rectifier voltage-gated potassium channel activity of KCNB1 and KCNB2 by altering their kinetics, expression levels, and shifting the half-inactivation potential to more polarized values. While it does not form functional channels on its own, it can form functional heterotetrameric channels with KCNB1 and KCNB2. Each regulatory subunit has unique regulatory properties that can lead to extensive inhibition, significant changes in kinetics, and/or substantial shifts in the voltage dependencies of the inactivation process"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "3788",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000001653"
+    }
+   }
+  ]
+ }
+}

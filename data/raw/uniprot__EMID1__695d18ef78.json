@@ -1,0 +1,77 @@
+{
+ "source": "uniprot",
+ "query": "EMID1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:EMID1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:46:43+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q96A84",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "EMI domain-containing protein 1"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "12221002"
+         }
+        ],
+        "value": "Emilin and multimerin domain-containing protein 1"
+       },
+       "shortNames": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000303",
+           "source": "PubMed",
+           "id": "12221002"
+          }
+         ],
+         "value": "Emu1"
+        }
+       ]
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "EMID1"
+      }
+     }
+    ],
+    "comments": [],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "129080",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000006FB5A"
+    }
+   }
+  ]
+ }
+}

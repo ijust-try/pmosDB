@@ -1,0 +1,742 @@
+{
+ "source": "quickgo_terms",
+ "query": "Q6P5Q4_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0003779,GO:0003785,GO:0005523,GO:0005856,GO:0005865,GO:0005884,GO:0006936,GO:0007015,GO:0030016,GO:0030017,GO:0030041,GO:0030239,GO:0030838,GO:0031430,GO:0045010,GO:0045214,GO:0051694",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:52:37+00:00",
+ "response": {
+  "numberOfHits": 17,
+  "results": [
+   {
+    "id": "GO:0005865",
+    "isObsolete": false,
+    "name": "striated muscle thin filament",
+    "definition": {
+     "text": "Filaments formed of actin and associated proteins; attached to Z discs at either end of sarcomeres in myofibrils.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0005861",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005862",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005884",
+    "isObsolete": false,
+    "name": "actin filament",
+    "definition": {
+     "text": "A filamentous structure formed of a two-stranded helical polymer of the protein actin and associated proteins. Actin filaments are a major component of the contractile apparatus of skeletal muscle and the microfilaments of the cytoskeleton of eukaryotic cells. The filaments, comprising polymerized globular actin molecules, appear as flexible structures with a diameter of 5-9 nm. They are organized into a variety of linear bundles, two-dimensional networks, and three dimensional gels. In the cytoskeleton they are most highly concentrated in the cortex of the cell just beneath the plasma membrane.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "10666339"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "microfilament",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1903145",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903144",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061834",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031941",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005856",
+    "isObsolete": false,
+    "name": "cytoskeleton",
+    "definition": {
+     "text": "A cellular structure that forms the internal framework of eukaryotic and prokaryotic cells. The cytoskeleton includes intermediate filaments, microfilaments, microtubules, the microtrabecular lattice, and other structures characterized by a polymeric filamentous nature and long-range order within the cell. The various elements of the cytoskeleton not only serve in the maintenance of cellular shape but also have roles in other cellular functions, including cellular movement, cell division, endocytosis, and movement of organelles.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "16959967"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "27419875"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0120260",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032160",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099513",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0020010",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097568",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070865",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032123",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045111",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030863",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0020038",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0015629",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120120",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120121",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990047",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098593",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005940",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032156",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032173",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032176",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033011",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097427",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032159",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035253",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031913",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0014731",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045298",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099571",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005930",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0015630",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005200",
+      "relation": "occurs_in"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030838",
+    "isObsolete": false,
+    "name": "positive regulation of actin filament polymerization",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of actin polymerization."
+    },
+    "comment": "Note that this term was split from 'positive regulation of actin polymerization and/or depolymerization ; GO:0045758' (sibling term 'positive regulation of actin depolymerization ; GO:0030836').",
+    "synonyms": [
+     {
+      "name": "activation of actin filament polymerization",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of actin polymerization",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of actin polymerization and/or depolymerization",
+      "type": "broad"
+     },
+     {
+      "name": "stimulation of actin filament polymerization",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of actin filament polymerization",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of actin filament polymerization",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of actin filament polymerization",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2000813",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005523",
+    "isObsolete": false,
+    "name": "tropomyosin binding",
+    "definition": {
+     "text": "Binding to tropomyosin, a protein associated with actin filaments both in cytoplasm and, in association with troponin, in the thin filament of striated muscle.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030017",
+    "isObsolete": false,
+    "name": "sarcomere",
+    "definition": {
+     "text": "The repeating unit of a myofibril in a muscle cell, composed of an array of overlapping thick and thin filaments between two adjacent Z discs.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0005863",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005865",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031672",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031674",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030016",
+    "isObsolete": false,
+    "name": "myofibril",
+    "definition": {
+     "text": "The contractile element of skeletal and cardiac muscle; a long, highly organized bundle of actin, myosin, and other proteins that contracts by a sliding filament mechanism.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0043034",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036379",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030017",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098723",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097512",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030041",
+    "isObsolete": false,
+    "name": "actin filament polymerization",
+    "definition": {
+     "text": "Assembly of actin filaments by the addition of actin monomers to a filament."
+    },
+    "synonyms": [
+     {
+      "name": "actin polymerization",
+      "type": "exact"
+     },
+     {
+      "name": "actin polymerizing activity",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030838",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0030837",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0030833",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030239",
+    "isObsolete": false,
+    "name": "myofibril assembly",
+    "definition": {
+     "text": "Formation of myofibrils, the repeating units of striated muscle."
+    },
+    "children": [
+     {
+      "id": "GO:0071689",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061203",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0055003",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071688",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045214",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048769",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0014866",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051694",
+    "isObsolete": false,
+    "name": "pointed-end actin filament capping",
+    "definition": {
+     "text": "The binding of a protein or protein complex to the pointed (or minus) end of an actin filament, thus preventing the addition, exchange or removal of further actin subunits.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "071673706X"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "minus-end actin filament capping activity",
+      "type": "exact"
+     },
+     {
+      "name": "minus-end F-actin capping activity",
+      "type": "exact"
+     },
+     {
+      "name": "pointed-end actin capping activity",
+      "type": "exact"
+     },
+     {
+      "name": "pointed-end F-actin capping activity",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006936",
+    "isObsolete": false,
+    "name": "muscle contraction",
+    "definition": {
+     "text": "A process in which force is generated within muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0045932",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0045933",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0030049",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006941",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006937",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0006939",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0031430",
+    "isObsolete": false,
+    "name": "M band",
+    "definition": {
+     "text": "The midline of aligned thick filaments in a sarcomere; location of specific proteins that link thick filaments. Depending on muscle type the M band consists of different numbers of M lines.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      },
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "M disc",
+      "type": "exact"
+     },
+     {
+      "name": "mesophragma",
+      "type": "exact"
+     },
+     {
+      "name": "midline",
+      "type": "broad"
+     },
+     {
+      "name": "M line",
+      "type": "narrow"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045214",
+    "isObsolete": false,
+    "name": "sarcomere organization",
+    "definition": {
+     "text": "The myofibril assembly process that results in the organization of muscle actomyosin into sarcomeres. The sarcomere is the repeating unit of a myofibril in a muscle cell, composed of an array of overlapping thick and thin filaments between two adjacent Z discs."
+    },
+    "synonyms": [
+     {
+      "name": "sarcomere alignment",
+      "type": "exact"
+     },
+     {
+      "name": "sarcomere organisation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060297",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0060298",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0060299",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045010",
+    "isObsolete": false,
+    "name": "actin nucleation",
+    "definition": {
+     "text": "The initial step in the formation of an actin filament, in which actin monomers combine to form a new filament. Nucleation is slow relative to the subsequent addition of more monomers to extend the filament.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "actin filament nucleation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0034314",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051127",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0051125",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0051126",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0070060",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0003785",
+    "isObsolete": false,
+    "name": "actin monomer binding",
+    "definition": {
+     "text": "Binding to monomeric actin, also known as G-actin."
+    },
+    "synonyms": [
+     {
+      "name": "G actin binding",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0003779",
+    "isObsolete": false,
+    "name": "actin binding",
+    "definition": {
+     "text": "Binding to monomeric or multimeric forms of actin, including actin filaments."
+    },
+    "synonyms": [
+     {
+      "name": "membrane associated actin binding",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0003785",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051015",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007015",
+    "isObsolete": false,
+    "name": "actin filament organization",
+    "definition": {
+     "text": "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of cytoskeletal structures comprising actin filaments. Includes processes that control the spatial distribution of actin filaments, such as organizing filaments into meshworks, bundles, or other structures, as by cross-linking."
+    },
+    "synonyms": [
+     {
+      "name": "actin filament organisation",
+      "type": "exact"
+     },
+     {
+      "name": "regulation of actin filament localization",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2000689",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008302",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071691",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051639",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051764",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030240",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061572",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008154",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045010",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071689",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090135",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110053",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

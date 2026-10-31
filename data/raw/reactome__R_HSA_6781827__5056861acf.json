@@ -1,0 +1,557 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-6781827",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-6781827",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:57:34+00:00",
+ "response": {
+  "dbId": 6781827,
+  "displayName": "Transcription-Coupled Nucleotide Excision Repair (TC-NER)",
+  "stId": "R-HSA-6781827",
+  "stIdVersion": "R-HSA-6781827.3",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 3,
+  "name": [
+   "Transcription-Coupled Nucleotide Excision Repair (TC-NER)"
+  ],
+  "releaseDate": "2004-03-06",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12849056,
+    "displayName": "BioModels Database:BIOMD0000000293",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000293",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000293",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12849058,
+    "displayName": "BioModels Database:BIOMD0000000220",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000220",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000220",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 7660,
+    "displayName": "nucleoplasm",
+    "accession": "0005654",
+    "databaseName": "GO",
+    "definition": "\"That part of the nuclear content other than the chromosomes or the nucleolus.\" [GOC:ma, ISBN:0124325653]",
+    "name": "nucleoplasm",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 17133,
+   "displayName": "transcription-coupled nucleotide-excision repair",
+   "accession": "0006283",
+   "databaseName": "GO",
+   "definition": "\"The nucleotide-excision repair process that carries out preferential repair of DNA lesions on the actively transcribed strand of the DNA duplex. In addition, the transcription-coupled nucleotide-excision repair pathway is required for the recognition and repair of a small subset of lesions that are not recognized by the global genome nucleotide excision repair pathway.\" [PMID:10197977, PMID:11900249]",
+   "name": "transcription-coupled nucleotide-excision repair",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0006283",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 110745,
+    "displayName": "Preferential DNA repair of an active gene in human cells.",
+    "title": "Preferential DNA repair of an active gene in human cells.",
+    "journal": "Proc Natl Acad Sci U S A",
+    "pages": "8878-82",
+    "pubMedIdentifier": 3466163,
+    "volume": 83,
+    "year": 1987,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/3466163",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 110554,
+    "displayName": "Mechanisms of transcription-coupled DNA repair.",
+    "title": "Mechanisms of transcription-coupled DNA repair.",
+    "journal": "Nat Rev Mol Cell Biol",
+    "pages": "21-9",
+    "pubMedIdentifier": 11823795,
+    "volume": 3,
+    "year": 2002,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11823795",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6782727,
+    "displayName": "Transcription-coupled DNA repair: two decades of progress and surprises",
+    "title": "Transcription-coupled DNA repair: two decades of progress and surprises",
+    "journal": "Nat. Rev. Mol. Cell Biol.",
+    "pages": "958-70",
+    "pubMedIdentifier": 19023283,
+    "volume": 9,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19023283",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6782731,
+    "displayName": "Understanding nucleotide excision repair and its roles in cancer and ageing",
+    "title": "Understanding nucleotide excision repair and its roles in cancer and ageing",
+    "journal": "Nat. Rev. Mol. Cell Biol.",
+    "pages": "465-81",
+    "pubMedIdentifier": 24954209,
+    "volume": 15,
+    "year": 2014,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24954209",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6790538,
+    "displayName": "Mammalian transcription-coupled excision repair",
+    "title": "Mammalian transcription-coupled excision repair",
+    "journal": "Cold Spring Harb Perspect Biol",
+    "pages": "a012625",
+    "pubMedIdentifier": 23906714,
+    "volume": 5,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23906714",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10261574,
+    "displayName": "Transcription-Coupled Nucleotide Excision Repair (TC-NER)",
+    "stId": "R-RNO-6781827",
+    "stIdVersion": "R-RNO-6781827.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Transcription-Coupled Nucleotide Excision Repair (TC-NER)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11171648,
+    "displayName": "Transcription-Coupled Nucleotide Excision Repair (TC-NER)",
+    "stId": "R-PFA-6781827",
+    "stIdVersion": "R-PFA-6781827.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Transcription-Coupled Nucleotide Excision Repair (TC-NER)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11150304,
+    "displayName": "Transcription-Coupled Nucleotide Excision Repair (TC-NER)",
+    "stId": "R-SCE-6781827",
+    "stIdVersion": "R-SCE-6781827.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Transcription-Coupled Nucleotide Excision Repair (TC-NER)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11121721,
+    "displayName": "Transcription-Coupled Nucleotide Excision Repair (TC-NER)",
+    "stId": "R-SPO-6781827",
+    "stIdVersion": "R-SPO-6781827.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Transcription-Coupled Nucleotide Excision Repair (TC-NER)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11092427,
+    "displayName": "Transcription-Coupled Nucleotide Excision Repair (TC-NER)",
+    "stId": "R-DDI-6781827",
+    "stIdVersion": "R-DDI-6781827.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Transcription-Coupled Nucleotide Excision Repair (TC-NER)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11037062,
+    "displayName": "Transcription-Coupled Nucleotide Excision Repair (TC-NER)",
+    "stId": "R-CEL-6781827",
+    "stIdVersion": "R-CEL-6781827.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Transcription-Coupled Nucleotide Excision Repair (TC-NER)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10954011,
+    "displayName": "Transcription-Coupled Nucleotide Excision Repair (TC-NER)",
+    "stId": "R-DME-6781827",
+    "stIdVersion": "R-DME-6781827.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Transcription-Coupled Nucleotide Excision Repair (TC-NER)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10868479,
+    "displayName": "Transcription-Coupled Nucleotide Excision Repair (TC-NER)",
+    "stId": "R-GGA-6781827",
+    "stIdVersion": "R-GGA-6781827.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Transcription-Coupled Nucleotide Excision Repair (TC-NER)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10770649,
+    "displayName": "Transcription-Coupled Nucleotide Excision Repair (TC-NER)",
+    "stId": "R-XTR-6781827",
+    "stIdVersion": "R-XTR-6781827.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Transcription-Coupled Nucleotide Excision Repair (TC-NER)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10689412,
+    "displayName": "Transcription-Coupled Nucleotide Excision Repair (TC-NER)",
+    "stId": "R-DRE-6781827",
+    "stIdVersion": "R-DRE-6781827.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Transcription-Coupled Nucleotide Excision Repair (TC-NER)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10596986,
+    "displayName": "Transcription-Coupled Nucleotide Excision Repair (TC-NER)",
+    "stId": "R-SSC-6781827",
+    "stIdVersion": "R-SSC-6781827.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Transcription-Coupled Nucleotide Excision Repair (TC-NER)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10483677,
+    "displayName": "Transcription-Coupled Nucleotide Excision Repair (TC-NER)",
+    "stId": "R-BTA-6781827",
+    "stIdVersion": "R-BTA-6781827.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Transcription-Coupled Nucleotide Excision Repair (TC-NER)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10368765,
+    "displayName": "Transcription-Coupled Nucleotide Excision Repair (TC-NER)",
+    "stId": "R-CFA-6781827",
+    "stIdVersion": "R-CFA-6781827.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Transcription-Coupled Nucleotide Excision Repair (TC-NER)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10120252,
+    "displayName": "Transcription-Coupled Nucleotide Excision Repair (TC-NER)",
+    "stId": "R-MMU-6781827",
+    "stIdVersion": "R-MMU-6781827.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Transcription-Coupled Nucleotide Excision Repair (TC-NER)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 6782753,
+    "displayName": "DNA damage in transcribed strands of active genes is repaire...",
+    "text": "DNA damage in transcribed strands of active genes is repaired through a specialized nucleotide excision repair (NER) pathway known as transcription-coupled nucleotide excision repair (TC-NER). TC-NER impairment is the underlying cause of a severe hereditary disorder Cockayne syndrome, an autosomal recessive disease characterized by hypersensitivity to UV light.<BR>TC-NER is triggered by helix distorting lesions that block the progression of elongating RNA polymerase II (RNA Pol II). Stalled RNA Pol II complex triggers the recruitment of ERCC6. ERCC6, commonly known as CSB (Cockayne syndrome protein B) recruits ERCC8, commonly known as CSA (Cockayne syndrome protein A). ERCC8 has 7 WD repeat motifs and is part of the ubiquitin ligase complex that also includes DDB1, CUL4A or CUL4B and RBX1. The ERCC8 ubiquitin ligase complex is one of the key regulators of TC-NER that probably exerts its role by ubiquitinating one or more factors involved in this repair process, including the RNA Pol II complex and ERCC6.<BR>In addition to RNA Pol II, ERCC6 and the ERCC8 complex, the transcription elongation factor TFIIH, which is also involved in global genome nucleotide excision repair (GG-NER), is recruited to sites of TC-NER. The TC-NER pre-incision complex also includes XPA, XAB2 complex, TCEA1 (TFIIS), HMGN1, UVSSA in complex with USP7, and EP300 (p300). XPA probably contributes to the assembly and stability of the pre-incision complex, similar to its role in GG-NER. The XAB2 complex is involved in pre-mRNA splicing and may modulate the structure of the nascent mRNA hybrid with template DNA through its RNA-DNA helicase activity, allowing proper processing of DNA damage. TCEA1 may be involved in RNA Pol II backtracking, which allows repair proteins to gain access to the damage site. It also facilitates trimming of the 3' end of protruding nascent mRNA from the stalled RNA Pol II, enabling recovery of RNA synthesis after repair.<p>Deubiquitinating activity of the UVSSA:USP7 complex is needed for ERCC6 stability at repair sites. Non-histone nucleosomal binding protein HMGN1 and histone acetyltransferase p300 (EP300) remodel the chromatin around the damaged site, thus facilitating repair.<p>Dual incision of the lesion-containing oligonucleotide from the affected DNA strand is performed by two DNA endonucleases, the ERCC1:ERCC4 (ERCC1:XPF) complex and ERCC5 (XPG), which also participate in GG-NER. DNA polymerases delta, epsilon or kappa fill in the single stranded gap after dual incision and the remaining single strand nick is sealed by DNA ligases LIG1 or LIG3 (the latter in complex with XRCC1), similar to GG-NER. After the repair of DNA damage is complete, RNA Pol II resumes RNA synthesis.<BR>For past and recent reviews, see Mellon et al. 1987, Svejstrup 2002, Hanawalt and Spivak 2008, Vermeulen and Fousteri 2013 and Marteijn et al. 2014.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2020-06-17",
+  "hasEvent": [
+   {
+    "dbId": 6781823,
+    "displayName": "Formation of TC-NER Pre-Incision Complex",
+    "stId": "R-HSA-6781823",
+    "stIdVersion": "R-HSA-6781823.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Formation of TC-NER Pre-Incision Complex"
+    ],
+    "releaseDate": "2004-03-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2016-06-27",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 6782135,
+    "displayName": "Dual incision in TC-NER",
+    "stId": "R-HSA-6782135",
+    "stIdVersion": "R-HSA-6782135.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Dual incision in TC-NER"
+    ],
+    "releaseDate": "2004-03-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2020-06-17",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 6782210,
+    "displayName": "Gap-filling DNA repair synthesis and ligation in TC-NER",
+    "stId": "R-HSA-6782210",
+    "stIdVersion": "R-HSA-6782210.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Gap-filling DNA repair synthesis and ligation in TC-NER"
+    ],
+    "releaseDate": "2004-03-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6781827
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 6782234,
+    "displayName": "Recovery of RNA synthesis after TC-NER",
+    "stId": "R-HSA-6782234",
+    "stIdVersion": "R-HSA-6782234.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Recovery of RNA synthesis after TC-NER"
+    ],
+    "releaseDate": "2004-03-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6781827
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

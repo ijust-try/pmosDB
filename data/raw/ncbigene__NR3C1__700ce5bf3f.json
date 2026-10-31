@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "NR3C1",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "2908",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:54:31+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "2908"
+   ],
+   "2908": {
+    "uid": "2908",
+    "name": "NR3C1",
+    "description": "nuclear receptor subfamily 3 group C member 1",
+    "status": "",
+    "currentid": "",
+    "chromosome": "5",
+    "geneticsource": "genomic",
+    "maplocation": "5q31.3",
+    "otheraliases": "GCCR, GCR, GCRST, GR, GRL",
+    "otherdesignations": "glucocorticoid receptor|nuclear receptor subfamily 3 group C member 1 variant hGR-B(54)|nuclear receptor subfamily 3 group C member 1 variant hGR-B(77)|nuclear receptor subfamily 3 group C member 1 variant hGR-B(93)|nuclear receptor subfamily 3, group C, member 1 (glucocorticoid receptor)",
+    "nomenclaturesymbol": "NR3C1",
+    "nomenclaturename": "nuclear receptor subfamily 3 group C member 1",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "138040"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "5",
+      "chraccver": "NC_000005.10",
+      "chrstart": 143435511,
+      "chrstop": 143277930,
+      "exoncount": 15
+     }
+    ],
+    "geneweight": 67644,
+    "summary": "This gene encodes glucocorticoid receptor, which can function both as a transcription factor that binds to glucocorticoid response elements in the promoters of glucocorticoid responsive genes to activate their transcription, and as a regulator of other transcription factors. This receptor is typically found in the cytoplasm, but upon ligand binding, is transported into the nucleus. It is involved in inflammatory responses, cellular proliferation, and differentiation in target tissues. Mutations in this gene are associated with generalized glucocorticoid resistance. Alternative splicing of this gene results in transcript variants encoding either the same or different isoforms. Additional isoforms resulting from the use of alternate in-frame translation initiation sites have also been described, and shown to be functional, displaying diverse cytoplasm-to-nucleus trafficking patterns and distinct transcriptional activities (PMID:15866175). [provided by RefSeq, Feb 2011]",
+    "chrsort": "05",
+    "chrstart": 143277930,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000005.10",
+      "chrstart": 143435511,
+      "chrstop": 143277930
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060929.1",
+      "chrstart": 143966895,
+      "chrstop": 143809292
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000005.10",
+      "chrstart": 143435511,
+      "chrstop": 143277930
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060929.1",
+      "chrstart": 143966895,
+      "chrstop": 143809292
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000005.10",
+      "chrstart": 143435511,
+      "chrstop": 143277930
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060929.1",
+      "chrstart": 143966895,
+      "chrstop": 143809292
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000005.10",
+      "chrstart": 143435511,
+      "chrstop": 143277930
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060929.1",
+      "chrstart": 143966895,
+      "chrstop": 143809292
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000005.10",
+      "chrstart": 143435511,
+      "chrstop": 143277930
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060929.1",
+      "chrstart": 143966895,
+      "chrstop": 143809292
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000005.10",
+      "chrstart": 143435511,
+      "chrstop": 143277930
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000005.9",
+      "chrstart": 142815076,
+      "chrstop": 142657495
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000005.9",
+      "chrstart": 142815076,
+      "chrstop": 142657495
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000005.9",
+      "chrstart": 143113321,
+      "chrstop": 142657495
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000137.1",
+      "chrstart": 137962311,
+      "chrstop": 137804732
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018916.2",
+      "chrstart": 142248803,
+      "chrstop": 142091204
+     }
+    ]
+   }
+  }
+ }
+}

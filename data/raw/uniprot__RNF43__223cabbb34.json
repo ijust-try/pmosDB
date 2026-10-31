@@ -1,0 +1,104 @@
+{
+ "source": "uniprot",
+ "query": "RNF43",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:RNF43) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:55:47+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q68DV7",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "E3 ubiquitin-protein ligase RNF43"
+      },
+      "ecNumbers": [
+       {
+        "value": "2.3.2.27"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "RING finger protein 43"
+       }
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000305"
+         }
+        ],
+        "value": "RING-type E3 ubiquitin transferase RNF43"
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "RNF43"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P0DPR2"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18313049"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22575959"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22895187"
+         }
+        ],
+        "value": "E3 ubiquitin-protein ligase that acts as a negative regulator of the Wnt signaling pathway by mediating the ubiquitination, endocytosis and subsequent degradation of Wnt receptor complex components Frizzled. Acts on both canonical and non-canonical Wnt signaling pathway (PubMed:18313049, PubMed:22575959, PubMed:22895187). Along with RSPO2 and ZNRF3, constitutes a master switch that governs limb specification (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "54894",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000022A469"
+    }
+   }
+  ]
+ }
+}

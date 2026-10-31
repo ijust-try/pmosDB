@@ -1,0 +1,51 @@
+{
+ "source": "uniprot",
+ "query": "NHLRC3",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:NHLRC3) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:54:22+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q5JS37",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "NHL repeat-containing protein 3"
+      }
+     },
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "NHLRC3"
+      }
+     }
+    ],
+    "comments": [],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "387921",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000251E60"
+    }
+   }
+  ]
+ }
+}

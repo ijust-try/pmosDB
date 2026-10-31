@@ -1,0 +1,159 @@
+{
+ "source": "uniprot",
+ "query": "MMP2",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:MMP2) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:53:12+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P08253",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "2162831"
+        },
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "2834383"
+        }
+       ],
+       "value": "72 kDa type IV collagenase"
+      },
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "11179305"
+         },
+         {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "11431697"
+         },
+         {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "12147339"
+         },
+         {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "2834383"
+         }
+        ],
+        "value": "3.4.24.24"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "1655733"
+         }
+        ],
+        "value": "72 kDa gelatinase"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Gelatinase A"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Matrix metalloproteinase-2"
+       },
+       "shortNames": [
+        {
+         "value": "MMP-2"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "TBE-1"
+       }
+      }
+     ],
+     "contains": [
+      {
+       "recommendedName": {
+        "fullName": {
+         "value": "PEX"
+        }
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "MMP2"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Ubiquitinous metalloproteinase that is involved in diverse functions such as remodeling of the vasculature, angiogenesis, tissue repair, tumor invasion, inflammation, and atherosclerotic plaque rupture. As well as degrading extracellular matrix proteins, can also act on several nonmatrix proteins such as big endothelial 1 and beta-type CGRP promoting vasoconstriction. Also cleaves KISS at a Gly-|-Leu bond. Appears to have a role in myocardial cell death pathways. Contributes to myocardial oxidative stress by regulating the activity of GSK3beta. Cleaves GSK3beta in vitro. Involved in the formation of the fibrovascular tissues in association with MMP14"
+       }
+      ],
+      "commentType": "FUNCTION"
+     },
+     {
+      "texts": [
+       {
+        "value": "PEX, the C-terminal non-catalytic fragment of MMP2, possesses anti-angiogenic and anti-tumor properties and inhibits cell migration and cell adhesion to FGF2 and vitronectin. Ligand for integrinv/beta3 on the surface of blood vessels"
+       }
+      ],
+      "commentType": "FUNCTION"
+     },
+     {
+      "texts": [
+       {
+        "value": "Mediates the proteolysis of CHUK/IKKA and initiates a primary innate immune response by inducing mitochondrial-nuclear stress signaling with activation of the pro-inflammatory NF-kappaB, NFAT and IRF transcriptional pathways"
+       }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "Isoform 2"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "4313",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00000422C4"
+    }
+   }
+  ]
+ }
+}

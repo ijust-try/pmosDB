@@ -1,0 +1,1202 @@
+{
+ "source": "quickgo_terms",
+ "query": "P22894_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0004175,GO:0004222,GO:0004252,GO:0005576,GO:0006508,GO:0008233,GO:0008237,GO:0008270,GO:0022617,GO:0030198,GO:0030574,GO:0031012,GO:0032760,GO:0035580,GO:0035987,GO:0043120,GO:0071222,GO:0150078,GO:1903265,GO:1903980,GO:1904724",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:53:35+00:00",
+ "response": {
+  "numberOfHits": 21,
+  "results": [
+   {
+    "id": "GO:0005576",
+    "isObsolete": false,
+    "name": "extracellular region",
+    "definition": {
+     "text": "The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite."
+    },
+    "comment": "Note that this term is intended to annotate gene products that are not attached to the cell surface. For gene products at the cell surface, consider annotating to external side of plasma membrane ; GO:0009897.",
+    "synonyms": [
+     {
+      "name": "extracellular",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030312",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043264",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043230",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072562",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035182",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035183",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043245",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0065010",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043083",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006860",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098595",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903561",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140392",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006858",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070701",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036117",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048046",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900116",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099544",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0085036",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900115",
+      "relation": "occurs_in"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030574",
+    "isObsolete": false,
+    "name": "collagen catabolic process",
+    "definition": {
+     "text": "The proteolytic chemical reactions and pathways resulting in the breakdown of collagen in the extracellular matrix, usually carried out by proteases secreted by nearby cells.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "collagen breakdown",
+      "type": "exact"
+     },
+     {
+      "name": "collagen catabolism",
+      "type": "exact"
+     },
+     {
+      "name": "collagen degradation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0010711",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0120158",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0010710",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030198",
+    "isObsolete": false,
+    "name": "extracellular matrix organization",
+    "definition": {
+     "text": "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of an extracellular matrix."
+    },
+    "synonyms": [
+     {
+      "name": "extracellular matrix organisation",
+      "type": "exact"
+     },
+     {
+      "name": "extracellular matrix organization and biogenesis",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0120216",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0071711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070278",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903054",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0085029",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022617",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032836",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903055",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0061148",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010215",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030199",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901148",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098784",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903053",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0032760",
+    "isObsolete": false,
+    "name": "positive regulation of tumor necrosis factor production",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of tumor necrosis factor production.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000058"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "10891884"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "15560120"
+      }
+     ]
+    },
+    "comment": "Note that this term refers only to the specific, original 'tumor necrosis factor' protein (TNF) and not other members of the tumor necrosis factor superfamily (those with the gene symbol root 'TNFSF').",
+    "synonyms": [
+     {
+      "name": "activation of tumor necrosis factor production",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of cachectin secretion",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of TNF-alpha production",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of TNF production",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of TNF secretion",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of tumor necrosis factor-alpha production",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of tumor necrosis factor biosynthesis",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of tumor necrosis factor biosynthetic process",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of tumor necrosis factor formation",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of tumor necrosis factor secretion",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of tumor necrosis factor production",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of tumor necrosis factor production",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of tumor necrosis factor production",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of tumor necrosis factor production",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0150078",
+    "isObsolete": false,
+    "name": "positive regulation of neuroinflammatory response",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of neuroinflammatory response."
+    },
+    "children": [
+     {
+      "id": "GO:1903980",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061890",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0004222",
+    "isObsolete": false,
+    "name": "metalloendopeptidase activity",
+    "definition": {
+     "text": "Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a mechanism in which water acts as a nucleophile, one or two metal ions hold the water molecule in place, and charged amino acid side chains are ligands for the metal ions.",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "https://www.ebi.ac.uk/merops/about/glossary.shtml#CATTYPE"
+      },
+      {
+       "dbCode": "URL",
+       "dbId": "https://www.ebi.ac.uk/merops/about/glossary.shtml#ENDOPEPTIDASE"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "metalloendoprotease activity",
+      "type": "narrow"
+     },
+     {
+      "name": "metalloendoproteinase activity",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1904685",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1902945",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017087",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0008191",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0004252",
+    "isObsolete": false,
+    "name": "serine-type endopeptidase activity",
+    "definition": {
+     "text": "Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "https://www.ebi.ac.uk/merops/about/glossary.shtml#CATTYPE"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "blood coagulation factor activity",
+      "type": "related"
+     },
+     {
+      "name": "serine elastase activity",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1900004",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0004867",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1905370",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1900003",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1900005",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006508",
+    "isObsolete": false,
+    "name": "proteolysis",
+    "definition": {
+     "text": "The hydrolysis of proteins into smaller polypeptides and/or amino acids by cleavage of their peptide bonds."
+    },
+    "comment": "This term was intentionally placed under 'protein metabolic process ; GO:0019538' rather than 'protein catabolic process ; GO:0030163' to cover all processes centered on breaking peptide bonds, including those involved in protein processing.",
+    "synonyms": [
+     {
+      "name": "ATP-dependent proteolysis",
+      "type": "narrow"
+     },
+     {
+      "name": "peptidolysis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0033619",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002496",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110158",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0030162",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0016485",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045862",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0097264",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045861",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1903265",
+    "isObsolete": false,
+    "name": "positive regulation of tumor necrosis factor-mediated signaling pathway",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of tumor necrosis factor-mediated signaling pathway.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000058"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "23453807"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "activation of adipocytokine signaling pathway",
+      "type": "related"
+     },
+     {
+      "name": "activation of TNF-alpha-mediated signaling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "activation of tumor necrosis factor alpha-mediated signaling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "activation of tumor necrosis factor-mediated signaling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "activation of tumor necrosis factor-mediated signalling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of adipocytokine signaling pathway",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of TNF-alpha-mediated signaling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of tumor necrosis factor alpha-mediated signaling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of tumor necrosis factor-mediated signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "up regulation of adipocytokine signaling pathway",
+      "type": "related"
+     },
+     {
+      "name": "up-regulation of adipocytokine signaling pathway",
+      "type": "related"
+     },
+     {
+      "name": "upregulation of adipocytokine signaling pathway",
+      "type": "related"
+     },
+     {
+      "name": "up regulation of TNF-alpha-mediated signaling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "up-regulation of TNF-alpha-mediated signaling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "upregulation of TNF-alpha-mediated signaling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of tumor necrosis factor alpha-mediated signaling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "up-regulation of tumor necrosis factor alpha-mediated signaling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "upregulation of tumor necrosis factor alpha-mediated signaling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of tumor necrosis factor-mediated signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of tumor necrosis factor-mediated signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of tumor necrosis factor-mediated signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "up regulation of tumor necrosis factor-mediated signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of tumor necrosis factor-mediated signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of tumor necrosis factor-mediated signalling pathway",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0004175",
+    "isObsolete": false,
+    "name": "endopeptidase activity",
+    "definition": {
+     "text": "Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain.",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "http://merops.sanger.ac.uk/about/glossary.htm#ENDOPEPTIDASE"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "elastase activity",
+      "type": "related"
+     },
+     {
+      "name": "endoprotease activity",
+      "type": "narrow"
+     },
+     {
+      "name": "proteasome endopeptidase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "proteinase",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070012",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004866",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0009003",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010951",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0004197",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061135",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1905369",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0004190",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070007",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010950",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0004222",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061133",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0004298",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061785",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004252",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052548",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0035987",
+    "isObsolete": false,
+    "name": "endodermal cell differentiation",
+    "definition": {
+     "text": "The process in which a relatively unspecialized cell acquires the specialized features of an endoderm cell, a cell of the inner of the three germ layers of the embryo.",
+     "xrefs": [
+      {
+       "dbCode": "CL",
+       "dbId": "0000223"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "17624332"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "endoderm cell differentiation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1903224",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0001711",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903225",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1903226",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043120",
+    "isObsolete": false,
+    "name": "tumor necrosis factor binding",
+    "definition": {
+     "text": "Binding to tumor necrosis factor, a proinflammatory cytokine produced by monocytes and macrophages.",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "http://lookwayup.com/"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0038057",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0035580",
+    "isObsolete": false,
+    "name": "specific granule lumen",
+    "definition": {
+     "text": "The volume enclosed by the membrane of a specific granule, a granule with a membranous, tubular internal structure, found primarily in mature neutrophil cells. Most are released into the extracellular fluid. Specific granules contain lactoferrin, lysozyme, vitamin B12 binding protein and elastase.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "7334549"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "secondary granule lumen",
+      "type": "exact"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008233",
+    "isObsolete": false,
+    "name": "peptidase activity",
+    "definition": {
+     "text": "Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid.",
+     "xrefs": [
+      {
+       "dbCode": "EC",
+       "dbId": "3.4.-.-"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "hydrolase, acting on peptide bonds",
+      "type": "exact"
+     },
+     {
+      "name": "peptidase activity, acting on D-amino acid peptides",
+      "type": "narrow"
+     },
+     {
+      "name": "peptidase activity, acting on L-amino acid peptides",
+      "type": "narrow"
+     },
+     {
+      "name": "peptide hydrolase activity",
+      "type": "exact"
+     },
+     {
+      "name": "protease activity",
+      "type": "exact"
+     },
+     {
+      "name": "proteinase activity",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0010952",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0008242",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016504",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0008238",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008234",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004175",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008237",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019783",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004176",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061134",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0030414",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0052547",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1905368",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0010466",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0070001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070003",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070002",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008237",
+    "isObsolete": false,
+    "name": "metallopeptidase activity",
+    "definition": {
+     "text": "Catalysis of the hydrolysis of peptide bonds by a mechanism in which water acts as a nucleophile, one or two metal ions hold the water molecule in place, and charged amino acid side chains are ligands for the metal ions.",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "https://www.ebi.ac.uk/merops/about/glossary.shtml#CATTYPE"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "metalloprotease activity",
+      "type": "narrow"
+     },
+     {
+      "name": "metalloproteinase activity",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0008235",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990850",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1905048",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0004222",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140758",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905049",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0140492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905050",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008270",
+    "isObsolete": false,
+    "name": "zinc ion binding",
+    "definition": {
+     "text": "Binding to a zinc ion (Zn)."
+    },
+    "synonyms": [
+     {
+      "name": "zinc binding",
+      "type": "exact"
+     },
+     {
+      "name": "Zn binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990512",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1903980",
+    "isObsolete": false,
+    "name": "positive regulation of microglial cell activation",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of microglial cell activation.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000058"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "19100238"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "activation of microglial cell activation",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of microglial cell activation",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of microglial cell activation",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of microglial cell activation",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0031012",
+    "isObsolete": false,
+    "name": "extracellular matrix",
+    "definition": {
+     "text": "A structure lying external to one or more cells, which provides structural support, biochemical or biomechanical cues for cells or tissues.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "21123617"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "28089324"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "33605520"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "matrisome",
+      "type": "narrow"
+     },
+     {
+      "name": "proteinaceous extracellular matrix",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0005604",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005614",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140047",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098642",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005201",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0140086",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071222",
+    "isObsolete": false,
+    "name": "cellular response to lipopolysaccharide",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a lipopolysaccharide stimulus; lipopolysaccharide is a major component of the cell wall of gram-negative bacteria."
+    },
+    "synonyms": [
+     {
+      "name": "cellular response to endotoxin",
+      "type": "broad"
+     },
+     {
+      "name": "cellular response to LPS",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0072573",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031663",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1904724",
+    "isObsolete": false,
+    "name": "tertiary granule lumen",
+    "definition": {
+     "text": "Any membrane-enclosed lumen that is part of a tertiary granule.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000064"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "23650620"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "gelatinase granule membrane-enclosed lumen",
+      "type": "related"
+     },
+     {
+      "name": "membrane-enclosed lumen of gelatinase granule",
+      "type": "exact"
+     },
+     {
+      "name": "membrane-enclosed lumen of tertiary granule",
+      "type": "exact"
+     },
+     {
+      "name": "tertiary granule membrane-enclosed lumen",
+      "type": "exact"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0022617",
+    "isObsolete": false,
+    "name": "extracellular matrix disassembly",
+    "definition": {
+     "text": "A process that results in the breakdown of the extracellular matrix."
+    },
+    "children": [
+     {
+      "id": "GO:0034769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010716",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0010715",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0098786",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090091",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

@@ -1,0 +1,209 @@
+{
+ "source": "ncbigene",
+ "query": "TCF7L1",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "83439",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:57:47+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "83439"
+   ],
+   "83439": {
+    "uid": "83439",
+    "name": "TCF7L1",
+    "description": "transcription factor 7 like 1",
+    "status": "",
+    "currentid": "",
+    "chromosome": "2",
+    "geneticsource": "genomic",
+    "maplocation": "2p11.2",
+    "otheraliases": "",
+    "otherdesignations": "transcription factor 7-like 1|HMG box transcription factor 3|transcription factor 7-like 1 (T-cell specific, HMG-box)",
+    "nomenclaturesymbol": "TCF7L1",
+    "nomenclaturename": "transcription factor 7 like 1",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "604652"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "2",
+      "chraccver": "NC_000002.12",
+      "chrstart": 85133391,
+      "chrstop": 85310386,
+      "exoncount": 12
+     }
+    ],
+    "geneweight": 8893,
+    "summary": "This gene encodes a member of the T cell factor/lymphoid enhancer factor family of transcription factors. These transcription factors are activated by beta catenin, mediate the Wnt signaling pathway and are antagonized by the transforming growth factor beta signaling pathway. The encoded protein contains a high mobility group-box DNA binding domain and participates in the regulation of cell cycle genes and cellular senescence. [provided by RefSeq, Nov 2010]",
+    "chrsort": "02",
+    "chrstart": 85133391,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 85133391,
+      "chrstop": 85310386
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NW_025791763.1",
+      "chrstart": 59577,
+      "chrstop": 236572
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 85135300,
+      "chrstop": 85312377
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 85133391,
+      "chrstop": 85310386
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NW_025791763.1",
+      "chrstart": 59577,
+      "chrstop": 236572
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 85135300,
+      "chrstop": 85312377
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 85133391,
+      "chrstop": 85310386
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NW_025791763.1",
+      "chrstart": 59577,
+      "chrstop": 236572
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 85135300,
+      "chrstop": 85312377
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 85133391,
+      "chrstop": 85310386
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NW_025791763.1",
+      "chrstart": 59577,
+      "chrstop": 236572
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 85135300,
+      "chrstop": 85312377
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 85133391,
+      "chrstop": 85310386
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NW_025791763.1",
+      "chrstart": 59577,
+      "chrstop": 236572
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 85135300,
+      "chrstop": 85312377
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000002.12",
+      "chrstart": 85133391,
+      "chrstop": 85310386
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000002.11",
+      "chrstart": 85360514,
+      "chrstop": 85537509
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000002.11",
+      "chrstart": 85360514,
+      "chrstop": 85537509
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000002.11",
+      "chrstart": 85360582,
+      "chrstop": 85537510
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000134.1",
+      "chrstart": 85257849,
+      "chrstop": 85434098
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018913.2",
+      "chrstart": 85290353,
+      "chrstop": 85467244
+     }
+    ]
+   }
+  }
+ }
+}

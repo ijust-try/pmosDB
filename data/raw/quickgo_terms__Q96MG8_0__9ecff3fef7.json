@@ -1,0 +1,2017 @@
+{
+ "source": "quickgo_terms",
+ "query": "Q96MG8_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0004719,GO:0005515,GO:0005737,GO:0008757,GO:0016020,GO:0016567,GO:0031466,GO:1990756",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:55:02+00:00",
+ "response": {
+  "numberOfHits": 8,
+  "results": [
+   {
+    "id": "GO:0016020",
+    "isObsolete": false,
+    "name": "membrane",
+    "definition": {
+     "text": "A lipid bilayer along with all the proteins and protein complexes embedded in it and attached to it.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "integral component of membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral to membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "membrane region",
+      "type": "narrow"
+     },
+     {
+      "name": "region of membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "transmembrane",
+      "type": "related"
+     },
+     {
+      "name": "whole membrane",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0140549",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019867",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042175",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031090",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005628",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770114",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032594",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019898",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098590",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062137",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097478",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098796",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098552",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070056",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098857",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005905",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048475",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034357",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005642",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005886",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036362",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005737",
+    "isObsolete": false,
+    "name": "cytoplasm",
+    "definition": {
+     "text": "The contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198547684"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0019813",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009345",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120099",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036007",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0062073",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043600",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042579",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048471",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071142",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005881",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990728",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990917",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005968",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005964",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060293",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005783",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000164",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042587",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030096",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031209",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098545",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0006888",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0110158",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097433",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019197",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005851",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034715",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009525",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031250",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035550",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045239",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0017109",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032019",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043598",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071075",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060417",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016528",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005794",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032477",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009321",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009382",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990316",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036501",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990565",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034719",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034749",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032047",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005948",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034430",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031680",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034499",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0036464",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009333",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0010938",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:7770092",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005938",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090652",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016281",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070088",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005850",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990229",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044227",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045251",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042735",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005854",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120111",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048500",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009320",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000177",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070826",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042716",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071513",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044312",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090120",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0048492",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070992",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005883",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000308",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034748",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009328",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032921",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005793",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098593",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990658",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009332",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045169",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120293",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097014",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030700",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042566",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030094",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990036",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0043614",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090651",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000809",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044207",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043291",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005853",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1905720",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009504",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061908",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009317",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036457",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044222",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009336",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009359",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005951",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045022",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0071203",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071026",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005773",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000407",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019812",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120098",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009574",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000153",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034515",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005739",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070993",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031201",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032068",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005969",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005946",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034996",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071563",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990730",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005965",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031414",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009536",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034973",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030117",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045170",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031410",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0055087",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071212",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099568",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005829",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990783",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034081",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034270",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0020022",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009331",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0106232",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034709",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070441",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043292",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005852",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070695",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009524",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045253",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070422",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031251",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034274",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034750",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0017102",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002096",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0018444",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005950",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009339",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005515",
+    "isObsolete": false,
+    "name": "protein binding",
+    "definition": {
+     "text": "Binding to a protein."
+    },
+    "synonyms": [
+     {
+      "name": "glycoprotein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "protein amino acid binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031072",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140081",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032092",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010313",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043393",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0031720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990405",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051087",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001965",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005516",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990935",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001848",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032091",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046980",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043394",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001846",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051959",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019955",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0016567",
+    "isObsolete": false,
+    "name": "protein ubiquitination",
+    "definition": {
+     "text": "The process in which one or more ubiquitin groups are added to a protein.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "26906419"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "protein ubiquitinylation",
+      "type": "exact"
+     },
+     {
+      "name": "protein ubiquitylation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0051865",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031396",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0000209",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006513",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031397",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0031398",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0004839",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007014",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0031466",
+    "isObsolete": false,
+    "name": "Cul5-RING ubiquitin ligase complex",
+    "definition": {
+     "text": "A ubiquitin ligase complex in which a cullin from the Cul5 subfamily and a RING domain protein form the catalytic core; substrate specificity is conferred by an elongin-BC adaptor and a SOCS/BC box protein.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "15571813"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "15688063"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "CDL5 complex",
+      "type": "exact"
+     },
+     {
+      "name": "CRL5 complex",
+      "type": "exact"
+     },
+     {
+      "name": "cullin-RING ligase 5",
+      "type": "exact"
+     },
+     {
+      "name": "EC2S complex",
+      "type": "broad"
+     },
+     {
+      "name": "SCF5 complex",
+      "type": "related"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0004719",
+    "isObsolete": false,
+    "name": "protein-L-isoaspartate (D-aspartate) O-methyltransferase activity",
+    "definition": {
+     "text": "Catalysis of the reaction: S-adenosyl-L-methionine + protein L-beta-aspartate = S-adenosyl-L-homocysteine + protein L-beta-aspartate methyl ester.",
+     "xrefs": [
+      {
+       "dbCode": "EC",
+       "dbId": "2.1.1.77"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "D-aspartyl/L-isoaspartyl methyltransferase activity",
+      "type": "related"
+     },
+     {
+      "name": "L-aspartyl/L-isoaspartyl protein methyltransferase activity",
+      "type": "related"
+     },
+     {
+      "name": "L-isoaspartyl/D-aspartyl protein carboxyl methyltransferase activity",
+      "type": "related"
+     },
+     {
+      "name": "L-isoaspartyl protein carboxyl methyltransferase activity",
+      "type": "related"
+     },
+     {
+      "name": "protein beta-aspartate O-methyltransferase activity",
+      "type": "related"
+     },
+     {
+      "name": "protein-beta-aspartate O-methyltransferase activity",
+      "type": "related"
+     },
+     {
+      "name": "protein (D-aspartate) methyltransferase activity",
+      "type": "related"
+     },
+     {
+      "name": "protein D-aspartate methyltransferase activity",
+      "type": "related"
+     },
+     {
+      "name": "protein-L-isoaspartate(D-aspartate) O-methyltransferase activity",
+      "type": "related"
+     },
+     {
+      "name": "protein L-isoaspartate methyltransferase activity",
+      "type": "related"
+     },
+     {
+      "name": "protein-L-isoaspartate O-methyltransferase activity",
+      "type": "related"
+     },
+     {
+      "name": "protein L-isoaspartyl methyltransferase activity",
+      "type": "related"
+     },
+     {
+      "name": "protein O-methyltransferase (L-isoaspartate)",
+      "type": "related"
+     },
+     {
+      "name": "S-adenosyl-L-methionine:protein-L-isoaspartate O-methyltransferase activity",
+      "type": "related"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008757",
+    "isObsolete": false,
+    "name": "S-adenosylmethionine-dependent methyltransferase activity",
+    "definition": {
+     "text": "Catalysis of the transfer of a methyl group from S-adenosyl-L-methionine to a substrate."
+    },
+    "synonyms": [
+     {
+      "name": "S-adenosyl methionine-dependent methyltransferase activity",
+      "type": "exact"
+     },
+     {
+      "name": "SAM-dependent methyltransferase activity",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0071885",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004671",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030748",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030774",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030797",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033803",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030732",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030751",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030793",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0018708",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003886",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004603",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030733",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030756",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016427",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042409",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004851",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030737",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030779",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030786",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030740",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030782",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070448",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017096",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008119",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000773",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008938",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0160304",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030768",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030749",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030775",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030798",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030752",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030771",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033799",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035244",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004608",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019010",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015667",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030757",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016426",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033801",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030734",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0141133",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035797",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030738",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030760",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017174",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008825",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030741",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030783",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052729",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030746",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061542",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008649",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016206",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030788",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030795",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030776",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030753",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030791",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030772",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008898",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036009",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016278",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030697",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008174",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030735",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030758",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120537",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033800",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004481",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030739",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030777",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030761",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030784",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106363",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046026",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030780",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004808",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046406",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000234",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030747",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030766",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030789",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0018423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046539",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030750",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030773",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030796",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051741",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030731",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030754",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106370",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009007",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071164",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106268",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004164",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030736",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010420",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030755",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0102822",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030778",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0018064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046547",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030759",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030785",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030781",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030762",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008112",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016273",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046025",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1990756",
+    "isObsolete": false,
+    "name": "ubiquitin-like ligase-substrate adaptor activity",
+    "definition": {
+     "text": "The binding activity of a molecule that brings together a ubiquitin-like ligase (including ubiquitin ligase and UFM1 ligase) and its substrate. Usually mediated by F-box BTB/POZ domain proteins.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "24658274"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "protein binding, bridging involved in substrate recognition for ubiquitination",
+      "type": "exact"
+     },
+     {
+      "name": "ubiquitin ligase substrate adaptor",
+      "type": "exact"
+     },
+     {
+      "name": "ubiquitin ligase-substrate adaptor activity",
+      "type": "narrow"
+     },
+     {
+      "name": "UFM1 ligase-substrate adaptor activity",
+      "type": "narrow"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

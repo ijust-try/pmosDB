@@ -1,0 +1,109 @@
+{
+ "source": "uniprot",
+ "query": "ESR2",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:ESR2) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:47:06+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q92731",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Estrogen receptor beta"
+      },
+      "shortNames": [
+       {
+        "value": "ER-beta"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Nuclear receptor subfamily 3 group A member 2"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "ESR2"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20074560"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "29261182"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "30113650"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9325313"
+         }
+        ],
+        "value": "Nuclear hormone receptor. Binds estrogens with an affinity similar to that of ESR1/ER-alpha, and activates expression of reporter genes containing estrogen response elements (ERE) in an estrogen-dependent manner (PubMed:20074560)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9671811"
+         }
+        ],
+        "value": "Lacks ligand binding ability and has no or only very low ERE binding activity resulting in the loss of ligand-dependent transactivation ability"
+       }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "Isoform 2"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "2100",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000000964"
+    }
+   }
+  ]
+ }
+}

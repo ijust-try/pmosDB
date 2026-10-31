@@ -1,0 +1,160 @@
+{
+ "source": "uniprot",
+ "query": "C9ORF72",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:C9ORF72) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:42:00+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q96LT7",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "Guanine nucleotide exchange factor C9orf72"
+      }
+     }
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:28337"
+        }
+       ],
+       "value": "C9orf72"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q6DFW0"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "24549040"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27103069"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27193190"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27334615"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27559131"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27617292"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27723745"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28195531"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "32303654"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "37821429"
+         }
+        ],
+        "value": "Acts as a guanine-nucleotide releasing factor (GEF) for Rab GTPases by promoting the conversion of inactive RAB-GDP to the active form RAB-GTP (PubMed:27103069, PubMed:27193190, PubMed:27617292, PubMed:28195531, PubMed:37821429). Acts as a GEF for RAB39A which enables HOPS-mediated autophagosome-lysosome membrane tethering and fusion in mammalian autophagy (PubMed:37821429). Component of the C9orf72-SMCR8 complex where both subunits display GEF activity and that regulates autophagy (PubMed:27103069, PubMed:27193190, PubMed:27617292, PubMed:28195531). As part of the C9orf72-SMCR8-WDR41 (CSW) complex, functions as GEF for RAB8A and RAB39B, thereby promoting autophagosome maturation (PubMed:27103069). As part of the C9orf72-SMCR8 complex, also functions as GTPase activating protein (GAP) for RAB8A and RAB11A in vitro (PubMed:32303654). The C9orf72-SMCR8 complex also acts as a regulator of autophagy initiation by interacting with the ULK1/ATG1 kinase complex and modulating its protein kinase activity (PubMed:27617292). Promotes initiation of autophagy by regulating the RAB1A-dependent trafficking of the ULK1/ATG1 kinase complex to the phagophore which leads to autophagosome formation (PubMed:27334615). Acts as a regulator of mTORC1 signaling by promoting phosphorylation of mTORC1 substrates (PubMed:27559131). Plays a role in endosomal trafficking (PubMed:24549040). May be involved in regulating the maturation of phagosomes to lysosomes (By similarity). Promotes the lysosomal localization and lysosome-mediated degradation of CARM1 which leads to inhibition of starvation-induced lipid metabolism (By similarity). Regulates actin dynamics in motor neurons by inhibiting the GTP-binding activity of ARF6, leading to ARF6 inactivation (PubMed:27723745). This reduces the activity of the LIMK1 and LIMK2 kinases which are responsible for phosphorylation and inactivation of cofilin, leading to CFL1/cofilin activation (PubMed:27723745). Positively regulates axon extension and axon growth cone size in spinal motor neurons (PubMed:27723745). Required for SMCR8 protein expression and localization at pre- and post-synaptic compartments in the forebrain, also regulates protein abundance of RAB3A and GRIA1/GLUR1 in post-synaptic compartments in the forebrain and hippocampus (By similarity). Plays a role within the hematopoietic system in restricting inflammation and the development of autoimmunity (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27037575"
+         }
+        ],
+        "value": "Regulates stress granule assembly in response to cellular stress"
+       }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "Isoform 1"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27037575"
+         }
+        ],
+        "value": "Does not play a role in regulation of stress granule assembly in response to cellular stress"
+       }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "Isoform 2"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "203228",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00001D3FEF"
+    }
+   }
+  ]
+ }
+}

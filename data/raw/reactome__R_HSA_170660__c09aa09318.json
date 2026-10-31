@@ -1,0 +1,427 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-170660",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-170660",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:40:49+00:00",
+ "response": {
+  "dbId": 170660,
+  "displayName": "Adenylate cyclase activating pathway",
+  "stId": "R-HSA-170660",
+  "stIdVersion": "R-HSA-170660.3",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Adenylate cyclase activating pathway"
+  ],
+  "releaseDate": "2008-12-17",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "\"The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.\" [ISBN:0716731363]",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 19314,
+   "displayName": "adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+   "accession": "0007189",
+   "databaseName": "GO",
+   "definition": "\"A G protein-coupled receptor signaling pathway in which the signal is transmitted via the activation of adenylyl cyclase activity which results in an increase in the intracellular concentration of cyclic AMP (cAMP). This pathway is negatively regulated by phosphodiesterase, which cleaves cAMP and terminates the signaling.\" [GOC:dph, GOC:mah, GOC:signaling, GOC:tb, ISBN:0815316194]",
+   "name": "adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0007189",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 374088,
+    "displayName": "Isoforms of mammalian adenylyl cyclase: multiplicities of signaling",
+    "title": "Isoforms of mammalian adenylyl cyclase: multiplicities of signaling",
+    "journal": "Mol Interv",
+    "pages": "168-84",
+    "pubMedIdentifier": 14993377,
+    "volume": 2,
+    "year": 2002,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/14993377",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 11091343,
+    "displayName": "Adenylate cyclase activating pathway",
+    "stId": "R-DDI-170660",
+    "stIdVersion": "R-DDI-170660.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adenylate cyclase activating pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     170660
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11035578,
+    "displayName": "Adenylate cyclase activating pathway",
+    "stId": "R-CEL-170660",
+    "stIdVersion": "R-CEL-170660.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adenylate cyclase activating pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     170660
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10952391,
+    "displayName": "Adenylate cyclase activating pathway",
+    "stId": "R-DME-170660",
+    "stIdVersion": "R-DME-170660.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adenylate cyclase activating pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     170660
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10866535,
+    "displayName": "Adenylate cyclase activating pathway",
+    "stId": "R-GGA-170660",
+    "stIdVersion": "R-GGA-170660.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adenylate cyclase activating pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     170660
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10768901,
+    "displayName": "Adenylate cyclase activating pathway",
+    "stId": "R-XTR-170660",
+    "stIdVersion": "R-XTR-170660.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adenylate cyclase activating pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     170660
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10687606,
+    "displayName": "Adenylate cyclase activating pathway",
+    "stId": "R-DRE-170660",
+    "stIdVersion": "R-DRE-170660.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adenylate cyclase activating pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     170660
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10595086,
+    "displayName": "Adenylate cyclase activating pathway",
+    "stId": "R-SSC-170660",
+    "stIdVersion": "R-SSC-170660.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adenylate cyclase activating pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     170660
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10481727,
+    "displayName": "Adenylate cyclase activating pathway",
+    "stId": "R-BTA-170660",
+    "stIdVersion": "R-BTA-170660.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adenylate cyclase activating pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     170660
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10366867,
+    "displayName": "Adenylate cyclase activating pathway",
+    "stId": "R-CFA-170660",
+    "stIdVersion": "R-CFA-170660.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adenylate cyclase activating pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     170660
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10259608,
+    "displayName": "Adenylate cyclase activating pathway",
+    "stId": "R-RNO-170660",
+    "stIdVersion": "R-RNO-170660.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adenylate cyclase activating pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     170660
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10118280,
+    "displayName": "Adenylate cyclase activating pathway",
+    "stId": "R-MMU-170660",
+    "stIdVersion": "R-MMU-170660.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Adenylate cyclase activating pathway"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     170660
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 374965,
+    "displayName": "Stimulatory G proteins activate adenylate cyclase, which dri...",
+    "text": "Stimulatory G proteins activate adenylate cyclase, which drives the conversion of cAMP from ATP and in turn activates cAMP-dependent protein kinase and subsequent kinase pathways.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2009-03-31",
+  "hasEvent": [
+   {
+    "dbId": 170672,
+    "displayName": "Galpha-olf:GTP binds to adenylate cyclase and activates it",
+    "stId": "R-HSA-170672",
+    "stIdVersion": "R-HSA-170672.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Galpha-olf:GTP binds to adenylate cyclase and activates it"
+    ],
+    "releaseDate": "2008-12-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     170660
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 170676,
+    "displayName": "Adenylate cyclase converts ATP into cyclic AMP",
+    "stId": "R-HSA-170676",
+    "stIdVersion": "R-HSA-170676.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Adenylate cyclase converts ATP into cyclic AMP"
+    ],
+    "releaseDate": "2008-12-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     170660
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 170685,
+    "displayName": "Adenylaye cyclase increases the GTPase activity of G alpha-olf",
+    "stId": "R-HSA-170685",
+    "stIdVersion": "R-HSA-170685.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Adenylaye cyclase increases the GTPase activity of G alpha-olf"
+    ],
+    "releaseDate": "2008-12-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     170660
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 170677,
+    "displayName": "The G alpha-olf:GDP:Adenylate cyclase complex dissociates",
+    "stId": "R-HSA-170677",
+    "stIdVersion": "R-HSA-170677.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "The G alpha-olf:GDP:Adenylate cyclase complex dissociates"
+    ],
+    "releaseDate": "2008-12-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     170660
+    ],
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "source": "ncbigene",
+ "query": "TCF7L1",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "gene",
+  "term": "TCF7L1[sym] AND 9606[taxid]",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:57:46+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "2",
+   "retmax": "2",
+   "retstart": "0",
+   "idlist": [
+    "83439",
+    "6933"
+   ],
+   "translationset": [],
+   "translationstack": [
+    {
+     "term": "TCF7L1[sym]",
+     "field": "sym",
+     "count": "570",
+     "explode": "N"
+    },
+    {
+     "term": "9606[taxid]",
+     "field": "taxid",
+     "count": "360596",
+     "explode": "N"
+    },
+    "AND"
+   ],
+   "querytranslation": "TCF7L1[sym] AND 9606[taxid]"
+  }
+ }
+}

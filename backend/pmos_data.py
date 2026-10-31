@@ -38,6 +38,7 @@ DB_PATH = ROOT / "pmos_knowledge_base.db"
 CLEAN_DIR = ROOT / "data" / "clean"
 SYNC_STATE_PATH = ROOT / "data" / "sync_state.json"
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
+STALE_AFTER_DAYS = 35  # a weekly job that has not succeeded for five weeks is treated as broken
 
 DOC = "project-document"  # Verification / RelationStatus: real, sourced data
 DEMO_UNVALIDATED = "demo-unvalidated"  # RelationStatus: inferred, not curated
@@ -83,6 +84,7 @@ SOURCE_META = {
 
 def slugify(value: str) -> str:
     value = unicodedata.normalize("NFKD", value)
+    value = "".join(c for c in value if unicodedata.category(c) != "Mn")  # drop accent marks, keep the letter
     value = re.sub(r"[^a-zA-Z0-9]+", "-", value).strip("-").lower()
     return value or "x"
 
@@ -344,13 +346,13 @@ def sql_search(conn: sqlite3.Connection, term: str, limit: int = 50) -> list[sql
 
 # --------------------------------------------------------------------------- entity builders
 
-def build_gene_entity(row: sqlite3.Row) -> dict:
+def build_gene_entity(row: sqlite3.Row, association: dict | None = None) -> dict:
     symbol = row["gene_symbol"]
     aliases = [row["name"]] if row["name"] and row["name"].lower() != symbol.lower() else []
     annotations = []
     if row["uniprot_accession"]:
         annotations.append(annotation("UniProt accession", row["uniprot_accession"]))
-    return {
+    entity = {
         "id": gene_id(symbol),
         "type": "gene",
         "name": symbol,
@@ -364,6 +366,9 @@ def build_gene_entity(row: sqlite3.Row) -> dict:
         "annotations": annotations,
         "verification": DOC,
     }
+    if association:
+        entity["pcosAssociation"] = association
+    return entity
 
 
 def build_protein_entity(row: sqlite3.Row, go_rows: Iterable[sqlite3.Row]) -> dict:
@@ -538,8 +543,9 @@ class Index:
 def build_index(conn: sqlite3.Connection) -> Index:
     index = Index()
 
+    associations = pcos_associations(conn)
     for row in conn.execute("SELECT * FROM genes ORDER BY gene_symbol"):
-        index.add_entity(build_gene_entity(row))
+        index.add_entity(build_gene_entity(row, associations.get(row["gene_symbol"])))
 
     go_by_protein: dict[str, list[sqlite3.Row]] = {}
     for row in conn.execute("SELECT * FROM go_annotations"):
@@ -560,11 +566,9 @@ def build_index(conn: sqlite3.Connection) -> Index:
     index.add_entity(build_process_entity())
 
     # gene --encodes--> protein
+    protein_id_by_accession = {e["primaryId"]: e["id"] for e in index.entities if e["type"] == "protein"}
     for row in conn.execute("SELECT gene_symbol, protein_id FROM gene_protein_link"):
-        gid, pid = gene_id(row["gene_symbol"]), None
-        prot = next((e for e in index.entities if e["type"] == "protein" and e["primaryId"] == row["protein_id"]), None)
-        if prot:
-            pid = prot["id"]
+        gid, pid = gene_id(row["gene_symbol"]), protein_id_by_accession.get(row["protein_id"])
         if gid in index.by_id and pid in index.by_id:
             index.add_relationship(
                 relationship(f"{gid}->{pid}:encodes", gid, pid, "encodes", DOC)
@@ -628,8 +632,70 @@ def build_index(conn: sqlite3.Connection) -> Index:
                 note = f"{row['mechanism_of_action']}. Source: Open Targets / ChEMBL {row['chembl_id']}"
                 index.add_relationship(relationship(f"{tid}->{gid}:targets", tid, gid, "targets", DOC, note))
 
+    _annotate_pathway_evidence(index)
     index.sources_meta = _build_sources_meta(conn, index)
     return index
+
+
+def _parse_evidence_types(raw: str | None) -> list[dict]:
+    """'literature:0.94;clinical:0.93' -> [{'type': 'literature', 'score': 0.94}, ...] (strongest first)."""
+    out = []
+    for item in (raw or "").split(";"):
+        name, _, score = item.partition(":")
+        if name and score:
+            out.append({"type": name, "score": float(score)})
+    return sorted(out, key=lambda t: (-t["score"], t["type"]))
+
+
+def pcos_associations(conn: sqlite3.Connection) -> dict[str, dict]:
+    """gene symbol -> {score, rank, total, evidenceTypes}: Open Targets association with PCOS.
+
+    score is 0-1, rank is among `total` associated genes, evidenceTypes are the Open Targets datatype scores
+    (genetic_association, literature, clinical, ...) behind it, strongest first.
+    """
+    try:
+        csv_rows = _read_csv("open_targets_pcos.csv")
+    except OSError:
+        csv_rows = []
+    total = len(csv_rows) or None
+    types = {r["gene_symbol"]: _parse_evidence_types(r.get("datatypes")) for r in csv_rows}
+    return {
+        r["gene_symbol"]: {
+            "score": round(r["ot_score"], 3),
+            "rank": r["ot_rank"],
+            "total": total,
+            "evidenceTypes": types.get(r["gene_symbol"], []),
+        }
+        for r in conn.execute("SELECT gene_symbol, ot_score, ot_rank FROM gene_pcos_association")
+    }
+
+
+def _annotate_pathway_evidence(index: Index) -> None:
+    """Summarise how strongly each pathway's member genes are associated with PCOS (Open Targets).
+
+    pathway.pcosEvidence = {memberGenes, associatedGenes, topScore, topGene}; pathways with no
+    member genes in the knowledge base get no field.
+    """
+    gene_of_protein = {r["target"]: r["source"] for r in index.relationships if r["label"] == "encodes"}
+    members: dict[str, set[str]] = {}
+    for r in index.relationships:
+        if r["label"] == "participates in" and r["source"] in gene_of_protein:
+            members.setdefault(r["target"], set()).add(gene_of_protein[r["source"]])
+    for pathway_id_, gene_ids in members.items():
+        scored = sorted(
+            (
+                (index.by_id[g]["pcosAssociation"]["score"], index.by_id[g]["symbol"])
+                for g in gene_ids
+                if "pcosAssociation" in index.by_id[g]
+            ),
+            reverse=True,
+        )
+        index.by_id[pathway_id_]["pcosEvidence"] = {
+            "memberGenes": len(gene_ids),
+            "associatedGenes": len(scored),
+            "topScore": scored[0][0] if scored else None,
+            "topGene": scored[0][1] if scored else None,
+        }
 
 
 def _build_sources_meta(conn: sqlite3.Connection, index: Index) -> dict[str, dict]:
@@ -693,13 +759,23 @@ def next_scheduled_run(schedule: dict, now: dt.datetime | None = None) -> str:
     return candidate.isoformat()
 
 
+def days_since(iso: str | None, now: dt.datetime | None = None) -> int | None:
+    if not iso:
+        return None
+    now = now or dt.datetime.now(dt.timezone.utc)
+    return (now - dt.datetime.fromisoformat(iso)).days
+
+
 def get_sync_status() -> dict | None:
     state = load_sync_state()
     schedule = state["schedule"]
     if not schedule:
         return None
     last = state["history"][0] if state["history"] else None
+    age = days_since(state["lastSyncedAt"])
     return {
+        "stale": age is not None and age > STALE_AFTER_DAYS,
+        "daysSinceSync": age,
         "schedule": schedule["label"],
         "nextRun": next_scheduled_run(schedule),
         "lastChecked": state["lastCheckedAt"],

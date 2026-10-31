@@ -1,0 +1,169 @@
+{
+ "source": "uniprot",
+ "query": "NUDT12",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:NUDT12) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:54:48+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q9BQG2",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "NAD-capped RNA hydrolase NUDT12"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000305"
+         }
+        ],
+        "value": "DeNADding enzyme NUDT12"
+       }
+      ],
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "31101919"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "31875550"
+         }
+        ],
+        "value": "3.6.1.-"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000305"
+         }
+        ],
+        "value": "NADH pyrophosphatase NUDT12"
+       },
+       "ecNumbers": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000269",
+           "source": "PubMed",
+           "id": "12790796"
+          }
+         ],
+         "value": "3.6.1.22"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000305"
+         }
+        ],
+        "value": "Nucleoside diphosphate-linked moiety X motif 12"
+       },
+       "shortNames": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000305"
+          }
+         ],
+         "value": "Nudix motif 12"
+        }
+       ]
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "12790796"
+        },
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:18826"
+        }
+       ],
+       "value": "NUDT12"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q9DCN1"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12790796"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "31101919"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "31875550"
+         }
+        ],
+        "value": "mRNA decapping enzyme that specifically removes the nicotinamide adenine dinucleotide (NAD) cap from a subset of mRNAs by hydrolyzing the diphosphate linkage to produce nicotinamide mononucleotide (NMN) and 5' monophosphate mRNA (PubMed:31101919, PubMed:31875550). The NAD-cap is present at the 5'-end of some RNAs; in contrast to the canonical N7 methylguanosine (m7G) cap, the NAD cap promotes mRNA decay (PubMed:31101919). Preferentially acts on NAD-capped transcripts in response to nutrient stress (PubMed:31101919). Also acts on free nicotinamide adenine dinucleotide molecules: hydrolyzes NAD(H) into NMN(H) and AMP, and NADPH into NMNH and 2',5'-ADP (PubMed:12790796). May act to regulate the concentration of peroxisomal nicotinamide nucleotide cofactors required for oxidative metabolism in this organelle (PubMed:12790796). Regulates the levels of circadian clock components PER1, PER2, PER3 and CRY2 in the liver (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "83594",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000073C53"
+    }
+   }
+  ]
+ }
+}

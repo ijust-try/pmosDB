@@ -1,0 +1,116 @@
+{
+ "source": "uniprot",
+ "query": "NDUFA13",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:NDUFA13) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:53:55+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q9P0J0",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 13"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Cell death regulatory protein GRIM-19"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Complex I-B16.6"
+       },
+       "shortNames": [
+        {
+         "value": "CI-B16.6"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Gene associated with retinoic and interferon-induced mortality 19 protein"
+       },
+       "shortNames": [
+        {
+         "value": "GRIM-19"
+        },
+        {
+         "value": "Gene associated with retinoic and IFN-induced mortality 19 protein"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "NADH-ubiquinone oxidoreductase B16.6 subunit"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "NDUFA13"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12628925"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12867595"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15753091"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27626371"
+         }
+        ],
+        "value": "Accessory subunit of the mitochondrial membrane respiratory chain NADH dehydrogenase (Complex I), that is believed not to be involved in catalysis (PubMed:27626371). Complex I functions in the transfer of electrons from NADH to the respiratory chain. The immediate electron acceptor for the enzyme is believed to be ubiquinone (PubMed:27626371). Involved in the interferon/all-trans-retinoic acid (IFN/RA) induced cell death. This apoptotic activity is inhibited by interaction with viral IRF1. Prevents the transactivation of STAT3 target genes. May play a role in CARD15-mediated innate mucosal responses and serve to regulate intestinal epithelial cell responses to microbes (PubMed:15753091)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "51079",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00001699BB"
+    }
+   }
+  ]
+ }
+}

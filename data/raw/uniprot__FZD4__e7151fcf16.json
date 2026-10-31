@@ -1,0 +1,92 @@
+{
+ "source": "uniprot",
+ "query": "FZD4",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:FZD4) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:50:32+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q9ULV1",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Frizzled-4"
+      },
+      "shortNames": [
+       {
+        "value": "Fz-4"
+       },
+       {
+        "value": "hFz4"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "FzE4"
+       }
+      }
+     ],
+     "cdAntigenNames": [
+      {
+       "value": "CD344"
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "FZD4"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q61088"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "30135577"
+         }
+        ],
+        "value": "Receptor for Wnt proteins (PubMed:30135577). Most frizzled receptors are coupled to the beta-catenin (CTNNB1) canonical signaling pathway, which leads to the activation of disheveled proteins, inhibition of GSK-3 kinase, nuclear accumulation of beta-catenin (CTNNB1) and activation of Wnt target genes (PubMed:30135577). Plays a critical role in retinal vascularization by acting as a receptor for Wnt proteins and norrin (NDP) (By similarity). In retina, it can be activated by Wnt protein-binding and also by Wnt-independent signaling via binding of norrin (NDP), promoting in both cases beta-catenin (CTNNB1) accumulation and stimulation of LEF/TCF-mediated transcriptional programs (By similarity). A second signaling pathway involving PKC and calcium fluxes has been seen for some family members, but it is not yet clear if it represents a distinct pathway or if it can be integrated in the canonical pathway, as PKC seems to be required for Wnt-mediated inactivation of GSK-3 kinase. Both pathways seem to involve interactions with G proteins. May be involved in transduction and intercellular transmission of polarity information during tissue morphogenesis and/or in differentiated tissues"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "8322",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00000701D4"
+    }
+   }
+  ]
+ }
+}

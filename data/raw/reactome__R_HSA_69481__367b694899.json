@@ -1,0 +1,527 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-69481",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-69481",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:58:45+00:00",
+ "response": {
+  "dbId": 69481,
+  "displayName": "G2/M Checkpoints",
+  "stId": "R-HSA-69481",
+  "stIdVersion": "R-HSA-69481.5",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 4,
+  "name": [
+   "G2/M Checkpoints"
+  ],
+  "releaseDate": "2004-07-06",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12849090,
+    "displayName": "BioModels Database:BIOMD0000000939",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000939",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000939",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "precedingEvent": [
+   {
+    "dbId": 68911,
+    "displayName": "G2 Phase",
+    "stId": "R-HSA-68911",
+    "stIdVersion": "R-HSA-68911.6",
+    "definition": "One of two 'gap' phases in the standard eukaryotic mitotic cell cycle; the interval between the completion of DNA synthesis and the beginning of mitosis.",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "G2 Phase"
+    ],
+    "releaseDate": "2004-07-06",
+    "speciesName": "Homo sapiens",
+    "followingEvent": [
+     69481
+    ],
+    "doi": "10.3180/REACT_1915.2",
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2017-06-22",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10594168,
+    "displayName": "G2/M Checkpoints",
+    "stId": "R-SSC-69481",
+    "stIdVersion": "R-SSC-69481.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "G2/M Checkpoints"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10117348,
+    "displayName": "G2/M Checkpoints",
+    "stId": "R-MMU-69481",
+    "stIdVersion": "R-MMU-69481.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "G2/M Checkpoints"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10480835,
+    "displayName": "G2/M Checkpoints",
+    "stId": "R-BTA-69481",
+    "stIdVersion": "R-BTA-69481.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "G2/M Checkpoints"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10258676,
+    "displayName": "G2/M Checkpoints",
+    "stId": "R-RNO-69481",
+    "stIdVersion": "R-RNO-69481.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "G2/M Checkpoints"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10768887,
+    "displayName": "G2/M Checkpoints",
+    "stId": "R-XTR-69481",
+    "stIdVersion": "R-XTR-69481.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "G2/M Checkpoints"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10865711,
+    "displayName": "G2/M Checkpoints",
+    "stId": "R-GGA-69481",
+    "stIdVersion": "R-GGA-69481.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "G2/M Checkpoints"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11034908,
+    "displayName": "G2/M Checkpoints",
+    "stId": "R-CEL-69481",
+    "stIdVersion": "R-CEL-69481.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "G2/M Checkpoints"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11148994,
+    "displayName": "G2/M Checkpoints",
+    "stId": "R-SCE-69481",
+    "stIdVersion": "R-SCE-69481.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "G2/M Checkpoints"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11120397,
+    "displayName": "G2/M Checkpoints",
+    "stId": "R-SPO-69481",
+    "stIdVersion": "R-SPO-69481.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "G2/M Checkpoints"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10687010,
+    "displayName": "G2/M Checkpoints",
+    "stId": "R-DRE-69481",
+    "stIdVersion": "R-DRE-69481.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "G2/M Checkpoints"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11090773,
+    "displayName": "G2/M Checkpoints",
+    "stId": "R-DDI-69481",
+    "stIdVersion": "R-DDI-69481.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "G2/M Checkpoints"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10365989,
+    "displayName": "G2/M Checkpoints",
+    "stId": "R-CFA-69481",
+    "stIdVersion": "R-CFA-69481.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "G2/M Checkpoints"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11171598,
+    "displayName": "G2/M Checkpoints",
+    "stId": "R-PFA-69481",
+    "stIdVersion": "R-PFA-69481.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "G2/M Checkpoints"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10951663,
+    "displayName": "G2/M Checkpoints",
+    "stId": "R-DME-69481",
+    "stIdVersion": "R-DME-69481.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 4,
+    "name": [
+     "G2/M Checkpoints"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 69482,
+    "displayName": "G2/M checkpoints include the checks for damaged DNA, unrepli...",
+    "text": "G2/M checkpoints include the checks for damaged DNA, unreplicated DNA, and checks that ensure that the genome is replicated once and only once per cell cycle.  If cells pass these checkpoints, they follow normal transition to the M phase.  However, if any of these checkpoints fail, mitotic entry is prevented by specific G2/M checkpoint events.<p>The G2/M checkpoints can fail due to the presence of unreplicated DNA or damaged DNA.  In such instances, the cyclin-dependent kinase, Cdc2(Cdk1), is maintained in its inactive, phosphorylated state, and mitotic entry is prevented.   Events that ensure that origins of DNA replication fire once and only once per cell cycle are also an example of a G2/M checkpoint.<p>In the event of high levels of DNA damage, the cells may also be directed to undergo apopotosis (not covered).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/REACT_828.2",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2021-09-15",
+  "hasEvent": [
+   {
+    "dbId": 69473,
+    "displayName": "G2/M DNA damage checkpoint",
+    "stId": "R-HSA-69473",
+    "stIdVersion": "R-HSA-69473.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 3,
+    "name": [
+     "G2/M DNA damage checkpoint"
+    ],
+    "releaseDate": "2004-07-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2021-09-15",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 69478,
+    "displayName": "G2/M DNA replication checkpoint",
+    "stId": "R-HSA-69478",
+    "stIdVersion": "R-HSA-69478.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "G2/M DNA replication checkpoint"
+    ],
+    "releaseDate": "2004-07-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2017-06-22",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 176187,
+    "displayName": "Activation of ATR in response to replication stress",
+    "stId": "R-HSA-176187",
+    "stIdVersion": "R-HSA-176187.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Activation of ATR in response to replication stress"
+    ],
+    "releaseDate": "2006-04-24",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     69481
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2014-07-15",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 8852337,
+    "displayName": "GTSE1 binds TP53",
+    "stId": "R-HSA-8852337",
+    "stIdVersion": "R-HSA-8852337.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GTSE1 binds TP53"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     69481
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8852351,
+    "displayName": "GTSE1 promotes translocation of TP53 to the cytosol",
+    "stId": "R-HSA-8852351",
+    "stIdVersion": "R-HSA-8852351.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GTSE1 promotes translocation of TP53 to the cytosol"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     69481
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8852354,
+    "displayName": "GTSE1 facilitates proteasome-mediated degradation of TP53",
+    "stId": "R-HSA-8852354",
+    "stIdVersion": "R-HSA-8852354.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GTSE1 facilitates proteasome-mediated degradation of TP53"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     69481
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

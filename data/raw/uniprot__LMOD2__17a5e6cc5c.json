@@ -1,0 +1,110 @@
+{
+ "source": "uniprot",
+ "query": "LMOD2",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:LMOD2) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:52:33+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q6P5Q4",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Leiomodin-2"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Cardiac leiomodin"
+       },
+       "shortNames": [
+        {
+         "value": "C-LMOD"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "18403713"
+         }
+        ],
+        "value": "Leiomodin"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "LMOD2"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q3UHZ5"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18403713"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25250574"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "26370058"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "26417072"
+         }
+        ],
+        "value": "Mediates nucleation of actin filaments and thereby promotes actin polymerization (PubMed:18403713, PubMed:25250574, PubMed:26370058, PubMed:26417072). Plays a role in the regulation of actin filament length (By similarity). Required for normal sarcomere organization in the heart, and for normal heart function (PubMed:18403713)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "442721",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0001572CCA"
+    }
+   }
+  ]
+ }
+}

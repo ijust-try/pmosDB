@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "MINAR2",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "100127206",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:53:01+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "100127206"
+   ],
+   "100127206": {
+    "uid": "100127206",
+    "name": "MINAR2",
+    "description": "membrane integral NOTCH2 associated receptor 2",
+    "status": "",
+    "currentid": "",
+    "chromosome": "5",
+    "geneticsource": "genomic",
+    "maplocation": "5q23.3",
+    "otheraliases": "DFNB120, KIAA1024L",
+    "otherdesignations": "major intrinsically disordered NOTCH2-binding receptor 1-like|KIAA1024 like|UPF0258 protein KIAA1024-like|major intrinsically disordered NOTCH2-associated receptor 2|major intrinsically disordered Notch2-binding receptor 1-like",
+    "nomenclaturesymbol": "MINAR2",
+    "nomenclaturename": "membrane integral NOTCH2 associated receptor 2",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "620215"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "5",
+      "chraccver": "NC_000005.10",
+      "chrstart": 129748093,
+      "chrstop": 129766731,
+      "exoncount": 3
+     }
+    ],
+    "geneweight": 302,
+    "summary": "Enables cholesterol binding activity. Involved in angiogenesis. Located in endoplasmic reticulum. Implicated in autosomal recessive nonsyndromic deafness. [provided by Alliance of Genome Resources, Jul 2025]",
+    "chrsort": "05",
+    "chrstart": 129748093,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000005.10",
+      "chrstart": 129748093,
+      "chrstop": 129766731
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060929.1",
+      "chrstart": 130266870,
+      "chrstop": 130285509
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000005.10",
+      "chrstart": 129748093,
+      "chrstop": 129766731
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060929.1",
+      "chrstart": 130266870,
+      "chrstop": 130285509
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000005.10",
+      "chrstart": 129748093,
+      "chrstop": 129766731
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060929.1",
+      "chrstart": 130266870,
+      "chrstop": 130285509
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000005.10",
+      "chrstart": 129748093,
+      "chrstop": 129766731
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060929.1",
+      "chrstart": 130266870,
+      "chrstop": 130285509
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000005.10",
+      "chrstart": 129748093,
+      "chrstop": 129766731
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060929.1",
+      "chrstart": 130266870,
+      "chrstop": 130285509
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000005.10",
+      "chrstart": 129748093,
+      "chrstop": 129766731
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000005.9",
+      "chrstart": 129083786,
+      "chrstop": 129102424
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000005.9",
+      "chrstart": 129083786,
+      "chrstop": 129102424
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000005.9",
+      "chrstart": 129083883,
+      "chrstop": 129100755
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000137.1",
+      "chrstart": 124275578,
+      "chrstop": 124292448
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018916.2",
+      "chrstart": 128516481,
+      "chrstop": 128533357
+     }
+    ]
+   }
+  }
+ }
+}

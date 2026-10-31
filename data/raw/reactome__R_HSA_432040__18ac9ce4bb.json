@@ -1,0 +1,761 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-432040",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-432040",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:40:50+00:00",
+ "response": {
+  "dbId": 432040,
+  "displayName": "Vasopressin regulates renal water homeostasis via Aquaporins",
+  "stId": "R-HSA-432040",
+  "stIdVersion": "R-HSA-432040.5",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Vasopressin regulates renal water homeostasis via Aquaporins"
+  ],
+  "releaseDate": "2010-09-21",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "\"The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.\" [ISBN:0716731363]",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 260622,
+   "displayName": "renal water homeostasis",
+   "accession": "0003091",
+   "databaseName": "GO",
+   "definition": "\"Renal process involved in the maintenance of an internal steady state of water in the body.\" [GOC:mtg_cardio]",
+   "name": "renal water homeostasis",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0003091",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 431986,
+    "displayName": "The renal plumbing system: aquaporin water channels",
+    "title": "The renal plumbing system: aquaporin water channels",
+    "journal": "Cell Mol Life Sci",
+    "pages": "1692-706",
+    "pubMedIdentifier": 15924268,
+    "volume": 62,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15924268",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 431987,
+    "displayName": "Regulation and dysregulation of aquaporins in water balance disorders",
+    "title": "Regulation and dysregulation of aquaporins in water balance disorders",
+    "journal": "J Intern Med",
+    "pages": "53-64",
+    "pubMedIdentifier": 17222168,
+    "volume": 261,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17222168",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 431776,
+    "displayName": "Aquaporins in the kidney: from molecules to medicine",
+    "title": "Aquaporins in the kidney: from molecules to medicine",
+    "journal": "Physiol Rev",
+    "pages": "205-44",
+    "pubMedIdentifier": 11773613,
+    "volume": 82,
+    "year": 2002,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11773613",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 431988,
+    "displayName": "Regulation of aquaporin-2 trafficking",
+    "title": "Regulation of aquaporin-2 trafficking",
+    "journal": "Handb Exp Pharmacol",
+    "pages": "133-57",
+    "pubMedIdentifier": 19096775,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19096775",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 431954,
+    "displayName": "Localization and trafficking of aquaporin 2 in the kidney",
+    "title": "Localization and trafficking of aquaporin 2 in the kidney",
+    "journal": "Histochem Cell Biol",
+    "pages": "197-209",
+    "pubMedIdentifier": 18566824,
+    "volume": 130,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18566824",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10117872,
+    "displayName": "Vasopressin regulates renal water homeostasis via Aquaporins",
+    "stId": "R-MMU-432040",
+    "stIdVersion": "R-MMU-432040.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vasopressin regulates renal water homeostasis via Aquaporins"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     432040
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10259200,
+    "displayName": "Vasopressin regulates renal water homeostasis via Aquaporins",
+    "stId": "R-RNO-432040",
+    "stIdVersion": "R-RNO-432040.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vasopressin regulates renal water homeostasis via Aquaporins"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     432040
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10367619,
+    "displayName": "Vasopressin regulates renal water homeostasis via Aquaporins",
+    "stId": "R-CFA-432040",
+    "stIdVersion": "R-CFA-432040.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vasopressin regulates renal water homeostasis via Aquaporins"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     432040
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10481341,
+    "displayName": "Vasopressin regulates renal water homeostasis via Aquaporins",
+    "stId": "R-BTA-432040",
+    "stIdVersion": "R-BTA-432040.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vasopressin regulates renal water homeostasis via Aquaporins"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     432040
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10594686,
+    "displayName": "Vasopressin regulates renal water homeostasis via Aquaporins",
+    "stId": "R-SSC-432040",
+    "stIdVersion": "R-SSC-432040.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vasopressin regulates renal water homeostasis via Aquaporins"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     432040
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10687248,
+    "displayName": "Vasopressin regulates renal water homeostasis via Aquaporins",
+    "stId": "R-DRE-432040",
+    "stIdVersion": "R-DRE-432040.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vasopressin regulates renal water homeostasis via Aquaporins"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     432040
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10768549,
+    "displayName": "Vasopressin regulates renal water homeostasis via Aquaporins",
+    "stId": "R-XTR-432040",
+    "stIdVersion": "R-XTR-432040.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vasopressin regulates renal water homeostasis via Aquaporins"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     432040
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10866145,
+    "displayName": "Vasopressin regulates renal water homeostasis via Aquaporins",
+    "stId": "R-GGA-432040",
+    "stIdVersion": "R-GGA-432040.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vasopressin regulates renal water homeostasis via Aquaporins"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     432040
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10952131,
+    "displayName": "Vasopressin regulates renal water homeostasis via Aquaporins",
+    "stId": "R-DME-432040",
+    "stIdVersion": "R-DME-432040.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vasopressin regulates renal water homeostasis via Aquaporins"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     432040
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11035340,
+    "displayName": "Vasopressin regulates renal water homeostasis via Aquaporins",
+    "stId": "R-CEL-432040",
+    "stIdVersion": "R-CEL-432040.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vasopressin regulates renal water homeostasis via Aquaporins"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     432040
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11091191,
+    "displayName": "Vasopressin regulates renal water homeostasis via Aquaporins",
+    "stId": "R-DDI-432040",
+    "stIdVersion": "R-DDI-432040.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vasopressin regulates renal water homeostasis via Aquaporins"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     432040
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11120763,
+    "displayName": "Vasopressin regulates renal water homeostasis via Aquaporins",
+    "stId": "R-SPO-432040",
+    "stIdVersion": "R-SPO-432040.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vasopressin regulates renal water homeostasis via Aquaporins"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     432040
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11149316,
+    "displayName": "Vasopressin regulates renal water homeostasis via Aquaporins",
+    "stId": "R-SCE-432040",
+    "stIdVersion": "R-SCE-432040.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vasopressin regulates renal water homeostasis via Aquaporins"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     432040
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11170858,
+    "displayName": "Vasopressin regulates renal water homeostasis via Aquaporins",
+    "stId": "R-PFA-432040",
+    "stIdVersion": "R-PFA-432040.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Vasopressin regulates renal water homeostasis via Aquaporins"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     432040
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 432023,
+    "displayName": "In the kidney water and solutes are passed out of the bloods...",
+    "text": "In the kidney water and solutes are passed out of the bloodstream and into the proximal tubule via the slit-like structure formed by nephrin in the glomerulus. Water is reabsorbed from the filtrate during its transit through the proximal tubule, the descending loop of Henle, the distal convoluted tubule, and the collecting duct.<br>Aquaporin-1 (AQP1) in the proximal tubule and the descending thin limb of Henle is responsible for about 90% of reabsorption (as estimated from mouse knockouts of AQP1). AQP1 is located on both the apical and basolateral surface of epithelial cells and thus transports water through the epithelium and back into the bloodstream.<br>In the collecting duct epithelial cells have AQP2 on their apical surface and AQP3 and AQP4 on their basolateral surface to transport water across the epithelium. The permeability of the epithelium is regulated by vasopressin, which activates the phosphorylation and subsequent translocation of AQP2 from intracellular vesicles to the plasma membrane.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "previousReviewStatus": {
+   "dbId": 9821384,
+   "displayName": "two stars",
+   "definition": "structure updated after externally and internally reviewed",
+   "name": [
+    "two stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2018-12-13",
+  "hasEvent": [
+   {
+    "dbId": 392263,
+    "displayName": "AVP(20-28) binds AVPR2",
+    "stId": "R-HSA-392263",
+    "stIdVersion": "R-HSA-392263.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AVP(20-28) binds AVPR2"
+    ],
+    "releaseDate": "2009-04-01",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     432040
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 432188,
+    "displayName": "AVP:AVPR2 Complex binds inactive heterotrimeric G(s) complex",
+    "stId": "R-HSA-432188",
+    "stIdVersion": "R-HSA-432188.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AVP:AVPR2 Complex binds inactive heterotrimeric G(s) complex"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     432040
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 432195,
+    "displayName": "AVP:AVPR2:heterotrimeric G(s) complex exchanges GDP for GTP",
+    "stId": "R-HSA-432195",
+    "stIdVersion": "R-HSA-432195.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AVP:AVPR2:heterotrimeric G(s) complex exchanges GDP for GTP"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     432040
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 422320,
+    "displayName": "Heterotrimeric G(s) complex dissociates",
+    "stId": "R-HSA-422320",
+    "stIdVersion": "R-HSA-422320.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Heterotrimeric G(s) complex dissociates"
+    ],
+    "releaseDate": "2010-06-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     432040
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 163617,
+    "displayName": "G alpha (s) activates adenylate cyclase",
+    "stId": "R-HSA-163617",
+    "stIdVersion": "R-HSA-163617.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "G alpha (s) activates adenylate cyclase"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     432040
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 164377,
+    "displayName": "Activated Adenylate cyclase catalyses cAMP synthesis",
+    "stId": "R-HSA-164377",
+    "stIdVersion": "R-HSA-164377.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Activated Adenylate cyclase catalyses cAMP synthesis",
+     "ATP => 3',5'-cyclic AMP + diphosphate"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     432040
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8951727,
+    "displayName": "cAMP binds PKA tetramer",
+    "stId": "R-HSA-8951727",
+    "stIdVersion": "R-HSA-8951727.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "cAMP binds PKA tetramer"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     432040
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 111925,
+    "displayName": "cAMP induces dissociation of inactive PKA tetramers",
+    "stId": "R-HSA-111925",
+    "stIdVersion": "R-HSA-111925.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "cAMP induces dissociation of inactive PKA tetramers"
+    ],
+    "releaseDate": "2008-12-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     432040
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 432232,
+    "displayName": "Phosphorylation of Aquaporin-2 by Protein Kinase A (PKA)",
+    "stId": "R-HSA-432232",
+    "stIdVersion": "R-HSA-432232.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of Aquaporin-2 by Protein Kinase A (PKA)"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     432040
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 432237,
+    "displayName": "Translocation of Aquaporin-2 from intracellular vesicles to the apical plasma membrane",
+    "stId": "R-HSA-432237",
+    "stIdVersion": "R-HSA-432237.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Translocation of Aquaporin-2 from intracellular vesicles to the apical plasma membrane"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     432040
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 432010,
+    "displayName": "Aquaporin-1 passively transports water into cell",
+    "stId": "R-HSA-432010",
+    "stIdVersion": "R-HSA-432010.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Aquaporin-1 passively transports water into cell"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     432040
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 432065,
+    "displayName": "p-S256-Aquaporin-2 passively transports water into cell",
+    "stId": "R-HSA-432065",
+    "stIdVersion": "R-HSA-432065.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-S256-Aquaporin-2 passively transports water into cell"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     432040
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 432054,
+    "displayName": "Aquaporin-1 passively transports water out of cell",
+    "stId": "R-HSA-432054",
+    "stIdVersion": "R-HSA-432054.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Aquaporin-1 passively transports water out of cell"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     432040
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 445714,
+    "displayName": "Aquaporin-3 passively transports water out of cell",
+    "stId": "R-HSA-445714",
+    "stIdVersion": "R-HSA-445714.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Aquaporin-3 passively transports water out of cell"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     432040
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 432067,
+    "displayName": "Aquaporin-4 passively transports water out of cell",
+    "stId": "R-HSA-432067",
+    "stIdVersion": "R-HSA-432067.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Aquaporin-4 passively transports water out of cell"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     432040
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

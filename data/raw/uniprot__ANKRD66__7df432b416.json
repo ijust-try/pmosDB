@@ -1,0 +1,50 @@
+{
+ "source": "uniprot",
+ "query": "ANKRD66",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:ANKRD66) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:41:01+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "B4E2M5",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Ankyrin repeat domain-containing protein 66"
+      }
+     }
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "ANKRD66"
+      }
+     }
+    ],
+    "comments": [],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "100287718",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0016052FCC"
+    }
+   }
+  ]
+ }
+}

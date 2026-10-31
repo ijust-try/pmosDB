@@ -1,0 +1,467 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-1483196",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-1483196",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:55:10+00:00",
+ "response": {
+  "dbId": 1483196,
+  "displayName": "PI and PC transport between ER and Golgi membranes",
+  "stId": "R-HSA-1483196",
+  "stIdVersion": "R-HSA-1483196.4",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "PI and PC transport between ER and Golgi membranes"
+  ],
+  "releaseDate": "2012-06-12",
+  "speciesName": "Homo sapiens",
+  "goBiologicalProcess": {
+   "dbId": 21991,
+   "displayName": "phospholipid transport",
+   "accession": "0015914",
+   "databaseName": "GO",
+   "definition": "\"The directed movement of phospholipids into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Phospholipids are any lipids containing phosphoric acid as a mono- or diester.\" [GOC:ai]",
+   "name": "phospholipid transport",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0015914",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 1483109,
+    "displayName": "Phosphatidylinositol- and phosphatidylcholine-transfer activity of PITPbeta is essential for COPI-mediated retrograde transport from the Golgi to the endoplasmic reticulum",
+    "title": "Phosphatidylinositol- and phosphatidylcholine-transfer activity of PITPbeta is essential for COPI-mediated retrograde transport from the Golgi to the endoplasmic reticulum",
+    "journal": "J Cell Sci",
+    "pages": "1262-73",
+    "pubMedIdentifier": 20332109,
+    "volume": 123,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20332109",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1483105,
+    "displayName": "Dynamics of lipid transfer by phosphatidylinositol transfer proteins in cells",
+    "title": "Dynamics of lipid transfer by phosphatidylinositol transfer proteins in cells",
+    "journal": "Traffic",
+    "pages": "1743-56",
+    "pubMedIdentifier": 18636990,
+    "volume": 9,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18636990",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2206373,
+    "displayName": "Phosphatidylinositol transfer proteins: from closed for transport to open for exchange",
+    "title": "Phosphatidylinositol transfer proteins: from closed for transport to open for exchange",
+    "journal": "Adv Enzyme Regul",
+    "pages": "301-11",
+    "pubMedIdentifier": 16854452,
+    "volume": 46,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16854452",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2206376,
+    "displayName": "Phosphatidylinositol transfer proteins: negotiating the regulatory interface between lipid metabolism and lipid signaling in diverse cellular processes",
+    "title": "Phosphatidylinositol transfer proteins: negotiating the regulatory interface between lipid metabolism and lipid signaling in diverse cellular processes",
+    "journal": "Biofactors",
+    "pages": "290-308",
+    "pubMedIdentifier": 21915936,
+    "volume": 37,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21915936",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 11171362,
+    "displayName": "PI and PC transport between ER and Golgi membranes",
+    "stId": "R-PFA-1483196",
+    "stIdVersion": "R-PFA-1483196.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI and PC transport between ER and Golgi membranes"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     1483196
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11092051,
+    "displayName": "PI and PC transport between ER and Golgi membranes",
+    "stId": "R-DDI-1483196",
+    "stIdVersion": "R-DDI-1483196.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI and PC transport between ER and Golgi membranes"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     1483196
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11036534,
+    "displayName": "PI and PC transport between ER and Golgi membranes",
+    "stId": "R-CEL-1483196",
+    "stIdVersion": "R-CEL-1483196.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI and PC transport between ER and Golgi membranes"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     1483196
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10953459,
+    "displayName": "PI and PC transport between ER and Golgi membranes",
+    "stId": "R-DME-1483196",
+    "stIdVersion": "R-DME-1483196.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI and PC transport between ER and Golgi membranes"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     1483196
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10867835,
+    "displayName": "PI and PC transport between ER and Golgi membranes",
+    "stId": "R-GGA-1483196",
+    "stIdVersion": "R-GGA-1483196.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI and PC transport between ER and Golgi membranes"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     1483196
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10770065,
+    "displayName": "PI and PC transport between ER and Golgi membranes",
+    "stId": "R-XTR-1483196",
+    "stIdVersion": "R-XTR-1483196.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI and PC transport between ER and Golgi membranes"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     1483196
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10688782,
+    "displayName": "PI and PC transport between ER and Golgi membranes",
+    "stId": "R-DRE-1483196",
+    "stIdVersion": "R-DRE-1483196.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI and PC transport between ER and Golgi membranes"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     1483196
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10596362,
+    "displayName": "PI and PC transport between ER and Golgi membranes",
+    "stId": "R-SSC-1483196",
+    "stIdVersion": "R-SSC-1483196.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI and PC transport between ER and Golgi membranes"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     1483196
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10483057,
+    "displayName": "PI and PC transport between ER and Golgi membranes",
+    "stId": "R-BTA-1483196",
+    "stIdVersion": "R-BTA-1483196.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI and PC transport between ER and Golgi membranes"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     1483196
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10368181,
+    "displayName": "PI and PC transport between ER and Golgi membranes",
+    "stId": "R-CFA-1483196",
+    "stIdVersion": "R-CFA-1483196.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI and PC transport between ER and Golgi membranes"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     1483196
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10260956,
+    "displayName": "PI and PC transport between ER and Golgi membranes",
+    "stId": "R-RNO-1483196",
+    "stIdVersion": "R-RNO-1483196.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI and PC transport between ER and Golgi membranes"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     1483196
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10119636,
+    "displayName": "PI and PC transport between ER and Golgi membranes",
+    "stId": "R-MMU-1483196",
+    "stIdVersion": "R-MMU-1483196.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "PI and PC transport between ER and Golgi membranes"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     1483196
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 1601935,
+    "displayName": "The phosphatidylinositol transfer protein beta isoform (PITP...",
+    "text": "The phosphatidylinositol transfer protein beta isoform (PITPNB) bound to phosphatidylinositol (PI) complex transports from the endoplasmic reticulum (ER) membrane to the Golgi membrane, where phosphatidylcholine (PC) is exchanged for PI.  PITPNB now in complex with PC transports back to the ER membrane where PI is now exchanged for PC, and the cycle repeats. This process has been characterized in detail in bovine and rodent model systems (e.g., Wirtz et al. 2006; Ghosh and Bankaitis 2011), which provide a framework for organizing the more limited data available for the very well conserved human proteins and processes( Carvou et al. 2010, Shadan et al. 2008).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-1483196.4",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 1483229,
+    "displayName": "PI:PITPNB is transported from the ER membrane to the Golgi membrane",
+    "stId": "R-HSA-1483229",
+    "stIdVersion": "R-HSA-1483229.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PI:PITPNB is transported from the ER membrane to the Golgi membrane"
+    ],
+    "releaseDate": "2012-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1483196
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1483087,
+    "displayName": "PI is exchanged with PC by PITPNB",
+    "stId": "R-HSA-1483087",
+    "stIdVersion": "R-HSA-1483087.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PI is exchanged with PC by PITPNB"
+    ],
+    "releaseDate": "2012-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1483196
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1483211,
+    "displayName": "PC:PITPNB is transported from the Golgi membrane to the ER membrane",
+    "stId": "R-HSA-1483211",
+    "stIdVersion": "R-HSA-1483211.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PC:PITPNB is transported from the Golgi membrane to the ER membrane"
+    ],
+    "releaseDate": "2012-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1483196
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1483219,
+    "displayName": "PC is exchanged with PI by PITPNB",
+    "stId": "R-HSA-1483219",
+    "stIdVersion": "R-HSA-1483219.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PC is exchanged with PI by PITPNB"
+    ],
+    "releaseDate": "2012-06-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1483196
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

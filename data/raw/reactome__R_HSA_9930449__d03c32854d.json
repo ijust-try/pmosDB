@@ -1,0 +1,187 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9930449",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9930449",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:50:08+00:00",
+ "response": {
+  "dbId": 9930449,
+  "displayName": "Defective cleavage of FV variant at a.a.534 ",
+  "stId": "R-HSA-9930449",
+  "stIdVersion": "R-HSA-9930449.1",
+  "isInDisease": true,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Defective cleavage of FV variant at a.a.534 "
+  ],
+  "releaseDate": "2026-03-25",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12061111,
+    "displayName": "Mondo:0002305",
+    "databaseName": "Mondo",
+    "identifier": "0002305",
+    "url": "https://monarchinitiative.org/MONDO:0002305",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "disease": [
+   {
+    "dbId": 9668251,
+    "displayName": "thrombophilia",
+    "databaseName": "DOID",
+    "identifier": "2452",
+    "name": [
+     "thrombophilia"
+    ],
+    "synonym": [
+     "hypercoagulability state"
+    ],
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/doid/terms?obo_id=DOID:2452",
+    "className": "Disease",
+    "schemaClass": "Disease"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 9930475,
+    "displayName": "Mechanisms of the factor V Leiden paradox",
+    "title": "Mechanisms of the factor V Leiden paradox",
+    "journal": "Arterioscler Thromb Vasc Biol",
+    "pages": "1872-7",
+    "pubMedIdentifier": 18617648,
+    "volume": 28,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18617648",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9930414,
+    "displayName": "Factor V Leiden",
+    "title": "Factor V Leiden",
+    "journal": "Am J Hematol",
+    "pages": "46-9",
+    "pubMedIdentifier": 26492443,
+    "volume": 91,
+    "year": 2016,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26492443",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9930447,
+    "displayName": "Mutation in blood coagulation factor V associated with resistance to activated protein C",
+    "title": "Mutation in blood coagulation factor V associated with resistance to activated protein C",
+    "journal": "Nature",
+    "pages": "64-7",
+    "pubMedIdentifier": 8164741,
+    "volume": 369,
+    "year": 1994,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8164741",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9930462,
+    "displayName": "Identification and functional characterization of a novel F5 mutation (Ala512Val, FVB onn ) associated with activated protein C resistance",
+    "title": "Identification and functional characterization of a novel F5 mutation (Ala512Val, FVB onn ) associated with activated protein C resistance",
+    "journal": "J Thromb Haemost",
+    "pages": "1353-63",
+    "pubMedIdentifier": 27090446,
+    "volume": 14,
+    "year": 2016,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27090446",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9930457,
+    "displayName": "Factor V Leiden (the most common) and Factor V Bonn thrombop...",
+    "text": "Factor V Leiden (the most common) and Factor V Bonn thrombophilias are inherited conditions caused by the missense variants FV R534Q and FV A540V, respectively. These genetic mutations lead to resistance to activated protein C (APC), impairing its ability to inactivate factor Va (FVa) by cleaving it at residue R534 (Bertina RM et al., 1994; van Stralen KJ et al., 2008; Pezeshkpoor B et al., 2016). The defective cleavage of these FV variants may also interfere with APC-mediated inactivation of factor VIIIa (FVIIIa), where non-activated but APC-cleaved FV functions as an APC cofactor (Váradi K et al., 1996; Pezeshkpoor B et al., 2016). In addition to APC resistance, FVa Bonn (A540V) exhibits increased affinity for factor Xa (FXa) (Pezeshkpoor B et al., 2016), which diminishes APC-mediated cleavage at R534, as FXa and APC share a common exosite on FV (reviewed by Bernardi F, 2016). These conditions result in prolonged FVa activity, enhanced function of the prothrombinase FVa:FXa complex, and sustained thrombin generation, which may increase the risk of developing deep venous thrombosis in individuals carrying the FV Leiden or FV Bonn mutation (reviewed by Pastori et al., 1999; Perez-Pujol S et al., 2012; van Cott EM et al., 2016; Albagoush SA et al., 2023; Moore GW et al., 2023).\n",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821383,
+   "displayName": "three stars",
+   "definition": "internally reviewed",
+   "name": [
+    "three stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 9930452,
+    "displayName": "F5 R534Q, A540V is not cleaved by activated protein C",
+    "stId": "R-HSA-9930452",
+    "stIdVersion": "R-HSA-9930452.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "F5 R534Q, A540V is not cleaved by activated protein C",
+     "Defective F5 is not cleaved at a.a.534 by activated protein C "
+    ],
+    "releaseDate": "2026-03-25",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9930449
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "FailedReaction"
+   }
+  ],
+  "normalPathway": {
+   "dbId": 9769739,
+   "displayName": "Regulation of clotting cascade",
+   "stId": "R-HSA-9769739",
+   "stIdVersion": "R-HSA-9769739.1",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 3,
+   "name": [
+    "Regulation of clotting cascade"
+   ],
+   "releaseDate": "2026-03-25",
+   "speciesName": "Homo sapiens",
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "diseasePathways": [
+    9930449
+   ],
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

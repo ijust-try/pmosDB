@@ -1,0 +1,71 @@
+{
+ "source": "uniprot",
+ "query": "TCEA1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:TCEA1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:57:16+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P23193",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Transcription elongation factor A protein 1"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Transcription elongation factor S-II protein 1"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Transcription elongation factor TFIIS.o"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "TCEA1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Necessary for efficient RNA polymerase II transcription elongation past template-encoded arresting sites. The arresting sites in DNA have the property of trapping a certain fraction of elongating RNA polymerases that pass through, resulting in locked ternary complexes. Cleavage of the nascent transcript by S-II allows the resumption of elongation from the new 3'-terminus"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "6917",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000136ABE"
+    }
+   }
+  ]
+ }
+}

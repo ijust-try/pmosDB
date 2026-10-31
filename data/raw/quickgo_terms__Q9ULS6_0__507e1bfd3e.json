@@ -1,0 +1,2347 @@
+{
+ "source": "quickgo_terms",
+ "query": "Q9ULS6_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0001508,GO:0005216,GO:0005249,GO:0005515,GO:0005737,GO:0005886,GO:0006811,GO:0006813,GO:0008076,GO:0015459,GO:0016020,GO:0048471,GO:0051260,GO:0055085,GO:0071805,GO:1901379",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:51:52+00:00",
+ "response": {
+  "numberOfHits": 16,
+  "results": [
+   {
+    "id": "GO:0016020",
+    "isObsolete": false,
+    "name": "membrane",
+    "definition": {
+     "text": "A lipid bilayer along with all the proteins and protein complexes embedded in it and attached to it.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "integral component of membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral to membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "membrane region",
+      "type": "narrow"
+     },
+     {
+      "name": "region of membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "transmembrane",
+      "type": "related"
+     },
+     {
+      "name": "whole membrane",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0140549",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019867",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042175",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031090",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005628",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770114",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032594",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019898",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098590",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062137",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097478",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098796",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098552",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070056",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098857",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005905",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048475",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034357",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005642",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005886",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036362",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005216",
+    "isObsolete": false,
+    "name": "monoatomic ion channel activity",
+    "definition": {
+     "text": "Enables the facilitated diffusion of a monoatomic ion (by an energy-independent process) by passage through a transmembrane aqueous pore or channel without evidence for a carrier-mediated mechanism. May be either selective (it enables passage of a specific ion only) or non-selective (it enables passage of two or more ions of same charge but different size).",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815340729"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "ion channel activity",
+      "type": "broad"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0008381",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005261",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034702",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0097603",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099106",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0008200",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0005253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010461",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005244",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005249",
+    "isObsolete": false,
+    "name": "voltage-gated potassium channel activity",
+    "definition": {
+     "text": "Enables the transmembrane transfer of a potassium ion by a voltage-gated channel. A voltage-gated channel is a channel whose open state is dependent on the voltage across the membrane in which it is embedded.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815340729"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "voltage-dependent potassium channel activity",
+      "type": "exact"
+     },
+     {
+      "name": "voltage gated potassium channel activity",
+      "type": "exact"
+     },
+     {
+      "name": "voltage-gated potassium ion channel activity",
+      "type": "exact"
+     },
+     {
+      "name": "voltage-sensitive potassium channel",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0005252",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005251",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0086041",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008076",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0015271",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0086008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770090",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1903817",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0005242",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903818",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005737",
+    "isObsolete": false,
+    "name": "cytoplasm",
+    "definition": {
+     "text": "The contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198547684"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0019813",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009345",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120099",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036007",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0062073",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043600",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042579",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048471",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071142",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005881",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990728",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990917",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005968",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005964",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060293",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005783",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000164",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042587",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030096",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031209",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098545",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0006888",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0110158",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097433",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019197",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005851",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034715",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009525",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031250",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035550",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045239",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0017109",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032019",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043598",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071075",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060417",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016528",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005794",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032477",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009321",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009382",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990316",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036501",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990565",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034719",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034749",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032047",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005948",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034430",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031680",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034499",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0036464",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009333",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0010938",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:7770092",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005938",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090652",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016281",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070088",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005850",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990229",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044227",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045251",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042735",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005854",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120111",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048500",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009320",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000177",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070826",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042716",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071513",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044312",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090120",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0048492",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070992",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005883",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000308",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034748",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009328",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032921",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005793",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098593",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990658",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009332",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045169",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120293",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097014",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030700",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042566",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030094",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990036",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0043614",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090651",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000809",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044207",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043291",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005853",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1905720",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009504",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061908",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009317",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036457",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044222",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009336",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009359",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005951",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045022",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0071203",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071026",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005773",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000407",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019812",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120098",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009574",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000153",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034515",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005739",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070993",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031201",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032068",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005969",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005946",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034996",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071563",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990730",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005965",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031414",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009536",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034973",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030117",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045170",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031410",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0055087",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071212",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099568",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005829",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990783",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034081",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034270",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0020022",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009331",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0106232",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034709",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070441",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043292",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005852",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070695",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009524",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045253",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070422",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031251",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034274",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034750",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0017102",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002096",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0018444",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005950",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009339",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005886",
+    "isObsolete": false,
+    "name": "plasma membrane",
+    "definition": {
+     "text": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0716731363"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "bacterial inner membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "cell membrane",
+      "type": "exact"
+     },
+     {
+      "name": "cellular membrane",
+      "type": "exact"
+     },
+     {
+      "name": "cytoplasmic membrane",
+      "type": "exact"
+     },
+     {
+      "name": "inner endospore membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral component of plasma membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral to plasma membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "juxtamembrane",
+      "type": "broad"
+     },
+     {
+      "name": "plasmalemma",
+      "type": "exact"
+     },
+     {
+      "name": "plasma membrane lipid bilayer",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0097524",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033616",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0044862",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019897",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098953",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0044298",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042383",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046868",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032584",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009510",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000222",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097197",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001891",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001772",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098590",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030936",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009897",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009898",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032178",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030094",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031979",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099632",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042774",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0043113",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0033012",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031910",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016328",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031911",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990014",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009548",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070014",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098797",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031257",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031256",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098802",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033181",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044853",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001533",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033101",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009546",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005515",
+    "isObsolete": false,
+    "name": "protein binding",
+    "definition": {
+     "text": "Binding to a protein."
+    },
+    "synonyms": [
+     {
+      "name": "glycoprotein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "protein amino acid binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031072",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140081",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032092",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010313",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043393",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0031720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990405",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051087",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001965",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005516",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990935",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001848",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032091",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046980",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043394",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001846",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051959",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019955",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006813",
+    "isObsolete": false,
+    "name": "potassium ion transport",
+    "definition": {
+     "text": "The directed movement of potassium ions (K+) into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore."
+    },
+    "synonyms": [
+     {
+      "name": "cellular potassium ion transport",
+      "type": "exact"
+     },
+     {
+      "name": "K+ conductance",
+      "type": "related"
+     },
+     {
+      "name": "low voltage-dependent potassium channel auxiliary protein activity",
+      "type": "related"
+     },
+     {
+      "name": "low voltage-gated potassium channel auxiliary protein activity",
+      "type": "related"
+     },
+     {
+      "name": "potassium conductance",
+      "type": "narrow"
+     },
+     {
+      "name": "potassium ion conductance",
+      "type": "narrow"
+     },
+     {
+      "name": "potassium transport",
+      "type": "related"
+     },
+     {
+      "name": "sodium/potassium transport",
+      "type": "broad"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0043268",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043267",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043266",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0071805",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006811",
+    "isObsolete": false,
+    "name": "monoatomic ion transport",
+    "definition": {
+     "text": "The directed movement of a monoatomic ion into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Monatomic ions (also called simple ions) are ions consisting of exactly one atom."
+    },
+    "synonyms": [
+     {
+      "name": "ion transport",
+      "type": "broad"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0043269",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0006820",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043271",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043270",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0006812",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034220",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051260",
+    "isObsolete": false,
+    "name": "protein homooligomerization",
+    "definition": {
+     "text": "The process of creating protein oligomers, compounds composed of a small number, usually between three and ten, of identical component monomers. Oligomers may be formed by the polymerization of a number of monomers or the depolymerization of a large protein polymer."
+    },
+    "synonyms": [
+     {
+      "name": "protein homooligomer assembly",
+      "type": "exact"
+     },
+     {
+      "name": "protein homooligomer biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "protein homooligomer biosynthetic process",
+      "type": "exact"
+     },
+     {
+      "name": "protein homooligomer formation",
+      "type": "exact"
+     },
+     {
+      "name": "protein homooligomerization activity",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0032462",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0032463",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0051289",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032464",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0070207",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001508",
+    "isObsolete": false,
+    "name": "action potential",
+    "definition": {
+     "text": "A process in which membrane potential cycles through a depolarizing spike, triggered in response to depolarization above some threshold, followed by repolarization. This cycle is driven by the flow of ions through various voltage gated channels with different thresholds and ion specificities.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "978-0-07-139011-8"
+      }
+     ]
+    },
+    "comment": "Action potentials typically propagate across excitable membranes. This class covers both action potentials that propagate and those that fail to do so.",
+    "children": [
+     {
+      "id": "GO:0045759",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0086001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019228",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0086010",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0086011",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099610",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0100001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098900",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0045760",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0098870",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1901379",
+    "isObsolete": false,
+    "name": "regulation of potassium ion transmembrane transport",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of potassium ion transmembrane transport."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of potassium ion membrane transport",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1901381",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903286",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901380",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903764",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008076",
+    "isObsolete": false,
+    "name": "voltage-gated potassium channel complex",
+    "definition": {
+     "text": "A protein complex that forms a transmembrane channel through which potassium ions may cross a cell membrane in response to changes in membrane potential."
+    },
+    "synonyms": [
+     {
+      "name": "voltage-dependent potassium channel complex",
+      "type": "exact"
+     },
+     {
+      "name": "voltage gated potassium channel complex",
+      "type": "exact"
+     },
+     {
+      "name": "voltage-sensitive potassium channel complex",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0071195",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071194",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071193",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071192",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071199",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071201",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071198",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071200",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071197",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071196",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071202",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902937",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098855",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0048471",
+    "isObsolete": false,
+    "name": "perinuclear region of cytoplasm",
+    "definition": {
+     "text": "Cytoplasm situated near, or occurring around, the nucleus."
+    },
+    "comment": "Note that this term should not be confused with the cellular component term 'nuclear membrane lumen ; GO:0005641', which has the synonym 'perinuclear space'.",
+    "children": [
+     {
+      "id": "GO:1990723",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990633",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097038",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033011",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0055085",
+    "isObsolete": false,
+    "name": "transmembrane transport",
+    "definition": {
+     "text": "The process in which a solute is transported across a lipid bilayer, from one side of a membrane to the other."
+    },
+    "comment": "Transmembrane transport is the transport of a solute across a lipid bilayer. Note that transport through the nuclear pore complex is not transmembrane because the nuclear membrane is a double membrane and is not traversed. For transport through the nuclear pore, consider instead the term 'nucleocytoplasmic transport ; GO:0006913' and its children. Note also that this term is not intended for use in annotating lateral movement within membranes.",
+    "synonyms": [
+     {
+      "name": "ATP hydrolysis coupled transmembrane transport",
+      "type": "narrow"
+     },
+     {
+      "name": "membrane transport",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990542",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902616",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097080",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035378",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071806",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901679",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022857",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140115",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034764",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0015791",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098739",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902418",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046618",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0170006",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043251",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035445",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001407",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006855",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003333",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072531",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034486",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034762",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1902047",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035436",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072488",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045117",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901962",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034220",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080170",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070715",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035461",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071994",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035672",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140820",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000316",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043252",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015905",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070811",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902603",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035382",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046967",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902358",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034763",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0015699",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072530",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035927",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140317",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015780",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901684",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072489",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901642",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035435",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0015459",
+    "isObsolete": false,
+    "name": "potassium channel regulator activity",
+    "definition": {
+     "text": "Binds to and modulates the activity of a potassium channel."
+    },
+    "synonyms": [
+     {
+      "name": "potassium channel gating activity",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0099104",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019870",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071805",
+    "isObsolete": false,
+    "name": "potassium ion transmembrane transport",
+    "definition": {
+     "text": "A process in which a potassium ion is transported from one side of a membrane to the other."
+    },
+    "comment": "Note that this term is not intended for use in annotating lateral movement within membranes.",
+    "synonyms": [
+     {
+      "name": "high affinity potassium ion import",
+      "type": "narrow"
+     },
+     {
+      "name": "high-affinity potassium ion import",
+      "type": "narrow"
+     },
+     {
+      "name": "high affinity potassium ion uptake",
+      "type": "narrow"
+     },
+     {
+      "name": "high-affinity potassium ion uptake",
+      "type": "narrow"
+     },
+     {
+      "name": "potassium ion membrane transport",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1901379",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1990573",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015079",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1901381",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0140141",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901380",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0097623",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

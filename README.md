@@ -1,16 +1,66 @@
-# PMOS knowledge base
+# PMOS BioGraph: a PCOS/PMOS knowledge base
 
-## Layer map
+A research interface for exploring genes, proteins, hormones, biomarkers, pathways, drugs and publications
+related to Polycystic / Poly-endocrine Metabolic Ovarian Syndrome, with every record traced to a public database.
+It is an information tool, not clinical decision support: it makes no treatment, dosing or efficacy claims.
 
-| layer | owner | lives in |
+Live site: https://pmos-biograph.vercel.app
+
+## Architecture
+
+```
+ NCBI Gene · PubMed · UniProt · Reactome · QuickGO · PubChem · Open Targets (ChEMBL)
+                          │   weekly, Wednesday 18:00 IST
+                          ▼
+   sync/  (stdlib Python)  check releases → harvest → clean → validate → stitch
+                          │   commits only if validation passes
+                          ▼
+   pmos_knowledge_base.db + data/clean/*.csv + data/sync_state.json   (in git)
+                          │   push to main → Vercel deploys
+                          ▼
+   backend/pmos_data.py   builds an in-memory entity/relationship graph, serves it as JSON
+   api/index.py           Vercel serverless entry (same API as backend/server.py, under /api)
+                          ▼
+   pmos-biograph/         React + Vite + Cytoscape UI; derives multi-hop views from the graph
+```
+
+| layer | lives in | what it does |
 |---|---|---|
-| Data harvesting + ingestion | Person A | `notebook1.ipynb`, `data/`, `pmos_knowledge_base.db` |
-| FK mapping, relational stitching, search, API | Person B | `backend/` — see `backend/README.md` |
-| Frontend | Person C | `pmos-biograph/pmos-biograph/` |
+| Sync | `sync/` | Harvests the source databases, builds and validates a new database beside the live one, replaces it only if every check passes. See `sync/README.md`. |
+| Data | `pmos_knowledge_base.db`, `data/`, `seed_entities.csv` | Eight sourced base tables plus `therapeutic_target`. Every row carries `source`, `source_accession`, `retrieved_on`. |
+| API | `backend/`, `api/` | Foreign-key stitching, ranked search, graph neighbourhoods, sync status. See `backend/README.md`. |
+| UI | `pmos-biograph/pmos-biograph/` | Explore, BioGraph, Pathways, Therapeutics, Evidence and Data sources pages. |
+| Tests | `tests/` | Offline unit, API and data-integrity tests. CI runs them on every push (`.github/workflows/tests.yml`). |
 
-To run the whole stack: `py backend/server.py` (serves `http://localhost:8000/api`),
-then `npm run dev` inside `pmos-biograph/pmos-biograph/` with `.env` set to
-`VITE_USE_MOCK=false`. Details in `backend/README.md`.
+### Design decisions
+
+- **Trusted sources only.** NCBI, UniProt, Reactome, QuickGO, PubChem, PubMed and Open Targets. A test fails if a row names any other source.
+- **Nothing is inferred silently.** Drug targets are curated mechanism-of-action records from Open Targets (ChEMBL), not text matching. Drugs with no curated target, and protein complexes with dozens of subunits, are left unlinked and listed in `unresolved_mappings.csv`.
+- **Derived views are labelled as derived.** A drug's pathways are reached drug → target gene → protein → Reactome pathway. The UI says this is membership of the target, not a claim that the drug acts on the pathway.
+- **Evidence strength is shown, not implied.** Genes carry their Open Targets PCOS score, rank and evidence types. Genes whose only evidence is `clinical` (propagated from a drug's targets, e.g. every complex I subunit via metformin) are not treated as PCOS genes.
+- **Safe updates.** The sync builds the new database in a side file, validates it, and only then swaps it in. A failed run changes nothing, opens a GitHub issue, and after 35 days the site itself warns that data may be outdated.
+- **IDs are a contract.** Entity IDs are slugs (`gene-ar`, `pathway-androgen-biosynthesis`) shared with the frontend and tested.
+
+## Run it locally
+
+```bash
+py backend/server.py                                  # API on http://localhost:8000/api
+cd pmos-biograph/pmos-biograph && npm install && npm run dev
+py -m unittest discover -s tests -v                   # tests (no network, no dependencies)
+py sync/run_sync.py --check-only                      # compare upstream releases without harvesting
+py sync/run_sync.py --force                           # full re-harvest (about 20 to 40 minutes)
+```
+
+The frontend reads `VITE_USE_MOCK` and `VITE_API_BASE_URL` from `.env` (see `.env.example`). The Python code needs only
+the standard library.
+
+## Layer notes
+
+| layer | lives in |
+|---|---|
+| Data harvesting + ingestion (original notebook) | `notebook1.ipynb`, superseded by `sync/` |
+| FK mapping, relational stitching, search, API | `backend/` |
+| Frontend | `pmos-biograph/pmos-biograph/` |
 
 # PMOS knowledge base: data layer (Person A)
 

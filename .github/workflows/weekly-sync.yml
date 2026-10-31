@@ -11,13 +11,22 @@ on:
         description: "Re-harvest every source even if no new upstream release was found"
         type: boolean
         default: false
+      simulate_failure:
+        description: "Fail on purpose to test the failure alert (opens a GitHub issue)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: weekly-sync
   cancel-in-progress: false
+
+env:
+  GH_TOKEN: ${{ github.token }}
+  GH_REPO: ${{ github.repository }}
 
 jobs:
   sync:
@@ -30,18 +39,45 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Simulated failure (alert test)
+        if: ${{ inputs.simulate_failure }}
+        run: |
+          echo "Simulated failure requested, to test the alert."
+          exit 1
+
       - name: Check upstream releases and re-harvest if needed
         run: python sync/run_sync.py ${{ inputs.force && '--force' || '' }}
 
       # A push to the default branch triggers the Vercel deployment, which publishes the new data.
+      # data/raw is a local response cache: it is rewritten on every refresh, so it is not committed here.
       - name: Commit refreshed data
         run: |
           git config user.name "pmos-sync[bot]"
           git config user.email "pmos-sync@users.noreply.github.com"
-          git add -A data pmos_knowledge_base.db seed_entities.csv unresolved_mappings.csv
+          git add -A data ':!data/raw' pmos_knowledge_base.db seed_entities.csv unresolved_mappings.csv
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "Weekly data sync $(date -u +%Y-%m-%d)"
             git push
+          fi
+
+      - name: Close earlier failure alerts
+        if: success()
+        run: |
+          for n in $(gh issue list --label sync-failure --state open --json number --jq '.[].number'); do
+            gh issue close "$n" --comment "Resolved: the weekly sync succeeded in run ${{ github.run_id }}."
+          done
+
+      - name: Open a failure alert
+        if: failure()
+        run: |
+          run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          body="The weekly data sync failed. The website keeps serving the last good data, and the Data sources page will flag it as outdated after 35 days. Logs: ${run_url}"
+          gh label create sync-failure --color B60205 --description "Weekly data sync failed" || true
+          existing=$(gh issue list --label sync-failure --state open --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "Failed again. $body"
+          else
+            gh issue create --title "Weekly data sync failed" --label sync-failure --body "$body"
           fi

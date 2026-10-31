@@ -5,19 +5,30 @@ import { useAsync } from '../../hooks/useAsync';
 import { getEntityById, getEntityRelationships } from '../../services/repository';
 import type { Entity, Neighbour } from '../../types';
 import { ENTITY_META, ENTITY_TYPES, EVIDENCE_LABELS, EVIDENCE_NOTES, SOURCE_NAMES } from '../../utils/entityMeta';
+import { EvidenceMeter } from '../ui/EvidenceMeter';
 import { MiniGraph } from '../graph/MiniGraph';
 import { RelationStatusBadge, SourceBadge, TypeBadge, TypeIcon, VerificationBadge } from '../ui/Badges';
 import { EmptyState, ErrorState, LoadingRows } from '../ui/States';
 import { TabPanel, Tabs } from '../ui/Tabs';
 
 const NOT_CURATED = 'Not yet curated';
+const NO_TARGET = 'No curated target in Open Targets';
+const MUTED_VALUES = new Set([NOT_CURATED, NO_TARGET, 'Not recorded', 'Not mapped']);
 
-function facts(e: Entity): Array<{ label: string; value: string }> {
+function facts(e: Entity, neighbours: Neighbour[]): Array<{ label: string; value: string }> {
   switch (e.type) {
     case 'gene':
       return [
         { label: 'Gene symbol', value: e.symbol },
         { label: 'Organism', value: e.organism },
+        ...(e.pcosAssociation
+          ? [
+              {
+                label: 'PCOS association',
+                value: `${e.pcosAssociation.score.toFixed(2)} (rank ${e.pcosAssociation.rank}${e.pcosAssociation.total ? ` of ${e.pcosAssociation.total}` : ''}, Open Targets)`,
+              },
+            ]
+          : []),
       ];
     case 'protein':
       return [{ label: 'Encoded by', value: e.geneSymbol ?? NOT_CURATED }];
@@ -29,12 +40,31 @@ function facts(e: Entity): Array<{ label: string; value: string }> {
     case 'biomarker':
       return [{ label: 'Sample context', value: e.sampleContext ?? NOT_CURATED }];
     case 'pathway':
-      return [{ label: 'Organism', value: e.organism }];
+      return [
+        { label: 'Organism', value: e.organism },
+        ...(e.pcosEvidence
+          ? [
+              {
+                label: 'PCOS evidence',
+                value: e.pcosEvidence.topGene
+                  ? `${e.pcosEvidence.associatedGenes} of ${e.pcosEvidence.memberGenes} member genes associated; strongest ${e.pcosEvidence.topGene} (${e.pcosEvidence.topScore?.toFixed(2)})`
+                  : `None of ${e.pcosEvidence.memberGenes} member genes has a PCOS association in Open Targets`,
+              },
+            ]
+          : []),
+      ];
     case 'therapeutic':
       return [
         { label: 'PubChem CID', value: e.chemical?.pubchemCid ?? 'Not mapped' },
         { label: 'Mechanism', value: e.mechanism ?? NOT_CURATED },
-        { label: 'Biological target', value: NOT_CURATED },
+        {
+          label: 'Biological target',
+          value:
+            neighbours
+              .filter((n) => n.entity.type === 'gene' && n.relationship.label === 'targets')
+              .map((n) => n.entity.name)
+              .join(', ') || NO_TARGET,
+        },
       ];
     case 'publication':
       return [
@@ -126,6 +156,9 @@ export function EntityDetailView({ entityId }: { entityId: string }) {
                 <span className="font-semibold text-ink-soft">Aliases:</span> {entity.aliases.join(' · ')}
               </p>
             ) : null}
+            {entity.type === 'gene' && entity.pcosAssociation ? (
+              <EvidenceMeter association={entity.pcosAssociation} className="mt-4 max-w-md" />
+            ) : null}
           </div>
           <Link to={`/graph?focus=${entity.id}`} className="btn-primary">
             <Network size={15} aria-hidden /> Explore in BioGraph
@@ -155,14 +188,14 @@ export function EntityDetailView({ entityId }: { entityId: string }) {
                 <p className="mt-2 text-[15px] leading-relaxed text-ink-soft">{entity.description}</p>
               </section>
 
-              {facts(entity).length ? (
+              {facts(entity, neighbours).length ? (
                 <section className="panel overflow-hidden">
                   <p className="eyebrow border-b border-line px-5 py-3">Record fields</p>
                   <dl className="divide-y divide-line/70">
-                    {facts(entity).map((f) => (
+                    {facts(entity, neighbours).map((f) => (
                       <div key={f.label} className="grid grid-cols-[150px_1fr] gap-3 px-5 py-2.5 text-sm">
                         <dt className="text-ink-mute">{f.label}</dt>
-                        <dd className={`font-semibold ${f.value === NOT_CURATED || f.value === 'Not recorded' || f.value === 'Not mapped' ? 'font-normal italic text-ink-faint' : 'text-ink'}`}>
+                        <dd className={`font-semibold ${MUTED_VALUES.has(f.value) ? 'font-normal italic text-ink-faint' : 'text-ink'}`}>
                           {f.value}
                         </dd>
                       </div>

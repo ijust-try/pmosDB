@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "TRIB1",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "10221",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:59:52+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "10221"
+   ],
+   "10221": {
+    "uid": "10221",
+    "name": "TRIB1",
+    "description": "tribbles pseudokinase 1",
+    "status": "",
+    "currentid": "",
+    "chromosome": "8",
+    "geneticsource": "genomic",
+    "maplocation": "8q24.13",
+    "otheraliases": "C8FW, GIG-2, GIG2, SKIP1, TRB-1, TRB1",
+    "otherdesignations": "tribbles homolog 1|G-protein-coupled receptor induced protein|G-protein-coupled receptor-induced gene 2 protein|G-protein-coupled receptor-induced protein 2|phosphoprotein regulated by mitogenic pathways|tribbles-like protein 1",
+    "nomenclaturesymbol": "TRIB1",
+    "nomenclaturename": "tribbles pseudokinase 1",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "609461"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "8",
+      "chraccver": "NC_000008.11",
+      "chrstart": 125430357,
+      "chrstop": 125438402,
+      "exoncount": 4
+     }
+    ],
+    "geneweight": 6558,
+    "summary": "Enables several functions, including mitogen-activated protein kinase kinase binding activity; protein kinase inhibitor activity; and transcription regulator inhibitor activity. Involved in several processes, including negative regulation of signal transduction; negative regulation of smooth muscle cell proliferation; and regulation of MAP kinase activity. Located in cytoplasm and nucleus. [provided by Alliance of Genome Resources, Jun 2026]",
+    "chrsort": "08",
+    "chrstart": 125430357,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000008.11",
+      "chrstart": 125430357,
+      "chrstop": 125438402
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060932.1",
+      "chrstart": 126563803,
+      "chrstop": 126571848
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000008.11",
+      "chrstart": 125430357,
+      "chrstop": 125438402
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060932.1",
+      "chrstart": 126563803,
+      "chrstop": 126571848
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000008.11",
+      "chrstart": 125430357,
+      "chrstop": 125438402
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060932.1",
+      "chrstart": 126563803,
+      "chrstop": 126571848
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000008.11",
+      "chrstart": 125430357,
+      "chrstop": 125438402
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060932.1",
+      "chrstart": 126563803,
+      "chrstop": 126571848
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000008.11",
+      "chrstart": 125430357,
+      "chrstop": 125438402
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060932.1",
+      "chrstart": 126563803,
+      "chrstop": 126571848
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000008.11",
+      "chrstart": 125430289,
+      "chrstop": 125438402
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000008.10",
+      "chrstart": 126442599,
+      "chrstop": 126450644
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000008.10",
+      "chrstart": 126442599,
+      "chrstop": 126450644
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000008.10",
+      "chrstart": 126442562,
+      "chrstop": 126450646
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000140.1",
+      "chrstart": 121766405,
+      "chrstop": 121774483
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018919.2",
+      "chrstart": 126482806,
+      "chrstop": 126490883
+     }
+    ]
+   }
+  }
+ }
+}

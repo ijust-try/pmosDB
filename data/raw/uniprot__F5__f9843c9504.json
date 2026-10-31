@@ -1,0 +1,88 @@
+{
+ "source": "uniprot",
+ "query": "F5",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:F5) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:49:54+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P12259",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Coagulation factor V"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Activated protein C cofactor"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Proaccelerin, labile factor"
+       }
+      }
+     ],
+     "contains": [
+      {
+       "recommendedName": {
+        "fullName": {
+         "value": "Coagulation factor V heavy chain"
+        }
+       }
+      },
+      {
+       "recommendedName": {
+        "fullName": {
+         "value": "Coagulation factor V light chain"
+        }
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "F5"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Central regulator of hemostasis. It serves as a critical cofactor for the prothrombinase activity of factor Xa that results in the activation of prothrombin to thrombin"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "2153",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000016A8CE"
+    }
+   }
+  ]
+ }
+}

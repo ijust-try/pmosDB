@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "ADCY5",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "111",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:40:40+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "111"
+   ],
+   "111": {
+    "uid": "111",
+    "name": "ADCY5",
+    "description": "adenylate cyclase 5",
+    "status": "",
+    "currentid": "",
+    "chromosome": "3",
+    "geneticsource": "genomic",
+    "maplocation": "3q21.1",
+    "otheraliases": "AC5, DSKOD, FDFM",
+    "otherdesignations": "adenylate cyclase type 5|ATP pyrophosphate-lyase 5|adenylate cyclase type V|adenylyl cyclase 5|epididymis secretory sperm binding protein",
+    "nomenclaturesymbol": "ADCY5",
+    "nomenclaturename": "adenylate cyclase 5",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "600293"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "3",
+      "chraccver": "NC_000003.12",
+      "chrstart": 123449089,
+      "chrstop": 123282295,
+      "exoncount": 32
+     }
+    ],
+    "geneweight": 3374,
+    "summary": "This gene encodes a member of the membrane-bound adenylyl cyclase enzymes. Adenylyl cyclases mediate G protein-coupled receptor signaling through the synthesis of the second messenger cAMP. Activity of the encoded protein is stimulated by the Gs alpha subunit of G protein-coupled receptors and is inhibited by protein kinase A, calcium and Gi alpha subunits. Single nucleotide polymorphisms in this gene may be associated with low birth weight and type 2 diabetes. Alternatively spliced transcript variants that encode different isoforms have been observed for this gene. [provided by RefSeq, Dec 2010]",
+    "chrsort": "03",
+    "chrstart": 123282295,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000003.12",
+      "chrstart": 123449089,
+      "chrstop": 123282295
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060927.1",
+      "chrstart": 126169666,
+      "chrstop": 126002376
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000003.12",
+      "chrstart": 123449089,
+      "chrstop": 123282295
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060927.1",
+      "chrstart": 126169666,
+      "chrstop": 126002376
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000003.12",
+      "chrstart": 123449089,
+      "chrstop": 123282295
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060927.1",
+      "chrstart": 126169666,
+      "chrstop": 126002376
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000003.12",
+      "chrstart": 123449089,
+      "chrstop": 123282295
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060927.1",
+      "chrstart": 126169666,
+      "chrstop": 126002376
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000003.12",
+      "chrstart": 123449089,
+      "chrstop": 123282295
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060927.1",
+      "chrstart": 126169666,
+      "chrstop": 126002376
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000003.12",
+      "chrstart": 123449089,
+      "chrstop": 123282295
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000003.11",
+      "chrstart": 123167936,
+      "chrstop": 123001142
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000003.11",
+      "chrstart": 123167936,
+      "chrstop": 123001142
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000003.11",
+      "chrstart": 123167923,
+      "chrstop": 123001142
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000135.1",
+      "chrstart": 120540686,
+      "chrstop": 120374349
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018914.2",
+      "chrstart": 123131018,
+      "chrstop": 122964826
+     }
+    ]
+   }
+  }
+ }
+}

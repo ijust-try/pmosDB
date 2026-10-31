@@ -1,0 +1,67 @@
+{
+ "source": "uniprot",
+ "query": "CDH10",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:CDH10) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:45:19+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q9Y6N8",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Cadherin-10"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "T2-cadherin"
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "CDH10"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Cadherins are calcium-dependent cell adhesion proteins. They preferentially interact with themselves in a homophilic manner in connecting cells; cadherins may thus contribute to the sorting of heterogeneous cell types"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "1008",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000167B7B"
+    }
+   }
+  ]
+ }
+}

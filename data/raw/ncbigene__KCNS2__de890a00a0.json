@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "KCNS2",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "3788",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:51:45+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "3788"
+   ],
+   "3788": {
+    "uid": "3788",
+    "name": "KCNS2",
+    "description": "potassium voltage-gated channel modifier subfamily S member 2",
+    "status": "",
+    "currentid": "",
+    "chromosome": "8",
+    "geneticsource": "genomic",
+    "maplocation": "8q22.2",
+    "otheraliases": "KV9.2",
+    "otherdesignations": "delayed-rectifier potassium channel regulatory subunit KCNS2|delayed-rectifier K(+) channel alpha subunit 2|delayed-rectifier potassium channel subunit Kv9.2|potassium voltage-gated channel subfamily S member 2|potassium voltage-gated channel, delayed-rectifier, subfamily S, member 2|voltage-gated potassium channel subunit Kv9.2",
+    "nomenclaturesymbol": "KCNS2",
+    "nomenclaturename": "potassium voltage-gated channel modifier subfamily S member 2",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "602906"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "8",
+      "chraccver": "NC_000008.11",
+      "chrstart": 98426957,
+      "chrstop": 98432852,
+      "exoncount": 2
+     }
+    ],
+    "geneweight": 433,
+    "summary": "Predicted to enable potassium channel regulator activity. Predicted to be involved in action potential; potassium ion transmembrane transport; and regulation of potassium ion transmembrane transport. Predicted to be located in perinuclear region of cytoplasm and plasma membrane. Predicted to be part of voltage-gated potassium channel complex. Predicted to be active in membrane. Implicated in essential tremor. [provided by Alliance of Genome Resources, Jun 2026]",
+    "chrsort": "08",
+    "chrstart": 98426957,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000008.11",
+      "chrstart": 98426957,
+      "chrstop": 98432852
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060932.1",
+      "chrstart": 99552415,
+      "chrstop": 99558310
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000008.11",
+      "chrstart": 98426957,
+      "chrstop": 98432852
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060932.1",
+      "chrstart": 99552415,
+      "chrstop": 99558310
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000008.11",
+      "chrstart": 98426957,
+      "chrstop": 98432852
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060932.1",
+      "chrstart": 99552415,
+      "chrstop": 99558310
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000008.11",
+      "chrstart": 98426957,
+      "chrstop": 98432852
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060932.1",
+      "chrstart": 99552415,
+      "chrstop": 99558310
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000008.11",
+      "chrstart": 98426957,
+      "chrstop": 98432852
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060932.1",
+      "chrstart": 99552415,
+      "chrstop": 99558310
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000008.11",
+      "chrstart": 98426957,
+      "chrstop": 98432852
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000008.10",
+      "chrstart": 99439185,
+      "chrstop": 99445080
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000008.10",
+      "chrstart": 99439185,
+      "chrstop": 99445080
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000008.10",
+      "chrstart": 99439249,
+      "chrstop": 99443024
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000140.1",
+      "chrstart": 94643400,
+      "chrstop": 94646267
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018919.2",
+      "chrstart": 99479871,
+      "chrstop": 99483646
+     }
+    ]
+   }
+  }
+ }
+}

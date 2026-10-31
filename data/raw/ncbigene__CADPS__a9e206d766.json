@@ -1,0 +1,44 @@
+{
+ "source": "ncbigene",
+ "query": "CADPS",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "gene",
+  "term": "CADPS[sym] AND 9606[taxid]",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:42:07+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "1",
+   "retmax": "1",
+   "retstart": "0",
+   "idlist": [
+    "8618"
+   ],
+   "translationset": [],
+   "translationstack": [
+    {
+     "term": "CADPS[sym]",
+     "field": "sym",
+     "count": "966",
+     "explode": "N"
+    },
+    {
+     "term": "9606[taxid]",
+     "field": "taxid",
+     "count": "360596",
+     "explode": "N"
+    },
+    "AND"
+   ],
+   "querytranslation": "CADPS[sym] AND 9606[taxid]"
+  }
+ }
+}

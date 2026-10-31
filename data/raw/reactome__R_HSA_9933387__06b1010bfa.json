@@ -1,0 +1,303 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9933387",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9933387",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:55:29+00:00",
+ "response": {
+  "dbId": 9933387,
+  "displayName": "RORA,B,C and NR1D1 (REV-ERBA) regulate gene expression",
+  "stId": "R-HSA-9933387",
+  "stIdVersion": "R-HSA-9933387.1",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "RORA,B,C and NR1D1 (REV-ERBA) regulate gene expression"
+  ],
+  "releaseDate": "2025-03-26",
+  "speciesName": "Homo sapiens",
+  "literatureReference": [
+   {
+    "dbId": 9933179,
+    "displayName": "Metabolic and chemical architecture of the mammalian circadian clock",
+    "title": "Metabolic and chemical architecture of the mammalian circadian clock",
+    "journal": "Cell Chem Biol",
+    "pages": "1033-1052",
+    "pubMedIdentifier": 37708890,
+    "volume": 30,
+    "year": 2023,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/37708890",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9933177,
+    "displayName": "Circadian clock genes and the transcriptional architecture of the clock mechanism",
+    "title": "Circadian clock genes and the transcriptional architecture of the clock mechanism",
+    "journal": "J Mol Endocrinol",
+    "pages": "R93-R102",
+    "pubMedIdentifier": 31557726,
+    "volume": 63,
+    "year": 2019,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31557726",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9933551,
+    "displayName": "The nuclear receptors Rev-erbs and RORs integrate circadian rhythms and metabolism",
+    "title": "The nuclear receptors Rev-erbs and RORs integrate circadian rhythms and metabolism",
+    "journal": "Diab Vasc Dis Res",
+    "pages": "82-8",
+    "pubMedIdentifier": 18537094,
+    "volume": 5,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18537094",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9933384,
+    "displayName": "Both Retinoid-related orphan receptors (RORA, RORB, RORC) an...",
+    "text": "Both Retinoid-related orphan receptors (RORA, RORB, RORC) and the heme-binding nuclear receptor NR1D1 (REV-ERBA) bind ROR response elements (RREs, ROREs) in DNA (reviewed in Duez and Staels 2008, Cox and Takahashi 2019, Laothamatas et al. 2023). RORs and NR1D1 produce opposite effects, however: RORs recruit coactivators such as EP300 (p300) and PPARGC1A to activate transcription; NR1D1 recruits the corepressor NCOR1 and the histone deacetylase HDAC3 to repress transcription.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "previousReviewStatus": {
+   "dbId": 9821383,
+   "displayName": "three stars",
+   "definition": "internally reviewed",
+   "name": [
+    "three stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 9931531,
+    "displayName": "RORA,C and coactivators bind the NR1D1 (REV-ERBA) gene",
+    "stId": "R-HSA-9931531",
+    "stIdVersion": "R-HSA-9931531.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "RORA,C and coactivators bind the NR1D1 (REV-ERBA) gene"
+    ],
+    "releaseDate": "2025-03-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9933387
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5663265,
+    "displayName": "NR1D1 (REV-ERBA) binds heme, the NR1D1 gene, and recruits corepressors",
+    "stId": "R-HSA-5663265",
+    "stIdVersion": "R-HSA-5663265.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NR1D1 (REV-ERBA) binds heme, the NR1D1 gene, and recruits corepressors"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9933387
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9934780,
+    "displayName": "RORA,C positively regulate expression and NR1D1 negatively regulates expression of NR1D1 (REV-ERBA)",
+    "stId": "R-HSA-9934780",
+    "stIdVersion": "R-HSA-9934780.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "RORA,C positively regulate expression and NR1D1 negatively regulates expression of NR1D1 (REV-ERBA)"
+    ],
+    "releaseDate": "2025-03-26",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9933387
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 5663264,
+    "displayName": "RORA and EP300 bind the Carnitine O-palmitoyltransferase 1 (CPT1A) gene",
+    "stId": "R-HSA-5663264",
+    "stIdVersion": "R-HSA-5663264.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "RORA and EP300 bind the Carnitine O-palmitoyltransferase 1 (CPT1A) gene"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9933387
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1801587,
+    "displayName": "Expression of Carnitine O-palmitoyltransferase 1 CPT1A",
+    "stId": "R-HSA-1801587",
+    "stIdVersion": "R-HSA-1801587.9",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Carnitine O-palmitoyltransferase 1 CPT1A"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9933387
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 5663293,
+    "displayName": "RORA and EP300 bind the SREBF1 (SREBP1) gene",
+    "stId": "R-HSA-5663293",
+    "stIdVersion": "R-HSA-5663293.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "RORA and EP300 bind the SREBF1 (SREBP1) gene"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9933387
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1368081,
+    "displayName": "Expression of SREBF1 (SREBP1)",
+    "stId": "R-HSA-1368081",
+    "stIdVersion": "R-HSA-1368081.9",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of SREBF1 (SREBP1)"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9933387
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 5663252,
+    "displayName": "NR1D1 (REV-ERBA) binds heme, the ELOVL3 gene, and recruits corepressors",
+    "stId": "R-HSA-5663252",
+    "stIdVersion": "R-HSA-5663252.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "NR1D1 (REV-ERBA) binds heme, the ELOVL3 gene, and recruits corepressors"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9933387
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5663258,
+    "displayName": "NR1D1 (REV-ERBA) binds heme, the PPARGC1A gene, and recruits corepressors",
+    "stId": "R-HSA-5663258",
+    "stIdVersion": "R-HSA-5663258.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NR1D1 (REV-ERBA) binds heme, the PPARGC1A gene, and recruits corepressors"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9933387
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

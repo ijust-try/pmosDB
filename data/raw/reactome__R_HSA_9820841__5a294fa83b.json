@@ -1,0 +1,351 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9820841",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9820841",
+ "params": null,
+ "retrieved_at": "2026-10-31T06:02:01+00:00",
+ "response": {
+  "dbId": 9820841,
+  "displayName": "M-decay: degradation of maternal mRNAs by maternally stored factors",
+  "stId": "R-HSA-9820841",
+  "stIdVersion": "R-HSA-9820841.1",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "M-decay: degradation of maternal mRNAs by maternally stored factors"
+  ],
+  "releaseDate": "2023-09-13",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 9773524,
+   "displayName": "maternal-to-zygotic transition of gene expression",
+   "accession": "0160021",
+   "databaseName": "GO",
+   "definition": "\"Any process that modulates the frequency, rate or extent of gene expression by which developmental control passes from the maternal genome to the zygotic genome.\" [PMID:19204068, PMID:32558204]",
+   "name": "maternal-to-zygotic transition of gene expression",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0160021",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 9820945,
+    "displayName": "Dynamics and clinical relevance of maternal mRNA clearance during the oocyte-to-embryo transition in humans",
+    "title": "Dynamics and clinical relevance of maternal mRNA clearance during the oocyte-to-embryo transition in humans",
+    "journal": "Nat Commun",
+    "pages": "4917",
+    "pubMedIdentifier": 33004802,
+    "volume": 11,
+    "year": 2020,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/33004802",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9819209,
+    "displayName": "CNOT6L couples the selective degradation of maternal transcripts to meiotic cell cycle progression in mouse oocyte",
+    "title": "CNOT6L couples the selective degradation of maternal transcripts to meiotic cell cycle progression in mouse oocyte",
+    "journal": "EMBO J",
+    "pubMedIdentifier": 30478191,
+    "volume": 37,
+    "year": 2018,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30478191",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9819240,
+    "displayName": "Chromatin Modification and Global Transcriptional Silencing in the Oocyte Mediated by the mRNA Decay Activator ZFP36L2",
+    "title": "Chromatin Modification and Global Transcriptional Silencing in the Oocyte Mediated by the mRNA Decay Activator ZFP36L2",
+    "journal": "Dev Cell",
+    "pages": "392-402.e7",
+    "pubMedIdentifier": 29408237,
+    "volume": 44,
+    "year": 2018,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29408237",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9817712,
+    "displayName": "BTG4 is a meiotic cell cycle-coupled maternal-zygotic-transition licensing factor in oocytes",
+    "title": "BTG4 is a meiotic cell cycle-coupled maternal-zygotic-transition licensing factor in oocytes",
+    "journal": "Nat Struct Mol Biol",
+    "pages": "387-94",
+    "pubMedIdentifier": 27065194,
+    "volume": 23,
+    "year": 2016,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27065194",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9819212,
+    "displayName": "The BTG4 and CAF1 complex prevents the spontaneous activation of eggs by deadenylating maternal mRNAs",
+    "title": "The BTG4 and CAF1 complex prevents the spontaneous activation of eggs by deadenylating maternal mRNAs",
+    "journal": "Open Biol",
+    "pubMedIdentifier": 27605379,
+    "volume": 6,
+    "year": 2016,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27605379",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9819228,
+    "displayName": "BTG4 is a key regulator for maternal mRNA clearance during mouse early embryogenesis",
+    "title": "BTG4 is a key regulator for maternal mRNA clearance during mouse early embryogenesis",
+    "journal": "J Mol Cell Biol",
+    "pages": "366-8",
+    "pubMedIdentifier": 27190313,
+    "volume": 8,
+    "year": 2016,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/27190313",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9823271,
+    "displayName": "Five questions toward mRNA degradation in oocytes and preimplantation embryos: when, who, to whom, how, and why?†",
+    "title": "Five questions toward mRNA degradation in oocytes and preimplantation embryos: when, who, to whom, how, and why?†",
+    "journal": "Biol Reprod",
+    "pages": "62-75",
+    "pubMedIdentifier": 35098307,
+    "volume": 107,
+    "year": 2022,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/35098307",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9820897,
+    "displayName": "Argonaute 2 is a key regulator of maternal mRNA degradation in mouse early embryos",
+    "title": "Argonaute 2 is a key regulator of maternal mRNA degradation in mouse early embryos",
+    "journal": "Cell Death Discov",
+    "pages": "133",
+    "pubMedIdentifier": 33298889,
+    "volume": 6,
+    "year": 2020,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/33298889",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9820818,
+    "displayName": "PABPN1L mediates cytoplasmic mRNA decay as a placeholder during the maternal-to-zygotic transition",
+    "title": "PABPN1L mediates cytoplasmic mRNA decay as a placeholder during the maternal-to-zygotic transition",
+    "journal": "EMBO Rep",
+    "pages": "e49956",
+    "pubMedIdentifier": 32558204,
+    "volume": 21,
+    "year": 2020,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32558204",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9820987,
+    "displayName": "Maternal transcripts are transcribed from the maternal genom...",
+    "text": "Maternal transcripts are transcribed from the maternal genome and accumulate in the oocyte during oogenesis. A subset of these maternal transcripts is degraded during later development of the unfertilized oocyte and after fertilization of the oocyte. Maternal decay of maternal transcripts (M-decay, reviewed in Jian and Fan 2022) refers to the degradation of maternal transcripts by maternally provided factors such as ZFP36L2 (inferred from the mouse homolog in Chousal et al. 2018, Sha et al. 2018), BTG4 (inferred from the mouse homolog in Liu et al. 2016, Yu et al. 2016, Pasternak et al. 2016, Zhao et al. 2020), and AGO2 (inferred from the mouse homolog in Zhang et al. 2020). ZFP36L2 acting before fertilization and BTG4 acting after fertilization recruit the CCR4-NOT deadenylation complex to the mRNA to initiate degradation. AGO2 is primed with endogenous small interfering RNAs (endosiRNAs) produced from double-stranded RNAs that originate from specific loci. The resulting AGO2:endosiRNA complexes bind and hydrolyze complementary maternal mRNAs. Similar patterns of mRNA decay are observed in human and mouse zygotes (Sha et al. 2020).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 9819200,
+    "displayName": "ZFP36L2 binds CNOT6L of CCR4-CNOT complex and an AU-rich element in mRNA",
+    "stId": "R-HSA-9819200",
+    "stIdVersion": "R-HSA-9819200.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "ZFP36L2 binds CNOT6L of CCR4-CNOT complex and an AU-rich element in mRNA"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9820841
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9822335,
+    "displayName": "CCR4-NOT(CNOT6L) deadenylates mRNA in CCR4-NOT(CNOT6L):ZFP36L2:mRNA",
+    "stId": "R-HSA-9822335",
+    "stIdVersion": "R-HSA-9822335.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "CCR4-NOT(CNOT6L) deadenylates mRNA in CCR4-NOT(CNOT6L):ZFP36L2:mRNA"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9820841
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9817692,
+    "displayName": "BTG4 binds CNOT7 of the CCR4-NOT complex, PABPN1L, and eIF4E of the mRNP",
+    "stId": "R-HSA-9817692",
+    "stIdVersion": "R-HSA-9817692.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "BTG4 binds CNOT7 of the CCR4-NOT complex, PABPN1L, and eIF4E of the mRNP"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9820841
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9822311,
+    "displayName": "CCR4-NOT deadenylates mRNA in CCR4-NOT:BTG4:PABPN1L:mRNP",
+    "stId": "R-HSA-9822311",
+    "stIdVersion": "R-HSA-9822311.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "CCR4-NOT deadenylates mRNA in CCR4-NOT:BTG4:PABPN1L:mRNP"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9820841
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9820840,
+    "displayName": "DICER1 hydrolyzes maternal mRNA:lncRNA to yield endosiRNA",
+    "stId": "R-HSA-9820840",
+    "stIdVersion": "R-HSA-9820840.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "DICER1 hydrolyzes maternal mRNA:lncRNA to yield endosiRNA"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9820841
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9820853,
+    "displayName": "AGO2 binds maternal endosiRNA",
+    "stId": "R-HSA-9820853",
+    "stIdVersion": "R-HSA-9820853.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "AGO2 binds maternal endosiRNA"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9820841
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9820842,
+    "displayName": "AGO2:endosiRNA hydrolyzes maternal mRNA in the zygote",
+    "stId": "R-HSA-9820842",
+    "stIdVersion": "R-HSA-9820842.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "AGO2:endosiRNA hydrolyzes maternal mRNA in the zygote"
+    ],
+    "releaseDate": "2023-09-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9820841
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

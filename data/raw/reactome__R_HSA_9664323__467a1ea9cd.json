@@ -1,0 +1,589 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9664323",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9664323",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:40:53+00:00",
+ "response": {
+  "dbId": 9664323,
+  "displayName": "FCGR3A-mediated IL10 synthesis",
+  "stId": "R-HSA-9664323",
+  "stIdVersion": "R-HSA-9664323.4",
+  "isInDisease": true,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "FCGR3A-mediated IL10 synthesis"
+  ],
+  "releaseDate": "2020-03-17",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12061051,
+    "displayName": "Mondo:0005446",
+    "databaseName": "Mondo",
+    "identifier": "0005446",
+    "url": "https://monarchinitiative.org/MONDO:0005446",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "disease": [
+   {
+    "dbId": 9674660,
+    "displayName": "cutaneous leishmaniasis",
+    "databaseName": "DOID",
+    "definition": "A leishmaniasis that involves skin infection caused by Leishmania species, resulting in one or more cutaneous lesions.",
+    "identifier": "9111",
+    "name": [
+     "cutaneous leishmaniasis"
+    ],
+    "synonym": [
+     "Asian Desert Cutaneous Leishmaniasis",
+     "Leproid leishmaniasis",
+     "diffuse cutaneous leishmaniasis"
+    ],
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/doid/terms?obo_id=DOID:9111",
+    "className": "Disease",
+    "schemaClass": "Disease"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 258635,
+   "displayName": "negative regulation of inflammatory response to antigenic stimulus",
+   "accession": "0002862",
+   "databaseName": "GO",
+   "definition": "\"Any process that stops, prevents, or reduces the frequency, rate, or extent of an inflammatory response to an antigenic stimulus.\" [GOC:add]",
+   "name": "negative regulation of inflammatory response to antigenic stimulus",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0002862",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 9664347,
+    "displayName": "Interleukin-10 therapy--review of a new approach",
+    "title": "Interleukin-10 therapy--review of a new approach",
+    "journal": "Pharmacol. Rev.",
+    "pages": "241-69",
+    "pubMedIdentifier": 12773629,
+    "volume": 55,
+    "year": 2003,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12773629",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9664321,
+    "displayName": "Fc gamma receptor-TLR cross-talk elicits pro-inflammatory cytokine production by human M2 macrophages",
+    "title": "Fc gamma receptor-TLR cross-talk elicits pro-inflammatory cytokine production by human M2 macrophages",
+    "journal": "Nat Commun",
+    "pages": "5444",
+    "pubMedIdentifier": 25392121,
+    "volume": 5,
+    "year": 2014,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25392121",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9664259,
+    "displayName": "IgG1 is pathogenic in Leishmania mexicana infection",
+    "title": "IgG1 is pathogenic in Leishmania mexicana infection",
+    "journal": "J. Immunol.",
+    "pages": "6939-46",
+    "pubMedIdentifier": 21037092,
+    "volume": 185,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21037092",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9664318,
+    "displayName": "IL-10 Production in Macrophages Is Regulated by a TLR-Driven CREB-Mediated Mechanism That Is Linked to Genes Involved in Cell Metabolism",
+    "title": "IL-10 Production in Macrophages Is Regulated by a TLR-Driven CREB-Mediated Mechanism That Is Linked to Genes Involved in Cell Metabolism",
+    "journal": "J. Immunol.",
+    "pages": "1218-32",
+    "pubMedIdentifier": 26116503,
+    "volume": 195,
+    "year": 2015,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26116503",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "relatedSpecies": [
+   {
+    "dbId": 9658193,
+    "displayName": "Leishmania major",
+    "name": [
+     "Leishmania major"
+    ],
+    "taxId": "5664",
+    "abbreviation": "LMA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9664336,
+    "displayName": "Interleukin 10 (IL-10) is an important immunoregulatory cyto...",
+    "text": "Interleukin 10 (IL-10) is an important immunoregulatory cytokine produced by many cell populations; in macrophages it is induced after the stimulation of TLRs, Fcγ receptors or by the TLR-FcγR crosstalk (Vogelpoel et al. 2014 & Saninet al. 2015). Classically, its function is considered to be the limitation and termination of inflammatory responses and the regulation of differentiation of several immune cells (Asadullah et al. 2003). There is increasing evidence of the role of IL-10 in parasite infection outcomes either as a protective or a pathological mediator (Asadullah et al. 2003). In the context of the parasitic disease cutaneous leishmaniasis, Leishmania amastigotes opsonized by IgG induce IL-10 response through FcγRs, which in turn supresses the killing mechanisms in phagocytic cells. (Chu et al. 2010).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2023-03-29",
+  "hasEvent": [
+   {
+    "dbId": 9664397,
+    "displayName": "IgG binds LPG1G2 in the amastigote form of Leishmania",
+    "stId": "R-HSA-9664397",
+    "stIdVersion": "R-HSA-9664397.2",
+    "isInDisease": true,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "IgG binds LPG1G2 in the amastigote form of Leishmania"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9664285,
+    "displayName": "IgG binds the surface of the amastigote form of Leishmania",
+    "stId": "R-HSA-9664285",
+    "stIdVersion": "R-HSA-9664285.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IgG binds the surface of the amastigote form of Leishmania"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9664268,
+    "displayName": "Opsonized leishmania amastigote binds FCGR3",
+    "stId": "R-HSA-9664268",
+    "stIdVersion": "R-HSA-9664268.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Opsonized leishmania amastigote binds FCGR3"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9664275,
+    "displayName": "Src phosphorylates CD3 dimers in IgG:Lma antigens:FCGR3A:CD3 dimers",
+    "stId": "R-HSA-9664275",
+    "stIdVersion": "R-HSA-9664275.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Src phosphorylates CD3 dimers in IgG:Lma antigens:FCGR3A:CD3 dimers",
+     "Sequestering and phosphorylation FCGR3A in lipid rafts"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9664273,
+    "displayName": "SYK binds IgG:Lma antigens:FCGR3A:p-CD3 dimers",
+    "stId": "R-HSA-9664273",
+    "stIdVersion": "R-HSA-9664273.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SYK binds IgG:Lma antigens:FCGR3A:p-CD3 dimers",
+     "Recruitment of SYK to phosphorylated ITAM motifs in FCGR3A"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9664261,
+    "displayName": "Src phosphorylate SYK in IgG:Leishmania surface:p-FCGR3A:SYK",
+    "stId": "R-HSA-9664261",
+    "stIdVersion": "R-HSA-9664261.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Src phosphorylate SYK in IgG:Leishmania surface:p-FCGR3A:SYK",
+     "Phosphorylation of SYK attached to FCGR3A by Src kinases"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9664270,
+    "displayName": "Recruitment of PLCgamma to membrane due to FCGR3A effect",
+    "stId": "R-HSA-9664270",
+    "stIdVersion": "R-HSA-9664270.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Recruitment of PLCgamma to membrane due to FCGR3A effect"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9664278,
+    "displayName": "Phosphorylation and activation of PLCG due to FCGR3A effect",
+    "stId": "R-HSA-9664278",
+    "stIdVersion": "R-HSA-9664278.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation and activation of PLCG due to FCGR3A effect"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9664271,
+    "displayName": "Release of PLCG from FCGR3A",
+    "stId": "R-HSA-9664271",
+    "stIdVersion": "R-HSA-9664271.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Release of PLCG from FCGR3A"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 202407,
+    "displayName": "PLC-gamma1 hydrolyses PIP2",
+    "stId": "R-HSA-202407",
+    "stIdVersion": "R-HSA-202407.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PLC-gamma1 hydrolyses PIP2"
+    ],
+    "releaseDate": "2008-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 169680,
+    "displayName": "IP3 binds to the IP3 receptor, opening the endoplasmic reticulum Ca2+ channel",
+    "stId": "R-HSA-169680",
+    "stIdVersion": "R-HSA-169680.6",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "IP3 binds to the IP3 receptor, opening the endoplasmic reticulum Ca2+ channel"
+    ],
+    "releaseDate": "2008-12-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 169683,
+    "displayName": "IP3R:I(1,4,5)P3 tetramer transports Ca2+ from ER lumen to cytosol",
+    "stId": "R-HSA-169683",
+    "stIdVersion": "R-HSA-169683.8",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "IP3R:I(1,4,5)P3 tetramer transports Ca2+ from ER lumen to cytosol",
+     "Release of calcium from intracellular stores by IP3 receptor activation"
+    ],
+    "releaseDate": "2008-12-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 74448,
+    "displayName": "Calcium binds calmodulin",
+    "stId": "R-HSA-74448",
+    "stIdVersion": "R-HSA-74448.9",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Calcium binds calmodulin"
+    ],
+    "releaseDate": "2008-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 111930,
+    "displayName": "Adenylate cyclase produces cAMP",
+    "stId": "R-HSA-111930",
+    "stIdVersion": "R-HSA-111930.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Adenylate cyclase produces cAMP"
+    ],
+    "releaseDate": "2008-12-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8951727,
+    "displayName": "cAMP binds PKA tetramer",
+    "stId": "R-HSA-8951727",
+    "stIdVersion": "R-HSA-8951727.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "cAMP binds PKA tetramer"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 111925,
+    "displayName": "cAMP induces dissociation of inactive PKA tetramers",
+    "stId": "R-HSA-111925",
+    "stIdVersion": "R-HSA-111925.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "cAMP induces dissociation of inactive PKA tetramers"
+    ],
+    "releaseDate": "2008-12-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 111924,
+    "displayName": "PKA catalytic subunit translocates to the nucleus",
+    "stId": "R-HSA-111924",
+    "stIdVersion": "R-HSA-111924.5",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "PKA catalytic subunit translocates to the nucleus"
+    ],
+    "releaseDate": "2008-12-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 111919,
+    "displayName": "PKA phosphorylates CREB1",
+    "stId": "R-HSA-111919",
+    "stIdVersion": "R-HSA-111919.6",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "PKA phosphorylates CREB1",
+     "PRKACA,(PRKACB,PRKACG,PRKX) phosphorylates CREB1"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9664332,
+    "displayName": "CREB1 binds IL-10 promoter",
+    "stId": "R-HSA-9664332",
+    "stIdVersion": "R-HSA-9664332.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CREB1 binds IL-10 promoter"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9664346,
+    "displayName": "IL10 gene produces IL10 protein",
+    "stId": "R-HSA-9664346",
+    "stIdVersion": "R-HSA-9664346.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IL10 gene produces IL10 protein"
+    ],
+    "releaseDate": "2020-03-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9664323
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

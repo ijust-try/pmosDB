@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "MMP8",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "4317",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:53:29+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "4317"
+   ],
+   "4317": {
+    "uid": "4317",
+    "name": "MMP8",
+    "description": "matrix metallopeptidase 8",
+    "status": "",
+    "currentid": "",
+    "chromosome": "11",
+    "geneticsource": "genomic",
+    "maplocation": "11q22.2",
+    "otheraliases": "CLG1, HNC, MMP-8, PMNL-CL",
+    "otherdesignations": "neutrophil collagenase|PMN leukocyte collagenase|PMNL collagenase|collagenase 2|matrix metalloproteinase 8 (neutrophil collagenase)|matrix metalloproteinase-8",
+    "nomenclaturesymbol": "MMP8",
+    "nomenclaturename": "matrix metallopeptidase 8",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "120355"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "11",
+      "chraccver": "NC_000011.10",
+      "chrstart": 102724953,
+      "chrstop": 102711795,
+      "exoncount": 12
+     }
+    ],
+    "geneweight": 23864,
+    "summary": "This gene encodes a member of the matrix metalloproteinase (MMP) family of proteins. These proteins are involved in the breakdown of extracellular matrix in embryonic development, reproduction, and tissue remodeling, as well as in disease processes, such as arthritis and metastasis. Proteolysis at different sites on this protein results in multiple active forms of the enzyme with distinct N-termini. This protein functions in the degradation of type I, II and III collagens. The gene is part of a cluster of MMP genes which localize to chromosome 11q22.3. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Jan 2015]",
+    "chrsort": "11",
+    "chrstart": 102711795,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000011.10",
+      "chrstart": 102724953,
+      "chrstop": 102711795
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060935.1",
+      "chrstart": 102727114,
+      "chrstop": 102713965
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000011.10",
+      "chrstart": 102724953,
+      "chrstop": 102711795
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060935.1",
+      "chrstart": 102727114,
+      "chrstop": 102713965
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000011.10",
+      "chrstart": 102724953,
+      "chrstop": 102711795
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060935.1",
+      "chrstart": 102727114,
+      "chrstop": 102713965
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000011.10",
+      "chrstart": 102724953,
+      "chrstop": 102711795
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060935.1",
+      "chrstart": 102727114,
+      "chrstop": 102713965
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000011.10",
+      "chrstart": 102724953,
+      "chrstop": 102711795
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060935.1",
+      "chrstart": 102727114,
+      "chrstop": 102713965
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000011.10",
+      "chrstart": 102724966,
+      "chrstop": 102711795
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000011.9",
+      "chrstart": 102595684,
+      "chrstop": 102582526
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000011.9",
+      "chrstart": 102595684,
+      "chrstop": 102582526
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000011.9",
+      "chrstart": 102595733,
+      "chrstop": 102582525
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000143.1",
+      "chrstart": 98522625,
+      "chrstop": 98509471
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018922.2",
+      "chrstart": 102478647,
+      "chrstop": 102465497
+     }
+    ]
+   }
+  }
+ }
+}

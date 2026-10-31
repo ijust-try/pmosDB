@@ -1,0 +1,120 @@
+{
+ "source": "uniprot",
+ "query": "KLF13",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:KLF13) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:51:56+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q9Y2Y9",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Krueppel-like factor 13"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Basic transcription element-binding protein 3"
+       },
+       "shortNames": [
+        {
+         "value": "BTE-binding protein 3"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Novel Sp1-like zinc finger transcription factor 1"
+       }
+      },
+      {
+       "fullName": {
+        "value": "RANTES factor of late activated T-lymphocytes 1"
+       },
+       "shortNames": [
+        {
+         "value": "RFLAT-1"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Transcription factor BTEB3"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Transcription factor NSLP1"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:13672"
+        }
+       ],
+       "value": "KLF13"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q9JJZ6"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11477107"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17513757"
+         }
+        ],
+        "value": "Transcription factor that activates expression from GC-rich minimal promoter regions, including genes in the cells of the erythroid lineage (By similarity). Represses transcription by binding to the BTE site, a GC-rich DNA element, in competition with the activator SP1. It also represses transcription by interacting with the corepressor Sin3A and HDAC1 (PubMed:11477107). Activates RANTES and CCL5 expression in T-cells (PubMed:17513757)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "51621",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000012DEDC"
+    }
+   }
+  ]
+ }
+}

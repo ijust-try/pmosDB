@@ -1,0 +1,110 @@
+{
+ "source": "uniprot",
+ "query": "TRIB1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:TRIB1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T06:01:05+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q96RU8",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Tribbles homolog 1"
+      },
+      "shortNames": [
+       {
+        "value": "TRB-1"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "G protein-coupled receptor-induced gene 2 protein"
+       },
+       "shortNames": [
+        {
+         "value": "GIG-2"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "SKIP1"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:16891"
+        }
+       ],
+       "value": "TRIB1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q8K4K4"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15299019"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "26455797"
+         },
+         {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "27041596"
+         }
+        ],
+        "value": "Adapter protein involved in protein degradation by interacting with COP1 ubiquitin ligase (PubMed:27041596). The COP1-binding motif is masked by autoinhibitory interactions with the protein kinase domain (PubMed:26455797). Serves to alter COP1 substrate specificity by directing the activity of COP1 toward CEBPA (PubMed:27041596). Binds selectively the recognition sequence of CEBPA (PubMed:26455797). Regulates myeloid cell differentiation by altering the expression of CEBPA in a COP1-dependent manner (By similarity). Controls macrophage, eosinophil and neutrophil differentiation via the COP1-binding domain (By similarity). Interacts with MAPK kinases and regulates activation of MAP kinases, but has no kinase activity (PubMed:15299019, PubMed:26455797)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "10221",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00000717B2"
+    }
+   }
+  ]
+ }
+}

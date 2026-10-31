@@ -7,7 +7,18 @@ import { ENTITY_META } from '../../utils/entityMeta';
  * Row of links to entity dossiers, or an honest "not yet linked" message.
  * Long lists collapse to `max` items with a toggle.
  */
-export function EntityChips({ entities, empty, max = 16 }: { entities: Entity[]; empty: string; max?: number }) {
+export function EntityChips({
+  entities,
+  empty,
+  max = 16,
+  badge,
+}: {
+  entities: Entity[];
+  empty: string;
+  max?: number;
+  /** Optional short label shown inside each chip, e.g. an evidence score. */
+  badge?: (e: Entity) => string | null;
+}) {
   const [expanded, setExpanded] = useState(false);
   if (entities.length === 0) return <p className="text-[13px] italic text-ink-faint">{empty}</p>;
   const unique = [...new Map(entities.map((e) => [e.id, e])).values()];
@@ -26,6 +37,7 @@ export function EntityChips({ entities, empty, max = 16 }: { entities: Entity[];
               >
                 <Icon size={13} style={{ color: m.color }} aria-hidden />
                 {e.name}
+                {badge?.(e) ? <span className="font-mono text-[11px] font-medium text-ink-mute">{badge(e)}</span> : null}
               </Link>
             </li>
           );

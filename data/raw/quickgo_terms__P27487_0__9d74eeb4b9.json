@@ -1,0 +1,2755 @@
+{
+ "source": "quickgo_terms",
+ "query": "P27487_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0001618,GO:0001666,GO:0002020,GO:0004252,GO:0005102,GO:0005515,GO:0005576,GO:0005765,GO:0005886,GO:0005925,GO:0006508,GO:0008236,GO:0008239,GO:0008240,GO:0008284,GO:0009986,GO:0010716,GO:0016020,GO:0016324,GO:0016486,GO:0019065,GO:0030027,GO:0030139,GO:0031258,GO:0031295,GO:0033632,GO:0042110,GO:0042802,GO:0042803,GO:0043542,GO:0045121,GO:0045499,GO:0046581,GO:0046718,GO:0046813,GO:0050919,GO:0061025,GO:0070062,GO:0070161,GO:0090024,GO:0120116",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:46:15+00:00",
+ "response": {
+  "numberOfHits": 41,
+  "results": [
+   {
+    "id": "GO:0002020",
+    "isObsolete": false,
+    "name": "protease binding",
+    "definition": {
+     "text": "Binding to a protease or a peptidase."
+    },
+    "children": [
+     {
+      "id": "GO:0089720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990381",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0016020",
+    "isObsolete": false,
+    "name": "membrane",
+    "definition": {
+     "text": "A lipid bilayer along with all the proteins and protein complexes embedded in it and attached to it.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "integral component of membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral to membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "membrane region",
+      "type": "narrow"
+     },
+     {
+      "name": "region of membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "transmembrane",
+      "type": "related"
+     },
+     {
+      "name": "whole membrane",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0140549",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019867",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042175",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031090",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005628",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770114",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032594",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019898",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098590",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062137",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097478",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098796",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098552",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070056",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098857",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005905",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048475",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034357",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005642",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005886",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036362",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043542",
+    "isObsolete": false,
+    "name": "endothelial cell migration",
+    "definition": {
+     "text": "The orderly movement of an endothelial cell into the extracellular matrix to form an endothelium."
+    },
+    "children": [
+     {
+      "id": "GO:1904977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043534",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010596",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0035767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010595",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0010594",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005576",
+    "isObsolete": false,
+    "name": "extracellular region",
+    "definition": {
+     "text": "The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite."
+    },
+    "comment": "Note that this term is intended to annotate gene products that are not attached to the cell surface. For gene products at the cell surface, consider annotating to external side of plasma membrane ; GO:0009897.",
+    "synonyms": [
+     {
+      "name": "extracellular",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030312",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043264",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043230",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072562",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035182",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035183",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043245",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0065010",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043083",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006860",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098595",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903561",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140392",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006858",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070701",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036117",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048046",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900116",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099544",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0085036",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900115",
+      "relation": "occurs_in"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030139",
+    "isObsolete": false,
+    "name": "endocytic vesicle",
+    "definition": {
+     "text": "A membrane-bounded intracellular vesicle formed by invagination of the plasma membrane around an extracellular substance. Endocytic vesicles fuse with early endosomes to deliver the cargo for further sorting.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "19696797"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "endocytotic transport vesicle",
+      "type": "exact"
+     },
+     {
+      "name": "endocytotic vesicle",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030128",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043659",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032195",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071682",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045335",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045334",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030666",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042110",
+    "isObsolete": false,
+    "name": "T cell activation",
+    "definition": {
+     "text": "The change in morphology and behavior of a mature or immature T cell resulting from exposure to a mitogen, cytokine, chemokine, cellular ligand, or an antigen for which it is specific.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0781735149"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "T-cell activation",
+      "type": "exact"
+     },
+     {
+      "name": "T lymphocyte activation",
+      "type": "exact"
+     },
+     {
+      "name": "T-lymphocyte activation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0042098",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050863",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0050868",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0001768",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002286",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050870",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0046629",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046631",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035709",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030217",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005765",
+    "isObsolete": false,
+    "name": "lysosomal membrane",
+    "definition": {
+     "text": "The lipid bilayer surrounding the lysosome and separating its contents from the cell cytoplasm."
+    },
+    "synonyms": [
+     {
+      "name": "lysosome membrane",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1902501",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061742",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098575",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0046611",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061474",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120281",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046610",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098574",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035577",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0101004",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036020",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0031258",
+    "isObsolete": false,
+    "name": "lamellipodium membrane",
+    "definition": {
+     "text": "The portion of the plasma membrane surrounding a lamellipodium."
+    },
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0031295",
+    "isObsolete": false,
+    "name": "T cell costimulation",
+    "definition": {
+     "text": "The process of providing, via surface-bound receptor-ligand pairs, a second, antigen-independent, signal in addition to that provided by the T cell receptor to augment T cell activation.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0781735149"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "T cell co-stimulation",
+      "type": "exact"
+     },
+     {
+      "name": "T-cell co-stimulation",
+      "type": "exact"
+     },
+     {
+      "name": "T-cell costimulation",
+      "type": "exact"
+     },
+     {
+      "name": "T lymphocyte costimulation",
+      "type": "exact"
+     },
+     {
+      "name": "T-lymphocyte costimulation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2000523",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0035783",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000524",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:2000525",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005886",
+    "isObsolete": false,
+    "name": "plasma membrane",
+    "definition": {
+     "text": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0716731363"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "bacterial inner membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "cell membrane",
+      "type": "exact"
+     },
+     {
+      "name": "cellular membrane",
+      "type": "exact"
+     },
+     {
+      "name": "cytoplasmic membrane",
+      "type": "exact"
+     },
+     {
+      "name": "inner endospore membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral component of plasma membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral to plasma membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "juxtamembrane",
+      "type": "broad"
+     },
+     {
+      "name": "plasmalemma",
+      "type": "exact"
+     },
+     {
+      "name": "plasma membrane lipid bilayer",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0097524",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033616",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0044862",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019897",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098953",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0044298",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042383",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046868",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032584",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009510",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000222",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097197",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001891",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001772",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098590",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030936",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009897",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009898",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032178",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030094",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031979",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099632",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042774",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0043113",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0033012",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031910",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016328",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031911",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990014",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009548",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070014",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098797",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031257",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031256",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098802",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033181",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044853",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001533",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033101",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009546",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042802",
+    "isObsolete": false,
+    "name": "identical protein binding",
+    "definition": {
+     "text": "Binding to an identical protein or proteins."
+    },
+    "synonyms": [
+     {
+      "name": "isoform-specific homophilic binding",
+      "type": "exact"
+     },
+     {
+      "name": "protein homopolymerization",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0042803",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042803",
+    "isObsolete": false,
+    "name": "protein homodimerization activity",
+    "definition": {
+     "text": "Binding to an identical protein to form a homodimer."
+    },
+    "synonyms": [
+     {
+      "name": "dimerization activity",
+      "type": "broad"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005515",
+    "isObsolete": false,
+    "name": "protein binding",
+    "definition": {
+     "text": "Binding to a protein."
+    },
+    "synonyms": [
+     {
+      "name": "glycoprotein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "protein amino acid binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031072",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140081",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032092",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010313",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043393",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0031720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990405",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051087",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001965",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005516",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990935",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001848",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032091",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046980",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043394",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001846",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051959",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019955",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005925",
+    "isObsolete": false,
+    "name": "focal adhesion",
+    "definition": {
+     "text": "A cell-substrate junction that anchors the cell to the extracellular matrix and that forms a point of termination of actin filaments. In insects focal adhesion has also been referred to as hemi-adherens junction (HAJ).",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0124325653"
+      },
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316208"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "10419689"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "12191915"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "15246682"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "1643657"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "16805308"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "19197329"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "23033047"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "26923917"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "28796323"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "8314002"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "adhesion plaque",
+      "type": "related"
+     },
+     {
+      "name": "connecting hemi-adherens junction",
+      "type": "exact"
+     },
+     {
+      "name": "focal contact",
+      "type": "exact"
+     },
+     {
+      "name": "HAJ",
+      "type": "exact"
+     },
+     {
+      "name": "hemi-adherens junction",
+      "type": "exact"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005102",
+    "isObsolete": false,
+    "name": "signaling receptor binding",
+    "definition": {
+     "text": "Binding to one or more specific sites on a receptor molecule, a macromolecule that undergoes combination with a hormone, neurotransmitter, drug or intracellular messenger to initiate a change in cell function.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "comment": "Where appropriate, also consider annotating to 'receptor agonist activity ; GO:0048018'.",
+    "synonyms": [
+     {
+      "name": "receptor-associated protein activity",
+      "type": "related"
+     },
+     {
+      "name": "receptor binding",
+      "type": "broad"
+     },
+     {
+      "name": "receptor ligand",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070851",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005115",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005159",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005117",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042975",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005113",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030215",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042615",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990890",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005121",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090722",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034190",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034987",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033130",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043125",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042608",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042287",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900121",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0048495",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035254",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990631",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005118",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030971",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039556",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005158",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039552",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005112",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033612",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050786",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042043",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042614",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097109",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046703",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030370",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042610",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030987",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038191",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005126",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005122",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005124",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990459",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046875",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001664",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017098",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050811",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990460",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900120",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0051427",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005176",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005178",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030156",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042609",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030027",
+    "isObsolete": false,
+    "name": "lamellipodium",
+    "definition": {
+     "text": "A thin sheetlike process extended by the leading edge of a migrating cell or extending cell process; contains a dense meshwork of actin filaments.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0031258",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990761",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061851",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0004252",
+    "isObsolete": false,
+    "name": "serine-type endopeptidase activity",
+    "definition": {
+     "text": "Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "https://www.ebi.ac.uk/merops/about/glossary.shtml#CATTYPE"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "blood coagulation factor activity",
+      "type": "related"
+     },
+     {
+      "name": "serine elastase activity",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1900004",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0004867",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1905370",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1900003",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1900005",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006508",
+    "isObsolete": false,
+    "name": "proteolysis",
+    "definition": {
+     "text": "The hydrolysis of proteins into smaller polypeptides and/or amino acids by cleavage of their peptide bonds."
+    },
+    "comment": "This term was intentionally placed under 'protein metabolic process ; GO:0019538' rather than 'protein catabolic process ; GO:0030163' to cover all processes centered on breaking peptide bonds, including those involved in protein processing.",
+    "synonyms": [
+     {
+      "name": "ATP-dependent proteolysis",
+      "type": "narrow"
+     },
+     {
+      "name": "peptidolysis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0033619",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002496",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110158",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0030162",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0016485",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045862",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0097264",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045861",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0016486",
+    "isObsolete": false,
+    "name": "peptide hormone processing",
+    "definition": {
+     "text": "The generation of a mature peptide hormone by posttranslational processing of a prohormone."
+    },
+    "children": [
+     {
+      "id": "GO:0060569",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0060568",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0007225",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034959",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034230",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030070",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120116",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034231",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060570",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0032455",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038004",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002003",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0061025",
+    "isObsolete": false,
+    "name": "membrane fusion",
+    "definition": {
+     "text": "The membrane organization process that joins two lipid bilayers to form a single membrane."
+    },
+    "synonyms": [
+     {
+      "name": "cellular membrane fusion",
+      "type": "exact"
+     },
+     {
+      "name": "single-organism membrane fusion",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0090174",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770123",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005484",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002078",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140523",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0016324",
+    "isObsolete": false,
+    "name": "apical plasma membrane",
+    "definition": {
+     "text": "The region of the plasma membrane located at the apical end of the cell."
+    },
+    "children": [
+     {
+      "id": "GO:0031526",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0046691",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098592",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098591",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120001",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120003",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0090024",
+    "isObsolete": false,
+    "name": "negative regulation of neutrophil chemotaxis",
+    "definition": {
+     "text": "Any process that decreases the frequency, rate, or extent of neutrophil chemotaxis. Neutrophil chemotaxis is the directed movement of a neutrophil cell, the most numerous polymorphonuclear leukocyte found in the blood, in response to an external stimulus, usually an infection or wounding."
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008284",
+    "isObsolete": false,
+    "name": "positive regulation of cell population proliferation",
+    "definition": {
+     "text": "Any process that activates or increases the rate or extent of cell proliferation."
+    },
+    "synonyms": [
+     {
+      "name": "activation of cell proliferation",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of cell proliferation",
+      "type": "related"
+     },
+     {
+      "name": "stimulation of cell proliferation",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of cell proliferation",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of cell proliferation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0072513",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002053",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048146",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904075",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071864",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905938",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000103",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060045",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071338",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060252",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000497",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902732",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070665",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061913",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038091",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000648",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000288",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000138",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035208",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070346",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033690",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050679",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000179",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901384",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048661",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014858",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901724",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001618",
+    "isObsolete": false,
+    "name": "virus receptor activity",
+    "definition": {
+     "text": "Combining with a virus component and mediating entry of the virus into the cell.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "7621403"
+      },
+      {
+       "dbCode": "UniProtKB-KW",
+       "dbId": "KW-1183"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "viral receptor activity",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001666",
+    "isObsolete": false,
+    "name": "response to hypoxia",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating lowered oxygen tension. Hypoxia, defined as a decline in O2 levels below normoxic levels of 20.8 - 20.95%, results in metabolic adaptation at both the cellular and organismal level."
+    },
+    "comment": "Note that this term should not be confused with 'response to anoxia ; GO:0034059'. Note that in laboratory studies, hypoxia is typically studied at O2 concentrations ranging from 0.1 - 5%.",
+    "synonyms": [
+     {
+      "name": "response to hypoxic stress",
+      "type": "exact"
+     },
+     {
+      "name": "response to intermittent hypoxia",
+      "type": "narrow"
+     },
+     {
+      "name": "response to lowered oxygen tension",
+      "type": "exact"
+     },
+     {
+      "name": "response to sustained hypoxia",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070483",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071456",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990910",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0070062",
+    "isObsolete": false,
+    "name": "extracellular exosome",
+    "definition": {
+     "text": "A vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane. Extracellular exosomes, also simply called exosomes, have a diameter of about 40-100 nm.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "15908444"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "17641064"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "19442504"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "19498381"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "22418571"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "24009894"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "exosome",
+      "type": "exact"
+     },
+     {
+      "name": "extracellular vesicular exosome",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990563",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045121",
+    "isObsolete": false,
+    "name": "membrane raft",
+    "definition": {
+     "text": "Any of the small (10-200 nm), heterogeneous, highly dynamic, sterol- and sphingolipid-enriched membrane domains that compartmentalize cellular processes. Small rafts can sometimes be stabilized to form larger platforms through protein-protein and protein-lipid interactions.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "16645198"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "20044567"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "GEM domain",
+      "type": "related"
+     },
+     {
+      "name": "glycolipid-enriched membrane domain",
+      "type": "related"
+     },
+     {
+      "name": "lipid raft",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0044853",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008236",
+    "isObsolete": false,
+    "name": "serine-type peptidase activity",
+    "definition": {
+     "text": "Catalysis of the hydrolysis of peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "https://www.ebi.ac.uk/merops/about/glossary.shtml#CATTYPE"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "serine protease activity",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004252",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902572",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1905286",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008239",
+    "isObsolete": false,
+    "name": "dipeptidyl-peptidase activity",
+    "definition": {
+     "text": "Catalysis of the hydrolysis of N-terminal dipeptides from a polypeptide chain.",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "https://www.ebi.ac.uk/merops/about/glossary.shtml#DIPEPTIDYL-PEPTIDASE"
+      }
+     ]
+    },
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008240",
+    "isObsolete": false,
+    "name": "tripeptidyl-peptidase activity",
+    "definition": {
+     "text": "Catalysis of the release of an N-terminal tripeptide from a polypeptide."
+    },
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0050919",
+    "isObsolete": false,
+    "name": "negative chemotaxis",
+    "definition": {
+     "text": "The directed movement of a motile cell or organism towards a lower concentration of a chemical."
+    },
+    "synonyms": [
+     {
+      "name": "chemoaversion",
+      "type": "exact"
+     },
+     {
+      "name": "chemorepulsion",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0021836",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045499",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016201",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021834",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035233",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052130",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050923",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0021842",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061643",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050924",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0005043",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0050925",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045499",
+    "isObsolete": false,
+    "name": "chemorepellent activity",
+    "definition": {
+     "text": "Providing the environmental signal that initiates the directed movement of a motile cell or organism towards a lower concentration of that signal."
+    },
+    "synonyms": [
+     {
+      "name": "chemorepellant activity",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0070161",
+    "isObsolete": false,
+    "name": "anchoring junction",
+    "definition": {
+     "text": "A cell junction that mechanically attaches a cell (and its cytoskeleton) to neighboring cells or to the extracellular matrix.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815332181"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "anchoring cell junction",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030055",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120119",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005911",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0033632",
+    "isObsolete": false,
+    "name": "regulation of cell-cell adhesion mediated by integrin",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate, or extent of cell-cell adhesion mediated by integrin."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of cell-cell adhesion mediated by integrin complex",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0033633",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033634",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0120116",
+    "isObsolete": false,
+    "name": "glucagon processing",
+    "definition": {
+     "text": "The formation of mature glucagon by proteolysis of the precursor proglucagon.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "28719828"
+      }
+     ]
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0010716",
+    "isObsolete": false,
+    "name": "negative regulation of extracellular matrix disassembly",
+    "definition": {
+     "text": "Any process that decreases the rate, frequency or extent of extracellular matrix disassembly. Extracellular matrix disassembly is a process that results in the breakdown of the extracellular matrix."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of extracellular matrix disassembly",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of extracellular matrix disassembly",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of extracellular matrix disassembly",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of extracellular matrix disassembly",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of extracellular matrix breakdown",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of extracellular matrix degradation",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0019065",
+    "isObsolete": false,
+    "name": "receptor-mediated endocytosis of virus by host cell",
+    "definition": {
+     "text": "Any receptor-mediated endocytosis that is involved in the uptake of a virus into a host cell; successive instances of virus endocytosis result in the accumulation of virus particles within the cell.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0781702534"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "receptor mediated endocytosis by host of virus particle",
+      "type": "exact"
+     },
+     {
+      "name": "receptor mediated endocytosis of virus by host",
+      "type": "exact"
+     },
+     {
+      "name": "receptor-mediated endocytosis of virus by host",
+      "type": "exact"
+     },
+     {
+      "name": "receptor mediated endocytosis of virus particle by host",
+      "type": "exact"
+     },
+     {
+      "name": "viral entry into host cell via receptor-mediated endocytosis",
+      "type": "related"
+     },
+     {
+      "name": "viral receptor mediated endocytosis",
+      "type": "exact"
+     },
+     {
+      "name": "virus receptor-mediated endocytosis by host",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0075512",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0075513",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0046718",
+    "isObsolete": false,
+    "name": "symbiont entry into host cell",
+    "definition": {
+     "text": "The process by which a symbiont breaches the plasma membrane or cell envelope and enters the host cell. The process ends when the symbiont or its genome is released into the host cell."
+    },
+    "comment": "Viral attachment to the host cell is not part of viral entry in GO because virus attachment does not always lead to viral entry: attachment can also result in the virion being carried by the host cell to another location.",
+    "synonyms": [
+     {
+      "name": "entry of virus into host cell",
+      "type": "narrow"
+     },
+     {
+      "name": "phage translocation",
+      "type": "narrow"
+     },
+     {
+      "name": "viral entry into host cell",
+      "type": "narrow"
+     },
+     {
+      "name": "viral penetration",
+      "type": "narrow"
+     },
+     {
+      "name": "virion penetration",
+      "type": "narrow"
+     },
+     {
+      "name": "virion penetration into host cell",
+      "type": "narrow"
+     },
+     {
+      "name": "virus entry into host cell",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0039664",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0039678",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044694",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0039666",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001618",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140267",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019065",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0085017",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098932",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0075512",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903914",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0075513",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0046598",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0098994",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098995",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098996",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0046596",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0075509",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120274",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0046581",
+    "isObsolete": false,
+    "name": "intercellular canaliculus",
+    "definition": {
+     "text": "An extremely narrow tubular channel located between adjacent cells. An instance of this is the secretory canaliculi occurring between adjacent parietal cells in the gastric mucosa of vertebrates.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0721662544"
+      }
+     ]
+    },
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0009986",
+    "isObsolete": false,
+    "name": "cell surface",
+    "definition": {
+     "text": "The external part of the cell wall and/or plasma membrane."
+    },
+    "comment": "Note that this term is intended to annotate gene products that are attached (integrated or loosely bound) to the plasma membrane or cell wall.",
+    "synonyms": [
+     {
+      "name": "cell associated",
+      "type": "exact"
+     },
+     {
+      "name": "cell bound",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0061835",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009930",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0010339",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009897",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097610",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0046813",
+    "isObsolete": false,
+    "name": "receptor-mediated virion attachment to host cell",
+    "definition": {
+     "text": "The process by which a virion attaches to a host cell by binding to a receptor on the host cell surface.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0879694971"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "virion attachment, binding of host cell surface receptor",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0098671",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902735",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1902736",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1902734",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0098670",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

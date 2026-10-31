@@ -1,0 +1,3297 @@
+{
+ "source": "quickgo",
+ "query": "P52701",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search",
+ "params": {
+  "geneProductId": "P52701",
+  "limit": 200
+ },
+ "retrieved_at": "2026-10-31T05:53:48+00:00",
+ "response": {
+  "numberOfHits": 91,
+  "results": [
+   {
+    "id": "UniProtKB:P52701!237964895",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "NOT|enables",
+    "goId": "GO:0042803",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:8942985",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P52701"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20090317",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964896",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "NOT|involved_in",
+    "goId": "GO:0043570",
+    "goName": null,
+    "goEvidence": "IMP",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000315",
+    "reference": "PMID:16388310",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "BHF-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20080917",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964897",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "acts_upstream_of_or_within",
+    "goId": "GO:0006298",
+    "goName": null,
+    "goEvidence": "IGI",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000316",
+    "reference": "PMID:23603115",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P40692"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "MGI",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20140103",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964898",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "acts_upstream_of_or_within",
+    "goId": "GO:0006298",
+    "goName": null,
+    "goEvidence": "IGI",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000316",
+    "reference": "PMID:23603115",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P43246"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "MGI",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20140103",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964899",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0000287",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:16403449",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20070220",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964900",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0000400",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:12034830",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061010",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964901",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0003690",
+    "goName": null,
+    "goEvidence": "IBA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000318",
+    "reference": "GO_REF:0000033",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "MGI",
+        "id": "MGI:101816"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "MGI",
+        "id": "MGI:1343961"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "PANTHER",
+        "id": "PTN002260779"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "SGD",
+        "id": "S000000688"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "SGD",
+        "id": "S000001891"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "SGD",
+        "id": "S000002313"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "SGD",
+        "id": "S000002504"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "SGD",
+        "id": "S000005450"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P20585"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P43246"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P52701"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "GO_Central",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260213",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964902",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0003690",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:11809883",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061010",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964903",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0005524",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:15105434",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061010",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964904",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0030983",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:11756455",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061024",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964905",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0030983",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:11801590",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061024",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964906",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0030983",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:8942985",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061004",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964907",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0032137",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000265",
+    "reference": "GO_REF:0000107",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P54276"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "ensembl",
+        "id": "ENSMUSP00000005503"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Ensembl",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260724",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964908",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0032137",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:11809883",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061010",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964909",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0032137",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:8942985",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061004",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964910",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0032142",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:8942985",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061004",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964911",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0032143",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:8942985",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061004",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964912",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0032357",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:11756455",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061024",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964913",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0032357",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:11801590",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061024",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964914",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0032405",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:16403449",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061113",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964915",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0043531",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:15105434",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061010",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964916",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0140664",
+    "goName": null,
+    "goEvidence": "IBA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000318",
+    "reference": "GO_REF:0000033",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "PANTHER",
+        "id": "PTN000145560"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P52701"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "GO_Central",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260213",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964917",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "contributes_to",
+    "goId": "GO:0140664",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:33510387",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "GO_Central",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260213",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964918",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0003677",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000265",
+    "reference": "GO_REF:0000107",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P54276"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "ensembl",
+        "id": "ENSMUSP00000005503"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Ensembl",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260724",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964919",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0003682",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000265",
+    "reference": "GO_REF:0000107",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P54276"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "ensembl",
+        "id": "ENSMUSP00000005503"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Ensembl",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260724",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964920",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0003684",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000265",
+    "reference": "GO_REF:0000107",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P54276"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "ensembl",
+        "id": "ENSMUSP00000005503"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Ensembl",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260724",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964921",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:10856833",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P43246"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "IntAct",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260725",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964922",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:11005803",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P12004"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20090317",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964923",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:11801590",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q9UIF7"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061024",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964924",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:14657349",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P43246"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20070606",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964925",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:16403449",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P40692"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20131013",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964926",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:16403449",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P40692"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20210519",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964927",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:19377479",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P43246"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "IntAct",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260725",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964928",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:25241761",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P43246"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "IntAct",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260725",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964929",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:26300262",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q9NXL9"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "IntAct",
+    "extensions": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "GO",
+        "id": "0005634",
+        "relation": "occurs_in"
+       }
+      ]
+     }
+    ],
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260725",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964930",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:26496610",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P43246"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "IntAct",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260725",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964931",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:33961781",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P43246"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "IntAct",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260725",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964932",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:34591612",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P43246"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "IntAct",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260725",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964933",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:35271311",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P43246"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "IntAct",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260725",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964934",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:35271311",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q9NXL9"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "IntAct",
+    "extensions": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "GO",
+        "id": "0005634",
+        "relation": "occurs_in"
+       }
+      ]
+     }
+    ],
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260725",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964935",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:8942985",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P40692"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20131013",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964936",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:8942985",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P43246"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20060905",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964937",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:9774676",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P43246"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "IntAct",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260725",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964938",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0005524",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000256",
+    "reference": "GO_REF:0000002",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR000432"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR007695"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR007696"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR007860"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR007861"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR016151"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR036678"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR045076"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "InterPro",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260727",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964939",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0008094",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:16403449",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20210519",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964940",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0019899",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:26300262",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q9NXL9"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20180727",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964941",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0030983",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000501",
+    "reference": "GO_REF:0000120",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "ARBA",
+        "id": "ARBA00087953"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR000432"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR007695"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR007696"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR007860"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR007861"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR016151"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR017261"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR036678"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR045076"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260727",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964942",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0030983",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:23622243",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20130716",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964943",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0140003",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:23622243",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20250207",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964944",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "enables",
+    "goId": "GO:0140664",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000256",
+    "reference": "GO_REF:0000002",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR045076"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "InterPro",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260727",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964945",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0000710",
+    "goName": null,
+    "goEvidence": "ISS",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000250",
+    "reference": "GO_REF:0000024",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q03834"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "BHF-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20080917",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964946",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0006281",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:8942985",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "BHF-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20080917",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964947",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0006298",
+    "goName": null,
+    "goEvidence": "IBA",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000318",
+    "reference": "GO_REF:0000033",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "FB",
+        "id": "FBgn0036486"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "MGI",
+        "id": "MGI:1343961"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "PANTHER",
+        "id": "PTN000145560"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "PomBase",
+        "id": "SPCC285.16c"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "RGD",
+        "id": "2322311"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "SGD",
+        "id": "S000002504"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P52701"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q38AW5"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "WB",
+        "id": "WBGene00003418"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "WB",
+        "id": "WBGene00003422"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "GO_Central",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20250902",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964948",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0006298",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000501",
+    "reference": "GO_REF:0000120",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "ARBA",
+        "id": "ARBA00028922"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "D4A0U9"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "ensembl",
+        "id": "ENSRNOP00000021923"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR000432"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR007695"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR007696"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR007860"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR007861"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR016151"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR017261"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR036678"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "InterPro",
+        "id": "IPR045076"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260727",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964949",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0006298",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:10871409",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20060906",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964950",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0006298",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:17715146",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "BHF-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20250215",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964951",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0006298",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:23622243",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20130716",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964952",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0006298",
+    "goName": null,
+    "goEvidence": "IMP",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000315",
+    "reference": "PMID:8782829",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061004",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964953",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0006325",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000364",
+    "reference": "GO_REF:0000108",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "GO",
+        "id": "0140003"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "GOC",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260727",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964954",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0007283",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000265",
+    "reference": "GO_REF:0000107",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "D4A0U9"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "ensembl",
+        "id": "ENSRNOP00000021923"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Ensembl",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260724",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964955",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0008340",
+    "goName": null,
+    "goEvidence": "ISS",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000250",
+    "reference": "GO_REF:0000024",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P54276"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "BHF-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20080803",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964956",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0008630",
+    "goName": null,
+    "goEvidence": "ISS",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000250",
+    "reference": "GO_REF:0000024",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P54276"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "BHF-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20080803",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964957",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0009411",
+    "goName": null,
+    "goEvidence": "ISS",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000250",
+    "reference": "GO_REF:0000024",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P54276"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "BHF-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20080803",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964958",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0016446",
+    "goName": null,
+    "goEvidence": "ISS",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000250",
+    "reference": "GO_REF:0000024",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P54276"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "BHF-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20080803",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964959",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0016447",
+    "goName": null,
+    "goEvidence": "ISS",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000250",
+    "reference": "GO_REF:0000024",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P54276"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "BHF-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20080803",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964960",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0045190",
+    "goName": null,
+    "goEvidence": "ISS",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000250",
+    "reference": "GO_REF:0000024",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P54276"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "BHF-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20080803",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964961",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0045910",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000256",
+    "reference": "GO_REF:0000117",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "ARBA",
+        "id": "ARBA00086129"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260727",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964962",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0045910",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:17715146",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "BHF-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20080917",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964963",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "involved_in",
+    "goId": "GO:0097193",
+    "goName": null,
+    "goEvidence": "ISS",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000250",
+    "reference": "GO_REF:0000024",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P54276"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "BHF-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20080803",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964964",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "is_active_in",
+    "goId": "GO:0005634",
+    "goName": null,
+    "goEvidence": "IBA",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000318",
+    "reference": "GO_REF:0000033",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "AGI_LocusCode",
+        "id": "AT3G20475"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "AGI_LocusCode",
+        "id": "AT4G17380"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "MGI",
+        "id": "MGI:101816"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "MGI",
+        "id": "MGI:1329021"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "MGI",
+        "id": "MGI:1343961"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "MGI",
+        "id": "MGI:1860077"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "PANTHER",
+        "id": "PTN000145481"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "SGD",
+        "id": "S000000688"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "SGD",
+        "id": "S000001891"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "SGD",
+        "id": "S000002313"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "SGD",
+        "id": "S000002504"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "SGD",
+        "id": "S000005450"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P20585"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P43246"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P52701"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q389N7"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q38AW5"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q38F29"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q6L4V0"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "WB",
+        "id": "WBGene00001872"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "WB",
+        "id": "WBGene00003421"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "GO_Central",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260528",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964965",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "located_in",
+    "goId": "GO:0000785",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000265",
+    "reference": "GO_REF:0000107",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P54276"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "ensembl",
+        "id": "ENSMUSP00000005503"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Ensembl",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260724",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964966",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "located_in",
+    "goId": "GO:0005634",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0007322",
+    "reference": "GO_REF:0000044",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB-SubCell",
+        "id": "SL-0191"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260727",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964967",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "located_in",
+    "goId": "GO:0005634",
+    "goName": null,
+    "goEvidence": "EXP",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000269",
+    "reference": "PMID:23622243",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20251027",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964968",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "located_in",
+    "goId": "GO:0005634",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:26300262",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20180727",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964969",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "located_in",
+    "goId": "GO:0005654",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000314",
+    "reference": "GO_REF:0000052",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HPA",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20251115",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964970",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "located_in",
+    "goId": "GO:0005654",
+    "goName": null,
+    "goEvidence": "TAS",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000304",
+    "reference": "Reactome:R-HSA-5358510",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Reactome",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20140322",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964971",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "located_in",
+    "goId": "GO:0005654",
+    "goName": null,
+    "goEvidence": "TAS",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000304",
+    "reference": "Reactome:R-HSA-5358518",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Reactome",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20140322",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964972",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "located_in",
+    "goId": "GO:0005654",
+    "goName": null,
+    "goEvidence": "TAS",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000304",
+    "reference": "Reactome:R-HSA-5358525",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Reactome",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20140322",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964973",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "located_in",
+    "goId": "GO:0005654",
+    "goName": null,
+    "goEvidence": "TAS",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000304",
+    "reference": "Reactome:R-HSA-5358597",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Reactome",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20140322",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964974",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "located_in",
+    "goId": "GO:0005654",
+    "goName": null,
+    "goEvidence": "TAS",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000304",
+    "reference": "Reactome:R-HSA-5358599",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Reactome",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20140322",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964975",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "located_in",
+    "goId": "GO:0005654",
+    "goName": null,
+    "goEvidence": "TAS",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000304",
+    "reference": "Reactome:R-HSA-5358912",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Reactome",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20140322",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964976",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "located_in",
+    "goId": "GO:0005654",
+    "goName": null,
+    "goEvidence": "TAS",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000304",
+    "reference": "Reactome:R-HSA-5444516",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Reactome",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20140322",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964977",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "located_in",
+    "goId": "GO:0005654",
+    "goName": null,
+    "goEvidence": "TAS",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000304",
+    "reference": "Reactome:R-HSA-5577244",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Reactome",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20140322",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964978",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "located_in",
+    "goId": "GO:0005654",
+    "goName": null,
+    "goEvidence": "TAS",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000304",
+    "reference": "Reactome:R-HSA-5632970",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Reactome",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20250820",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964979",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "located_in",
+    "goId": "GO:0005694",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000501",
+    "reference": "GO_REF:0000120",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "ARBA",
+        "id": "ARBA00026361"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB-SubCell",
+        "id": "SL-0468"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260727",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964980",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "located_in",
+    "goId": "GO:0005694",
+    "goName": null,
+    "goEvidence": "EXP",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000269",
+    "reference": "PMID:23622243",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20251027",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964981",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "part_of",
+    "goId": "GO:0032301",
+    "goName": null,
+    "goEvidence": "IBA",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000318",
+    "reference": "GO_REF:0000033",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "MGI",
+        "id": "MGI:1343961"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "PANTHER",
+        "id": "PTN000145560"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "SGD",
+        "id": "S000002504"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P52701"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "GO_Central",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20170228",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964982",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "part_of",
+    "goId": "GO:0032301",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000501",
+    "reference": "GO_REF:0000120",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "ARBA",
+        "id": "ARBA00084522"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "P54276"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "ensembl",
+        "id": "ENSMUSP00000005503"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20260724",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964983",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "part_of",
+    "goId": "GO:0032301",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:17531815",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "ComplexPortal",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20251229",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964984",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "part_of",
+    "goId": "GO:0032301",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:23622243",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20130716",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:P52701!237964985",
+    "geneProductId": "UniProtKB:P52701",
+    "qualifier": "part_of",
+    "goId": "GO:0032301",
+    "goName": null,
+    "goEvidence": "IDA",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000314",
+    "reference": "PMID:8942985",
+    "withFrom": null,
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "HGNC-UCL",
+    "extensions": null,
+    "targetSets": [
+     "Exosome",
+     "ReferenceGenome"
+    ],
+    "symbol": "MSH6",
+    "date": "20061004",
+    "synonyms": null,
+    "name": null
+   }
+  ],
+  "pageInfo": {
+   "resultsPerPage": 200,
+   "current": 1,
+   "total": 1
+  }
+ }
+}

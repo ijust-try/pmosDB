@@ -1,0 +1,192 @@
+{
+ "source": "uniprot",
+ "query": "RUVBL1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:RUVBL1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:56:28+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q9Y265",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "RuvB-like 1"
+      },
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17157868"
+         }
+        ],
+        "value": "3.6.4.12"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "49 kDa TATA box-binding protein-interacting protein"
+       },
+       "shortNames": [
+        {
+         "value": "49 kDa TBP-interacting protein"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "54 kDa erythrocyte cytosolic protein"
+       },
+       "shortNames": [
+        {
+         "value": "ECP-54"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "INO80 complex subunit H"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Nuclear matrix protein 238"
+       },
+       "shortNames": [
+        {
+         "value": "NMP 238"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Pontin 52"
+       }
+      },
+      {
+       "fullName": {
+        "value": "TIP49a"
+       }
+      },
+      {
+       "fullName": {
+        "value": "TIP60-associated protein 54-alpha"
+       },
+       "shortNames": [
+        {
+         "value": "TAP54-alpha"
+        }
+       ]
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:10474"
+        }
+       ],
+       "value": "RUVBL1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10882073"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11027681"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "14506706"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "14966270"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16014379"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16230350"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17157868"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21303910"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "24463511"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "33205750"
+         }
+        ],
+        "value": "Possesses single-stranded DNA-stimulated ATPase and ATP-dependent DNA helicase (3' to 5') activity; hexamerization is thought to be critical for ATP hydrolysis and adjacent subunits in the ring-like structure contribute to the ATPase activity (PubMed:17157868, PubMed:33205750). Component of the NuA4 histone acetyltransferase complex which is involved in transcriptional activation of select genes principally by acetylation of nucleosomal histones H4 and H2A (PubMed:14966270). This modification may both alter nucleosome-DNA interactions and promote interaction of the modified histones with other proteins which positively regulate transcription (PubMed:14966270). This complex may be required for the activation of transcriptional programs associated with oncogene and proto-oncogene mediated growth induction, tumor suppressor mediated growth arrest and replicative senescence, apoptosis, and DNA repair (PubMed:14966270). The NuA4 complex ATPase and helicase activities seem to be, at least in part, contributed by the association of RUVBL1 and RUVBL2 with EP400. NuA4 may also play a direct role in DNA repair when recruited to sites of DNA damage (PubMed:14966270). Component of a SWR1-like complex that specifically mediates the removal of histone H2A.Z/H2AZ1 from the nucleosome (PubMed:24463511). Proposed core component of the chromatin remodeling INO80 complex which exhibits DNA- and nucleosome-activated ATPase activity and catalyzes ATP-dependent nucleosome sliding (PubMed:16230350, PubMed:21303910). Plays an essential role in oncogenic transformation by MYC and also modulates transcriptional activation by the LEF1/TCF1-CTNNB1 complex (PubMed:10882073, PubMed:16014379). Essential for cell proliferation (PubMed:14506706). May be able to bind plasminogen at cell surface and enhance plasminogen activation (PubMed:11027681)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "8607",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000044739"
+    }
+   }
+  ]
+ }
+}

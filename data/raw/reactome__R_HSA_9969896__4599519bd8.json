@@ -1,0 +1,830 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9969896",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9969896",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:51:16+00:00",
+ "response": {
+  "dbId": 9969896,
+  "displayName": "Lanosterol biosynthesis",
+  "stId": "R-HSA-9969896",
+  "stIdVersion": "R-HSA-9969896.1",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Lanosterol biosynthesis"
+  ],
+  "releaseDate": "2025-08-12",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 12045,
+    "displayName": "endoplasmic reticulum membrane",
+    "accession": "0005789",
+    "databaseName": "GO",
+    "definition": "\"The lipid bilayer surrounding the endoplasmic reticulum.\" [GOC:mah]",
+    "name": "endoplasmic reticulum membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005789",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 20521,
+   "displayName": "cholesterol biosynthetic process",
+   "accession": "0006695",
+   "databaseName": "GO",
+   "definition": "\"The chemical reactions and pathways resulting in the formation of cholesterol, cholest-5-en-3 beta-ol, the principal sterol of vertebrates and the precursor of many steroids, including bile acids and steroid hormones.\" [GOC:ai]",
+   "name": "cholesterol biosynthetic process",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0006695",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 9968545,
+    "displayName": "Cholesterol biosynthesis and ER stress in peroxisome deficiency",
+    "title": "Cholesterol biosynthesis and ER stress in peroxisome deficiency",
+    "journal": "Biochimie",
+    "pages": "75-85",
+    "pubMedIdentifier": 24211592,
+    "volume": 98,
+    "year": 2014,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/24211592",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9968546,
+    "displayName": "Absence of functional peroxisomes does not lead to deficiency of enzymes involved in cholesterol biosynthesis",
+    "title": "Absence of functional peroxisomes does not lead to deficiency of enzymes involved in cholesterol biosynthesis",
+    "journal": "J Lipid Res",
+    "pages": "90-8",
+    "pubMedIdentifier": 11792727,
+    "volume": 43,
+    "year": 2002,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11792727",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6807060,
+    "displayName": "Flux analysis of cholesterol biosynthesis in vivo reveals multiple tissue and cell-type specific pathways",
+    "title": "Flux analysis of cholesterol biosynthesis in vivo reveals multiple tissue and cell-type specific pathways",
+    "journal": "Elife",
+    "pages": "e07999",
+    "pubMedIdentifier": 26114596,
+    "volume": 4,
+    "year": 2015,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26114596",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 11171018,
+    "displayName": "Lanosterol biosynthesis",
+    "stId": "R-PFA-9969896",
+    "stIdVersion": "R-PFA-9969896.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Lanosterol biosynthesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     9969896
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11149516,
+    "displayName": "Lanosterol biosynthesis",
+    "stId": "R-SCE-9969896",
+    "stIdVersion": "R-SCE-9969896.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Lanosterol biosynthesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     9969896
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11120969,
+    "displayName": "Lanosterol biosynthesis",
+    "stId": "R-SPO-9969896",
+    "stIdVersion": "R-SPO-9969896.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Lanosterol biosynthesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     9969896
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11091429,
+    "displayName": "Lanosterol biosynthesis",
+    "stId": "R-DDI-9969896",
+    "stIdVersion": "R-DDI-9969896.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Lanosterol biosynthesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     9969896
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11035714,
+    "displayName": "Lanosterol biosynthesis",
+    "stId": "R-CEL-9969896",
+    "stIdVersion": "R-CEL-9969896.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Lanosterol biosynthesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     9969896
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10952577,
+    "displayName": "Lanosterol biosynthesis",
+    "stId": "R-DME-9969896",
+    "stIdVersion": "R-DME-9969896.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Lanosterol biosynthesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     9969896
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10866759,
+    "displayName": "Lanosterol biosynthesis",
+    "stId": "R-GGA-9969896",
+    "stIdVersion": "R-GGA-9969896.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Lanosterol biosynthesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     9969896
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10769099,
+    "displayName": "Lanosterol biosynthesis",
+    "stId": "R-XTR-9969896",
+    "stIdVersion": "R-XTR-9969896.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Lanosterol biosynthesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     9969896
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10687800,
+    "displayName": "Lanosterol biosynthesis",
+    "stId": "R-DRE-9969896",
+    "stIdVersion": "R-DRE-9969896.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Lanosterol biosynthesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     9969896
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10595302,
+    "displayName": "Lanosterol biosynthesis",
+    "stId": "R-SSC-9969896",
+    "stIdVersion": "R-SSC-9969896.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Lanosterol biosynthesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     9969896
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10481963,
+    "displayName": "Lanosterol biosynthesis",
+    "stId": "R-BTA-9969896",
+    "stIdVersion": "R-BTA-9969896.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Lanosterol biosynthesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     9969896
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10367097,
+    "displayName": "Lanosterol biosynthesis",
+    "stId": "R-CFA-9969896",
+    "stIdVersion": "R-CFA-9969896.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Lanosterol biosynthesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     9969896
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10259838,
+    "displayName": "Lanosterol biosynthesis",
+    "stId": "R-RNO-9969896",
+    "stIdVersion": "R-RNO-9969896.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Lanosterol biosynthesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     9969896
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10118510,
+    "displayName": "Lanosterol biosynthesis",
+    "stId": "R-MMU-9969896",
+    "stIdVersion": "R-MMU-9969896.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Lanosterol biosynthesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     9969896
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9969894,
+    "displayName": "Cholesterol biosynthesis begins with the transformation of c...",
+    "text": "Cholesterol biosynthesis begins with the transformation of cytosolic acetyl CoA into lanosterol in a sequence of 15 reactions (Mitsche et al. 2015). The third of these, the reduction of beta-hydroxymethylglutaryl-coenzyme A (bHMG-CoA) to mevalonate (MVA) by bHMG-CoA reductase (HMGCR) is the tightly-regulated, rate-limiting step of cholesterol biosynthesis. It is also the target of the statin class of drugs.<p>Cholesterol biosynthesis is altered in mice harboring mutations that block peroxisome assembly, suggesting that some steps of lanosterol synthesis might occur in peroxisomes (Faust & Kovacs 2014). These effects could be indirect, however, mediated by cellular ER stress responses to the peroxisome deficiency, consistent with the observation that absence of functional peroxisomes does not lead to deficiency of enzymes involved in cholesterol biosynthesis either in mutant mice or in peroxisome-deficient humans (Hogenboom et al. 2002). All the steps of this pathway have therefore been localized to the cytosol, mediated by cytosolic or ER membrane-associated enzymes.<p>Statins are a class of medications that lower cholesterol levels in the blood. They work by inhibiting an enzyme called hydroxymethylglutaryl-coenzyme A (HMG-CoA) reductase, which is involved in the production of cholesterol in the liver.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "previousReviewStatus": {
+   "dbId": 9821383,
+   "displayName": "three stars",
+   "definition": "internally reviewed",
+   "name": [
+    "three stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 8848215,
+    "displayName": "ACAT2 condenses 2 Ac-CoA to form ACA-CoA",
+    "stId": "R-HSA-8848215",
+    "stIdVersion": "R-HSA-8848215.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ACAT2 condenses 2 Ac-CoA to form ACA-CoA",
+     "2 acetyl-CoA => acetoacetyl-CoA + CoA"
+    ],
+    "releaseDate": "2016-06-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 191323,
+    "displayName": "HMGCS1 condenses Ac-CoA and ACA-CoA to form bHMG-CoA",
+    "stId": "R-HSA-191323",
+    "stIdVersion": "R-HSA-191323.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HMGCS1 condenses Ac-CoA and ACA-CoA to form bHMG-CoA",
+     "acetoacetyl-CoA + acetyl-CoA + H2O => (3S)-3-hydroxy-3-methylglutaryl-CoA + CoA + H(+)"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 191352,
+    "displayName": "HMGCR dimer reduces bHMG-CoA to MVA",
+    "stId": "R-HSA-191352",
+    "stIdVersion": "R-HSA-191352.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HMGCR dimer reduces bHMG-CoA to MVA",
+     "(3S)-3-hydroxy-3-methylglutaryl-CoA + 2 NADPH + 2 H(+) => (R)-mevalonate + 2 NADP(+) + CoA"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9705584,
+    "displayName": "HMGCR dimer binds statins",
+    "stId": "R-HSA-9705584",
+    "stIdVersion": "R-HSA-9705584.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HMGCR dimer binds statins"
+    ],
+    "releaseDate": "2022-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 191380,
+    "displayName": "Mevalonate is phosphorylated to mevalonate-5-phosphate",
+    "stId": "R-HSA-191380",
+    "stIdVersion": "R-HSA-191380.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Mevalonate is phosphorylated to mevalonate-5-phosphate",
+     "(R)-mevalonate + ATP => (R)-5-phosphomevalonate + ADP + H(+)"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 191422,
+    "displayName": "Mevalonate-5-phosphate is further phosphorylated",
+    "stId": "R-HSA-191422",
+    "stIdVersion": "R-HSA-191422.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Mevalonate-5-phosphate is further phosphorylated",
+     "(R)-5-phosphomevalonate + ATP => (R)-5-diphosphomevalonate + ADP"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 191414,
+    "displayName": "MVD decarboxylates MVA5PP to IPPP",
+    "stId": "R-HSA-191414",
+    "stIdVersion": "R-HSA-191414.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "MVD decarboxylates MVA5PP to IPPP",
+     "(R)-5-diphosphomevalonate + ATP => isopentenyl diphosphate + ADP + phosphate + CO2"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 191382,
+    "displayName": "Isopentenyl pyrophosphate rearranges to dimethylallyl pyrophosphate",
+    "stId": "R-HSA-191382",
+    "stIdVersion": "R-HSA-191382.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Isopentenyl pyrophosphate rearranges to dimethylallyl pyrophosphate",
+     "isopentenyl diphosphate => dimethylallyl diphosphate"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 191322,
+    "displayName": "FDPS dimer transfers IPPP to DMAPP",
+    "stId": "R-HSA-191322",
+    "stIdVersion": "R-HSA-191322.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "FDPS dimer transfers IPPP to DMAPP",
+     "isopentenyl diphosphate + dimethylallyl diphosphate => (2E)-geranyl diphosphate + diphosphate",
+     "Addition of isopentenyl pyrophosphate to DMAPP"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9717834,
+    "displayName": "GGPS1 hexamer transfers IPPP to DMAPP",
+    "stId": "R-HSA-9717834",
+    "stIdVersion": "R-HSA-9717834.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GGPS1 hexamer transfers IPPP to DMAPP",
+     "isopentenyl diphosphate + dimethylallyl diphosphate => (2E)-geranyl diphosphate + diphosphate",
+     "Addition of isopentenyl pyrophosphate to DMAPP"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 191303,
+    "displayName": "FDPS dimer transfers IPPP to GPP",
+    "stId": "R-HSA-191303",
+    "stIdVersion": "R-HSA-191303.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "FDPS dimer transfers IPPP to GPP",
+     "isopentenyl diphosphate + (2E)-geranyl diphosphate => (2E,6E)-farnesyl diphosphate + diphosphate",
+     "Another isopentenyl pyrophosphate is added to geranyl pyrophosphate"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9717830,
+    "displayName": "GGPS1 hexamer transfers IPPP to GPP",
+    "stId": "R-HSA-9717830",
+    "stIdVersion": "R-HSA-9717830.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GGPS1 hexamer transfers IPPP to GPP",
+     "isopentenyl diphosphate + (2E)-geranyl diphosphate => (2E,6E)-farnesyl diphosphate + diphosphate",
+     "Another isopentenyl pyrophosphate is added to geranyl pyrophosphate"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9717841,
+    "displayName": "holo-FDPS dimer binds NBPs",
+    "stId": "R-HSA-9717841",
+    "stIdVersion": "R-HSA-9717841.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "holo-FDPS dimer binds NBPs",
+     "holo-FDPS dimer binds FDPS inhibitors"
+    ],
+    "releaseDate": "2022-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 191405,
+    "displayName": "Two FAPP molecules dimerize to form presqualene diphosphate",
+    "stId": "R-HSA-191405",
+    "stIdVersion": "R-HSA-191405.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Two FAPP molecules dimerize to form presqualene diphosphate",
+     "2 (2E,6E)-farnesyl diphosphate => presqualene diphosphate + diphosphate"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8952137,
+    "displayName": "Phospholipid phosphatase 6 hydrolyses Presqualene diphosphate to presqualene monophosphate",
+    "stId": "R-HSA-8952137",
+    "stIdVersion": "R-HSA-8952137.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Phospholipid phosphatase 6 hydrolyses Presqualene diphosphate to presqualene monophosphate",
+     "presqualene diphosphate + H2O => presqualene phosphate + phosphate + H(+)"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 191402,
+    "displayName": "Reduction of presqualene diphosphate to form squalene",
+    "stId": "R-HSA-191402",
+    "stIdVersion": "R-HSA-191402.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Reduction of presqualene diphosphate to form squalene",
+     "presqualene diphosphate + NADPH + H(+) => squalene + diphosphate + NADP(+)"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 191299,
+    "displayName": "Squalene is oxidized to its epoxide",
+    "stId": "R-HSA-191299",
+    "stIdVersion": "R-HSA-191299.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Squalene is oxidized to its epoxide",
+     "squalene + reduced (NADPH--hemoprotein reductase) + O2 = (S)-2,3-epoxysqualene + oxidized (NADPH--hemoprotein reductase) + H2O + H(+)"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 191366,
+    "displayName": "Squalene 2,3-epoxide cyclizes, forming lanosterol",
+    "stId": "R-HSA-191366",
+    "stIdVersion": "R-HSA-191366.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Squalene 2,3-epoxide cyclizes, forming lanosterol",
+     "(S)-2,3-epoxysqualene => lanosterol"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9969896
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

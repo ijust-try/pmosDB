@@ -1,0 +1,117 @@
+{
+ "source": "uniprot",
+ "query": "KCNIP4",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:KCNIP4) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:51:37+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q6PIL6",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Kv channel-interacting protein 4"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "11847232"
+         }
+        ],
+        "value": "KChIP4"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "A-type potassium channel modulatory protein 4"
+       }
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "11847232"
+         }
+        ],
+        "value": "Calsenilin-like protein"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Potassium channel-interacting protein 4"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "KCNIP4"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q6PHZ8"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11847232"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18957440"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23576435"
+         }
+        ],
+        "value": "Regulatory subunit of Kv4/D (Shal)-type voltage-gated rapidly inactivating A-type potassium channels. Modulates KCND2 channel density, inactivation kinetics and rate of recovery from inactivation in a calcium-dependent and isoform-specific manner (PubMed:11847232, PubMed:18957440, PubMed:23576435). Modulates KCND3/Kv4.3 currents (PubMed:23576435). Isoform 4 does not increase KCND2 expression at the cell membrane (PubMed:18957440). Isoform 4 retains KCND3 in the endoplasmic reticulum and negatively regulates its expression at the cell membrane"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "80333",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000004A274"
+    }
+   }
+  ]
+ }
+}

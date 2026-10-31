@@ -1,0 +1,198 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-418890",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-418890",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:46:00+00:00",
+ "response": {
+  "dbId": 418890,
+  "displayName": "Role of second messengers in netrin-1 signaling",
+  "stId": "R-HSA-418890",
+  "stIdVersion": "R-HSA-418890.3",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Role of second messengers in netrin-1 signaling"
+  ],
+  "releaseDate": "2010-06-15",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12849052,
+    "displayName": "BioModels Database:BIOMD0000000477",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000477",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000477",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "\"The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.\" [ISBN:0716731363]",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 622391,
+    "displayName": "XTRPC1-dependent chemotropic guidance of neuronal growth cones",
+    "title": "XTRPC1-dependent chemotropic guidance of neuronal growth cones",
+    "journal": "Nat Neurosci",
+    "pages": "730-5",
+    "pubMedIdentifier": 15880110,
+    "volume": 8,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15880110",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 622384,
+    "displayName": "Requirement of TRPC channels in netrin-1-induced chemotropic turning of nerve growth cones",
+    "title": "Requirement of TRPC channels in netrin-1-induced chemotropic turning of nerve growth cones",
+    "journal": "Nature",
+    "pages": "898-904",
+    "pubMedIdentifier": 15758951,
+    "volume": 434,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15758951",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 622371,
+    "displayName": "The levels of second messengers such as Ca+2, cAMP and cGMP ...",
+    "text": "The levels of second messengers such as Ca+2, cAMP and cGMP may regulate the response of the growth cone to a particular cue. Netrin-1 as a guidance molecule depends on intracellular Ca+2 concentration, coactivation of PI3K and PLCgamma, and the type of response depends on the levels of cAMP. \nNetrin first stimulates its receptor DCC, resulting in the activation of the enzyme phospholipase C. This then produces the messenger molecules, inositol-1,4,5-trisphosphate (IP3) and DAG, which in turn causes the release of Ca+2 from intracellular stores. Ca+2 release from the stores then activates TRPC channels on the cell surface. DAG activates TRPC3 and TRPC6 in a direct, membrane delimited manner, and IP3 may activate TRPC channels by depleting the ER Ca+2 levels.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2018-06-13",
+  "hasEvent": [
+   {
+    "dbId": 418866,
+    "displayName": "PITPalpha binds DCC",
+    "stId": "R-HSA-418866",
+    "stIdVersion": "R-HSA-418866.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "PITPalpha binds DCC"
+    ],
+    "releaseDate": "2010-06-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     418890
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 593690,
+    "displayName": "Phosphorylation of PLCgamma by Netrin-1",
+    "stId": "R-HSA-593690",
+    "stIdVersion": "R-HSA-593690.5",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Phosphorylation of PLCgamma by Netrin-1"
+    ],
+    "releaseDate": "2010-06-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     418890
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 622382,
+    "displayName": "PIP2 hydrolysis",
+    "stId": "R-HSA-622382",
+    "stIdVersion": "R-HSA-622382.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "PIP2 hydrolysis"
+    ],
+    "releaseDate": "2010-06-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     418890
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 622390,
+    "displayName": "Activation of TRPC channels by Netrin-1",
+    "stId": "R-HSA-622390",
+    "stIdVersion": "R-HSA-622390.5",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Activation of TRPC channels by Netrin-1"
+    ],
+    "releaseDate": "2010-06-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     418890
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

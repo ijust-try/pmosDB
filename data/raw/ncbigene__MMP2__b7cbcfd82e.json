@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "MMP2",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "4313",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:53:10+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "4313"
+   ],
+   "4313": {
+    "uid": "4313",
+    "name": "MMP2",
+    "description": "matrix metallopeptidase 2",
+    "status": "",
+    "currentid": "",
+    "chromosome": "16",
+    "geneticsource": "genomic",
+    "maplocation": "16q12.2",
+    "otheraliases": "CLG4, CLG4A, MMP-2, MMP-II, MONA, TBE-1",
+    "otherdesignations": "72 kDa type IV collagenase|collagenase type IV-A|matrix metallopeptidase 2 (gelatinase A, 72kDa gelatinase, 72kDa type IV collagenase)|matrix metalloproteinase-2|matrix metalloproteinase-II|neutrophil gelatinase",
+    "nomenclaturesymbol": "MMP2",
+    "nomenclaturename": "matrix metallopeptidase 2",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "120360"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "16",
+      "chraccver": "NC_000016.10",
+      "chrstart": 55478829,
+      "chrstop": 55506690,
+      "exoncount": 17
+     }
+    ],
+    "geneweight": 153723,
+    "summary": "This gene is a member of the matrix metalloproteinase (MMP) gene family, that are zinc-dependent enzymes capable of cleaving components of the extracellular matrix and molecules involved in signal transduction. The protein encoded by this gene is a gelatinase A, type IV collagenase, that contains three fibronectin type II repeats in its catalytic site that allow binding of denatured type IV and V collagen and elastin. Unlike most MMP family members, activation of this protein can occur on the cell membrane. This enzyme can be activated extracellularly by proteases, or, intracellulary by its S-glutathiolation with no requirement for proteolytical removal of the pro-domain. This protein is thought to be involved in multiple pathways including roles in the nervous system, endometrial menstrual breakdown, regulation of vascularization, and metastasis. Mutations in this gene have been associated with Winchester syndrome and Nodulosis-Arthropathy-Osteolysis (NAO) syndrome. Alternative splicing results in multiple transcript variants encoding different isoforms. [provided by RefSeq, Oct 2014]",
+    "chrsort": "16",
+    "chrstart": 55478829,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000016.10",
+      "chrstart": 55478829,
+      "chrstop": 55506690
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060940.1",
+      "chrstart": 61276955,
+      "chrstop": 61304812
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000016.10",
+      "chrstart": 55478829,
+      "chrstop": 55506690
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060940.1",
+      "chrstart": 61276955,
+      "chrstop": 61304812
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000016.10",
+      "chrstart": 55478829,
+      "chrstop": 55506690
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060940.1",
+      "chrstart": 61276955,
+      "chrstop": 61304812
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000016.10",
+      "chrstart": 55478829,
+      "chrstop": 55506690
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060940.1",
+      "chrstart": 61276955,
+      "chrstop": 61304812
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000016.10",
+      "chrstart": 55478829,
+      "chrstop": 55506690
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060940.1",
+      "chrstart": 61276955,
+      "chrstop": 61304812
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000016.10",
+      "chrstart": 55478829,
+      "chrstop": 55506690
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000016.9",
+      "chrstart": 55512741,
+      "chrstop": 55540602
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000016.9",
+      "chrstart": 55512741,
+      "chrstop": 55540602
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000016.9",
+      "chrstart": 55513080,
+      "chrstop": 55540585
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000148.1",
+      "chrstart": 41400532,
+      "chrstop": 41427982
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018927.2",
+      "chrstart": 56920343,
+      "chrstop": 56947844
+     }
+    ]
+   }
+  }
+ }
+}

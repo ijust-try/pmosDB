@@ -1,0 +1,91 @@
+{
+ "source": "uniprot",
+ "query": "TWIST2",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:TWIST2) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T06:01:24+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q8WVJ9",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Twist-related protein 2"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Class A basic helix-loop-helix protein 39"
+       },
+       "shortNames": [
+        {
+         "value": "bHLHa39"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Dermis-expressed protein 1"
+       },
+       "shortNames": [
+        {
+         "value": "Dermo-1"
+        }
+       ]
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "TWIST2"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11062344"
+         }
+        ],
+        "value": "Binds to the E-box consensus sequence 5'-CANNTG-3' as a heterodimer and inhibits transcriptional activation by MYOD1, MYOG, MEF2A and MEF2C. Also represses expression of pro-inflammatory cytokines such as TNFA and IL1B. Involved in postnatal glycogen storage and energy metabolism (By similarity). Inhibits the premature or ectopic differentiation of preosteoblast cells during osteogenesis, possibly by changing the internal signal transduction response of osteoblasts to external growth factors"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "117581",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000002104E"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,1033 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-2426168",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-2426168",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:51:15+00:00",
+ "response": {
+  "dbId": 2426168,
+  "displayName": "Activation of gene expression by SREBF (SREBP)",
+  "stId": "R-HSA-2426168",
+  "stIdVersion": "R-HSA-2426168.6",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Activation of gene expression by SREBF (SREBP)"
+  ],
+  "releaseDate": "2012-09-18",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 7660,
+    "displayName": "nucleoplasm",
+    "accession": "0005654",
+    "databaseName": "GO",
+    "definition": "\"That part of the nuclear content other than the chromosomes or the nucleolus.\" [GOC:ma, ISBN:0124325653]",
+    "name": "nucleoplasm",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 8634,
+   "displayName": "regulation of lipid metabolic process",
+   "accession": "0019216",
+   "databaseName": "GO",
+   "definition": "\"Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving lipids.\" [GOC:curators]",
+   "name": "regulation of lipid metabolic process",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0019216",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 2426210,
+    "displayName": "SREBP transcription factors: master regulators of lipid homeostasis",
+    "title": "SREBP transcription factors: master regulators of lipid homeostasis",
+    "journal": "Biochimie",
+    "pages": "839-48",
+    "pubMedIdentifier": 15589694,
+    "volume": 86,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15589694",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1655609,
+    "displayName": "Differential stimulation of cholesterol and unsaturated fatty acid biosynthesis in cells expressing individual nuclear sterol regulatory element-binding proteins",
+    "title": "Differential stimulation of cholesterol and unsaturated fatty acid biosynthesis in cells expressing individual nuclear sterol regulatory element-binding proteins",
+    "journal": "J Biol Chem",
+    "pages": "26138-48",
+    "pubMedIdentifier": 9748295,
+    "volume": 273,
+    "year": 1998,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9748295",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1655530,
+    "displayName": "Maintaining cholesterol homeostasis: sterol regulatory element-binding proteins",
+    "title": "Maintaining cholesterol homeostasis: sterol regulatory element-binding proteins",
+    "journal": "World J Gastroenterol",
+    "pages": "3081-7",
+    "pubMedIdentifier": 15457548,
+    "volume": 10,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15457548",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 2426219,
+    "displayName": "After transiting to the nucleus SREBPs (SREBP1A/1C/2, SREBFs...",
+    "text": "After transiting to the nucleus SREBPs (SREBP1A/1C/2, SREBFs) bind short sequences, sterol regulatory elements (SREs), in the promoters of target genes (reviewed in Eberle et al. 2004, Weber et al. 2004). SREBPs alone are relatively weak activators of transcription, with SREBP1C being significantly weaker than SREBP1A or SREBP2. In combination with other transcription factors such as SP1 and NF-Y the SREBPs are much stronger activators. SREBP1C seems to more specifically target genes involved in fatty acid synthesis while SREBP2 seems to target genes involved in cholesterol synthesis (Pai et al. 1998).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-2426168.6",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2021-09-15",
+  "hasEvent": [
+   {
+    "dbId": 2426160,
+    "displayName": "SREBP1A,1C binds the ACACA promoter",
+    "stId": "R-HSA-2426160",
+    "stIdVersion": "R-HSA-2426160.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,1C binds the ACACA promoter",
+     "SREBF1A,1C binds the ACACA promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655845,
+    "displayName": "Expression of Acetyl CoA Carboxylase 1 (ACACA, ACC1)",
+    "stId": "R-HSA-1655845",
+    "stIdVersion": "R-HSA-1655845.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Acetyl CoA Carboxylase 1 (ACACA, ACC1)"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426153,
+    "displayName": "SREBP1A,1C binds the ACACB promoter",
+    "stId": "R-HSA-2426153",
+    "stIdVersion": "R-HSA-2426153.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,1C binds the ACACB promoter",
+     "SREBF1A,1C binds the ACACB promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655830,
+    "displayName": "Expression of Acetyl CoA Carboxylase 2 (ACACB, ACC2)",
+    "stId": "R-HSA-1655830",
+    "stIdVersion": "R-HSA-1655830.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Acetyl CoA Carboxylase 2 (ACACB, ACC2)"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2065966,
+    "displayName": "SREBP1A,1C,2 binds the TM7SF2 promoter",
+    "stId": "R-HSA-2065966",
+    "stIdVersion": "R-HSA-2065966.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,1C,2 binds the TM7SF2 promoter",
+     "Formation of SREBF:NF-Y:TM7SF2 gene complex",
+     "Formation of SREBP:NF-Y:TM7SF2 gene complex"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655833,
+    "displayName": "Expression of TM7SF2",
+    "stId": "R-HSA-1655833",
+    "stIdVersion": "R-HSA-1655833.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of TM7SF2"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426158,
+    "displayName": "SREBP1A,1C binds the GPAM promoter",
+    "stId": "R-HSA-2426158",
+    "stIdVersion": "R-HSA-2426158.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,1C binds the GPAM promoter",
+     "SREBF1A,1C binds the GPAM promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655837,
+    "displayName": "Expression of Glycerol-3-phosphate Acyltransferase (GPAM, GPAT)",
+    "stId": "R-HSA-1655837",
+    "stIdVersion": "R-HSA-1655837.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Glycerol-3-phosphate Acyltransferase (GPAM, GPAT)"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426148,
+    "displayName": "SREBP1A,1C binds the FASN promoter",
+    "stId": "R-HSA-2426148",
+    "stIdVersion": "R-HSA-2426148.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,1C binds the FASN promoter",
+     "SREBF1A,1C binds the FASN promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655843,
+    "displayName": "Expression of Fatty Acid Synthase (FASN)",
+    "stId": "R-HSA-1655843",
+    "stIdVersion": "R-HSA-1655843.10",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Fatty Acid Synthase (FASN)"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 6800052,
+    "displayName": "SREBP1A,1C binds the SCD gene",
+    "stId": "R-HSA-6800052",
+    "stIdVersion": "R-HSA-6800052.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,1C binds the SCD gene"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655849,
+    "displayName": "Expression of Acyl-CoA Desaturase (Stearoyl CoA Desaturase, SCD)",
+    "stId": "R-HSA-1655849",
+    "stIdVersion": "R-HSA-1655849.10",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Acyl-CoA Desaturase (Stearoyl CoA Desaturase, SCD)"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426154,
+    "displayName": "SREBP1A,2 binds the LSS promoter",
+    "stId": "R-HSA-2426154",
+    "stIdVersion": "R-HSA-2426154.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,2 binds the LSS promoter",
+     "SREBF1A,2 binds the LSS promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655828,
+    "displayName": "Expression of Lanosterol Synthase (LSS)",
+    "stId": "R-HSA-1655828",
+    "stIdVersion": "R-HSA-1655828.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Lanosterol Synthase (LSS)"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426144,
+    "displayName": "SREBP1A,2 binds the MVD promoter",
+    "stId": "R-HSA-2426144",
+    "stIdVersion": "R-HSA-2426144.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,2 binds the MVD promoter",
+     "SREBF1A,2 binds the MVD promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655836,
+    "displayName": "Expression of Diphosphomevalonate Decarboxylase (MVD)",
+    "stId": "R-HSA-1655836",
+    "stIdVersion": "R-HSA-1655836.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Diphosphomevalonate Decarboxylase (MVD)"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426162,
+    "displayName": "SREBP1A,2 binds the HMGCR promoter",
+    "stId": "R-HSA-2426162",
+    "stIdVersion": "R-HSA-2426162.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,2 binds the HMGCR promoter",
+     "SREBF1A,2 binds the HMGCR promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655826,
+    "displayName": "Expression of 3-Hydroxy-3-methylglutaryl-coenzyme A Reductase (HMGCR)",
+    "stId": "R-HSA-1655826",
+    "stIdVersion": "R-HSA-1655826.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of 3-Hydroxy-3-methylglutaryl-coenzyme A Reductase (HMGCR)"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426164,
+    "displayName": "SREBP1A,2 binds the SC5DL promoter",
+    "stId": "R-HSA-2426164",
+    "stIdVersion": "R-HSA-2426164.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,2 binds the SC5DL promoter",
+     "SREBF1A/2 Binds the SC5DL Promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655852,
+    "displayName": "Expression of Lathosterol Oxidase (SC5D, SC5DL)",
+    "stId": "R-HSA-1655852",
+    "stIdVersion": "R-HSA-1655852.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Lathosterol Oxidase (SC5D, SC5DL)"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426163,
+    "displayName": "SREBP1A,2 binds the CYP51A1 promoter",
+    "stId": "R-HSA-2426163",
+    "stIdVersion": "R-HSA-2426163.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,2 binds the CYP51A1 promoter",
+     "SREBF1A,2 binds the CYP51A1 promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655847,
+    "displayName": "Expression of Lanosterol Demethylase (CYP51A1)",
+    "stId": "R-HSA-1655847",
+    "stIdVersion": "R-HSA-1655847.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Lanosterol Demethylase (CYP51A1)"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426155,
+    "displayName": "SREBP1A,2 binds the DHCR7 promoter",
+    "stId": "R-HSA-2426155",
+    "stIdVersion": "R-HSA-2426155.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,2 binds the DHCR7 promoter",
+     "SREBF1A,2 binds the DHCR7 promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655827,
+    "displayName": "Expression of 7-Dehydrocholesterol Reductase (DHCR7)",
+    "stId": "R-HSA-1655827",
+    "stIdVersion": "R-HSA-1655827.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of 7-Dehydrocholesterol Reductase (DHCR7)"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426161,
+    "displayName": "SREBP1A,2 binds the GGPS1 promoter",
+    "stId": "R-HSA-2426161",
+    "stIdVersion": "R-HSA-2426161.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,2 binds the GGPS1 promoter",
+     "SREBF1A,2 binds the GGPS1 promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655832,
+    "displayName": "Expression of Geranylgeranyl Pyrophosphate Synthase (GGPS1)",
+    "stId": "R-HSA-1655832",
+    "stIdVersion": "R-HSA-1655832.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Geranylgeranyl Pyrophosphate Synthase (GGPS1)"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426152,
+    "displayName": "SREBP1A,2 binds the IDI1 promoter",
+    "stId": "R-HSA-2426152",
+    "stIdVersion": "R-HSA-2426152.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,2 binds the IDI1 promoter",
+     "SREBF1A,2 binds the IDI1 promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655823,
+    "displayName": "Expression of Isopentenyl-diphosphate Delta-isomerase 1 (IDI1)",
+    "stId": "R-HSA-1655823",
+    "stIdVersion": "R-HSA-1655823.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Isopentenyl-diphosphate Delta-isomerase 1 (IDI1)"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426157,
+    "displayName": "SREBP1A,2 binds the MVK promoter",
+    "stId": "R-HSA-2426157",
+    "stIdVersion": "R-HSA-2426157.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,2 binds the MVK promoter",
+     "SREBF1A,2 binds the MVK promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655846,
+    "displayName": "Expression of Mevalonate Kinase (MVK)",
+    "stId": "R-HSA-1655846",
+    "stIdVersion": "R-HSA-1655846.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Mevalonate Kinase (MVK)"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426156,
+    "displayName": "SREBP1A,2 binds the PMVK promoter",
+    "stId": "R-HSA-2426156",
+    "stIdVersion": "R-HSA-2426156.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,2 binds the PMVK promoter",
+     "SREBF1A/2 Binds the PMVK Promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655839,
+    "displayName": "Expression of Phosphomevalonate Kinase (PMVK)",
+    "stId": "R-HSA-1655839",
+    "stIdVersion": "R-HSA-1655839.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Phosphomevalonate Kinase (PMVK)"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426151,
+    "displayName": "SREBP1A,2 binds the SQLE promoter",
+    "stId": "R-HSA-2426151",
+    "stIdVersion": "R-HSA-2426151.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,2 binds the SQLE promoter",
+     "SREBF1A,2 binds the SQLE promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655844,
+    "displayName": "Expression of Squalene Monooxygenase (SQLE)",
+    "stId": "R-HSA-1655844",
+    "stIdVersion": "R-HSA-1655844.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Squalene Monooxygenase (SQLE)"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426149,
+    "displayName": "SREBP1A,1C,2 binds the ELOVL6 promoter",
+    "stId": "R-HSA-2426149",
+    "stIdVersion": "R-HSA-2426149.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,1C,2 binds the ELOVL6 promoter",
+     "SREBF1A/1C/2 Binds the ELOVL6 Promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655835,
+    "displayName": "Expression of ELOVL6",
+    "stId": "R-HSA-1655835",
+    "stIdVersion": "R-HSA-1655835.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of ELOVL6"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426147,
+    "displayName": "SREBP1A,1C,2 binds the FDPS promoter",
+    "stId": "R-HSA-2426147",
+    "stIdVersion": "R-HSA-2426147.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,1C,2 binds the FDPS promoter",
+     "SREBF1A,1C,2 binds the FDPS promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655824,
+    "displayName": "Expression of Farnesyl Diphosphate Synthase (FDPS)",
+    "stId": "R-HSA-1655824",
+    "stIdVersion": "R-HSA-1655824.9",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Farnesyl Diphosphate Synthase (FDPS)"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426150,
+    "displayName": "SREBP1A,1C,2 binds the HMGCS1 promoter",
+    "stId": "R-HSA-2426150",
+    "stIdVersion": "R-HSA-2426150.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,1C,2 binds the HMGCS1 promoter",
+     "SREBF1A,1C,2 binds the HMGCS1 promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655848,
+    "displayName": "Expression of Hydroxymethylglutaryl coenzyme A synthase (HMGCS1)",
+    "stId": "R-HSA-1655848",
+    "stIdVersion": "R-HSA-1655848.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Hydroxymethylglutaryl coenzyme A synthase (HMGCS1)"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 2426146,
+    "displayName": "SREBP1A,1C,2 binds the FDFT1 promoter",
+    "stId": "R-HSA-2426146",
+    "stIdVersion": "R-HSA-2426146.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SREBP1A,1C,2 binds the FDFT1 promoter",
+     "SREBF1A,1C,2 binds the FDFT1 promoter"
+    ],
+    "releaseDate": "2012-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1655850,
+    "displayName": "Expression of Farnesyldiphosphate Farnesyltransferase (FDFT1, Squalene Synthase)",
+    "stId": "R-HSA-1655850",
+    "stIdVersion": "R-HSA-1655850.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of Farnesyldiphosphate Farnesyltransferase (FDFT1, Squalene Synthase)"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2426168
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

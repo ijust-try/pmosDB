@@ -1,0 +1,555 @@
+{
+ "source": "quickgo_terms",
+ "query": "O60299_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0005856,GO:0014069,GO:0030425,GO:0043197,GO:0045202,GO:0061001",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:52:45+00:00",
+ "response": {
+  "numberOfHits": 6,
+  "results": [
+   {
+    "id": "GO:0014069",
+    "isObsolete": false,
+    "name": "postsynaptic density",
+    "definition": {
+     "text": "An electron dense network of proteins within and adjacent to the postsynaptic membrane of an asymmetric, neuron-neuron synapse. Its major components include neurotransmitter receptors and the proteins that spatially and functionally organize them such as anchoring and scaffolding molecules, signaling enzymes and cytoskeletal components.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "14532281"
+      },
+      {
+       "dbCode": "Wikipedia",
+       "dbId": "Postsynaptic_density"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "neuronal postsynaptic density",
+      "type": "exact"
+     },
+     {
+      "name": "post synaptic density",
+      "type": "exact"
+     },
+     {
+      "name": "post-synaptic density",
+      "type": "exact"
+     },
+     {
+      "name": "postsynaptic density of dendrite",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0098919",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0098839",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099092",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099573",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005856",
+    "isObsolete": false,
+    "name": "cytoskeleton",
+    "definition": {
+     "text": "A cellular structure that forms the internal framework of eukaryotic and prokaryotic cells. The cytoskeleton includes intermediate filaments, microfilaments, microtubules, the microtrabecular lattice, and other structures characterized by a polymeric filamentous nature and long-range order within the cell. The various elements of the cytoskeleton not only serve in the maintenance of cellular shape but also have roles in other cellular functions, including cellular movement, cell division, endocytosis, and movement of organelles.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "16959967"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "27419875"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0120260",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032160",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099513",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0020010",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097568",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070865",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032123",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045111",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030863",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0020038",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0015629",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120120",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120121",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990047",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098593",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005940",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032156",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032173",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032176",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033011",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097427",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032159",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035253",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031913",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0014731",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045298",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099571",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005930",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0015630",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005200",
+      "relation": "occurs_in"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030425",
+    "isObsolete": false,
+    "name": "dendrite",
+    "definition": {
+     "text": "A neuron projection that has a short, tapering, morphology. Dendrites receive and integrate signals from other neurons or from sensory stimuli, and conduct nerve impulses towards the axon or the cell body. In most neurons, the impulse is conveyed from dendrites to axon via the cell body, but in some types of unipolar neuron, the impulse does not travel via the cell body.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0044307",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044292",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1901588",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1902737",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043197",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990635",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097440",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071683",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032590",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990503",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0150001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0150002",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032839",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097441",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043198",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097442",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098935",
+      "relation": "occurs_in"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0061001",
+    "isObsolete": false,
+    "name": "regulation of dendritic spine morphogenesis",
+    "definition": {
+     "text": "Any process that modulates the rate, frequency, or extent of dendritic spine morphogenesis, the process in which the anatomical structures of a dendritic spine are generated and organized. A dendritic spine is a protrusion from a dendrite and a specialized subcellular compartment involved in synaptic transmission."
+    },
+    "children": [
+     {
+      "id": "GO:0061003",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061002",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045202",
+    "isObsolete": false,
+    "name": "synapse",
+    "definition": {
+     "text": "The junction between an axon of one neuron and a dendrite of another neuron, a muscle fiber or a glial cell. As the axon approaches the synapse it enlarges into a specialized structure, the presynaptic terminal bouton, which contains mitochondria and synaptic vesicles. At the tip of the terminal bouton is the presynaptic membrane; facing it, and separated from it by a minute cleft (the synaptic cleft) is a specialized area of membrane on the receiving cell, known as the postsynaptic membrane. In response to the arrival of nerve impulses, the presynaptic terminal bouton secretes molecules of neurotransmitters into the synaptic cleft. These diffuse across the cleft and transmit the signal to the postsynaptic membrane.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "24619342"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "29383328"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "31998110"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "electrotonic synapse",
+      "type": "related"
+     },
+     {
+      "name": "mixed synapse",
+      "type": "narrow"
+     },
+     {
+      "name": "synaptic junction",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0098918",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0098978",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099003",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099547",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099546",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0098685",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099192",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099574",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0097470",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140250",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0060077",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060076",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098691",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098794",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098690",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098793",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098982",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098692",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140240",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099536",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0140243",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099154",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140241",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0098981",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140246",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0097060",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099643",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0031594",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098979",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043197",
+    "isObsolete": false,
+    "name": "dendritic spine",
+    "definition": {
+     "text": "A small, membranous protrusion from a dendrite that forms a postsynaptic compartment, typically receiving input from a single presynapse. They function as partially isolated biochemical and an electrical compartments. Spine morphology is variable:they can be thin, stubby, mushroom, or branched, with a continuum of intermediate morphologies. They typically terminate in a bulb shape, linked to the dendritic shaft by a restriction. Spine remodeling is though to be involved in synaptic plasticity."
+    },
+    "synonyms": [
+     {
+      "name": "branched dendritic spine",
+      "type": "narrow"
+     },
+     {
+      "name": "dendrite spine",
+      "type": "exact"
+     },
+     {
+      "name": "mushroom dendritic spine",
+      "type": "narrow"
+     },
+     {
+      "name": "sessile dendritic spine",
+      "type": "narrow"
+     },
+     {
+      "name": "stubby dendritic spine",
+      "type": "narrow"
+     },
+     {
+      "name": "thin dendritic spine",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0044326",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098938",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044327",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097444",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032591",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097464",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061846",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098836",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

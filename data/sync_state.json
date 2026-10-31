@@ -6,45 +6,67 @@
   "minuteIst": 0
  },
  "lastSyncedAt": "2026-10-31T04:47:39+00:00",
- "lastCheckedAt": "2026-10-31T04:33:30+00:00",
+ "lastCheckedAt": "2026-10-31T05:40:33+00:00",
  "sources": {
   "uniprot": {
    "version": "2026_03",
-   "checkedAt": "2026-10-31T04:33:22+00:00",
+   "checkedAt": "2026-10-31T05:40:25+00:00",
    "syncedAt": "2026-10-31T04:47:39+00:00"
   },
   "reactome": {
    "version": "98",
-   "checkedAt": "2026-10-31T04:33:22+00:00",
+   "checkedAt": "2026-10-31T05:40:25+00:00",
    "syncedAt": "2026-10-31T04:47:39+00:00"
   },
   "open-targets": {
    "version": "26.09 (ChEMBL 37)",
-   "checkedAt": "2026-10-31T04:33:22+00:00",
+   "checkedAt": "2026-10-31T05:40:25+00:00",
    "syncedAt": "2026-10-31T04:47:39+00:00"
   },
   "gene-ontology": {
    "version": "2026-09-27",
-   "checkedAt": "2026-10-31T04:33:22+00:00",
+   "checkedAt": "2026-10-31T05:40:25+00:00",
    "syncedAt": "2026-10-31T04:47:39+00:00"
   },
   "ncbi-gene": {
    "version": "2026/10/30 10:05",
-   "checkedAt": "2026-10-31T04:33:22+00:00",
+   "checkedAt": "2026-10-31T05:40:25+00:00",
    "syncedAt": "2026-10-31T04:47:39+00:00"
   },
   "pubchem": {
    "version": "2026/10/30 13:18",
-   "checkedAt": "2026-10-31T04:33:22+00:00",
+   "checkedAt": "2026-10-31T05:40:25+00:00",
    "syncedAt": "2026-10-31T04:47:39+00:00"
   },
   "pubmed": {
-   "version": "2026/10/30 18:12",
-   "checkedAt": "2026-10-31T04:33:22+00:00",
+   "version": "2026/10/30 18:11",
+   "checkedAt": "2026-10-31T05:40:25+00:00",
    "syncedAt": "2026-10-31T04:47:39+00:00"
   }
  },
  "history": [
+  {
+   "startedAt": "2026-10-31T05:40:33+00:00",
+   "outcome": "rebuilt-from-cache",
+   "reason": "forced",
+   "result": {
+    "tables": {
+     "genes": 110,
+     "proteins": 110,
+     "pathways": 300,
+     "hormones": 17,
+     "biomarkers": 7,
+     "therapeutics": 13,
+     "publications": 232,
+     "go_annotations": 2317,
+     "therapeutic_target": 12
+    },
+    "entities": 790,
+    "relationships": 977,
+    "unresolved": 4
+   },
+   "finishedAt": "2026-10-31T06:02:36+00:00"
+  },
   {
    "startedAt": "2026-10-31T04:33:30+00:00",
    "outcome": "synced",

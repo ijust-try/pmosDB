@@ -1,0 +1,715 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-6807878",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-6807878",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:45:32+00:00",
+ "response": {
+  "dbId": 6807878,
+  "displayName": "COPI-mediated anterograde transport",
+  "stId": "R-HSA-6807878",
+  "stIdVersion": "R-HSA-6807878.2",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "COPI-mediated anterograde transport"
+  ],
+  "releaseDate": "2015-12-15",
+  "speciesName": "Homo sapiens",
+  "literatureReference": [
+   {
+    "dbId": 6804917,
+    "displayName": "Live imaging of bidirectional traffic from the ERGIC",
+    "title": "Live imaging of bidirectional traffic from the ERGIC",
+    "journal": "J. Cell. Sci.",
+    "pages": "357-67",
+    "pubMedIdentifier": 15632110,
+    "volume": 118,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15632110",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5688472,
+    "displayName": "COPII and COPI traffic at the ER-Golgi interface",
+    "title": "COPII and COPI traffic at the ER-Golgi interface",
+    "journal": "Physiology (Bethesda)",
+    "pages": "348-64",
+    "pubMedIdentifier": 22013193,
+    "volume": 26,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22013193",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6804891,
+    "displayName": "Beta-COP is essential for biosynthetic membrane transport from the endoplasmic reticulum to the Golgi complex in vivo",
+    "title": "Beta-COP is essential for biosynthetic membrane transport from the endoplasmic reticulum to the Golgi complex in vivo",
+    "journal": "Cell",
+    "pages": "71-82",
+    "pubMedIdentifier": 8334707,
+    "volume": 74,
+    "year": 1993,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8334707",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6804910,
+    "displayName": "ER-to-Golgi transport visualized in living cells",
+    "title": "ER-to-Golgi transport visualized in living cells",
+    "journal": "Nature",
+    "pages": "81-5",
+    "pubMedIdentifier": 9288971,
+    "volume": 389,
+    "year": 1997,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9288971",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6804928,
+    "displayName": "Visualization of ER-to-Golgi transport in living cells reveals a sequential mode of action for COPII and COPI",
+    "title": "Visualization of ER-to-Golgi transport in living cells reveals a sequential mode of action for COPII and COPI",
+    "journal": "Cell",
+    "pages": "1137-48",
+    "pubMedIdentifier": 9323141,
+    "volume": 90,
+    "year": 1997,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9323141",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 204031,
+    "displayName": "COPI-coated ER-to-Golgi transport complexes segregate from COPII in close proximity to ER exit sites",
+    "title": "COPI-coated ER-to-Golgi transport complexes segregate from COPII in close proximity to ER exit sites",
+    "journal": "J Cell Sci",
+    "pages": "2177-85",
+    "pubMedIdentifier": 10825291,
+    "volume": 113,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10825291",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5685808,
+    "displayName": "The highly conserved COPII coat complex sorts cargo from the endoplasmic reticulum and targets it to the golgi",
+    "title": "The highly conserved COPII coat complex sorts cargo from the endoplasmic reticulum and targets it to the golgi",
+    "journal": "Cold Spring Harb Perspect Biol",
+    "pubMedIdentifier": 23378591,
+    "volume": 5,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23378591",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6804927,
+    "displayName": "Retrograde traffic from the Golgi to the endoplasmic reticulum",
+    "title": "Retrograde traffic from the Golgi to the endoplasmic reticulum",
+    "journal": "Cold Spring Harb Perspect Biol",
+    "pubMedIdentifier": 23732476,
+    "volume": 5,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23732476",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 11171696,
+    "displayName": "COPI-mediated anterograde transport",
+    "stId": "R-PFA-6807878",
+    "stIdVersion": "R-PFA-6807878.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPI-mediated anterograde transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     6807878
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11150372,
+    "displayName": "COPI-mediated anterograde transport",
+    "stId": "R-SCE-6807878",
+    "stIdVersion": "R-SCE-6807878.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPI-mediated anterograde transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     6807878
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11121783,
+    "displayName": "COPI-mediated anterograde transport",
+    "stId": "R-SPO-6807878",
+    "stIdVersion": "R-SPO-6807878.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPI-mediated anterograde transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     6807878
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11092511,
+    "displayName": "COPI-mediated anterograde transport",
+    "stId": "R-DDI-6807878",
+    "stIdVersion": "R-DDI-6807878.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPI-mediated anterograde transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     6807878
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11037148,
+    "displayName": "COPI-mediated anterograde transport",
+    "stId": "R-CEL-6807878",
+    "stIdVersion": "R-CEL-6807878.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPI-mediated anterograde transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     6807878
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10954081,
+    "displayName": "COPI-mediated anterograde transport",
+    "stId": "R-DME-6807878",
+    "stIdVersion": "R-DME-6807878.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPI-mediated anterograde transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     6807878
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10868553,
+    "displayName": "COPI-mediated anterograde transport",
+    "stId": "R-GGA-6807878",
+    "stIdVersion": "R-GGA-6807878.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPI-mediated anterograde transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     6807878
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10770725,
+    "displayName": "COPI-mediated anterograde transport",
+    "stId": "R-XTR-6807878",
+    "stIdVersion": "R-XTR-6807878.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPI-mediated anterograde transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     6807878
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10689486,
+    "displayName": "COPI-mediated anterograde transport",
+    "stId": "R-DRE-6807878",
+    "stIdVersion": "R-DRE-6807878.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPI-mediated anterograde transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     6807878
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10597062,
+    "displayName": "COPI-mediated anterograde transport",
+    "stId": "R-SSC-6807878",
+    "stIdVersion": "R-SSC-6807878.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPI-mediated anterograde transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     6807878
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10483755,
+    "displayName": "COPI-mediated anterograde transport",
+    "stId": "R-BTA-6807878",
+    "stIdVersion": "R-BTA-6807878.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPI-mediated anterograde transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     6807878
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10368841,
+    "displayName": "COPI-mediated anterograde transport",
+    "stId": "R-CFA-6807878",
+    "stIdVersion": "R-CFA-6807878.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPI-mediated anterograde transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     6807878
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10261650,
+    "displayName": "COPI-mediated anterograde transport",
+    "stId": "R-RNO-6807878",
+    "stIdVersion": "R-RNO-6807878.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPI-mediated anterograde transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     6807878
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10120330,
+    "displayName": "COPI-mediated anterograde transport",
+    "stId": "R-MMU-6807878",
+    "stIdVersion": "R-MMU-6807878.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPI-mediated anterograde transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     6807878
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 6807729,
+    "displayName": "The ERGIC (ER-to-Golgi intermediate compartment, also known ...",
+    "text": "The ERGIC (ER-to-Golgi intermediate compartment, also known as vesicular-tubular clusters, VTCs) is a stable, biochemically distinct compartment located adjacent to ER exit sites (Ben-Tekaya et al, 2005; reviewed in Szul and Sztul, 2011).  The ERGIC concentrates COPII-derived cargo from the ER for further anterograde transport to the cis-Golgi and also recycles resident ER proteins back to the ER through retrograde traffic.  Both of these pathways appear to make use of microtubule-directed COPI-coated vesicles (Pepperkok et al, 1993; Presley et al, 1997; Scales et al, 1997; Stephens and Pepperkok, 2002; Stephens et al, 2000; reviewed in Lord et al, 2001; Spang et al, 2013).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 6807864,
+    "displayName": "RAB1:GTP recruits GBF1 to the ERGIC",
+    "stId": "R-HSA-6807864",
+    "stIdVersion": "R-HSA-6807864.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RAB1:GTP recruits GBF1 to the ERGIC"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6807878
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6807866,
+    "displayName": "GBF1 recruits ARF:GDP to the ERGIC",
+    "stId": "R-HSA-6807866",
+    "stIdVersion": "R-HSA-6807866.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GBF1 recruits ARF:GDP to the ERGIC"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6807878
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6807868,
+    "displayName": "GBF1 stimulates ARF nucleotide exchange",
+    "stId": "R-HSA-6807868",
+    "stIdVersion": "R-HSA-6807868.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "GBF1 stimulates ARF nucleotide exchange"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6807878
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6807872,
+    "displayName": "Active ARF recruits coatomer",
+    "stId": "R-HSA-6807872",
+    "stIdVersion": "R-HSA-6807872.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Active ARF recruits coatomer"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6807878
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6807875,
+    "displayName": "ARFGAP, cargo, v-SNAREs and p24 proteins bind nascent COPI complex",
+    "stId": "R-HSA-6807875",
+    "stIdVersion": "R-HSA-6807875.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ARFGAP, cargo, v-SNAREs and p24 proteins bind nascent COPI complex"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6807878
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6807877,
+    "displayName": "ARFGAPs stimulate ARF GTPase activity",
+    "stId": "R-HSA-6807877",
+    "stIdVersion": "R-HSA-6807877.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ARFGAPs stimulate ARF GTPase activity"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6807878
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6809003,
+    "displayName": "ERGIC-to-Golgi vesicles bind dynein:dynactin ",
+    "stId": "R-HSA-6809003",
+    "stIdVersion": "R-HSA-6809003.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ERGIC-to-Golgi vesicles bind dynein:dynactin "
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6807878
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6809006,
+    "displayName": "Vesicle is tethered through binding GOLGA2:GORASP1, GOLGB1 and the COG complex",
+    "stId": "R-HSA-6809006",
+    "stIdVersion": "R-HSA-6809006.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Vesicle is tethered through binding GOLGA2:GORASP1, GOLGB1 and the COG complex"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6807878
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6809011,
+    "displayName": "cis-Golgi t-SNAREs bind YKT6 on tethered vesicle",
+    "stId": "R-HSA-6809011",
+    "stIdVersion": "R-HSA-6809011.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "cis-Golgi t-SNAREs bind YKT6 on tethered vesicle"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6807878
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6809010,
+    "displayName": "COPI vesicle uncoating",
+    "stId": "R-HSA-6809010",
+    "stIdVersion": "R-HSA-6809010.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "COPI vesicle uncoating"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6807878
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 6809014,
+    "displayName": "cis-Golgi cis-SNARE binds NSF and SNAPs",
+    "stId": "R-HSA-6809014",
+    "stIdVersion": "R-HSA-6809014.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "cis-Golgi cis-SNARE binds NSF and SNAPs"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6807878
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6809015,
+    "displayName": "NSF ATPase activity dissociates cis-SNARE at cis-Golgi",
+    "stId": "R-HSA-6809015",
+    "stIdVersion": "R-HSA-6809015.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NSF ATPase activity dissociates cis-SNARE at cis-Golgi"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6807878
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

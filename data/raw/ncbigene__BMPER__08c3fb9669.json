@@ -1,0 +1,44 @@
+{
+ "source": "ncbigene",
+ "query": "BMPER",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "gene",
+  "term": "BMPER[sym] AND 9606[taxid]",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:41:33+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "1",
+   "retmax": "1",
+   "retstart": "0",
+   "idlist": [
+    "168667"
+   ],
+   "translationset": [],
+   "translationstack": [
+    {
+     "term": "BMPER[sym]",
+     "field": "sym",
+     "count": "884",
+     "explode": "N"
+    },
+    {
+     "term": "9606[taxid]",
+     "field": "taxid",
+     "count": "360596",
+     "explode": "N"
+    },
+    "AND"
+   ],
+   "querytranslation": "BMPER[sym] AND 9606[taxid]"
+  }
+ }
+}

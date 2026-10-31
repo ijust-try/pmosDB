@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "RNF43",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "54894",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:55:46+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "54894"
+   ],
+   "54894": {
+    "uid": "54894",
+    "name": "RNF43",
+    "description": "ring finger protein 43",
+    "status": "",
+    "currentid": "",
+    "chromosome": "17",
+    "geneticsource": "genomic",
+    "maplocation": "17q22",
+    "otheraliases": "RNF124, SSPCS, URCC",
+    "otherdesignations": "E3 ubiquitin-protein ligase RNF43|RING-type E3 ubiquitin transferase RNF43",
+    "nomenclaturesymbol": "RNF43",
+    "nomenclaturename": "ring finger protein 43",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "612482"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "17",
+      "chraccver": "NC_000017.11",
+      "chrstart": 58417533,
+      "chrstop": 58352499,
+      "exoncount": 12
+     }
+    ],
+    "geneweight": 5457,
+    "summary": "The protein encoded by this gene is a RING-type E3 ubiquitin ligase and is predicted to contain a transmembrane domain, a protease-associated domain, an ectodomain, and a cytoplasmic RING domain. This protein is thought to negatively regulate Wnt signaling, and expression of this gene results in an increase in ubiquitination of frizzled receptors, an alteration in their subcellular distribution, resulting in reduced surface levels of these receptors. Mutations in this gene have been reported in multiple tumor cells, including colorectal and endometrial cancers. Alternative splicing results in multiple transcript variants encoding different isoforms. [provided by RefSeq, Mar 2015]",
+    "chrsort": "17",
+    "chrstart": 58352499,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000017.11",
+      "chrstart": 58417533,
+      "chrstop": 58352499
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060941.1",
+      "chrstart": 59286209,
+      "chrstop": 59220374
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000017.11",
+      "chrstart": 58417533,
+      "chrstop": 58352499
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060941.1",
+      "chrstart": 59286464,
+      "chrstop": 59220374
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000017.11",
+      "chrstart": 58417533,
+      "chrstop": 58352499
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060941.1",
+      "chrstart": 59286464,
+      "chrstop": 59220374
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000017.11",
+      "chrstart": 58417533,
+      "chrstop": 58352499
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060941.1",
+      "chrstart": 59286464,
+      "chrstop": 59220374
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000017.11",
+      "chrstart": 58417533,
+      "chrstop": 58352499
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060941.1",
+      "chrstart": 59285393,
+      "chrstop": 59220374
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000017.11",
+      "chrstart": 58418893,
+      "chrstop": 58352499
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000017.10",
+      "chrstart": 56494894,
+      "chrstop": 56429860
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000017.10",
+      "chrstart": 56494894,
+      "chrstop": 56429860
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000017.10",
+      "chrstart": 56494930,
+      "chrstop": 56431036
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000149.1",
+      "chrstart": 51855537,
+      "chrstop": 51791663
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018928.2",
+      "chrstart": 56559938,
+      "chrstop": 56496050
+     }
+    ]
+   }
+  }
+ }
+}

@@ -75,6 +75,10 @@ def run_harvest(offline: bool) -> dict:
     ot_rows = harvest.open_targets_pcos()
     ot_score = {r["gene_symbol"]: r["ot_score"] for r in ot_rows}
 
+    added_pcos = harvest.add_seed_genes(harvest.pcos_seed_genes(ot_rows))
+    if added_pcos:
+        harvest.log(f"Added {len(added_pcos)} top PCOS-associated genes to seed_entities.csv")
+
     targets = drug_targets.lookup_all(harvest.read_seeds())
     added = harvest.add_seed_genes({t["gene_symbol"]: "drug target (Open Targets / ChEMBL mechanism of action)"
                                     for t in targets})

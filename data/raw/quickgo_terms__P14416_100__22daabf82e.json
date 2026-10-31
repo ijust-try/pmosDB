@@ -1,0 +1,1966 @@
+{
+ "source": "quickgo_terms",
+ "query": "P14416_100",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0050805,GO:0051209,GO:0051240,GO:0051481,GO:0051580,GO:0051584,GO:0051586,GO:0051823,GO:0051898,GO:0051967,GO:0060079,GO:0060124,GO:0060134,GO:0060158,GO:0060160,GO:0060170,GO:0070374,GO:0071300,GO:0071361,GO:0090325,GO:0097305,GO:0097648,GO:0097730,GO:0098691,GO:0098978,GO:0098982,GO:0099170,GO:0099171,GO:0160213,GO:1900038,GO:1900168,GO:1900273,GO:1903530,GO:1990384,GO:2000292,GO:2000987",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:46:38+00:00",
+ "response": {
+  "numberOfHits": 36,
+  "results": [
+   {
+    "id": "GO:2000987",
+    "isObsolete": false,
+    "name": "positive regulation of behavioral fear response",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of behavioral fear response."
+    },
+    "synonyms": [
+     {
+      "name": "positive regulation of behavioural fear response",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0160213",
+    "isObsolete": false,
+    "name": "beta-arrestin-dependent dopamine receptor signaling pathway",
+    "definition": {
+     "text": "A beta-arrestin-dependent signaling pathway initiated by a dopamine binding to its receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "21711983"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "25671228"
+      }
+     ]
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0090325",
+    "isObsolete": false,
+    "name": "regulation of locomotion involved in locomotory behavior",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate, or extent of the self-propelled movement of a cell or organism from one location to another in a behavioral context; the aspect of locomotory behavior having to do with movement."
+    },
+    "children": [
+     {
+      "id": "GO:0090326",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090327",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051481",
+    "isObsolete": false,
+    "name": "negative regulation of cytosolic calcium ion concentration",
+    "definition": {
+     "text": "Any process that decreases the concentration of calcium ions in the cytosol."
+    },
+    "synonyms": [
+     {
+      "name": "cytoplasmic calcium ion concentration reduction",
+      "type": "broad"
+     },
+     {
+      "name": "cytosolic calcium ion concentration reduction",
+      "type": "exact"
+     },
+     {
+      "name": "reduction of calcium ion concentration in cytoplasm",
+      "type": "broad"
+     },
+     {
+      "name": "reduction of calcium ion concentration in cytosol",
+      "type": "exact"
+     },
+     {
+      "name": "reduction of cytoplasmic calcium ion concentration",
+      "type": "broad"
+     },
+     {
+      "name": "reduction of cytosolic calcium ion concentration",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0099113",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010523",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051580",
+    "isObsolete": false,
+    "name": "regulation of neurotransmitter uptake",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of the directed movement of a neurotransmitter into a neuron or glial cell."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of neurotransmitter import",
+      "type": "exact"
+     },
+     {
+      "name": "regulation of neurotransmitter reuptake",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0051611",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051616",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051946",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051584",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051581",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051582",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051586",
+    "isObsolete": false,
+    "name": "positive regulation of dopamine uptake involved in synaptic transmission",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of the directed movement of dopamine into a cell."
+    },
+    "synonyms": [
+     {
+      "name": "activation of dopamine uptake involved in synaptic transmission",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of dopamine import involved in synaptic transmission",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of dopamine uptake involved in synaptic transmission",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of dopamine uptake involved in synaptic transmission",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of dopamine uptake involved in synaptic transmission",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of dopamine uptake involved in synaptic transmission",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051584",
+    "isObsolete": false,
+    "name": "regulation of dopamine uptake involved in synaptic transmission",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of the directed movement of the catecholamine neurotransmitter dopamine into a cell."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of dopamine import involved in synaptic transmission",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0051585",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051586",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060124",
+    "isObsolete": false,
+    "name": "positive regulation of growth hormone secretion",
+    "definition": {
+     "text": "Any process that increases the frequency, rate or extent of the regulated release of growth hormone from a cell."
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060134",
+    "isObsolete": false,
+    "name": "prepulse inhibition",
+    "definition": {
+     "text": "The process in which a startle magnitude is reduced when the startling stimulus is preceded by a low-intensity prepulse.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "10341260"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "PPI",
+      "type": "related"
+     },
+     {
+      "name": "pre-pulse inhibition",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060170",
+    "isObsolete": false,
+    "name": "ciliary membrane",
+    "definition": {
+     "text": "The portion of the plasma membrane surrounding a cilium."
+    },
+    "comment": "Note that cilia and eukaryotic flagella are deemed to be equivalent.",
+    "synonyms": [
+     {
+      "name": "cilial membrane",
+      "type": "exact"
+     },
+     {
+      "name": "cilium membrane",
+      "type": "exact"
+     },
+     {
+      "name": "flagellar membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "flagellum membrane",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0098804",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0020018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042622",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120201",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097538",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060158",
+    "isObsolete": false,
+    "name": "phospholipase C-activating dopamine receptor signaling pathway",
+    "definition": {
+     "text": "A phospholipase C-activating receptor G protein-coupled receptor signaling pathway initiated by dopamine binding to its receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "12675914"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "activation of phospholipase C activity by dopamine receptor signaling pathway",
+      "type": "related"
+     },
+     {
+      "name": "activation of phospholipase C activity by dopamine receptor signalling pathway",
+      "type": "related"
+     },
+     {
+      "name": "dopamine receptor, phospholipase C activating pathway",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060162",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060160",
+    "isObsolete": false,
+    "name": "negative regulation of dopamine receptor signaling pathway",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of dopamine receptor protein signaling pathway activity. A dopamine receptor signaling pathway is the series of molecular signals generated as a consequence of a dopamine receptor binding to one of its physiological ligands."
+    },
+    "synonyms": [
+     {
+      "name": "negative regulation of dopamine receptor signalling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1904991",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060162",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051240",
+    "isObsolete": false,
+    "name": "positive regulation of multicellular organismal process",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of an organismal process, any of the processes pertinent to the function of an organism above the cellular level; includes the integrated processes of tissues and organs."
+    },
+    "synonyms": [
+     {
+      "name": "activation of multicellular organismal process",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of multicellular organismal process",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of multicellular organismal process",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of multicellular organismal process",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of multicellular organismal process",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0045778",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903595",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905278",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045699",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048520",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002645",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061047",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000693",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090319",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042635",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032901",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001819",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905142",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000534",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046622",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010986",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010718",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031646",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905623",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070165",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903489",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904300",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0040018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001153",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902877",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034105",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000063",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902459",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905209",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903188",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905956",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062000",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035491",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070257",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902754",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045696",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106025",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031656",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031652",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900223",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048636",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902040",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000078",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000017",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000228",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903816",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060279",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904179",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904840",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000833",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051798",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0150201",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048091",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905300",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000103",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090190",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051461",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904443",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033601",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045693",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046534",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903012",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903404",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045801",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902868",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035815",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903367",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902748",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045933",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050820",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045805",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045618",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045780",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000830",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070368",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048582",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901251",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045907",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003104",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903942",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060456",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903524",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905941",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045690",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904414",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901165",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060265",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901248",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048081",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901079",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060406",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060617",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090184",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010902",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903708",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050867",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032278",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014744",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061036",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048093",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0040019",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051962",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905938",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0075261",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051209",
+    "isObsolete": false,
+    "name": "release of sequestered calcium ion into cytosol",
+    "definition": {
+     "text": "The process in which calcium ions sequestered in the endoplasmic reticulum, Golgi apparatus or mitochondria are released into the cytosolic compartment.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "1814929"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "calcium ion (Ca2+) mobilization",
+      "type": "broad"
+     },
+     {
+      "name": "calcium mobilization",
+      "type": "broad"
+     },
+     {
+      "name": "cytoplasmic release of sequestered calcium ion (Ca2+)",
+      "type": "broad"
+     },
+     {
+      "name": "cytoplasmic release of stored calcium ion (Ca2+)",
+      "type": "broad"
+     },
+     {
+      "name": "cytosolic release of sequestered calcium ion (Ca2+)",
+      "type": "exact"
+     },
+     {
+      "name": "cytosolic release of stored calcium ion (Ca2+)",
+      "type": "exact"
+     },
+     {
+      "name": "release of sequestered calcium ion (Ca2+)",
+      "type": "broad"
+     },
+     {
+      "name": "release of sequestered calcium ion into cytoplasm",
+      "type": "broad"
+     },
+     {
+      "name": "release of stored calcium ion (Ca2+)",
+      "type": "broad"
+     },
+     {
+      "name": "release of stored calcium ion (Ca2+) into cytoplasm",
+      "type": "broad"
+     },
+     {
+      "name": "release of stored calcium ion (Ca2+) into cytosol",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0051280",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1990779",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0051279",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0061454",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099093",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051281",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1903514",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099585",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099586",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0099170",
+    "isObsolete": false,
+    "name": "postsynaptic modulation of chemical synaptic transmission",
+    "definition": {
+     "text": "Any process, acting in the postsynapse that results in modulation of chemical synaptic transmission."
+    },
+    "children": [
+     {
+      "id": "GO:0099576",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099578",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0099171",
+    "isObsolete": false,
+    "name": "presynaptic modulation of chemical synaptic transmission",
+    "definition": {
+     "text": "Any process, acting in the presynapse that results in modulation of chemical synaptic transmission."
+    },
+    "children": [
+     {
+      "id": "GO:0099161",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099575",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099703",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099577",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0070374",
+    "isObsolete": false,
+    "name": "positive regulation of ERK1 and ERK2 cascade",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of signal transduction mediated by the ERK1 and ERK2 cascade."
+    },
+    "synonyms": [
+     {
+      "name": "activation of ERK1 and ERK2 cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of ERK1/2 cascade",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of ERK1 and ERK2 signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of ERK1 and ERK2 signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of ERK1 cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of ERK2 cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of ERK cascade",
+      "type": "broad"
+     },
+     {
+      "name": "positive regulation of MAPK1 cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of MAPK3 cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of ERK1 and ERK2 cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of ERK1 and ERK2 cascade",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of ERK1 and ERK2 cascade",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of ERK1 and ERK2 cascade",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1903530",
+    "isObsolete": false,
+    "name": "regulation of secretion by cell",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of secretion by cell.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000058"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "12130530"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "regulation of cellular secretion",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0014048",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003330",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903531",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017157",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050708",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046928",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050433",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014062",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046883",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904448",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:2000292",
+    "isObsolete": false,
+    "name": "regulation of defecation",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of defecation."
+    },
+    "children": [
+     {
+      "id": "GO:2000293",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000746",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060079",
+    "isObsolete": false,
+    "name": "excitatory postsynaptic potential",
+    "definition": {
+     "text": "A process that leads to a temporary increase in postsynaptic potential due to the flow of positively charged ions into the postsynaptic cell. The flow of ions that causes an EPSP is an excitatory postsynaptic current (EPSC) and makes it easier for the neuron to fire an action potential."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of EPSP",
+      "type": "related"
+     },
+     {
+      "name": "regulation of excitatory post-synaptic membrane potential",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0098816",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005231",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098817",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098815",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0090394",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:2000463",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0098691",
+    "isObsolete": false,
+    "name": "dopaminergic synapse",
+    "definition": {
+     "text": "A synapse that uses dopamine as a neurotransmitter."
+    },
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0098978",
+    "isObsolete": false,
+    "name": "glutamatergic synapse",
+    "definition": {
+     "text": "A synapse that uses glutamate as a neurotransmitter."
+    },
+    "children": [
+     {
+      "id": "GO:0098985",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0098982",
+    "isObsolete": false,
+    "name": "GABA-ergic synapse",
+    "definition": {
+     "text": "A synapse that uses GABA as a neurotransmitter. These synapses are typically inhibitory."
+    },
+    "children": [
+     {
+      "id": "GO:0098983",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0050805",
+    "isObsolete": false,
+    "name": "negative regulation of synaptic transmission",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of synaptic transmission, the process of communication from a neuron to a target (neuron, muscle, or secretory cell) across a synapse."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of synaptic transmission",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of synaptic transmission",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of synaptic transmission",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of synaptic transmission",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060093",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051967",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060292",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900074",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032227",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032229",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032223",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1990384",
+    "isObsolete": false,
+    "name": "hyaloid vascular plexus regression",
+    "definition": {
+     "text": "The developmental process in which the hyaloid vascular plexus is destroyed as a part of its normal progression.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "18841878"
+      }
+     ]
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1900038",
+    "isObsolete": false,
+    "name": "negative regulation of cellular response to hypoxia",
+    "definition": {
+     "text": "Any process that stops, prevents or reduces the frequency, rate or extent of cellular response to hypoxia."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of cellular response to hypoxia",
+      "type": "related"
+     },
+     {
+      "name": "down-regulation of cellular response to hypoxia",
+      "type": "related"
+     },
+     {
+      "name": "downregulation of cellular response to hypoxia",
+      "type": "related"
+     },
+     {
+      "name": "down regulation of cellular response to hypoxic stress",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of cellular response to hypoxic stress",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of cellular response to hypoxic stress",
+      "type": "exact"
+     },
+     {
+      "name": "down regulation of cellular response to lowered oxygen tension",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of cellular response to lowered oxygen tension",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of cellular response to lowered oxygen tension",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of cellular response to hypoxia",
+      "type": "related"
+     },
+     {
+      "name": "inhibition of cellular response to hypoxic stress",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of cellular response to lowered oxygen tension",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of cellular response to hypoxic stress",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of cellular response to lowered oxygen tension",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1903298",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902072",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071361",
+    "isObsolete": false,
+    "name": "cellular response to ethanol",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an ethanol stimulus."
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1900273",
+    "isObsolete": false,
+    "name": "positive regulation of long-term synaptic potentiation",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of long-term synaptic potentiation."
+    },
+    "synonyms": [
+     {
+      "name": "activation of long-term potentiation",
+      "type": "broad"
+     },
+     {
+      "name": "activation of long-term synaptic potentiation",
+      "type": "narrow"
+     },
+     {
+      "name": "activation of LTP",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of long-term potentiation",
+      "type": "broad"
+     },
+     {
+      "name": "positive regulation of LTP",
+      "type": "related"
+     },
+     {
+      "name": "up regulation of long-term potentiation",
+      "type": "broad"
+     },
+     {
+      "name": "up-regulation of long-term potentiation",
+      "type": "broad"
+     },
+     {
+      "name": "upregulation of long-term potentiation",
+      "type": "broad"
+     },
+     {
+      "name": "up regulation of long-term synaptic potentiation",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of long-term synaptic potentiation",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of long-term synaptic potentiation",
+      "type": "exact"
+     },
+     {
+      "name": "up regulation of LTP",
+      "type": "related"
+     },
+     {
+      "name": "up-regulation of LTP",
+      "type": "related"
+     },
+     {
+      "name": "upregulation of LTP",
+      "type": "related"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071300",
+    "isObsolete": false,
+    "name": "cellular response to retinoic acid",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a retinoic acid stimulus."
+    },
+    "synonyms": [
+     {
+      "name": "cellular response to vitamin A acid",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0160059",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0097648",
+    "isObsolete": false,
+    "name": "G protein-coupled receptor complex",
+    "definition": {
+     "text": "A protein complex that contains G protein-coupled receptors."
+    },
+    "synonyms": [
+     {
+      "name": "G-protein coupled receptor complex",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0038037",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903439",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1900168",
+    "isObsolete": false,
+    "name": "positive regulation of glial cell-derived neurotrophic factor production",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of glial cell-derived neurotrophic factor production."
+    },
+    "synonyms": [
+     {
+      "name": "activation of glial cell line-derived neurotrophic factor secretion",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of GDNF production",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of glial cell-derived neurotrophic factor secretion",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of glial cell line-derived neurotrophic factor secretion",
+      "type": "related"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051898",
+    "isObsolete": false,
+    "name": "negative regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of phosphatidylinositol 3-kinase/protein kinase B signal transduction."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of protein kinase B signaling cascade",
+      "type": "related"
+     },
+     {
+      "name": "down-regulation of protein kinase B signaling cascade",
+      "type": "related"
+     },
+     {
+      "name": "downregulation of protein kinase B signaling cascade",
+      "type": "related"
+     },
+     {
+      "name": "inhibition of protein kinase B signaling cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of AKT signaling cascade",
+      "type": "related"
+     },
+     {
+      "name": "negative regulation of AKT signalling cascade",
+      "type": "related"
+     },
+     {
+      "name": "negative regulation of phosphatidylinositol 3-kinase signaling/protein kinase B signal transduction",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of PI3K/Akt signal transduction",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of PI3K-PKB/Akt pathway",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of PI3K/PKB signal transduction",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of PKB signaling cascade",
+      "type": "related"
+     },
+     {
+      "name": "negative regulation of PKB signalling cascade",
+      "type": "related"
+     },
+     {
+      "name": "negative regulation of protein kinase B signaling",
+      "type": "related"
+     },
+     {
+      "name": "negative regulation of protein kinase B signaling cascade",
+      "type": "related"
+     },
+     {
+      "name": "negative regulation of protein kinase B signalling cascade",
+      "type": "related"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0097305",
+    "isObsolete": false,
+    "name": "response to alcohol",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an alcohol stimulus.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "24014527"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "process resulting in tolerance to alcohol",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1901326",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902665",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072704",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097307",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902519",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904321",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901427",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901422",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010266",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045471",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904044",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071680",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097334",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901419",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0033986",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903494",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901355",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903496",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901563",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901421",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1905119",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034695",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009737",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070723",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051414",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035075",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901420",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1902522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046898",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902520",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051412",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051413",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904627",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071798",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051823",
+    "isObsolete": false,
+    "name": "regulation of synapse structural plasticity",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of synapse structural plasticity. Synapse structural plasticity is a type of cytoskeletal remodeling; this remodeling is induced by stimuli that can lead to long term potentiation and it can be activity-dependent or -independent. Examples of cytoskeletal changes include the formation of new spines and increase in spine size; this can be accompanied by the insertion of greater numbers of glutamate (or other neurotransmitter) receptors into the post-synaptic membrane.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "11063967"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "14976517"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "9884123"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "regulation of synaptic structural plasticity",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0051826",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051835",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051967",
+    "isObsolete": false,
+    "name": "negative regulation of synaptic transmission, glutamatergic",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of glutamatergic synaptic transmission, the process of communication from a neuron to another neuron across a synapse using the neurotransmitter glutamate."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of synaptic transmission, glutamatergic",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of synaptic transmission, glutamatergic",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of synaptic transmission, glutamatergic",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of synaptic transmission, glutamatergic",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1903295",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0097730",
+    "isObsolete": false,
+    "name": "non-motile cilium",
+    "definition": {
+     "text": "A cilium which may have a variable array of axonemal microtubules but does not contain molecular motors.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "17009929"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "20144998"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "22118931"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "immotile cilium",
+      "type": "exact"
+     },
+     {
+      "name": "immotile primary cilium",
+      "type": "related"
+     },
+     {
+      "name": "nonmotile cilium",
+      "type": "exact"
+     },
+     {
+      "name": "nonmotile primary cilia",
+      "type": "related"
+     },
+     {
+      "name": "nonmotile primary cilium",
+      "type": "related"
+     },
+     {
+      "name": "sensory cilium",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0097732",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097731",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098804",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

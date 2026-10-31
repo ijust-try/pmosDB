@@ -1,0 +1,62 @@
+{
+ "source": "quickgo_terms",
+ "query": "P21860_50",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0097192",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:47:01+00:00",
+ "response": {
+  "numberOfHits": 1,
+  "results": [
+   {
+    "id": "GO:0097192",
+    "isObsolete": false,
+    "name": "extrinsic apoptotic signaling pathway in absence of ligand",
+    "definition": {
+     "text": "The series of molecular signals in which a signal is conveyed from the cell surface to trigger the apoptotic death of a cell. The pathway starts with withdrawal of a ligand from a cell surface receptor, and ends when the execution phase of apoptosis is triggered.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "15044679"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "20816705"
+      }
+     ]
+    },
+    "comment": "For dependence receptors, absence of a ligand or withdrawal of a ligand from a receptor acts as a signal. An example of 'extrinsic apoptotic signaling pathway in absence of ligand' is withdrawal of a growth factor such as NGF, even if traditionally apoptosis induced via growth factor withdrawal has been classified as an instance of intrinsic apoptosis. See an example in PMID:19767770. Ligands whose withdrawal or absence induce apoptosis should be annotated to GO:2001239 'regulation of extrinsic apoptotic signaling pathway in absence of ligand', rather than to the pathway term itself. Examples of gene products that may be annotated to GO:0097192 'extrinsic apoptotic signaling pathway in absence of ligand' include dependence receptors such as DCC or UNC5B, which relay lethal signals in the absence of their ligand (netrin-1). In the case of DCC and UNC5B, the signaling proceeds through the assembly of a DRAL- and TUCAN- (or NLRP1-) containing caspase-9-activating complex or by the dephosphorylation-mediated activation of death-associated protein kinase 1 (DAPK1) by UNC5B-bound protein phosphatase 2A (PP2A), respectively. DAPK1 can mediate the direct activation of executioner caspases or favor MOMP (reviewed in PMID:21760595). Also see PMID:21172653 (annotations to UNC5B and PR65beta, UniProt symbols O08722, PPP2R1B and P30154).",
+    "synonyms": [
+     {
+      "name": "dependence receptor signaling pathway",
+      "type": "related"
+     },
+     {
+      "name": "extrinsic apoptosis in absence of ligand",
+      "type": "narrow"
+     },
+     {
+      "name": "extrinsic apoptotic signalling pathway in absence of ligand",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2001239",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:2001241",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:2001240",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

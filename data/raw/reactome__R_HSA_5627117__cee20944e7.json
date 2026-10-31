@@ -1,0 +1,547 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-5627117",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-5627117",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:56:09+00:00",
+ "response": {
+  "dbId": 5627117,
+  "displayName": "RHO GTPases Activate ROCKs",
+  "stId": "R-HSA-5627117",
+  "stIdVersion": "R-HSA-5627117.5",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "RHO GTPases Activate ROCKs"
+  ],
+  "releaseDate": "2015-03-19",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12849064,
+    "displayName": "BioModels Database:BIOMD0000000088",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000088",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000088",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "\"The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.\" [ISBN:0716731363]",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 421378,
+    "displayName": "The small GTP-binding protein Rho binds to and activates a 160 kDa Ser/Thr protein kinase homologous to myotonic dystrophy kinase",
+    "title": "The small GTP-binding protein Rho binds to and activates a 160 kDa Ser/Thr protein kinase homologous to myotonic dystrophy kinase",
+    "journal": "EMBO J",
+    "pages": "1885-93",
+    "pubMedIdentifier": 8617235,
+    "volume": 15,
+    "year": 1996,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8617235",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5627666,
+    "displayName": "The p160 RhoA-binding kinase ROK alpha is a member of a kinase family and is involved in the reorganization of the cytoskeleton",
+    "title": "The p160 RhoA-binding kinase ROK alpha is a member of a kinase family and is involved in the reorganization of the cytoskeleton",
+    "journal": "Mol. Cell. Biol.",
+    "pages": "5313-27",
+    "pubMedIdentifier": 8816443,
+    "volume": 16,
+    "year": 1996,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8816443",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 420679,
+    "displayName": "Rho-associated kinase ROCK activates LIM-kinase 1 by phosphorylation at threonine 508 within the activation loop",
+    "title": "Rho-associated kinase ROCK activates LIM-kinase 1 by phosphorylation at threonine 508 within the activation loop",
+    "journal": "J Biol Chem",
+    "pages": "3577-82",
+    "pubMedIdentifier": 10652353,
+    "volume": 275,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10652353",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 420676,
+    "displayName": "Specific activation of LIM kinase 2 via phosphorylation of threonine 505 by ROCK, a Rho-dependent protein kinase",
+    "title": "Specific activation of LIM kinase 2 via phosphorylation of threonine 505 by ROCK, a Rho-dependent protein kinase",
+    "journal": "J Biol Chem",
+    "pages": "670-6",
+    "pubMedIdentifier": 11018042,
+    "volume": 276,
+    "year": 2001,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11018042",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 419192,
+    "displayName": "Phosphorylation and activation of myosin by Rho-associated kinase (Rho-kinase)",
+    "title": "Phosphorylation and activation of myosin by Rho-associated kinase (Rho-kinase)",
+    "journal": "J Biol Chem",
+    "pages": "20246-9",
+    "pubMedIdentifier": 8702756,
+    "volume": 271,
+    "year": 1996,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8702756",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 419187,
+    "displayName": "Regulation of myosin II dynamics by phosphorylation and dephosphorylation of its light chain in epithelial cells",
+    "title": "Regulation of myosin II dynamics by phosphorylation and dephosphorylation of its light chain in epithelial cells",
+    "journal": "Mol Biol Cell",
+    "pages": "605-16",
+    "pubMedIdentifier": 17151359,
+    "volume": 18,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17151359",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5668814,
+    "displayName": "Regulation of myosin phosphatase by Rho and Rho-associated kinase (Rho-kinase)",
+    "title": "Regulation of myosin phosphatase by Rho and Rho-associated kinase (Rho-kinase)",
+    "journal": "Science",
+    "pages": "245-8",
+    "pubMedIdentifier": 8662509,
+    "volume": 273,
+    "year": 1996,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8662509",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3858410,
+    "displayName": "Rho-kinase/ROCK: A key regulator of the cytoskeleton and cell polarity",
+    "title": "Rho-kinase/ROCK: A key regulator of the cytoskeleton and cell polarity",
+    "journal": "Cytoskeleton (Hoboken)",
+    "pages": "545-54",
+    "pubMedIdentifier": 20803696,
+    "volume": 67,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20803696",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 11036154,
+    "displayName": "RHO GTPases Activate ROCKs",
+    "stId": "R-CEL-5627117",
+    "stIdVersion": "R-CEL-5627117.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RHO GTPases Activate ROCKs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     5627117
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10953049,
+    "displayName": "RHO GTPases Activate ROCKs",
+    "stId": "R-DME-5627117",
+    "stIdVersion": "R-DME-5627117.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RHO GTPases Activate ROCKs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     5627117
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10867359,
+    "displayName": "RHO GTPases Activate ROCKs",
+    "stId": "R-GGA-5627117",
+    "stIdVersion": "R-GGA-5627117.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RHO GTPases Activate ROCKs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     5627117
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10769619,
+    "displayName": "RHO GTPases Activate ROCKs",
+    "stId": "R-XTR-5627117",
+    "stIdVersion": "R-XTR-5627117.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RHO GTPases Activate ROCKs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     5627117
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10688348,
+    "displayName": "RHO GTPases Activate ROCKs",
+    "stId": "R-DRE-5627117",
+    "stIdVersion": "R-DRE-5627117.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RHO GTPases Activate ROCKs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     5627117
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10595860,
+    "displayName": "RHO GTPases Activate ROCKs",
+    "stId": "R-SSC-5627117",
+    "stIdVersion": "R-SSC-5627117.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RHO GTPases Activate ROCKs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     5627117
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10482547,
+    "displayName": "RHO GTPases Activate ROCKs",
+    "stId": "R-BTA-5627117",
+    "stIdVersion": "R-BTA-5627117.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RHO GTPases Activate ROCKs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     5627117
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10367685,
+    "displayName": "RHO GTPases Activate ROCKs",
+    "stId": "R-CFA-5627117",
+    "stIdVersion": "R-CFA-5627117.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RHO GTPases Activate ROCKs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     5627117
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10260446,
+    "displayName": "RHO GTPases Activate ROCKs",
+    "stId": "R-RNO-5627117",
+    "stIdVersion": "R-RNO-5627117.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RHO GTPases Activate ROCKs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     5627117
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10119128,
+    "displayName": "RHO GTPases Activate ROCKs",
+    "stId": "R-MMU-5627117",
+    "stIdVersion": "R-MMU-5627117.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "RHO GTPases Activate ROCKs"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     5627117
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 5627664,
+    "displayName": "RHO associated, coiled-coil containing protein kinases ROCK1...",
+    "text": "RHO associated, coiled-coil containing protein kinases ROCK1 and ROCK2 consist of a serine/threonine kinase domain, a coiled-coil region, a RHO-binding domain and a plekstrin homology (PH) domain interspersed with a cysteine-rich region. The PH domain inhibits the kinase activity of ROCKs by an intramolecular fold. ROCKs are activated by binding of the GTP-bound RHO GTPases RHOA, RHOB and RHOC to the RHO binding domain of ROCKs (Ishizaki et al. 1996, Leung et al. 1996), which disrupts the autoinhibitory fold. Once activated, ROCK1 and ROCK2 phosphorylate target proteins, many of which are involved in the stabilization of actin filaments and generation of actin-myosin contractile force. ROCKs phosphorylate LIM kinases LIMK1 and LIMK2, enabling LIMKs to phosphorylate cofilin, an actin depolymerizing factor, and thereby regulate the reorganization of the actin cytoskeleton (Ohashi et al. 2000, Sumi et al. 2001). ROCKs phosphorylate MRLC (myosin regulatory light chain), which stimulates the activity of non-muscle myosin II (NMM2), an actin-based motor protein involved in cell migration, polarity formation and cytokinesis (Amano et al. 1996, Riento and Ridley 2003, Watanabe et al. 2007, Amano et al. 2010). ROCKs also phosphorylate the myosin phosphatase targeting subunit (MYPT1) of MLC phosphatase, inhibiting the phosphatase activity and preventing dephosphorylation of MRLC. This pathway acts synergistically with phosphorylation of MRLC by ROCKs towards stimulation of non-muscle myosin II activity (Kimura et al. 1996, Amano et al. 2010). ",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2020-09-24",
+  "hasEvent": [
+   {
+    "dbId": 419049,
+    "displayName": "ROCK activation by RHO",
+    "stId": "R-HSA-419049",
+    "stIdVersion": "R-HSA-419049.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ROCK activation by RHO"
+    ],
+    "releaseDate": "2009-09-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5627117
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9680443,
+    "displayName": "ROCK1,2 bind ROCKi",
+    "stId": "R-HSA-9680443",
+    "stIdVersion": "R-HSA-9680443.2",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ROCK1,2 bind ROCKi"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5627117
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 419087,
+    "displayName": "LIM kinase phosphorylation by ROCK",
+    "stId": "R-HSA-419087",
+    "stIdVersion": "R-HSA-419087.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "LIM kinase phosphorylation by ROCK"
+    ],
+    "releaseDate": "2009-09-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5627117
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928608,
+    "displayName": "LIMK phosphorylates CFL1, inactivating it",
+    "stId": "R-HSA-3928608",
+    "stIdVersion": "R-HSA-3928608.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "LIMK phosphorylates CFL1, inactivating it"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5627117
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 419197,
+    "displayName": "Myosin regulatory light chain phosphorylation by ROCK",
+    "stId": "R-HSA-419197",
+    "stIdVersion": "R-HSA-419197.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Myosin regulatory light chain phosphorylation by ROCK"
+    ],
+    "releaseDate": "2009-09-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5627117
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 419232,
+    "displayName": "Myosin phosphatase dephosphorylates myosin regulatory light chain",
+    "stId": "R-HSA-419232",
+    "stIdVersion": "R-HSA-419232.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Myosin phosphatase dephosphorylates myosin regulatory light chain"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5627117
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 419083,
+    "displayName": "Myosin phosphatase inactivation by ROCK",
+    "stId": "R-HSA-419083",
+    "stIdVersion": "R-HSA-419083.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Myosin phosphatase inactivation by ROCK"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5627117
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

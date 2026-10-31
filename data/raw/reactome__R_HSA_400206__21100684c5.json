@@ -1,0 +1,501 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-400206",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-400206",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:55:23+00:00",
+ "response": {
+  "dbId": 400206,
+  "displayName": "Regulation of lipid metabolism by PPARalpha",
+  "stId": "R-HSA-400206",
+  "stIdVersion": "R-HSA-400206.8",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 3,
+  "name": [
+   "Regulation of lipid metabolism by PPARalpha",
+   "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)"
+  ],
+  "releaseDate": "2009-09-30",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 7660,
+    "displayName": "nucleoplasm",
+    "accession": "0005654",
+    "databaseName": "GO",
+    "definition": "\"That part of the nuclear content other than the chromosomes or the nucleolus.\" [GOC:ma, ISBN:0124325653]",
+    "name": "nucleoplasm",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 8634,
+   "displayName": "regulation of lipid metabolic process",
+   "accession": "0019216",
+   "databaseName": "GO",
+   "definition": "\"Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving lipids.\" [GOC:curators]",
+   "name": "regulation of lipid metabolic process",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0019216",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 400106,
+    "displayName": "From molecular action to physiological outputs: peroxisome proliferator-activated receptors are nuclear receptors at the crossroads of key cellular functions",
+    "title": "From molecular action to physiological outputs: peroxisome proliferator-activated receptors are nuclear receptors at the crossroads of key cellular functions",
+    "journal": "Prog Lipid Res",
+    "pages": "120-59",
+    "pubMedIdentifier": 16476485,
+    "volume": 45,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16476485",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 400147,
+    "displayName": "Peroxisome proliferator activated receptors and lipoprotein metabolism",
+    "title": "Peroxisome proliferator activated receptors and lipoprotein metabolism",
+    "journal": "PPAR Res",
+    "pages": "132960",
+    "pubMedIdentifier": 18288277,
+    "volume": 2008,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18288277",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 400187,
+    "displayName": "Peroxisome proliferator-activated receptor alpha (PPARalpha) and athero-sclerosis",
+    "title": "Peroxisome proliferator-activated receptor alpha (PPARalpha) and athero-sclerosis",
+    "journal": "Curr Drug Targets Cardiovasc Haematol Disord",
+    "pages": "513-23",
+    "pubMedIdentifier": 16503871,
+    "volume": 5,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16503871",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 400127,
+    "displayName": "Peroxisome proliferator-activated receptors: nuclear control of metabolism",
+    "title": "Peroxisome proliferator-activated receptors: nuclear control of metabolism",
+    "journal": "Endocr Rev",
+    "pages": "649-88",
+    "pubMedIdentifier": 10529898,
+    "volume": 20,
+    "year": 1999,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10529898",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10119094,
+    "displayName": "Regulation of lipid metabolism by PPARalpha",
+    "stId": "R-MMU-400206",
+    "stIdVersion": "R-MMU-400206.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Regulation of lipid metabolism by PPARalpha",
+     "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     400206
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10260412,
+    "displayName": "Regulation of lipid metabolism by PPARalpha",
+    "stId": "R-RNO-400206",
+    "stIdVersion": "R-RNO-400206.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Regulation of lipid metabolism by PPARalpha",
+     "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     400206
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10367651,
+    "displayName": "Regulation of lipid metabolism by PPARalpha",
+    "stId": "R-CFA-400206",
+    "stIdVersion": "R-CFA-400206.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Regulation of lipid metabolism by PPARalpha",
+     "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     400206
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10482513,
+    "displayName": "Regulation of lipid metabolism by PPARalpha",
+    "stId": "R-BTA-400206",
+    "stIdVersion": "R-BTA-400206.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Regulation of lipid metabolism by PPARalpha",
+     "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     400206
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10595826,
+    "displayName": "Regulation of lipid metabolism by PPARalpha",
+    "stId": "R-SSC-400206",
+    "stIdVersion": "R-SSC-400206.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Regulation of lipid metabolism by PPARalpha",
+     "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     400206
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10688304,
+    "displayName": "Regulation of lipid metabolism by PPARalpha",
+    "stId": "R-DRE-400206",
+    "stIdVersion": "R-DRE-400206.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Regulation of lipid metabolism by PPARalpha",
+     "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     400206
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10771125,
+    "displayName": "Regulation of lipid metabolism by PPARalpha",
+    "stId": "R-XTR-400206",
+    "stIdVersion": "R-XTR-400206.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Regulation of lipid metabolism by PPARalpha",
+     "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     400206
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10867325,
+    "displayName": "Regulation of lipid metabolism by PPARalpha",
+    "stId": "R-GGA-400206",
+    "stIdVersion": "R-GGA-400206.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Regulation of lipid metabolism by PPARalpha",
+     "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     400206
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10953019,
+    "displayName": "Regulation of lipid metabolism by PPARalpha",
+    "stId": "R-DME-400206",
+    "stIdVersion": "R-DME-400206.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Regulation of lipid metabolism by PPARalpha",
+     "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     400206
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11036602,
+    "displayName": "Regulation of lipid metabolism by PPARalpha",
+    "stId": "R-CEL-400206",
+    "stIdVersion": "R-CEL-400206.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Regulation of lipid metabolism by PPARalpha",
+     "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     400206
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 400217,
+    "displayName": "Peroxisome proliferator-activated receptor alpha (PPAR-alpha...",
+    "text": "Peroxisome proliferator-activated receptor alpha (PPAR-alpha) is the major regulator of fatty acid oxidation in the liver. PPARalpha is also the target of fibrate drugs used to treat abnormal plasma lipid levels. <br>PPAR-alpha is a type II nuclear receptor (its subcellular location does not depend on ligand binding). PPAR-alpha forms heterodimers with Retinoid X receptor alpha (RXR-alpha), another type II nuclear receptor. PPAR-alpha is activated by binding fatty acid ligands, especially polyunsaturated fatty acids having 18-22 carbon groups and 2-6 double bonds. <br>The PPAR-alpha:RXR-alpha heterodimer binds peroxisome proliferator receptor elements (PPREs) in and around target genes. Binding of fatty acids and synthetic ligands causes a conformational change in PPAR-alpha such that it releases the corepressors and binds coactivators (CBP-SRC-HAT complex, ASC complex, and TRAP-Mediator complex) which initiate transcription of the target genes.<br>Target genes of PPAR-alpha participate in fatty acid transport, fatty acid oxidation, triglyceride clearance, lipoprotein production, and cholesterol homeostasis.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2022-06-09",
+  "hasEvent": [
+   {
+    "dbId": 2026996,
+    "displayName": "FABP1 transports fatty acids into the nucleus",
+    "stId": "R-HSA-2026996",
+    "stIdVersion": "R-HSA-2026996.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "FABP1 transports fatty acids into the nucleus"
+    ],
+    "releaseDate": "2025-06-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     400206
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 400204,
+    "displayName": "PPARA binds RXRA",
+    "stId": "R-HSA-400204",
+    "stIdVersion": "R-HSA-400204.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PPARA binds RXRA",
+     "PPARA binds RXRA forming PPARA:RXRA heterodimer at promoter of target gene"
+    ],
+    "releaseDate": "2009-09-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     400206
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 400183,
+    "displayName": "PPARA:RXRA binds Corepressors of PPARA",
+    "stId": "R-HSA-400183",
+    "stIdVersion": "R-HSA-400183.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PPARA:RXRA binds Corepressors of PPARA"
+    ],
+    "releaseDate": "2009-09-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     400206
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 400143,
+    "displayName": "Fatty acid ligands activate PPARA",
+    "stId": "R-HSA-400143",
+    "stIdVersion": "R-HSA-400143.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Fatty acid ligands activate PPARA"
+    ],
+    "releaseDate": "2009-09-30",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     400206
+    ],
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9734475,
+    "displayName": "PPARA binds fibrates",
+    "stId": "R-HSA-9734475",
+    "stIdVersion": "R-HSA-9734475.3",
+    "definition": "Agonist|Agonist",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PPARA binds fibrates"
+    ],
+    "releaseDate": "2022-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     400206
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1989781,
+    "displayName": "PPARA activates gene expression",
+    "stId": "R-HSA-1989781",
+    "stIdVersion": "R-HSA-1989781.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "PPARA activates gene expression"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     400206
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2021-09-15",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

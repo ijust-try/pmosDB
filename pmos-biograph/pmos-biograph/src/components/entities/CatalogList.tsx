@@ -13,6 +13,7 @@ export function CatalogList({
   onQuery,
   placeholder,
   label,
+  trailing,
 }: {
   items: Entity[];
   loading: boolean;
@@ -22,6 +23,8 @@ export function CatalogList({
   onQuery: (q: string) => void;
   placeholder: string;
   label: string;
+  /** Optional short right-aligned label per row, e.g. an evidence score. */
+  trailing?: (e: Entity) => string | null;
 }) {
   return (
     <div className="panel overflow-hidden lg:sticky lg:top-20">
@@ -53,10 +56,11 @@ export function CatalogList({
                 }`}
               >
                 <TypeIcon type={e.type} size={32} />
-                <span className="min-w-0">
+                <span className="min-w-0 flex-1">
                   <span className="block truncate text-sm font-bold text-ink">{e.name}</span>
                   <span className="block truncate font-mono text-[11.5px] text-ink-mute">{e.primaryId}</span>
                 </span>
+                {trailing?.(e) ? <span className="shrink-0 font-mono text-[11.5px] font-semibold text-teal">{trailing(e)}</span> : null}
               </button>
             </li>
           ))}

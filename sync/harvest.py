@@ -33,6 +33,14 @@ CONTACT_EMAIL = "saarikarajen@gmail.com"
 TAXON = 9606
 PCOS_EFO = "MONDO_0008487"
 PUBS_PER_ENTITY = 3
+# Genes curated into the knowledge base: the top N by Open Targets PCOS association score.
+TOP_N_PCOS_GENES = 100
+# Open Targets "clinical" evidence is propagated from a drug's targets: metformin trials give every
+# mitochondrial complex I subunit the same clinical score (0.69) and a trivial literature score (<= 0.15).
+# A gene is only auto-added when it has gene-level evidence: a non-clinical datatype scoring at least this much.
+# Complex subunits still appear where they matter, through the drug edges.
+NOT_GENE_LEVEL_EVIDENCE = {"clinical"}
+MIN_GENE_LEVEL_SCORE = 0.3
 SEED_COLUMNS = ["entity_type", "name", "lookup", "id_source", "notes"]
 
 OT_URL = "https://api.platform.opentargets.org/api/v4/graphql"
@@ -40,6 +48,8 @@ EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
 REACTOME = "https://reactome.org/ContentService/"
 QUICKGO = "https://www.ebi.ac.uk/QuickGO/services/"
 PUG = "https://pubchem.ncbi.nlm.nih.gov/rest/"
+
+HTTP_ATTEMPTS = 7  # transient 5xx/429 from a public API should not sink a weekly run
 
 unresolved: list[dict] = []
 _state = {"refresh": False}
@@ -68,7 +78,7 @@ def http_json(url: str, params: dict | None = None, json_body: dict | None = Non
     headers = {"User-Agent": f"pmos-kb/0.1 ({CONTACT_EMAIL})", "Accept": "application/json"}
     if data is not None:
         headers["Content-Type"] = "application/json"
-    for attempt in range(4):
+    for attempt in range(HTTP_ATTEMPTS):
         try:
             req = urllib.request.Request(url, data=data, headers=headers)
             with urllib.request.urlopen(req, timeout=timeout) as resp:
@@ -76,12 +86,12 @@ def http_json(url: str, params: dict | None = None, json_body: dict | None = Non
         except urllib.error.HTTPError as exc:
             if exc.code == 404:
                 return None
-            if attempt == 3 or exc.code not in (429, 500, 502, 503, 504):
+            if attempt == HTTP_ATTEMPTS - 1 or exc.code not in (429, 500, 502, 503, 504):
                 raise
         except (urllib.error.URLError, TimeoutError, ValueError):
-            if attempt == 3:
+            if attempt == HTTP_ATTEMPTS - 1:
                 raise
-        time.sleep(2 ** attempt)
+        time.sleep(min(2 ** attempt, 30))  # 1, 2, 4, 8, 16, 30 s: about a minute before giving up
 
 
 def fetch(source, query, url, params=None, json_body=None, delay=0.4) -> dict:
@@ -118,7 +128,7 @@ query pcos($efo: String!, $index: Int!, $size: Int!) {
     id name
     associatedTargets(page: {index: $index, size: $size}) {
       count
-      rows { target { id approvedSymbol } score }
+      rows { target { id approvedSymbol } score datatypeScores { id score } }
     }
   }
 }"""
@@ -137,7 +147,10 @@ def open_targets_pcos(max_pages: int = 5, size: int = 100) -> list[dict]:
         batch = d["associatedTargets"]["rows"]
         for r in batch:
             sym = r["target"]["approvedSymbol"].upper()
-            rows.setdefault(sym, {"gene_symbol": sym, "ensembl_id": r["target"]["id"], "ot_score": r["score"]})
+            scores = sorted(((d["id"], d["score"]) for d in r.get("datatypeScores") or [] if d["score"] > 0),
+                            key=lambda t: (-t[1], t[0]))
+            rows.setdefault(sym, {"gene_symbol": sym, "ensembl_id": r["target"]["id"], "ot_score": r["score"],
+                                  "datatypes": ";".join(f"{name}:{score:.2f}" for name, score in scores)})
         if len(batch) < size:
             break
     assert name and "polycystic" in name.lower(), f"{PCOS_EFO} is not PCOS (got {name!r})"
@@ -298,6 +311,21 @@ def pubchem(name, want_mechanism=False):
 def read_seeds() -> list[dict]:
     with SEED_CSV.open(encoding="utf-8-sig", newline="") as fh:
         return [{k: (v or "").strip() for k, v in row.items()} for row in csv.DictReader(fh)]
+
+
+def pcos_seed_genes(ot_rows: list[dict], n: int = TOP_N_PCOS_GENES) -> dict[str, str]:
+    """Top-N Open Targets PCOS-associated genes with gene-level evidence, as gene seeds (symbol -> note)."""
+    def has_gene_level_evidence(row: dict) -> bool:
+        for item in filter(None, row["datatypes"].split(";")):
+            name, _, score = item.partition(":")
+            if name not in NOT_GENE_LEVEL_EVIDENCE and float(score or 0) >= MIN_GENE_LEVEL_SCORE:
+                return True
+        return False
+
+    eligible = [r for r in ot_rows if has_gene_level_evidence(r)]
+    return {r["gene_symbol"]: f"Open Targets PCOS association rank {r['ot_rank']} (score {r['ot_score']:.3f}; "
+                              f"{r['datatypes'].replace(':', ' ').replace(';', ', ')})"
+            for r in eligible[:n]}
 
 
 def add_seed_genes(symbols: dict[str, str]) -> list[str]:
@@ -522,7 +550,7 @@ def write_clean(clean: dict[str, list[dict]], ot_rows: list[dict], targets: list
     write_csv(out_dir / "entity_publication_map.csv", clean["_entity_pubs"], ["entity_type", "entity_name", "pmid"])
     write_csv(out_dir / "gene_xref.csv", clean["_xref"],
               ["gene_symbol", "ncbi_gene_id", "uniprot_accession", "uniprot_geneid", "check"])
-    write_csv(out_dir / "open_targets_pcos.csv", ot_rows, ["gene_symbol", "ensembl_id", "ot_score", "ot_rank", "retrieved_on"])
+    write_csv(out_dir / "open_targets_pcos.csv", ot_rows, ["gene_symbol", "ensembl_id", "ot_score", "ot_rank", "datatypes", "retrieved_on"])
     write_csv(out_dir / "therapeutic_targets.csv", targets, COLS["therapeutic_target"])
     write_csv(out_dir / "unresolved_mappings.csv", unresolved, ["entity_type", "name", "reason"])
 

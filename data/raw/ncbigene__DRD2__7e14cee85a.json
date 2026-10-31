@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "DRD2",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "1813",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:46:27+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "1813"
+   ],
+   "1813": {
+    "uid": "1813",
+    "name": "DRD2",
+    "description": "dopamine receptor D2",
+    "status": "",
+    "currentid": "",
+    "chromosome": "11",
+    "geneticsource": "genomic",
+    "maplocation": "11q23.2",
+    "otheraliases": "D2DR, D2R",
+    "otherdesignations": "dopamine receptor D2|D(2) dopamine receptor|d(2) dopamine receptor|dopamine D2 receptor|seven transmembrane helix receptor",
+    "nomenclaturesymbol": "DRD2",
+    "nomenclaturename": "dopamine receptor D2",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "126450"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "11",
+      "chraccver": "NC_000011.10",
+      "chrstart": 113475397,
+      "chrstop": 113409604,
+      "exoncount": 9
+     }
+    ],
+    "geneweight": 78502,
+    "summary": "This gene encodes the D2 subtype of the dopamine receptor. This G-protein coupled receptor inhibits adenylyl cyclase activity. A missense mutation in this gene causes myoclonus dystonia; other mutations have been associated with schizophrenia. Alternative splicing of this gene results in two transcript variants encoding different isoforms. A third variant has been described, but it has not been determined whether this form is normal or due to aberrant splicing. [provided by RefSeq, Jul 2008]",
+    "chrsort": "11",
+    "chrstart": 113409604,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000011.10",
+      "chrstart": 113475397,
+      "chrstop": 113409604
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060935.1",
+      "chrstart": 113485881,
+      "chrstop": 113420106
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000011.10",
+      "chrstart": 113475397,
+      "chrstop": 113409604
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060935.1",
+      "chrstart": 113485881,
+      "chrstop": 113420106
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000011.10",
+      "chrstart": 113475397,
+      "chrstop": 113409604
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060935.1",
+      "chrstart": 113485881,
+      "chrstop": 113420106
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000011.10",
+      "chrstart": 113475397,
+      "chrstop": 113409604
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060935.1",
+      "chrstart": 113485881,
+      "chrstop": 113420106
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000011.10",
+      "chrstart": 113475397,
+      "chrstop": 113409604
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060935.1",
+      "chrstart": 113485881,
+      "chrstop": 113420106
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000011.10",
+      "chrstart": 113475397,
+      "chrstop": 113409604
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000011.9",
+      "chrstart": 113346119,
+      "chrstop": 113280326
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000011.9",
+      "chrstart": 113346119,
+      "chrstop": 113280326
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000011.9",
+      "chrstart": 113346412,
+      "chrstop": 113280316
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000143.1",
+      "chrstart": 109274419,
+      "chrstop": 109208765
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018922.2",
+      "chrstart": 113228979,
+      "chrstop": 113163301
+     }
+    ]
+   }
+  }
+ }
+}

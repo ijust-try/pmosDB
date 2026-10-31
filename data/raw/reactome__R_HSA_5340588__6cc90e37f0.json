@@ -1,0 +1,206 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-5340588",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-5340588",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:50:40+00:00",
+ "response": {
+  "dbId": 5340588,
+  "displayName": "Signaling by RNF43 mutants",
+  "stId": "R-HSA-5340588",
+  "stIdVersion": "R-HSA-5340588.4",
+  "isInDisease": true,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Signaling by RNF43 mutants"
+  ],
+  "releaseDate": "2014-06-10",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12061039,
+    "displayName": "Mondo:0004992",
+    "databaseName": "Mondo",
+    "identifier": "0004992",
+    "url": "https://monarchinitiative.org/MONDO:0004992",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "\"The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.\" [ISBN:0716731363]",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "disease": [
+   {
+    "dbId": 1500689,
+    "displayName": "cancer",
+    "databaseName": "DOID",
+    "definition": "A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.",
+    "identifier": "162",
+    "name": [
+     "cancer"
+    ],
+    "synonym": [
+     "malignant tumor",
+     "malignant neoplasm",
+     "primary cancer"
+    ],
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/doid/terms?obo_id=DOID:162",
+    "className": "Disease",
+    "schemaClass": "Disease"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 4641121,
+    "displayName": "Balanced ubiquitylation and deubiquitylation of Frizzled regulate cellular responsiveness to Wg/Wnt",
+    "title": "Balanced ubiquitylation and deubiquitylation of Frizzled regulate cellular responsiveness to Wg/Wnt",
+    "journal": "EMBO J.",
+    "pages": "2114-25",
+    "pubMedIdentifier": 20495530,
+    "volume": 29,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20495530",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5333061,
+    "displayName": "Inactivating mutations of RNF43 confer Wnt dependency in pancreatic ductal adenocarcinoma",
+    "title": "Inactivating mutations of RNF43 confer Wnt dependency in pancreatic ductal adenocarcinoma",
+    "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+    "pages": "12649-54",
+    "pubMedIdentifier": 23847203,
+    "volume": 110,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23847203",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 4641102,
+    "displayName": "ZNRF3 promotes Wnt receptor turnover in an R-spondin-sensitive manner",
+    "title": "ZNRF3 promotes Wnt receptor turnover in an R-spondin-sensitive manner",
+    "journal": "Nature",
+    "pages": "195-200",
+    "pubMedIdentifier": 22575959,
+    "volume": 485,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22575959",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5340570,
+    "displayName": "Tumour suppressor RNF43 is a stem-cell E3 ligase that induces endocytosis of Wnt receptors",
+    "title": "Tumour suppressor RNF43 is a stem-cell E3 ligase that induces endocytosis of Wnt receptors",
+    "journal": "Nature",
+    "pages": "665-9",
+    "pubMedIdentifier": 22895187,
+    "volume": 488,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22895187",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 5340589,
+    "displayName": "RNF43 and related protein ZNRF3 are E3 ubiquitin ligases tha...",
+    "text": "RNF43 and related protein ZNRF3 are E3 ubiquitin ligases that negatively regulate WNT signaling by downregulating FZD receptors at the cell surface (Mukai et al, 2010; Hao et al, 2012).  Frameshift loss-of-function mutations in RNF43 that enhance WNT signaling have been identified in pancreatic and colorectal cancers; the proliferation of these cells is dependent on the presence of secreted WNT, as their growth is abrogated by treatment of cells with the Porcupine inhibitor LGK974 (Koo et al, 2012; Jiang et al, 2013).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2015-03-23",
+  "hasEvent": [
+   {
+    "dbId": 5340587,
+    "displayName": "RNF43 frameshift mutants show enhanced WNT siganling",
+    "stId": "R-HSA-5340587",
+    "stIdVersion": "R-HSA-5340587.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RNF43 frameshift mutants show enhanced WNT siganling"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5340588
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "FailedReaction"
+   }
+  ],
+  "normalPathway": {
+   "dbId": 201681,
+   "displayName": "TCF dependent signaling in response to WNT",
+   "stId": "R-HSA-201681",
+   "stIdVersion": "R-HSA-201681.3",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 4,
+   "name": [
+    "TCF dependent signaling in response to WNT"
+   ],
+   "releaseDate": "2014-03-12",
+   "speciesName": "Homo sapiens",
+   "doi": "10.3180/REACT_200777.2",
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "lastUpdatedDate": "2017-09-27",
+   "diseasePathways": [
+    5340588
+   ],
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

@@ -1,0 +1,2405 @@
+{
+ "source": "quickgo_terms",
+ "query": "P09529_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0001541,GO:0005125,GO:0005179,GO:0005515,GO:0005576,GO:0006952,GO:0007178,GO:0007283,GO:0008083,GO:0008584,GO:0008585,GO:0009267,GO:0009611,GO:0017085,GO:0021983,GO:0030154,GO:0032686,GO:0032869,GO:0032924,GO:0034698,GO:0042803,GO:0044320,GO:0044650,GO:0045444,GO:0046676,GO:0046789,GO:0046881,GO:0046882,GO:0048471,GO:0060279,GO:0071277,GO:0071320,GO:0071347,GO:0071397,GO:0071944,GO:0072520,GO:0097067,GO:1904017,GO:1904628",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:51:31+00:00",
+ "response": {
+  "numberOfHits": 39,
+  "results": [
+   {
+    "id": "GO:0005576",
+    "isObsolete": false,
+    "name": "extracellular region",
+    "definition": {
+     "text": "The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite."
+    },
+    "comment": "Note that this term is intended to annotate gene products that are not attached to the cell surface. For gene products at the cell surface, consider annotating to external side of plasma membrane ; GO:0009897.",
+    "synonyms": [
+     {
+      "name": "extracellular",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030312",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043264",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043230",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072562",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035182",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035183",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043245",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0065010",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043083",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006860",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098595",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903561",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140392",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006858",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070701",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036117",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048046",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900116",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099544",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0085036",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900115",
+      "relation": "occurs_in"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0032869",
+    "isObsolete": false,
+    "name": "cellular response to insulin stimulus",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an insulin stimulus. Insulin is a polypeptide hormone produced by the islets of Langerhans of the pancreas in mammals, and by the homologous organs of other organisms.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:1900077",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0008286",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900076",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0044381",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900078",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005179",
+    "isObsolete": false,
+    "name": "hormone activity",
+    "definition": {
+     "text": "The action characteristic of a hormone, any substance formed in very small amounts in one specialized organ or group of cells and carried (sometimes in the bloodstream) to another organ or group of cells in the same organism, upon which it has a specific regulatory action. The term was originally applied to agents with a stimulatory physiological action in vertebrate animals (as opposed to a chalone, which has a depressant action). Usage is now extended to regulatory compounds in lower animals and plants, and to synthetic substances having comparable effects; all bind receptors and trigger some biological process.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "comment": "Also consider annotating to 'receptor agonist activity ; GO:0048018'.",
+    "synonyms": [
+     {
+      "name": "cAMP generating peptide activity",
+      "type": "narrow"
+     },
+     {
+      "name": "glycopeptide hormone",
+      "type": "narrow"
+     },
+     {
+      "name": "lipopeptide hormone",
+      "type": "narrow"
+     },
+     {
+      "name": "peptide hormone",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0016521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005183",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005184",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046659",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017044",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017045",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016913",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061696",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0030354",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008613",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070186",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016085",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016608",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016084",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008437",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030154",
+    "isObsolete": false,
+    "name": "cell differentiation",
+    "definition": {
+     "text": "The cellular developmental process in which a relatively unspecialized cell, e.g. embryonic or regenerative cell, acquires specialized structural and/or functional features that characterize a specific cell. Differentiation includes the processes involved in commitment of a cell to a specific fate and its subsequent development to the mature state.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0022036",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030099",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033327",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045596",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0090603",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060718",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009994",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002244",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060127",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045165",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001826",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030855",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021533",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060689",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060034",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061318",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002062",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061005",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001829",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035914",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048824",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048468",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045444",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035990",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042692",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045597",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0061382",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048762",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009557",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048760",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048533",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001649",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060290",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042386",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010026",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090627",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035987",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022619",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009563",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014016",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904238",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060128",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022620",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021515",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048333",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060591",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0160058",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060479",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010668",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021979",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045445",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008583",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048863",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903498",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903728",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090077",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048235",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048888",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090679",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001570",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060126",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048657",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905177",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048761",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045595",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0070315",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035051",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044671",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048515",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050931",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036446",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008584",
+    "isObsolete": false,
+    "name": "male gonad development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the male gonad over time, from its formation to the mature structure."
+    },
+    "synonyms": [
+     {
+      "name": "testicular development",
+      "type": "exact"
+     },
+     {
+      "name": "testis development",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2000018",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0033327",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060011",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072520",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:2000020",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:2000019",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0060008",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008585",
+    "isObsolete": false,
+    "name": "female gonad development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the female gonad over time, from its formation to the mature structure."
+    },
+    "synonyms": [
+     {
+      "name": "ovarian development",
+      "type": "related"
+     },
+     {
+      "name": "ovary development",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2000195",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:2000196",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:2000194",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0001554",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001542",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001553",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061040",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001541",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001552",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042803",
+    "isObsolete": false,
+    "name": "protein homodimerization activity",
+    "definition": {
+     "text": "Binding to an identical protein to form a homodimer."
+    },
+    "synonyms": [
+     {
+      "name": "dimerization activity",
+      "type": "broad"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005515",
+    "isObsolete": false,
+    "name": "protein binding",
+    "definition": {
+     "text": "Binding to a protein."
+    },
+    "synonyms": [
+     {
+      "name": "glycoprotein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "protein amino acid binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031072",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140081",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032092",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010313",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043393",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0031720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990405",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051087",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001965",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005516",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990935",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001848",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032091",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046980",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043394",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001846",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051959",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019955",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1904017",
+    "isObsolete": false,
+    "name": "cellular response to Thyroglobulin triiodothyronine",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a Thyroglobulin triiodothyronine stimulus.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000071"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "7531505"
+      }
+     ]
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005125",
+    "isObsolete": false,
+    "name": "cytokine activity",
+    "definition": {
+     "text": "The activity of a soluble extracellular gene product that interacts with a receptor to effect a change in the activity of the receptor to control the survival, growth, differentiation and effector function of tissues and cells.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198599471"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "11530802"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "autocrine activity",
+      "type": "related"
+     },
+     {
+      "name": "paracrine activity",
+      "type": "related"
+     },
+     {
+      "name": "phytocytokine activity",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060300",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0060302",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0008009",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0032686",
+    "isObsolete": false,
+    "name": "negative regulation of hepatocyte growth factor production",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate, or extent of hepatocyte growth factor production.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "1838014"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of hepatocyte growth factor production",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of hepatocyte growth factor production",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of hepatocyte growth factor production",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of hepatocyte growth factor production",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of hepatocyte growth factor biosynthetic process",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of HGF production",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of scatter factor production",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0044650",
+    "isObsolete": false,
+    "name": "adhesion of symbiont to host cell",
+    "definition": {
+     "text": "The attachment of a symbiont to a host cell via adhesion molecules, general stickiness etc., either directly or indirectly."
+    },
+    "children": [
+     {
+      "id": "GO:0141026",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0141024",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0141025",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0020035",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046789",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044652",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019062",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044651",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0075004",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0017085",
+    "isObsolete": false,
+    "name": "response to insecticide",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an insecticide stimulus. Insecticides are chemicals used to kill insects."
+    },
+    "synonyms": [
+     {
+      "name": "insecticide resistance",
+      "type": "related"
+     },
+     {
+      "name": "insecticide susceptibility/resistance",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0046684",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017143",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0046681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046680",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046682",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0032924",
+    "isObsolete": false,
+    "name": "activin receptor signaling pathway",
+    "definition": {
+     "text": "The series of molecular signals initiated by an extracellular ligand binding to an activin receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription."
+    },
+    "synonyms": [
+     {
+      "name": "activin receptor signalling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0032926",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0032927",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0038092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017002",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032925",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006952",
+    "isObsolete": false,
+    "name": "defense response",
+    "definition": {
+     "text": "Reactions, triggered in response to the presence of a foreign body or the occurrence of an injury, which result in restriction of damage to the organism attacked or prevention/recovery from the infection caused by the attack."
+    },
+    "synonyms": [
+     {
+      "name": "antimicrobial peptide activity",
+      "type": "related"
+     },
+     {
+      "name": "defence response",
+      "type": "exact"
+     },
+     {
+      "name": "defense/immunity protein activity",
+      "type": "related"
+     },
+     {
+      "name": "physiological defense response",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0002229",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098542",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052544",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002215",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052482",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002213",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031347",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0051607",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050832",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002679",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006954",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052542",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002357",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031349",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0031348",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0002209",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0097067",
+    "isObsolete": false,
+    "name": "cellular response to thyroid hormone stimulus",
+    "definition": {
+     "text": "A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a thyroid hormone stimulus.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "9916872"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0097069",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0021983",
+    "isObsolete": false,
+    "name": "pituitary gland development",
+    "definition": {
+     "text": "The progression of the pituitary gland over time from its initial formation until its mature state. The pituitary gland is an endocrine gland that secretes hormones that regulate many other glands.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000021"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "hypophysis development",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0021984",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0021985",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048850",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0072520",
+    "isObsolete": false,
+    "name": "seminiferous tubule development",
+    "definition": {
+     "text": "The reproductive developmental process whose specific outcome is the progression of the seminiferous tubule over time, from its formation to the mature structure. Seminiferous tubules are ducts located in the testicles, and are the specific location of meiosis, and the subsequent creation of gametes, namely spermatozoa.",
+     "xrefs": [
+      {
+       "dbCode": "UBERON",
+       "dbId": "0001343"
+      }
+     ]
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001541",
+    "isObsolete": false,
+    "name": "ovarian follicle development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the ovarian follicle over time, from its formation to the mature structure.",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "https://www.ncbi.nlm.nih.gov/books/NBK279054/"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "follicular phase",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0001551",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001544",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001545",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042699",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001546",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035471",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001547",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:2000354",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:2000355",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:2000386",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045444",
+    "isObsolete": false,
+    "name": "fat cell differentiation",
+    "definition": {
+     "text": "The process in which a relatively unspecialized cell acquires specialized features of an adipocyte, an animal connective tissue cell specialized for the synthesis and storage of fat.",
+     "xrefs": [
+      {
+       "dbCode": "CL",
+       "dbId": "0000136"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "adipocyte cell differentiation",
+      "type": "exact"
+     },
+     {
+      "name": "adipocyte differentiation",
+      "type": "exact"
+     },
+     {
+      "name": "adipogenesis",
+      "type": "related"
+     },
+     {
+      "name": "adipose cell differentiation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0050872",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050873",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045598",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0045600",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0160274",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045599",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008083",
+    "isObsolete": false,
+    "name": "growth factor activity",
+    "definition": {
+     "text": "The function that stimulates a cell to grow or proliferate. Most growth factors have other actions besides the induction of cell growth or proliferation.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "comment": "Also consider annotating to 'receptor agonist activity ; GO:0048018'.",
+    "children": [
+     {
+      "id": "GO:0036454",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060279",
+    "isObsolete": false,
+    "name": "positive regulation of ovulation",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of ovulation, the release of a mature ovum/oocyte from an ovary."
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1904628",
+    "isObsolete": false,
+    "name": "cellular response to phorbol 13-acetate 12-myristate",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a phorbol 13-acetate 12-myristate stimulus.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000071"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "2200903"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "cellular response to phorbol 12-tetradecanoate 13-acetate",
+      "type": "exact"
+     },
+     {
+      "name": "cellular response to response to PMA",
+      "type": "exact"
+     },
+     {
+      "name": "cellular response to tetradecanoylphorbol acetate",
+      "type": "exact"
+     },
+     {
+      "name": "cellular response to TPA",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0048471",
+    "isObsolete": false,
+    "name": "perinuclear region of cytoplasm",
+    "definition": {
+     "text": "Cytoplasm situated near, or occurring around, the nucleus."
+    },
+    "comment": "Note that this term should not be confused with the cellular component term 'nuclear membrane lumen ; GO:0005641', which has the synonym 'perinuclear space'.",
+    "children": [
+     {
+      "id": "GO:1990723",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990633",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097038",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033011",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0009267",
+    "isObsolete": false,
+    "name": "cellular response to starvation",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of deprivation of nourishment."
+    },
+    "children": [
+     {
+      "id": "GO:0034224",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006995",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051365",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043617",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990383",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080169",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009970",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0015968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034198",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035874",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010350",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072732",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036223",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036225",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010106",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010438",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071262",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071263",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016036",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071264",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071397",
+    "isObsolete": false,
+    "name": "cellular response to cholesterol",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a cholesterol stimulus."
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071320",
+    "isObsolete": false,
+    "name": "cellular response to cAMP",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a cAMP (cyclic AMP, adenosine 3',5'-cyclophosphate) stimulus."
+    },
+    "synonyms": [
+     {
+      "name": "cellular response to 3',5' cAMP",
+      "type": "exact"
+     },
+     {
+      "name": "cellular response to 3',5'-cAMP",
+      "type": "exact"
+     },
+     {
+      "name": "cellular response to adenosine 3',5'-cyclophosphate",
+      "type": "exact"
+     },
+     {
+      "name": "cellular response to cyclic AMP",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071347",
+    "isObsolete": false,
+    "name": "cellular response to interleukin-1",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an interleukin-1 stimulus."
+    },
+    "synonyms": [
+     {
+      "name": "cellular response to IL-1",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070498",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071277",
+    "isObsolete": false,
+    "name": "cellular response to calcium ion",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a calcium ion stimulus."
+    },
+    "synonyms": [
+     {
+      "name": "cellular response to Ca2+ ion",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0097231",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0034698",
+    "isObsolete": false,
+    "name": "response to gonadotropin",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a gonadotropin stimulus."
+    },
+    "synonyms": [
+     {
+      "name": "response to gonadotropin stimulus",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0034699",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032354",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044752",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0046676",
+    "isObsolete": false,
+    "name": "negative regulation of insulin secretion",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of the regulated release of insulin."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of insulin secretion",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of insulin secretion",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of insulin secretion",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of insulin secretion",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0061179",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007178",
+    "isObsolete": false,
+    "name": "cell surface receptor protein serine/threonine kinase signaling pathway",
+    "definition": {
+     "text": "The series of molecular signals initiated by an extracellular ligand binding to a receptor on the surface of the target cell where the receptor possesses serine/threonine kinase activity, and ending with the regulation of a downstream cellular process, e.g. transcription."
+    },
+    "synonyms": [
+     {
+      "name": "transmembrane receptor protein serine/threonine kinase signaling pathway",
+      "type": "broad"
+     },
+     {
+      "name": "transmembrane receptor protein serine/threonine kinase signalling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0090101",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0090100",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0060395",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0141091",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990262",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090092",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0004675",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0046789",
+    "isObsolete": false,
+    "name": "host cell surface receptor binding",
+    "definition": {
+     "text": "Binding to a receptor on the host cell surface.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "11511370"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "cell surface antigen activity, host-interacting",
+      "type": "related"
+     },
+     {
+      "name": "cell surface receptor ligand",
+      "type": "related"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0009611",
+    "isObsolete": false,
+    "name": "response to wounding",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating damage to the organism."
+    },
+    "synonyms": [
+     {
+      "name": "physiological response to wounding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0014876",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042060",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090594",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014822",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903035",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0009861",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903034",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1903036",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0002210",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990660",
+      "relation": "capable_of_part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0046882",
+    "isObsolete": false,
+    "name": "negative regulation of follicle-stimulating hormone secretion",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of the regulated release of follicle-stimulating hormone."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of follicle-stimulating hormone secretion",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of follicle-stimulating hormone secretion",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of follicle-stimulating hormone secretion",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of follicle-stimulating hormone secretion",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of follicle stimulating hormone secretion",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0046881",
+    "isObsolete": false,
+    "name": "positive regulation of follicle-stimulating hormone secretion",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of the regulated release of follicle-stimulating hormone."
+    },
+    "synonyms": [
+     {
+      "name": "activation of follicle-stimulating hormone secretion",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of follicle stimulating hormone secretion",
+      "type": "exact"
+     },
+     {
+      "name": "stimulation of follicle-stimulating hormone secretion",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of follicle-stimulating hormone secretion",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of follicle-stimulating hormone secretion",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of follicle-stimulating hormone secretion",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007283",
+    "isObsolete": false,
+    "name": "spermatogenesis",
+    "definition": {
+     "text": "The developmental process by which male germ line stem cells self renew or give rise to successive cell types resulting in the development of a spermatozoa.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "9780878933846"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "28073824"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "30990821"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "generation of spermatozoa",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0048140",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030726",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061989",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030724",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007284",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048137",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007285",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048515",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048136",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048133",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0160087",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0044320",
+    "isObsolete": false,
+    "name": "cellular response to leptin stimulus",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a leptin stimulus. Leptin is a hormone manufactured primarily in the adipocytes of white adipose tissue, and the level of circulating leptin is directly proportional to the total amount of fat in the body. It plays a key role in regulating energy intake and energy expenditure, including appetite and metabolism."
+    },
+    "children": [
+     {
+      "id": "GO:0033210",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071944",
+    "isObsolete": false,
+    "name": "cell periphery",
+    "definition": {
+     "text": "The broad region around and including the plasma membrane of a cell, encompassing the cell cortex (inside the cell), the plasma membrane, and any external encapsulating structures."
+    },
+    "children": [
+     {
+      "id": "GO:0005886",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005938",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

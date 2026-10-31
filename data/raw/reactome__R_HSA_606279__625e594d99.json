@@ -1,0 +1,427 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-606279",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-606279",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:56:37+00:00",
+ "response": {
+  "dbId": 606279,
+  "displayName": "Deposition of new CENPA-containing nucleosomes at the centromere",
+  "stId": "R-HSA-606279",
+  "stIdVersion": "R-HSA-606279.3",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Deposition of new CENPA-containing nucleosomes at the centromere"
+  ],
+  "releaseDate": "2010-06-15",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 7660,
+    "displayName": "nucleoplasm",
+    "accession": "0005654",
+    "databaseName": "GO",
+    "definition": "\"That part of the nuclear content other than the chromosomes or the nucleolus.\" [GOC:ma, ISBN:0124325653]",
+    "name": "nucleoplasm",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 260633,
+   "displayName": "CENP-A containing chromatin assembly",
+   "accession": "0034080",
+   "databaseName": "GO",
+   "definition": "\"The formation of chromatin containing the histone H3 variant CENP-A to form centromeric chromatin. This specialised chromatin occurs at centromeric region in point centromeres, and the central core in modular centromeres.\" [GOC:mah, GOC:vw, PMID:18158900, PMID:19217403, PMID:35422390]",
+   "name": "CENP-A containing chromatin assembly",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0034080",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 847689,
+    "displayName": "Propagation of centromeric chromatin requires exit from mitosis",
+    "title": "Propagation of centromeric chromatin requires exit from mitosis",
+    "journal": "J Cell Biol",
+    "pages": "795-805",
+    "pubMedIdentifier": 17339380,
+    "volume": 176,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17339380",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 606283,
+    "displayName": "Centromere-specific assembly of CENP-a nucleosomes is mediated by HJURP",
+    "title": "Centromere-specific assembly of CENP-a nucleosomes is mediated by HJURP",
+    "journal": "Cell",
+    "pages": "472-84",
+    "pubMedIdentifier": 19410544,
+    "volume": 137,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19410544",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 606290,
+    "displayName": "HJURP is a cell-cycle-dependent maintenance and deposition factor of CENP-A at centromeres",
+    "title": "HJURP is a cell-cycle-dependent maintenance and deposition factor of CENP-A at centromeres",
+    "journal": "Cell",
+    "pages": "485-97",
+    "pubMedIdentifier": 19410545,
+    "volume": 137,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19410545",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 606307,
+    "displayName": "HJURP binds CENP-A via a highly conserved N-terminal domain and mediates its deposition at centromeres",
+    "title": "HJURP binds CENP-A via a highly conserved N-terminal domain and mediates its deposition at centromeres",
+    "journal": "Proc Natl Acad Sci U S A",
+    "pages": "1349-54",
+    "pubMedIdentifier": 20080577,
+    "volume": 107,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20080577",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 606298,
+    "displayName": "Frodos found: Behold the CENP-a \"Ring\" bearers",
+    "title": "Frodos found: Behold the CENP-a \"Ring\" bearers",
+    "journal": "Cell",
+    "pages": "409-12",
+    "pubMedIdentifier": 19410539,
+    "volume": 137,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19410539",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 877404,
+    "displayName": "At the right place at the right time: novel CENP-A binding proteins shed light on centromere assembly",
+    "title": "At the right place at the right time: novel CENP-A binding proteins shed light on centromere assembly",
+    "journal": "Chromosoma",
+    "pages": "567-74",
+    "pubMedIdentifier": 19590885,
+    "volume": 118,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19590885",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 877415,
+    "displayName": "Epigenetic specification of centromeres by CENP-A",
+    "title": "Epigenetic specification of centromeres by CENP-A",
+    "journal": "Exp Cell Res",
+    "pages": "3233-41",
+    "pubMedIdentifier": 19660450,
+    "volume": 315,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19660450",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 877405,
+    "displayName": "Focus on the centre: the role of chromatin on the regulation of centromere identity and function",
+    "title": "Focus on the centre: the role of chromatin on the regulation of centromere identity and function",
+    "journal": "EMBO J",
+    "pages": "2337-48",
+    "pubMedIdentifier": 19629040,
+    "volume": 28,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19629040",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10867543,
+    "displayName": "Deposition of new CENPA-containing nucleosomes at the centromere",
+    "stId": "R-GGA-606279",
+    "stIdVersion": "R-GGA-606279.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deposition of new CENPA-containing nucleosomes at the centromere"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     606279
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10769787,
+    "displayName": "Deposition of new CENPA-containing nucleosomes at the centromere",
+    "stId": "R-XTR-606279",
+    "stIdVersion": "R-XTR-606279.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deposition of new CENPA-containing nucleosomes at the centromere"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     606279
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10596062,
+    "displayName": "Deposition of new CENPA-containing nucleosomes at the centromere",
+    "stId": "R-SSC-606279",
+    "stIdVersion": "R-SSC-606279.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deposition of new CENPA-containing nucleosomes at the centromere"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     606279
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10482753,
+    "displayName": "Deposition of new CENPA-containing nucleosomes at the centromere",
+    "stId": "R-BTA-606279",
+    "stIdVersion": "R-BTA-606279.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deposition of new CENPA-containing nucleosomes at the centromere"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     606279
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10367893,
+    "displayName": "Deposition of new CENPA-containing nucleosomes at the centromere",
+    "stId": "R-CFA-606279",
+    "stIdVersion": "R-CFA-606279.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deposition of new CENPA-containing nucleosomes at the centromere"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     606279
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10260652,
+    "displayName": "Deposition of new CENPA-containing nucleosomes at the centromere",
+    "stId": "R-RNO-606279",
+    "stIdVersion": "R-RNO-606279.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deposition of new CENPA-containing nucleosomes at the centromere"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     606279
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10119330,
+    "displayName": "Deposition of new CENPA-containing nucleosomes at the centromere",
+    "stId": "R-MMU-606279",
+    "stIdVersion": "R-MMU-606279.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Deposition of new CENPA-containing nucleosomes at the centromere"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     606279
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 606278,
+    "displayName": "Eukaryotic centromeres are marked by a unique form of histon...",
+    "text": "Eukaryotic centromeres are marked by a unique form of histone H3, designated CENPA in humans. In human cells newly synthesized CENPA is deposited in nucleosomes at the centromere during late telophase/early G1 phase of the cell cycle. Once deposited, nucleosomes containing CENPA remain stably associated with the centromere and are partitioned equally to daughter centromeres during S phase. A current model proposes that pre-existing CENPA at the centromere drives recruitment of new CENPA, however this has not been proved.<br>The deposition process requires at least 3 complexes: the Mis18 complex, HJURP complex, and the RSF complex. HJURP binds newly synthesized CENPA-H4 tetramers before deposition and brings them to the centromere for deposition in new CENPA-containing nucleosomes. The exact mechanism of deposition remains unknown.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2014-12-08",
+  "hasEvent": [
+   {
+    "dbId": 606349,
+    "displayName": "Mis18 complex binds the centromere",
+    "stId": "R-HSA-606349",
+    "stIdVersion": "R-HSA-606349.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Mis18 complex binds the centromere"
+    ],
+    "releaseDate": "2010-06-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     606279
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 606326,
+    "displayName": "HJURP:CENPA complex localizes to the centromere",
+    "stId": "R-HSA-606326",
+    "stIdVersion": "R-HSA-606326.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HJURP:CENPA complex localizes to the centromere"
+    ],
+    "releaseDate": "2010-06-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     606279
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 606289,
+    "displayName": "New CENPA-containing nucleosomes are deposited at the centromere",
+    "stId": "R-HSA-606289",
+    "stIdVersion": "R-HSA-606289.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "New CENPA-containing nucleosomes are deposited at the centromere"
+    ],
+    "releaseDate": "2010-06-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     606279
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 606287,
+    "displayName": "RSF complex binds the centromere",
+    "stId": "R-HSA-606287",
+    "stIdVersion": "R-HSA-606287.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RSF complex binds the centromere"
+    ],
+    "releaseDate": "2010-06-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     606279
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

@@ -70,10 +70,20 @@ interface BaseEntity {
   verification: Verification;
 }
 
+/** Open Targets association between a gene and PCOS. `score` is 0-1; `rank` is among `total` associated genes. */
+export interface PcosAssociation {
+  score: number;
+  rank: number;
+  total: number | null;
+  /** Open Targets datatype scores behind the overall score, strongest first. */
+  evidenceTypes: Array<{ type: string; score: number }>;
+}
+
 export interface Gene extends BaseEntity {
   type: 'gene';
   symbol: string;
   organism: string;
+  pcosAssociation?: PcosAssociation;
 }
 export interface Protein extends BaseEntity {
   type: 'protein';
@@ -88,9 +98,18 @@ export interface Biomarker extends BaseEntity {
   type: 'biomarker';
   sampleContext?: string;
 }
+/** How strongly a pathway's member genes are associated with PCOS (Open Targets). */
+export interface PathwayEvidence {
+  memberGenes: number;
+  associatedGenes: number;
+  topScore: number | null;
+  topGene: string | null;
+}
+
 export interface Pathway extends BaseEntity {
   type: 'pathway';
   organism: string;
+  pcosEvidence?: PathwayEvidence;
 }
 export interface Therapeutic extends BaseEntity {
   type: 'therapeutic';
@@ -162,6 +181,9 @@ export interface DataSource {
 
 /** State of the automatic weekly synchronisation. */
 export interface SyncStatus {
+  /** True when the last successful synchronisation is older than the allowed window (the weekly job is failing). */
+  stale: boolean;
+  daysSinceSync: number | null;
   schedule: string;
   /** ISO timestamp of the next scheduled run. */
   nextRun: string;

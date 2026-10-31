@@ -1,0 +1,638 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-6804758",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-6804758",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:58:41+00:00",
+ "response": {
+  "dbId": 6804758,
+  "displayName": "Regulation of TP53 Activity through Acetylation",
+  "stId": "R-HSA-6804758",
+  "stIdVersion": "R-HSA-6804758.5",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 3,
+  "name": [
+   "Regulation of TP53 Activity through Acetylation"
+  ],
+  "releaseDate": "2016-03-23",
+  "speciesName": "Homo sapiens",
+  "goBiologicalProcess": {
+   "dbId": 3132571,
+   "displayName": "regulation of signal transduction by p53 class mediator",
+   "accession": "1901796",
+   "databaseName": "GO",
+   "definition": "\"Any process that modulates the frequency, rate or extent of signal transduction by p53 class mediator.\" [GOC:TermGenie]",
+   "name": "regulation of signal transduction by p53 class mediator",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:1901796",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 5628862,
+    "displayName": "TIGAR, a p53-inducible regulator of glycolysis and apoptosis",
+    "title": "TIGAR, a p53-inducible regulator of glycolysis and apoptosis",
+    "journal": "Cell",
+    "pages": "107-20",
+    "pubMedIdentifier": 16839880,
+    "volume": 126,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16839880",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3222101,
+    "displayName": "Polybromo-associated BRG1-associated factor components BRD7 and BAF180 are critical regulators of p53 required for induction of replicative senescence",
+    "title": "Polybromo-associated BRG1-associated factor components BRD7 and BAF180 are critical regulators of p53 required for induction of replicative senescence",
+    "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+    "pages": "14280-5",
+    "pubMedIdentifier": 20660729,
+    "volume": 107,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20660729",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3222107,
+    "displayName": "BRD7 is a candidate tumour suppressor gene required for p53 function",
+    "title": "BRD7 is a candidate tumour suppressor gene required for p53 function",
+    "journal": "Nat. Cell Biol.",
+    "pages": "380-9",
+    "pubMedIdentifier": 20228809,
+    "volume": 12,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20228809",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6805625,
+    "displayName": "MOZ increases p53 acetylation and premature senescence through its complex formation with PML",
+    "title": "MOZ increases p53 acetylation and premature senescence through its complex formation with PML",
+    "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+    "pages": "3895-900",
+    "pubMedIdentifier": 23431171,
+    "volume": 110,
+    "year": 2013,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23431171",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6805662,
+    "displayName": "Deacetylation of p53 modulates its effect on cell growth and apoptosis",
+    "title": "Deacetylation of p53 modulates its effect on cell growth and apoptosis",
+    "journal": "Nature",
+    "pages": "377-81",
+    "pubMedIdentifier": 11099047,
+    "volume": 408,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11099047",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 8856580,
+    "displayName": "Acetylation of the p53 DNA-binding domain regulates apoptosis induction",
+    "title": "Acetylation of the p53 DNA-binding domain regulates apoptosis induction",
+    "journal": "Mol. Cell",
+    "pages": "841-51",
+    "pubMedIdentifier": 17189187,
+    "volume": 24,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17189187",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 8856574,
+    "displayName": "Tip60-dependent acetylation of p53 modulates the decision between cell-cycle arrest and apoptosis",
+    "title": "Tip60-dependent acetylation of p53 modulates the decision between cell-cycle arrest and apoptosis",
+    "journal": "Mol. Cell",
+    "pages": "827-39",
+    "pubMedIdentifier": 17189186,
+    "volume": 24,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17189186",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5662732,
+    "displayName": "Tumor suppression in the absence of p53-mediated cell-cycle arrest, apoptosis, and senescence",
+    "title": "Tumor suppression in the absence of p53-mediated cell-cycle arrest, apoptosis, and senescence",
+    "journal": "Cell",
+    "pages": "1269-83",
+    "pubMedIdentifier": 22682249,
+    "volume": 149,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22682249",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 8856576,
+    "displayName": "Ferroptosis as a p53-mediated activity during tumour suppression",
+    "title": "Ferroptosis as a p53-mediated activity during tumour suppression",
+    "journal": "Nature",
+    "pages": "57-62",
+    "pubMedIdentifier": 25799988,
+    "volume": 520,
+    "year": 2015,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/25799988",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10368447,
+    "displayName": "Regulation of TP53 Activity through Acetylation",
+    "stId": "R-CFA-6804758",
+    "stIdVersion": "R-CFA-6804758.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Regulation of TP53 Activity through Acetylation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     6804758
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11171706,
+    "displayName": "Regulation of TP53 Activity through Acetylation",
+    "stId": "R-PFA-6804758",
+    "stIdVersion": "R-PFA-6804758.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Regulation of TP53 Activity through Acetylation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     6804758
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11150366,
+    "displayName": "Regulation of TP53 Activity through Acetylation",
+    "stId": "R-SCE-6804758",
+    "stIdVersion": "R-SCE-6804758.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Regulation of TP53 Activity through Acetylation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     6804758
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11121781,
+    "displayName": "Regulation of TP53 Activity through Acetylation",
+    "stId": "R-SPO-6804758",
+    "stIdVersion": "R-SPO-6804758.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Regulation of TP53 Activity through Acetylation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     6804758
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11092527,
+    "displayName": "Regulation of TP53 Activity through Acetylation",
+    "stId": "R-DDI-6804758",
+    "stIdVersion": "R-DDI-6804758.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Regulation of TP53 Activity through Acetylation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     6804758
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11037138,
+    "displayName": "Regulation of TP53 Activity through Acetylation",
+    "stId": "R-CEL-6804758",
+    "stIdVersion": "R-CEL-6804758.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Regulation of TP53 Activity through Acetylation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     6804758
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10953711,
+    "displayName": "Regulation of TP53 Activity through Acetylation",
+    "stId": "R-DME-6804758",
+    "stIdVersion": "R-DME-6804758.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Regulation of TP53 Activity through Acetylation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     6804758
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10868541,
+    "displayName": "Regulation of TP53 Activity through Acetylation",
+    "stId": "R-GGA-6804758",
+    "stIdVersion": "R-GGA-6804758.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Regulation of TP53 Activity through Acetylation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     6804758
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10770333,
+    "displayName": "Regulation of TP53 Activity through Acetylation",
+    "stId": "R-XTR-6804758",
+    "stIdVersion": "R-XTR-6804758.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Regulation of TP53 Activity through Acetylation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     6804758
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10689474,
+    "displayName": "Regulation of TP53 Activity through Acetylation",
+    "stId": "R-DRE-6804758",
+    "stIdVersion": "R-DRE-6804758.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Regulation of TP53 Activity through Acetylation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     6804758
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10596648,
+    "displayName": "Regulation of TP53 Activity through Acetylation",
+    "stId": "R-SSC-6804758",
+    "stIdVersion": "R-SSC-6804758.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Regulation of TP53 Activity through Acetylation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     6804758
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10483341,
+    "displayName": "Regulation of TP53 Activity through Acetylation",
+    "stId": "R-BTA-6804758",
+    "stIdVersion": "R-BTA-6804758.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Regulation of TP53 Activity through Acetylation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     6804758
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10261238,
+    "displayName": "Regulation of TP53 Activity through Acetylation",
+    "stId": "R-RNO-6804758",
+    "stIdVersion": "R-RNO-6804758.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Regulation of TP53 Activity through Acetylation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     6804758
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10119918,
+    "displayName": "Regulation of TP53 Activity through Acetylation",
+    "stId": "R-MMU-6804758",
+    "stIdVersion": "R-MMU-6804758.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Regulation of TP53 Activity through Acetylation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     6804758
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 6806341,
+    "displayName": "Transcriptional activity of TP53 is positively regulated by ...",
+    "text": "Transcriptional activity of TP53 is positively regulated by acetylation of several of its lysine residues. BRD7 binds TP53 and promotes acetylation of TP53 lysine residue K382 by acetyltransferase EP300 (p300). Acetylation of K382 enhances TP53 binding to target promoters, including CDKN1A (p21), MDM2, SERPINE1, TIGAR, TNFRSF10C and NDRG1 (Bensaad et al. 2010, Burrows et al. 2010. Drost et al. 2010). The histone acetyltransferase KAT6A, in the presence of PML, also acetylates TP53 at K382, and, in addition, acetylates K120 of TP53. KAT6A-mediated acetylation increases transcriptional activation of CDKN1A by TP53 (Rokudai et al. 2013). Acetylation of K382 can be reversed by the action of the NuRD complex, containing the TP53-binding MTA2 subunit, resulting in inhibition of TP53 transcriptional activity (Luo et al. 2000). Acetylation of lysine K120 in the DNA binding domain of TP53 by the MYST family acetyltransferases KAT8 (hMOF) and KAT5 (TIP60) can modulate the decision between cell cycle arrest and apoptosis (Sykes et al. 2006, Tang et al. 2006). Studies with acetylation-defective knock-in mutant mice indicate that lysine acetylation in the p53 DNA binding domain acts in part by uncoupling transactivation and transrepression of gene targets, while retaining ability to modulate energy metabolism and production of reactive oxygen species (ROS) and influencing ferroptosis (Li et al. 2012, Jiang et al. 2015).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2016-10-05",
+  "hasEvent": [
+   {
+    "dbId": 3222093,
+    "displayName": "BRD7 binds TP53 and EP300",
+    "stId": "R-HSA-3222093",
+    "stIdVersion": "R-HSA-3222093.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "BRD7 binds TP53 and EP300"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6804758
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5628871,
+    "displayName": "BRD7 promotes EP300-mediated acetylation of TP53",
+    "stId": "R-HSA-5628871",
+    "stIdVersion": "R-HSA-5628871.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "BRD7 promotes EP300-mediated acetylation of TP53"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6804758
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6805620,
+    "displayName": "KAT6A and PML bind TP53",
+    "stId": "R-HSA-6805620",
+    "stIdVersion": "R-HSA-6805620.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "KAT6A and PML bind TP53"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6804758
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6805638,
+    "displayName": "KAT6A acetylates TP53",
+    "stId": "R-HSA-6805638",
+    "stIdVersion": "R-HSA-6805638.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "KAT6A acetylates TP53"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6804758
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6805640,
+    "displayName": "AKT phosphorylates KAT6A",
+    "stId": "R-HSA-6805640",
+    "stIdVersion": "R-HSA-6805640.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AKT phosphorylates KAT6A"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6804758
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6805650,
+    "displayName": "MTA2-NuRD complex deacetylates TP53",
+    "stId": "R-HSA-6805650",
+    "stIdVersion": "R-HSA-6805650.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "MTA2-NuRD complex deacetylates TP53"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6804758
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6811555,
+    "displayName": "PI5P Regulates TP53 Acetylation",
+    "stId": "R-HSA-6811555",
+    "stIdVersion": "R-HSA-6811555.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "PI5P Regulates TP53 Acetylation"
+    ],
+    "releaseDate": "2016-09-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6804758
+    ],
+    "doi": "10.3180/R-HSA-6811555.1",
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

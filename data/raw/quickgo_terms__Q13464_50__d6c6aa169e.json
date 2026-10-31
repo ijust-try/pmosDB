@@ -1,0 +1,1111 @@
+{
+ "source": "quickgo_terms",
+ "query": "Q13464_50",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0051492,GO:0051893,GO:0051894,GO:0061157,GO:0070168,GO:0070507,GO:0071559,GO:0072518,GO:0072659,GO:0090128,GO:0090521,GO:0097746,GO:0098685,GO:0106310,GO:0110061,GO:0140058,GO:1900223,GO:1900242,GO:1901888,GO:1902003,GO:1902430,GO:1902992,GO:1903140,GO:1903347,GO:1905205,GO:1990776,GO:2000114,GO:2000145",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:56:24+00:00",
+ "response": {
+  "numberOfHits": 28,
+  "results": [
+   {
+    "id": "GO:0110061",
+    "isObsolete": false,
+    "name": "regulation of angiotensin-activated signaling pathway",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of the angiotensin-activated signaling pathway.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "28784619"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0110063",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110062",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0070507",
+    "isObsolete": false,
+    "name": "regulation of microtubule cytoskeleton organization",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of the formation, arrangement of constituent parts, or disassembly of cytoskeletal structures comprising microtubules and their associated proteins."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of microtubule cytoskeleton organisation",
+      "type": "exact"
+     },
+     {
+      "name": "regulation of microtubule dynamics",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060069",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000694",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0150101",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090224",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031110",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1905205",
+    "isObsolete": false,
+    "name": "positive regulation of connective tissue replacement",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of connective tissue replacement.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000058"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "25590961"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "activation of connective tissue replacement",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of connective tissue replacement",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of connective tissue replacement",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of connective tissue replacement",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1904598",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0090128",
+    "isObsolete": false,
+    "name": "regulation of synapse maturation",
+    "definition": {
+     "text": "Any process that modulates the extent of synapse maturation, the process that organizes a synapse so that it attains its fully functional state."
+    },
+    "children": [
+     {
+      "id": "GO:0090129",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000297",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0090521",
+    "isObsolete": false,
+    "name": "podocyte cell migration",
+    "definition": {
+     "text": "The orderly movement of a podocyte from one site to another, often during the development of a multicellular organism or multicellular structure. A podocyte is a specialized kidney epithelial cell.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "21402783"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "glomerular visceral epithelial cell migration",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051492",
+    "isObsolete": false,
+    "name": "regulation of stress fiber assembly",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of the assembly of a stress fiber, a bundle of microfilaments and other proteins found in fibroblasts."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of stress fibre biosynthesis",
+      "type": "related"
+     },
+     {
+      "name": "regulation of stress fibre formation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0051496",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051497",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1903140",
+    "isObsolete": false,
+    "name": "regulation of establishment of endothelial barrier",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of establishment of endothelial barrier.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000058"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "24851274"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:1903142",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903141",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:2000114",
+    "isObsolete": false,
+    "name": "regulation of establishment of cell polarity",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of establishment of cell polarity."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of bud site selection/establishment of cell polarity",
+      "type": "related"
+     },
+     {
+      "name": "regulation of cell polarization",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2000782",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061172",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903903",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:2000145",
+    "isObsolete": false,
+    "name": "regulation of cell motility",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of cell motility."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of cell locomotion",
+      "type": "exact"
+     },
+     {
+      "name": "regulation of cell movement",
+      "type": "related"
+     },
+     {
+      "name": "regulation of movement of a cell",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2000147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000146",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030334",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902019",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905416",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0061157",
+    "isObsolete": false,
+    "name": "mRNA destabilization",
+    "definition": {
+     "text": "Any process that decreases the stability of an mRNA molecule, making it more vulnerable to degradative processes. Messenger RNA is the intermediate molecule between DNA and protein. It includes UTR and coding sequences. It does not contain introns."
+    },
+    "children": [
+     {
+      "id": "GO:0141008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035279",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071047",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090625",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990074",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000288",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140991",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061158",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1903347",
+    "isObsolete": false,
+    "name": "negative regulation of bicellular tight junction assembly",
+    "definition": {
+     "text": "Any process that stops, prevents or reduces the frequency, rate or extent of tight junction assembly.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000058"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "25050009"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of tight junction assembly",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of tight junction assembly",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of tight junction assembly",
+      "type": "exact"
+     },
+     {
+      "name": "down regulation of tight junction formation",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of tight junction formation",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of tight junction formation",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of tight junction assembly",
+      "type": "narrow"
+     },
+     {
+      "name": "inhibition of tight junction formation",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of tight junction formation",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0072518",
+    "isObsolete": false,
+    "name": "Rho-dependent protein serine/threonine kinase activity",
+    "definition": {
+     "text": "Rho GTPase-dependent catalysis of the reaction: ATP + a protein = ADP + a phosphoprotein.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "12778124"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "20230755"
+      }
+     ]
+    },
+    "comment": "This reaction requires binding of the GTPase Rho.",
+    "synonyms": [
+     {
+      "name": "Rho-associated protein kinase activity",
+      "type": "exact"
+     },
+     {
+      "name": "ROCK kinase activity",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1901888",
+    "isObsolete": false,
+    "name": "regulation of cell junction assembly",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of cell junction assembly."
+    },
+    "children": [
+     {
+      "id": "GO:0051963",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000810",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090109",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903596",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901890",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0098685",
+    "isObsolete": false,
+    "name": "Schaffer collateral - CA1 synapse",
+    "definition": {
+     "text": "A synapse between the Schaffer collateral axon of a CA3 pyramidal cell and a CA1 pyramidal cell.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "16399689"
+      }
+     ]
+    },
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0106310",
+    "isObsolete": false,
+    "name": "protein serine kinase activity",
+    "definition": {
+     "text": "Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate.",
+     "xrefs": [
+      {
+       "dbCode": "RHEA",
+       "dbId": "17989"
+      }
+     ]
+    },
+    "comment": "Note that this term is to annotate proteins the specifically phosphorylate a serine residue on a protein. An example is human PIKFYVE (UniProt:Q9Y2I7). For dual specificity protein kinases, use 'protein serine/threonine kinase activity' ; GO:0004712.",
+    "synonyms": [
+     {
+      "name": "protein-serine kinase activity",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0008772",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0070168",
+    "isObsolete": false,
+    "name": "negative regulation of biomineral tissue development",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of biomineral tissue development, the formation of hard tissues that consist mainly of inorganic compounds."
+    },
+    "children": [
+     {
+      "id": "GO:0070171",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905649",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030502",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0072659",
+    "isObsolete": false,
+    "name": "protein localization to plasma membrane",
+    "definition": {
+     "text": "A process in which a protein is transported to, or maintained in, a specific location in the plasma membrane."
+    },
+    "synonyms": [
+     {
+      "name": "protein localisation in plasma membrane",
+      "type": "related"
+     },
+     {
+      "name": "protein localization in plasma membrane",
+      "type": "related"
+     },
+     {
+      "name": "protein-plasma membrane targeting",
+      "type": "related"
+     },
+     {
+      "name": "protein targeting to plasma membrane",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1903076",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0043001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072660",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903445",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903077",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1903078",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0099639",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036371",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1902003",
+    "isObsolete": false,
+    "name": "regulation of amyloid-beta formation",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of amyloid-beta formation.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "17098871"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "regulation of beta-amyloid formation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1902430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902004",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1902430",
+    "isObsolete": false,
+    "name": "negative regulation of amyloid-beta formation",
+    "definition": {
+     "text": "Any process that stops, prevents or reduces the frequency, rate or extent of amyloid-beta formation.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "22992957"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of beta-amyloid formation",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of beta-amyloid formation",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of beta-amyloid formation",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of beta-amyloid formation",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of beta-amyloid formation",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0097746",
+    "isObsolete": false,
+    "name": "blood vessel diameter maintenance",
+    "definition": {
+     "text": "Any process that modulates the diameter of blood vessels."
+    },
+    "synonyms": [
+     {
+      "name": "blood vessel diameter homeostasis",
+      "type": "exact"
+     },
+     {
+      "name": "regulation of blood vessel diameter",
+      "type": "exact"
+     },
+     {
+      "name": "regulation of blood vessel size",
+      "type": "related"
+     },
+     {
+      "name": "regulation of vasodilatation",
+      "type": "related"
+     },
+     {
+      "name": "regulation of vasodilation",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0002034",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019229",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042310",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042311",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1900223",
+    "isObsolete": false,
+    "name": "positive regulation of amyloid-beta clearance",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of amyloid-beta clearance."
+    },
+    "synonyms": [
+     {
+      "name": "activation of beta-amyloid clearance",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of beta-amyloid clearance",
+      "type": "exact"
+     },
+     {
+      "name": "up regulation of beta-amyloid clearance",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of beta-amyloid clearance",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of beta-amyloid clearance",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1900242",
+    "isObsolete": false,
+    "name": "regulation of synaptic vesicle endocytosis",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of synaptic vesicle endocytosis."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of synaptic vesicle retrieval",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1900244",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900243",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051893",
+    "isObsolete": false,
+    "name": "regulation of focal adhesion assembly",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of focal adhesion formation, the establishment and maturation of focal adhesions."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of adhesion plaque assembly",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0051894",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051895",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051894",
+    "isObsolete": false,
+    "name": "positive regulation of focal adhesion assembly",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of focal adhesion assembly, the establishment and maturation of focal adhesions."
+    },
+    "synonyms": [
+     {
+      "name": "activation of focal adhesion formation",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of focal adhesion formation",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of focal adhesion formation",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of focal adhesion formation",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of focal adhesion formation",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1990776",
+    "isObsolete": false,
+    "name": "response to angiotensin",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an angiotensin stimulus. Angiotensin is any of three physiologically active peptides (angiotensin II, III, or IV) processed from angiotensinogen.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "22982863"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:1904385",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1902992",
+    "isObsolete": false,
+    "name": "negative regulation of amyloid precursor protein catabolic process",
+    "definition": {
+     "text": "Any process that stops, prevents or reduces the frequency, rate or extent of amyloid precursor protein catabolic process.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000058"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "24499793"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of amyloid precursor protein breakdown",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of amyloid precursor protein breakdown",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of amyloid precursor protein breakdown",
+      "type": "exact"
+     },
+     {
+      "name": "down regulation of amyloid precursor protein catabolic process",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of amyloid precursor protein catabolic process",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of amyloid precursor protein catabolic process",
+      "type": "exact"
+     },
+     {
+      "name": "down regulation of amyloid precursor protein catabolism",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of amyloid precursor protein catabolism",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of amyloid precursor protein catabolism",
+      "type": "exact"
+     },
+     {
+      "name": "down regulation of amyloid precursor protein degradation",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of amyloid precursor protein degradation",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of amyloid precursor protein degradation",
+      "type": "exact"
+     },
+     {
+      "name": "down regulation of APP catabolic process",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of APP catabolic process",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of APP catabolic process",
+      "type": "exact"
+     },
+     {
+      "name": "down regulation of APP catabolism",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of APP catabolism",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of APP catabolism",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of amyloid precursor protein breakdown",
+      "type": "narrow"
+     },
+     {
+      "name": "inhibition of amyloid precursor protein catabolic process",
+      "type": "narrow"
+     },
+     {
+      "name": "inhibition of amyloid precursor protein catabolism",
+      "type": "narrow"
+     },
+     {
+      "name": "inhibition of amyloid precursor protein degradation",
+      "type": "narrow"
+     },
+     {
+      "name": "inhibition of APP catabolic process",
+      "type": "narrow"
+     },
+     {
+      "name": "inhibition of APP catabolism",
+      "type": "narrow"
+     },
+     {
+      "name": "negative regulation of amyloid precursor protein breakdown",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of amyloid precursor protein catabolism",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of amyloid precursor protein degradation",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of APP catabolic process",
+      "type": "exact"
+     },
+     {
+      "name": "negative regulation of APP catabolism",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1902430",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071559",
+    "isObsolete": false,
+    "name": "response to transforming growth factor beta",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a transforming growth factor beta stimulus."
+    },
+    "synonyms": [
+     {
+      "name": "response to TGF-beta stimulus",
+      "type": "exact"
+     },
+     {
+      "name": "response to TGFbeta stimulus",
+      "type": "exact"
+     },
+     {
+      "name": "response to transforming growth factor beta stimulus",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0071560",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0140058",
+    "isObsolete": false,
+    "name": "neuron projection arborization",
+    "definition": {
+     "text": "The process in which the anatomical structures of a neuron projection are generated and organized into branches. A neuron projection is any process extending from a neural cell, such as axons or dendrites.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "17114044"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "23270857"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "23764288"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "branching morphogenesis of a neurite",
+      "type": "related"
+     },
+     {
+      "name": "branching morphogenesis of a neuron projection",
+      "type": "related"
+     },
+     {
+      "name": "neurite arborization",
+      "type": "exact"
+     },
+     {
+      "name": "neurite branching",
+      "type": "exact"
+     },
+     {
+      "name": "neuron projection branching",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0150011",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0150013",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0140060",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140059",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0150012",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

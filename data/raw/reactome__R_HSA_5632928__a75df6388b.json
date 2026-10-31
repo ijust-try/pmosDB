@@ -1,0 +1,201 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-5632928",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-5632928",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:53:45+00:00",
+ "response": {
+  "dbId": 5632928,
+  "displayName": "Defective Mismatch Repair Associated With MSH2",
+  "stId": "R-HSA-5632928",
+  "stIdVersion": "R-HSA-5632928.2",
+  "isInDisease": true,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Defective Mismatch Repair Associated With MSH2"
+  ],
+  "releaseDate": "2017-03-27",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12061039,
+    "displayName": "Mondo:0004992",
+    "databaseName": "Mondo",
+    "identifier": "0004992",
+    "url": "https://monarchinitiative.org/MONDO:0004992",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 7660,
+    "displayName": "nucleoplasm",
+    "accession": "0005654",
+    "databaseName": "GO",
+    "definition": "\"That part of the nuclear content other than the chromosomes or the nucleolus.\" [GOC:ma, ISBN:0124325653]",
+    "name": "nucleoplasm",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "disease": [
+   {
+    "dbId": 1500689,
+    "displayName": "cancer",
+    "databaseName": "DOID",
+    "definition": "A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.",
+    "identifier": "162",
+    "name": [
+     "cancer"
+    ],
+    "synonym": [
+     "malignant tumor",
+     "malignant neoplasm",
+     "primary cancer"
+    ],
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/doid/terms?obo_id=DOID:162",
+    "className": "Disease",
+    "schemaClass": "Disease"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 5575583,
+    "displayName": "Mismatch repair genes hMLH1 and hMSH2 and colorectal cancer: a HuGE review",
+    "title": "Mismatch repair genes hMLH1 and hMSH2 and colorectal cancer: a HuGE review",
+    "journal": "Am. J. Epidemiol.",
+    "pages": "885-902",
+    "pubMedIdentifier": 12419761,
+    "volume": 156,
+    "year": 2002,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12419761",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3642271,
+    "displayName": "The human mutator gene homolog MSH2 and its association with hereditary nonpolyposis colon cancer",
+    "title": "The human mutator gene homolog MSH2 and its association with hereditary nonpolyposis colon cancer",
+    "journal": "Cell",
+    "pages": "1027-38",
+    "pubMedIdentifier": 8252616,
+    "volume": 75,
+    "year": 1993,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8252616",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 5633020,
+    "displayName": "MSH2 is homologous to the E. coli MutS gene and is involved ...",
+    "text": "MSH2 is homologous to the E. coli MutS gene and is involved in DNA mismatch repair (MMR) (Fishel et al., 1994). Heterozygous mutations in the MSH2 gene result in hereditary nonpolyposis colorectal cancer-1. Variants of MSH2 are associated with hereditary nonpolyposis colorectal cancer. Alteration of MSH2 is also involved in Muir-Torre syndrome and mismatch repair cancer syndrome.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 5577244,
+    "displayName": "MSH2 variant:MSH6-defective DNA mismatch repair",
+    "stId": "R-HSA-5577244",
+    "stIdVersion": "R-HSA-5577244.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "MSH2 variant:MSH6-defective DNA mismatch repair"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5632928
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "FailedReaction"
+   },
+   {
+    "dbId": 5577259,
+    "displayName": "MSH2 variant:MSH3-defective DNA mismatch repair",
+    "stId": "R-HSA-5577259",
+    "stIdVersion": "R-HSA-5577259.2",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "MSH2 variant:MSH3-defective DNA mismatch repair"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     5632928
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "FailedReaction"
+   }
+  ],
+  "normalPathway": {
+   "dbId": 5358508,
+   "displayName": "Mismatch Repair",
+   "stId": "R-HSA-5358508",
+   "stIdVersion": "R-HSA-5358508.3",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 3,
+   "name": [
+    "Mismatch Repair",
+    "MMR"
+   ],
+   "releaseDate": "2014-06-10",
+   "speciesName": "Homo sapiens",
+   "doi": "10.3180/REACT_228013.1",
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "lastUpdatedDate": "2017-04-20",
+   "diseasePathways": [
+    5632928
+   ],
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

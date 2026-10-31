@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "LCT",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "3938",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:52:18+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "3938"
+   ],
+   "3938": {
+    "uid": "3938",
+    "name": "LCT",
+    "description": "lactase",
+    "status": "",
+    "currentid": "",
+    "chromosome": "2",
+    "geneticsource": "genomic",
+    "maplocation": "2q21.3",
+    "otheraliases": "LAC, LPH, LPH1",
+    "otherdesignations": "lactase/phlorizin hydrolase|lactase-glycosylceramidase|lactase-phlorizin hydrolase-1",
+    "nomenclaturesymbol": "LCT",
+    "nomenclaturename": "lactase",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "603202"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "2",
+      "chraccver": "NC_000002.12",
+      "chrstart": 135837183,
+      "chrstop": 135787849,
+      "exoncount": 17
+     }
+    ],
+    "geneweight": 9297,
+    "summary": "The protein encoded by this gene belongs to the glycosyl hydrolase 1 family of proteins. The encoded preproprotein is proteolytically processed to generate the mature enzyme. This enzyme is integral to the plasma membrane and has both phlorizin hydrolase activity and lactase activity. Mutations in this gene are associated with congenital lactase deficiency. Polymorphisms in this gene are associated with lactase persistence, in which intestinal lactase activity persists at childhood levels into adulthood. [provided by RefSeq, Jan 2016]",
+    "chrsort": "02",
+    "chrstart": 135787849,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 135837183,
+      "chrstop": 135787849
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 136281635,
+      "chrstop": 136228324
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 135837183,
+      "chrstop": 135787849
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 136281635,
+      "chrstop": 136228324
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 135837183,
+      "chrstop": 135787849
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 136281635,
+      "chrstop": 136228324
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 135837183,
+      "chrstop": 135787849
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 136281635,
+      "chrstop": 136228324
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000002.12",
+      "chrstart": 135837183,
+      "chrstop": 135787849
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060926.1",
+      "chrstart": 136281635,
+      "chrstop": 136228324
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000002.12",
+      "chrstart": 135837194,
+      "chrstop": 135787849
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000002.11",
+      "chrstart": 136594753,
+      "chrstop": 136545419
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000002.11",
+      "chrstart": 136594753,
+      "chrstop": 136545419
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000002.11",
+      "chrstart": 136594749,
+      "chrstop": 136545414
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000134.1",
+      "chrstart": 128587978,
+      "chrstop": 128538585
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018913.2",
+      "chrstart": 136600148,
+      "chrstop": 136550604
+     }
+    ]
+   }
+  }
+ }
+}

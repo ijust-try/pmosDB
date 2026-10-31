@@ -1,0 +1,125 @@
+{
+ "source": "uniprot",
+ "query": "VDR",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:VDR) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T06:01:46+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P11473",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Vitamin D3 receptor"
+      },
+      "shortNames": [
+       {
+        "value": "VDR"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "1,25-dihydroxyvitamin D3 receptor"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Nuclear receptor subfamily 1 group I member 1"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:12679"
+        }
+       ],
+       "value": "VDR"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P13053"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10678179"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12016314"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15728261"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16913708"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28698609"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "32354638"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "37478846"
+         }
+        ],
+        "value": "Nuclear receptor for calcitriol, the active form of vitamin D3 which mediates the action of this vitamin on cells (PubMed:10678179, PubMed:15728261, PubMed:16913708, PubMed:28698609, PubMed:37478846). Enters the nucleus upon vitamin D3 binding where it forms heterodimers with the retinoid X receptor/RXR (PubMed:28698609). The VDR-RXR heterodimers bind to specific response elements on DNA and activate the transcription of vitamin D3-responsive target genes (PubMed:28698609). Plays a central role in calcium homeostasis (By similarity). Also functions as a receptor for the secondary bile acid lithocholic acid (LCA) and its metabolites (PubMed:12016314, PubMed:32354638)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "7421",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000003C12F"
+    }
+   }
+  ]
+ }
+}

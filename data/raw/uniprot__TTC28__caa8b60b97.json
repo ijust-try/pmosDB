@@ -1,0 +1,78 @@
+{
+ "source": "uniprot",
+ "query": "TTC28",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:TTC28) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T06:01:16+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q96AY4",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Tetratricopeptide repeat protein 28"
+      },
+      "shortNames": [
+       {
+        "value": "TPR repeat protein 28"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "TPR repeat-containing big gene cloned at Keio"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "TTC28"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23036704"
+         }
+        ],
+        "value": "During mitosis, may be involved in the condensation of spindle midzone microtubules, leading to the formation of midbody"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "23331",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00003E58F8"
+    }
+   }
+  ]
+ }
+}

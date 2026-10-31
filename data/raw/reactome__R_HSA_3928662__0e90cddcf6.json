@@ -1,0 +1,902 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-3928662",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-3928662",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:56:02+00:00",
+ "response": {
+  "dbId": 3928662,
+  "displayName": "EPHB-mediated forward signaling",
+  "stId": "R-HSA-3928662",
+  "stIdVersion": "R-HSA-3928662.4",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "EPHB-mediated forward signaling"
+  ],
+  "releaseDate": "2014-06-10",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "\"The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.\" [ISBN:0716731363]",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 3928029,
+    "displayName": "'Eph'ective signaling: forward, reverse and crosstalk",
+    "title": "'Eph'ective signaling: forward, reverse and crosstalk",
+    "journal": "J. Cell. Sci.",
+    "pages": "2823-32",
+    "pubMedIdentifier": 12808016,
+    "volume": 116,
+    "year": 2003,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12808016",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10119966,
+    "displayName": "EPHB-mediated forward signaling",
+    "stId": "R-MMU-3928662",
+    "stIdVersion": "R-MMU-3928662.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "EPHB-mediated forward signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     3928662
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10261288,
+    "displayName": "EPHB-mediated forward signaling",
+    "stId": "R-RNO-3928662",
+    "stIdVersion": "R-RNO-3928662.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "EPHB-mediated forward signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     3928662
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10368493,
+    "displayName": "EPHB-mediated forward signaling",
+    "stId": "R-CFA-3928662",
+    "stIdVersion": "R-CFA-3928662.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "EPHB-mediated forward signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     3928662
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10483391,
+    "displayName": "EPHB-mediated forward signaling",
+    "stId": "R-BTA-3928662",
+    "stIdVersion": "R-BTA-3928662.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "EPHB-mediated forward signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     3928662
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10596696,
+    "displayName": "EPHB-mediated forward signaling",
+    "stId": "R-SSC-3928662",
+    "stIdVersion": "R-SSC-3928662.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "EPHB-mediated forward signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     3928662
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10689112,
+    "displayName": "EPHB-mediated forward signaling",
+    "stId": "R-DRE-3928662",
+    "stIdVersion": "R-DRE-3928662.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "EPHB-mediated forward signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     3928662
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10770367,
+    "displayName": "EPHB-mediated forward signaling",
+    "stId": "R-XTR-3928662",
+    "stIdVersion": "R-XTR-3928662.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "EPHB-mediated forward signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     3928662
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10868177,
+    "displayName": "EPHB-mediated forward signaling",
+    "stId": "R-GGA-3928662",
+    "stIdVersion": "R-GGA-3928662.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "EPHB-mediated forward signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     3928662
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10953763,
+    "displayName": "EPHB-mediated forward signaling",
+    "stId": "R-DME-3928662",
+    "stIdVersion": "R-DME-3928662.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "EPHB-mediated forward signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     3928662
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11036812,
+    "displayName": "EPHB-mediated forward signaling",
+    "stId": "R-CEL-3928662",
+    "stIdVersion": "R-CEL-3928662.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "EPHB-mediated forward signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     3928662
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11092271,
+    "displayName": "EPHB-mediated forward signaling",
+    "stId": "R-DDI-3928662",
+    "stIdVersion": "R-DDI-3928662.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "EPHB-mediated forward signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     3928662
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11150164,
+    "displayName": "EPHB-mediated forward signaling",
+    "stId": "R-SCE-3928662",
+    "stIdVersion": "R-SCE-3928662.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "EPHB-mediated forward signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     3928662
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 3928316,
+    "displayName": "Multiple EPHB receptors contribute directly to dendritic spi...",
+    "text": "Multiple EPHB receptors contribute directly to dendritic spine development and morphogenesis. These are more broadly involved in post-synaptic development through activation of focal adhesion kinase (FAK) and Rho family GTPases and their GEFs. Dendritic spine morphogenesis is a vital part of the process of synapse formation and maturation during CNS development. Dendritic spine morphogenesis is characterized by filopodia shortening followed by the formation of mature mushroom-shaped spines (Moeller et al. 2006). EPHBs control neuronal morphology and motility by modulation of the actin cytoskeleton. EPHBs control dendritic filopodia motility, enabling synapse formation. EPHBs exert these effects through interacting with the guanine exchange factors (GEFs) such as intersectin and kalirin. The intersectin-CDC42-WASP-actin and kalirin-RAC-PAK-actin pathways have been proposed to regulate the EPHB receptor mediated morphogenesis and maturation of dendritic spines in cultured hippocampal and cortical neurons (Irie & Yamaguchi 2002, Penzes et al. 2003). EPHBs are also involved in the regulation of dendritic spine morphology through FAK which activates the RHOA-ROCK-LIMK-1 pathway to suppress cofilin activity and inhibit cofilin-mediated dendritic spine remodeling (Shi et al. 2009).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2023-03-29",
+  "hasEvent": [
+   {
+    "dbId": 3928644,
+    "displayName": "EPHB binds ITSN1",
+    "stId": "R-HSA-3928644",
+    "stIdVersion": "R-HSA-3928644.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "EPHB binds ITSN1"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928600,
+    "displayName": "N-WASP binds ITSN1",
+    "stId": "R-HSA-3928600",
+    "stIdVersion": "R-HSA-3928600.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "N-WASP binds ITSN1",
+     "Activation of intersectin-1 by EPHB and N-WASP"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928632,
+    "displayName": "ITSN1 exchanges GTP for GDP on CDC42, activating it",
+    "stId": "R-HSA-3928632",
+    "stIdVersion": "R-HSA-3928632.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "ITSN1 exchanges GTP for GDP on CDC42, activating it"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928601,
+    "displayName": "CDC42 and PIP2 bind WASL, activating it",
+    "stId": "R-HSA-3928601",
+    "stIdVersion": "R-HSA-3928601.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CDC42 and PIP2 bind WASL, activating it"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928595,
+    "displayName": "N-WASP binds ARP2/3 and G-actin",
+    "stId": "R-HSA-3928595",
+    "stIdVersion": "R-HSA-3928595.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "N-WASP binds ARP2/3 and G-actin"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928617,
+    "displayName": "EPHB2 binds KALRN",
+    "stId": "R-HSA-3928617",
+    "stIdVersion": "R-HSA-3928617.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "EPHB2 binds KALRN"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928612,
+    "displayName": "KALRN exchanges GTP for GDP on RAC1, activating it",
+    "stId": "R-HSA-3928612",
+    "stIdVersion": "R-HSA-3928612.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "KALRN exchanges GTP for GDP on RAC1, activating it"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928619,
+    "displayName": "PAK1 binds RAC1:GTP",
+    "stId": "R-HSA-3928619",
+    "stIdVersion": "R-HSA-3928619.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PAK1 binds RAC1:GTP"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928620,
+    "displayName": "PAK1 autophosphorylates",
+    "stId": "R-HSA-3928620",
+    "stIdVersion": "R-HSA-3928620.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PAK1 autophosphorylates"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928588,
+    "displayName": "EPHBs binds PTK2",
+    "stId": "R-HSA-3928588",
+    "stIdVersion": "R-HSA-3928588.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "EPHBs binds PTK2"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928610,
+    "displayName": "PTK2 autophosphorylates at Y397",
+    "stId": "R-HSA-3928610",
+    "stIdVersion": "R-HSA-3928610.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "PTK2 autophosphorylates at Y397"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928598,
+    "displayName": "Recruitment of p190RhoGEF to p-FAK",
+    "stId": "R-HSA-3928598",
+    "stIdVersion": "R-HSA-3928598.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Recruitment of p190RhoGEF to p-FAK"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928592,
+    "displayName": "p190RhoGEF exchanges GTP for GDP on RHOA, activating it",
+    "stId": "R-HSA-3928592",
+    "stIdVersion": "R-HSA-3928592.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p190RhoGEF exchanges GTP for GDP on RHOA, activating it"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928576,
+    "displayName": "RHOA:GTP binds ROCK, activating it",
+    "stId": "R-HSA-3928576",
+    "stIdVersion": "R-HSA-3928576.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RHOA:GTP binds ROCK, activating it"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928577,
+    "displayName": "ROCK phosphorylates LIMK1,2",
+    "stId": "R-HSA-3928577",
+    "stIdVersion": "R-HSA-3928577.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "ROCK phosphorylates LIMK1,2"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928608,
+    "displayName": "LIMK phosphorylates CFL1, inactivating it",
+    "stId": "R-HSA-3928608",
+    "stIdVersion": "R-HSA-3928608.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "LIMK phosphorylates CFL1, inactivating it"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928623,
+    "displayName": "EPHBs bind NMDARs",
+    "stId": "R-HSA-3928623",
+    "stIdVersion": "R-HSA-3928623.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "EPHBs bind NMDARs"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928583,
+    "displayName": "FYN phosphorylates NMDAR2B",
+    "stId": "R-HSA-3928583",
+    "stIdVersion": "R-HSA-3928583.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "FYN phosphorylates NMDAR2B"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928645,
+    "displayName": "EPHB:NMDAR binds TIAM1",
+    "stId": "R-HSA-3928645",
+    "stIdVersion": "R-HSA-3928645.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "EPHB:NMDAR binds TIAM1"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3928627,
+    "displayName": "EPHB phosphorylates TIAM1",
+    "stId": "R-HSA-3928627",
+    "stIdVersion": "R-HSA-3928627.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "EPHB phosphorylates TIAM1"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4093336,
+    "displayName": "p-TIAM1 exchanges GTP for GDP on RAC1, activating it",
+    "stId": "R-HSA-4093336",
+    "stIdVersion": "R-HSA-4093336.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-TIAM1 exchanges GTP for GDP on RAC1, activating it"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4093330,
+    "displayName": "EPHB binds p120-RasGAP",
+    "stId": "R-HSA-4093330",
+    "stIdVersion": "R-HSA-4093330.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "EPHB binds p120-RasGAP"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4093331,
+    "displayName": "Ras:GTP binds p120-RasGAP",
+    "stId": "R-HSA-4093331",
+    "stIdVersion": "R-HSA-4093331.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Ras:GTP binds p120-RasGAP"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4093339,
+    "displayName": "p120-RasGAP activates GTP hydrolysis on RAS, inactivating it",
+    "stId": "R-HSA-4093339",
+    "stIdVersion": "R-HSA-4093339.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p120-RasGAP activates GTP hydrolysis on RAS, inactivating it"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4093332,
+    "displayName": "p-EPHB phosphorylates SDC2",
+    "stId": "R-HSA-4093332",
+    "stIdVersion": "R-HSA-4093332.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-EPHB phosphorylates SDC2"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4093342,
+    "displayName": "SDC2 multimerises",
+    "stId": "R-HSA-4093342",
+    "stIdVersion": "R-HSA-4093342.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SDC2 multimerises"
+    ],
+    "releaseDate": "2014-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     3928662
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

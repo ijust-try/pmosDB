@@ -1,0 +1,49 @@
+{
+ "source": "uniprot",
+ "query": "C22ORF42",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:C22ORF42) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:41:53+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q6IC83",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Uncharacterized protein C22orf42"
+      }
+     }
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "C22orf42"
+      }
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "150297",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00003765B0"
+    }
+   }
+  ]
+ }
+}

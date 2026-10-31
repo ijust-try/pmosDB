@@ -1,0 +1,95 @@
+{
+ "source": "uniprot",
+ "query": "KRR1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:KRR1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:52:06+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q13601",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "KRR1 small subunit processome component homolog"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "HIV-1 Rev-binding protein 2"
+       }
+      },
+      {
+       "fullName": {
+        "value": "KRR-R motif-containing protein 1"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Rev-interacting protein 1"
+       },
+       "shortNames": [
+        {
+         "value": "Rip-1"
+        }
+       ]
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:5176"
+        }
+       ],
+       "value": "KRR1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "34516797"
+         }
+        ],
+        "value": "Part of the small subunit (SSU) processome, first precursor of the small eukaryotic ribosomal subunit. During the assembly of the SSU processome in the nucleolus, many ribosome biogenesis factors, an RNA chaperone and ribosomal proteins associate with the nascent pre-rRNA and work in concert to generate RNA folding, modifications, rearrangements and cleavage as well as targeted degradation of pre-ribosomal RNA by the RNA exosome"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "11103",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00001403EE"
+    }
+   }
+  ]
+ }
+}

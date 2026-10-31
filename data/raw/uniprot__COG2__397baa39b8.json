@@ -1,0 +1,76 @@
+{
+ "source": "uniprot",
+ "query": "COG2",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:COG2) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:45:29+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q14746",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Conserved oligomeric Golgi complex subunit 2"
+      },
+      "shortNames": [
+       {
+        "value": "COG complex subunit 2"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Component of oligomeric Golgi complex 2"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Low density lipoprotein receptor defect C-complementing protein"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "COG2"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Required for normal Golgi morphology and function"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "22796",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000127E38"
+    }
+   }
+  ]
+ }
+}

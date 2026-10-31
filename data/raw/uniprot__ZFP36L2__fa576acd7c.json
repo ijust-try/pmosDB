@@ -1,0 +1,172 @@
+{
+ "source": "uniprot",
+ "query": "ZFP36L2",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:ZFP36L2) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T06:01:58+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P47974",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "mRNA decay activator protein ZFP36L2"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "10367403"
+         }
+        ],
+        "value": "Butyrate response factor 2"
+       }
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "7835719"
+         }
+        ],
+        "value": "EGF-response factor 2"
+       },
+       "shortNames": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000303",
+           "source": "PubMed",
+           "id": "7835719"
+          }
+         ],
+         "value": "ERF-2"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "7835719"
+         }
+        ],
+        "value": "TPA-induced sequence 11d"
+       }
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000312",
+          "source": "HGNC",
+          "id": "HGNC:1108"
+         }
+        ],
+        "value": "Zinc finger protein 36, C3H1 type-like 2"
+       },
+       "shortNames": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000312",
+           "source": "HGNC",
+           "id": "HGNC:1108"
+          }
+         ],
+         "value": "ZFP36-like 2"
+        }
+       ]
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:1108"
+        }
+       ],
+       "value": "ZFP36L2"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P23949"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "14981510"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20506496"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25106868"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "34611029"
+         }
+        ],
+        "value": "Zinc-finger RNA-binding protein that destabilizes several cytoplasmic AU-rich element (ARE)-containing mRNA transcripts by promoting their poly(A) tail removal or deadenylation, and hence provide a mechanism for attenuating protein synthesis (PubMed:14981510, PubMed:25106868, PubMed:34611029). Acts as a 3'-untranslated region (UTR) ARE mRNA-binding adapter protein to communicate signaling events to the mRNA decay machinery (PubMed:25106868). Functions by recruiting the CCR4-NOT deadenylase complex and probably other components of the cytoplasmic RNA decay machinery to the bound ARE-containing mRNAs, and hence promotes ARE-mediated mRNA deadenylation and decay processes (PubMed:25106868). Binds to 3'-UTR ARE of numerous mRNAs (PubMed:14981510, PubMed:20506496, PubMed:25106868). Promotes ARE-containing mRNA decay of the low-density lipoprotein (LDL) receptor (LDLR) mRNA in response to phorbol 12-myristate 13-acetate (PMA) treatment in a p38 MAPK-dependent manner (PubMed:25106868). Positively regulates early adipogenesis by promoting ARE-mediated mRNA decay of immediate early genes (IEGs). Plays a role in mature peripheral neuron integrity by promoting ARE-containing mRNA decay of the transcriptional repressor REST mRNA. Plays a role in ovulation and oocyte meiotic maturation by promoting ARE-mediated mRNA decay of the luteinizing hormone receptor LHCGR mRNA. Acts as a negative regulator of erythroid cell differentiation: promotes glucocorticoid-induced self-renewal of erythroid cells by binding mRNAs that are induced or highly expressed during terminal erythroid differentiation and promotes their degradation, preventing erythroid cell differentiation. In association with ZFP36L1 maintains quiescence on developing B lymphocytes by promoting ARE-mediated decay of several mRNAs encoding cell cycle regulators that help B cells progress through the cell cycle, and hence ensuring accurate variable-diversity-joining (VDJ) recombination process and functional immune cell formation. Together with ZFP36L1 is also necessary for thymocyte development and prevention of T-cell acute lymphoblastic leukemia (T-ALL) transformation by promoting ARE-mediated mRNA decay of the oncogenic transcription factor NOTCH1 mRNA"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "678",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000013DCDA"
+    }
+   }
+  ]
+ }
+}

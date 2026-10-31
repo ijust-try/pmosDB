@@ -1,0 +1,404 @@
+{
+ "source": "quickgo_terms",
+ "query": "Q96A84_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0005783,GO:0005788,GO:0005794,GO:0010811,GO:0031012,GO:0140149",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:46:48+00:00",
+ "response": {
+  "numberOfHits": 6,
+  "results": [
+   {
+    "id": "GO:0005794",
+    "isObsolete": false,
+    "name": "Golgi apparatus",
+    "definition": {
+     "text": "A membrane-bound cytoplasmic organelle of the endomembrane system that further processes the core oligosaccharides (e.g. N-glycans) added to proteins in the endoplasmic reticulum and packages them into membrane-bound vesicles. The Golgi apparatus operates at the intersection of the secretory, lysosomal, and endocytic pathways.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "9695800"
+      }
+     ]
+    },
+    "comment": "Note that the Golgi apparatus can be located in various places in the cytoplasm. In plants and lower animal cells, the Golgi apparatus exists as many copies of discrete stacks dispersed throughout the cytoplasm, while the Golgi apparatus of interphase mammalian cells is a juxtanuclear, often pericentriolar reticulum, where the discrete Golgi stacks are stitched together to form a compact and interconnected ribbon, sometimes called the Golgi ribbon.",
+    "synonyms": [
+     {
+      "name": "Golgi",
+      "type": "broad"
+     },
+     {
+      "name": "Golgi complex",
+      "type": "exact"
+     },
+     {
+      "name": "Golgi ribbon",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0036063",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030126",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005796",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000938",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0017119",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034066",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032468",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0098791",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0150051",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034044",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990072",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000139",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990071",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070931",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030130",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005801",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070916",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005788",
+    "isObsolete": false,
+    "name": "endoplasmic reticulum lumen",
+    "definition": {
+     "text": "The volume enclosed by the membranes of the endoplasmic reticulum.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198547684"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "cisternal lumen",
+      "type": "exact"
+     },
+     {
+      "name": "endoplasmic reticulum cisterna",
+      "type": "exact"
+     },
+     {
+      "name": "ER cisterna",
+      "type": "exact"
+     },
+     {
+      "name": "ER lumen",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0048237",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106055",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034099",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099020",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048238",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005783",
+    "isObsolete": false,
+    "name": "endoplasmic reticulum",
+    "definition": {
+     "text": "The irregular network of unit membranes, visible only by electron microscopy, that occurs in the cytoplasm of many eukaryotic cells. The membranes form a complex meshwork of tubular channels, which are often expanded into slitlike cavities called cisternae. The ER takes two forms, rough (or granular), with ribosomes adhering to the outer surface, and smooth (with no ribosomes attached).",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "ER",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0044322",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140534",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005791",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005788",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009510",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000835",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990007",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097038",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070971",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016529",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032469",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0009511",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035437",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0098827",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0031012",
+    "isObsolete": false,
+    "name": "extracellular matrix",
+    "definition": {
+     "text": "A structure lying external to one or more cells, which provides structural support, biochemical or biomechanical cues for cells or tissues.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "21123617"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "28089324"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "33605520"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "matrisome",
+      "type": "narrow"
+     },
+     {
+      "name": "proteinaceous extracellular matrix",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0005604",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005614",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140047",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098642",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005201",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0140086",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0010811",
+    "isObsolete": false,
+    "name": "positive regulation of cell-substrate adhesion",
+    "definition": {
+     "text": "Any process that increases the frequency, rate or extent of cell-substrate adhesion. Cell-substrate adhesion is the attachment of a cell to the underlying substrate via adhesion molecules."
+    },
+    "children": [
+     {
+      "id": "GO:1904237",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900026",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001954",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0140149",
+    "isObsolete": false,
+    "name": "non-collagenous component of interstitial matrix",
+    "definition": {
+     "text": "The non-collagenous component of interstitial extracellular matrices, including glycoprotein like fibronectin and elastin.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "21123617"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "25701227"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "33605520"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "39223427"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0090733",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120216",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990341",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071953",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061800",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

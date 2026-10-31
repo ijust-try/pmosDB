@@ -1,0 +1,84 @@
+{
+ "source": "uniprot",
+ "query": "BMPER",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:BMPER) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:41:35+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q8N8U9",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "BMP-binding endothelial regulator protein"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Bone morphogenetic protein-binding endothelial cell precursor-derived regulator"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Protein crossveinless-2"
+       },
+       "shortNames": [
+        {
+         "value": "hCV2"
+        }
+       ]
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "BMPER"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "14766204"
+         }
+        ],
+        "value": "Inhibitor of bone morphogenetic protein (BMP) function, it may regulate BMP responsiveness of osteoblasts and chondrocytes"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "168667",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000006D462"
+    }
+   }
+  ]
+ }
+}

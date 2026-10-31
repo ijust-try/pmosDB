@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "GNPDA2",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "132789",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:50:58+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "132789"
+   ],
+   "132789": {
+    "uid": "132789",
+    "name": "GNPDA2",
+    "description": "glucosamine-6-phosphate deaminase 2",
+    "status": "",
+    "currentid": "",
+    "chromosome": "4",
+    "geneticsource": "genomic",
+    "maplocation": "4p12",
+    "otheraliases": "GNP2, SB52",
+    "otherdesignations": "glucosamine-6-phosphate deaminase 2|glcN6P deaminase 2|glucosamine-6-phosphate isomerase 2|glucosamine-6-phosphate isomerase SB52",
+    "nomenclaturesymbol": "GNPDA2",
+    "nomenclaturename": "glucosamine-6-phosphate deaminase 2",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "613222"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "4",
+      "chraccver": "NC_000004.12",
+      "chrstart": 44726555,
+      "chrstop": 44701794,
+      "exoncount": 8
+     }
+    ],
+    "geneweight": 1569,
+    "summary": "The protein encoded by this gene is an allosteric enzyme that catalyzes the reversible reaction converting D-glucosamine-6-phosphate into D-fructose-6-phosphate and ammonium. Variations of this gene have been reported to be associated with influencing body mass index and susceptibility to obesity. A pseudogene of this gene is located on chromosome 9. Alternative splicing results in multiple transcript variants that encode different protein isoforms. [provided by RefSeq, Aug 2012]",
+    "chrsort": "04",
+    "chrstart": 44701794,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000004.12",
+      "chrstart": 44726555,
+      "chrstop": 44701794
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060928.1",
+      "chrstart": 44693479,
+      "chrstop": 44668715
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000004.12",
+      "chrstart": 44726555,
+      "chrstop": 44701794
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060928.1",
+      "chrstart": 44693479,
+      "chrstop": 44668715
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000004.12",
+      "chrstart": 44726555,
+      "chrstop": 44701794
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060928.1",
+      "chrstart": 44693479,
+      "chrstop": 44668715
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000004.12",
+      "chrstart": 44726555,
+      "chrstop": 44701794
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060928.1",
+      "chrstart": 44693479,
+      "chrstop": 44668715
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000004.12",
+      "chrstart": 44726555,
+      "chrstop": 44701794
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060928.1",
+      "chrstart": 44693479,
+      "chrstop": 44668715
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000004.12",
+      "chrstart": 44726633,
+      "chrstop": 44701794
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000004.11",
+      "chrstart": 44728572,
+      "chrstop": 44703811
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000004.11",
+      "chrstart": 44728572,
+      "chrstop": 44703811
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000004.11",
+      "chrstart": 44728650,
+      "chrstop": 44694189
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000136.1",
+      "chrstart": 44050278,
+      "chrstop": 44025435
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018915.2",
+      "chrstart": 44727735,
+      "chrstop": 44702922
+     }
+    ]
+   }
+  }
+ }
+}

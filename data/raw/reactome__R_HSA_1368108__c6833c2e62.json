@@ -1,0 +1,527 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-1368108",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-1368108",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:55:20+00:00",
+ "response": {
+  "dbId": 1368108,
+  "displayName": "BMAL1:CLOCK,NPAS2 activates circadian expression",
+  "stId": "R-HSA-1368108",
+  "stIdVersion": "R-HSA-1368108.9",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "BMAL1:CLOCK,NPAS2 activates circadian expression"
+  ],
+  "releaseDate": "2011-09-20",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 7660,
+    "displayName": "nucleoplasm",
+    "accession": "0005654",
+    "databaseName": "GO",
+    "definition": "\"That part of the nuclear content other than the chromosomes or the nucleolus.\" [GOC:ma, ISBN:0124325653]",
+    "name": "nucleoplasm",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 984,
+    "displayName": "extracellular region",
+    "accession": "0005576",
+    "databaseName": "GO",
+    "definition": "\"The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite.\" [GOC:curators]",
+    "name": "extracellular region",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005576",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 17957,
+    "displayName": "endoplasmic reticulum lumen",
+    "accession": "0005788",
+    "databaseName": "GO",
+    "definition": "\"The volume enclosed by the membranes of the endoplasmic reticulum.\" [ISBN:0198547684]",
+    "name": "endoplasmic reticulum lumen",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005788",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 1368115,
+    "displayName": "The circadian E-box: when perfect is not good enough",
+    "title": "The circadian E-box: when perfect is not good enough",
+    "journal": "Chronobiol Int",
+    "pages": "371-88",
+    "pubMedIdentifier": 12868535,
+    "volume": 20,
+    "year": 2003,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/12868535",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 508691,
+    "displayName": "Role of the CLOCK protein in the mammalian circadian mechanism",
+    "title": "Role of the CLOCK protein in the mammalian circadian mechanism",
+    "journal": "Science",
+    "pages": "1564-9",
+    "pubMedIdentifier": 9616112,
+    "volume": 280,
+    "year": 1998,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9616112",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 1368073,
+    "displayName": "As inferred from mouse, BMAL1:CLOCK (ARNTL:CLOCK) and BMAL1:...",
+    "text": "As inferred from mouse, BMAL1:CLOCK (ARNTL:CLOCK) and BMAL1:NPAS2 (ARNTL:NPAS2) heterodimers bind to sequence elements (E boxes) in the promoters of target genes and enhance transcription (Gekakis et al. 1998, reviewed in Munoz and Baler 2003).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "previousReviewStatus": {
+   "dbId": 9821384,
+   "displayName": "two stars",
+   "definition": "structure updated after externally and internally reviewed",
+   "name": [
+    "two stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-1368108.8",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2021-09-15",
+  "hasEvent": [
+   {
+    "dbId": 5663165,
+    "displayName": "p-S90-BMAL1:p-T451,T461-CLOCK binds AVP gene",
+    "stId": "R-HSA-5663165",
+    "stIdVersion": "R-HSA-5663165.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "p-S90-BMAL1:p-T451,T461-CLOCK binds AVP gene"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 879782,
+    "displayName": "Expression of AVP",
+    "stId": "R-HSA-879782",
+    "stIdVersion": "R-HSA-879782.6",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of AVP"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 5663170,
+    "displayName": "p-S90-BMAL1:p-T451,T461-CLOCK binds BHLHE40 gene",
+    "stId": "R-HSA-5663170",
+    "stIdVersion": "R-HSA-5663170.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-S90-BMAL1:p-T451,T461-CLOCK binds BHLHE40 gene"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 879798,
+    "displayName": "Expression of DEC1 (BHLHE40, BHLHB2)",
+    "stId": "R-HSA-879798",
+    "stIdVersion": "R-HSA-879798.5",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of DEC1 (BHLHE40, BHLHB2)"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 5663105,
+    "displayName": "p-S90-BMAL1:p-T451,T461-CLOCK binds BHLHE41 (DEC2) gene",
+    "stId": "R-HSA-5663105",
+    "stIdVersion": "R-HSA-5663105.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "p-S90-BMAL1:p-T451,T461-CLOCK binds BHLHE41 (DEC2) gene"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 879770,
+    "displayName": "Expression of DEC2 (BHLHE41, BHLHB3)",
+    "stId": "R-HSA-879770",
+    "stIdVersion": "R-HSA-879770.5",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of DEC2 (BHLHE41, BHLHB3)"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 5663127,
+    "displayName": "p-S90-BMAL1:p-T451,T461-CLOCK,NPAS2 binds F7 gene",
+    "stId": "R-HSA-5663127",
+    "stIdVersion": "R-HSA-5663127.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "p-S90-BMAL1:p-T451,T461-CLOCK,NPAS2 binds F7 gene"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 549428,
+    "displayName": "Expression of FACTOR VII (F7)",
+    "stId": "R-HSA-549428",
+    "stIdVersion": "R-HSA-549428.6",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of FACTOR VII (F7)"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 5663138,
+    "displayName": "p-S90-BMAL1:p-T451,T461-CLOCK binds CCRN4L (NOCTURNIN) gene",
+    "stId": "R-HSA-5663138",
+    "stIdVersion": "R-HSA-5663138.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-S90-BMAL1:p-T451,T461-CLOCK binds CCRN4L (NOCTURNIN) gene"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 549424,
+    "displayName": "Expression of CCRN4L (NOCTURNIN)",
+    "stId": "R-HSA-549424",
+    "stIdVersion": "R-HSA-549424.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of CCRN4L (NOCTURNIN)"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 5663124,
+    "displayName": "p-S90-BMAL1:p-T451,T461-CLOCK binds SERPINE1 gene",
+    "stId": "R-HSA-5663124",
+    "stIdVersion": "R-HSA-5663124.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "p-S90-BMAL1:p-T451,T461-CLOCK binds SERPINE1 gene"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 549364,
+    "displayName": "Expression of SERPINE1 (PAI-1)",
+    "stId": "R-HSA-549364",
+    "stIdVersion": "R-HSA-549364.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of SERPINE1 (PAI-1)"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 5663156,
+    "displayName": "p-S90-BMAL1:p-T451,T461-CLOCK binds PPARA gene",
+    "stId": "R-HSA-5663156",
+    "stIdVersion": "R-HSA-5663156.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "p-S90-BMAL1:p-T451,T461-CLOCK binds PPARA gene"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 879724,
+    "displayName": "Expression of PPARA",
+    "stId": "R-HSA-879724",
+    "stIdVersion": "R-HSA-879724.6",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of PPARA"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 5663122,
+    "displayName": "p-S90-BMAL1:p-T451,T461-CLOCK binds NAMPT gene",
+    "stId": "R-HSA-5663122",
+    "stIdVersion": "R-HSA-5663122.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "p-S90-BMAL1:p-T451,T461-CLOCK binds NAMPT gene"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1368889,
+    "displayName": "Expression of NAMPT (NamPRT, PBEF, Visfatin)",
+    "stId": "R-HSA-1368889",
+    "stIdVersion": "R-HSA-1368889.7",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of NAMPT (NamPRT, PBEF, Visfatin)"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 8878702,
+    "displayName": "p-S90-BMAL1:p-T451,T461-CLOCK binds KLF15 gene",
+    "stId": "R-HSA-8878702",
+    "stIdVersion": "R-HSA-8878702.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "p-S90-BMAL1:p-T451,T461-CLOCK binds KLF15 gene"
+    ],
+    "releaseDate": "2016-09-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 8878679,
+    "displayName": "Expression of KLF15",
+    "stId": "R-HSA-8878679",
+    "stIdVersion": "R-HSA-8878679.5",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of KLF15"
+    ],
+    "releaseDate": "2016-09-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     1368108
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

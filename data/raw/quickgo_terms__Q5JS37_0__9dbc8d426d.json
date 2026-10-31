@@ -1,0 +1,385 @@
+{
+ "source": "quickgo_terms",
+ "query": "Q5JS37_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0000209,GO:0005576,GO:0035578,GO:0043161,GO:0061630",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:54:27+00:00",
+ "response": {
+  "numberOfHits": 5,
+  "results": [
+   {
+    "id": "GO:0005576",
+    "isObsolete": false,
+    "name": "extracellular region",
+    "definition": {
+     "text": "The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite."
+    },
+    "comment": "Note that this term is intended to annotate gene products that are not attached to the cell surface. For gene products at the cell surface, consider annotating to external side of plasma membrane ; GO:0009897.",
+    "synonyms": [
+     {
+      "name": "extracellular",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030312",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043264",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043230",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072562",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035182",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035183",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043245",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0065010",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043083",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006860",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098595",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903561",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140392",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006858",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070701",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036117",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048046",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900116",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099544",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0085036",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900115",
+      "relation": "occurs_in"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043161",
+    "isObsolete": false,
+    "name": "proteasome-mediated ubiquitin-dependent protein catabolic process",
+    "definition": {
+     "text": "The chemical reactions and pathways resulting in the breakdown of a protein or peptide by hydrolysis of its peptide bonds, initiated by the covalent attachment of ubiquitin, and mediated by the proteasome."
+    },
+    "synonyms": [
+     {
+      "name": "proteasomal pathway",
+      "type": "exact"
+     },
+     {
+      "name": "proteasomal processing",
+      "type": "related"
+     },
+     {
+      "name": "proteasomal ubiquitin-dependent protein breakdown",
+      "type": "exact"
+     },
+     {
+      "name": "proteasomal ubiquitin-dependent protein catabolic process",
+      "type": "exact"
+     },
+     {
+      "name": "proteasomal ubiquitin-dependent protein catabolism",
+      "type": "exact"
+     },
+     {
+      "name": "proteasomal ubiquitin-dependent protein degradation",
+      "type": "exact"
+     },
+     {
+      "name": "proteasome pathway",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0032436",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0120174",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140627",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010620",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031146",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031145",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071596",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0170074",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990116",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072671",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032435",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0071630",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770117",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071629",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032434",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0035578",
+    "isObsolete": false,
+    "name": "azurophil granule lumen",
+    "definition": {
+     "text": "The volume enclosed by the membrane of an azurophil granule, a primary lysosomal granule found in neutrophil granulocytes that contains a wide range of hydrolytic enzymes and is released into the extracellular fluid.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "17152095"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "primary granule lumen",
+      "type": "exact"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0061630",
+    "isObsolete": false,
+    "name": "ubiquitin protein ligase activity",
+    "definition": {
+     "text": "Catalysis of the transfer of ubiquitin to a substrate protein via the reaction X-ubiquitin + S = X + S-ubiquitin, where X is either an E2 or E3 enzyme, the X-ubiquitin linkage is a thioester bond, and the S-ubiquitin linkage is an amide bond: an isopeptide bond between the C-terminal glycine of ubiquitin and the epsilon-amino group of lysine residues in the substrate or, in the linear extension of ubiquitin chains, a peptide bond the between the C-terminal glycine and N-terminal methionine of ubiquitin residues.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "22863777"
+      }
+     ]
+    },
+    "comment": "This enzyme catalyzes a transferase reaction.",
+    "synonyms": [
+     {
+      "name": "E3",
+      "type": "broad"
+     },
+     {
+      "name": "ER-associated E3 ligase",
+      "type": "related"
+     },
+     {
+      "name": "protein ubiquitination activity",
+      "type": "exact"
+     },
+     {
+      "name": "ubiquitin ligase activity",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0034450",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904667",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0000151",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1904666",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0140852",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904668",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0000209",
+    "isObsolete": false,
+    "name": "protein polyubiquitination",
+    "definition": {
+     "text": "Addition of multiple ubiquitin groups to a protein, forming a ubiquitin chain.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "26906419"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "polyubiquitin",
+      "type": "related"
+     },
+     {
+      "name": "protein polyubiquitinylation",
+      "type": "exact"
+     },
+     {
+      "name": "protein polyubiquitylation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070979",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990390",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070936",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035519",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044314",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0085020",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902916",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0097039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902915",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1902914",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0070534",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0141198",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

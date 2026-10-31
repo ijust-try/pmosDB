@@ -1,0 +1,71 @@
+{
+ "source": "uniprot",
+ "query": "ZNF644",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:ZNF644) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T06:02:20+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q9H582",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Zinc finger protein 644"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Zinc finger motif enhancer-binding protein 2"
+       },
+       "shortNames": [
+        {
+         "value": "Zep-2"
+        }
+       ]
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "ZNF644"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "May be involved in transcriptional regulation"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "84146",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000004A010"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,986 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9837999",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9837999",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:54:01+00:00",
+ "response": {
+  "dbId": 9837999,
+  "displayName": "Mitochondrial protein degradation",
+  "stId": "R-HSA-9837999",
+  "stIdVersion": "R-HSA-9837999.2",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Mitochondrial protein degradation"
+  ],
+  "releaseDate": "2023-12-06",
+  "speciesName": "Homo sapiens",
+  "goBiologicalProcess": {
+   "dbId": 1301039,
+   "displayName": "mitochondrial protein catabolic process",
+   "accession": "0035694",
+   "databaseName": "GO",
+   "definition": "\"The chemical reactions and pathways resulting in the breakdown of a mitochondrial protein. This process is necessary to maintain the healthy state of mitochondria and is thought to occur via the induction of an intramitochondrial lysosome-like organelle that acts to eliminate the damaged oxidised mitochondrial proteins without destroying the mitochondrial structure.\" [GOC:sp, PMID:21264221, PMID:21264228]",
+   "name": "mitochondrial protein catabolic process",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0035694",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 9838031,
+    "displayName": "Quality control of the mitochondrion",
+    "title": "Quality control of the mitochondrion",
+    "journal": "Dev Cell",
+    "pages": "881-905",
+    "pubMedIdentifier": 33662258,
+    "volume": 56,
+    "year": 2021,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/33662258",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9838312,
+    "displayName": "Mitochondrial matrix proteases: quality control and beyond",
+    "title": "Mitochondrial matrix proteases: quality control and beyond",
+    "journal": "FEBS J",
+    "pages": "7128-7146",
+    "pubMedIdentifier": 33971087,
+    "volume": 289,
+    "year": 2022,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/33971087",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9838604,
+    "displayName": "m-AAA proteases, mitochondrial calcium homeostasis and neurodegeneration",
+    "title": "m-AAA proteases, mitochondrial calcium homeostasis and neurodegeneration",
+    "journal": "Cell Res",
+    "pages": "296-306",
+    "pubMedIdentifier": 29451229,
+    "volume": 28,
+    "year": 2018,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29451229",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9838626,
+    "displayName": "AAA+ ATPases in Protein Degradation: Structures, Functions and Mechanisms",
+    "title": "AAA+ ATPases in Protein Degradation: Structures, Functions and Mechanisms",
+    "journal": "Biomolecules",
+    "pubMedIdentifier": 32325699,
+    "volume": 10,
+    "year": 2020,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32325699",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9839778,
+    "displayName": "Regulation of mitochondrial plasticity by the i-AAA protease YME1L",
+    "title": "Regulation of mitochondrial plasticity by the i-AAA protease YME1L",
+    "journal": "Biol Chem",
+    "pages": "877-890",
+    "pubMedIdentifier": 32087062,
+    "volume": 401,
+    "year": 2020,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32087062",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9840207,
+    "displayName": "Substrates and interactors of the ClpP protease in the mitochondria",
+    "title": "Substrates and interactors of the ClpP protease in the mitochondria",
+    "journal": "Curr Opin Chem Biol",
+    "pages": "102078",
+    "pubMedIdentifier": 34446368,
+    "volume": 66,
+    "year": 2022,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/34446368",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9840211,
+    "displayName": "Mitochondrial proteases in human diseases",
+    "title": "Mitochondrial proteases in human diseases",
+    "journal": "FEBS Lett",
+    "pages": "1205-1222",
+    "pubMedIdentifier": 33453058,
+    "volume": 595,
+    "year": 2021,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/33453058",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9840210,
+    "displayName": "Quality control of the mitochondrial proteome",
+    "title": "Quality control of the mitochondrial proteome",
+    "journal": "Nat Rev Mol Cell Biol",
+    "pages": "54-70",
+    "pubMedIdentifier": 33093673,
+    "volume": 22,
+    "year": 2021,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/33093673",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9840216,
+    "displayName": "Mitochondrial Proteases: Multifaceted Regulators of Mitochondrial Plasticity",
+    "title": "Mitochondrial Proteases: Multifaceted Regulators of Mitochondrial Plasticity",
+    "journal": "Annu Rev Biochem",
+    "pages": "501-528",
+    "pubMedIdentifier": 32075415,
+    "volume": 89,
+    "year": 2020,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32075415",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9840217,
+    "displayName": "Mitochondrial AAA proteases: A stairway to degradation",
+    "title": "Mitochondrial AAA proteases: A stairway to degradation",
+    "journal": "Mitochondrion",
+    "pages": "121-127",
+    "pubMedIdentifier": 31377246,
+    "volume": 49,
+    "year": 2019,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/31377246",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9840226,
+    "displayName": "Mitochondrial Proteolysis and Metabolic Control",
+    "title": "Mitochondrial Proteolysis and Metabolic Control",
+    "journal": "Cold Spring Harb Perspect Biol",
+    "pubMedIdentifier": 30670467,
+    "volume": 11,
+    "year": 2019,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30670467",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9840232,
+    "displayName": "The biology of Lonp1: More than a mitochondrial protease",
+    "title": "The biology of Lonp1: More than a mitochondrial protease",
+    "journal": "Int Rev Cell Mol Biol",
+    "pages": "1-61",
+    "pubMedIdentifier": 32475470,
+    "volume": 354,
+    "year": 2020,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32475470",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9852669,
+    "displayName": "Recent structural insights into the mechanism of ClpP protease regulation by AAA+ chaperones and small molecules",
+    "title": "Recent structural insights into the mechanism of ClpP protease regulation by AAA+ chaperones and small molecules",
+    "journal": "J Biol Chem",
+    "pages": "101781",
+    "pubMedIdentifier": 35245501,
+    "volume": 298,
+    "year": 2022,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/35245501",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9852677,
+    "displayName": "Progress in research on the role of Omi/HtrA2 in neurological diseases",
+    "title": "Progress in research on the role of Omi/HtrA2 in neurological diseases",
+    "journal": "Rev Neurosci",
+    "pages": "279-287",
+    "pubMedIdentifier": 30205651,
+    "volume": 30,
+    "year": 2019,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/30205651",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9852671,
+    "displayName": "The mitochondrial serine protease HtrA2/Omi: an overview",
+    "title": "The mitochondrial serine protease HtrA2/Omi: an overview",
+    "journal": "Cell Death Differ",
+    "pages": "453-60",
+    "pubMedIdentifier": 18174901,
+    "volume": 15,
+    "year": 2008,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/18174901",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 11171872,
+    "displayName": "Mitochondrial protein degradation",
+    "stId": "R-PFA-9837999",
+    "stIdVersion": "R-PFA-9837999.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Mitochondrial protein degradation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     9837999
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11150606,
+    "displayName": "Mitochondrial protein degradation",
+    "stId": "R-SCE-9837999",
+    "stIdVersion": "R-SCE-9837999.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Mitochondrial protein degradation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     9837999
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10120854,
+    "displayName": "Mitochondrial protein degradation",
+    "stId": "R-MMU-9837999",
+    "stIdVersion": "R-MMU-9837999.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Mitochondrial protein degradation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     9837999
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10262152,
+    "displayName": "Mitochondrial protein degradation",
+    "stId": "R-RNO-9837999",
+    "stIdVersion": "R-RNO-9837999.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Mitochondrial protein degradation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     9837999
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10369367,
+    "displayName": "Mitochondrial protein degradation",
+    "stId": "R-CFA-9837999",
+    "stIdVersion": "R-CFA-9837999.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Mitochondrial protein degradation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     9837999
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10484259,
+    "displayName": "Mitochondrial protein degradation",
+    "stId": "R-BTA-9837999",
+    "stIdVersion": "R-BTA-9837999.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Mitochondrial protein degradation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     9837999
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10597588,
+    "displayName": "Mitochondrial protein degradation",
+    "stId": "R-SSC-9837999",
+    "stIdVersion": "R-SSC-9837999.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Mitochondrial protein degradation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     9837999
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10689962,
+    "displayName": "Mitochondrial protein degradation",
+    "stId": "R-DRE-9837999",
+    "stIdVersion": "R-DRE-9837999.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Mitochondrial protein degradation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     9837999
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10771195,
+    "displayName": "Mitochondrial protein degradation",
+    "stId": "R-XTR-9837999",
+    "stIdVersion": "R-XTR-9837999.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Mitochondrial protein degradation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     9837999
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10869029,
+    "displayName": "Mitochondrial protein degradation",
+    "stId": "R-GGA-9837999",
+    "stIdVersion": "R-GGA-9837999.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Mitochondrial protein degradation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     9837999
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10954487,
+    "displayName": "Mitochondrial protein degradation",
+    "stId": "R-DME-9837999",
+    "stIdVersion": "R-DME-9837999.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Mitochondrial protein degradation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     9837999
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11037568,
+    "displayName": "Mitochondrial protein degradation",
+    "stId": "R-CEL-9837999",
+    "stIdVersion": "R-CEL-9837999.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Mitochondrial protein degradation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     9837999
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11092799,
+    "displayName": "Mitochondrial protein degradation",
+    "stId": "R-DDI-9837999",
+    "stIdVersion": "R-DDI-9837999.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Mitochondrial protein degradation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     9837999
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11122029,
+    "displayName": "Mitochondrial protein degradation",
+    "stId": "R-SPO-9837999",
+    "stIdVersion": "R-SPO-9837999.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Mitochondrial protein degradation"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     9837999
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9840205,
+    "displayName": "Mitochondrial proteases participate in proteostasis, the reg...",
+    "text": "Mitochondrial proteases participate in proteostasis, the regulation of proteins to maintain a functional proteome, by degrading unfolded, unassembled, and oxidatively damaged proteins (reviewed in Ng et al. 2021, Song et al. 2021). Degradation of mitochondrial proteins by proteases also serves to regulate transcription by TFAM, oxidative phosphorylation by electron carriers, lipid translocation by PRELID1 and STARD7, and mitochondrial fission and fusion by OPA1 and OMA1 (reviewed in Ahola et al. 2019). Because of the bacterial origin of mitochondria, they contain a number of bacterial type proteases, including LONP1 in the matrix, CLPP:CLPX (CLPXP) in the matrix, HTRA2 (OMI) in the intermembrane space, AFG3L2 in the mitochondrial inner membrane and protruding into the matrix, and YME1L1 in the mitochondrial inner membrane and protruding into the intermembrane space (reviewed in Deshwal et al. 2020, Szczepanowska and Trifunovic 2022).<br>The hexameric LONP1 complex, which is homologous to Lon proteases of eubacteria such as E. coli, binds substrate proteins in the matrix and inner membrane, unfolds them in an ATP-dependent mechanism, and degrades them (reviewed in Gibellini et al. 2020). LONP1 also acts as an ATP-dependent chaperone that is independent of its protease function (reviewed in Gibellini et al. 2020).<br>Like LONP1, the CLPXP complex unfolds matrix proteins in an ATP-dependent reaction and degrades them, however, the ATPase/unfolding function and the protease function are performed by separate subunits, with CLPX hexamers unfolding substrate proteins and translocating them to CLPP tetradecamers for processive degradation (reviewed in Mabanglo et al. 2021, Mabanglo and Houry 2022).<br>AFG3L2 (m-AAA+) forms either homohexamers or heterohexamers with its paralog SPG7 (Paraplegin) that are anchored in the mitochondrial inner membrane and protrude into the matrix (reviewed in Patron et al. 2018, Steele and Glynn 2019, Zhang and Mao 2020). The substrate protein enters the central channel formed by the ATPase domains of AFG3L2 and is unfolded and translocated to the pore formed by the protease domains, where it is degraded (reviewed inZhang and Mao 2020). <br>Like AFG3L2, YME1L1 (YME1L, i-AAA+) is a homohexameric complex that is anchored in the mitochondrial inner membrane, however, YME1L1 protrudes into the intermembrane space where it unfolds substrate proteins of the intermembrane space and inner membrane in an ATP-dependent reaction and then degrades them (reviewed in Steele and Glynn 2019, Ohba et al. 2020, Zhang and Mao 2020).<br>HTRA2 (OMI) forms soluble trimeric complexes in the intermembrane space that degrade substrate proteins, notably amyloid precursor proteins that are translocated to the intermembrane space and inner membrane. HTRA2 released from mitochondria into the cytosol also participates in regulating apoptosis (reviewed in Vande Walle et al. 2008).<br>Mutations in mitochondrial proteases cause diseases, such as spastic paraplegia (SPG7), ataxia (AFG3L2), and Parkinson's Disease (HTRA2), that typically have neurological symptoms among others (reviewed in Su et al. 2019, Gomez-Fabra Gala and Vogtle 2021).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-9837999.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 9838321,
+    "displayName": "PRKACA phosphorylates TFAM in the mitochondrial matrix",
+    "stId": "R-HSA-9838321",
+    "stIdVersion": "R-HSA-9838321.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PRKACA phosphorylates TFAM in the mitochondrial matrix"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9838093,
+    "displayName": "LONP1 binds mitochondrial matrix proteins",
+    "stId": "R-HSA-9838093",
+    "stIdVersion": "R-HSA-9838093.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "LONP1 binds mitochondrial matrix proteins"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9838081,
+    "displayName": "LONP1 degrades mitochondrial matrix proteins",
+    "stId": "R-HSA-9838081",
+    "stIdVersion": "R-HSA-9838081.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "LONP1 degrades mitochondrial matrix proteins"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9837978,
+    "displayName": "LONP1 binds mitochondrial inner membrane proteins",
+    "stId": "R-HSA-9837978",
+    "stIdVersion": "R-HSA-9837978.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "LONP1 binds mitochondrial inner membrane proteins"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9838004,
+    "displayName": "LONP1 degrades mitochondrial inner membrane proteins",
+    "stId": "R-HSA-9838004",
+    "stIdVersion": "R-HSA-9838004.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "LONP1 degrades mitochondrial inner membrane proteins"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9838035,
+    "displayName": "CLPXP binds mitochondrial matrix proteins",
+    "stId": "R-HSA-9838035",
+    "stIdVersion": "R-HSA-9838035.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CLPXP binds mitochondrial matrix proteins"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9838289,
+    "displayName": "CLPXP degrades mitochondrial matrix proteins",
+    "stId": "R-HSA-9838289",
+    "stIdVersion": "R-HSA-9838289.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CLPXP degrades mitochondrial matrix proteins"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9839149,
+    "displayName": "AFG3L2 binds mitochondrial matrix proteins",
+    "stId": "R-HSA-9839149",
+    "stIdVersion": "R-HSA-9839149.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AFG3L2 binds mitochondrial matrix proteins"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9839105,
+    "displayName": "AFG3L2 degrades mitochondrial matrix proteins",
+    "stId": "R-HSA-9839105",
+    "stIdVersion": "R-HSA-9839105.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AFG3L2 degrades mitochondrial matrix proteins"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9838627,
+    "displayName": "AFG3L2 binds mitochondrial inner membrane proteins",
+    "stId": "R-HSA-9838627",
+    "stIdVersion": "R-HSA-9838627.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AFG3L2 binds mitochondrial inner membrane proteins"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9839113,
+    "displayName": "AFG3L2 degrades mitochondrial inner membrane proteins",
+    "stId": "R-HSA-9839113",
+    "stIdVersion": "R-HSA-9839113.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AFG3L2 degrades mitochondrial inner membrane proteins"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9839053,
+    "displayName": "AFG3L2:SPG7 binds SMDT1 (EMRE)",
+    "stId": "R-HSA-9839053",
+    "stIdVersion": "R-HSA-9839053.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AFG3L2:SPG7 binds SMDT1 (EMRE)"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9839059,
+    "displayName": "AFG3L2:SPG7 degrades SMDT1 (EMRE)",
+    "stId": "R-HSA-9839059",
+    "stIdVersion": "R-HSA-9839059.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AFG3L2:SPG7 degrades SMDT1 (EMRE)"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9839064,
+    "displayName": "YME1L1 binds mitochondrial inner membrane proteins",
+    "stId": "R-HSA-9839064",
+    "stIdVersion": "R-HSA-9839064.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "YME1L1 binds mitochondrial inner membrane proteins"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9839146,
+    "displayName": "YME1L1 degrades mitochondrial inner membrane proteins",
+    "stId": "R-HSA-9839146",
+    "stIdVersion": "R-HSA-9839146.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "YME1L1 degrades mitochondrial inner membrane proteins"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9839772,
+    "displayName": "YME1L1 binds mitochondrial intermembrane space proteins",
+    "stId": "R-HSA-9839772",
+    "stIdVersion": "R-HSA-9839772.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "YME1L1 binds mitochondrial intermembrane space proteins"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9839751,
+    "displayName": "YME1L1 degrades mitochondrial intermembrane space proteins",
+    "stId": "R-HSA-9839751",
+    "stIdVersion": "R-HSA-9839751.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "YME1L1 degrades mitochondrial intermembrane space proteins"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9839073,
+    "displayName": "HTRA2 binds NDUFA13 (GRIM-19)",
+    "stId": "R-HSA-9839073",
+    "stIdVersion": "R-HSA-9839073.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HTRA2 binds NDUFA13 (GRIM-19)"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9839110,
+    "displayName": "HTRA2 degrades NDUFA13 (GRIM-19)",
+    "stId": "R-HSA-9839110",
+    "stIdVersion": "R-HSA-9839110.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HTRA2 degrades NDUFA13 (GRIM-19)"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9839072,
+    "displayName": "HTRA2 degrades APP (Amyloid-beta precursor protein)",
+    "stId": "R-HSA-9839072",
+    "stIdVersion": "R-HSA-9839072.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HTRA2 degrades APP (Amyloid-beta precursor protein)"
+    ],
+    "releaseDate": "2023-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9837999
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

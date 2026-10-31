@@ -1,0 +1,109 @@
+{
+ "source": "uniprot",
+ "query": "MINAR2",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:MINAR2) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:53:02+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P59773",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "Major intrinsically disordered NOTCH2-binding receptor 1-like"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "32954300"
+         }
+        ],
+        "value": "Major intrinsically disordered NOTCH2-associated receptor 2"
+       }
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000312",
+          "source": "HGNC",
+          "id": "HGNC:33914"
+         }
+        ],
+        "value": "Membrane integral NOTCH2-associated receptor 2"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:33914"
+        }
+       ],
+       "value": "MINAR2"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "35727972"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "36317962"
+         }
+        ],
+        "value": "Binds cholesterol and may regulate the distribution and homeostasis of cholesterol in hair cells (PubMed:36317962). May play a role in angiogenesis (PubMed:35727972)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "100127206",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00001979AD"
+    }
+   }
+  ]
+ }
+}

@@ -1,7 +1,7 @@
 import { ChevronRight, Menu } from 'lucide-react';
 import { Link, useLocation, useMatch } from 'react-router-dom';
 import { useAsync } from '../../hooks/useAsync';
-import { getDatasetStatus, getEntityById } from '../../services/repository';
+import { getDatasetStatus, getEntityById, getSyncStatus } from '../../services/repository';
 import { CommandSearch } from './CommandSearch';
 
 const TITLES: Record<string, string> = {
@@ -55,18 +55,20 @@ function Breadcrumbs() {
 
 function DatasetIndicator() {
   const { data } = useAsync(() => getDatasetStatus(), []);
+  const sync = useAsync(() => getSyncStatus(), []);
   if (!data) return null;
-  const demo = data.mode === 'demo';
+  const stale = sync.data?.stale === true;
+  const demo = data.mode === 'demo' || stale;
   return (
     <Link
       to="/sources"
-      title={data.detail}
+      title={stale ? 'The last successful data synchronisation is overdue.' : data.detail}
       className={`hidden items-center gap-2 rounded-full border px-3 py-1 text-[11.5px] font-semibold md:inline-flex ${
         demo ? 'border-amber/30 bg-amber-soft text-amber' : 'border-sage/30 bg-sage-soft text-sage'
       }`}
     >
       <span className={`h-1.5 w-1.5 rounded-full ${demo ? 'bg-amber' : 'bg-sage'}`} aria-hidden />
-      {data.label}
+      {stale ? 'Data may be outdated' : data.label}
     </Link>
   );
 }

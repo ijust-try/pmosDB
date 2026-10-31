@@ -1,0 +1,160 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9930479",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9930479",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:50:09+00:00",
+ "response": {
+  "dbId": 9930479,
+  "displayName": "Defective cleavage of FV variant at R334",
+  "stId": "R-HSA-9930479",
+  "stIdVersion": "R-HSA-9930479.1",
+  "isInDisease": true,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Defective cleavage of FV variant at R334"
+  ],
+  "releaseDate": "2026-03-25",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12061111,
+    "displayName": "Mondo:0002305",
+    "databaseName": "Mondo",
+    "identifier": "0002305",
+    "url": "https://monarchinitiative.org/MONDO:0002305",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "disease": [
+   {
+    "dbId": 9668251,
+    "displayName": "thrombophilia",
+    "databaseName": "DOID",
+    "identifier": "2452",
+    "name": [
+     "thrombophilia"
+    ],
+    "synonym": [
+     "hypercoagulability state"
+    ],
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/doid/terms?obo_id=DOID:2452",
+    "className": "Disease",
+    "schemaClass": "Disease"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 9930421,
+    "displayName": "Factor V Cambridge: a new mutation (Arg306--&gt;Thr) associated with resistance to activated protein C",
+    "title": "Factor V Cambridge: a new mutation (Arg306--&gt;Thr) associated with resistance to activated protein C",
+    "journal": "Blood",
+    "pages": "1140-4",
+    "pubMedIdentifier": 9454742,
+    "volume": 91,
+    "year": 1998,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9454742",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9930410,
+    "displayName": "Functional characterization of factor V-Ile359Thr: a novel mutation associated with thrombosis",
+    "title": "Functional characterization of factor V-Ile359Thr: a novel mutation associated with thrombosis",
+    "journal": "Blood",
+    "pages": "3381-7",
+    "pubMedIdentifier": 14695241,
+    "volume": 103,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/14695241",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9930469,
+    "displayName": "Under normal physiological conditions, activated protein C (...",
+    "text": "Under normal physiological conditions, activated protein C (APC) regulates clotting by cleaving factor Va (FVa) at residues R534 and R334, thereby preventing excessive clot formation. This Reactome event describes two missense variants, FV R334T (FV Cambridge) and FV I387T (FV Liverpool), which interfere with APC-mediated cleavage at R334. This disrupted FVa proteolysis leads to prolonged clotting activity of FVa, potentially increasing the risk of venous thromboembolism (VTE) in individuals carrying either of these mutations (Williamson D et al., 1998; Franco RF et al., 1998; Norström E et al., 2002; Mumford AD et al., 2003; Steen M et al., 2004; reviewed by Moore GW et al., 2023).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821383,
+   "displayName": "three stars",
+   "definition": "internally reviewed",
+   "name": [
+    "three stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 9930440,
+    "displayName": "F5 R334T, I387T is not cleaved by activated protein C  ",
+    "stId": "R-HSA-9930440",
+    "stIdVersion": "R-HSA-9930440.1",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "F5 R334T, I387T is not cleaved by activated protein C  "
+    ],
+    "releaseDate": "2026-03-25",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9930479
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "FailedReaction"
+   }
+  ],
+  "normalPathway": {
+   "dbId": 9769739,
+   "displayName": "Regulation of clotting cascade",
+   "stId": "R-HSA-9769739",
+   "stIdVersion": "R-HSA-9769739.1",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 3,
+   "name": [
+    "Regulation of clotting cascade"
+   ],
+   "releaseDate": "2026-03-25",
+   "speciesName": "Homo sapiens",
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "diseasePathways": [
+    9930479
+   ],
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

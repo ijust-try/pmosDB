@@ -1,0 +1,1191 @@
+{
+ "source": "quickgo_terms",
+ "query": "Q8IYX7_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0005515,GO:0005813,GO:0005814,GO:0005856,GO:0005879,GO:0005930,GO:0008017,GO:0009631,GO:0031514,GO:0036064,GO:0036126,GO:0045724,GO:0050821,GO:0070417,GO:0097225,GO:0097229",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:56:51+00:00",
+ "response": {
+  "numberOfHits": 16,
+  "results": [
+   {
+    "id": "GO:0005879",
+    "isObsolete": false,
+    "name": "axonemal microtubule",
+    "definition": {
+     "text": "A microtubule in the axoneme of a eukaryotic cilium or flagellum; an axoneme contains nine modified doublet microtubules, which may or may not surround a pair of single microtubules.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0097649",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097650",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005856",
+    "isObsolete": false,
+    "name": "cytoskeleton",
+    "definition": {
+     "text": "A cellular structure that forms the internal framework of eukaryotic and prokaryotic cells. The cytoskeleton includes intermediate filaments, microfilaments, microtubules, the microtrabecular lattice, and other structures characterized by a polymeric filamentous nature and long-range order within the cell. The various elements of the cytoskeleton not only serve in the maintenance of cellular shape but also have roles in other cellular functions, including cellular movement, cell division, endocytosis, and movement of organelles.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "16959967"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "27419875"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0120260",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032160",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099513",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0020010",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097568",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070865",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032123",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045111",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030863",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0020038",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0015629",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120120",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120121",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990047",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098593",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005940",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032156",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032173",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032176",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033011",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097427",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032159",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035253",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031913",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0014731",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045298",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099571",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005930",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0015630",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005200",
+      "relation": "occurs_in"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005813",
+    "isObsolete": false,
+    "name": "centrosome",
+    "definition": {
+     "text": "A structure comprised of a core structure (in most organisms, a pair of centrioles) and peripheral material from which a microtubule-based structure, such as a spindle apparatus, is organized. Centrosomes occur close to the nucleus during interphase in many eukaryotic cells, though in animal cells it changes continually during the cell-division cycle.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198547684"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0031592",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034451",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000242",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031616",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140918",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005814",
+    "isObsolete": false,
+    "name": "centriole",
+    "definition": {
+     "text": "A cellular organelle, found close to the nucleus in many eukaryotic cells, consisting of a small cylinder with microtubular walls, 300-500 nm long and 150-250 nm in diameter. It contains nine short, parallel, peripheral microtubular fibrils, each fibril consisting of one complete microtubule fused to two incomplete microtubules. Cells usually have two centrioles, lying at right angles to each other. At division, each pair of centrioles generates another pair and the twin pairs form the pole of the mitotic spindle.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198547684"
+      }
+     ]
+    },
+    "comment": "In most eukaryotic cells, 'ciliary basal body' (GO:0036064) and 'centriole' (GO:0005814) represent a common entity that cycles through its function in cell division, then ciliogenesis, then cell division again. However, these structures are modified extensively as they transition into each other, and may contain different proteins, specific to each component.",
+    "synonyms": [
+     {
+      "name": "daughter centriole",
+      "type": "narrow"
+     },
+     {
+      "name": "mother centriole",
+      "type": "narrow"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005515",
+    "isObsolete": false,
+    "name": "protein binding",
+    "definition": {
+     "text": "Binding to a protein."
+    },
+    "synonyms": [
+     {
+      "name": "glycoprotein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "protein amino acid binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031072",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140081",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032092",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010313",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043393",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0031720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990405",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051087",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001965",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005516",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990935",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001848",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032091",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046980",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043394",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001846",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051959",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019955",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005930",
+    "isObsolete": false,
+    "name": "axoneme",
+    "definition": {
+     "text": "The bundle of microtubules and associated proteins that forms the core of cilia (also called flagella) in eukaryotic cells and is responsible for their movements.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198547684"
+      }
+     ]
+    },
+    "comment": "Note that cilia and eukaryotic flagella are deemed to be equivalent. In diplomonad species, such as Giardia, the axoneme may extend intracellularly up to 5um away from the plane of the plasma membrane.",
+    "synonyms": [
+     {
+      "name": "ciliary axoneme",
+      "type": "exact"
+     },
+     {
+      "name": "cilium axoneme",
+      "type": "exact"
+     },
+     {
+      "name": "flagellar axoneme",
+      "type": "exact"
+     },
+     {
+      "name": "flagellum axoneme",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0097541",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030993",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060404",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0120228",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005931",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990716",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097545",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071808",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120134",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120135",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005858",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005879",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001534",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0031514",
+    "isObsolete": false,
+    "name": "motile cilium",
+    "definition": {
+     "text": "A cilium which may have a variable arrangement of axonemal microtubules and also contains molecular motors. It may beat with a whip-like pattern that promotes cell motility or transport of fluids and other cells across a cell surface, such as on epithelial cells that line the lumenal ducts of various tissues; or they may display a distinct twirling motion that directs fluid flow asymmetrically across the cellular surface to affect asymmetric body plan organization. Motile cilia can be found in single as well as multiple copies per cell.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "17009929"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "20144998"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "22118931"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "microtubule-based flagellum",
+      "type": "related"
+     },
+     {
+      "name": "motile cilia",
+      "type": "exact"
+     },
+     {
+      "name": "motile primary cilia",
+      "type": "related"
+     },
+     {
+      "name": "motile primary cilium",
+      "type": "related"
+     },
+     {
+      "name": "motile secondary cilium",
+      "type": "related"
+     },
+     {
+      "name": "nodal cilium",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0097728",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097729",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097741",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0036064",
+    "isObsolete": false,
+    "name": "ciliary basal body",
+    "definition": {
+     "text": "A membrane-tethered, short cylindrical array of microtubules and associated proteins found at the base of a eukaryotic cilium (also called flagellum) that is similar in structure to a centriole and derives from it. The cilium basal body is the site of assembly and remodeling of the cilium and serves as a nucleation site for axoneme growth. As well as anchoring the cilium, it is thought to provide a selective gateway regulating the entry of ciliary proteins and vesicles by intraflagellar transport.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "21750193"
+      }
+     ]
+    },
+    "comment": "In most eukaryotic cells, 'ciliary basal body' (GO:0036064) and 'centriole' (GO:0005814) represent a common entity that cycles through its function in cell division, then ciliogenesis, then cell division again. However, these structures are modified extensively as they transition into each other, and may contain different proteins, specific to each component.",
+    "synonyms": [
+     {
+      "name": "basal body",
+      "type": "broad"
+     },
+     {
+      "name": "cilial basal body",
+      "type": "exact"
+     },
+     {
+      "name": "cilium basal body",
+      "type": "exact"
+     },
+     {
+      "name": "kinetosome",
+      "type": "exact"
+     },
+     {
+      "name": "microtubule basal body",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1902672",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902671",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902674",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902673",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902636",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902677",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0036126",
+    "isObsolete": false,
+    "name": "sperm flagellum",
+    "definition": {
+     "text": "A microtubule-based flagellum (or cilium) that is part of a sperm, a mature male germ cell that develops from a spermatid.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "8441407"
+      }
+     ]
+    },
+    "comment": "Note that cilia and eukaryotic flagella are deemed to be equivalent. In this case community usage is always 'flagellum', hence the primary term name, but the cilium parentage is deliberate.",
+    "synonyms": [
+     {
+      "name": "sperm cilium",
+      "type": "exact"
+     },
+     {
+      "name": "sperm tail",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0001520",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097228",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097227",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097229",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035686",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097225",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045724",
+    "isObsolete": false,
+    "name": "positive regulation of cilium assembly",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of the formation of a cilium."
+    },
+    "synonyms": [
+     {
+      "name": "activation of cilium assembly",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of flagellum assembly",
+      "type": "broad"
+     },
+     {
+      "name": "positive regulation of flagellum biogenesis",
+      "type": "related"
+     },
+     {
+      "name": "stimulation of cilium assembly",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of cilium assembly",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of cilium assembly",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of cilium assembly",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1905505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902857",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0070417",
+    "isObsolete": false,
+    "name": "cellular response to cold",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a cold stimulus, a temperature stimulus below the optimal temperature for that organism."
+    },
+    "synonyms": [
+     {
+      "name": "cellular response to cold stress",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0071497",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008017",
+    "isObsolete": false,
+    "name": "microtubule binding",
+    "definition": {
+     "text": "Binding to a microtubule, a filament composed of tubulin monomers."
+    },
+    "synonyms": [
+     {
+      "name": "microtubule/chromatin interaction",
+      "type": "related"
+     },
+     {
+      "name": "microtubule severing activity",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0099609",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990662",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0051010",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051011",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0050821",
+    "isObsolete": false,
+    "name": "protein stabilization",
+    "definition": {
+     "text": "Any process involved in maintaining the structure and integrity of a protein and preventing it from degradation or aggregation."
+    },
+    "synonyms": [
+     {
+      "name": "lysosomal protein stabilization",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of protein stability",
+      "type": "exact"
+     },
+     {
+      "name": "protein sequestering",
+      "type": "related"
+     },
+     {
+      "name": "protein stabilisation",
+      "type": "exact"
+     },
+     {
+      "name": "protein stabilization activity",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0110078",
+      "relation": "capable_of_part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0097225",
+    "isObsolete": false,
+    "name": "sperm midpiece",
+    "definition": {
+     "text": "The highly organized segment of the sperm flagellum which begins at the connecting piece and is characterized by the presence of 9 outer dense fibers (ODFs) that lie outside each of the 9 outer axonemal microtubule doublets and by a sheath of mitochondria that encloses the ODFs and the axoneme; the midpiece terminates about one-fourth of the way down the sperm flagellum at the annulus, which marks the beginning of the principal piece.",
+     "xrefs": [
+      {
+       "dbCode": "MP",
+       "dbId": "0009831"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0097226",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0097229",
+    "isObsolete": false,
+    "name": "sperm end piece",
+    "definition": {
+     "text": "The short tip of the sperm flagellum, adjacent to the sperm principal piece and furthest from the sperm head, which contains only the axoneme surrounded by the plasma membrane.",
+     "xrefs": [
+      {
+       "dbCode": "MP",
+       "dbId": "0009837"
+      }
+     ]
+    },
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0009631",
+    "isObsolete": false,
+    "name": "cold acclimation",
+    "definition": {
+     "text": "Any process that increases freezing tolerance of an organism in response to low, nonfreezing temperatures."
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

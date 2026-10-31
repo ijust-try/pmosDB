@@ -1,0 +1,997 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9707616",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9707616",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:55:27+00:00",
+ "response": {
+  "dbId": 9707616,
+  "displayName": "Heme signaling",
+  "stId": "R-HSA-9707616",
+  "stIdVersion": "R-HSA-9707616.4",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Heme signaling"
+  ],
+  "releaseDate": "2021-03-23",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 984,
+    "displayName": "extracellular region",
+    "accession": "0005576",
+    "databaseName": "GO",
+    "definition": "\"The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite.\" [GOC:curators]",
+    "name": "extracellular region",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005576",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 13231,
+    "displayName": "nuclear envelope",
+    "accession": "0005635",
+    "databaseName": "GO",
+    "definition": "\"The double lipid bilayer that encloses the nucleus, separating its contents from the cytoplasm. It consists of an inner and outer nuclear membrane, with an intermembrane space (20-40 nm wide, also called the perinuclear space) between them. The envelope is supported by the nuclear lamina and contains nuclear pore complexes, which regulate molecular transport.\" [ISBN:0198547684, PMID:16164970]",
+    "name": "nuclear envelope",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005635",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 7660,
+    "displayName": "nucleoplasm",
+    "accession": "0005654",
+    "databaseName": "GO",
+    "definition": "\"That part of the nuclear content other than the chromosomes or the nucleolus.\" [GOC:ma, ISBN:0124325653]",
+    "name": "nucleoplasm",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "\"The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.\" [ISBN:0716731363]",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 9417,
+   "displayName": "heme metabolic process",
+   "accession": "0042168",
+   "databaseName": "GO",
+   "definition": "\"The chemical reactions and pathways involving heme, any compound of iron complexed in a porphyrin (tetrapyrrole) ring.\" [GOC:jl, ISBN:0124325653]",
+   "name": "heme metabolic process",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0042168",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 9707533,
+    "displayName": "Red alert: labile heme is an alarmin",
+    "title": "Red alert: labile heme is an alarmin",
+    "journal": "Curr Opin Immunol",
+    "pages": "94-100",
+    "pubMedIdentifier": 26741528,
+    "volume": 38,
+    "year": 2016,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/26741528",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9707491,
+    "displayName": "TLR4 Signaling by Heme and the Role of Heme-Binding Blood Proteins",
+    "title": "TLR4 Signaling by Heme and the Role of Heme-Binding Blood Proteins",
+    "journal": "Front Immunol",
+    "pages": "1964",
+    "pubMedIdentifier": 32983129,
+    "volume": 11,
+    "year": 2020,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32983129",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9707538,
+    "displayName": "The macrophage heme-heme oxygenase-1 system and its role in inflammation",
+    "title": "The macrophage heme-heme oxygenase-1 system and its role in inflammation",
+    "journal": "Biochem Pharmacol",
+    "pages": "159-167",
+    "pubMedIdentifier": 29452096,
+    "volume": 153,
+    "year": 2018,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/29452096",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 400269,
+    "displayName": "Molecular components of the mammalian circadian clock",
+    "title": "Molecular components of the mammalian circadian clock",
+    "journal": "Hum Mol Genet",
+    "pages": "R271-7",
+    "pubMedIdentifier": 16987893,
+    "volume": 15,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16987893",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10482825,
+    "displayName": "Heme signaling",
+    "stId": "R-BTA-9707616",
+    "stIdVersion": "R-BTA-9707616.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Heme signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     9707616
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10119404,
+    "displayName": "Heme signaling",
+    "stId": "R-MMU-9707616",
+    "stIdVersion": "R-MMU-9707616.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Heme signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     9707616
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10260726,
+    "displayName": "Heme signaling",
+    "stId": "R-RNO-9707616",
+    "stIdVersion": "R-RNO-9707616.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Heme signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     9707616
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10367963,
+    "displayName": "Heme signaling",
+    "stId": "R-CFA-9707616",
+    "stIdVersion": "R-CFA-9707616.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Heme signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     9707616
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10596132,
+    "displayName": "Heme signaling",
+    "stId": "R-SSC-9707616",
+    "stIdVersion": "R-SSC-9707616.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Heme signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     9707616
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10688572,
+    "displayName": "Heme signaling",
+    "stId": "R-DRE-9707616",
+    "stIdVersion": "R-DRE-9707616.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Heme signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     9707616
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10769855,
+    "displayName": "Heme signaling",
+    "stId": "R-XTR-9707616",
+    "stIdVersion": "R-XTR-9707616.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Heme signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     9707616
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10867617,
+    "displayName": "Heme signaling",
+    "stId": "R-GGA-9707616",
+    "stIdVersion": "R-GGA-9707616.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Heme signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     9707616
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10953267,
+    "displayName": "Heme signaling",
+    "stId": "R-DME-9707616",
+    "stIdVersion": "R-DME-9707616.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Heme signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     9707616
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11036364,
+    "displayName": "Heme signaling",
+    "stId": "R-CEL-9707616",
+    "stIdVersion": "R-CEL-9707616.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Heme signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     9707616
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11092751,
+    "displayName": "Heme signaling",
+    "stId": "R-DDI-9707616",
+    "stIdVersion": "R-DDI-9707616.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Heme signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     9707616
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11121343,
+    "displayName": "Heme signaling",
+    "stId": "R-SPO-9707616",
+    "stIdVersion": "R-SPO-9707616.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Heme signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     9707616
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11149918,
+    "displayName": "Heme signaling",
+    "stId": "R-SCE-9707616",
+    "stIdVersion": "R-SCE-9707616.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Heme signaling"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     9707616
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9707506,
+    "displayName": "Extracellular hemoglobin, a byproduct of hemolysis, can rele...",
+    "text": "Extracellular hemoglobin, a byproduct of hemolysis, can release its prosthetic heme groups upon oxidation. Blood plasma contains proteins that scavenge heme. It is estimated that about 2–8% of the heme released in plasma becomes ‘bioavailable’, being internalized by bystander cells. If the heme degradation capacity of a cell, represented by heme oxidase 1 and 2, cannot be ramped up sufficiently then heme signaling and reactivity puts cells under stress. Platelets are activated by heme, and macrophages switch to the inflammatory type (Donegan et al, 2019; Gouveia et al, 2019).<br><br>Free (labile) heme accumulates in the blood stream in great amounts under pathological conditions like viral infections and malaria, but also ARDS amd COPD. The locally affected cells' primary reaction is to upregulate heme oxidase 1 (HMOX1) expression. HMOX1 induction in these cells not only removes heme from circulation but also triggers a functional switch toward the anti-inflammatory phenotype (Vijayan et al, 2018). However, heme scavenging and degradation systems may get overwhelmed by the sheer amount of heme present.<br><br>Heme promotes platelet activation, complement activation, vasculitis, and thrombosis (Bourne et al, 2020; Merle et al, 2018). Heme was recognized to act as a danger signal, damage-associated molecular pattern (DAMP), or alarmin (Soares and Bozza, 2016) and was shown to activate Toll-like receptor 4 (TLR4) signaling (Figueiredo et al, 2007; Janciauskiene et al, 2020). It also has a role as corepressor in the circadian clock system (Ko and Takahashi, 2006). BACH1 is regulated by heme in a cell, thus placing heme as a signaling molecule in gene expression in higher eukaryotes. The regulation of BACH1 by heme may be important for the stress response in general (Suzuki et al, 2004).<br><br>Extracellular hemoglobin, a byproduct of hemolysis, can release its prosthetic heme groups uponoxidation. Due to the reactive nature of free heme, the blood plasma contains proteins that scavenge heme. It is estimated that about 2–8% of the heme released in plasma becomes ‘bioavailable’, being internalized by bystander cells. Failure of nearby cells to sufficientlymetabolize free heme can incite platelet activation, macrophage differentiation, and oxidative stress (Donegan et al, 2019; Gouveia et al, 2019).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-9707616.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2022-04-07",
+  "hasEvent": [
+   {
+    "dbId": 9707504,
+    "displayName": "H2O2 oxidises ferrohemoglobin to MetHb",
+    "stId": "R-HSA-9707504",
+    "stIdVersion": "R-HSA-9707504.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "H2O2 oxidises ferrohemoglobin to MetHb",
+     "Hemoglobin is oxidized by hydrogen peroxide"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9707516,
+    "displayName": "FeHM dissociates from MetHb",
+    "stId": "R-HSA-9707516",
+    "stIdVersion": "R-HSA-9707516.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "FeHM dissociates from MetHb",
+     "MetHb releases ferriheme"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9707586,
+    "displayName": "FeHM oxidises LDL,HDL",
+    "stId": "R-HSA-9707586",
+    "stIdVersion": "R-HSA-9707586.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "FeHM oxidises LDL,HDL",
+     "Heme binds and oxidizes lipoproteins"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9707594,
+    "displayName": "Hemes bind LY96",
+    "stId": "R-HSA-9707594",
+    "stIdVersion": "R-HSA-9707594.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Hemes bind LY96",
+     "Heme binds to MD-2"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9707659,
+    "displayName": "Hemes:LY96 activates TLR4",
+    "stId": "R-HSA-9707659",
+    "stIdVersion": "R-HSA-9707659.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Hemes:LY96 activates TLR4"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9707505,
+    "displayName": "Hemes bind to CLEC1B dimer",
+    "stId": "R-HSA-9707505",
+    "stIdVersion": "R-HSA-9707505.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Hemes bind to CLEC1B dimer"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 917870,
+    "displayName": "SLC46A1 transports hemes from extracellular region to cytosol",
+    "stId": "R-HSA-917870",
+    "stIdVersion": "R-HSA-917870.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SLC46A1 transports hemes from extracellular region to cytosol",
+     "Extracellular ferriheme uptake through the apical membrane of enterocytes"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9707683,
+    "displayName": "PGRMC2 binds Hemes",
+    "stId": "R-HSA-9707683",
+    "stIdVersion": "R-HSA-9707683.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PGRMC2 binds Hemes"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9707606,
+    "displayName": "PGRMC2:Hemes translocate to the nucleus",
+    "stId": "R-HSA-9707606",
+    "stIdVersion": "R-HSA-9707606.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PGRMC2:Hemes translocate to the nucleus"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9707856,
+    "displayName": "PGRMC2:Hemes dissociates",
+    "stId": "R-HSA-9707856",
+    "stIdVersion": "R-HSA-9707856.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PGRMC2:Hemes dissociates"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9707690,
+    "displayName": "BACH1 binds MAFK",
+    "stId": "R-HSA-9707690",
+    "stIdVersion": "R-HSA-9707690.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "BACH1 binds MAFK"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9707645,
+    "displayName": "HMOX1 gene produces HMOX1 dimer",
+    "stId": "R-HSA-9707645",
+    "stIdVersion": "R-HSA-9707645.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HMOX1 gene produces HMOX1 dimer",
+     "HMOX1 expression is repressed by BACH1:MAFK"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9707523,
+    "displayName": "Hemes bind to BACH1:MAFK",
+    "stId": "R-HSA-9707523",
+    "stIdVersion": "R-HSA-9707523.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Hemes bind to BACH1:MAFK"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9708430,
+    "displayName": "XPO1 (CRM1) binds to BACH1:Hemes",
+    "stId": "R-HSA-9708430",
+    "stIdVersion": "R-HSA-9708430.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "XPO1 (CRM1) binds to BACH1:Hemes"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9708423,
+    "displayName": "XPO1:BACH1:Hemes are transported out of the nucleus",
+    "stId": "R-HSA-9708423",
+    "stIdVersion": "R-HSA-9708423.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "XPO1:BACH1:Hemes are transported out of the nucleus"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1368069,
+    "displayName": "NR1D1 (REV-ERBA) binds heme, the BMAL1 (ARNTL) gene, and recruits corepressors",
+    "stId": "R-HSA-1368069",
+    "stIdVersion": "R-HSA-1368069.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NR1D1 (REV-ERBA) binds heme, the BMAL1 (ARNTL) gene, and recruits corepressors"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5663271,
+    "displayName": "NR1D1 (REV-ERBA) binds heme, the CLOCK gene, and recruits corepressors",
+    "stId": "R-HSA-5663271",
+    "stIdVersion": "R-HSA-5663271.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NR1D1 (REV-ERBA) binds heme, the CLOCK gene, and recruits corepressors"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5663245,
+    "displayName": "NR1D1 (REV-ERBA) binds heme, the NPAS2 gene, and recruits corepressors",
+    "stId": "R-HSA-5663245",
+    "stIdVersion": "R-HSA-5663245.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NR1D1 (REV-ERBA) binds heme, the NPAS2 gene, and recruits corepressors"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5663265,
+    "displayName": "NR1D1 (REV-ERBA) binds heme, the NR1D1 gene, and recruits corepressors",
+    "stId": "R-HSA-5663265",
+    "stIdVersion": "R-HSA-5663265.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NR1D1 (REV-ERBA) binds heme, the NR1D1 gene, and recruits corepressors"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5663258,
+    "displayName": "NR1D1 (REV-ERBA) binds heme, the PPARGC1A gene, and recruits corepressors",
+    "stId": "R-HSA-5663258",
+    "stIdVersion": "R-HSA-5663258.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NR1D1 (REV-ERBA) binds heme, the PPARGC1A gene, and recruits corepressors"
+    ],
+    "releaseDate": "2015-03-19",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 400342,
+    "displayName": "Expression of BMAL1 (ARNTL)",
+    "stId": "R-HSA-400342",
+    "stIdVersion": "R-HSA-400342.8",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of BMAL1 (ARNTL)",
+     "ARNTL gene produces ARNTL"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1368119,
+    "displayName": "Expression of CLOCK",
+    "stId": "R-HSA-1368119",
+    "stIdVersion": "R-HSA-1368119.8",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of CLOCK",
+     "CLOCK gene produces CLOCK"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1368065,
+    "displayName": "RORA and PPARA positively regulate and NR1D1 negatively regulates expression of NPAS2",
+    "stId": "R-HSA-1368065",
+    "stIdVersion": "R-HSA-1368065.11",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "RORA and PPARA positively regulate and NR1D1 negatively regulates expression of NPAS2",
+     "NPAS2 gene produces NPAS2"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 549475,
+    "displayName": "Expression of NR1D1 (REV-ERBA)",
+    "stId": "R-HSA-549475",
+    "stIdVersion": "R-HSA-549475.9",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of NR1D1 (REV-ERBA)",
+     "NRID1 gene produces NRID1"
+    ],
+    "releaseDate": "2010-09-21",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1368140,
+    "displayName": "Expression of PPARGC1A (PGC-1alpha)",
+    "stId": "R-HSA-1368140",
+    "stIdVersion": "R-HSA-1368140.8",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of PPARGC1A (PGC-1alpha)",
+     "PPARGC1A gene produces PPARGC1A"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9707616
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

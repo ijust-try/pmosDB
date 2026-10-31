@@ -1,0 +1,66 @@
+{
+ "source": "uniprot",
+ "query": "FER1L6",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:FER1L6) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:50:16+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q2WGJ9",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Fer-1-like protein 6"
+      }
+     }
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "FER1L6"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "A0AB32U2W5"
+         }
+        ],
+        "value": "Calcium/phospholipid-binding protein which is essential for proper development of skeletal and cardiac muscle"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "654463",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000E9B4AA"
+    }
+   }
+  ]
+ }
+}

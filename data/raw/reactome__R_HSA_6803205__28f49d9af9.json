@@ -1,0 +1,942 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-6803205",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-6803205",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:58:30+00:00",
+ "response": {
+  "dbId": 6803205,
+  "displayName": "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+  "stId": "R-HSA-6803205",
+  "stIdVersion": "R-HSA-6803205.2",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain"
+  ],
+  "releaseDate": "2016-03-23",
+  "speciesName": "Homo sapiens",
+  "literatureReference": [
+   {
+    "dbId": 5633302,
+    "displayName": "NDRG1 is necessary for p53-dependent apoptosis",
+    "title": "NDRG1 is necessary for p53-dependent apoptosis",
+    "journal": "J. Biol. Chem.",
+    "pages": "48930-40",
+    "pubMedIdentifier": 15377670,
+    "volume": 279,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15377670",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6791335,
+    "displayName": "Bcl-G, a novel pro-apoptotic member of the Bcl-2 family",
+    "title": "Bcl-G, a novel pro-apoptotic member of the Bcl-2 family",
+    "journal": "J. Biol. Chem.",
+    "pages": "2780-5",
+    "pubMedIdentifier": 11054413,
+    "volume": 276,
+    "year": 2001,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11054413",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6791332,
+    "displayName": "Bcl-2 family member Bcl-G is not a proapoptotic protein",
+    "title": "Bcl-2 family member Bcl-G is not a proapoptotic protein",
+    "journal": "Cell Death Dis",
+    "pages": "e404",
+    "pubMedIdentifier": 23059823,
+    "volume": 3,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/23059823",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5633304,
+    "displayName": "p53-dependent NDRG1 expression induces inhibition of intestinal epithelial cell proliferation but not apoptosis after polyamine depletion",
+    "title": "p53-dependent NDRG1 expression induces inhibition of intestinal epithelial cell proliferation but not apoptosis after polyamine depletion",
+    "journal": "Am. J. Physiol., Cell Physiol.",
+    "pages": "C379-89",
+    "pubMedIdentifier": 17442733,
+    "volume": 293,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17442733",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6799447,
+    "displayName": "A polymorphic microsatellite that mediates induction of PIG3 by p53",
+    "title": "A polymorphic microsatellite that mediates induction of PIG3 by p53",
+    "journal": "Nat. Genet.",
+    "pages": "315-20",
+    "pubMedIdentifier": 11919562,
+    "volume": 30,
+    "year": 2002,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11919562",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6799772,
+    "displayName": "ASPP proteins specifically stimulate the apoptotic function of p53",
+    "title": "ASPP proteins specifically stimulate the apoptotic function of p53",
+    "journal": "Mol. Cell",
+    "pages": "781-94",
+    "pubMedIdentifier": 11684014,
+    "volume": 8,
+    "year": 2001,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11684014",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6799791,
+    "displayName": "ASPP1 and ASPP2: common activators of p53 family members",
+    "title": "ASPP1 and ASPP2: common activators of p53 family members",
+    "journal": "Mol. Cell. Biol.",
+    "pages": "1341-50",
+    "pubMedIdentifier": 14729977,
+    "volume": 24,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/14729977",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6800261,
+    "displayName": "BCL6 is regulated by p53 through a response element frequently disrupted in B-cell non-Hodgkin lymphoma",
+    "title": "BCL6 is regulated by p53 through a response element frequently disrupted in B-cell non-Hodgkin lymphoma",
+    "journal": "Blood",
+    "pages": "1599-607",
+    "pubMedIdentifier": 16249378,
+    "volume": 107,
+    "year": 2006,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16249378",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6800238,
+    "displayName": "BCL6 suppression of BCL2 via Miz1 and its disruption in diffuse large B cell lymphoma",
+    "title": "BCL6 suppression of BCL2 via Miz1 and its disruption in diffuse large B cell lymphoma",
+    "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+    "pages": "11294-9",
+    "pubMedIdentifier": 19549844,
+    "volume": 106,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19549844",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6800838,
+    "displayName": "PERP, an apoptosis-associated target of p53, is a novel member of the PMP-22/gas3 family",
+    "title": "PERP, an apoptosis-associated target of p53, is a novel member of the PMP-22/gas3 family",
+    "journal": "Genes Dev.",
+    "pages": "704-18",
+    "pubMedIdentifier": 10733530,
+    "volume": 14,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10733530",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6800848,
+    "displayName": "P53 apoptosis mediator PERP: localization, function and caspase activation in uveal melanoma",
+    "title": "P53 apoptosis mediator PERP: localization, function and caspase activation in uveal melanoma",
+    "journal": "J. Cell. Mol. Med.",
+    "pages": "1995-2007",
+    "pubMedIdentifier": 19040420,
+    "volume": 13,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19040420",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6801427,
+    "displayName": "Perp is a mediator of p53-dependent apoptosis in diverse cell types",
+    "title": "Perp is a mediator of p53-dependent apoptosis in diverse cell types",
+    "journal": "Curr. Biol.",
+    "pages": "1985-90",
+    "pubMedIdentifier": 14614825,
+    "volume": 13,
+    "year": 2003,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/14614825",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 5628898,
+    "displayName": "Identification of novel p53 target genes in ionizing radiation response",
+    "title": "Identification of novel p53 target genes in ionizing radiation response",
+    "journal": "Cancer Res.",
+    "pages": "7666-73",
+    "pubMedIdentifier": 16140933,
+    "volume": 65,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16140933",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 6800259,
+    "displayName": "The BCL6 proto-oncogene suppresses p53 expression in germinal-centre B cells",
+    "title": "The BCL6 proto-oncogene suppresses p53 expression in germinal-centre B cells",
+    "journal": "Nature",
+    "pages": "635-9",
+    "pubMedIdentifier": 15577913,
+    "volume": 432,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15577913",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10770689,
+    "displayName": "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+    "stId": "R-XTR-6803205",
+    "stIdVersion": "R-XTR-6803205.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     6803205
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10120308,
+    "displayName": "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+    "stId": "R-MMU-6803205",
+    "stIdVersion": "R-MMU-6803205.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     6803205
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10261628,
+    "displayName": "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+    "stId": "R-RNO-6803205",
+    "stIdVersion": "R-RNO-6803205.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     6803205
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10368809,
+    "displayName": "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+    "stId": "R-CFA-6803205",
+    "stIdVersion": "R-CFA-6803205.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     6803205
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10483721,
+    "displayName": "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+    "stId": "R-BTA-6803205",
+    "stIdVersion": "R-BTA-6803205.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     6803205
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10597028,
+    "displayName": "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+    "stId": "R-SSC-6803205",
+    "stIdVersion": "R-SSC-6803205.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     6803205
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10689466,
+    "displayName": "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+    "stId": "R-DRE-6803205",
+    "stIdVersion": "R-DRE-6803205.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     6803205
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10868521,
+    "displayName": "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+    "stId": "R-GGA-6803205",
+    "stIdVersion": "R-GGA-6803205.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     6803205
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10954069,
+    "displayName": "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+    "stId": "R-DME-6803205",
+    "stIdVersion": "R-DME-6803205.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     6803205
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11037124,
+    "displayName": "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+    "stId": "R-CEL-6803205",
+    "stIdVersion": "R-CEL-6803205.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     6803205
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11092485,
+    "displayName": "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+    "stId": "R-DDI-6803205",
+    "stIdVersion": "R-DDI-6803205.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     6803205
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11121771,
+    "displayName": "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+    "stId": "R-SPO-6803205",
+    "stIdVersion": "R-SPO-6803205.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     6803205
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11150352,
+    "displayName": "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+    "stId": "R-SCE-6803205",
+    "stIdVersion": "R-SCE-6803205.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     6803205
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11171680,
+    "displayName": "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+    "stId": "R-PFA-6803205",
+    "stIdVersion": "R-PFA-6803205.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     6803205
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 6803209,
+    "displayName": "The exact mechanisms of action of several other pro-apoptoti...",
+    "text": "The exact mechanisms of action of several other pro-apoptotic TP53 (p53) targets, such as TP53I3 (PIG3), RABGGTA, BCL2L14, BCL6, NDRG1 and PERP, remain uncertain (Attardi et al. 2000, Guo et al. 2001, Samuels-Lev et al. 2001, Contente et al. 2002, Ihrie et al. 2003, Bergamaschi et al. 2004, Stein et al. 2004, Phan and Dalla-Favera 2004, Jen and Cheung 2005, Margalit et al. 2006, Zhang et al. 2007, Saito et al. 2009, Davies et al. 2009, Giam et al. 2012).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "hasEvent": [
+   {
+    "dbId": 5633295,
+    "displayName": "TP53 binds the NDRG1 gene promoter",
+    "stId": "R-HSA-5633295",
+    "stIdVersion": "R-HSA-5633295.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53 binds the NDRG1 gene promoter"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5633314,
+    "displayName": "TP53 stimulates NDRG1 gene expression",
+    "stId": "R-HSA-5633314",
+    "stIdVersion": "R-HSA-5633314.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53 stimulates NDRG1 gene expression"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 6791327,
+    "displayName": "TP53 binds the BCL2L14 gene",
+    "stId": "R-HSA-6791327",
+    "stIdVersion": "R-HSA-6791327.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53 binds the BCL2L14 gene"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6791323,
+    "displayName": "TP53 stimulates BCL2L14 gene expression",
+    "stId": "R-HSA-6791323",
+    "stIdVersion": "R-HSA-6791323.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53 stimulates BCL2L14 gene expression"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 6797766,
+    "displayName": "TP53 binds the BIRC5 gene",
+    "stId": "R-HSA-6797766",
+    "stIdVersion": "R-HSA-6797766.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53 binds the BIRC5 gene"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6797763,
+    "displayName": "TP53 inhibits BIRC5 expression",
+    "stId": "R-HSA-6797763",
+    "stIdVersion": "R-HSA-6797763.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53 inhibits BIRC5 expression"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 6799462,
+    "displayName": "TP53 family members bind the TP53I3 (PIG3) gene promoter",
+    "stId": "R-HSA-6799462",
+    "stIdVersion": "R-HSA-6799462.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53 family members bind the TP53I3 (PIG3) gene promoter"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6799441,
+    "displayName": "TP53 stimulates expression of the TP53I3 (PIG3) gene",
+    "stId": "R-HSA-6799441",
+    "stIdVersion": "R-HSA-6799441.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53 stimulates expression of the TP53I3 (PIG3) gene"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 6799466,
+    "displayName": "TP53I3 dimerizes",
+    "stId": "R-HSA-6799466",
+    "stIdVersion": "R-HSA-6799466.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53I3 dimerizes"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6799722,
+    "displayName": "TP53I3 oxidoreductase generates unstable semiquinones",
+    "stId": "R-HSA-6799722",
+    "stIdVersion": "R-HSA-6799722.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53I3 oxidoreductase generates unstable semiquinones"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6799733,
+    "displayName": "Semiquinone reacts with oxygen",
+    "stId": "R-HSA-6799733",
+    "stIdVersion": "R-HSA-6799733.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Semiquinone reacts with oxygen"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6800253,
+    "displayName": "TP53 binds the BCL6 gene",
+    "stId": "R-HSA-6800253",
+    "stIdVersion": "R-HSA-6800253.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53 binds the BCL6 gene"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6800250,
+    "displayName": "TP53 stimulates BCL6 expression",
+    "stId": "R-HSA-6800250",
+    "stIdVersion": "R-HSA-6800250.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53 stimulates BCL6 expression"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 6800836,
+    "displayName": "TP53 or TP63 binds the PERP gene",
+    "stId": "R-HSA-6800836",
+    "stIdVersion": "R-HSA-6800836.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53 or TP63 binds the PERP gene"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6800816,
+    "displayName": "TP53 or TP63 stimulates PERP gene expression",
+    "stId": "R-HSA-6800816",
+    "stIdVersion": "R-HSA-6800816.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53 or TP63 stimulates PERP gene expression"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 6801087,
+    "displayName": "TP53 binds the RABGGTA gene",
+    "stId": "R-HSA-6801087",
+    "stIdVersion": "R-HSA-6801087.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53 binds the RABGGTA gene"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6801089,
+    "displayName": "TP53 stimulates RABGGTA expression",
+    "stId": "R-HSA-6801089",
+    "stIdVersion": "R-HSA-6801089.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53 stimulates RABGGTA expression"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 6801101,
+    "displayName": "RABGGTA binds RABGGTB",
+    "stId": "R-HSA-6801101",
+    "stIdVersion": "R-HSA-6801101.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RABGGTA binds RABGGTB"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6801109,
+    "displayName": "CHM binds RGGT",
+    "stId": "R-HSA-6801109",
+    "stIdVersion": "R-HSA-6801109.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CHM binds RGGT"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     6803205
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

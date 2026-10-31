@@ -1,0 +1,946 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-2559586",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-2559586",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:58:20+00:00",
+ "response": {
+  "dbId": 2559586,
+  "displayName": "DNA Damage/Telomere Stress Induced Senescence",
+  "stId": "R-HSA-2559586",
+  "stIdVersion": "R-HSA-2559586.6",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 3,
+  "name": [
+   "DNA Damage/Telomere Stress Induced Senescence"
+  ],
+  "releaseDate": "2013-09-18",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12849122,
+    "displayName": "BioModels Database:BIOMD0000000287",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000287",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000287",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12849192,
+    "displayName": "BioModels Database:BIOMD0000000188",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000188",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000188",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12849090,
+    "displayName": "BioModels Database:BIOMD0000000939",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000939",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000939",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12849182,
+    "displayName": "BioModels Database:BIOMD0000000943",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000943",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000943",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12849194,
+    "displayName": "BioModels Database:BIOMD0000000634",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000634",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000634",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "figure": [
+   {
+    "dbId": 5693882,
+    "displayName": "/figures/Pathway_Illustrations/illustration_senescence_damage_72.png",
+    "url": "/figures/Pathway_Illustrations/illustration_senescence_damage_72.png",
+    "className": "Figure",
+    "schemaClass": "Figure"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 3223252,
+    "displayName": "Mitochondrial dysfunction contributes to oncogene-induced senescence",
+    "title": "Mitochondrial dysfunction contributes to oncogene-induced senescence",
+    "journal": "Mol. Cell. Biol.",
+    "pages": "4495-507",
+    "pubMedIdentifier": 19528227,
+    "volume": 29,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19528227",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3785703,
+    "displayName": "Reactive oxygen species-induced DNA damage and its modification: a chemical investigation",
+    "title": "Reactive oxygen species-induced DNA damage and its modification: a chemical investigation",
+    "journal": "Mutat. Res.",
+    "pages": "201-10",
+    "pubMedIdentifier": 9357549,
+    "volume": 379,
+    "year": 1997,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9357549",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 184032,
+    "displayName": "Telomeres shorten during ageing of human fibroblasts",
+    "title": "Telomeres shorten during ageing of human fibroblasts",
+    "journal": "Nature",
+    "pages": "458-60",
+    "pubMedIdentifier": 2342578,
+    "volume": 345,
+    "year": 1990,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/2342578",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3785769,
+    "displayName": "Telomere reduction in human colorectal carcinoma and with ageing",
+    "title": "Telomere reduction in human colorectal carcinoma and with ageing",
+    "journal": "Nature",
+    "pages": "866-8",
+    "pubMedIdentifier": 2392154,
+    "volume": 346,
+    "year": 1990,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/2392154",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 177805,
+    "displayName": "Shelterin: the protein complex that shapes and safeguards human telomeres",
+    "title": "Shelterin: the protein complex that shapes and safeguards human telomeres",
+    "journal": "Genes Dev",
+    "pages": "2100-10",
+    "pubMedIdentifier": 16166375,
+    "volume": 19,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/16166375",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3785780,
+    "displayName": "p53- and ATM-dependent apoptosis induced by telomeres lacking TRF2",
+    "title": "p53- and ATM-dependent apoptosis induced by telomeres lacking TRF2",
+    "journal": "Science",
+    "pages": "1321-5",
+    "pubMedIdentifier": 10037601,
+    "volume": 283,
+    "year": 1999,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10037601",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3785760,
+    "displayName": "Control of human telomere length by TRF1 and TRF2",
+    "title": "Control of human telomere length by TRF1 and TRF2",
+    "journal": "Mol. Cell. Biol.",
+    "pages": "1659-68",
+    "pubMedIdentifier": 10669743,
+    "volume": 20,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10669743",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 912403,
+    "displayName": "ATM activation by DNA double-strand breaks through the Mre11-Rad50-Nbs1 complex",
+    "title": "ATM activation by DNA double-strand breaks through the Mre11-Rad50-Nbs1 complex",
+    "journal": "Science",
+    "pages": "551-4",
+    "pubMedIdentifier": 15790808,
+    "volume": 308,
+    "year": 2005,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15790808",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3785736,
+    "displayName": "MRE11-RAD50-NBS1 and ATM function as co-mediators of TRF1 in telomere length control",
+    "title": "MRE11-RAD50-NBS1 and ATM function as co-mediators of TRF1 in telomere length control",
+    "journal": "Nat. Struct. Mol. Biol.",
+    "pages": "832-40",
+    "pubMedIdentifier": 17694070,
+    "volume": 14,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17694070",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 69520,
+    "displayName": "Enhanced phosphorylation of p53 by ATM in response to DNA damage.",
+    "title": "Enhanced phosphorylation of p53 by ATM in response to DNA damage.",
+    "journal": "Science",
+    "pages": "1674-7",
+    "pubMedIdentifier": 9733514,
+    "volume": 281,
+    "year": 1998,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9733514",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 69512,
+    "displayName": "Activation of the ATM kinase by ionizing radiation and phosphorylation of p53.\\nActivation of the ATM kinase by ionizing radiation and phosphorylation of p53.\\n",
+    "title": "Activation of the ATM kinase by ionizing radiation and phosphorylation of p53.",
+    "journal": "Science",
+    "pages": "1677-9",
+    "pubMedIdentifier": 9733515,
+    "volume": 281,
+    "year": 1998,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9733515",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 69530,
+    "displayName": "ATM associates with and phosphorylates p53: mapping the region of interaction.",
+    "title": "ATM associates with and phosphorylates p53: mapping the region of interaction.",
+    "journal": "Nat Genet",
+    "pages": "398-400",
+    "pubMedIdentifier": 9843217,
+    "volume": 20,
+    "year": 1998,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/9843217",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 69405,
+    "displayName": "WAF1, a potential mediator of p53 tumor suppression.",
+    "title": "WAF1, a potential mediator of p53 tumor suppression.",
+    "journal": "Cell",
+    "pages": "817-25",
+    "pubMedIdentifier": 8242752,
+    "volume": 75,
+    "year": 1993,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8242752",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 69417,
+    "displayName": "The p21 Cdk-interacting protein Cip1 is a potent inhibitor of G1 cyclin-dependent kinases.",
+    "title": "The p21 Cdk-interacting protein Cip1 is a potent inhibitor of G1 cyclin-dependent kinases.",
+    "journal": "Cell",
+    "pages": "805-16",
+    "pubMedIdentifier": 8242751,
+    "volume": 75,
+    "year": 1993,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/8242751",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 4650042,
+    "displayName": "Smurf2 up-regulation activates telomere-dependent senescence",
+    "title": "Smurf2 up-regulation activates telomere-dependent senescence",
+    "journal": "Genes Dev.",
+    "pages": "3028-40",
+    "pubMedIdentifier": 15574587,
+    "volume": 18,
+    "year": 2004,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/15574587",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10119960,
+    "displayName": "DNA Damage/Telomere Stress Induced Senescence",
+    "stId": "R-MMU-2559586",
+    "stIdVersion": "R-MMU-2559586.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "DNA Damage/Telomere Stress Induced Senescence"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     2559586
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10596688,
+    "displayName": "DNA Damage/Telomere Stress Induced Senescence",
+    "stId": "R-SSC-2559586",
+    "stIdVersion": "R-SSC-2559586.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "DNA Damage/Telomere Stress Induced Senescence"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     2559586
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10368487,
+    "displayName": "DNA Damage/Telomere Stress Induced Senescence",
+    "stId": "R-CFA-2559586",
+    "stIdVersion": "R-CFA-2559586.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "DNA Damage/Telomere Stress Induced Senescence"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     2559586
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10261282,
+    "displayName": "DNA Damage/Telomere Stress Induced Senescence",
+    "stId": "R-RNO-2559586",
+    "stIdVersion": "R-RNO-2559586.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "DNA Damage/Telomere Stress Induced Senescence"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     2559586
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10953757,
+    "displayName": "DNA Damage/Telomere Stress Induced Senescence",
+    "stId": "R-DME-2559586",
+    "stIdVersion": "R-DME-2559586.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "DNA Damage/Telomere Stress Induced Senescence"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     2559586
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11092387,
+    "displayName": "DNA Damage/Telomere Stress Induced Senescence",
+    "stId": "R-DDI-2559586",
+    "stIdVersion": "R-DDI-2559586.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "DNA Damage/Telomere Stress Induced Senescence"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     2559586
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11036842,
+    "displayName": "DNA Damage/Telomere Stress Induced Senescence",
+    "stId": "R-CEL-2559586",
+    "stIdVersion": "R-CEL-2559586.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "DNA Damage/Telomere Stress Induced Senescence"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     2559586
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11121575,
+    "displayName": "DNA Damage/Telomere Stress Induced Senescence",
+    "stId": "R-SPO-2559586",
+    "stIdVersion": "R-SPO-2559586.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "DNA Damage/Telomere Stress Induced Senescence"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     2559586
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11150160,
+    "displayName": "DNA Damage/Telomere Stress Induced Senescence",
+    "stId": "R-SCE-2559586",
+    "stIdVersion": "R-SCE-2559586.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "DNA Damage/Telomere Stress Induced Senescence"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     2559586
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10868173,
+    "displayName": "DNA Damage/Telomere Stress Induced Senescence",
+    "stId": "R-GGA-2559586",
+    "stIdVersion": "R-GGA-2559586.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "DNA Damage/Telomere Stress Induced Senescence"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     2559586
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10770361,
+    "displayName": "DNA Damage/Telomere Stress Induced Senescence",
+    "stId": "R-XTR-2559586",
+    "stIdVersion": "R-XTR-2559586.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "DNA Damage/Telomere Stress Induced Senescence"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     2559586
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10689106,
+    "displayName": "DNA Damage/Telomere Stress Induced Senescence",
+    "stId": "R-DRE-2559586",
+    "stIdVersion": "R-DRE-2559586.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "DNA Damage/Telomere Stress Induced Senescence"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     2559586
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10483385,
+    "displayName": "DNA Damage/Telomere Stress Induced Senescence",
+    "stId": "R-BTA-2559586",
+    "stIdVersion": "R-BTA-2559586.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "DNA Damage/Telomere Stress Induced Senescence"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     2559586
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 3828041,
+    "displayName": "Reactive oxygen species (ROS), whose concentration increases...",
+    "text": "Reactive oxygen species (ROS), whose concentration increases in senescent cells due to oncogenic RAS-induced mitochondrial dysfunction (Moiseeva et al. 2009) or due to environmental stress, cause DNA damage in the form of double strand breaks (DSBs) (Yu and Anderson 1997). In addition, persistent cell division fueled by oncogenic signaling leads to replicative exhaustion, manifested in critically short telomeres (Harley et al. 1990, Hastie et al. 1990). Shortened telomeres are no longer able to bind the protective shelterin complex (Smogorzewska et al. 2000, de Lange 2005) and are recognized as damaged DNA. <p>The evolutionarily conserved MRN complex, consisting of MRE11A (MRE11), RAD50 and NBN (NBS1) subunits, binds DSBs (Lee and Paull 2005) and shortened telomeres that are no longer protected by shelterin (Wu et al. 2007). Once bound to the DNA, the MRN complex recruits and activates ATM kinase (Lee and Paull 2005, Wu et al. 2007), leading to phosphorylation of ATM targets, including TP53 (p53) (Banin et al. 1998, Canman et al. 1998, Khanna et al. 1998). TP53, phosphorylated on serine S15 by ATM, binds the CDKN1A (also known as p21, CIP1 or WAF1) promoter and induces CDKN1A transcription (El-Deiry et al. 1993, Karlseder et al. 1999). CDKN1A inhibits the activity of CDK2, leading to G1/S cell cycle arrest (Harper et al. 1993, El-Deiry et al. 1993).<p>SMURF2 is upregulated in response to telomere attrition in human fibroblasts and induces senecscent phenotype through RB1 and TP53, independently of its role in TGF-beta-1 signaling (Zhang and Cohen 2004). The exact mechanism of SMURF2 involvement is senescence has not been elucidated.  ",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2021-09-15",
+  "hasEvent": [
+   {
+    "dbId": 3785704,
+    "displayName": "DSB inducing agents induce double strand DNA breaks",
+    "stId": "R-HSA-3785704",
+    "stIdVersion": "R-HSA-3785704.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "DSB inducing agents induce double strand DNA breaks"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 3785711,
+    "displayName": "Telomere shortening during replicative exhaustion",
+    "stId": "R-HSA-3785711",
+    "stIdVersion": "R-HSA-3785711.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Telomere shortening during replicative exhaustion"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 3785768,
+    "displayName": "MRN complex binds DNA double strand breaks",
+    "stId": "R-HSA-3785768",
+    "stIdVersion": "R-HSA-3785768.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "MRN complex binds DNA double strand breaks"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5682020,
+    "displayName": "MRN complex binds shortened telomeres",
+    "stId": "R-HSA-5682020",
+    "stIdVersion": "R-HSA-5682020.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "MRN complex binds shortened telomeres"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5693612,
+    "displayName": "MRN complex bound to DNA ends recruits ATM",
+    "stId": "R-HSA-5693612",
+    "stIdVersion": "R-HSA-5693612.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "MRN complex bound to DNA ends recruits ATM"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5682044,
+    "displayName": "KAT5 acetylates ATM at DNA DSBs",
+    "stId": "R-HSA-5682044",
+    "stIdVersion": "R-HSA-5682044.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "KAT5 acetylates ATM at DNA DSBs"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5693540,
+    "displayName": "MRN activates ATM",
+    "stId": "R-HSA-5693540",
+    "stIdVersion": "R-HSA-5693540.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "MRN activates ATM"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5682018,
+    "displayName": "MRN complex bound to shortened telomeres recruits ATM",
+    "stId": "R-HSA-5682018",
+    "stIdVersion": "R-HSA-5682018.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "MRN complex bound to shortened telomeres recruits ATM"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6792712,
+    "displayName": "KAT5 acetylates ATM at shortened telomeres",
+    "stId": "R-HSA-6792712",
+    "stIdVersion": "R-HSA-6792712.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "KAT5 acetylates ATM at shortened telomeres"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5682026,
+    "displayName": "MRN bound to shortened telomeres activates ATM",
+    "stId": "R-HSA-5682026",
+    "stIdVersion": "R-HSA-5682026.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "MRN bound to shortened telomeres activates ATM"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5693609,
+    "displayName": "ATM phosphorylates TP53 at S15",
+    "stId": "R-HSA-5693609",
+    "stIdVersion": "R-HSA-5693609.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ATM phosphorylates TP53 at S15"
+    ],
+    "releaseDate": "2003-11-03",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 3786258,
+    "displayName": "TP53 binds the CDKN1A promoter",
+    "stId": "R-HSA-3786258",
+    "stIdVersion": "R-HSA-3786258.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TP53 binds the CDKN1A promoter"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4647593,
+    "displayName": "EP400 binds CDKN1A promoter",
+    "stId": "R-HSA-4647593",
+    "stIdVersion": "R-HSA-4647593.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "EP400 binds CDKN1A promoter"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 4647613,
+    "displayName": "Transcriptional activation of CDKN1A by TP53 is inhibited by EP400",
+    "stId": "R-HSA-4647613",
+    "stIdVersion": "R-HSA-4647613.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Transcriptional activation of CDKN1A by TP53 is inhibited by EP400"
+    ],
+    "releaseDate": "2013-12-04",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 187934,
+    "displayName": "Inactivation of Cyclin A:Cdk2 complexes by p27/p21",
+    "stId": "R-HSA-187934",
+    "stIdVersion": "R-HSA-187934.10",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Inactivation of Cyclin A:Cdk2 complexes by p27/p21"
+    ],
+    "releaseDate": "2006-11-16",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 69562,
+    "displayName": "Inactivation of Cyclin E:Cdk2 complexes by p27/p21",
+    "stId": "R-HSA-69562",
+    "stIdVersion": "R-HSA-69562.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Inactivation of Cyclin E:Cdk2 complexes by p27/p21"
+    ],
+    "releaseDate": "2004-07-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2559584,
+    "displayName": "Formation of Senescence-Associated Heterochromatin Foci (SAHF)",
+    "stId": "R-HSA-2559584",
+    "stIdVersion": "R-HSA-2559584.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Formation of Senescence-Associated Heterochromatin Foci (SAHF)"
+    ],
+    "releaseDate": "2013-09-18",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2559586
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2013-12-31",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

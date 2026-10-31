@@ -1,0 +1,901 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-9679191",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-9679191",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:54:38+00:00",
+ "response": {
+  "dbId": 9679191,
+  "displayName": "Potential therapeutics for SARS",
+  "stId": "R-HSA-9679191",
+  "stIdVersion": "R-HSA-9679191.6",
+  "isInDisease": true,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Potential therapeutics for SARS"
+  ],
+  "releaseDate": "2020-06-10",
+  "releaseStatus": "UPDATED",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12061056,
+    "displayName": "Mondo:0005108",
+    "databaseName": "Mondo",
+    "identifier": "0005108",
+    "url": "https://monarchinitiative.org/MONDO:0005108",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "disease": [
+   {
+    "dbId": 3134794,
+    "displayName": "viral infectious disease",
+    "databaseName": "DOID",
+    "definition": "A disease by infectious agent that results_in infection, has_material_basis_in Viruses.",
+    "identifier": "934",
+    "name": [
+     "viral infectious disease"
+    ],
+    "synonym": [
+     "Viral disease",
+     "virus infection",
+     "virus infection"
+    ],
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/doid/terms?obo_id=DOID:934",
+    "className": "Disease",
+    "schemaClass": "Disease"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 9685116,
+    "displayName": "Clinical trials on drug repositioning for COVID-19 treatment",
+    "title": "Clinical trials on drug repositioning for COVID-19 treatment",
+    "journal": "Rev. Panam. Salud Publica",
+    "pages": "e40",
+    "pubMedIdentifier": 32256547,
+    "volume": 44,
+    "year": 2020,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32256547",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9680873,
+    "displayName": "Coronavirus puts drug repurposing on the fast track",
+    "title": "Coronavirus puts drug repurposing on the fast track",
+    "journal": "Nat. Biotechnol.",
+    "pubMedIdentifier": 32205870,
+    "year": 2020,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/32205870",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 9851565,
+    "displayName": "Paxlovid (Nirmatrelvir/Ritonavir): A new approach to Covid-19 therapy?",
+    "title": "Paxlovid (Nirmatrelvir/Ritonavir): A new approach to Covid-19 therapy?",
+    "journal": "Biomed Pharmacother",
+    "pages": "114367",
+    "pubMedIdentifier": 37018987,
+    "volume": 162,
+    "year": 2023,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/37018987",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 9684399,
+    "displayName": "The search for drugs to prevent or reduce the severity of hu...",
+    "text": "The search for drugs to prevent or reduce the severity of human infection with SARS-CoV-1 or SARS-CoV-2 has centered on ones that are effective in treatment of human infections with other RNA viruses or in diminishing cytokine storms and other pathologies due to destructive host reactions. The interactions of a large number of these candidate drugs with their known viral and human protein targets are annotated, as are some drugs that inhibit Cytochrome P450 (CYP) oxidoreductases to prolong the plasma half-lives of antiviral drugs. In addition, effects of these drugs on unrelated essential human proteins, that might limit their use in vivo, are annotated.<p>A notable success of this search is a combination treatment, Paxlovid (NCT04960202), involving ritonavir, an inhibitor of CYP3A4 and CYP2B6 oxidoreductases, and nirmatrelvir, an inhibitor of SARS-CoV-2 3CLp protease, to block steps in maturation of viral replicase proteins (Hashemian et al. 2023).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-9679191.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2023-03-29",
+  "hasEvent": [
+   {
+    "dbId": 9683488,
+    "displayName": "ACE2 is glycosylated to glycosylated-ACE2",
+    "stId": "R-HSA-9683488",
+    "stIdVersion": "R-HSA-9683488.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ACE2 is glycosylated to glycosylated-ACE2"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9681616,
+    "displayName": "AP2 binds chlorpromazine",
+    "stId": "R-HSA-9681616",
+    "stIdVersion": "R-HSA-9681616.2",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "AP2 binds chlorpromazine"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9684068,
+    "displayName": "ATP1A:ATP1B:FXYD binds cardiac glycosides",
+    "stId": "R-HSA-9684068",
+    "stIdVersion": "R-HSA-9684068.3",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ATP1A:ATP1B:FXYD binds cardiac glycosides"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9680408,
+    "displayName": "BRD4 binds fedratinib",
+    "stId": "R-HSA-9680408",
+    "stIdVersion": "R-HSA-9680408.2",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "BRD4 binds fedratinib"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9691421,
+    "displayName": "BTK binds BTK inhibitors",
+    "stId": "R-HSA-9691421",
+    "stIdVersion": "R-HSA-9691421.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "BTK binds BTK inhibitors"
+    ],
+    "releaseDate": "2022-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9681169,
+    "displayName": "CRBN binds IMiDs",
+    "stId": "R-HSA-9681169",
+    "stIdVersion": "R-HSA-9681169.2",
+    "definition": "Binding",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CRBN binds IMiDs"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9679775,
+    "displayName": "COMT binds COMT Inhibitors",
+    "stId": "R-HSA-9679775",
+    "stIdVersion": "R-HSA-9679775.2",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "COMT binds COMT Inhibitors"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9684627,
+    "displayName": "CYSLTR1 binds CYSLTR1 antagonists",
+    "stId": "R-HSA-9684627",
+    "stIdVersion": "R-HSA-9684627.2",
+    "definition": "Antagonist",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CYSLTR1 binds CYSLTR1 antagonists"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9679044,
+    "displayName": "FKBP1A binds sirolimus",
+    "stId": "R-HSA-9679044",
+    "stIdVersion": "R-HSA-9679044.3",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "FKBP1A binds sirolimus"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9690461,
+    "displayName": "FKBP1A binds tacrolimus",
+    "stId": "R-HSA-9690461",
+    "stIdVersion": "R-HSA-9690461.2",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "FKBP1A binds tacrolimus"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9647987,
+    "displayName": "FNTB inhibitors bind FNTA:FNTB",
+    "stId": "R-HSA-9647987",
+    "stIdVersion": "R-HSA-9647987.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "FNTB inhibitors bind FNTA:FNTB"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9683546,
+    "displayName": "FURIN binds furin inhibitors",
+    "stId": "R-HSA-9683546",
+    "stIdVersion": "R-HSA-9683546.2",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "FURIN binds furin inhibitors"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9679787,
+    "displayName": "HDAC1:2-containing complex binds HDAC2 Inhibitors",
+    "stId": "R-HSA-9679787",
+    "stIdVersion": "R-HSA-9679787.4",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HDAC1:2-containing complex binds HDAC2 Inhibitors"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9678749,
+    "displayName": "IMPDH tetramers bind IMPDH inhibitors",
+    "stId": "R-HSA-9678749",
+    "stIdVersion": "R-HSA-9678749.3",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IMPDH tetramers bind IMPDH inhibitors"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9681763,
+    "displayName": "IL1R1 binds IL1R1 inhibitors",
+    "stId": "R-HSA-9681763",
+    "stIdVersion": "R-HSA-9681763.3",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IL1R1 binds IL1R1 inhibitors"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9681294,
+    "displayName": "IL6R binds IL6R inhibitors",
+    "stId": "R-HSA-9681294",
+    "stIdVersion": "R-HSA-9681294.3",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IL6R binds IL6R inhibitors"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9679740,
+    "displayName": "ITGA4:ITGB1 binds natalizumab",
+    "stId": "R-HSA-9679740",
+    "stIdVersion": "R-HSA-9679740.2",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ITGA4:ITGB1 binds natalizumab"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9696179,
+    "displayName": "IFNAR2:JAK1:STAT2 binds type 1 interferon analogs",
+    "stId": "R-HSA-9696179",
+    "stIdVersion": "R-HSA-9696179.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IFNAR2:JAK1:STAT2 binds type 1 interferon analogs"
+    ],
+    "releaseDate": "2022-06-09",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9678935,
+    "displayName": "IFNAR2:JAK1:STAT2 binds JAK1,2 inhibitors",
+    "stId": "R-HSA-9678935",
+    "stIdVersion": "R-HSA-9678935.4",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IFNAR2:JAK1:STAT2 binds JAK1,2 inhibitors"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9678561,
+    "displayName": "IFNGR1:JAK1:INFGR2:JAK2 binds JAK1,2 inhibitors",
+    "stId": "R-HSA-9678561",
+    "stIdVersion": "R-HSA-9678561.3",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IFNGR1:JAK1:INFGR2:JAK2 binds JAK1,2 inhibitors"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9679028,
+    "displayName": "JAK3 binds JAK3 inhibitors",
+    "stId": "R-HSA-9679028",
+    "stIdVersion": "R-HSA-9679028.2",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "JAK3 binds JAK3 inhibitors"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9712274,
+    "displayName": "NFE2L2 inducers bind to KEAP1:CUL3:RBX1:NFE2L2",
+    "stId": "R-HSA-9712274",
+    "stIdVersion": "R-HSA-9712274.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NFE2L2 inducers bind to KEAP1:CUL3:RBX1:NFE2L2"
+    ],
+    "releaseDate": "2021-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9678925,
+    "displayName": "NR3C1 binds NR3C1 agonists",
+    "stId": "R-HSA-9678925",
+    "stIdVersion": "R-HSA-9678925.4",
+    "definition": "Agonist",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NR3C1 binds NR3C1 agonists"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9680836,
+    "displayName": "NS5B binds ribavirin",
+    "stId": "R-HSA-9680836",
+    "stIdVersion": "R-HSA-9680836.4",
+    "definition": "Inhibition",
+    "isInDisease": true,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NS5B binds ribavirin"
+    ],
+    "releaseDate": "2020-06-10",
+    "releaseStatus": "UPDATED",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 9679421,
+    "displayName": "PDCD1 binds PDCD1 inhibitors",
+    "stId": "R-HSA-9679421",
+    "stIdVersion": "R-HSA-9679421.3",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PDCD1 binds PDCD1 inhibitors"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9679839,
+    "displayName": "RIPK1 binds ponatinib",
+    "stId": "R-HSA-9679839",
+    "stIdVersion": "R-HSA-9679839.3",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RIPK1 binds ponatinib"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9680443,
+    "displayName": "ROCK1,2 bind ROCKi",
+    "stId": "R-HSA-9680443",
+    "stIdVersion": "R-HSA-9680443.2",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ROCK1,2 bind ROCKi"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9678854,
+    "displayName": "S1PR1 binds S1PR1 agonists",
+    "stId": "R-HSA-9678854",
+    "stIdVersion": "R-HSA-9678854.3",
+    "definition": "Agonist",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "S1PR1 binds S1PR1 agonists"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9679816,
+    "displayName": "SIGMAR1 binds dextromethorphan",
+    "stId": "R-HSA-9679816",
+    "stIdVersion": "R-HSA-9679816.2",
+    "definition": "Agonist",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SIGMAR1 binds dextromethorphan"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9679780,
+    "displayName": "SIGMAR1 binds fluvoxamine",
+    "stId": "R-HSA-9679780",
+    "stIdVersion": "R-HSA-9679780.3",
+    "definition": "Antagonist",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SIGMAR1 binds fluvoxamine"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9679819,
+    "displayName": "TBK1 binds amlexanox",
+    "stId": "R-HSA-9679819",
+    "stIdVersion": "R-HSA-9679819.4",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TBK1 binds amlexanox"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9679029,
+    "displayName": "C-ter TLR7 dimer binds HCQ",
+    "stId": "R-HSA-9679029",
+    "stIdVersion": "R-HSA-9679029.3",
+    "definition": "Antagonist",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "C-ter TLR7 dimer binds HCQ"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9679045,
+    "displayName": "C-ter TLR9 dimer binds HCQ",
+    "stId": "R-HSA-9679045",
+    "stIdVersion": "R-HSA-9679045.3",
+    "definition": "Antagonist",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "C-ter TLR9 dimer binds HCQ"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9685830,
+    "displayName": "TUBB binds colchicine",
+    "stId": "R-HSA-9685830",
+    "stIdVersion": "R-HSA-9685830.2",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TUBB binds colchicine"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9678737,
+    "displayName": "IFNAR1:TYK2 binds TYK2 inhibitors",
+    "stId": "R-HSA-9678737",
+    "stIdVersion": "R-HSA-9678737.3",
+    "definition": "Inhibition",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "IFNAR1:TYK2 binds TYK2 inhibitors"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9679477,
+    "displayName": "VEGFA-165 dimer binds VEGFA inhibitors",
+    "stId": "R-HSA-9679477",
+    "stIdVersion": "R-HSA-9679477.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "VEGFA-165 dimer binds VEGFA inhibitors"
+    ],
+    "releaseDate": "2020-06-10",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     9679191
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

@@ -1,0 +1,193 @@
+{
+ "source": "uniprot",
+ "query": "LCT",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:LCT) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:52:19+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P09848",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305",
+         "source": "PubMed",
+         "id": "16400612"
+        }
+       ],
+       "value": "Lactase/phlorizin hydrolase"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "9762914"
+         }
+        ],
+        "value": "Lactase/glycosylceramidase"
+       }
+      }
+     ],
+     "includes": [
+      {
+       "recommendedName": {
+        "fullName": {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000305",
+           "source": "PubMed",
+           "id": "9762914"
+          }
+         ],
+         "value": "Lactase"
+        },
+        "ecNumbers": [
+         {
+          "evidences": [
+           {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "12594539"
+           },
+           {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "16400612"
+           },
+           {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "3929764"
+           },
+           {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "9762914"
+           }
+          ],
+          "value": "3.2.1.108"
+         }
+        ]
+       }
+      },
+      {
+       "recommendedName": {
+        "fullName": {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000250",
+           "source": "UniProtKB",
+           "id": "Q02401"
+          }
+         ],
+         "value": "Glycosylceramidase"
+        },
+        "ecNumbers": [
+         {
+          "evidences": [
+           {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "Q02401"
+           }
+          ],
+          "value": "3.2.1.62"
+         }
+        ]
+       },
+       "alternativeNames": [
+        {
+         "fullName": {
+          "evidences": [
+           {
+            "evidenceCode": "ECO:0000305",
+            "source": "PubMed",
+            "id": "9762914"
+           }
+          ],
+          "value": "Phlorizin hydrolase"
+         }
+        }
+       ]
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:6530"
+        }
+       ],
+       "value": "LCT"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12594539"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16400612"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "3929764"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9762914"
+         }
+        ],
+        "value": "Broad specificity glycosidase of the intestinal brush border membrane that hydrolyzes lactose, the main sugar in mammalian milk, to produce D-glucose and D-galactose (PubMed:12594539, PubMed:16400612, PubMed:3929764, PubMed:9762914). The mature protein is composed of two domains that catalyze the hydrolysis of beta-glucopyranosides and beta-galactopyranosides, with a preference for hydrophilic aglycones (in lactose and cellobiose) for one domain and hydrophobic aglycones (in phlorizin and glycosylceramides) for the other (PubMed:12594539, PubMed:3929764, PubMed:9762914)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "3938",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000013D4D2"
+    }
+   }
+  ]
+ }
+}

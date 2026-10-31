@@ -1,0 +1,4535 @@
+{
+ "source": "quickgo_terms",
+ "query": "P08253_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0001525,GO:0001541,GO:0001542,GO:0001553,GO:0001666,GO:0001968,GO:0004175,GO:0004222,GO:0004252,GO:0005515,GO:0005576,GO:0005634,GO:0005737,GO:0005739,GO:0005886,GO:0006508,GO:0006979,GO:0007162,GO:0007507,GO:0007565,GO:0007567,GO:0008233,GO:0008237,GO:0008270,GO:0009410,GO:0009612,GO:0014012,GO:0014823,GO:0016020,GO:0016477,GO:0022617,GO:0030017,GO:0030163,GO:0030198,GO:0030335,GO:0030574,GO:0031012,GO:0032526,GO:0034097,GO:0035094,GO:0035987,GO:0042542,GO:0043065,GO:0043627,GO:0045906,GO:0048013,GO:0048246,GO:0048771,GO:0051602,GO:0055093",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:53:24+00:00",
+ "response": {
+  "numberOfHits": 50,
+  "results": [
+   {
+    "id": "GO:0014012",
+    "isObsolete": false,
+    "name": "peripheral nervous system axon regeneration",
+    "definition": {
+     "text": "The regrowth of axons outside the central nervous system (outside the brain and spinal cord) following an axonal injury."
+    },
+    "synonyms": [
+     {
+      "name": "axon regeneration in peripheral nervous system",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043627",
+    "isObsolete": false,
+    "name": "response to estrogen",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of stimulus by an estrogen, C18 steroid hormones that can stimulate the development of female sexual characteristics.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "response to 17alpha-ethynylestradiol",
+      "type": "related"
+     },
+     {
+      "name": "response to estrogen stimulus",
+      "type": "exact"
+     },
+     {
+      "name": "response to oestrogen stimulus",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0071391",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0016020",
+    "isObsolete": false,
+    "name": "membrane",
+    "definition": {
+     "text": "A lipid bilayer along with all the proteins and protein complexes embedded in it and attached to it.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "integral component of membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral to membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "membrane region",
+      "type": "narrow"
+     },
+     {
+      "name": "region of membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "transmembrane",
+      "type": "related"
+     },
+     {
+      "name": "whole membrane",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0140549",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019867",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042175",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031090",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005628",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770114",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032594",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019898",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098590",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062137",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097478",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098796",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098552",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070056",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098857",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005905",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048475",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034357",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005642",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005886",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036362",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042542",
+    "isObsolete": false,
+    "name": "response to hydrogen peroxide",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a hydrogen peroxide (H2O2) stimulus."
+    },
+    "children": [
+     {
+      "id": "GO:0061691",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140442",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070301",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005576",
+    "isObsolete": false,
+    "name": "extracellular region",
+    "definition": {
+     "text": "The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite."
+    },
+    "comment": "Note that this term is intended to annotate gene products that are not attached to the cell surface. For gene products at the cell surface, consider annotating to external side of plasma membrane ; GO:0009897.",
+    "synonyms": [
+     {
+      "name": "extracellular",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030312",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043264",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043230",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072562",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035182",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035183",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043245",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0065010",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043083",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006860",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098595",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903561",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140392",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006858",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070701",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036117",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048046",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900116",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099544",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0085036",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900115",
+      "relation": "occurs_in"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030574",
+    "isObsolete": false,
+    "name": "collagen catabolic process",
+    "definition": {
+     "text": "The proteolytic chemical reactions and pathways resulting in the breakdown of collagen in the extracellular matrix, usually carried out by proteases secreted by nearby cells.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "collagen breakdown",
+      "type": "exact"
+     },
+     {
+      "name": "collagen catabolism",
+      "type": "exact"
+     },
+     {
+      "name": "collagen degradation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0010711",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0120158",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0010710",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005634",
+    "isObsolete": false,
+    "name": "nucleus",
+    "definition": {
+     "text": "A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell's chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent."
+    },
+    "synonyms": [
+     {
+      "name": "cell nucleus",
+      "type": "exact"
+     },
+     {
+      "name": "horsetail nucleus",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0000152",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000176",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043224",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140513",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048556",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048555",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071027",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0031039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031965",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033260",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0071028",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005880",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005635",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000228",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031040",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019908",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048353",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045120",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097571",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097572",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905754",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046818",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043073",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000794",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034753",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031981",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043076",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005640",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0051457",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000943",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140510",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043599",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043596",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042405",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0110093",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0110092",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030163",
+    "isObsolete": false,
+    "name": "protein catabolic process",
+    "definition": {
+     "text": "The chemical reactions and pathways resulting in the breakdown of a protein by the destruction of the native, active configuration, with or without the hydrolysis of peptide bonds."
+    },
+    "comment": "This term refers to the breakdown of mature proteins. For cleavage events involved in generating a mature protein from a precursor, consider instead the term 'protein maturation ; GO:0051604' and its children.",
+    "synonyms": [
+     {
+      "name": "cellular protein breakdown",
+      "type": "exact"
+     },
+     {
+      "name": "cellular protein catabolic process",
+      "type": "exact"
+     },
+     {
+      "name": "cellular protein catabolism",
+      "type": "exact"
+     },
+     {
+      "name": "cellular protein degradation",
+      "type": "exact"
+     },
+     {
+      "name": "multicellular organismal protein catabolic process",
+      "type": "narrow"
+     },
+     {
+      "name": "pheromone catabolic process",
+      "type": "related"
+     },
+     {
+      "name": "pheromone catabolism",
+      "type": "related"
+     },
+     {
+      "name": "protein breakdown",
+      "type": "exact"
+     },
+     {
+      "name": "protein catabolism",
+      "type": "exact"
+     },
+     {
+      "name": "protein degradation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0000502",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0007039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035694",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045732",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0141164",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140246",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042159",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061684",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007174",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042540",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0170079",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036205",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046155",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010304",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051190",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019941",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042176",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0006516",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042177",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0030164",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010498",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901143",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002077",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030198",
+    "isObsolete": false,
+    "name": "extracellular matrix organization",
+    "definition": {
+     "text": "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of an extracellular matrix."
+    },
+    "synonyms": [
+     {
+      "name": "extracellular matrix organisation",
+      "type": "exact"
+     },
+     {
+      "name": "extracellular matrix organization and biogenesis",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0120216",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0071711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070278",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903054",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0085029",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022617",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032836",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903055",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0061148",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010215",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030199",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901148",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098784",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903053",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005737",
+    "isObsolete": false,
+    "name": "cytoplasm",
+    "definition": {
+     "text": "The contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198547684"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0019813",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009345",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120099",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036007",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0062073",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043600",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042579",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048471",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071142",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005881",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990728",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990917",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005968",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005964",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060293",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005783",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000164",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042587",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030096",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031209",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098545",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0006888",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0110158",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097433",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019197",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005851",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034715",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009525",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031250",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035550",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045239",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0017109",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032019",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043598",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071075",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060417",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016528",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005794",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032477",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009321",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009382",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990316",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036501",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990565",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034719",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034749",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032047",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005948",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034430",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031680",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034499",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0036464",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009333",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0010938",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:7770092",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005938",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090652",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016281",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070088",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005850",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990229",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044227",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045251",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042735",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005854",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120111",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048500",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009320",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000177",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070826",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042716",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071513",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044312",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090120",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0048492",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070992",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005883",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000308",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034748",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009328",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032921",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005793",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098593",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990658",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009332",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045169",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120293",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097014",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030700",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042566",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030094",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990036",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0043614",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090651",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000809",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044207",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043291",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005853",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1905720",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009504",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061908",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009317",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036457",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044222",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009336",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009359",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005951",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045022",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0071203",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071026",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005773",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000407",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019812",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120098",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009574",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000153",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034515",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005739",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070993",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031201",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032068",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005969",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005946",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034996",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071563",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990730",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005965",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031414",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009536",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034973",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030117",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045170",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031410",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0055087",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071212",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099568",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005829",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990783",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034081",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034270",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0020022",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009331",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0106232",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034709",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070441",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043292",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005852",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070695",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009524",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0045253",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070422",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031251",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034274",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034750",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0017102",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002096",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0018444",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005950",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009339",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005739",
+    "isObsolete": false,
+    "name": "mitochondrion",
+    "definition": {
+     "text": "A semiautonomous, self replicating organelle that occurs in varying numbers, shapes, and sizes in the cytoplasm of virtually all eukaryotic cells. It is notably the site of tissue respiration.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "comment": "Some anaerobic or microaerophilic organisms (e.g. Entamoeba histolytica, Giardia intestinalis and several Microsporidia species) do not have mitochondria, and contain mitochondrion-related organelles (MROs) instead, called mitosomes or hydrogenosomes, very likely derived from mitochondria. To annotate gene products located in these mitochondrial relics in species such as Entamoeba histolytica, Giardia intestinalis or others, please use GO:0032047 'mitosome' or GO:0042566 'hydrogenosome'. (See PMID:24316280 for a list of species currently known to contain mitochondrion-related organelles.)",
+    "synonyms": [
+     {
+      "name": "mitochondria",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0080156",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0006390",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0017133",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0051560",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000959",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019093",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000957",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0006264",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070899",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000262",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033615",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0033617",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0035694",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0031019",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070124",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0032043",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0034246",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070126",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0032981",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0009841",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090139",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070903",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0090615",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000964",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070901",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042776",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0034551",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0034553",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0002187",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031966",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043294",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0019910",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034982",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0090646",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1900864",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005740",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006393",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0043504",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000958",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005759",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1905951",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0072656",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0030678",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097745",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0016507",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070125",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0032543",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0032042",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0034245",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044290",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0090616",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070902",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0033108",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0005741",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:7770126",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000963",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0140053",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0000965",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0020023",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042645",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070900",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042775",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0051882",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:1990180",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0098798",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:2000827",
+      "relation": "occurs_in"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005886",
+    "isObsolete": false,
+    "name": "plasma membrane",
+    "definition": {
+     "text": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0716731363"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "bacterial inner membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "cell membrane",
+      "type": "exact"
+     },
+     {
+      "name": "cellular membrane",
+      "type": "exact"
+     },
+     {
+      "name": "cytoplasmic membrane",
+      "type": "exact"
+     },
+     {
+      "name": "inner endospore membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral component of plasma membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral to plasma membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "juxtamembrane",
+      "type": "broad"
+     },
+     {
+      "name": "plasmalemma",
+      "type": "exact"
+     },
+     {
+      "name": "plasma membrane lipid bilayer",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0097524",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033616",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0044862",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019897",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098953",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0044298",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042383",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046868",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032584",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009510",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000222",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097197",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001891",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001772",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098590",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030936",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009897",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009898",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032178",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030094",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031979",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099632",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042774",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0043113",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0033012",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031910",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016328",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031911",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990014",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009548",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070014",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098797",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031257",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031256",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098802",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033181",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044853",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001533",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033101",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009546",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005515",
+    "isObsolete": false,
+    "name": "protein binding",
+    "definition": {
+     "text": "Binding to a protein."
+    },
+    "synonyms": [
+     {
+      "name": "glycoprotein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "protein amino acid binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031072",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140081",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032092",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010313",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043393",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0031720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990405",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051087",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001965",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005516",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990935",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001848",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032091",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046980",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043394",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001846",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051959",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019955",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030017",
+    "isObsolete": false,
+    "name": "sarcomere",
+    "definition": {
+     "text": "The repeating unit of a myofibril in a muscle cell, composed of an array of overlapping thick and thin filaments between two adjacent Z discs.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0005863",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005865",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031672",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031674",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0043065",
+    "isObsolete": false,
+    "name": "positive regulation of apoptotic process",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of cell death by apoptotic process."
+    },
+    "comment": "This term should only be used when it is not possible to determine which phase or subtype of the apoptotic process is positively regulated by a gene product. Whenever detailed information is available, the more granular children terms should be used.",
+    "synonyms": [
+     {
+      "name": "activation of apoptosis",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of apoptosis",
+      "type": "narrow"
+     },
+     {
+      "name": "pro-apoptosis",
+      "type": "related"
+     },
+     {
+      "name": "stimulation of apoptosis",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of apoptosis",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of apoptosis",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of apoptosis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0120132",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900119",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010661",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001235",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001055",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034352",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033034",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000353",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904037",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044337",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:2000271",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904747",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901694",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000210",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990724",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:1990722",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:1904651",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043525",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030335",
+    "isObsolete": false,
+    "name": "positive regulation of cell migration",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of cell migration."
+    },
+    "synonyms": [
+     {
+      "name": "activation of cell migration",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of cell migration",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of cell migration",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of cell migration",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of cell migration",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0010595",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110124",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904849",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903691",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905322",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905312",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010634",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014911",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001224",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903356",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901165",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002687",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000473",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904237",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905212",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038089",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061854",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904859",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000591",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010763",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0004222",
+    "isObsolete": false,
+    "name": "metalloendopeptidase activity",
+    "definition": {
+     "text": "Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a mechanism in which water acts as a nucleophile, one or two metal ions hold the water molecule in place, and charged amino acid side chains are ligands for the metal ions.",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "https://www.ebi.ac.uk/merops/about/glossary.shtml#CATTYPE"
+      },
+      {
+       "dbCode": "URL",
+       "dbId": "https://www.ebi.ac.uk/merops/about/glossary.shtml#ENDOPEPTIDASE"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "metalloendoprotease activity",
+      "type": "narrow"
+     },
+     {
+      "name": "metalloendoproteinase activity",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1904685",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1902945",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017087",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0008191",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0004252",
+    "isObsolete": false,
+    "name": "serine-type endopeptidase activity",
+    "definition": {
+     "text": "Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "https://www.ebi.ac.uk/merops/about/glossary.shtml#CATTYPE"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "blood coagulation factor activity",
+      "type": "related"
+     },
+     {
+      "name": "serine elastase activity",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1900004",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0004867",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1905370",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1900003",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1900005",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006508",
+    "isObsolete": false,
+    "name": "proteolysis",
+    "definition": {
+     "text": "The hydrolysis of proteins into smaller polypeptides and/or amino acids by cleavage of their peptide bonds."
+    },
+    "comment": "This term was intentionally placed under 'protein metabolic process ; GO:0019538' rather than 'protein catabolic process ; GO:0030163' to cover all processes centered on breaking peptide bonds, including those involved in protein processing.",
+    "synonyms": [
+     {
+      "name": "ATP-dependent proteolysis",
+      "type": "narrow"
+     },
+     {
+      "name": "peptidolysis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0033619",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002496",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0110158",
+      "relation": "capable_of_part_of"
+     },
+     {
+      "id": "GO:0030162",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0016485",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045862",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0097264",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045861",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0016477",
+    "isObsolete": false,
+    "name": "cell migration",
+    "definition": {
+     "text": "The controlled self-propelled movement of a cell from one site to a destination guided by molecular cues.",
+     "xrefs": [
+      {
+       "dbCode": "Wikipedia",
+       "dbId": "Cell_migration"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0044319",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905070",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038089",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0006929",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090248",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0040039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048883",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001667",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030334",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0008354",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097628",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050900",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060973",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061334",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021535",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002194",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043542",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035441",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030336",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0007395",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097534",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902766",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0160131",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038090",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0060326",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021885",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905351",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008347",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014812",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097402",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035701",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030335",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0035476",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001764",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905319",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035099",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003428",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021855",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0048013",
+    "isObsolete": false,
+    "name": "ephrin receptor signaling pathway",
+    "definition": {
+     "text": "The series of molecular signals initiated by ephrin binding to its receptor, and ending with the regulation of a downstream cellular process, e.g. transcription."
+    },
+    "synonyms": [
+     {
+      "name": "Eph receptor signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "Eph receptor signalling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1901187",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1901188",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1901189",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0005003",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0051602",
+    "isObsolete": false,
+    "name": "response to electrical stimulus",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an electrical stimulus."
+    },
+    "synonyms": [
+     {
+      "name": "response to electricity",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0071257",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014878",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050981",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990781",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006979",
+    "isObsolete": false,
+    "name": "response to oxidative stress",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of oxidative stress, a state often resulting from exposure to high levels of reactive oxygen species, e.g. superoxide anions, hydrogen peroxide (H2O2), and hydroxyl radicals.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "12115731"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0000302",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033194",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902884",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0070994",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0080183",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902882",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1902883",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:2000815",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034599",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0004175",
+    "isObsolete": false,
+    "name": "endopeptidase activity",
+    "definition": {
+     "text": "Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain.",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "http://merops.sanger.ac.uk/about/glossary.htm#ENDOPEPTIDASE"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "elastase activity",
+      "type": "related"
+     },
+     {
+      "name": "endoprotease activity",
+      "type": "narrow"
+     },
+     {
+      "name": "proteasome endopeptidase activity",
+      "type": "narrow"
+     },
+     {
+      "name": "proteinase",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070012",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004866",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0009003",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010951",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0004197",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061135",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1905369",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0004190",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070007",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010950",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0004222",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061133",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0004298",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061785",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004252",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0052548",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0035987",
+    "isObsolete": false,
+    "name": "endodermal cell differentiation",
+    "definition": {
+     "text": "The process in which a relatively unspecialized cell acquires the specialized features of an endoderm cell, a cell of the inner of the three germ layers of the embryo.",
+     "xrefs": [
+      {
+       "dbCode": "CL",
+       "dbId": "0000223"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "17624332"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "endoderm cell differentiation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1903224",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0001711",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903225",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1903226",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045906",
+    "isObsolete": false,
+    "name": "negative regulation of vasoconstriction",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of vasoconstriction."
+    },
+    "synonyms": [
+     {
+      "name": "down regulation of vasoconstriction",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of vasoconstriction",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of vasoconstriction",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of vasoconstriction",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1904694",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001666",
+    "isObsolete": false,
+    "name": "response to hypoxia",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating lowered oxygen tension. Hypoxia, defined as a decline in O2 levels below normoxic levels of 20.8 - 20.95%, results in metabolic adaptation at both the cellular and organismal level."
+    },
+    "comment": "Note that this term should not be confused with 'response to anoxia ; GO:0034059'. Note that in laboratory studies, hypoxia is typically studied at O2 concentrations ranging from 0.1 - 5%.",
+    "synonyms": [
+     {
+      "name": "response to hypoxic stress",
+      "type": "exact"
+     },
+     {
+      "name": "response to intermittent hypoxia",
+      "type": "narrow"
+     },
+     {
+      "name": "response to lowered oxygen tension",
+      "type": "exact"
+     },
+     {
+      "name": "response to sustained hypoxia",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070483",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071456",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990910",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008233",
+    "isObsolete": false,
+    "name": "peptidase activity",
+    "definition": {
+     "text": "Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid.",
+     "xrefs": [
+      {
+       "dbCode": "EC",
+       "dbId": "3.4.-.-"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "hydrolase, acting on peptide bonds",
+      "type": "exact"
+     },
+     {
+      "name": "peptidase activity, acting on D-amino acid peptides",
+      "type": "narrow"
+     },
+     {
+      "name": "peptidase activity, acting on L-amino acid peptides",
+      "type": "narrow"
+     },
+     {
+      "name": "peptide hydrolase activity",
+      "type": "exact"
+     },
+     {
+      "name": "protease activity",
+      "type": "exact"
+     },
+     {
+      "name": "proteinase activity",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0010952",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0008242",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016504",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0008238",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008234",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004175",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008237",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019783",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004176",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061134",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0030414",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0052547",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1905368",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0010466",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0070001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070003",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070002",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008237",
+    "isObsolete": false,
+    "name": "metallopeptidase activity",
+    "definition": {
+     "text": "Catalysis of the hydrolysis of peptide bonds by a mechanism in which water acts as a nucleophile, one or two metal ions hold the water molecule in place, and charged amino acid side chains are ligands for the metal ions.",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "https://www.ebi.ac.uk/merops/about/glossary.shtml#CATTYPE"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "metalloprotease activity",
+      "type": "narrow"
+     },
+     {
+      "name": "metalloproteinase activity",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0008235",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990850",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:1905048",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0004222",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140758",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905049",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0140492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905050",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008270",
+    "isObsolete": false,
+    "name": "zinc ion binding",
+    "definition": {
+     "text": "Binding to a zinc ion (Zn)."
+    },
+    "synonyms": [
+     {
+      "name": "zinc binding",
+      "type": "exact"
+     },
+     {
+      "name": "Zn binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1990512",
+      "relation": "capable_of"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001542",
+    "isObsolete": false,
+    "name": "ovulation from ovarian follicle",
+    "definition": {
+     "text": "The process leading to the rupture of the follicle, releasing the centrally located oocyte into the oviduct. An example of this is found in Mus musculus.",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "https://www.ncbi.nlm.nih.gov/books/NBK279054/"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0001543",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001553",
+    "isObsolete": false,
+    "name": "luteinization",
+    "definition": {
+     "text": "The set of processes resulting in differentiation of theca and granulosa cells into luteal cells and in the formation of a corpus luteum after ovulation.",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "https://www.ncbi.nlm.nih.gov/books/NBK279054/"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "luteal phase",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0042701",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042702",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001525",
+    "isObsolete": false,
+    "name": "angiogenesis",
+    "definition": {
+     "text": "Blood vessel formation when new vessels emerge from the proliferation of pre-existing blood vessels.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0878932453"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "blood vessel formation from pre-existing blood vessels",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0002041",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001569",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002040",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060055",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045766",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0045765",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0060978",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072104",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016525",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001541",
+    "isObsolete": false,
+    "name": "ovarian follicle development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the ovarian follicle over time, from its formation to the mature structure.",
+     "xrefs": [
+      {
+       "dbCode": "URL",
+       "dbId": "https://www.ncbi.nlm.nih.gov/books/NBK279054/"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "follicular phase",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0001551",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001544",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001545",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042699",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001546",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035471",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001547",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:2000354",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:2000355",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:2000386",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0035094",
+    "isObsolete": false,
+    "name": "response to nicotine",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a nicotine stimulus.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      },
+      {
+       "dbCode": "ISBN",
+       "dbId": "0582227089"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0035095",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071316",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001968",
+    "isObsolete": false,
+    "name": "fibronectin binding",
+    "definition": {
+     "text": "Binding to a fibronectin, a group of related adhesive glycoproteins of high molecular weight found on the surface of animal cells, connective tissue matrices, and in extracellular fluids."
+    },
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0034097",
+    "isObsolete": false,
+    "name": "response to cytokine",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a cytokine stimulus."
+    },
+    "synonyms": [
+     {
+      "name": "response to cytokine stimulus",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0071104",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071105",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070741",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098760",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060761",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0070555",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035962",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034612",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060760",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:7770102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060759",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0070672",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098756",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070673",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070670",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036017",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070671",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036015",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097012",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098758",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071345",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990823",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034340",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035455",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034341",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035456",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034342",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070669",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097396",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097395",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990868",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990638",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036005",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036215",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0055093",
+    "isObsolete": false,
+    "name": "response to hyperoxia",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating increased oxygen tension."
+    },
+    "synonyms": [
+     {
+      "name": "response to hyperoxic stress",
+      "type": "exact"
+     },
+     {
+      "name": "response to increased oxygen tension",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0071455",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0031012",
+    "isObsolete": false,
+    "name": "extracellular matrix",
+    "definition": {
+     "text": "A structure lying external to one or more cells, which provides structural support, biochemical or biomechanical cues for cells or tissues.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "21123617"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "28089324"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "33605520"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "matrisome",
+      "type": "narrow"
+     },
+     {
+      "name": "proteinaceous extracellular matrix",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0005604",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005614",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140047",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098642",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005201",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0140086",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0048246",
+    "isObsolete": false,
+    "name": "macrophage chemotaxis",
+    "definition": {
+     "text": "The movement of a macrophage in response to an external stimulus."
+    },
+    "children": [
+     {
+      "id": "GO:0010758",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0010760",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0010759",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0014823",
+    "isObsolete": false,
+    "name": "response to activity",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an activity stimulus."
+    },
+    "synonyms": [
+     {
+      "name": "response to exercise",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0014865",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014850",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0048771",
+    "isObsolete": false,
+    "name": "tissue remodeling",
+    "definition": {
+     "text": "The reorganization or renovation of existing tissues. This process can either change the characteristics of a tissue such as in blood vessel remodeling, or result in the dynamic equilibrium of a tissue such as in bone remodeling."
+    },
+    "synonyms": [
+     {
+      "name": "tissue remodelling",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0001974",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034105",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0061843",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046849",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034103",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0034104",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0060056",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097709",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0022617",
+    "isObsolete": false,
+    "name": "extracellular matrix disassembly",
+    "definition": {
+     "text": "A process that results in the breakdown of the extracellular matrix."
+    },
+    "children": [
+     {
+      "id": "GO:0034769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010716",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0010715",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0098786",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090091",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007162",
+    "isObsolete": false,
+    "name": "negative regulation of cell adhesion",
+    "definition": {
+     "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of cell adhesion."
+    },
+    "synonyms": [
+     {
+      "name": "cell adhesion receptor inhibitor activity",
+      "type": "related"
+     },
+     {
+      "name": "down regulation of cell adhesion",
+      "type": "exact"
+     },
+     {
+      "name": "down-regulation of cell adhesion",
+      "type": "exact"
+     },
+     {
+      "name": "downregulation of cell adhesion",
+      "type": "exact"
+     },
+     {
+      "name": "inhibition of cell adhesion",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0010812",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006933",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033629",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021804",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022408",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106089",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0009410",
+    "isObsolete": false,
+    "name": "response to xenobiotic stimulus",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus from a xenobiotic, a compound foreign to the organism exposed to it. It may be synthesized by another organism (like ampicilin) or it can be a synthetic chemical."
+    },
+    "synonyms": [
+     {
+      "name": "drug resistance",
+      "type": "related"
+     },
+     {
+      "name": "drug susceptibility/resistance",
+      "type": "related"
+     },
+     {
+      "name": "response to drug",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:2001023",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0071466",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001025",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:2001024",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0009612",
+    "isObsolete": false,
+    "name": "response to mechanical stimulus",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a mechanical stimulus."
+    },
+    "synonyms": [
+     {
+      "name": "chemi-mechanical coupling",
+      "type": "related"
+     },
+     {
+      "name": "mechanical stimulus response",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0009652",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050982",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035994",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010996",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007638",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071260",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990478",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007507",
+    "isObsolete": false,
+    "name": "heart development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the heart over time, from its formation to the mature structure. The heart is a hollow, muscular organ, which, by contracting rhythmically, keeps up the circulation of the blood.",
+     "xrefs": [
+      {
+       "dbCode": "UBERON",
+       "dbId": "0000948"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "cardiac development",
+      "type": "related"
+     },
+     {
+      "name": "dorsal vessel development",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0061308",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0003205",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007508",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061307",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036302",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0003204",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061371",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060973",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060419",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1905072",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061311",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061314",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048738",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0003197",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0003170",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061316",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060976",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060039",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0003007",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007512",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035054",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035050",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0003306",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035051",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140969",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0003157",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061341",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0032526",
+    "isObsolete": false,
+    "name": "response to retinoic acid",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a retinoic acid stimulus."
+    },
+    "synonyms": [
+     {
+      "name": "response to vitamin A acid",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0071300",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007565",
+    "isObsolete": false,
+    "name": "female pregnancy",
+    "definition": {
+     "text": "The set of physiological processes that allow an embryo or foetus to develop within the body of a female animal. It covers the time from fertilization of a female ovum by a male spermatozoon until birth.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0192800825"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "carrying of young",
+      "type": "related"
+     },
+     {
+      "name": "gestation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060135",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0007566",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060136",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007567",
+    "isObsolete": false,
+    "name": "parturition",
+    "definition": {
+     "text": "The reproductive process in which the parent is separated from its offspring either by giving birth to live young or by laying eggs.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "egg laying",
+      "type": "narrow"
+     },
+     {
+      "name": "giving birth",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0060137",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060138",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "source": "uniprot",
+ "query": "UNC5C",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:UNC5C) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T06:01:36+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "O95185",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Netrin receptor UNC5C"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Protein unc-5 homolog 3"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Protein unc-5 homolog C"
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "UNC5C"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "O08747"
+         },
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q761X5"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28483977"
+         }
+        ],
+        "value": "Receptor for netrin required for axon guidance (By similarity). Mediates axon repulsion of neuronal growth cones in the developing nervous system upon ligand binding (By similarity). NTN1/Netrin-1 binding might cause dissociation of UNC5C from polymerized TUBB3 in microtubules and thereby lead to increased microtubule dynamics and axon repulsion (PubMed:28483977). Might also collaborate with DSCAM in NTN1-mediated axon repulsion independently of DCC (By similarity). Also involved in corticospinal tract axon guidance independently of DCC (By similarity). Involved in dorsal root ganglion axon projection towards the spinal cord (PubMed:28483977). It also acts as a dependence receptor required for apoptosis induction when not associated with netrin ligand (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "8633",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000004E6A5"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "source": "ncbigene",
+ "query": "SEC22A",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "gene",
+  "term": "SEC22A[sym] AND 9606[taxid]",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:56:53+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "1",
+   "retmax": "1",
+   "retstart": "0",
+   "idlist": [
+    "26984"
+   ],
+   "translationset": [],
+   "translationstack": [
+    {
+     "term": "SEC22A[sym]",
+     "field": "sym",
+     "count": "892",
+     "explode": "N"
+    },
+    {
+     "term": "9606[taxid]",
+     "field": "taxid",
+     "count": "360596",
+     "explode": "N"
+    },
+    "AND"
+   ],
+   "querytranslation": "SEC22A[sym] AND 9606[taxid]"
+  }
+ }
+}

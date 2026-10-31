@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "INHBB",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "INHBB AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:51:32+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "5",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "27798284",
+    "18423626",
+    "35725534"
+   ],
+   "translationset": [
+    {
+     "from": "INHBB",
+     "to": "\"inhbb protein, human\"[Supplementary Concept] OR \"inhbb protein, human\"[All Fields] OR \"inhbb\"[All Fields]"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"inhbb protein human\"[Supplementary Concept] OR \"inhbb protein human\"[All Fields] OR \"inhbb\"[All Fields]) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

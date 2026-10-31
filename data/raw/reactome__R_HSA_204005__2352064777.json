@@ -1,0 +1,768 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-204005",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-204005",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:49:59+00:00",
+ "response": {
+  "dbId": 204005,
+  "displayName": "COPII-mediated vesicle transport",
+  "stId": "R-HSA-204005",
+  "stIdVersion": "R-HSA-204005.6",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "COPII-mediated vesicle transport"
+  ],
+  "releaseDate": "2010-12-14",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12849246,
+    "displayName": "BioModels Database:BIOMD0000000336",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000336",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000336",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12849156,
+    "displayName": "BioModels Database:BIOMD0000000335",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000335",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000335",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   },
+   {
+    "dbId": 12849158,
+    "displayName": "BioModels Database:BIOMD0000000951",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000951",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000951",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "figure": [
+   {
+    "dbId": 204043,
+    "displayName": "/figures/COPIIoverview.jpg",
+    "url": "/figures/COPIIoverview.jpg",
+    "className": "Figure",
+    "schemaClass": "Figure"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 78933,
+   "displayName": "COPII vesicle coat assembly",
+   "accession": "0048208",
+   "databaseName": "GO",
+   "definition": "\"The addition of COPII proteins and adaptor proteins to ER membranes during the formation of transport vesicles, forming a vesicle coat.\" [GOC:ascb_2009, GOC:dph, GOC:jid, GOC:mah, GOC:tb, ISBN:0716731363, PMID:10219233]",
+   "name": "COPII vesicle coat assembly",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0048208",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 203985,
+    "displayName": "Three ways to make a vesicle",
+    "title": "Three ways to make a vesicle",
+    "journal": "Nat Rev Mol Cell Biol",
+    "pages": "187-98",
+    "pubMedIdentifier": 11252894,
+    "volume": 1,
+    "year": 2000,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/11252894",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 211507,
+    "displayName": "Mechanisms of COPII vesicle formation and protein sorting",
+    "title": "Mechanisms of COPII vesicle formation and protein sorting",
+    "journal": "FEBS Lett",
+    "pages": "2076-82",
+    "pubMedIdentifier": 17316621,
+    "volume": 581,
+    "year": 2007,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17316621",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10118736,
+    "displayName": "COPII-mediated vesicle transport",
+    "stId": "R-MMU-204005",
+    "stIdVersion": "R-MMU-204005.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPII-mediated vesicle transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     204005
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10260064,
+    "displayName": "COPII-mediated vesicle transport",
+    "stId": "R-RNO-204005",
+    "stIdVersion": "R-RNO-204005.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPII-mediated vesicle transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     204005
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10367303,
+    "displayName": "COPII-mediated vesicle transport",
+    "stId": "R-CFA-204005",
+    "stIdVersion": "R-CFA-204005.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPII-mediated vesicle transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     204005
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10482171,
+    "displayName": "COPII-mediated vesicle transport",
+    "stId": "R-BTA-204005",
+    "stIdVersion": "R-BTA-204005.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPII-mediated vesicle transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     204005
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10595500,
+    "displayName": "COPII-mediated vesicle transport",
+    "stId": "R-SSC-204005",
+    "stIdVersion": "R-SSC-204005.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPII-mediated vesicle transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     204005
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10688014,
+    "displayName": "COPII-mediated vesicle transport",
+    "stId": "R-DRE-204005",
+    "stIdVersion": "R-DRE-204005.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPII-mediated vesicle transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     204005
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10770639,
+    "displayName": "COPII-mediated vesicle transport",
+    "stId": "R-XTR-204005",
+    "stIdVersion": "R-XTR-204005.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPII-mediated vesicle transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     204005
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10866995,
+    "displayName": "COPII-mediated vesicle transport",
+    "stId": "R-GGA-204005",
+    "stIdVersion": "R-GGA-204005.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPII-mediated vesicle transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     204005
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10952755,
+    "displayName": "COPII-mediated vesicle transport",
+    "stId": "R-DME-204005",
+    "stIdVersion": "R-DME-204005.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPII-mediated vesicle transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     204005
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11035882,
+    "displayName": "COPII-mediated vesicle transport",
+    "stId": "R-CEL-204005",
+    "stIdVersion": "R-CEL-204005.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPII-mediated vesicle transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     204005
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11091583,
+    "displayName": "COPII-mediated vesicle transport",
+    "stId": "R-DDI-204005",
+    "stIdVersion": "R-DDI-204005.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPII-mediated vesicle transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     204005
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11121103,
+    "displayName": "COPII-mediated vesicle transport",
+    "stId": "R-SPO-204005",
+    "stIdVersion": "R-SPO-204005.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPII-mediated vesicle transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     204005
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11149652,
+    "displayName": "COPII-mediated vesicle transport",
+    "stId": "R-SCE-204005",
+    "stIdVersion": "R-SCE-204005.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPII-mediated vesicle transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     204005
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11171086,
+    "displayName": "COPII-mediated vesicle transport",
+    "stId": "R-PFA-204005",
+    "stIdVersion": "R-PFA-204005.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "COPII-mediated vesicle transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     204005
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 204016,
+    "displayName": "COPII components (known as Sec13p, Sec23p, Sec24p, Sec31p, a...",
+    "text": "COPII components (known as Sec13p, Sec23p, Sec24p, Sec31p, and Sar1p in yeast) traffic cargo from the endoplasmic reticulum to the ER-Golgi intermediate compartment (ERGIC). COPII-coated vesicles were originally discovered in the yeast Saccharomyces cerevisiae using genetic approaches coupled with a cell-free assay. The mammalian counterpart of this pathway is represented here. Newly synthesized proteins destined for secretion are sorted into COPII-coated vesicles at specialized regions of the ER. These vesicles leave the ER, become uncoated and subsequently fuse with the ERGIC membrane.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2019-03-25",
+  "hasEvent": [
+   {
+    "dbId": 203977,
+    "displayName": "SAR1 Activation And Membrane Binding",
+    "stId": "R-HSA-203977",
+    "stIdVersion": "R-HSA-203977.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SAR1 Activation And Membrane Binding"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     204005
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5694522,
+    "displayName": "Inner coat assembly and cargo binding",
+    "stId": "R-HSA-5694522",
+    "stIdVersion": "R-HSA-5694522.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Inner coat assembly and cargo binding"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     204005
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5694527,
+    "displayName": "Loss of SAR1B GTPase",
+    "stId": "R-HSA-5694527",
+    "stIdVersion": "R-HSA-5694527.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Loss of SAR1B GTPase"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     204005
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5694417,
+    "displayName": "SEC16 complex binds SAR1B:GTP:SEC23:SEC24",
+    "stId": "R-HSA-5694417",
+    "stIdVersion": "R-HSA-5694417.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SEC16 complex binds SAR1B:GTP:SEC23:SEC24"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     204005
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 204008,
+    "displayName": "SEC31:SEC13 and v-SNARE recruitment",
+    "stId": "R-HSA-204008",
+    "stIdVersion": "R-HSA-204008.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SEC31:SEC13 and v-SNARE recruitment"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     204005
+    ],
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 203973,
+    "displayName": "Vesicle budding",
+    "stId": "R-HSA-203973",
+    "stIdVersion": "R-HSA-203973.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Vesicle budding"
+    ],
+    "releaseDate": "2010-12-14",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     204005
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5694439,
+    "displayName": "COPII coat binds TRAPPCII and RAB1:GDP",
+    "stId": "R-HSA-5694439",
+    "stIdVersion": "R-HSA-5694439.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "COPII coat binds TRAPPCII and RAB1:GDP"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     204005
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5694409,
+    "displayName": "Nucleotide exchange on RAB1",
+    "stId": "R-HSA-5694409",
+    "stIdVersion": "R-HSA-5694409.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Nucleotide exchange on RAB1"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     204005
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5694418,
+    "displayName": "RAB1:GTP binds USO1 and GORASP1:GOLGA2",
+    "stId": "R-HSA-5694418",
+    "stIdVersion": "R-HSA-5694418.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "RAB1:GTP binds USO1 and GORASP1:GOLGA2"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     204005
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5694441,
+    "displayName": "CSNK1D phosphorylates SEC23",
+    "stId": "R-HSA-5694441",
+    "stIdVersion": "R-HSA-5694441.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CSNK1D phosphorylates SEC23"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     204005
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5694446,
+    "displayName": "BET1:GOSR2:STX5 bind v-SNARES on tethered vesicle",
+    "stId": "R-HSA-5694446",
+    "stIdVersion": "R-HSA-5694446.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "BET1:GOSR2:STX5 bind v-SNARES on tethered vesicle"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     204005
+    ],
+    "isChimeric": false,
+    "category": "dissociation",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5694421,
+    "displayName": "PP6 dephosphorylates SEC24",
+    "stId": "R-HSA-5694421",
+    "stIdVersion": "R-HSA-5694421.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "PP6 dephosphorylates SEC24"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     204005
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5694423,
+    "displayName": "NSF and SNAPs bind cis-SNARE complex",
+    "stId": "R-HSA-5694423",
+    "stIdVersion": "R-HSA-5694423.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NSF and SNAPs bind cis-SNARE complex"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     204005
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5694425,
+    "displayName": "NSF ATPase activity dissociates cis-SNARE",
+    "stId": "R-HSA-5694425",
+    "stIdVersion": "R-HSA-5694425.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NSF ATPase activity dissociates cis-SNARE"
+    ],
+    "releaseDate": "2015-09-22",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     204005
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6814831,
+    "displayName": "TBC1D20 binds RAB1:GTP",
+    "stId": "R-HSA-6814831",
+    "stIdVersion": "R-HSA-6814831.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TBC1D20 binds RAB1:GTP"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     204005
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6814833,
+    "displayName": "TBC1D20 stimulates GTPase activity of RAB1, resulting in hydrolysis of GTP",
+    "stId": "R-HSA-6814833",
+    "stIdVersion": "R-HSA-6814833.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "TBC1D20 stimulates GTPase activity of RAB1, resulting in hydrolysis of GTP"
+    ],
+    "releaseDate": "2016-03-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     204005
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

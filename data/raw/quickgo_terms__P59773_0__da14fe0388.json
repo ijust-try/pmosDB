@@ -1,0 +1,827 @@
+{
+ "source": "quickgo_terms",
+ "query": "P59773_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0001525,GO:0005515,GO:0005765,GO:0005783,GO:0005789,GO:0015485,GO:0042632",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:53:07+00:00",
+ "response": {
+  "numberOfHits": 7,
+  "results": [
+   {
+    "id": "GO:0042632",
+    "isObsolete": false,
+    "name": "cholesterol homeostasis",
+    "definition": {
+     "text": "Any process involved in the maintenance of an internal steady state of cholesterol within an organism or cell."
+    },
+    "synonyms": [
+     {
+      "name": "positive regulation of cholesterol homeostasis",
+      "type": "related"
+     },
+     {
+      "name": "regulation of cholesterol homeostasis",
+      "type": "related"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005765",
+    "isObsolete": false,
+    "name": "lysosomal membrane",
+    "definition": {
+     "text": "The lipid bilayer surrounding the lysosome and separating its contents from the cell cytoplasm."
+    },
+    "synonyms": [
+     {
+      "name": "lysosome membrane",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1902501",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061742",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098575",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0046611",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061474",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120281",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046610",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098574",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035577",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0101004",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036020",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005789",
+    "isObsolete": false,
+    "name": "endoplasmic reticulum membrane",
+    "definition": {
+     "text": "The lipid bilayer surrounding the endoplasmic reticulum."
+    },
+    "synonyms": [
+     {
+      "name": "ER membrane",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0072546",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0008250",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990604",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036502",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032937",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000506",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990332",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042765",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098553",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000835",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098554",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034098",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043541",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033017",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036513",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005787",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990578",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0160005",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031502",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030868",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030867",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009923",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098826",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042824",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042406",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005783",
+    "isObsolete": false,
+    "name": "endoplasmic reticulum",
+    "definition": {
+     "text": "The irregular network of unit membranes, visible only by electron microscopy, that occurs in the cytoplasm of many eukaryotic cells. The membranes form a complex meshwork of tubular channels, which are often expanded into slitlike cavities called cisternae. The ER takes two forms, rough (or granular), with ribosomes adhering to the outer surface, and smooth (with no ribosomes attached).",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "ER",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0044322",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140534",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005791",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005788",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009510",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000835",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990007",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097038",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070971",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016529",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032469",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0009511",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035437",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0098827",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005515",
+    "isObsolete": false,
+    "name": "protein binding",
+    "definition": {
+     "text": "Binding to a protein."
+    },
+    "synonyms": [
+     {
+      "name": "glycoprotein binding",
+      "type": "narrow"
+     },
+     {
+      "name": "protein amino acid binding",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0070097",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031072",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140081",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030276",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046983",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032092",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0043008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031682",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045569",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042393",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002162",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043559",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008092",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045295",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043532",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010313",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042802",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031369",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043393",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0031720",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034185",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990405",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051087",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051219",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044325",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008267",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030742",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043236",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001965",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070064",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005516",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990935",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001848",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008134",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089719",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051787",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0089710",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032091",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0043221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019904",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043560",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106151",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002039",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140030",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031423",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046977",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097602",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019838",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061676",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002046",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005521",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046790",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097371",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046980",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097110",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030881",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0043394",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071253",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071889",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038100",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000149",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017147",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039706",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990763",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001846",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0051959",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030332",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001918",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019955",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001525",
+    "isObsolete": false,
+    "name": "angiogenesis",
+    "definition": {
+     "text": "Blood vessel formation when new vessels emerge from the proliferation of pre-existing blood vessels.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0878932453"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "blood vessel formation from pre-existing blood vessels",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0002041",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001569",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0002040",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060055",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045766",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0045765",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0060978",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072104",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016525",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0015485",
+    "isObsolete": false,
+    "name": "cholesterol binding",
+    "definition": {
+     "text": "Binding to cholesterol (cholest-5-en-3-beta-ol); the principal sterol of vertebrates and the precursor of many steroids, including bile acids and steroid hormones.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

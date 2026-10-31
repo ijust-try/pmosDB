@@ -4,6 +4,7 @@ import { Link, useSearchParams } from 'react-router-dom';
 import { CatalogList } from '../components/entities/CatalogList';
 import { EntityChips } from '../components/entities/EntityChips';
 import { MiniGraph } from '../components/graph/MiniGraph';
+import { EvidenceMeter } from '../components/ui/EvidenceMeter';
 import { PageContainer } from '../components/layout/AppShell';
 import { SourceBadge, VerificationBadge } from '../components/ui/Badges';
 import { DemoNotice, PageHeader } from '../components/ui/PageHeader';
@@ -12,6 +13,7 @@ import { useAsync } from '../hooks/useAsync';
 import { useDebounce } from '../hooks/useDebounce';
 import { getDatasetStatus, getPathwayDetail, getPathways, searchEntities } from '../services/repository';
 import type { Pathway } from '../types';
+import { evidenceBadge, isGene, sortByEvidence, sortPathwaysByEvidence } from '../utils/evidence';
 
 function PathwayDetailPanel({ id }: { id: string }) {
   const state = useAsync(() => getPathwayDetail(id), [id]);
@@ -20,6 +22,7 @@ function PathwayDetailPanel({ id }: { id: string }) {
   const d = state.data;
   if (!d) return <EmptyState title="Pathway not found" />;
   const { pathway } = d;
+  const topGene = d.genes.filter(isGene).find((g) => g.name === pathway.pcosEvidence?.topGene);
 
   return (
     <div className="space-y-5">
@@ -43,6 +46,32 @@ function PathwayDetailPanel({ id }: { id: string }) {
         </div>
       </header>
 
+      {pathway.pcosEvidence && (
+        <section className="panel p-5">
+          <p className="eyebrow mb-2">PCOS evidence (Open Targets)</p>
+          {pathway.pcosEvidence.topGene ? (
+            <>
+              <p className="text-[13.5px] leading-relaxed text-ink-soft">
+                <strong className="text-ink">
+                  {pathway.pcosEvidence.associatedGenes} of {pathway.pcosEvidence.memberGenes}
+                </strong>{' '}
+                member gene{pathway.pcosEvidence.memberGenes === 1 ? '' : 's'} in the knowledge base{' '}
+                {pathway.pcosEvidence.associatedGenes === 1 ? 'has' : 'have'} an association with PCOS. The strongest is{' '}
+                <strong className="text-ink">{pathway.pcosEvidence.topGene}</strong>.
+              </p>
+              {topGene?.pcosAssociation && <EvidenceMeter className="mt-3 max-w-md" association={topGene.pcosAssociation} />}
+            </>
+          ) : (
+            <p className="text-[13.5px] text-ink-faint">
+              None of this pathway's {pathway.pcosEvidence.memberGenes} member genes has a PCOS association in Open Targets.
+            </p>
+          )}
+          <p className="mt-3 text-[11.5px] leading-relaxed text-ink-mute">
+            Association scores measure the strength of evidence linking a gene to PCOS. They do not show that the pathway causes it.
+          </p>
+        </section>
+      )}
+
       <section>
         <p className="eyebrow mb-2">Simplified relationship diagram</p>
         <MiniGraph focusId={pathway.id} depth={1} interactive className="h-[430px]" />
@@ -55,7 +84,10 @@ function PathwayDetailPanel({ id }: { id: string }) {
       <div className="grid gap-5 md:grid-cols-2">
         <section className="panel p-5">
           <p className="eyebrow mb-3">Associated genes</p>
-          <EntityChips entities={d.genes} empty="No member genes are mapped to this pathway." />
+          <EntityChips entities={sortByEvidence(d.genes)} badge={evidenceBadge} empty="No member genes are mapped to this pathway." />
+          {d.genes.some((g) => evidenceBadge(g)) && (
+            <p className="mt-3 text-[11.5px] leading-relaxed text-ink-mute">Numbers are Open Targets PCOS association scores (0 to 1).</p>
+          )}
         </section>
         <section className="panel p-5">
           <p className="eyebrow mb-3">Associated proteins</p>
@@ -98,6 +130,7 @@ function PathwayDetailPanel({ id }: { id: string }) {
 export default function PathwaysPage() {
   const [params, setParams] = useSearchParams();
   const [q, setQ] = useState('');
+  const [sort, setSort] = useState<'evidence' | 'name'>('evidence');
   const dq = useDebounce(q.trim(), 160);
   const datasetStatus = useAsync(() => getDatasetStatus(), []);
   const isLive = datasetStatus.data?.mode === 'live';
@@ -108,7 +141,9 @@ export default function PathwaysPage() {
     return hits.map((h) => h.entity as Pathway);
   }, [dq]);
 
-  const items = list.data ?? [];
+  // Search results keep their relevance order; the browse list can be ranked by PCOS evidence.
+  const fetched = list.data ?? [];
+  const items = !dq && sort === 'evidence' ? sortPathwaysByEvidence(fetched) : fetched;
   const selected = params.get('p') ?? items[0]?.id ?? null;
 
   return (
@@ -138,16 +173,40 @@ export default function PathwaysPage() {
         <ErrorState error={list.error} onRetry={list.reload} />
       ) : (
         <div className="grid gap-6 lg:grid-cols-[320px_1fr]">
-          <CatalogList
-            items={items}
-            loading={list.loading}
-            selectedId={selected}
-            onSelect={(id) => setParams({ p: id })}
-            query={q}
-            onQuery={setQ}
-            placeholder="Search pathways…"
-            label="Pathway catalogue"
-          />
+          <div className="space-y-2">
+            <div className="flex items-center gap-1.5 text-[12px]" role="group" aria-label="Sort pathways">
+              <span className="text-ink-mute">Sort:</span>
+              {(
+                [
+                  ['evidence', 'Strongest PCOS evidence'],
+                  ['name', 'A–Z'],
+                ] as const
+              ).map(([key, label]) => (
+                <button
+                  key={key}
+                  type="button"
+                  onClick={() => setSort(key)}
+                  aria-pressed={sort === key}
+                  className={`rounded-md px-2 py-1 font-semibold ${
+                    sort === key ? 'bg-teal-soft text-teal' : 'text-ink-mute hover:text-ink'
+                  }`}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+            <CatalogList
+              items={items}
+              loading={list.loading}
+              selectedId={selected}
+              onSelect={(id) => setParams({ p: id })}
+              query={q}
+              onQuery={setQ}
+              placeholder="Search pathways…"
+              label="Pathway catalogue"
+              trailing={(e) => (e.type === 'pathway' && e.pcosEvidence?.topScore != null ? e.pcosEvidence.topScore.toFixed(2) : null)}
+            />
+          </div>
           <div>{selected ? <PathwayDetailPanel id={selected} /> : <div className="panel"><EmptyState title="Select a pathway" /></div>}</div>
         </div>
       )}

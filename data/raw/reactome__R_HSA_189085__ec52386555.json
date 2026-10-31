@@ -1,0 +1,701 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-189085",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-189085",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:52:23+00:00",
+ "response": {
+  "dbId": 189085,
+  "displayName": "Digestion of dietary carbohydrate",
+  "stId": "R-HSA-189085",
+  "stIdVersion": "R-HSA-189085.4",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Digestion of dietary carbohydrate"
+  ],
+  "releaseDate": "2007-02-20",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12849196,
+    "displayName": "BioModels Database:BIOMD0000000579",
+    "databaseName": "BioModels Database",
+    "identifier": "BIOMD0000000579",
+    "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000579",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 984,
+    "displayName": "extracellular region",
+    "accession": "0005576",
+    "databaseName": "GO",
+    "definition": "\"The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite.\" [GOC:curators]",
+    "name": "extracellular region",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005576",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 876,
+    "displayName": "plasma membrane",
+    "accession": "0005886",
+    "databaseName": "GO",
+    "definition": "\"The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.\" [ISBN:0716731363]",
+    "name": "plasma membrane",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005886",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "figure": [
+   {
+    "dbId": 189259,
+    "displayName": "/figures/carbo_digest_absorb.jpg",
+    "url": "/figures/carbo_digest_absorb.jpg",
+    "className": "Figure",
+    "schemaClass": "Figure"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 160597,
+   "displayName": "polysaccharide digestion",
+   "accession": "0044245",
+   "databaseName": "GO",
+   "definition": "\"The whole of the physical, chemical, and biochemical processes carried out by living organisms to break down ingested polysaccharides into components that may be easily absorbed and directed into metabolism.\" [GOC:curators]",
+   "name": "polysaccharide digestion",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0044245",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 5659862,
+    "displayName": "Intestinal brush border glycohydrolases: structure, function, and development",
+    "title": "Intestinal brush border glycohydrolases: structure, function, and development",
+    "journal": "Crit. Rev. Biochem. Mol. Biol.",
+    "pages": "197-262",
+    "pubMedIdentifier": 7555019,
+    "volume": 30,
+    "year": 1995,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/7555019",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 11171654,
+    "displayName": "Digestion of dietary carbohydrate",
+    "stId": "R-PFA-189085",
+    "stIdVersion": "R-PFA-189085.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Digestion of dietary carbohydrate"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     189085
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11150318,
+    "displayName": "Digestion of dietary carbohydrate",
+    "stId": "R-SCE-189085",
+    "stIdVersion": "R-SCE-189085.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Digestion of dietary carbohydrate"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     189085
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11120949,
+    "displayName": "Digestion of dietary carbohydrate",
+    "stId": "R-SPO-189085",
+    "stIdVersion": "R-SPO-189085.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Digestion of dietary carbohydrate"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     189085
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11091415,
+    "displayName": "Digestion of dietary carbohydrate",
+    "stId": "R-DDI-189085",
+    "stIdVersion": "R-DDI-189085.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Digestion of dietary carbohydrate"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     189085
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11035660,
+    "displayName": "Digestion of dietary carbohydrate",
+    "stId": "R-CEL-189085",
+    "stIdVersion": "R-CEL-189085.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Digestion of dietary carbohydrate"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     189085
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10952529,
+    "displayName": "Digestion of dietary carbohydrate",
+    "stId": "R-DME-189085",
+    "stIdVersion": "R-DME-189085.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Digestion of dietary carbohydrate"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     189085
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10866699,
+    "displayName": "Digestion of dietary carbohydrate",
+    "stId": "R-GGA-189085",
+    "stIdVersion": "R-GGA-189085.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Digestion of dietary carbohydrate"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     189085
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10769041,
+    "displayName": "Digestion of dietary carbohydrate",
+    "stId": "R-XTR-189085",
+    "stIdVersion": "R-XTR-189085.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Digestion of dietary carbohydrate"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     189085
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10687732,
+    "displayName": "Digestion of dietary carbohydrate",
+    "stId": "R-DRE-189085",
+    "stIdVersion": "R-DRE-189085.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Digestion of dietary carbohydrate"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     189085
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10595254,
+    "displayName": "Digestion of dietary carbohydrate",
+    "stId": "R-SSC-189085",
+    "stIdVersion": "R-SSC-189085.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Digestion of dietary carbohydrate"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     189085
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10481903,
+    "displayName": "Digestion of dietary carbohydrate",
+    "stId": "R-BTA-189085",
+    "stIdVersion": "R-BTA-189085.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Digestion of dietary carbohydrate"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     189085
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10367037,
+    "displayName": "Digestion of dietary carbohydrate",
+    "stId": "R-CFA-189085",
+    "stIdVersion": "R-CFA-189085.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Digestion of dietary carbohydrate"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     189085
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10259782,
+    "displayName": "Digestion of dietary carbohydrate",
+    "stId": "R-RNO-189085",
+    "stIdVersion": "R-RNO-189085.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Digestion of dietary carbohydrate"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     189085
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10118454,
+    "displayName": "Digestion of dietary carbohydrate",
+    "stId": "R-MMU-189085",
+    "stIdVersion": "R-MMU-189085.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Digestion of dietary carbohydrate"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     189085
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 189023,
+    "displayName": "Carbohydrate is a major component of the human diet, and inc...",
+    "text": "Carbohydrate is a major component of the human diet, and includes starch (amylose and amylopectin) and disaccharides such as sucrose, lactose, maltose and, in small amounts, trehalose. The digestion of starch begins with the action of amylase enzymes secreted in the saliva and small intestine, which convert it to maltotriose, maltose, limit dextrins, and some glucose. Digestion of the limit dextrins and disaccharides, both dietary and starch-derived, to monosaccharides - glucose, galactose, and fructose - is accomplished by enzymes located on the luminal surfaces of enterocytes lining the microvilli of the small intestine (Van Beers et al. 1995).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/REACT_9472.2",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2017-06-22",
+  "hasEvent": [
+   {
+    "dbId": 188979,
+    "displayName": "Digestion of linear starch (amylose) by extracellular amylase",
+    "stId": "R-HSA-188979",
+    "stIdVersion": "R-HSA-188979.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Digestion of linear starch (amylose) by extracellular amylase"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189085
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 191114,
+    "displayName": "Digestion of branched starch (amylopectin) by extracellular amylase",
+    "stId": "R-HSA-191114",
+    "stIdVersion": "R-HSA-191114.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Digestion of branched starch (amylopectin) by extracellular amylase"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189085
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 189053,
+    "displayName": "Digestion of 1-6 linkages of limit dextrins to yield maltose, maltotriose, longer maltosides, and glucose",
+    "stId": "R-HSA-189053",
+    "stIdVersion": "R-HSA-189053.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Digestion of 1-6 linkages of limit dextrins to yield maltose, maltotriose, longer maltosides, and glucose"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189085
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 191116,
+    "displayName": "maltotriose + H2O => maltose + D-glucose (maltase-glucoamylase)",
+    "stId": "R-HSA-191116",
+    "stIdVersion": "R-HSA-191116.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "maltotriose + H2O => maltose + D-glucose (maltase-glucoamylase)",
+     "Digestion of maltotriose by maltase-glucomylase to yield maltose and glucose"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189085
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 191101,
+    "displayName": "maltotriose + H2O => maltose + D-glucose (sucrase-isomaltase)",
+    "stId": "R-HSA-191101",
+    "stIdVersion": "R-HSA-191101.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "maltotriose + H2O => maltose + D-glucose (sucrase-isomaltase)",
+     "Digestion of maltotriose by sucrase-isomaltase to yield maltose and glucose"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189085
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 189102,
+    "displayName": "maltose + H2O => 2 D-glucose (maltase-glucoamylase)",
+    "stId": "R-HSA-189102",
+    "stIdVersion": "R-HSA-189102.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "maltose + H2O => 2 D-glucose (maltase-glucoamylase)",
+     "Digestion of maltose by maltase-glucoamylase to yield glucose"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189085
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 191108,
+    "displayName": "maltose + H2O => 2 D-glucose (sucrase-isomaltase)",
+    "stId": "R-HSA-191108",
+    "stIdVersion": "R-HSA-191108.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "maltose + H2O => 2 D-glucose (sucrase-isomaltase)",
+     "Digestion of maltose by sucrase-isomaltase to yield glucose"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189085
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5659861,
+    "displayName": "isomaltose + H2O => 2 D-glucose (sucrase-isomaltase)",
+    "stId": "R-HSA-5659861",
+    "stIdVersion": "R-HSA-5659861.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "isomaltose + H2O => 2 D-glucose (sucrase-isomaltase)",
+     "SI (sucrase-isomaltase) hydrolyzes isomaltose to yield glucose"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189085
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 189062,
+    "displayName": "lactose + H2O => D-glucose + D-galactose",
+    "stId": "R-HSA-189062",
+    "stIdVersion": "R-HSA-189062.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "lactose + H2O => D-glucose + D-galactose",
+     "Digestion of lactose to yield glucose and galactose"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189085
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 189069,
+    "displayName": "sucrose + H2O => glucose + fructose",
+    "stId": "R-HSA-189069",
+    "stIdVersion": "R-HSA-189069.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "sucrose + H2O => glucose + fructose",
+     "Digestion of sucrose to yield glucose and fructose"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189085
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 188985,
+    "displayName": "trehalose + H2O => 2 D-glucose",
+    "stId": "R-HSA-188985",
+    "stIdVersion": "R-HSA-188985.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "trehalose + H2O => 2 D-glucose",
+     "Digestion of trehalose to yield glucose"
+    ],
+    "releaseDate": "2007-02-20",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189085
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 6786421,
+    "displayName": "CHIA hydrolyses chitin",
+    "stId": "R-HSA-6786421",
+    "stIdVersion": "R-HSA-6786421.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CHIA hydrolyses chitin"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189085
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 6786652,
+    "displayName": "CHIT1 hydrolyses CHIT to 3xADGP",
+    "stId": "R-HSA-6786652",
+    "stIdVersion": "R-HSA-6786652.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "CHIT1 hydrolyses CHIT to 3xADGP"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     189085
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

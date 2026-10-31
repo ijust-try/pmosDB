@@ -1,0 +1,704 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-611105",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-611105",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:53:58+00:00",
+ "response": {
+  "dbId": 611105,
+  "displayName": "Respiratory electron transport",
+  "stId": "R-HSA-611105",
+  "stIdVersion": "R-HSA-611105.8",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 3,
+  "name": [
+   "Respiratory electron transport"
+  ],
+  "releaseDate": "2009-12-15",
+  "speciesName": "Homo sapiens",
+  "figure": [
+   {
+    "dbId": 1834927,
+    "displayName": "/figures/ETC_overview.jpg",
+    "url": "/figures/ETC_overview.jpg",
+    "className": "Figure",
+    "schemaClass": "Figure"
+   }
+  ],
+  "goBiologicalProcess": {
+   "dbId": 258857,
+   "displayName": "respiratory electron transport chain",
+   "accession": "0022904",
+   "databaseName": "GO",
+   "definition": "\"A process in which a series of electron carriers operate together to transfer electrons from donors such as NADH and FADH2 to any of several different terminal electron acceptors to generate a transmembrane electrochemical gradient.\" [GOC:mtg_electron_transport, ISBN:0716720094]",
+   "name": "respiratory electron transport chain",
+   "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0022904",
+   "className": "GO_BiologicalProcess",
+   "schemaClass": "GO_BiologicalProcess"
+  },
+  "literatureReference": [
+   {
+    "dbId": 164906,
+    "displayName": "The mitochondrial electron transport and oxidative phosphorylation system",
+    "title": "The mitochondrial electron transport and oxidative phosphorylation system",
+    "journal": "Annu Rev Biochem",
+    "pages": "1015-69",
+    "pubMedIdentifier": 2862839,
+    "volume": 54,
+    "year": 1985,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/2862839",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 164895,
+    "displayName": "9780470146842 Michal, G  Biochemical Pathways - An Atlas of Biochemistry and Molecular Biology",
+    "title": "Biochemical Pathways - An Atlas of Biochemistry and Molecular Biology",
+    "pages": "193-200",
+    "year": 1999,
+    "isbn": "9780470146842",
+    "className": "Book",
+    "schemaClass": "Book"
+   },
+   {
+    "dbId": 164898,
+    "displayName": "9780124925410 Metzler, David E Electron transport, oxidative phosphorylation, and hydroxylation Biochemistry - The Chemical Reactions of Living Cells 2nd Edn.",
+    "title": "Biochemistry - The Chemical Reactions of Living Cells 2nd Edn.",
+    "chapterTitle": "Electron transport, oxidative phosphorylation, and hydroxylation",
+    "pages": "1018-84",
+    "year": 2003,
+    "isbn": "9780124925410",
+    "className": "Book",
+    "schemaClass": "Book"
+   },
+   {
+    "dbId": 164896,
+    "displayName": "9780838536841  Harper's Biochemistry 25th ed Murray, RK",
+    "title": "Harper's Biochemistry 25th ed",
+    "pages": "137-48",
+    "year": 1999,
+    "isbn": "9780838536841",
+    "className": "Book",
+    "schemaClass": "Book"
+   },
+   {
+    "dbId": 164900,
+    "displayName": "9780716771081 Oxidative phosphorylation and photophosphorylation Lehninger - Principles of Biochemistry 4th ed Nelson, DL",
+    "title": "Lehninger - Principles of Biochemistry 4th ed",
+    "chapterTitle": "Oxidative phosphorylation and photophosphorylation",
+    "pages": "690-750",
+    "year": 2005,
+    "isbn": "9780716771081",
+    "className": "Book",
+    "schemaClass": "Book"
+   },
+   {
+    "dbId": 166105,
+    "displayName": "9781483214207 Nicholls, DG  Bioenergetics 2",
+    "title": "Bioenergetics 2",
+    "pages": "107-156",
+    "year": 1992,
+    "isbn": "9781483214207",
+    "className": "Book",
+    "schemaClass": "Book"
+   },
+   {
+    "dbId": 166108,
+    "displayName": "Still a puzzle: why is haem covalently attached in c-type cytochromes?",
+    "title": "Still a puzzle: why is haem covalently attached in c-type cytochromes?",
+    "journal": "Structure Fold Des",
+    "pages": "R281-90",
+    "pubMedIdentifier": 10647174,
+    "volume": 7,
+    "year": 1999,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/10647174",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 10480887,
+    "displayName": "Respiratory electron transport",
+    "stId": "R-BTA-611105",
+    "stIdVersion": "R-BTA-611105.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Respiratory electron transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     611105
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10594248,
+    "displayName": "Respiratory electron transport",
+    "stId": "R-SSC-611105",
+    "stIdVersion": "R-SSC-611105.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Respiratory electron transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     611105
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10686808,
+    "displayName": "Respiratory electron transport",
+    "stId": "R-DRE-611105",
+    "stIdVersion": "R-DRE-611105.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Respiratory electron transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     611105
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10768193,
+    "displayName": "Respiratory electron transport",
+    "stId": "R-XTR-611105",
+    "stIdVersion": "R-XTR-611105.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Respiratory electron transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     611105
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10865777,
+    "displayName": "Respiratory electron transport",
+    "stId": "R-GGA-611105",
+    "stIdVersion": "R-GGA-611105.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Respiratory electron transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     611105
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10951733,
+    "displayName": "Respiratory electron transport",
+    "stId": "R-DME-611105",
+    "stIdVersion": "R-DME-611105.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Respiratory electron transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     611105
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11034968,
+    "displayName": "Respiratory electron transport",
+    "stId": "R-CEL-611105",
+    "stIdVersion": "R-CEL-611105.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Respiratory electron transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     611105
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11090833,
+    "displayName": "Respiratory electron transport",
+    "stId": "R-DDI-611105",
+    "stIdVersion": "R-DDI-611105.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Respiratory electron transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     611105
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11120463,
+    "displayName": "Respiratory electron transport",
+    "stId": "R-SPO-611105",
+    "stIdVersion": "R-SPO-611105.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Respiratory electron transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Schizosaccharomyces pombe",
+    "inferredFrom": [
+     611105
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11149060,
+    "displayName": "Respiratory electron transport",
+    "stId": "R-SCE-611105",
+    "stIdVersion": "R-SCE-611105.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Respiratory electron transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Saccharomyces cerevisiae",
+    "inferredFrom": [
+     611105
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11170686,
+    "displayName": "Respiratory electron transport",
+    "stId": "R-PFA-611105",
+    "stIdVersion": "R-PFA-611105.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Respiratory electron transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     611105
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10366069,
+    "displayName": "Respiratory electron transport",
+    "stId": "R-CFA-611105",
+    "stIdVersion": "R-CFA-611105.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Respiratory electron transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     611105
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10117428,
+    "displayName": "Respiratory electron transport",
+    "stId": "R-MMU-611105",
+    "stIdVersion": "R-MMU-611105.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Respiratory electron transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     611105
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10258756,
+    "displayName": "Respiratory electron transport",
+    "stId": "R-RNO-611105",
+    "stIdVersion": "R-RNO-611105.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 3,
+    "name": [
+     "Respiratory electron transport"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     611105
+    ],
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 163197,
+    "displayName": "Mitochondria are often described as the \"powerhouse\" of a ce...",
+    "text": "Mitochondria are often described as the \"powerhouse\" of a cell as it is here that energy is largely released from the oxidation of food. Reducing equivalents generated from beta-oxidation of fatty acids and from the Krebs cycle enter the electron transport chain (also called the respiratory chain). During a series of redox reactions, electrons travel down the chain releasing their energy in controlled steps. These reactions drive the active transport of protons from the mitochondrial matrix , through the inner membrane to the intermembrane space. The respiratory chain consists of five main types of carrier; flavins, iron-sulfur centres, quinones, cytochromes (heme proteins) and copper. The two main reducing equivalents entering the respiratory chain are NADH and FADH2. NADH is linked through the NADH-specific dehydrogenase whereas FADH2 is reoxidised within succinate dehydrogenase and a ubiquinone reductase of the fatty acid oxidation pathway. Oxygen is the final acceptor of electrons and with protons, is converted to form water, the end product of aerobic cellular respiration. A proton electrochemical gradient (often called protonmotive force) is established across the inner membrane, with positive charge in the intermembrane space relative to the matrix. Protons driven by the proton-motive force,  can enter ATP synthase thus returning to the mitochondrial matrix. ATP synthases use this exergonic flow to form ATP in the matrix, a process called chemiosmotic coupling. A by-product of this process is heat generation.<br><br>An antiport, ATP-ADP translocase, preferentially exports ATP from the matrix thereby maintaining a high ADP:ATP ratio in the matrix. The tight coupling of electron flow to ATP synthesis means oxygen consumption is dependent on ADP availability (termed respiratory control). High ADP (low ATP) increases electron flow thereby increasing oxygen consumption and low ADP (high ATP) decreases electron flow and thereby decreases oxygen consumption. There are many inhibitors of mitochondrial ATP synthesis. Most act by either blocking the flow of electrons (eg cyanide, carbon monoxide, rotenone) or uncoupling electron flow from ATP synthesis (eg dinitrophenol). Thermogenin is a natural protein found in brown fat. Newborn babies have a large amount of brown fat and the heat generated by thermogenin is an alternative to ATP synthesis (and thus electron flow only produces heat) and allows the maintenance of body temperature in newborns.<br><br>The electron transport chain is located in the inner mitochondrial membrane and comprises some 80 proteins organized in four enzymatic complexes (I-IV). Complex V generates ATP but has no electron transfer activity. In addition to these 5 complexes, there  are also two electron shuttle molecules; Coenzyme Q (also known as ubiquinone, CoQ) and Cytochrome c (Cytc). These two molecules shuttle electrons between the large complexes in the chain.<br><br>How many ATPs are generated by this process? Theoretically, for each glucose molecule, 32 ATPs can be produced. As electrons drop from NADH to oxygen in the chain, the number of protons pumped out and returning through ATP synthase can produce 2.5 ATPs per electron pair.  For each pair donated by FADH2, only 1.5 ATPs can be formed. Twelve pairs of electrons are removed from each glucose molecule;<br><br>10 by NAD+ = 25 ATPs<br>2 by FADH2 = 3 ATPs.<br><br>Making a total of 28 ATPs. However, 2 ATPs are formed during the Krebs' cycle and 2 ATPs formed during glycolysis for each glucose molecule therefore making a total ATP yield of 32 ATPs. In reality, the energy from the respiratory chain is used for other processes (such as active transport of important ions and molecules) so under conditions of normal respiration, the actual ATP yield probably does not reach 32 ATPs.<br><br>The reducing equivalents that fuel the electron transport chain, namely NADH and FADH2, are produced by the Krebs cycle (TCA cycle) and the beta-oxidation of fatty acids. At three steps in the Krebs cycle (isocitrate conversion to oxoglutarate; oxoglutarate conversion to succinyl-CoA; Malate conversion to oxaloacetate), a pair of electrons (2e-) are removed and transferred to NAD+, forming NADH and H+. At a single step, a pair of electrons are removed from succinate, reducing FAD to FADH2. From the beta-oxidation of fatty acids, one step in the process forms NADH and H+ and another step forms FADH2.<br><br>Cytoplasmic NADH, generated from glycolysis, has to be oxidized to reform NAD+, essential for glycolysis, otherwise glycolysis would cease to function. There is no carrier that transports NADH directly into the mitochondrial matrix and the inner mitochondrial membrane is impermeable to NADH so the cell uses two shuttle systems to move reducing equivalents into the mitochondrion and regenerate cytosolic NAD+. <br>The first is the glycerol phosphate shuttle, which uses electrons from cytosolic NADH to produce FADH2 within the inner membrane. These electrons then flow to Coenzyme Q. Complex I is bypassed so only 1.5 ATPs can be formed per NADH via this route. The overall balanced equation, summing all the reactions in this system, is<br><br>NADH (cytosol) + H+ (cytosol) + NAD+ (mito.) = NAD+ (cytosol) + NADH (mito.) + H+ (mito.)<br><br>The malate-aspartate shuttle uses the oxidation of malate to generate NADH in the mitochondrial matrix. This NADH can then be fed directly to complex I and thus can form 3 ATPs via the respiratory chain. The overall balanced equation is<br><br>NADH (cytosol) + H+ (cytosol) + FAD (inner memb.) = NAD+ (cytosol) + FADH2 (inner memb.)<br><br>Both of these shuttle systems regenerate cytosolic NAD+.<br><br>The entry point for NADH is complex I (NADH dehydrogenase) and the entry point for FADH2 is  Coenzyme Q. The input of electrons from fatty acid oxidation via ubiquinone is complicated and not shown in the diagram.",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821385,
+   "displayName": "four stars",
+   "definition": "structure upated after externally reviewed and then internally reviewed",
+   "name": [
+    "four stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "previousReviewStatus": {
+   "dbId": 9821384,
+   "displayName": "two stars",
+   "definition": "structure updated after externally and internally reviewed",
+   "name": [
+    "two stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "doi": "10.3180/R-HSA-611105.7",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2021-03-24",
+  "hasEvent": [
+   {
+    "dbId": 6799198,
+    "displayName": "Complex I biogenesis",
+    "stId": "R-HSA-6799198",
+    "stIdVersion": "R-HSA-6799198.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Complex I biogenesis"
+    ],
+    "releaseDate": "2015-12-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     611105
+    ],
+    "doi": "10.3180/R-HSA-6799198.4",
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "lastUpdatedDate": "2021-03-24",
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 163217,
+    "displayName": "Complex I oxidises NADH to NAD+, reduces CoQ to CoQH2",
+    "stId": "R-HSA-163217",
+    "stIdVersion": "R-HSA-163217.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Complex I oxidises NADH to NAD+, reduces CoQ to CoQH2",
+     "NADH enters the respiratory chain at Complex I"
+    ],
+    "releaseDate": "2006-01-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     611105
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 163213,
+    "displayName": "Transfer of electrons through the succinate dehydrogenase complex",
+    "stId": "R-HSA-163213",
+    "stIdVersion": "R-HSA-163213.7",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Transfer of electrons through the succinate dehydrogenase complex",
+     "Succinate + Q10 => Fumarate + Q10H2"
+    ],
+    "releaseDate": "2005-04-11",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     611105
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 169260,
+    "displayName": "Reducing equivalents from beta-oxidation of fatty acids transfer to ETF",
+    "stId": "R-HSA-169260",
+    "stIdVersion": "R-HSA-169260.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Reducing equivalents from beta-oxidation of fatty acids transfer to ETF"
+    ],
+    "releaseDate": "2006-01-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     611105
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9866217,
+    "displayName": "HCCS inserts heme into cytochrome c",
+    "stId": "R-HSA-9866217",
+    "stIdVersion": "R-HSA-9866217.1",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "HCCS inserts heme into cytochrome c"
+    ],
+    "releaseDate": "2024-06-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     611105
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 169270,
+    "displayName": "ETFDH oxidises ETF (reduced) to ETF, reduces CoQ to CoQH2",
+    "stId": "R-HSA-169270",
+    "stIdVersion": "R-HSA-169270.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "ETFDH oxidises ETF (reduced) to ETF, reduces CoQ to CoQH2",
+     "Transfer of electrons from ETF to ubiquinone by ETF-QO"
+    ],
+    "releaseDate": "2006-01-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     611105
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9865881,
+    "displayName": "Complex III assembly",
+    "stId": "R-HSA-9865881",
+    "stIdVersion": "R-HSA-9865881.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Complex III assembly"
+    ],
+    "releaseDate": "2024-06-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     611105
+    ],
+    "doi": "10.3180/R-HSA-9865881.1",
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 164651,
+    "displayName": "Electron transfer from ubiquinol to cytochrome c of complex III",
+    "stId": "R-HSA-164651",
+    "stIdVersion": "R-HSA-164651.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Electron transfer from ubiquinol to cytochrome c of complex III"
+    ],
+    "releaseDate": "2005-04-11",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     611105
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9864848,
+    "displayName": "Complex IV assembly",
+    "stId": "R-HSA-9864848",
+    "stIdVersion": "R-HSA-9864848.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Complex IV assembly"
+    ],
+    "releaseDate": "2024-06-15",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     611105
+    ],
+    "doi": "10.3180/R-HSA-9864848.1",
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 163214,
+    "displayName": "Electron transfer from reduced cytochrome c to molecular oxygen",
+    "stId": "R-HSA-163214",
+    "stIdVersion": "R-HSA-163214.8",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Electron transfer from reduced cytochrome c to molecular oxygen"
+    ],
+    "releaseDate": "2006-01-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     611105
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 9856872,
+    "displayName": "Malate-aspartate shuttle",
+    "stId": "R-HSA-9856872",
+    "stIdVersion": "R-HSA-9856872.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 2,
+    "name": [
+     "Malate-aspartate shuttle"
+    ],
+    "releaseDate": "2024-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     611105
+    ],
+    "doi": "10.3180/R-HSA-9856872.1",
+    "hasDiagram": true,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

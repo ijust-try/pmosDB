@@ -1,0 +1,42 @@
+{
+ "source": "pubmed_search",
+ "query": "VDR",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "pubmed",
+  "term": "VDR AND polycystic ovary syndrome",
+  "retmax": 3,
+  "sort": "relevance",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T06:01:54+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "63",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "37427232",
+    "41126011",
+    "37202765"
+   ],
+   "translationset": [
+    {
+     "from": "VDR",
+     "to": "\"Vis Dev Rehabil\"[Journal:__jid101677525] OR \"vdr\"[All Fields]"
+    },
+    {
+     "from": "polycystic ovary syndrome",
+     "to": "\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"vis dev rehabil\"[Journal] OR \"vdr\"[All Fields]) AND (\"polycystic ovary syndrome\"[MeSH Terms] OR (\"polycystic\"[All Fields] AND \"ovary\"[All Fields] AND \"syndrome\"[All Fields]) OR \"polycystic ovary syndrome\"[All Fields])"
+  }
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "NDUFA13",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "51079",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:53:53+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "51079"
+   ],
+   "51079": {
+    "uid": "51079",
+    "name": "NDUFA13",
+    "description": "NADH:ubiquinone oxidoreductase subunit A13",
+    "status": "",
+    "currentid": "",
+    "chromosome": "19",
+    "geneticsource": "genomic",
+    "maplocation": "19p13.11",
+    "otheraliases": "B16.6, CDA016, CGI-39, GRIM-19, GRIM19, MC1DN28",
+    "otherdesignations": "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 13|CI-B16.6|NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 13|NADH-ubiquinone oxidoreductase B16.6 subunit|cell death regulatory protein GRIM-19|cell death-regulatory protein GRIM19|complex I B16.6 subunit|complex I-B16.6|gene associated with retinoic and IFN-induced mortality 19 protein|gene associated with retinoic and interferon-induced mortality 19 protein",
+    "nomenclaturesymbol": "NDUFA13",
+    "nomenclaturename": "NADH:ubiquinone oxidoreductase subunit A13",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "609435"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "19",
+      "chraccver": "NC_000019.10",
+      "chrstart": 19516224,
+      "chrstop": 19528197,
+      "exoncount": 5
+     }
+    ],
+    "geneweight": 6127,
+    "summary": "This gene encodes a subunit of the mitochondrial membrane respiratory chain NADH dehydrogenase (Complex I), which functions in the transfer of electrons from NADH to the respiratory chain. The protein is required for complex I assembly and electron transfer activity. The protein binds the signal transducers and activators of transcription 3 (STAT3) transcription factor, and can function as a tumor suppressor. The human protein purified from mitochondria migrates at approximately 16 kDa. Transcripts originating from an upstream promoter and capable of expressing a protein with a longer N-terminus have been found, but their biological validity has not been determined. [provided by RefSeq, Oct 2009]",
+    "chrsort": "19",
+    "chrstart": 19516224,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000019.10",
+      "chrstart": 19516224,
+      "chrstop": 19528197
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060943.1",
+      "chrstart": 19653711,
+      "chrstop": 19665684
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000019.10",
+      "chrstart": 19516224,
+      "chrstop": 19528197
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060943.1",
+      "chrstart": 19653711,
+      "chrstop": 19665684
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000019.10",
+      "chrstart": 19516224,
+      "chrstop": 19528197
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060943.1",
+      "chrstart": 19653711,
+      "chrstop": 19665684
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000019.10",
+      "chrstart": 19516224,
+      "chrstop": 19528197
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060943.1",
+      "chrstart": 19653711,
+      "chrstop": 19665684
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000019.10",
+      "chrstart": 19516224,
+      "chrstop": 19528197
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060943.1",
+      "chrstart": 19653711,
+      "chrstop": 19665684
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000019.10",
+      "chrstart": 19516224,
+      "chrstop": 19528197
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000019.9",
+      "chrstart": 19627033,
+      "chrstop": 19639006
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000019.9",
+      "chrstart": 19627033,
+      "chrstop": 19639006
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000019.9",
+      "chrstart": 19626549,
+      "chrstop": 19639857
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000151.1",
+      "chrstart": 19189311,
+      "chrstop": 19201237
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018930.2",
+      "chrstart": 19627714,
+      "chrstop": 19639924
+     }
+    ]
+   }
+  }
+ }
+}

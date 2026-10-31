@@ -1,0 +1,237 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-167243",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-167243",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:57:25+00:00",
+ "response": {
+  "dbId": 167243,
+  "displayName": "Tat-mediated HIV elongation arrest and recovery",
+  "stId": "R-HSA-167243",
+  "stIdVersion": "R-HSA-167243.5",
+  "isInDisease": true,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Tat-mediated HIV elongation arrest and recovery"
+  ],
+  "releaseDate": "2005-09-26",
+  "speciesName": "Homo sapiens",
+  "crossReference": [
+   {
+    "dbId": 12061063,
+    "displayName": "Mondo:0005109",
+    "databaseName": "Mondo",
+    "identifier": "0005109",
+    "url": "https://monarchinitiative.org/MONDO:0005109",
+    "className": "DatabaseIdentifier",
+    "schemaClass": "DatabaseIdentifier"
+   }
+  ],
+  "compartment": [
+   {
+    "dbId": 7660,
+    "displayName": "nucleoplasm",
+    "accession": "0005654",
+    "databaseName": "GO",
+    "definition": "\"That part of the nuclear content other than the chromosomes or the nucleolus.\" [GOC:ma, ISBN:0124325653]",
+    "name": "nucleoplasm",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "disease": [
+   {
+    "dbId": 1660559,
+    "displayName": "Human immunodeficiency virus infectious disease",
+    "databaseName": "DOID",
+    "definition": "A viral infectious disease that results_in destruction of immune system, leading to life-threatening opportunistic infections and cancers, has_material_basis_in Human immunodeficiency virus 1 or has_material_basis_in Human immunodeficiency virus 2, which are transmitted_by sexual contact, transmitted_by transfer of blood, semen, vaginal fluid, pre-ejaculate, or breast milk, transmitted_by congenital method, and transmitted_by contaminated needles. The virus infects helper T cells (CD4+ T cells) which are directly or indirectly destroyed, macrophages, and dendritic cells. The infection has_symptom diarrhea, has_symptom fatigue, has_symptom fever, has_symptom vaginal yeast infection, has_symptom headache, has_symptom mouth sores, has_symptom muscle aches, has_symptom sore throat, and has_symptom swollen lymph glands.",
+    "identifier": "526",
+    "name": [
+     "Human immunodeficiency virus infectious disease"
+    ],
+    "synonym": [
+     "HIV infection"
+    ],
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/doid/terms?obo_id=DOID:526",
+    "className": "Disease",
+    "schemaClass": "Disease"
+   }
+  ],
+  "relatedSpecies": [
+   {
+    "dbId": 164493,
+    "displayName": "Human immunodeficiency virus 1",
+    "name": [
+     "Human immunodeficiency virus 1",
+     "Human immunodeficiency virus type 1",
+     "HIV1",
+     "HIV-1",
+     "Human immunodeficiency virus type 1 (isolate 90CF056 group M subtype H)",
+     "Human immunodeficiency virus type 1 (isolate 92BR025 group M subtype C)",
+     "Human immunodeficiency virus type 1 (isolate 92NG083 group M subtype G)",
+     "Human immunodeficiency virus type 1 (isolate 93BR020 group M subtype F1)",
+     "Human immunodeficiency virus type 1 (isolate 96CM-MP535 group M subtype K)",
+     "Human immunodeficiency virus type 1 (isolate 97ZR-EQTB11 group M subtype K)",
+     "Human immunodeficiency virus type 1 (isolate ANT70 group O)",
+     "Human immunodeficiency virus type 1 (isolate ARV2/SF2 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate BH10 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate BH5 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate BH8 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate BRU/LAI group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate BRVA group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate CDC-451 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate ELI group M subtype D)",
+     "Human immunodeficiency virus type 1 (isolate ETH2220 group M subtype C)",
+     "Human immunodeficiency virus type 1 (isolate HXB2 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate HXB3 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate JH32 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate JRCSF group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate KB-1/ETR group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate Lai group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate LW123 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate MAL group M subtype A)",
+     "Human immunodeficiency virus type 1 (isolate MFA group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate MN group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate MP255 group M subtype F2)",
+     "Human immunodeficiency virus type 1 (isolate MP257 group M subtype F2)",
+     "Human immunodeficiency virus type 1 (isolate MVP5180 group O)",
+     "Human immunodeficiency virus type 1 (isolate N1T-A group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate NDK group M subtype D)",
+     "Human immunodeficiency virus type 1 (isolate NY5 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate OYI group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate PCV12 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate RF/HAT3 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate SC group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate SE6165 group M subtype G)",
+     "Human immunodeficiency virus type 1 (isolate SE9173 group M subtype J)",
+     "Human immunodeficiency virus type 1 (isolate SE9280 group M subtype J)",
+     "Human immunodeficiency virus type 1 (isolate SF162 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate SF33 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate U455 group M subtype A)",
+     "Human immunodeficiency virus type 1 (isolate VI850 group M subtype F1)",
+     "Human immunodeficiency virus type 1 (isolate VI991 group M subtype H)",
+     "Human immunodeficiency virus type 1 (isolate WMJ1 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate WMJ22 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate YBF106 group N)",
+     "Human immunodeficiency virus type 1 (isolate YBF30 group N)",
+     "Human immunodeficiency virus type 1 (isolate YU-2 group M subtype B)",
+     "Human immunodeficiency virus type 1 (isolate Z2/CDC-Z34 group M subtype D)",
+     "Human immunodeficiency virus type 1 (isolate Z3 group M subtype U)",
+     "Human immunodeficiency virus type 1 (isolate Z321 group M subtype A)",
+     "Human immunodeficiency virus type 1 (isolate Z6 group M subtype D)",
+     "Human immunodeficiency virus type 1 (isolate Z84 group M subtype D)",
+     "Human immunodeficiency virus type 1 (strain 89.6 group M subtype B)"
+    ],
+    "taxId": "11676",
+    "abbreviation": "HIV",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 212981,
+    "displayName": "RNA Pol II arrest is believed to be a result of irreversible...",
+    "text": "RNA Pol II arrest is believed to be a result of irreversible backsliding of the enzyme by ~7-14 nucleotides. TFIIS reactivates arrested RNA Pol II by promoting the  excision of nascent transcript ~7-14 nucleotides upstream of the 3' end. ",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2015-09-30",
+  "hasEvent": [
+   {
+    "dbId": 167148,
+    "displayName": "TFIIS-mediated recovery of elongation from arrest",
+    "stId": "R-HSA-167148",
+    "stIdVersion": "R-HSA-167148.4",
+    "isInDisease": true,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "TFIIS-mediated recovery of elongation from arrest"
+    ],
+    "releaseDate": "2006-01-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     167243
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 167459,
+    "displayName": "Abortive  termination of HIV-1 elongation after arrest (Tat-containing elongation complex)",
+    "stId": "R-HSA-167459",
+    "stIdVersion": "R-HSA-167459.4",
+    "isInDisease": true,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Abortive  termination of HIV-1 elongation after arrest (Tat-containing elongation complex)"
+    ],
+    "releaseDate": "2005-04-11",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     167243
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 167090,
+    "displayName": "7-14 nt. Backtracking of Pol II complex on the HIV-1 template leading to elongation arrest",
+    "stId": "R-HSA-167090",
+    "stIdVersion": "R-HSA-167090.4",
+    "isInDisease": true,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "7-14 nt. Backtracking of Pol II complex on the HIV-1 template leading to elongation arrest"
+    ],
+    "releaseDate": "2006-01-23",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     167243
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

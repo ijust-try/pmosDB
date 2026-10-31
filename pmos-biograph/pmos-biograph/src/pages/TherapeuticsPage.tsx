@@ -9,6 +9,7 @@ import { PageHeader } from '../components/ui/PageHeader';
 import { EmptyState, ErrorState, LoadingRows } from '../components/ui/States';
 import { useAsync } from '../hooks/useAsync';
 import { useDebounce } from '../hooks/useDebounce';
+import { evidenceBadge, sortByEvidence } from '../utils/evidence';
 import { getTherapeuticDetail, getTherapeutics, searchEntities } from '../services/repository';
 import type { Therapeutic } from '../types';
 
@@ -101,7 +102,12 @@ function TherapeuticDetailPanel({ id }: { id: string }) {
 
         <section className="panel p-5">
           <p className="eyebrow mb-3">Associated genes</p>
-          <EntityChips entities={d.genes} empty="No curated target gene is recorded for this compound." />
+          <EntityChips entities={sortByEvidence(d.genes)} badge={evidenceBadge} empty="No curated target gene is recorded for this compound." />
+          {d.genes.some((g) => evidenceBadge(g)) && (
+            <p className="mt-3 text-[11.5px] leading-relaxed text-ink-mute">
+              Numbers are Open Targets PCOS association scores (0 to 1) for each target gene.
+            </p>
+          )}
         </section>
         <section className="panel p-5">
           <p className="eyebrow mb-3">Associated pathways</p>

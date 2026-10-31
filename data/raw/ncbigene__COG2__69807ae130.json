@@ -1,0 +1,174 @@
+{
+ "source": "ncbigene",
+ "query": "COG2",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+ "params": {
+  "db": "gene",
+  "id": "22796",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:45:28+00:00",
+ "response": {
+  "header": {
+   "type": "esummary",
+   "version": "0.3"
+  },
+  "result": {
+   "uids": [
+    "22796"
+   ],
+   "22796": {
+    "uid": "22796",
+    "name": "COG2",
+    "description": "component of oligomeric golgi complex 2",
+    "status": "",
+    "currentid": "",
+    "chromosome": "1",
+    "geneticsource": "genomic",
+    "maplocation": "1q42.2",
+    "otheraliases": "CDG2Q, LDLC",
+    "otherdesignations": "conserved oligomeric Golgi complex subunit 2|COG complex subunit 2|brefeldin A-sensitive, peripheral Golgi protein|conserved oligomeric Golgi complex protein 2|low density lipoprotein receptor defect C complementing|low density lipoprotein receptor defect C-complementing protein",
+    "nomenclaturesymbol": "COG2",
+    "nomenclaturename": "component of oligomeric golgi complex 2",
+    "nomenclaturestatus": "Official",
+    "mim": [
+     "606974"
+    ],
+    "genomicinfo": [
+     {
+      "chrloc": "1",
+      "chraccver": "NC_000001.11",
+      "chrstart": 230642480,
+      "chrstop": 230693981,
+      "exoncount": 18
+     }
+    ],
+    "geneweight": 1245,
+    "summary": "This gene encodes a subunit of the conserved oligomeric Golgi complex that is required for maintaining normal structure and activity of the Golgi complex. The encoded protein specifically interacts with the USO1 vesicle docking protein and may be necessary for normal Golgi ribbon formation and trafficking of Golgi enzymes. Mutations of this gene are associated with abnormal glycosylation within the Golgi apparatus. Alternative splicing results in multiple transcript variants.[provided by RefSeq, Feb 2009]",
+    "chrsort": "01",
+    "chrstart": 230642480,
+    "organism": {
+     "scientificname": "Homo sapiens",
+     "commonname": "human",
+     "taxid": 9606
+    },
+    "locationhist": [
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000001.11",
+      "chrstart": 230642480,
+      "chrstop": 230693981
+     },
+     {
+      "annotationrelease": "RS_2025_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060925.1",
+      "chrstart": 230022981,
+      "chrstop": 230074526
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000001.11",
+      "chrstart": 230642480,
+      "chrstop": 230693981
+     },
+     {
+      "annotationrelease": "RS_2024_08",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060925.1",
+      "chrstart": 230022981,
+      "chrstop": 230074526
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000001.11",
+      "chrstart": 230642480,
+      "chrstop": 230693981
+     },
+     {
+      "annotationrelease": "RS_2023_10",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060925.1",
+      "chrstart": 230022981,
+      "chrstop": 230074526
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000001.11",
+      "chrstart": 230642480,
+      "chrstop": 230693981
+     },
+     {
+      "annotationrelease": "RS_2023_03",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060925.1",
+      "chrstart": 230022981,
+      "chrstop": 230074526
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_000001405.40",
+      "chraccver": "NC_000001.11",
+      "chrstart": 230642480,
+      "chrstop": 230693981
+     },
+     {
+      "annotationrelease": "110",
+      "assemblyaccver": "GCF_009914755.1",
+      "chraccver": "NC_060925.1",
+      "chrstart": 230022981,
+      "chrstop": 230074526
+     },
+     {
+      "annotationrelease": "109.20211119",
+      "assemblyaccver": "GCF_000001405.39",
+      "chraccver": "NC_000001.11",
+      "chrstart": 230642480,
+      "chrstop": 230693981
+     },
+     {
+      "annotationrelease": "RS_2024_09",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000001.10",
+      "chrstart": 230778226,
+      "chrstop": 230829727
+     },
+     {
+      "annotationrelease": "105.20220307",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000001.10",
+      "chrstart": 230778226,
+      "chrstop": 230829727
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000001405.25",
+      "chraccver": "NC_000001.10",
+      "chrstart": 230778201,
+      "chrstop": 230829730
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000002125.1",
+      "chraccver": "AC_000133.1",
+      "chrstart": 201263100,
+      "chrstop": 201314676
+     },
+     {
+      "annotationrelease": "105",
+      "assemblyaccver": "GCF_000306695.2",
+      "chraccver": "NC_018912.2",
+      "chrstart": 232051214,
+      "chrstop": 232102745
+     }
+    ]
+   }
+  }
+ }
+}

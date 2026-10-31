@@ -1,0 +1,152 @@
+{
+ "source": "uniprot",
+ "query": "ATOH1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:ATOH1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:41:17+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q92858",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "Transcription factor ATOH1"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000312",
+          "source": "HGNC",
+          "id": "HGNC:797"
+         }
+        ],
+        "value": "Atonal bHLH transcription factor 1"
+       }
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000312",
+          "source": "HGNC",
+          "id": "HGNC:797"
+         }
+        ],
+        "value": "Class A basic helix-loop-helix protein 14"
+       },
+       "shortNames": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000312",
+           "source": "HGNC",
+           "id": "HGNC:797"
+          }
+         ],
+         "value": "bHLHa14"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000312",
+          "source": "HGNC",
+          "id": "HGNC:797"
+         }
+        ],
+        "value": "Helix-loop-helix protein hATH-1"
+       },
+       "shortNames": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000312",
+           "source": "HGNC",
+           "id": "HGNC:797"
+          }
+         ],
+         "value": "hATH1"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000312",
+          "source": "HGNC",
+          "id": "HGNC:797"
+         }
+        ],
+        "value": "Protein atonal homolog 1"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:797"
+        }
+       ],
+       "value": "ATOH1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P48985"
+         }
+        ],
+        "value": "Transcriptional regulator. Activates E box-dependent transcription in collaboration with TCF3/E47, but the activity is completely antagonized by the negative regulator of neurogenesis HES1. Plays a role in the differentiation of subsets of neural cells by activating E box-dependent transcription (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "474",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000126231"
+    }
+   }
+  ]
+ }
+}

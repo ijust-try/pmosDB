@@ -1,0 +1,2122 @@
+{
+ "source": "quickgo_terms",
+ "query": "Q8N8U9_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0001568,GO:0001657,GO:0002043,GO:0005201,GO:0005576,GO:0010594,GO:0030509,GO:0031012,GO:0032880,GO:0035295,GO:0042118,GO:0045765,GO:0048731,GO:0060391,GO:0060395,GO:0070374,GO:0090092,GO:0140144,GO:0140149,GO:0160108,GO:1903672",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:41:40+00:00",
+ "response": {
+  "numberOfHits": 21,
+  "results": [
+   {
+    "id": "GO:0002043",
+    "isObsolete": false,
+    "name": "blood vessel endothelial cell proliferation involved in sprouting angiogenesis",
+    "definition": {
+     "text": "The multiplication or reproduction of blood vessel endothelial cells, resulting in the expansion of a cell population contributing to sprouting angiogenesis.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "16391003"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "blood vessel endothelial cell proliferation during sprouting angiogenesis",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1903588",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:1903589",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1903587",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0090092",
+    "isObsolete": false,
+    "name": "regulation of transmembrane receptor protein serine/threonine kinase signaling pathway",
+    "definition": {
+     "text": "Any process that modulates the rate, frequency, or extent of the series of molecular signals generated as a consequence of a transmembrane receptor serine/threonine kinase binding to its physiological ligand."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of transmembrane receptor protein serine/threonine kinase signalling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0090101",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032925",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0017015",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030510",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902612",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090100",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005576",
+    "isObsolete": false,
+    "name": "extracellular region",
+    "definition": {
+     "text": "The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite."
+    },
+    "comment": "Note that this term is intended to annotate gene products that are not attached to the cell surface. For gene products at the cell surface, consider annotating to external side of plasma membrane ; GO:0009897.",
+    "synonyms": [
+     {
+      "name": "extracellular",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030312",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043264",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043230",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072562",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035182",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035183",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043245",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0065010",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0043083",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006860",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042597",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098595",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1903561",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0140392",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0006858",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0070701",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036117",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048046",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900116",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0099544",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0085036",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1900115",
+      "relation": "occurs_in"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005201",
+    "isObsolete": false,
+    "name": "extracellular matrix structural constituent",
+    "definition": {
+     "text": "The action of a molecule that contributes to the structural integrity of the extracellular matrix."
+    },
+    "comment": "Extracellular matrix glycoproteins may be annotated to this term. PMID:24443019",
+    "synonyms": [
+     {
+      "name": "core extracellular matrix",
+      "type": "broad"
+     },
+     {
+      "name": "core matrisome",
+      "type": "broad"
+     },
+     {
+      "name": "extracellular matrix glycoprotein",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030020",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0120216",
+      "relation": "capable_of"
+     },
+     {
+      "id": "GO:0035804",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0150043",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030023",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030197",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0032880",
+    "isObsolete": false,
+    "name": "regulation of protein localization",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of any process in which a protein is transported to, or maintained in, a specific location."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of cellular protein localisation",
+      "type": "exact"
+     },
+     {
+      "name": "regulation of cellular protein localization",
+      "type": "exact"
+     },
+     {
+      "name": "regulation of protein localisation",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:1905871",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905666",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903828",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904814",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903066",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904375",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070201",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0150031",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903829",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2000008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904785",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905340",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905169",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0150106",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902363",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902816",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904779",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1901900",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905550",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1900180",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903564",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905475",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905634",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902473",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0042118",
+    "isObsolete": false,
+    "name": "endothelial cell activation",
+    "definition": {
+     "text": "The change in morphology and behavior of an endothelial cell resulting from exposure to a cytokine, chemokine, cellular ligand, or soluble factor.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0781735149"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "12851652"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "14581484"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0002264",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904989",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:1904987",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:1904988",
+      "relation": "negatively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0030509",
+    "isObsolete": false,
+    "name": "BMP signaling pathway",
+    "definition": {
+     "text": "The series of molecular signals initiated by the binding of a member of the BMP (bone morphogenetic protein) family to a receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0878932437"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "17428827"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "BMP receptor signaling pathway",
+      "type": "related"
+     },
+     {
+      "name": "BMP signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "bone morphogenetic protein signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "bone morphogenetic protein signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "decapentaplegic receptor signaling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "decapentaplegic receptor signalling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "decapentaplegic signaling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "dpp receptor signaling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "dpp receptor signalling pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "dpp signaling pathway",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0030510",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0030513",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0030514",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0098821",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0070374",
+    "isObsolete": false,
+    "name": "positive regulation of ERK1 and ERK2 cascade",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of signal transduction mediated by the ERK1 and ERK2 cascade."
+    },
+    "synonyms": [
+     {
+      "name": "activation of ERK1 and ERK2 cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of ERK1/2 cascade",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of ERK1 and ERK2 signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of ERK1 and ERK2 signalling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of ERK1 cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of ERK2 cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of ERK cascade",
+      "type": "broad"
+     },
+     {
+      "name": "positive regulation of MAPK1 cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of MAPK3 cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "stimulation of ERK1 and ERK2 cascade",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of ERK1 and ERK2 cascade",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of ERK1 and ERK2 cascade",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of ERK1 and ERK2 cascade",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0045765",
+    "isObsolete": false,
+    "name": "regulation of angiogenesis",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of angiogenesis."
+    },
+    "children": [
+     {
+      "id": "GO:0016525",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903670",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905553",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045766",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061043",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001657",
+    "isObsolete": false,
+    "name": "ureteric bud development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of the ureteric bud over time, from its formation to the mature structure."
+    },
+    "children": [
+     {
+      "id": "GO:0072099",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035503",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060675",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035502",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0072138",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0001568",
+    "isObsolete": false,
+    "name": "blood vessel development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of a blood vessel over time, from its formation to the mature structure. The blood vessel is the vasculature carrying blood.",
+     "xrefs": [
+      {
+       "dbCode": "UBERON",
+       "dbId": "0001981"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0072012",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060840",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060841",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048514",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060837",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035779",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060674",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060976",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001955",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060395",
+    "isObsolete": false,
+    "name": "SMAD protein signal transduction",
+    "definition": {
+     "text": "An intracellular signaling cassette that starts with the activation of a SMAD protein, leading to the formation of a complex with co-SMADs, which translocates to the nucleus and regulates transcription of specific target genes."
+    },
+    "comment": "Note that the upstream receptor and its ligand regulate the pathway (and are not part of the SMAD pathway), since it is an intracellular signaling pathway.",
+    "children": [
+     {
+      "id": "GO:0060391",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0060392",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0060390",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0060391",
+    "isObsolete": false,
+    "name": "positive regulation of SMAD protein signal transduction",
+    "definition": {
+     "text": "Any process that increases the rate, frequency or extent of SMAD protein signal transduction."
+    },
+    "synonyms": [
+     {
+      "name": "positive regulation of SMAD protein import into nucleus",
+      "type": "narrow"
+     },
+     {
+      "name": "positive regulation of SMAD protein nuclear translocation",
+      "type": "narrow"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0035295",
+    "isObsolete": false,
+    "name": "tube development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of a tube over time, from its initial formation to a mature structure. Epithelial and endothelial tubes transport gases, liquids and cells from one site to another and form the basic structure of many organs and tissues including lung and trachea, kidney, the mammary gland, the vascular system and the gastrointestinal and urinary-genital tracts.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "12526790"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0030323",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072031",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072032",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035502",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060066",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061326",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072176",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072164",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048565",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035050",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060872",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072044",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072066",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072520",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072065",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061108",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905867",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061009",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072189",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021915",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072170",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071599",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061071",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035239",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061205",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1903672",
+    "isObsolete": false,
+    "name": "positive regulation of sprouting angiogenesis",
+    "definition": {
+     "text": "Any process that activates or increases the frequency, rate or extent of sprouting angiogenesis.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000058"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "16756958"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "activation of sprouting angiogenesis",
+      "type": "narrow"
+     },
+     {
+      "name": "up regulation of sprouting angiogenesis",
+      "type": "exact"
+     },
+     {
+      "name": "up-regulation of sprouting angiogenesis",
+      "type": "exact"
+     },
+     {
+      "name": "upregulation of sprouting angiogenesis",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0031012",
+    "isObsolete": false,
+    "name": "extracellular matrix",
+    "definition": {
+     "text": "A structure lying external to one or more cells, which provides structural support, biochemical or biomechanical cues for cells or tissues.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "21123617"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "28089324"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "33605520"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "matrisome",
+      "type": "narrow"
+     },
+     {
+      "name": "proteinaceous extracellular matrix",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0005604",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005614",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140047",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098642",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0005201",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0140086",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0160108",
+    "isObsolete": false,
+    "name": "animal gross anatomical part developmental process",
+    "definition": {
+     "text": "A developmental process whose specific outcome is the progression of a gross anatomical part of an animal over time from an initial condition to a later condition."
+    },
+    "synonyms": [
+     {
+      "name": "animal development",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0021770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061380",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061196",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032835",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060022",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060166",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035502",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905072",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1905867",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048036",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061448",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001568",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903701",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060429",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002165",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048485",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003157",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060711",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0016319",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062094",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903867",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106336",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072058",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001945",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0070121",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072359",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021729",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021695",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036302",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001824",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021767",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036340",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061376",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071728",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030282",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021536",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060541",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021541",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007418",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048098",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021854",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021794",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048724",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071109",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903700",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072022",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048486",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021549",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060023",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060712",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021756",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002930",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060322",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021783",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001944",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007422",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048736",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072057",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0040003",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001501",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061524",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003205",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048857",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061377",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021537",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904888",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061152",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030901",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007399",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060525",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048723",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072006",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061054",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072360",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0044691",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048882",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055123",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072044",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007497",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021987",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060465",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021546",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048565",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060537",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003279",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021678",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045299",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061548",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0040002",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072056",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022038",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021670",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061378",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021765",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904866",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021727",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030900",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061360",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007398",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033504",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048722",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042246",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061027",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007496",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072066",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021986",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007458",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090102",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904817",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034505",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061080",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021550",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021679",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072520",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060430",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072055",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022037",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072032",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061379",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060037",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021766",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035801",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021544",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060041",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001541",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003360",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061079",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048383",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048880",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021989",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021680",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072065",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021905",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904818",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060618",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048839",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072016",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035906",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007502",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036306",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072031",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060749",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072054",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046697",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021517",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030902",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048513",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048286",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061029",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060462",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061055",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007498",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008544",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060485",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021988",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021681",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1904819",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048887",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0009792",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021764",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021510",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061373",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035905",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035993",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061032",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007487",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072053",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039018",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035270",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021542",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007417",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035878",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060066",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021772",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061009",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003407",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060872",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003170",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002088",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048727",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048483",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048840",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002520",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061374",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021761",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021591",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007421",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061205",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030917",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003410",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031215",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021538",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021723",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021769",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035844",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021543",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001893",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060021",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035503",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048058",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990375",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1903702",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048726",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007477",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002164",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007552",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048484",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0014000",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060067",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061303",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039009",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060324",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0090008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061375",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021592",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061061",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072059",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007492",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061034",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072051",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021675",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0039012",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001942",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021539",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021516",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0048731",
+    "isObsolete": false,
+    "name": "system development",
+    "definition": {
+     "text": "The process whose specific outcome is the progression of an organismal system over time, from its formation to the mature structure. A system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a given biological process."
+    },
+    "children": [
+     {
+      "id": "GO:0072001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061008",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0055123",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048367",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007417",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048880",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060541",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072359",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060037",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035270",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0002520",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035272",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007399",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001501",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061458",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007421",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007422",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001944",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021591",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0001655",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022622",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048484",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099402",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0048485",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048483",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021761",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048486",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0021783",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0010594",
+    "isObsolete": false,
+    "name": "regulation of endothelial cell migration",
+    "definition": {
+     "text": "Any process that modulates the rate, frequency, or extent of the orderly movement of an endothelial cell into the extracellular matrix to form an endothelium."
+    },
+    "children": [
+     {
+      "id": "GO:0043535",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010596",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:2001026",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010595",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0140149",
+    "isObsolete": false,
+    "name": "non-collagenous component of interstitial matrix",
+    "definition": {
+     "text": "The non-collagenous component of interstitial extracellular matrices, including glycoprotein like fibronectin and elastin.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "21123617"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "25701227"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "33605520"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "39223427"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0090733",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120216",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:1990341",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0071953",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061800",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0140144",
+    "isObsolete": false,
+    "name": "non-collagenous component of basement membrane",
+    "definition": {
+     "text": "The non-collagenous compartment of the solid phase in basement membrane ECM, including glycoproteins like laminins or nidogens.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "21421915"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "28324731"
+      }
+     ]
+    },
+    "children": [
+     {
+      "id": "GO:0140349",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

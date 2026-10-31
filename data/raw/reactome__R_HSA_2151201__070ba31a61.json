@@ -1,0 +1,1098 @@
+{
+ "source": "reactome",
+ "query": "R-HSA-2151201",
+ "url": "https://reactome.org/ContentService/data/query/R-HSA-2151201",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:55:22+00:00",
+ "response": {
+  "dbId": 2151201,
+  "displayName": "Transcriptional activation of mitochondrial biogenesis",
+  "stId": "R-HSA-2151201",
+  "stIdVersion": "R-HSA-2151201.4",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Transcriptional activation of mitochondrial biogenesis"
+  ],
+  "releaseDate": "2014-03-12",
+  "speciesName": "Homo sapiens",
+  "compartment": [
+   {
+    "dbId": 70101,
+    "displayName": "cytosol",
+    "accession": "0005829",
+    "databaseName": "GO",
+    "definition": "\"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.\" [GOC:hjd, GOC:jl]",
+    "name": "cytosol",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005829",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 7660,
+    "displayName": "nucleoplasm",
+    "accession": "0005654",
+    "databaseName": "GO",
+    "definition": "\"That part of the nuclear content other than the chromosomes or the nucleolus.\" [GOC:ma, ISBN:0124325653]",
+    "name": "nucleoplasm",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005654",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   },
+   {
+    "dbId": 5460,
+    "displayName": "mitochondrial matrix",
+    "accession": "0005759",
+    "databaseName": "GO",
+    "definition": "\"The gel-like material, with considerable fine structure, that lies in the matrix space, or lumen, of a mitochondrion. It contains the enzymes of the tricarboxylic acid cycle and, in some organisms, the enzymes concerned with fatty acid oxidation.\" [GOC:as, ISBN:0198506732]",
+    "name": "mitochondrial matrix",
+    "url": "https://www.ebi.ac.uk/QuickGO/term/GO:0005759",
+    "className": "Compartment",
+    "schemaClass": "Compartment"
+   }
+  ],
+  "literatureReference": [
+   {
+    "dbId": 1605445,
+    "displayName": "Metabolic control of mitochondrial biogenesis through the PGC-1 family regulatory network",
+    "title": "Metabolic control of mitochondrial biogenesis through the PGC-1 family regulatory network",
+    "journal": "Biochim Biophys Acta",
+    "pages": "1269-78",
+    "pubMedIdentifier": 20933024,
+    "volume": 1813,
+    "year": 2011,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20933024",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1605453,
+    "displayName": "Transcriptional and post-transcriptional regulation of mitochondrial biogenesis in skeletal muscle: effects of exercise and aging",
+    "title": "Transcriptional and post-transcriptional regulation of mitochondrial biogenesis in skeletal muscle: effects of exercise and aging",
+    "journal": "Biochim Biophys Acta",
+    "pages": "223-34",
+    "pubMedIdentifier": 19682549,
+    "volume": 1800,
+    "year": 2010,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19682549",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 1605452,
+    "displayName": "Transcriptional control of mitochondrial biogenesis and function",
+    "title": "Transcriptional control of mitochondrial biogenesis and function",
+    "journal": "Annu Rev Physiol",
+    "pages": "177-203",
+    "pubMedIdentifier": 19575678,
+    "volume": 71,
+    "year": 2009,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/19575678",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 2527250,
+    "displayName": "Transcriptional control of mitochondrial biogenesis and its interface with inflammatory processes",
+    "title": "Transcriptional control of mitochondrial biogenesis and its interface with inflammatory processes",
+    "journal": "Biochim. Biophys. Acta",
+    "pages": "532-41",
+    "pubMedIdentifier": 22265687,
+    "volume": 1820,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22265687",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   },
+   {
+    "dbId": 3270588,
+    "displayName": "Transcriptional integration of mitochondrial biogenesis",
+    "title": "Transcriptional integration of mitochondrial biogenesis",
+    "journal": "Trends Endocrinol. Metab.",
+    "pages": "459-66",
+    "pubMedIdentifier": 22817841,
+    "volume": 23,
+    "year": 2012,
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22817841",
+    "className": "LiteratureReference",
+    "schemaClass": "LiteratureReference"
+   }
+  ],
+  "orthologousEvent": [
+   {
+    "dbId": 11171616,
+    "displayName": "Transcriptional activation of mitochondrial biogenesis",
+    "stId": "R-PFA-2151201",
+    "stIdVersion": "R-PFA-2151201.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional activation of mitochondrial biogenesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Plasmodium falciparum",
+    "inferredFrom": [
+     2151201
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11092405,
+    "displayName": "Transcriptional activation of mitochondrial biogenesis",
+    "stId": "R-DDI-2151201",
+    "stIdVersion": "R-DDI-2151201.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional activation of mitochondrial biogenesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Dictyostelium discoideum",
+    "inferredFrom": [
+     2151201
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 11037038,
+    "displayName": "Transcriptional activation of mitochondrial biogenesis",
+    "stId": "R-CEL-2151201",
+    "stIdVersion": "R-CEL-2151201.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional activation of mitochondrial biogenesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Caenorhabditis elegans",
+    "inferredFrom": [
+     2151201
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10953467,
+    "displayName": "Transcriptional activation of mitochondrial biogenesis",
+    "stId": "R-DME-2151201",
+    "stIdVersion": "R-DME-2151201.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional activation of mitochondrial biogenesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Drosophila melanogaster",
+    "inferredFrom": [
+     2151201
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10119644,
+    "displayName": "Transcriptional activation of mitochondrial biogenesis",
+    "stId": "R-MMU-2151201",
+    "stIdVersion": "R-MMU-2151201.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional activation of mitochondrial biogenesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Mus musculus",
+    "inferredFrom": [
+     2151201
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10260964,
+    "displayName": "Transcriptional activation of mitochondrial biogenesis",
+    "stId": "R-RNO-2151201",
+    "stIdVersion": "R-RNO-2151201.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional activation of mitochondrial biogenesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Rattus norvegicus",
+    "inferredFrom": [
+     2151201
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10368189,
+    "displayName": "Transcriptional activation of mitochondrial biogenesis",
+    "stId": "R-CFA-2151201",
+    "stIdVersion": "R-CFA-2151201.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional activation of mitochondrial biogenesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Canis familiaris",
+    "inferredFrom": [
+     2151201
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10483065,
+    "displayName": "Transcriptional activation of mitochondrial biogenesis",
+    "stId": "R-BTA-2151201",
+    "stIdVersion": "R-BTA-2151201.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional activation of mitochondrial biogenesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Bos taurus",
+    "inferredFrom": [
+     2151201
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10596370,
+    "displayName": "Transcriptional activation of mitochondrial biogenesis",
+    "stId": "R-SSC-2151201",
+    "stIdVersion": "R-SSC-2151201.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional activation of mitochondrial biogenesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Sus scrofa",
+    "inferredFrom": [
+     2151201
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10688792,
+    "displayName": "Transcriptional activation of mitochondrial biogenesis",
+    "stId": "R-DRE-2151201",
+    "stIdVersion": "R-DRE-2151201.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional activation of mitochondrial biogenesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Danio rerio",
+    "inferredFrom": [
+     2151201
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10770077,
+    "displayName": "Transcriptional activation of mitochondrial biogenesis",
+    "stId": "R-XTR-2151201",
+    "stIdVersion": "R-XTR-2151201.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional activation of mitochondrial biogenesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Xenopus tropicalis",
+    "inferredFrom": [
+     2151201
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   },
+   {
+    "dbId": 10867849,
+    "displayName": "Transcriptional activation of mitochondrial biogenesis",
+    "stId": "R-GGA-2151201",
+    "stIdVersion": "R-GGA-2151201.1",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 2,
+    "name": [
+     "Transcriptional activation of mitochondrial biogenesis"
+    ],
+    "releaseDate": "2026-09-16",
+    "speciesName": "Gallus gallus",
+    "inferredFrom": [
+     2151201
+    ],
+    "hasDiagram": false,
+    "hasEHLD": false,
+    "schemaClass": "Pathway",
+    "className": "Pathway"
+   }
+  ],
+  "species": [
+   {
+    "dbId": 48887,
+    "displayName": "Homo sapiens",
+    "name": [
+     "Homo sapiens",
+     "H. sapiens",
+     "Hs",
+     "human",
+     "man"
+    ],
+    "taxId": "9606",
+    "abbreviation": "HSA",
+    "className": "Species",
+    "schemaClass": "Species"
+   }
+  ],
+  "summation": [
+   {
+    "dbId": 2151200,
+    "displayName": "Phosphorylated PPARGC1A (PGC-1alpha) does not bind DNA direc...",
+    "text": "Phosphorylated PPARGC1A (PGC-1alpha) does not bind DNA directly but instead interacts with other transcription factors, notably NRF1 and NRF2 (via HCF1). NRF1 and NRF2 together with PPARGC1A activate the transcription of nuclear-encoded, mitochondrially targeted proteins such as TFB2M, TFB1M, and TFAM. PGC-1beta and PPRC appear to act similarly to PGC-1alpha but have not been as well studied. Transcription of PPARGC1A itself is upregulated by CREB1 (in response to calcium), MEF2C/D, ATF2, and PPARGC1A. Transcription of PPARGC1A is repressed by NR1D1 (REV-ERBA).",
+    "className": "Summation",
+    "schemaClass": "Summation"
+   }
+  ],
+  "reviewStatus": {
+   "dbId": 9821382,
+   "displayName": "five stars",
+   "definition": "externally reviewed",
+   "name": [
+    "five stars"
+   ],
+   "className": "ReviewStatus",
+   "schemaClass": "ReviewStatus"
+  },
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2021-09-15",
+  "hasEvent": [
+   {
+    "dbId": 1592240,
+    "displayName": "Formation of NRF2",
+    "stId": "R-HSA-1592240",
+    "stIdVersion": "R-HSA-1592240.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Formation of NRF2"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1592242,
+    "displayName": "Expression of NRF1",
+    "stId": "R-HSA-1592242",
+    "stIdVersion": "R-HSA-1592242.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of NRF1"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1592250,
+    "displayName": "NRF1, PPRC1:HCFC1:NRF2 bind the TFB1M promoter",
+    "stId": "R-HSA-1592250",
+    "stIdVersion": "R-HSA-1592250.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NRF1, PPRC1:HCFC1:NRF2 bind the TFB1M promoter"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2466367,
+    "displayName": "NRF1, PPRC1:HCFC1:NRF2 bind the TFB2M promoter",
+    "stId": "R-HSA-2466367",
+    "stIdVersion": "R-HSA-2466367.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NRF1, PPRC1:HCFC1:NRF2 bind the TFB2M promoter"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1592236,
+    "displayName": "NRF1:p-PPARGC1A, NRF2 bind the TFB1M promoter",
+    "stId": "R-HSA-1592236",
+    "stIdVersion": "R-HSA-1592236.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NRF1:p-PPARGC1A, NRF2 bind the TFB1M promoter"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2466392,
+    "displayName": "NRF1:p-PPARGC1A, NRF2 bind the TFB2M promoter",
+    "stId": "R-HSA-2466392",
+    "stIdVersion": "R-HSA-2466392.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NRF1:p-PPARGC1A, NRF2 bind the TFB2M promoter"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1592249,
+    "displayName": "NRF1, PPRC1, NRF2 bind the TFAM promoter",
+    "stId": "R-HSA-1592249",
+    "stIdVersion": "R-HSA-1592249.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NRF1, PPRC1, NRF2 bind the TFAM promoter"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2466391,
+    "displayName": "NRF1:p-PPARGC1A, NRF2 bind the TFAM promoter",
+    "stId": "R-HSA-2466391",
+    "stIdVersion": "R-HSA-2466391.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "NRF1:p-PPARGC1A, NRF2 bind the TFAM promoter"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1592245,
+    "displayName": "NRF1:PPARGC1B binds the ALAS1 promoter",
+    "stId": "R-HSA-1592245",
+    "stIdVersion": "R-HSA-1592245.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "NRF1:PPARGC1B binds the ALAS1 promoter"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2466369,
+    "displayName": "NRF1:PPARGC1B binds the ATP5B promoter",
+    "stId": "R-HSA-2466369",
+    "stIdVersion": "R-HSA-2466369.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "NRF1:PPARGC1B binds the ATP5B promoter"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 2466370,
+    "displayName": "NRF1:PPARGC1B binds the CYCS promoter",
+    "stId": "R-HSA-2466370",
+    "stIdVersion": "R-HSA-2466370.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "NRF1:PPARGC1B binds the CYCS promoter"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "binding",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1592234,
+    "displayName": "Expression of GABPA (NRF2 alpha subunit)",
+    "stId": "R-HSA-1592234",
+    "stIdVersion": "R-HSA-1592234.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of GABPA (NRF2 alpha subunit)"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1592232,
+    "displayName": "Expression of TFB1M",
+    "stId": "R-HSA-1592232",
+    "stIdVersion": "R-HSA-1592232.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of TFB1M"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1592252,
+    "displayName": "Expression of TFB2M",
+    "stId": "R-HSA-1592252",
+    "stIdVersion": "R-HSA-1592252.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of TFB2M"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1592246,
+    "displayName": "Expression of TFAM",
+    "stId": "R-HSA-1592246",
+    "stIdVersion": "R-HSA-1592246.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of TFAM"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1592229,
+    "displayName": "TFAM translocates from the cytosol to the mitochondrial matrix",
+    "stId": "R-HSA-1592229",
+    "stIdVersion": "R-HSA-1592229.2",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "TFAM translocates from the cytosol to the mitochondrial matrix"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1592231,
+    "displayName": "Expression of CYCS",
+    "stId": "R-HSA-1592231",
+    "stIdVersion": "R-HSA-1592231.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of CYCS",
+     "Expression of Cytochrome c"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1592247,
+    "displayName": "Expression of ATP5B",
+    "stId": "R-HSA-1592247",
+    "stIdVersion": "R-HSA-1592247.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of ATP5B",
+     "Expression of ATP Synthase beta subunit"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1592238,
+    "displayName": "Expression of ALAS1",
+    "stId": "R-HSA-1592238",
+    "stIdVersion": "R-HSA-1592238.7",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of ALAS1",
+     "Expression of 5-aminolevulinate synthase 1"
+    ],
+    "releaseDate": "2011-12-06",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1592243,
+    "displayName": "Expression of POLRMT",
+    "stId": "R-HSA-1592243",
+    "stIdVersion": "R-HSA-1592243.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of POLRMT"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1592241,
+    "displayName": "Expression of SSBP1",
+    "stId": "R-HSA-1592241",
+    "stIdVersion": "R-HSA-1592241.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of SSBP1",
+     "Expression of mtSSB"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1592251,
+    "displayName": "Expression of MTERF1 (mTERF)",
+    "stId": "R-HSA-1592251",
+    "stIdVersion": "R-HSA-1592251.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of MTERF1 (mTERF)"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1592235,
+    "displayName": "Expression of POLG2",
+    "stId": "R-HSA-1592235",
+    "stIdVersion": "R-HSA-1592235.5",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of POLG2",
+     "Expression of DNA polymerase-gamma, subunit B"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1592239,
+    "displayName": "Expression of TWINKLE (TWNK, PEO1)",
+    "stId": "R-HSA-1592239",
+    "stIdVersion": "R-HSA-1592239.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of TWINKLE (TWNK, PEO1)",
+     "Expression of PEO1"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 111912,
+    "displayName": "CaMK4 phosphorylates CREB1",
+    "stId": "R-HSA-111912",
+    "stIdVersion": "R-HSA-111912.4",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "CaMK4 phosphorylates CREB1"
+    ],
+    "releaseDate": "2008-12-17",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 1368140,
+    "displayName": "Expression of PPARGC1A (PGC-1alpha)",
+    "stId": "R-HSA-1368140",
+    "stIdVersion": "R-HSA-1368140.8",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of PPARGC1A (PGC-1alpha)",
+     "PPARGC1A gene produces PPARGC1A"
+    ],
+    "releaseDate": "2012-03-13",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "uncertain",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1605428,
+    "displayName": "Expression of ESRRA (ERR1, ERRalpha)",
+    "stId": "R-HSA-1605428",
+    "stIdVersion": "R-HSA-1605428.4",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of ESRRA (ERR1, ERRalpha)"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 1605535,
+    "displayName": "Expression of SIRT3",
+    "stId": "R-HSA-1605535",
+    "stIdVersion": "R-HSA-1605535.6",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "Expression of SIRT3"
+    ],
+    "releaseDate": "2014-03-12",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 8940309,
+    "displayName": "Expression of PERM1",
+    "stId": "R-HSA-8940309",
+    "stIdVersion": "R-HSA-8940309.3",
+    "isInDisease": false,
+    "isInferred": true,
+    "maxDepth": 1,
+    "name": [
+     "Expression of PERM1"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "omitted",
+    "className": "Reaction",
+    "schemaClass": "BlackBoxEvent"
+   },
+   {
+    "dbId": 5688276,
+    "displayName": "SIRT4 transfers ADPRib to GLUD",
+    "stId": "R-HSA-5688276",
+    "stIdVersion": "R-HSA-5688276.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SIRT4 transfers ADPRib to GLUD"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5688289,
+    "displayName": "SIRT3 deacetylates ACCS2, GLUD, IDH2, SOD2",
+    "stId": "R-HSA-5688289",
+    "stIdVersion": "R-HSA-5688289.3",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SIRT3 deacetylates ACCS2, GLUD, IDH2, SOD2"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   },
+   {
+    "dbId": 5688294,
+    "displayName": "SIRT5 deacetylates Cytochrome C",
+    "stId": "R-HSA-5688294",
+    "stIdVersion": "R-HSA-5688294.2",
+    "isInDisease": false,
+    "isInferred": false,
+    "maxDepth": 1,
+    "name": [
+     "SIRT5 deacetylates Cytochrome C"
+    ],
+    "releaseDate": "2017-03-27",
+    "speciesName": "Homo sapiens",
+    "eventOf": [
+     2151201
+    ],
+    "isChimeric": false,
+    "category": "transition",
+    "className": "Reaction",
+    "schemaClass": "Reaction"
+   }
+  ],
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+}

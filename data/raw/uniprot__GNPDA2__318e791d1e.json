@@ -1,0 +1,126 @@
+{
+ "source": "uniprot",
+ "query": "GNPDA2",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:GNPDA2) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:50:59+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q8TDQ7",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:21526"
+        }
+       ],
+       "value": "Glucosamine-6-phosphate deaminase 2"
+      },
+      "shortNames": [
+       {
+        "value": "GlcN6P deaminase 2"
+       }
+      ],
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12616532"
+         }
+        ],
+        "value": "3.5.99.6"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000312",
+          "source": "HGNC",
+          "id": "HGNC:21526"
+         }
+        ],
+        "value": "Glucosamine-6-phosphate isomerase 2"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Glucosamine-6-phosphate isomerase SB52"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "26887390"
+        },
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:21526"
+        }
+       ],
+       "value": "GNPDA2"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12616532"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "26887390"
+         }
+        ],
+        "value": "Catalyzes the reversible conversion of alpha-D-glucosamine 6-phosphate (GlcN-6P) into beta-D-fructose 6-phosphate (Fru-6P) and ammonium ion, a regulatory reaction step in de novo uridine diphosphate-N-acetyl-alpha-D-glucosamine (UDP-GlcNAc) biosynthesis via hexosamine pathway. Deamination is coupled to aldo-keto isomerization mediating the metabolic flux from UDP-GlcNAc toward Fru-6P. At high ammonium level can drive amination and isomerization of Fru-6P toward hexosamines and UDP-GlcNAc synthesis. Has a role in fine tuning the metabolic fluctuations of cytosolic UDP-GlcNAc and their effects on hyaluronan synthesis that occur during tissue remodeling"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "132789",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000004D013"
+    }
+   }
+  ]
+ }
+}

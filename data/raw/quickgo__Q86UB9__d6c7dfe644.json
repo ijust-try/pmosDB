@@ -1,0 +1,516 @@
+{
+ "source": "quickgo",
+ "query": "Q86UB9",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search",
+ "params": {
+  "geneProductId": "Q86UB9",
+  "limit": 200
+ },
+ "retrieved_at": "2026-10-31T05:58:03+00:00",
+ "response": {
+  "numberOfHits": 13,
+  "results": [
+   {
+    "id": "UniProtKB:Q86UB9!88953982",
+    "geneProductId": "UniProtKB:Q86UB9",
+    "qualifier": "enables",
+    "goId": "GO:0005515",
+    "goName": null,
+    "goEvidence": "IPI",
+    "goAspect": "molecular_function",
+    "evidenceCode": "ECO:0000353",
+    "reference": "PMID:33961781",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q9NR09"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "IntAct",
+    "extensions": null,
+    "targetSets": [
+     "KRUK"
+    ],
+    "symbol": "TMEM135",
+    "date": "20260725",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:Q86UB9!88953983",
+    "geneProductId": "UniProtKB:Q86UB9",
+    "qualifier": "involved_in",
+    "goId": "GO:0006633",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000265",
+    "reference": "GO_REF:0000107",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q9CYV5"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "ensembl",
+        "id": "ENSMUSP00000042783"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Ensembl",
+    "extensions": null,
+    "targetSets": [
+     "KRUK"
+    ],
+    "symbol": "TMEM135",
+    "date": "20260724",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:Q86UB9!88953984",
+    "geneProductId": "UniProtKB:Q86UB9",
+    "qualifier": "involved_in",
+    "goId": "GO:0007031",
+    "goName": null,
+    "goEvidence": "ISS",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000250",
+    "reference": "GO_REF:0000024",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q5U4F4"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "KRUK"
+    ],
+    "symbol": "TMEM135",
+    "date": "20110704",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:Q86UB9!88953985",
+    "geneProductId": "UniProtKB:Q86UB9",
+    "qualifier": "involved_in",
+    "goId": "GO:0007031",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000265",
+    "reference": "GO_REF:0000107",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q5U4F4"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "ensembl",
+        "id": "ENSRNOP00000022578"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Ensembl",
+    "extensions": null,
+    "targetSets": [
+     "KRUK"
+    ],
+    "symbol": "TMEM135",
+    "date": "20260724",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:Q86UB9!88953986",
+    "geneProductId": "UniProtKB:Q86UB9",
+    "qualifier": "involved_in",
+    "goId": "GO:0090140",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "biological_process",
+    "evidenceCode": "ECO:0000265",
+    "reference": "GO_REF:0000107",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q9CYV5"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "ensembl",
+        "id": "ENSMUSP00000042783"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Ensembl",
+    "extensions": null,
+    "targetSets": [
+     "KRUK"
+    ],
+    "symbol": "TMEM135",
+    "date": "20260724",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:Q86UB9!88953987",
+    "geneProductId": "UniProtKB:Q86UB9",
+    "qualifier": "located_in",
+    "goId": "GO:0005739",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000265",
+    "reference": "GO_REF:0000107",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q9CYV5"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "ensembl",
+        "id": "ENSMUSP00000042783"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Ensembl",
+    "extensions": null,
+    "targetSets": [
+     "KRUK"
+    ],
+    "symbol": "TMEM135",
+    "date": "20260724",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:Q86UB9!88953988",
+    "geneProductId": "UniProtKB:Q86UB9",
+    "qualifier": "located_in",
+    "goId": "GO:0005777",
+    "goName": null,
+    "goEvidence": "ISS",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000250",
+    "reference": "GO_REF:0000024",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q9CYV5"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "KRUK"
+    ],
+    "symbol": "TMEM135",
+    "date": "20110704",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:Q86UB9!88953989",
+    "geneProductId": "UniProtKB:Q86UB9",
+    "qualifier": "located_in",
+    "goId": "GO:0005777",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000501",
+    "reference": "GO_REF:0000120",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q5U4F4"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "ensembl",
+        "id": "ENSRNOP00000022578"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q9CYV5"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "ensembl",
+        "id": "ENSMUSP00000042783"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "KRUK"
+    ],
+    "symbol": "TMEM135",
+    "date": "20260724",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:Q86UB9!88953990",
+    "geneProductId": "UniProtKB:Q86UB9",
+    "qualifier": "located_in",
+    "goId": "GO:0005778",
+    "goName": null,
+    "goEvidence": "ISS",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000250",
+    "reference": "GO_REF:0000024",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q9CYV5"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "KRUK"
+    ],
+    "symbol": "TMEM135",
+    "date": "20240703",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:Q86UB9!88953991",
+    "geneProductId": "UniProtKB:Q86UB9",
+    "qualifier": "located_in",
+    "goId": "GO:0005778",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000501",
+    "reference": "GO_REF:0000120",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q9CYV5"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "ensembl",
+        "id": "ENSMUSP00000042783"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB-SubCell",
+        "id": "SL-0203"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "KRUK"
+    ],
+    "symbol": "TMEM135",
+    "date": "20260727",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:Q86UB9!88953992",
+    "geneProductId": "UniProtKB:Q86UB9",
+    "qualifier": "located_in",
+    "goId": "GO:0005811",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000265",
+    "reference": "GO_REF:0000107",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q9CYV5"
+       }
+      ]
+     },
+     {
+      "connectedXrefs": [
+       {
+        "db": "ensembl",
+        "id": "ENSMUSP00000042783"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "Ensembl",
+    "extensions": null,
+    "targetSets": [
+     "KRUK"
+    ],
+    "symbol": "TMEM135",
+    "date": "20260724",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:Q86UB9!88953993",
+    "geneProductId": "UniProtKB:Q86UB9",
+    "qualifier": "located_in",
+    "goId": "GO:0031966",
+    "goName": null,
+    "goEvidence": "ISS",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0000250",
+    "reference": "GO_REF:0000024",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB",
+        "id": "Q9CYV5"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "KRUK"
+    ],
+    "symbol": "TMEM135",
+    "date": "20240703",
+    "synonyms": null,
+    "name": null
+   },
+   {
+    "id": "UniProtKB:Q86UB9!88953994",
+    "geneProductId": "UniProtKB:Q86UB9",
+    "qualifier": "located_in",
+    "goId": "GO:0031966",
+    "goName": null,
+    "goEvidence": "IEA",
+    "goAspect": "cellular_component",
+    "evidenceCode": "ECO:0007322",
+    "reference": "GO_REF:0000044",
+    "withFrom": [
+     {
+      "connectedXrefs": [
+       {
+        "db": "UniProtKB-SubCell",
+        "id": "SL-0171"
+       }
+      ]
+     }
+    ],
+    "taxonId": 9606,
+    "taxonName": null,
+    "assignedBy": "UniProt",
+    "extensions": null,
+    "targetSets": [
+     "KRUK"
+    ],
+    "symbol": "TMEM135",
+    "date": "20260727",
+    "synonyms": null,
+    "name": null
+   }
+  ],
+  "pageInfo": {
+   "resultsPerPage": 200,
+   "current": 1,
+   "total": 1
+  }
+ }
+}

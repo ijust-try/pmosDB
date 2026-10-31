@@ -1,0 +1,44 @@
+{
+ "source": "ncbigene",
+ "query": "ARL14EP",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+ "params": {
+  "db": "gene",
+  "term": "ARL14EP[sym] AND 9606[taxid]",
+  "retmode": "json",
+  "tool": "pmos-kb",
+  "email": "saarikarajen@gmail.com"
+ },
+ "retrieved_at": "2026-10-31T05:41:07+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "1",
+   "retmax": "1",
+   "retstart": "0",
+   "idlist": [
+    "120534"
+   ],
+   "translationset": [],
+   "translationstack": [
+    {
+     "term": "ARL14EP[sym]",
+     "field": "sym",
+     "count": "857",
+     "explode": "N"
+    },
+    {
+     "term": "9606[taxid]",
+     "field": "taxid",
+     "count": "360596",
+     "explode": "N"
+    },
+    "AND"
+   ],
+   "querytranslation": "ARL14EP[sym] AND 9606[taxid]"
+  }
+ }
+}

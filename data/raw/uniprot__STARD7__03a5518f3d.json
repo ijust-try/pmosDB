@@ -1,0 +1,232 @@
+{
+ "source": "uniprot",
+ "query": "STARD7",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:STARD7) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:57:04+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q9NQZ5",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "29301859"
+        }
+       ],
+       "value": "StAR-related lipid transfer protein 7, mitochondrial"
+      },
+      "shortNames": [
+       {
+        "value": "STARD7, mitochondrial"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Gestational trophoblastic tumor protein 1"
+       }
+      },
+      {
+       "fullName": {
+        "value": "START domain-containing protein 7"
+       },
+       "shortNames": [
+        {
+         "value": "StARD7"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "28821867"
+         },
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "34416390"
+         }
+        ],
+        "value": "StarD7-I"
+       }
+      }
+     ],
+     "contains": [
+      {
+       "recommendedName": {
+        "fullName": {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000269",
+           "source": "PubMed",
+           "id": "28821867"
+          },
+          {
+           "evidenceCode": "ECO:0000303",
+           "source": "PubMed",
+           "id": "29301859"
+          }
+         ],
+         "value": "StAR-related lipid transfer protein 7, mature"
+        },
+        "shortNames": [
+         {
+          "value": "STARD7, mature"
+         }
+        ]
+       },
+       "alternativeNames": [
+        {
+         "fullName": {
+          "evidences": [
+           {
+            "evidenceCode": "ECO:0000303",
+            "source": "PubMed",
+            "id": "28821867"
+           },
+           {
+            "evidenceCode": "ECO:0000303",
+            "source": "PubMed",
+            "id": "34416390"
+           }
+          ],
+          "value": "StarD7-II"
+         }
+        }
+       ]
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:18063"
+        }
+       ],
+       "value": "STARD7"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20042613"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28401922"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28821867"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "29301859"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "32071354"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "34416390"
+         }
+        ],
+        "value": "Mediates non-vesicular transfer of phosphatidylcholine to mitochondria, thereby maintaining mitochondrial membrane lipid composition, cristae organization, and respiratory function across diverse tissues"
+       }
+      ],
+      "commentType": "FUNCTION"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28821867"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "34416390"
+         }
+        ],
+        "value": "Transfers phosphatidylcholine (PC) from the endoplasmic reticulum to the mitochondrial outer membrane at ER-mitochondria contact sites, thereby maintaining mitochondrial PC content, respiratory complex stability and mitochondrial cristae morphology"
+       }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "StAR-related lipid transfer protein 7, mitochondrial"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "29301859"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "36658222"
+         }
+        ],
+        "value": "Transfers phosphatidylcholine (PC) between the mitochondrial outer and inner membranes, contributing to mitochondrial lipid homeostasis. The mature cytosolic and intermembrane space forms of STARD7 mediate non-vesicular PC transport by transiently associating with mitochondrial membranes. Required for normal cristae architecture and optimal activity of the respiratory chain (PubMed:29301859). Mediates intracellular distribution of coenzyme Q (ubiquinone), the intermembrane space form supports mitochondrial coenzyme Q biosynthesis and the cytosolic form transfers coenzyme Q to extramitochondrial membranes, enhancing antioxidant protection and limiting ferroptosis sensitivity (PubMed:36658222)"
+       }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "StAR-related lipid transfer protein 7, mature"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "56910",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000001C0C"
+    }
+   }
+  ]
+ }
+}

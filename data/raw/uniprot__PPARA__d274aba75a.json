@@ -1,0 +1,98 @@
+{
+ "source": "uniprot",
+ "query": "PPARA",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:PPARA) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T05:55:16+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q07869",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Peroxisome proliferator-activated receptor alpha"
+      },
+      "shortNames": [
+       {
+        "value": "PPAR-alpha"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Nuclear receptor subfamily 1 group C member 1"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "PPARA"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10195690"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "24043310"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7629123"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7684926"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9556573"
+         }
+        ],
+        "value": "Ligand-activated transcription factor. Key regulator of lipid metabolism. Activated by the endogenous ligand 1-palmitoyl-2-oleoyl-sn-glycerol-3-phosphocholine (16:0/18:1-GPC). Activated by oleylethanolamide, a naturally occurring lipid that regulates satiety. Receptor for peroxisome proliferators such as hypolipidemic drugs and fatty acids. Regulates the peroxisomal beta-oxidation pathway of fatty acids. Functions as a transcription activator for the ACOX1 and P450 genes. Transactivation activity requires heterodimerization with RXRA and is antagonized by NR2C2. May be required for the propagation of clock information to metabolic pathways regulated by PER2"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "5465",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000000D8E0"
+    }
+   }
+  ]
+ }
+}

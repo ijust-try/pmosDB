@@ -1,0 +1,1271 @@
+{
+ "source": "quickgo_terms",
+ "query": "O95622_0",
+ "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0003008,GO:0003091,GO:0004016,GO:0005886,GO:0005929,GO:0006171,GO:0007189,GO:0007204,GO:0008179,GO:0009190,GO:0016020,GO:0016849,GO:0035556,GO:0061178,GO:0071377,GO:0097110,GO:0097700,GO:1904322",
+ "params": null,
+ "retrieved_at": "2026-10-31T05:40:57+00:00",
+ "response": {
+  "numberOfHits": 18,
+  "results": [
+   {
+    "id": "GO:0004016",
+    "isObsolete": false,
+    "name": "adenylate cyclase activity",
+    "definition": {
+     "text": "Catalysis of the reaction: ATP = 3',5'-cyclic AMP + diphosphate.",
+     "xrefs": [
+      {
+       "dbCode": "EC",
+       "dbId": "4.6.1.1"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "3',5'-cyclic AMP synthetase activity",
+      "type": "related"
+     },
+     {
+      "name": "adenyl cyclase activity",
+      "type": "related"
+     },
+     {
+      "name": "adenylyl cyclase activity",
+      "type": "exact"
+     },
+     {
+      "name": "adenylylcyclase activity",
+      "type": "related"
+     },
+     {
+      "name": "ATP diphosphate-lyase (cyclizing; 3',5'-cyclic-AMP-forming) activity",
+      "type": "related"
+     },
+     {
+      "name": "ATP diphosphate-lyase (cyclizing) activity",
+      "type": "related"
+     },
+     {
+      "name": "ATP pyrophosphate-lyase activity",
+      "type": "related"
+     },
+     {
+      "name": "cAMP generating peptide activity",
+      "type": "related"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0010856",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0007194",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0010854",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0010855",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0008294",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0045762",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0045761",
+      "relation": "regulates"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0016020",
+    "isObsolete": false,
+    "name": "membrane",
+    "definition": {
+     "text": "A lipid bilayer along with all the proteins and protein complexes embedded in it and attached to it.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "integral component of membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral to membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "membrane region",
+      "type": "narrow"
+     },
+     {
+      "name": "region of membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "transmembrane",
+      "type": "related"
+     },
+     {
+      "name": "whole membrane",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0140549",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0019867",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042175",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140221",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031090",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005628",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:7770114",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0032594",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019898",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098590",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0062137",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097478",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098796",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098552",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070056",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0098857",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005905",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048475",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034357",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005642",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0005886",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0036362",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0003008",
+    "isObsolete": false,
+    "name": "system process",
+    "definition": {
+     "text": "A multicellular organismal process carried out by any of the organs or tissues in an organ system. An organ system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a biological objective."
+    },
+    "synonyms": [
+     {
+      "name": "organ system process",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0044057",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0050886",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0050877",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007588",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003013",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003012",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061007",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003014",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0022600",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0003016",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0003091",
+    "isObsolete": false,
+    "name": "renal water homeostasis",
+    "definition": {
+     "text": "Renal process involved in the maintenance of an internal steady state of water in the body."
+    },
+    "synonyms": [
+     {
+      "name": "water homeostasis by the renal system",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0003097",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:1904322",
+    "isObsolete": false,
+    "name": "cellular response to forskolin",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a forskolin stimulus.",
+     "xrefs": [
+      {
+       "dbCode": "GO_REF",
+       "dbId": "0000071"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "15937517"
+      }
+     ]
+    },
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005886",
+    "isObsolete": false,
+    "name": "plasma membrane",
+    "definition": {
+     "text": "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0716731363"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "bacterial inner membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "cell membrane",
+      "type": "exact"
+     },
+     {
+      "name": "cellular membrane",
+      "type": "exact"
+     },
+     {
+      "name": "cytoplasmic membrane",
+      "type": "exact"
+     },
+     {
+      "name": "inner endospore membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral component of plasma membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "integral to plasma membrane",
+      "type": "narrow"
+     },
+     {
+      "name": "juxtamembrane",
+      "type": "broad"
+     },
+     {
+      "name": "plasmalemma",
+      "type": "exact"
+     },
+     {
+      "name": "plasma membrane lipid bilayer",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0097524",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033616",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0044862",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0019897",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098953",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0044298",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042383",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046868",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032584",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009510",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000222",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097197",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001891",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0000223",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001772",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098590",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030936",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009897",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009898",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0032178",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0030094",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031979",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0099632",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0042774",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0043113",
+      "relation": "occurs_in"
+     },
+     {
+      "id": "GO:0033012",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031910",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0016328",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031911",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120001",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1990014",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009548",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0070014",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098797",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031257",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031256",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0098802",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0033181",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0044853",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0001533",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033101",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0009546",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0005929",
+    "isObsolete": false,
+    "name": "cilium",
+    "definition": {
+     "text": "A specialized eukaryotic organelle that consists of a filiform extrusion of the cell surface and of some cytoplasmic parts. Each cilium is largely bounded by an extrusion of the cytoplasmic (plasma) membrane, and contains a regular longitudinal array of microtubules, anchored to a basal body.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198547684"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "16824949"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "17009929"
+      },
+      {
+       "dbCode": "PMID",
+       "dbId": "20144998"
+      }
+     ]
+    },
+    "comment": "Note that we deem cilium and microtubule-based flagellum to be equivalent. In most eukaryotic species, intracellular sub-components of the cilium, such as the ciliary base and rootlet, are located near the plasma membrane. In Diplomonads such as Giardia, instead, the same ciliary parts are located further intracellularly. Also, 'cilium' may be used when axonemal structure and/or motility are unknown, or when axonemal structure is unusual. For all other cases, please refer to children of 'cilium'. Finally, note that any role of ciliary proteins in sensory events should be captured by annotating to relevant biological process terms.",
+    "synonyms": [
+     {
+      "name": "eukaryotic flagellum",
+      "type": "exact"
+     },
+     {
+      "name": "flagellum",
+      "type": "related"
+     },
+     {
+      "name": "microtubule-based flagellum",
+      "type": "exact"
+     },
+     {
+      "name": "primary cilium",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0035869",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097014",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0020016",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0034464",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097730",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061822",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097542",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097539",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097543",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0061823",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0097544",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0031514",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097546",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0036064",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120103",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0060170",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0035253",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0120260",
+      "relation": "part_of"
+     },
+     {
+      "id": "GO:0042073",
+      "relation": "occurs_in"
+     }
+    ],
+    "aspect": "cellular_component",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0016849",
+    "isObsolete": false,
+    "name": "phosphorus-oxygen lyase activity",
+    "definition": {
+     "text": "Catalysis of the cleavage of a phosphorus-oxygen bond by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond."
+    },
+    "children": [
+     {
+      "id": "GO:0008685",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033899",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033902",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004383",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0033897",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004436",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047396",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004016",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047805",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0008847",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061799",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0004522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000213",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0034012",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0046589",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0061178",
+    "isObsolete": false,
+    "name": "regulation of insulin secretion involved in cellular response to glucose stimulus",
+    "definition": {
+     "text": "Any process that modulates the frequency, rate or extent of the regulated release of insulin that contributes to the response of a cell to glucose."
+    },
+    "synonyms": [
+     {
+      "name": "regulation of insulin secretion in response to glucose",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0035774",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0061179",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0097110",
+    "isObsolete": false,
+    "name": "scaffold protein binding",
+    "definition": {
+     "text": "Binding to a scaffold protein. Scaffold proteins are crucial regulators of many key signaling pathways. Although not strictly defined in function, they are known to interact and/or bind with multiple members of a signaling pathway, tethering them into complexes.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "10433269"
+      },
+      {
+       "dbCode": "Wikipedia",
+       "dbId": "Scaffold_protein"
+      }
+     ]
+    },
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0006171",
+    "isObsolete": false,
+    "name": "cAMP biosynthetic process",
+    "definition": {
+     "text": "The chemical reactions and pathways resulting in the formation of the nucleotide cAMP (cyclic AMP, adenosine 3',5'-cyclophosphate).",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "3',5' cAMP biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "3',5'-cAMP biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "3',5' cAMP biosynthetic process",
+      "type": "exact"
+     },
+     {
+      "name": "3',5'-cAMP biosynthetic process",
+      "type": "exact"
+     },
+     {
+      "name": "adenosine 3',5'-cyclophosphate biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "adenosine 3',5'-cyclophosphate biosynthetic process",
+      "type": "exact"
+     },
+     {
+      "name": "cAMP anabolism",
+      "type": "exact"
+     },
+     {
+      "name": "cAMP biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "cAMP formation",
+      "type": "exact"
+     },
+     {
+      "name": "cAMP synthesis",
+      "type": "exact"
+     },
+     {
+      "name": "cyclic AMP biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "cyclic AMP biosynthetic process",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0035556",
+    "isObsolete": false,
+    "name": "intracellular signal transduction",
+    "definition": {
+     "text": "The process in which a signal is passed on to downstream components within the cell, which become activated themselves to further propagate the signal and finally trigger a change in the function or state of the cell.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "3527303782"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "intracellular signaling cascade",
+      "type": "related"
+     },
+     {
+      "name": "intracellular signaling pathway",
+      "type": "related"
+     },
+     {
+      "name": "intracellular signal transduction pathway",
+      "type": "narrow"
+     },
+     {
+      "name": "signal transmission via intracellular cascade",
+      "type": "narrow"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0031098",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902532",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0062200",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031929",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097411",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010019",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0072331",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0097193",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006984",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0048015",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0031930",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0035329",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902533",
+      "relation": "positively_regulates"
+     },
+     {
+      "id": "GO:0000160",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007231",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030522",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0030968",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0042770",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0000075",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0141124",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:1902531",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0070528",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0008179",
+    "isObsolete": false,
+    "name": "adenylate cyclase binding",
+    "definition": {
+     "text": "Binding to an adenylate cyclase."
+    },
+    "synonyms": [
+     {
+      "name": "adenylyl cyclase binding",
+      "type": "exact"
+     }
+    ],
+    "aspect": "molecular_function",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0071377",
+    "isObsolete": false,
+    "name": "cellular response to glucagon stimulus",
+    "definition": {
+     "text": "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a glucagon stimulus."
+    },
+    "children": [
+     {
+      "id": "GO:0004967",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0097700",
+    "isObsolete": false,
+    "name": "vascular endothelial cell response to laminar fluid shear stress",
+    "definition": {
+     "text": "Any response to laminar fluid shear stress in a vascular endothelial cell.",
+     "xrefs": [
+      {
+       "dbCode": "PMID",
+       "dbId": "21768538"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "blood vessel endothelial cell response to laminar fluid shear stress",
+      "type": "exact"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0009190",
+    "isObsolete": false,
+    "name": "cyclic nucleotide biosynthetic process",
+    "definition": {
+     "text": "The chemical reactions and pathways resulting in the formation of a cyclic nucleotide, a nucleotide in which the phosphate group is in diester linkage to two positions on the sugar residue.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0198506732"
+      }
+     ]
+    },
+    "synonyms": [
+     {
+      "name": "cyclic nucleotide anabolism",
+      "type": "exact"
+     },
+     {
+      "name": "cyclic nucleotide biosynthesis",
+      "type": "exact"
+     },
+     {
+      "name": "cyclic nucleotide formation",
+      "type": "exact"
+     },
+     {
+      "name": "cyclic nucleotide synthesis",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0006171",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0006182",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0047805",
+      "relation": "part_of"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007204",
+    "isObsolete": false,
+    "name": "positive regulation of cytosolic calcium ion concentration",
+    "definition": {
+     "text": "Any process that increases the concentration of calcium ions in the cytosol."
+    },
+    "synonyms": [
+     {
+      "name": "cytoplasmic calcium ion concentration elevation",
+      "type": "broad"
+     },
+     {
+      "name": "cytosolic calcium ion concentration elevation",
+      "type": "exact"
+     },
+     {
+      "name": "elevation of calcium ion concentration in cytoplasm",
+      "type": "broad"
+     },
+     {
+      "name": "elevation of calcium ion concentration in cytosol",
+      "type": "exact"
+     },
+     {
+      "name": "elevation of cytoplasmic calcium ion concentration",
+      "type": "broad"
+     },
+     {
+      "name": "elevation of cytosolic calcium ion concentration",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0010524",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099533",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060402",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0099588",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0060470",
+      "relation": "is_a"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   },
+   {
+    "id": "GO:0007189",
+    "isObsolete": false,
+    "name": "adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+    "definition": {
+     "text": "A G protein-coupled receptor signaling pathway in which the signal is transmitted via the activation of adenylyl cyclase activity which results in an increase in the intracellular concentration of cyclic AMP (cAMP). This pathway is negatively regulated by phosphodiesterase, which cleaves cAMP and terminates the signaling.",
+     "xrefs": [
+      {
+       "dbCode": "ISBN",
+       "dbId": "0815316194"
+      }
+     ]
+    },
+    "comment": "This term can be used to annotate ligands, receptors and G-proteins that lead to activation of adenylate cyclase activity within a signaling pathway.",
+    "synonyms": [
+     {
+      "name": "activation of adenylate cyclase activity by G-protein signaling pathway",
+      "type": "related"
+     },
+     {
+      "name": "activation of adenylate cyclase activity involved in G-protein signaling",
+      "type": "related"
+     },
+     {
+      "name": "adenylate cyclase-activating GPCR signaling pathway",
+      "type": "exact"
+     },
+     {
+      "name": "GPCR signaling pathway via activation of adenylate cyclase",
+      "type": "exact"
+     },
+     {
+      "name": "GPCR signaling pathway via activation of adenylate cyclase activity",
+      "type": "exact"
+     },
+     {
+      "name": "G protein signaling, adenylate cyclase activating pathway",
+      "type": "exact"
+     },
+     {
+      "name": "G-protein signaling, adenylate cyclase activating pathway",
+      "type": "exact"
+     },
+     {
+      "name": "G protein signaling, adenylyl cyclase activating pathway",
+      "type": "exact"
+     },
+     {
+      "name": "G-protein signaling, adenylyl cyclase activating pathway",
+      "type": "exact"
+     },
+     {
+      "name": "G protein signalling, adenylate cyclase activating pathway",
+      "type": "exact"
+     },
+     {
+      "name": "G-protein signalling, adenylate cyclase activating pathway",
+      "type": "exact"
+     },
+     {
+      "name": "G protein signalling, adenylyl cyclase activating pathway",
+      "type": "exact"
+     },
+     {
+      "name": "G-protein signalling, adenylyl cyclase activating pathway",
+      "type": "exact"
+     },
+     {
+      "name": "positive regulation of adenylate cyclase activity by G-protein signaling pathway",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of adenylate cyclase activity by G-protein signalling pathway",
+      "type": "related"
+     },
+     {
+      "name": "positive regulation of adenylate cyclase activity involved in G-protein coupled receptor signaling pathway",
+      "type": "exact"
+     }
+    ],
+    "children": [
+     {
+      "id": "GO:0106070",
+      "relation": "regulates"
+     },
+     {
+      "id": "GO:0038035",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0071880",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0010619",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106072",
+      "relation": "negatively_regulates"
+     },
+     {
+      "id": "GO:0007192",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0007191",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0140582",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0038184",
+      "relation": "is_a"
+     },
+     {
+      "id": "GO:0106071",
+      "relation": "positively_regulates"
+     }
+    ],
+    "aspect": "biological_process",
+    "usage": "Unrestricted"
+   }
+  ],
+  "pageInfo": null
+ }
+}

@@ -60,6 +60,12 @@ export default function SourcesPage() {
         )}
       </div>
 
+      {sync.data?.stale && (
+        <div role="alert" className="mb-4 rounded-lg border border-amber/30 bg-amber-soft px-4 py-3 text-[13px] leading-relaxed text-amber">
+          <strong>This data may be out of date.</strong> The last successful synchronisation was {sync.data.daysSinceSync} days ago,
+          well past the weekly schedule.
+        </div>
+      )}
       {sync.data && (
         <section className="panel mb-6 p-5" aria-label="Automatic synchronisation">
           <p className="eyebrow mb-3">Automatic synchronisation</p>

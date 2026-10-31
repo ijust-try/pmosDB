@@ -1,0 +1,81 @@
+{
+ "source": "uniprot",
+ "query": "ZNF217",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:ZNF217) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"
+ },
+ "retrieved_at": "2026-10-31T06:02:10+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "O75362",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Zinc finger protein 217"
+      }
+     }
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "ZNF217"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16203743"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16940172"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17259635"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18625718"
+         }
+        ],
+        "value": "Binds to the promoters of target genes and functions as repressor. Promotes cell proliferation and antagonizes cell death. Promotes phosphorylation of AKT1 at 'Ser-473'"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "GeneID",
+      "id": "7764",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000013C323"
+    }
+   }
+  ]
+ }
+}
