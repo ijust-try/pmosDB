@@ -68,9 +68,14 @@ class FixtureKB:
             "INSERT INTO therapeutics VALUES (?,?,?,?,?,?)",
             ("Inositol", "Mechanism not fully understood.", "892", "PubChem", "892", "2026-01-01"),
         )
-        conn.execute(
-            "INSERT INTO publications VALUES (?,?,?,?,?,?,?)",
-            ("111", "Androgens and PCOS", 2009, "Curr Opin", "PubMed", "111", "2026-01-01"),
+        conn.executemany(
+            "INSERT INTO publications (pmid, title, year, journal, abstract, source, source_accession, retrieved_on) "
+            "VALUES (?,?,?,?,?,?,?,?)",
+            [
+                ("111", "Androgens and PCOS", 2009, "Curr Opin",
+                 "BACKGROUND: Excess hyperandrogenism is a hallmark of PCOS.", "PubMed", "111", "2026-01-01"),
+                ("222", "An editorial", 2010, "Lancet", None, "PubMed", "222", "2026-01-01"),
+            ],
         )
         conn.execute(
             "INSERT INTO therapeutic_target VALUES (?,?,?,?,?,?,?,?,?)",

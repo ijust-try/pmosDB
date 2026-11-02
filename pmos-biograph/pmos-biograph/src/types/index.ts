@@ -122,6 +122,8 @@ export interface Publication extends BaseEntity {
   authors: string[] | null;
   year: number | null;
   journal: string | null;
+  /** PubMed abstract, when the record has one. Used for search and retrieval; the UI shows only an excerpt. */
+  abstract?: string | null;
   pmid: string | null;
   evidenceCategory: EvidenceCategory;
 }

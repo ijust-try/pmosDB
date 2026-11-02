@@ -477,6 +477,7 @@ def build_publication_entity(row: sqlite3.Row) -> dict:
         "authors": None,
         "year": row["year"],
         "journal": row["journal"],
+        "abstract": row["abstract"] if "abstract" in row.keys() else None,
         "pmid": row["pmid"],
         "evidenceCategory": "literature-reference",
         "primaryId": row["pmid"],
@@ -822,13 +823,15 @@ def score_entity(entity: dict, q: str):
         elif q in i and len(q) >= 2:
             consider(55, "identifier")
 
-    if q in norm(entity["description"]):
+    abstract = norm(entity.get("abstract") or "")
+    if q in norm(entity["description"]) or (abstract and q in abstract):
         consider(22, "description")
 
     if best is None:
         tokens = [t for t in q.split() if t]
         if len(tokens) > 1:
-            hay = norm(" ".join([entity["name"], *entity["aliases"], *identifiers_of(entity), entity["description"]]))
+            hay = norm(" ".join([entity["name"], *entity["aliases"], *identifiers_of(entity), entity["description"],
+                                 entity.get("abstract") or ""]))
             if all(t in hay for t in tokens):
                 consider(30, "description")
     return best

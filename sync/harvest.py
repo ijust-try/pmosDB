@@ -22,6 +22,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -70,8 +71,10 @@ def _slug(s) -> str:
     return re.sub(r"[^A-Za-z0-9]+", "_", str(s)).strip("_")[:50]
 
 
-def http_json(url: str, params: dict | None = None, json_body: dict | None = None, timeout: int = 60):
-    """GET (or POST with json_body). Returns parsed JSON, or None on 404. Retries transient errors."""
+def http_get(url: str, params: dict | None = None, json_body: dict | None = None, timeout: int = 60,
+             as_json: bool = True):
+    """GET (or POST with json_body). Returns parsed JSON (or raw text when as_json=False), None on 404.
+    Retries transient errors."""
     if params:
         url = url + ("&" if "?" in url else "?") + urllib.parse.urlencode(params)
     data = json.dumps(json_body).encode() if json_body is not None else None
@@ -82,7 +85,8 @@ def http_json(url: str, params: dict | None = None, json_body: dict | None = Non
         try:
             req = urllib.request.Request(url, data=data, headers=headers)
             with urllib.request.urlopen(req, timeout=timeout) as resp:
-                return json.loads(resp.read().decode("utf-8"))
+                body = resp.read().decode("utf-8")
+                return json.loads(body) if as_json else body
         except urllib.error.HTTPError as exc:
             if exc.code == 404:
                 return None
@@ -94,13 +98,17 @@ def http_json(url: str, params: dict | None = None, json_body: dict | None = Non
         time.sleep(min(2 ** attempt, 30))  # 1, 2, 4, 8, 16, 30 s: about a minute before giving up
 
 
-def fetch(source, query, url, params=None, json_body=None, delay=0.4) -> dict:
+def http_json(url: str, params: dict | None = None, json_body: dict | None = None, timeout: int = 60):
+    return http_get(url, params, json_body, timeout, as_json=True)
+
+
+def fetch(source, query, url, params=None, json_body=None, delay=0.4, as_json=True) -> dict:
     """Cached API call. Returns {source, query, url, params, retrieved_at, response}."""
     key = hashlib.sha1(json.dumps([url, params, json_body], sort_keys=True, default=str).encode()).hexdigest()[:10]
     path = RAW / f"{source}__{_slug(query)}__{key}.json"
     if path.exists() and not _state["refresh"]:
         return json.loads(path.read_text(encoding="utf-8"))
-    resp = http_json(url, params, json_body)
+    resp = http_get(url, params, json_body, as_json=as_json)
     record = {
         "source": source, "query": str(query), "url": url, "params": params,
         "retrieved_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
@@ -201,6 +209,42 @@ def pubmed_for(term, n=PUBS_PER_ENTITY):
                     "journal": doc.get("source"), "source": "PubMed", "source_accession": pmid,
                     "retrieved_on": day(d)})
     return out
+
+
+def _clean_text(s: str | None) -> str | None:
+    s = re.sub(r"\s+", " ", s or "").strip()
+    return s or None
+
+
+def parse_pubmed_abstracts(xml_text: str) -> dict[str, str]:
+    """PubMed efetch XML -> {pmid: abstract}. Structured abstracts keep their section labels
+    ("BACKGROUND: ...") and inline markup (<i>, <sub>) is flattened. Articles without an abstract are omitted."""
+    out: dict[str, str] = {}
+    for article in ET.fromstring(xml_text).iter("PubmedArticle"):
+        pmid = article.findtext("MedlineCitation/PMID")
+        parts = []
+        for node in article.findall("MedlineCitation/Article/Abstract/AbstractText"):
+            text = _clean_text("".join(node.itertext()))
+            if text:
+                label = node.get("Label")
+                parts.append(f"{label.upper()}: {text}" if label and label.upper() != "UNLABELLED" else text)
+        if pmid and parts:
+            out[pmid.strip()] = " ".join(parts)
+    return out
+
+
+def pubmed_abstracts(pmids: list[str], chunk: int = 50) -> dict[str, str]:
+    """Abstracts for the given PMIDs, fetched in batches from NCBI efetch (the only source for abstracts)."""
+    ids = sorted(set(pmids), key=int)
+    found: dict[str, str] = {}
+    for i in range(0, len(ids), chunk):
+        batch = ids[i:i + chunk]
+        rec = fetch("pubmed_abstracts", f"{batch[0]}_n{len(batch)}", EUTILS + "efetch.fcgi",
+                    {"db": "pubmed", "id": ",".join(batch), "retmode": "xml", "tool": "pmos-kb",
+                     "email": CONTACT_EMAIL}, as_json=False)
+        if rec["response"]:
+            found.update(parse_pubmed_abstracts(rec["response"]))
+    return found
 
 
 # --------------------------------------------------------------------------- UniProt
@@ -424,6 +468,12 @@ def harvest(seeds: list[dict], ot_score: dict[str, float]) -> dict[str, list]:
                 raw["publications"].append(pub)
                 raw["entity_pubs"].append({"entity_type": et, "entity_name": name, "pmid": pub["pmid"]})
 
+    abstracts = pubmed_abstracts([p["pmid"] for p in raw["publications"]])
+    for pub in raw["publications"]:
+        pub["abstract"] = abstracts.get(str(pub["pmid"]))
+    unique = {p["pmid"] for p in raw["publications"]}
+    log(f"Abstracts found for {len({p['pmid'] for p in raw['publications'] if p['abstract']})} of {len(unique)} publications")
+
     log("Harvest counts: " + str({k: len(v) for k, v in raw.items()}))
     return raw
 
@@ -438,7 +488,7 @@ COLS = {
     "biomarkers": ["biomarker_name", "evidence", "description", "uniprot_accession"] + PROV,
     "pathways": ["pathway_name", "reactome_id", "description"] + PROV,
     "therapeutics": ["drug_name", "mechanism", "pubchem_cid"] + PROV,
-    "publications": ["pmid", "title", "year", "journal"] + PROV,
+    "publications": ["pmid", "title", "year", "journal", "abstract"] + PROV,
     "go_annotations": ["protein_id", "go_id", "go_name", "aspect"] + PROV,
     "therapeutic_target": ["drug_name", "gene_symbol", "ensembl_id", "chembl_id", "action_type",
                            "mechanism_of_action"] + PROV,
@@ -593,7 +643,7 @@ CREATE TABLE therapeutics (
   source TEXT, source_accession TEXT, retrieved_on TEXT);
 
 CREATE TABLE publications (
-  pmid TEXT PRIMARY KEY, title TEXT, year INTEGER, journal TEXT,
+  pmid TEXT PRIMARY KEY, title TEXT, year INTEGER, journal TEXT, abstract TEXT,
   source TEXT, source_accession TEXT, retrieved_on TEXT);
 
 CREATE TABLE go_annotations (

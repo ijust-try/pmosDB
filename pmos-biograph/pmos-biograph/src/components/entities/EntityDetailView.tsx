@@ -79,6 +79,12 @@ function facts(e: Entity, neighbours: Neighbour[]): Array<{ label: string; value
   }
 }
 
+/** Shortens text at a word boundary. Abstracts belong to their publishers, so the UI links to PubMed for the rest. */
+function excerpt(text: string, max = 500): string {
+  if (text.length <= max) return text;
+  return `${text.slice(0, max).replace(/\s+\S*$/, '')}…`;
+}
+
 function RelationRow({ n }: { n: Neighbour }) {
   return (
     <li className="flex flex-wrap items-center gap-3 px-4 py-3">
@@ -201,6 +207,23 @@ export function EntityDetailView({ entityId }: { entityId: string }) {
                       </div>
                     ))}
                   </dl>
+                </section>
+              ) : null}
+
+              {entity.type === 'publication' && entity.abstract ? (
+                <section className="panel p-5">
+                  <p className="eyebrow">Abstract (excerpt)</p>
+                  <p className="mt-2 text-[14px] leading-relaxed text-ink-soft">{excerpt(entity.abstract)}</p>
+                  {entity.pmid ? (
+                    <a
+                      href={`https://pubmed.ncbi.nlm.nih.gov/${entity.pmid}/`}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mt-3 inline-flex items-center gap-1 text-[12.5px] font-bold text-teal hover:underline"
+                    >
+                      Read the full abstract on PubMed <ExternalLink size={12} aria-hidden />
+                    </a>
+                  ) : null}
                 </section>
               ) : null}
 

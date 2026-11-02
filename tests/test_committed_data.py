@@ -108,8 +108,8 @@ class CommittedDataTests(unittest.TestCase):
 
     def test_clean_csvs_match_the_database(self):
         for table, key in [("genes", "gene_symbol"), ("pathways", "pathway_name"), ("publications", "pmid")]:
-            rows = harvest.csv.DictReader((ROOT / "data" / "clean" / f"{table}.csv").open(encoding="utf-8-sig"))
-            csv_keys = {r[key] for r in rows}
+            with (ROOT / "data" / "clean" / f"{table}.csv").open(encoding="utf-8-sig") as fh:
+                csv_keys = {r[key] for r in harvest.csv.DictReader(fh)}
             db_keys = {str(r[0]) for r in sqlite3.connect(self.db).execute(f"SELECT {key} FROM {table}")}
             self.assertEqual(csv_keys, db_keys, f"{table}.csv is out of step with the database")
 
