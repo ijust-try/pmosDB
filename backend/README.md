@@ -100,3 +100,47 @@ name matches, never on a loose text match.
 The question benchmark is `eval/retrieval_cases.json`, run by `tests/test_retrieval_eval.py`. Known limit: matching is
 lexical, so a synonym that is not in a record (for example "LH receptor" for LHCGR) finds nothing and the bot says so
 rather than guessing. Embeddings could close that gap later.
+
+## Chat (`chat.py`, `POST /api/chat`)
+
+`{"question": "...", "context": "<optional record id the visitor is viewing>"}` returns `{answer, mode, status, intent, records,
+citations, suggestions, unmatchedTerms, notice}`. `mode` is `"model"` (a generated, verified answer) or `"database"`
+(built from the records alone).
+
+The model (Gemini, free tier) is the last step. Refused, no-evidence, greeting and link questions never reach it. For an
+open question with evidence, the model sees only the retrieved records, and its answer is shown only if it passes
+`check_answer`; otherwise the visitor gets the plain records and a notice, so a failure shows less and never invents.
+A generated answer is accepted only when:
+
+- every sentence stating a fact cites records that exist, and no factual sentence is uncited;
+- each sentence's gene/protein/drug symbols, identifiers and numbers (decimals, percentages, anything above 20) appear in
+  the records **that sentence cites**, and most of its key words appear there too;
+- it contains no dosing, efficacy or safety language;
+- links come from the records, never from the model (they are appended as "Sources").
+
+`eval/answer_cases.json` holds 10 faithful and 16 unfaithful canned answers (run by `tests/test_answer_checks.py`).
+
+Known limits of the check (it is word-level, not understanding): it cannot see a reversed relation made only of words the
+record contains ("androgen receptor agonist" for an antagonist), or a number that appears in the cited record but belongs to a
+different statistic. These are listed in the benchmark as `known_gaps`.
+
+Configuration (environment variables; none are stored in the repository):
+
+| variable | default | meaning |
+|---|---|---|
+| `GEMINI_API_KEY` | none | the Gemini key. Without it every answer comes from the database. Set it in Vercel, never in code. |
+| `GEMINI_MODEL` | `gemini-flash-latest` | model name |
+| `CHAT_REQUESTS_PER_MINUTE` | 20 | per visitor, all chat requests (HTTP 429 above this) |
+| `CHAT_AI_PER_MINUTE` / `CHAT_AI_PER_DAY` | 6 / 40 | per visitor, model calls only; above this the records are shown instead |
+| `CHAT_AI_GLOBAL_PER_DAY` | 300 | model calls per day per server instance |
+
+Limits are in memory, so each serverless instance counts separately: they are best-effort. The hard cost cap is the free
+quota of a Google project with no billing attached. Recent answers are cached for an hour, and the model is paused for ten
+minutes after the provider reports its quota is used.
+
+Try it locally (the key stays in your terminal session):
+
+```powershell
+$env:GEMINI_API_KEY = "<your key>"
+py backend/chat.py "what does flutamide do"
+```

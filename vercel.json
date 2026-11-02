@@ -9,7 +9,8 @@
   },
   "functions": {
     "api/index.py": {
-      "includeFiles": "{backend/*.py,pmos_knowledge_base.db,data/clean/*.csv,data/sync_state.json}"
+      "includeFiles": "{backend/*.py,pmos_knowledge_base.db,data/clean/*.csv,data/sync_state.json}",
+      "maxDuration": 30
     }
   },
   "rewrites": [

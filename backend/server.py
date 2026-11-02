@@ -20,6 +20,7 @@ import sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlparse
 
+import chat
 import pmos_data
 import retrieval
 
@@ -42,7 +43,11 @@ ROUTES = {
     "summary": re.compile(r"^/api/summary$"),
     "sync": re.compile(r"^/api/sync$"),
     "retrieve": re.compile(r"^/api/retrieve$"),
+    "chat": re.compile(r"^/api/chat$"),
 }
+
+MAX_BODY_BYTES = 8192
+MAX_QUESTION_REQUEST_CHARS = 600
 
 
 def _csv_param(params: dict, key: str) -> list[str] | None:
@@ -77,9 +82,52 @@ class Handler(BaseHTTPRequestHandler):
     def do_OPTIONS(self) -> None:  # CORS preflight
         self.send_response(204)
         self.send_header("Access-Control-Allow-Origin", "*")
-        self.send_header("Access-Control-Allow-Methods", "GET, OPTIONS")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
         self.send_header("Access-Control-Allow-Headers", "Accept, Content-Type")
         self.end_headers()
+
+    def _client_ip(self) -> str:
+        forwarded = self.headers.get("x-forwarded-for", "")  # set by Vercel to the visitor's address
+        return forwarded.split(",")[0].strip() or self.client_address[0]
+
+    def do_POST(self) -> None:
+        """POST /api/chat  {"question": str, "context": optional record id}. Errors never include internals."""
+        assert INDEX is not None
+        if not ROUTES["chat"].match(urlparse(self.path).path):
+            self._send_json({"error": "not found"}, status=404)
+            return
+        try:
+            length = int(self.headers.get("Content-Length") or 0)
+        except ValueError:
+            length = 0
+        if length <= 0:
+            self._send_json({"error": "a JSON body is required"}, status=400)
+            return
+        if length > MAX_BODY_BYTES:
+            self._send_json({"error": "request too large"}, status=413)
+            return
+        try:
+            payload = json.loads(self.rfile.read(length).decode("utf-8"))
+        except (ValueError, UnicodeDecodeError):
+            self._send_json({"error": "invalid JSON"}, status=400)
+            return
+        question = payload.get("question") if isinstance(payload, dict) else None
+        if not isinstance(question, str) or not question.strip():
+            self._send_json({"error": "question is required"}, status=400)
+            return
+        if len(question) > MAX_QUESTION_REQUEST_CHARS:
+            self._send_json({"error": f"question is too long (limit {chat.MAX_QUESTION_CHARS} characters)"}, status=400)
+            return
+        context = payload.get("context")
+        context = context if isinstance(context, str) and len(context) <= 200 else None
+        visitor = self._client_ip()
+        if not chat.REQUEST_LIMITER.allow(visitor):
+            self._send_json({"error": "too many questions, please wait a minute"}, status=429)
+            return
+        try:
+            self._send_json(chat.answer(INDEX, question, context, visitor))
+        except Exception:  # noqa: BLE001 - never show internals (or anything that could contain a secret)
+            self._send_json({"error": "the chat could not answer right now"}, status=500)
 
     def do_GET(self) -> None:
         assert INDEX is not None

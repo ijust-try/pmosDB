@@ -116,6 +116,8 @@ ENTRY_POINTS = [
     {"id": None, "type": None, "name": "Therapeutics", "url": "/therapeutics"},
 ]
 LINK_WORDS = frozenset("uniprot pubchem reactome ncbi accession accessions identifier identifiers id ids cid pubmed pmid".split())
+# "this gene", "its pathways": the question points at the record the visitor is looking at
+CONTEXT_CUE = re.compile(r"\b(this|it|its|that|these|those|here|current)\b", re.IGNORECASE)
 SEED_RELATIVE_SCORE = 0.35  # extra ranked seeds must score at least this share of the named entity's score
 LOOSE_SUGGESTION_FACTOR = 1.8  # a loose match must reach this multiple of ln(corpus size) to be recommended
 NO_EVIDENCE_MESSAGE = (
@@ -416,6 +418,12 @@ def record_text(entity: dict, index) -> str:
     return " ".join(parts)
 
 
+def first_sentence(text: str | None, limit: int = 220) -> str:
+    text = re.sub(r"\s+", " ", text or "").strip()
+    sentence = re.split(r"(?<=[.!?])\s(?=[A-Z])", text, maxsplit=1)[0]
+    return _truncate(sentence, limit)
+
+
 def make_record(ref: str, entity: dict, index, via: str | None = None, score: float | None = None) -> dict:
     external = []
     for s in entity["sources"]:
@@ -428,6 +436,7 @@ def make_record(ref: str, entity: dict, index, via: str | None = None, score: fl
         "idLabel": entity["idLabel"], "primaryId": entity["primaryId"],
         "url": f"/entity/{entity['id']}", "external": external,
         "text": record_text(entity, index), "via": via,
+        "summary": first_sentence(entity.get("mechanism") or entity.get("description") or entity.get("abstract")),
         "score": round(score, 2) if score is not None else None,
         "citation": citation(entity) if entity["type"] == "publication" else None,
     }
@@ -460,8 +469,11 @@ def _content(query: str, link_intent: bool = False, named_text: str = "") -> tup
     return tokens, hints
 
 
-def retrieve(index, query: str, limit: int = MAX_RECORDS) -> dict:
-    """Decide what the knowledge base can support for `query` and gather the evidence for it."""
+def retrieve(index, query: str, limit: int = MAX_RECORDS, context_id: str | None = None) -> dict:
+    """Decide what the knowledge base can support for `query` and gather the evidence for it.
+
+    `context_id` is the record the visitor is viewing (or was just answered about). It is used only when the
+    question names nothing itself and points at it ("what pathways is this gene in?")."""
     query = re.sub(r"\s+", " ", (query or "")).strip()[:MAX_QUERY_CHARS]
     corpus = get_corpus(index)
     result = {"query": query, "intent": "qa", "status": "ok", "reason": None, "message": None,
@@ -475,6 +487,8 @@ def retrieve(index, query: str, limit: int = MAX_RECORDS) -> dict:
         return {**result, "intent": "help", "message": HELP_MESSAGE}
 
     mentions = corpus.find_mentions(query)
+    if not mentions and context_id in corpus.index.by_id and CONTEXT_CUE.search(query):
+        mentions = [{"text": "(the record you are viewing)", "entityIds": [context_id]}]
     result["mentions"] = mentions
     link_intent = bool(LINK_PATTERN.search(query)) and not EXPLAIN_PATTERN.search(query)
     qtokens, hints = _content(query, link_intent, " ".join(m["text"] for m in mentions))
@@ -625,9 +639,8 @@ def compose_extractive(result: dict) -> str:
             if result.get("evidenceLevel") == "mentions":
                 lines = ["The knowledge base has no record dedicated to this. These records only mention it in passing:"]
             for r in records[:6]:
-                sentence = re.split(r"(?<=[.!?])\s", r["text"].split("). ", 1)[-1])[0]
                 src = f" ([{r['external'][0]['source']}]({r['external'][0]['url']}))" if r["external"] else ""
-                lines.append(f"- **[{r['name']}]({r['url']})** ({r['type']}): {_truncate(sentence, 220)}{src} [{r['ref']}]")
+                lines.append(f"- **[{r['name']}]({r['url']})** ({r['type']}): {r['summary'] or 'see the record'}{src} [{r['ref']}]")
             text = "\n".join(lines)
         if result["unmatchedTerms"]:
             text += "\n\nNot found in the knowledge base: " + ", ".join(result["unmatchedTerms"]) + "."
