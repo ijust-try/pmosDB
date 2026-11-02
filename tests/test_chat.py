@@ -76,6 +76,11 @@ class ModelIsLastResortTests(ChatBase):
                 self.assertEqual(out["mode"], "database")
                 self.assertNotIn("should never be used", out["answer"])
 
+    def test_suggestions_are_returned_separately_not_repeated_in_the_text(self):
+        out, _ = self.ask("what dose of flutamide should I take", "x")
+        self.assertEqual([s["id"] for s in out["suggestions"]], ["therapeutic-flutamide"])
+        self.assertNotIn("Related pages", out["answer"])
+
     def test_refusal_and_no_evidence_messages_come_from_the_database_layer(self):
         self.assertIn("I can't help with dosing", self.ask("what dose of flutamide should I take", "x")[0]["answer"])
         self.assertIn("won't guess", self.ask("what is the capital of France", "x")[0]["answer"])
@@ -204,6 +209,13 @@ class FailureModeTests(ChatBase):
         out3, calls3 = self.ask("flutamide androgen receptor", chat.NO_ANSWER, now=1000.0 + chat.QUOTA_PAUSE_S + 1)
         self.assertEqual(len(calls3), 1, "the pause should end")
 
+    def test_the_failure_reason_is_reported_for_debugging(self):
+        out, _ = self.ask(self.q, chat.ModelUnavailable("configuration", detail="HTTP 403 PERMISSION_DENIED"))
+        self.assertEqual(out["modelIssue"], "configuration (HTTP 403 PERMISSION_DENIED)")
+        self.assertNotIn(KEY, json.dumps(out))
+        missing = chat.answer(self.index, self.q, generate=lambda *a: "x", api_key="")
+        self.assertIn("GEMINI_API_KEY", missing["modelIssue"])
+
     def test_other_model_errors_fall_back_without_pausing(self):
         for reason in ["network", "provider error", "blocked", "empty", "configuration"]:
             with self.subTest(reason=reason):
@@ -299,6 +311,33 @@ class GeminiTransportTests(unittest.TestCase):
         self.assertEqual(self.call([gemini_reply(None)])[0].reason, "empty")
         self.assertEqual(self.call([gemini_reply("")])[0].reason, "empty")
         self.assertNotIn(KEY, str(self.call(urllib.error.URLError(KEY))[0]))
+
+    def test_diagnostics_show_status_names_only_never_provider_text_or_the_key(self):
+        body = lambda code, payload: urllib.error.HTTPError("http://x", code, "err", {}, io.BytesIO(json.dumps(payload).encode()))
+        secret = f"message that contains {KEY}"
+        cases = [
+            (body(403, {"error": {"status": "PERMISSION_DENIED", "message": secret}}), "configuration (HTTP 403 PERMISSION_DENIED)"),
+            (body(404, {"error": {"status": "NOT_FOUND", "message": secret}}), "provider error (HTTP 404 NOT_FOUND)"),
+            (body(429, {"error": {"status": "RESOURCE_EXHAUSTED", "message": secret}}), "quota (HTTP 429 RESOURCE_EXHAUSTED)"),
+            (body(400, {"error": {"status": "invalid text with spaces", "message": secret}}), "configuration (HTTP 400)"),
+            (body(500, {"error": secret}), "provider error (HTTP 500)"),
+            (urllib.error.HTTPError("http://x", 502, "err", {}, io.BytesIO(b"<html>not json " + KEY.encode() + b"</html>")),
+             "provider error (HTTP 502)"),
+            (urllib.error.URLError(TimeoutError(KEY)), "network (TimeoutError)"),
+            (TimeoutError(KEY), "network (TimeoutError)"),
+        ]
+        for error, expected in cases:
+            with self.subTest(expected=expected):
+                exc, _ = self.call(error)
+                self.assertEqual(exc.describe(), expected)
+                self.assertNotIn(KEY, exc.describe())
+                self.assertNotIn(KEY, str(exc))
+
+    def test_empty_and_blocked_diagnostics(self):
+        self.assertEqual(self.call([gemini_reply(None)])[0].describe(), "empty (no candidates)")
+        body = {"candidates": [{"finishReason": "MAX_TOKENS", "content": {"parts": [{"text": "x", "thought": True}]}}]}
+        self.assertEqual(self.call([FakeResponse(json.dumps(body).encode())])[0].describe(), "empty (finishReason MAX_TOKENS)")
+        self.assertEqual(self.call([gemini_reply(promptFeedback={"blockReason": "SAFETY"})])[0].describe(), "blocked (SAFETY)")
 
     def test_reasoning_parts_are_not_shown(self):
         body = {"candidates": [{"content": {"parts": [{"text": "internal reasoning", "thought": True}, {"text": "answer [R1]"}]}}]}

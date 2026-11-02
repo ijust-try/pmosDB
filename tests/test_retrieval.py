@@ -104,6 +104,13 @@ class FixtureRetrievalTests(unittest.TestCase):
         self.assertEqual((r["status"], r["records"]), ("refused", []))
         self.assertEqual(r["suggestions"][0]["id"], "therapeutic-flutamide")
 
+    def test_refusal_suggests_only_what_the_question_named(self):
+        r = self.ask("what dose of flutamide should I take")
+        self.assertEqual([s["id"] for s in r["suggestions"]], ["therapeutic-flutamide"])
+        nothing = self.ask("how much should I take")
+        self.assertEqual(nothing["status"], "refused")
+        self.assertTrue(all(s["id"] is None for s in nothing["suggestions"]), "no named record: entry points only")
+
     def test_link_request_is_answered_from_the_database_alone(self):
         r = self.ask("give me the link of androgen receptor")
         self.assertEqual(r["intent"], "link")

@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { X } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
+import { ChatWidget } from '../chat/ChatWidget';
 import { Sidebar } from './Sidebar';
 import { Topbar } from './Topbar';
 
@@ -57,6 +58,7 @@ export function AppShell() {
       <main id="main">
         <Outlet />
       </main>
+      <ChatWidget />
     </div>
   );
 }

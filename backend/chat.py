@@ -32,7 +32,7 @@ from collections import OrderedDict, defaultdict, deque
 import retrieval
 
 API_ROOT = "https://generativelanguage.googleapis.com/v1beta/models"
-DEFAULT_MODEL = "gemini-flash-latest"  # alias that follows Google's current free-tier Flash model
+DEFAULT_MODEL = "gemini-flash-lite-latest"  # fast alias; `gemini-flash-latest` timed out in testing (see gemini_probe.py)
 MAX_OUTPUT_TOKENS = 2048  # includes the model's internal reasoning, so keep it generous
 MODEL_TIMEOUT_S = 20
 CACHE_SIZE, CACHE_TTL_S = 200, 3600
@@ -73,12 +73,33 @@ MSG_NOT_VERIFIED = ("I couldn't produce a summary I could fully verify against t
 
 
 class ModelUnavailable(Exception):
-    """The model could not be used. `reason` is safe to show; the original error text never is."""
+    """The model could not be used. `reason` and `detail` are safe to show (fixed words, HTTP status codes and the
+    provider's uppercase status name such as PERMISSION_DENIED); the provider's message text never is."""
 
-    def __init__(self, reason: str, quota: bool = False):
+    def __init__(self, reason: str, quota: bool = False, detail: str | None = None):
         super().__init__(reason)
         self.reason = reason
         self.quota = quota
+        self.detail = detail
+
+    def describe(self) -> str:
+        return self.reason + (f" ({self.detail})" if self.detail else "")
+
+
+def _enum(value) -> str | None:
+    """Accept only a short UPPER_SNAKE word (an enumerated provider status), never free text."""
+    return value if isinstance(value, str) and re.fullmatch(r"[A-Z][A-Z_]{2,40}", value) else None
+
+
+def _http_detail(exc: urllib.error.HTTPError) -> str:
+    status = None
+    try:
+        body = json.loads(exc.read().decode("utf-8"))
+        error = body.get("error") if isinstance(body, dict) else None
+        status = _enum(error.get("status")) if isinstance(error, dict) else None
+    except Exception:  # noqa: BLE001 - diagnostics must never raise
+        pass
+    return f"HTTP {exc.code}" + (f" {status}" if status else "")
 
 
 # --------------------------------------------------------------------------- the model (Gemini REST, stdlib only)
@@ -99,23 +120,26 @@ def gemini_generate(system: str, prompt: str, api_key: str, model: str, timeout:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             payload = json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as exc:
+        detail = _http_detail(exc)
         if exc.code == 429:
-            raise ModelUnavailable("quota", quota=True) from None
+            raise ModelUnavailable("quota", quota=True, detail=detail) from None
         if exc.code in (400, 401, 403):
-            raise ModelUnavailable("configuration") from None
-        raise ModelUnavailable("provider error") from None
-    except (urllib.error.URLError, TimeoutError, ValueError, OSError):
-        raise ModelUnavailable("network") from None
+            raise ModelUnavailable("configuration", detail=detail) from None
+        raise ModelUnavailable("provider error", detail=detail) from None
+    except (urllib.error.URLError, TimeoutError, ValueError, OSError) as exc:
+        cause = exc.reason if isinstance(exc, urllib.error.URLError) else exc
+        raise ModelUnavailable("network", detail=type(cause).__name__) from None  # the class name only
 
+    block = _enum((payload.get("promptFeedback") or {}).get("blockReason"))
     if (payload.get("promptFeedback") or {}).get("blockReason"):
-        raise ModelUnavailable("blocked")
+        raise ModelUnavailable("blocked", detail=block)
     candidates = payload.get("candidates") or []
     if not candidates:
-        raise ModelUnavailable("empty")
+        raise ModelUnavailable("empty", detail="no candidates")
     parts = (candidates[0].get("content") or {}).get("parts") or []
     text = "".join(p.get("text", "") for p in parts if not p.get("thought")).strip()
     if not text:
-        raise ModelUnavailable("empty")
+        raise ModelUnavailable("empty", detail=f"finishReason {_enum(candidates[0].get('finishReason')) or 'unknown'}")
     return text
 
 
@@ -280,10 +304,10 @@ def answer(index, question: str, context_id: str | None = None, visitor: str = "
 
     # everything except an evidence-backed open question is answered from the database alone, with no model
     if result["status"] != "ok" or result["intent"] != "qa":
-        return {**base, "answer": retrieval.compose_extractive(result)}
+        return {**base, "answer": retrieval.compose_extractive(result, suggestions=False)}
 
-    def database(notice: str | None) -> dict:
-        return {**base, "answer": retrieval.compose_extractive(result), "notice": notice}
+    def database(notice: str | None, issue: str | None = None) -> dict:
+        return {**base, "answer": retrieval.compose_extractive(result, suggestions=False), "notice": notice, "modelIssue": issue}
 
     key = (retrieval.phrase_key(question), context_id)
     cached = _cache_get(key, now)
@@ -292,11 +316,11 @@ def answer(index, question: str, context_id: str | None = None, visitor: str = "
 
     api_key = api_key if api_key is not None else os.environ.get("GEMINI_API_KEY", "")
     if not api_key:
-        return database(MSG_MODEL_BUSY)
+        return database(MSG_MODEL_BUSY, "no GEMINI_API_KEY is set")
     if now < _state["paused_until"]:
-        return database(MSG_MODEL_BUSY)
+        return database(MSG_MODEL_BUSY, "paused after the provider reported its quota was used")
     if not MODEL_LIMITER.allow(visitor):
-        return database(MSG_MODEL_LIMIT)
+        return database(MSG_MODEL_LIMIT, "visitor rate limit")
 
     model = os.environ.get("GEMINI_MODEL", DEFAULT_MODEL)
     try:
@@ -304,10 +328,10 @@ def answer(index, question: str, context_id: str | None = None, visitor: str = "
     except ModelUnavailable as exc:
         if exc.quota:
             _state["paused_until"] = now + QUOTA_PAUSE_S
-        return database(MSG_MODEL_BUSY)
+        return database(MSG_MODEL_BUSY, exc.describe())
 
     if text.strip() == NO_ANSWER:
-        return {**base, "answer": retrieval.compose_extractive(result), "notice": None}
+        return {**base, "answer": retrieval.compose_extractive(result, suggestions=False), "notice": None}
     ok, reason, cleaned, cited = check_answer(text, result["records"], retrieval.get_corpus(index).informative)
     if not ok:
         return {**database(MSG_NOT_VERIFIED), "rejected": reason}
@@ -344,5 +368,7 @@ if __name__ == "__main__":  # py backend/chat.py "your question": a quick local 
     index = pmos_data.build_index(pmos_data.get_connection())
     out = answer(index, " ".join(sys.argv[1:]) or "what does flutamide do")
     print(out["answer"])
+    if out["suggestions"] and out["status"] != "ok":
+        print("\nRelated pages: " + ", ".join(f"{s['name']} ({s['url']})" for s in out["suggestions"]))
     print(f"\n[mode: {out['mode']}; status: {out['status']}; model: {out['model']}; notice: {out['notice']};"
-          f" rejected: {out.get('rejected')}]")
+          f" model issue: {out.get('modelIssue')}; rejected: {out.get('rejected')}]")

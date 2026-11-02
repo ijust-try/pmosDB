@@ -30,4 +30,5 @@ jobs:
           cache-dependency-path: pmos-biograph/pmos-biograph/package-lock.json
       - run: npm ci
       - run: npx tsc -b
+      - run: npm test
       - run: npm run build

@@ -129,7 +129,7 @@ Configuration (environment variables; none are stored in the repository):
 | variable | default | meaning |
 |---|---|---|
 | `GEMINI_API_KEY` | none | the Gemini key. Without it every answer comes from the database. Set it in Vercel, never in code. |
-| `GEMINI_MODEL` | `gemini-flash-latest` | model name |
+| `GEMINI_MODEL` | `gemini-flash-lite-latest` | model name. Check speed and availability for your key with `py backend/gemini_probe.py` |
 | `CHAT_REQUESTS_PER_MINUTE` | 20 | per visitor, all chat requests (HTTP 429 above this) |
 | `CHAT_AI_PER_MINUTE` / `CHAT_AI_PER_DAY` | 6 / 40 | per visitor, model calls only; above this the records are shown instead |
 | `CHAT_AI_GLOBAL_PER_DAY` | 300 | model calls per day per server instance |

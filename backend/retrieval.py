@@ -496,7 +496,8 @@ def retrieve(index, query: str, limit: int = MAX_RECORDS, context_id: str | None
     # 1. refuse: not answerable by design, whatever the data holds
     refusal = detect_refusal(query)
     if refusal:
-        suggestions = _suggest(corpus, [i for m in mentions for i in m["entityIds"]], qtokens, hints)
+        # point only at what the question named: loose word matches after a refusal are just clutter
+        suggestions = _suggest(corpus, [i for m in mentions for i in m["entityIds"]], qtokens, hints, min_score=float("inf"))
         return {**result, "intent": "refuse", "status": "refused", "reason": refusal,
                 "message": REFUSAL_MESSAGE.format(what=refusal), "suggestions": suggestions}
 
@@ -617,8 +618,10 @@ def _suggest(corpus: Corpus, entity_ids: list[str], qtokens: list[str], hints: s
 
 # --------------------------------------------------------------------------- answers without a model
 
-def compose_extractive(result: dict) -> str:
-    """A complete answer built only from the records, for link requests and for when no model is available."""
+def compose_extractive(result: dict, suggestions: bool = True) -> str:
+    """A complete answer built only from the records, for link requests and for when no model is available.
+
+    `suggestions=False` leaves out the "Related pages" sentence for callers that show suggestions separately."""
     if result["intent"] == "help":
         return result["message"]
     if result["status"] == "refused":
@@ -644,6 +647,6 @@ def compose_extractive(result: dict) -> str:
             text = "\n".join(lines)
         if result["unmatchedTerms"]:
             text += "\n\nNot found in the knowledge base: " + ", ".join(result["unmatchedTerms"]) + "."
-    if result["suggestions"] and result["status"] != "ok":
+    if suggestions and result["suggestions"] and result["status"] != "ok":
         text += "\n\nRelated pages: " + ", ".join(f"[{s['name']}]({s['url']})" for s in result["suggestions"]) + "."
     return text
