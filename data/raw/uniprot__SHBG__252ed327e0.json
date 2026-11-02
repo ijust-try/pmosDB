@@ -1,0 +1,358 @@
+{
+ "source": "uniprot",
+ "query": "SHBG",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:SHBG) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb"
+ },
+ "retrieved_at": "2026-11-02T07:33:21+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P04278",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "Sex hormone-binding globulin"
+      },
+      "shortNames": [
+       {
+        "value": "SHBG"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Sex steroid-binding protein"
+       },
+       "shortNames": [
+        {
+         "value": "SBP"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Testis-specific androgen-binding protein"
+       },
+       "shortNames": [
+        {
+         "value": "ABP"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Testosterone-estradiol-binding globulin"
+       },
+       "shortNames": [
+        {
+         "value": "TeBG"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Testosterone-estrogen-binding globulin"
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:10839"
+        }
+       ],
+       "value": "SHBG"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Functions as an androgen transport protein, but may also be involved in receptor mediated processes. Each dimer binds one molecule of steroid. Specific for 5-alpha-dihydrotestosterone, testosterone, and 17-beta-estradiol. Regulates the plasma metabolic clearance rate of steroid hormones by controlling their plasma concentration"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "PDB",
+      "id": "1D2S",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.55 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=42-217"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1F5F",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=30-234"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1KDK",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=41-217"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1KDM",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.35 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=41-217"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1LHN",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=30-218"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1LHO",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=30-218"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1LHU",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=30-218"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1LHV",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=30-218"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1LHW",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.75 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=30-218"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6PYA",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.71 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=30-234"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6PYB",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=30-234"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6PYF",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.73 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=30-234"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6ULB",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.75 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=30-234"
+       }
+      ]
+     },
+     {
+      "database": "AlphaFoldDB",
+      "id": "P04278",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     },
+     {
+      "database": "GeneID",
+      "id": "6462",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000055933"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,6989 @@
+{
+ "source": "uniprot",
+ "query": "PPARG",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:PPARG) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb"
+ },
+ "retrieved_at": "2026-11-02T07:34:04+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P37231",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Peroxisome proliferator-activated receptor gamma"
+      },
+      "shortNames": [
+       {
+        "value": "PPAR-gamma"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Nuclear receptor subfamily 1 group C member 3"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "PPARG"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P37238"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16150867"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20829347"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23525231"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8702406"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8706692"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9065481"
+         }
+        ],
+        "value": "Ligand-activated transcription factor that forms obligate heterodimers with the retinoic acid receptor and acts as a key regulator of biological processes, such as adipocyte differentiation, lipid metabolism, glucose homeostasis and beta-oxidation of fatty acids (PubMed:16150867, PubMed:20829347, PubMed:23525231, PubMed:8702406, PubMed:8706692, PubMed:9065481). Activated by lipid ligands: binds peroxisome proliferators, such as hypolipidemic drugs, and fatty acids, such as prostaglandin J2 metabolites (PubMed:16150867, PubMed:20829347, PubMed:23525231, PubMed:8702406, PubMed:8706692, PubMed:9065481). Ligand-binding results in a conformational change in the receptor, promoting dissociation of repressors and recruitment of coactivators, and subsequent activation of target gene expression (PubMed:16150867, PubMed:20829347, PubMed:23525231, PubMed:8702406, PubMed:8706692, PubMed:9065481). Specifically binds to DNA specific PPAR response elements (PPRE) and modulates the transcription of its target genes, such as acyl-CoA oxidase (By similarity). Acts as a critical regulator of gut homeostasis by suppressing NF-kappa-B-mediated pro-inflammatory responses (PubMed:20829347). Plays a role in the regulation of cardiovascular circadian rhythms by regulating the transcription of BMAL1 in the blood vessels (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P37238"
+         }
+        ],
+        "value": "Nuclear receptor that acts as the key factor controlling the development of adipocytes (By similarity). Specifically activated by 15-deoxy-delta12,14-prostaglandin J2 ligand during early adipogenesis, driving differentiation of all types of adipocytes (white, beige and brown) (By similarity). Acts together with retinoic acid receptor RXRA, forming the ARF6 complex, which acts as a key regulator of the tissue-specific adipocyte P2 (aP2) enhancer (By similarity). Following recruitment of TLE3, promotes differentiation of white adipocytes (By similarity). Following recruitment of PRDM16, promotes differentiation of myoblastic precursors into brown adipose cells (BAT), which are specialized in dissipating energy in the form of heat in response to cold or excess feeding (By similarity). Also mediates diffentiation of white adipocytes into beige adipocytes by mediating recruitment of PRDM16 (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "Isoform 2"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25504154"
+         }
+        ],
+        "value": "(Microbial infection) Upon treatment with M.tuberculosis or its lipoprotein LpqH, phosphorylation of MAPK p38 and IL-6 production are modulated, probably via this protein"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "PDB",
+      "id": "1FM6",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "D/X=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1FM9",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "D=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1I7I",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.35 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=225-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1K74",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "D=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1KNU",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1NYX",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.65 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=230-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1PRG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1RDT",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "D=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1WM0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "X=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1ZEO",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=230-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1ZGY",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2ATH",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.28 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2F4B",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.07 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2FVJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.99 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2G0G",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.54 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2G0H",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2GTK",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2HFP",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2HWQ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.97 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2HWR",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.34 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2I4J",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2I4P",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2I4Z",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.25 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2OM9",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2P4Y",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.25 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2POB",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2PRG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2Q59",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=233-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2Q5P",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=233-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2Q5S",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.05 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=233-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2Q61",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=233-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2Q6R",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.41 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=233-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2Q6S",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=233-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2Q8S",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2QMV",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A=235-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2VSR",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.05 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2VST",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.35 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2VV0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.55 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2VV1",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2VV2",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.75 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2VV3",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.85 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2VV4",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.35 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2XKW",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.02 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2YFE",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2ZK0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.36 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2ZK1",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.61 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2ZK2",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.26 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2ZK3",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.58 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2ZK4",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.57 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2ZK5",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.45 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2ZK6",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.41 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2ZNO",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2ZVT",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3ADS",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.25 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3ADT",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3ADU",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.77 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3ADV",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.27 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3ADW",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.07 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3ADX",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.95 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3AN3",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3AN4",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3B0Q",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3B0R",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.15 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3B1M",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3B3K",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3BC5",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.27 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3CDP",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3CDS",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.65 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3CS8",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3CWD",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=236-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3D6D",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3DZU",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "D=102-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3DZY",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "D=102-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3E00",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "D=102-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3ET0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3ET3",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.95 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3FEJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.01 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3FUR",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3G9E",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3GBK",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3H0A",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "D=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3HO0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3HOD",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3IA6",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.31 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3K8S",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.55 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3KMG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/D=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3LMP",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3NOA",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.98 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3OSI",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=224-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3OSW",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.55 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=224-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3PBA",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=224-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3PO9",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.35 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=224-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3PRG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=229-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3QT0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3R5N",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3R8A",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.41 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3R8I",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3S9S",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.55 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3SZ1",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3T03",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3TY0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3U9Q",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.52 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=236-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3V9T",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.65 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3V9V",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3V9Y",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3VJH",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.22 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3VJI",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.61 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3VN2",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.18 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=225-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3VSO",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3VSP",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3WJ4",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.95 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3WJ5",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.89 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3WMH",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3X1H",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3X1I",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4A4V",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4A4W",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4CI5",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.77 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4E4K",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4E4Q",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4EM9",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4EMA",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.54 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4F9M",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4FGY",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.84 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=235-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4HEE",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "X=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4JAZ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.85 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4JL4",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4L96",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.38 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4L98",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.28 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4O8F",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4OJ4",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4PRG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=235-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4PVU",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4PWL",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4R06",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.22 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=233-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4R2U",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/D=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4R6S",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4XLD",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.45 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4XTA",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4XUH",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.22 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4XUM",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4Y29",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.98 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=236-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4YT1",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5AZV",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5DSH",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.95 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5DV3",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.75 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5DV6",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5DV8",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.75 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5DVC",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5DWL",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5F9B",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.25 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5GTN",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.85 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5GTO",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5GTP",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.35 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5HZC",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5JI0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.98 A"
+       },
+       {
+        "key": "Chains",
+        "value": "D=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5LSG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5TTO",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.25 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=233-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5TWO",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.93 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5U5L",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.55 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=233-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5UGM",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5WQX",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.29 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5WR0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.85 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5WR1",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.34 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5Y2O",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5Y2T",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5YCN",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.15 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5YCP",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5Z5S",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5Z6S",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6AD9",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6AN1",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.69 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=224-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6AUG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.73 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6AVI",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.29 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6C1I",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.26 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6C5Q",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6C5T",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.75 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6D3E",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6D8X",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6D94",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6DBH",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6DCU",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.95 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6DGL",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.95 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6DGO",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6DGP",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6DGQ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.45 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6DGR",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.15 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6DH9",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6DHA",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.88 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6E5A",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=233-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6ENQ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=224-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6F2L",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6FZF",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.95 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6FZG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6FZJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.01 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6FZP",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6FZY",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6ICJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.48 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6IJR",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.85 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/C=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6IJS",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.15 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6ILQ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.41 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6IZM",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6IZN",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.75 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6JEY",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6JF0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6JQ7",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.55 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6K0T",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.84 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/C=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6KTM",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6KTN",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.75 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6L89",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6L8B",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6MCZ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6MD0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.95 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6MD1",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6MD2",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6MD4",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.24 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6MS7",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.43 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6O67",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.52 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6O68",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.78 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6ONI",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6ONJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6PDZ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6QJ5",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6T1S",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.65 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6T1V",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.21 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6T6B",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6T9C",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.95 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6TDC",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.33 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6TSG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.98 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6VZL",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.07 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6VZM",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6VZN",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6VZO",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.27 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6Y3U",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.62 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6ZLY",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.79 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7A7H",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7AHJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7AWC",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.74 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7AWD",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.93 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7CXE",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7CXF",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.35 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7CXG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.88 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7CXH",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7CXI",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7CXJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.65 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7CXK",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7CXL",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7E0A",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.77 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=230-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7E2O",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7EFQ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7JQG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.15 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7LOT",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.29 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7P4E",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7QB1",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "AAA/BBB=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7RLE",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/C=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7SQA",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7SQB",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7WGO",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.36 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7WGP",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.53 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7WGQ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.43 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7WOX",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8ADF",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.13 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8AQM",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8AQN",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8ATY",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8ATZ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.95 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8B8W",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.86 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8B8X",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.78 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8B8Y",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8B8Z",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.22 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8B90",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8B91",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.23 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8B92",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.66 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8B93",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.21 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8B94",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.55 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8B95",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.72 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8BF1",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.36 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8BF2",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.18 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8BFF",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8C0C",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8CPH",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8CPI",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8CPJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8DK4",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8DKN",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.95 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8DKV",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.59 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8DSY",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.95 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8DSZ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8FHE",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8FHF",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8FHG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8FKC",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.42 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8FKD",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.22 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8FKE",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.02 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8FKF",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.82 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8FKG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.12 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8HHP",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.45 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8HHQ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8HUM",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.29 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8HUP",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.36 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8PBO",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.85 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8REJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.16 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8SC9",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.85 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8U57",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8WFE",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8ZFN",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.54 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8ZFO",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.15 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8ZFP",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.48 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8ZFQ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.49 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8ZFR",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.73 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8ZFS",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.56 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8ZFT",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9CK0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9CWN",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9F7W",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.25 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9F7X",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.63 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GFU",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GVP",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.05 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-503"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GVS",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GVT",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GW3",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GW4",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GW7",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GW8",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWB",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWC",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWE",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWF",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWH",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWI",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWK",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWL",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWM",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWN",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWP",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.55 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWQ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWR",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWS",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWX",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GWY",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.09 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GX0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GX1",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GX2",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.35 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-503"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GX3",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GX4",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GX5",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.45 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GX6",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GX7",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GXD",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GZ7",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GZ8",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GZ9",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GZA",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GZB",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GZC",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GZE",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GZF",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.65 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9GZI",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9HX2",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.85 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=223-504"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9IWK",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.43 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/C=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9L3T",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.36 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=232-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9MAH",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=234-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9O9N",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9OLC",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.83 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9QFZ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9QG0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9QG2",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9QG3",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9QG4",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9QG5",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9QG6",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9QGJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=235-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9R6I",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9R6K",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9V8D",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.44 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9V8E",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9V8F",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.75 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=233-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9V8G",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.39 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9V8H",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.39 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=231-505"
+       }
+      ]
+     },
+     {
+      "database": "AlphaFoldDB",
+      "id": "P37231",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     },
+     {
+      "database": "GeneID",
+      "id": "5468",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000055911"
+    }
+   }
+  ]
+ }
+}

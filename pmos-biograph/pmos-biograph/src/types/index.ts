@@ -23,7 +23,9 @@ export type SourceId =
   | 'gene-ontology'
   | 'pubchem'
   | 'open-targets'
-  | 'pubmed';
+  | 'pubmed'
+  | 'pdb'
+  | 'alphafold';
 
 /**
  * Where a record's identifier / statement comes from.
@@ -85,9 +87,31 @@ export interface Gene extends BaseEntity {
   organism: string;
   pcosAssociation?: PcosAssociation;
 }
+/** One experimental structure from the Protein Data Bank. */
+export interface PdbEntry {
+  id: string;
+  method: string | null;
+  /** Angstroms; `null` for methods without one (e.g. NMR). */
+  resolution: number | null;
+  chains: string | null;
+  url: string;
+  image: string;
+}
+
+/** 3D structures linked to a protein through its UniProt accession. */
+export interface ProteinStructures {
+  /** Total experimental structures in the PDB; `entries` holds the best-resolved few. */
+  pdbCount: number;
+  entries: PdbEntry[];
+  allUrl: string | null;
+  alphafoldId: string | null;
+  alphafoldUrl: string | null;
+}
+
 export interface Protein extends BaseEntity {
   type: 'protein';
   geneSymbol?: string;
+  structures?: ProteinStructures;
 }
 export interface Hormone extends BaseEntity {
   type: 'hormone';

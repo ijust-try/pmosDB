@@ -1,0 +1,132 @@
+{
+ "source": "uniprot",
+ "query": "THADA",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:THADA) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb,length"
+ },
+ "retrieved_at": "2026-11-02T07:49:03+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q6YHU6",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "tRNA (32-2'-O)-methyltransferase regulator THADA"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Gene inducing thyroid adenomas protein"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Thyroid adenoma-associated protein"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "THADA"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25404562"
+         }
+        ],
+        "value": "Together with methyltransferase FTSJ1, methylates the 2'-O-ribose of nucleotides at position 32 of the anticodon loop of substrate tRNAs"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "PDB",
+      "id": "5T6Y",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.76 A"
+       },
+       {
+        "key": "Chains",
+        "value": "C=796-807"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8Y2O",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.66 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=1-1953"
+       }
+      ]
+     },
+     {
+      "database": "AlphaFoldDB",
+      "id": "Q6YHU6",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     },
+     {
+      "database": "GeneID",
+      "id": "63892",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "sequence": {
+     "length": 1953
+    },
+    "extraAttributes": {
+     "uniParcId": "UPI00001C0473"
+    }
+   }
+  ]
+ }
+}

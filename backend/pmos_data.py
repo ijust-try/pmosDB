@@ -53,6 +53,8 @@ SOURCE_ID_MAP = {
     "PubMed": "pubmed",
     "Gene Ontology (QuickGO)": "gene-ontology",
     "Open Targets": "open-targets",
+    "PDB": "pdb",
+    "AlphaFold DB": "alphafold",
 }
 
 SOURCE_URL_BUILDERS = {
@@ -63,6 +65,8 @@ SOURCE_URL_BUILDERS = {
     "pubmed": lambda acc: f"https://pubmed.ncbi.nlm.nih.gov/{acc}/",
     "gene-ontology": lambda acc: f"https://www.ebi.ac.uk/QuickGO/term/{acc}",
     "open-targets": lambda acc: f"https://platform.opentargets.org/target/{acc}",
+    "pdb": lambda acc: f"https://www.rcsb.org/structure/{acc}",
+    "alphafold": lambda acc: f"https://alphafold.ebi.ac.uk/entry/{acc}",
 }
 
 SOURCE_META = {
@@ -77,6 +81,8 @@ SOURCE_META = {
         ["gene", "process", "therapeutic"],
     ),
     "pubmed": ("PubMed", "Supporting literature", ["publication"]),
+    "pdb": ("Protein Data Bank (RCSB)", "Experimental 3D structures of proteins, linked through UniProt", ["protein"]),
+    "alphafold": ("AlphaFold Protein Structure Database", "Predicted 3D structures of proteins, linked through UniProt", ["protein"]),
 }
 
 
@@ -371,10 +377,36 @@ def build_gene_entity(row: sqlite3.Row, association: dict | None = None) -> dict
     return entity
 
 
-def build_protein_entity(row: sqlite3.Row, go_rows: Iterable[sqlite3.Row]) -> dict:
+def build_structures(row: sqlite3.Row, structure_rows: Iterable[sqlite3.Row]) -> dict | None:
+    """Best-resolved PDB entries (Protein Data Bank, via UniProt) and the AlphaFold prediction for one protein."""
+    keys = row.keys()
+    accession = row["protein_id"]
+    total = (row["pdb_count"] if "pdb_count" in keys else 0) or 0
+    alphafold = row["alphafold_id"] if "alphafold_id" in keys else None
+    entries = [
+        {
+            "id": s["pdb_id"], "method": s["method"], "resolution": s["resolution"], "chains": s["chains"],
+            "url": f"https://www.rcsb.org/structure/{s['pdb_id']}",
+            "image": f"https://cdn.rcsb.org/images/structures/{s['pdb_id'].lower()}_assembly-1.jpeg",
+        }
+        for s in structure_rows
+    ]
+    if not entries and not alphafold:
+        return None
+    return {
+        "pdbCount": max(total, len(entries)),
+        "entries": entries,
+        "allUrl": f"https://www.ebi.ac.uk/pdbe/pdbe-kb/proteins/{accession}" if entries else None,
+        "alphafoldId": alphafold,
+        "alphafoldUrl": f"https://alphafold.ebi.ac.uk/entry/{alphafold}" if alphafold else None,
+    }
+
+
+def build_protein_entity(row: sqlite3.Row, go_rows: Iterable[sqlite3.Row], structure_rows: Iterable[sqlite3.Row] = ()) -> dict:
     gene_symbol = row["gene_symbol"] or None
     annotations = [annotation(f"GO ({go['aspect']})", go["go_name"]) for go in go_rows]
-    return {
+    structures = build_structures(row, list(structure_rows))
+    entity = {
         "id": protein_id_for(gene_symbol, row["protein_id"]),
         "type": "protein",
         "name": row["name"],
@@ -387,6 +419,13 @@ def build_protein_entity(row: sqlite3.Row, go_rows: Iterable[sqlite3.Row]) -> di
         "annotations": annotations,
         "verification": DOC,
     }
+    if structures:
+        entity["structures"] = structures
+        if structures["entries"]:
+            entity["sources"].append(source_ref("PDB", structures["entries"][0]["id"], None))
+        if structures["alphafoldId"]:
+            entity["sources"].append(source_ref("AlphaFold DB", structures["alphafoldId"], None))
+    return entity
 
 
 def build_pathway_entity(row: sqlite3.Row) -> dict:
@@ -556,8 +595,15 @@ def build_index(conn: sqlite3.Connection) -> Index:
     go_by_protein: dict[str, list[sqlite3.Row]] = {}
     for row in conn.execute("SELECT * FROM go_annotations"):
         go_by_protein.setdefault(row["protein_id"], []).append(row)
+    structures_by_protein: dict[str, list[sqlite3.Row]] = {}
+    if _table_exists(conn, "protein_structure"):
+        for row in conn.execute(
+            "SELECT * FROM protein_structure ORDER BY protein_id, resolution IS NULL, resolution, pdb_id"
+        ):
+            structures_by_protein.setdefault(row["protein_id"], []).append(row)
     for row in conn.execute("SELECT * FROM proteins ORDER BY protein_id"):
-        index.add_entity(build_protein_entity(row, go_by_protein.get(row["protein_id"], [])))
+        index.add_entity(build_protein_entity(
+            row, go_by_protein.get(row["protein_id"], []), structures_by_protein.get(row["protein_id"], [])))
 
     for row in conn.execute("SELECT * FROM pathways ORDER BY pathway_name"):
         index.add_entity(build_pathway_entity(row))
@@ -713,6 +759,19 @@ def _build_sources_meta(conn: sqlite3.Connection, index: Index) -> dict[str, dic
             record_count_by_source[sid] = record_count_by_source.get(sid, 0) + 1
             if row["retrieved_on"] and row["retrieved_on"] > last_sync_by_source.get(sid, ""):
                 last_sync_by_source[sid] = row["retrieved_on"]
+    if _table_exists(conn, "protein_structure"):
+        for row in conn.execute("SELECT source, retrieved_on FROM protein_structure"):
+            sid = SOURCE_ID_MAP.get(row["source"], slugify(row["source"]))
+            record_count_by_source[sid] = record_count_by_source.get(sid, 0) + 1
+            if row["retrieved_on"] and row["retrieved_on"] > last_sync_by_source.get(sid, ""):
+                last_sync_by_source[sid] = row["retrieved_on"]
+    if "alphafold_id" in [c[1] for c in conn.execute("PRAGMA table_info(proteins)")]:
+        n, latest = conn.execute(
+            "SELECT COUNT(alphafold_id), MAX(retrieved_on) FROM proteins WHERE alphafold_id IS NOT NULL"
+        ).fetchone()
+        record_count_by_source["alphafold"] = n
+        if latest:
+            last_sync_by_source["alphafold"] = latest
     ot_count = conn.execute("SELECT COUNT(*) FROM gene_pcos_association").fetchone()[0]
     if _table_exists(conn, "therapeutic_target"):
         ot_count += conn.execute("SELECT COUNT(*) FROM therapeutic_target").fetchone()[0]
@@ -734,6 +793,8 @@ def _build_sources_meta(conn: sqlite3.Connection, index: Index) -> dict[str, dic
                 "pubchem": "https://pubchem.ncbi.nlm.nih.gov/",
                 "open-targets": "https://platform.opentargets.org/",
                 "pubmed": "https://pubmed.ncbi.nlm.nih.gov/",
+                "pdb": "https://www.rcsb.org/",
+                "alphafold": "https://alphafold.ebi.ac.uk/",
             }[sid],
             "lastSync": state["sources"].get(sid, {}).get("syncedAt") or last_sync_by_source.get(sid),
             "validationNote": f"{record_count_by_source.get(sid, 0)} records ingested and cross-referenced during FK stitching.",

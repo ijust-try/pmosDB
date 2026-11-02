@@ -5,6 +5,7 @@ Weekly synchronisation of the PMOS knowledge base.
     py sync/run_sync.py --force         # re-harvest regardless
     py sync/run_sync.py --check-only    # just record upstream versions
     py sync/run_sync.py --offline       # rebuild from the cached data/raw responses (no network harvest)
+    py sync/run_sync.py --fresh-since T # on a retry: reuse responses fetched since T (ISO time), refetch the rest
 
 Scheduled by .github/workflows/weekly-sync.yml: every Wednesday 18:00 IST (12:30 UTC).
 
@@ -68,8 +69,8 @@ def decide(state: dict, current: dict, force: bool) -> tuple[bool, str]:
     return False, "no new upstream release"
 
 
-def run_harvest(offline: bool) -> dict:
-    harvest.set_refresh(not offline)
+def run_harvest(offline: bool, fresh_since: str | None = None) -> dict:
+    harvest.set_refresh(not offline, fresh_since)
     harvest.unresolved.clear()
 
     ot_rows = harvest.open_targets_pcos()
@@ -120,6 +121,7 @@ def main() -> int:
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--check-only", action="store_true")
     ap.add_argument("--offline", action="store_true", help="use cached raw responses; no re-harvest from the network")
+    ap.add_argument("--fresh-since", help="ISO time; with a refresh, keep responses fetched at or after it (for retries)")
     args = ap.parse_args()
 
     state = load_state()
@@ -133,7 +135,7 @@ def main() -> int:
 
     entry = {"startedAt": started, "outcome": "checked", "reason": reason}
     if run and not args.check_only:
-        entry["result"] = run_harvest(args.offline)
+        entry["result"] = run_harvest(args.offline, args.fresh_since)
         # --offline reuses cached responses, so it must not claim the data is freshly synced
         entry["outcome"] = "rebuilt-from-cache" if args.offline else "synced"
         if not args.offline:

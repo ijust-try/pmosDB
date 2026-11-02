@@ -261,7 +261,8 @@ def check_answer(text: str, records: list[dict], informative=lambda token: True)
         for sym in re.findall(r"\b[A-Z][A-Z0-9]*(?:-[A-Z0-9]+)*\b", body):
             if len(sym) >= 3 and sym not in SYMBOL_ALLOWLIST and retrieval.fold(sym) not in hay:
                 return False, f"names {sym}, which is not in the record it cites", text, []
-        for ident in re.findall(r"\bR-HSA-\d+\b|\b\d{7,9}\b|\bCHEMBL\d+\b|\b[OPQ]\d[A-Z0-9]{3}\d\b", body):
+        for ident in re.findall(
+        r"\bR-HSA-\d+\b|\b\d{7,9}\b|\bCHEMBL\d+\b|\b[OPQ]\d[A-Z0-9]{3}\d\b|\b[1-9](?=[A-Z0-9]{0,3}[A-Z])[A-Z0-9]{3}\b", body):
             if retrieval.fold(ident) not in hay:
                 return False, f"states {ident}, which is not in the record it cites", text, []
         # numbers: decimals, percentages and anything above 20 must appear in the cited records (small counts are fine)
@@ -299,6 +300,7 @@ def answer(index, question: str, context_id: str | None = None, visitor: str = "
     result = retrieval.retrieve(index, question, context_id=context_id)
     base = {"status": result["status"], "intent": result["intent"], "suggestions": result["suggestions"],
             "unmatchedTerms": result["unmatchedTerms"], "records": _slim(result["records"]), "citations": [],
+            "furtherReading": retrieval.further_reading(result),
             "mode": "database", "notice": None, "model": None,
             "context": next((m["entityIds"][0] for m in result["mentions"]), context_id)}
 

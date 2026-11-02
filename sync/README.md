@@ -22,7 +22,11 @@ so they never trigger a run alone but are refreshed whenever one happens.
 
 ## Sources
 Only these public databases are used: NCBI Gene and PubMed (E-utilities), UniProt, Reactome,
-Gene Ontology (QuickGO), PubChem, and Open Targets (drug targets are ChEMBL-curated mechanisms of action).
+Gene Ontology (QuickGO), PubChem, Open Targets (drug targets are ChEMBL-curated mechanisms of action), and
+the Protein Data Bank and AlphaFold database (structures, linked through each protein's UniProt cross-references).
+
+PDB entries per protein can number in the hundreds, so only the 8 best-resolved are stored (`STRUCTURES_PER_PROTEIN`),
+with the total count and a link to the full list on PDBe-KB.
 
 ## Safety
 The new database is built beside the live one, validated (keys, provenance, foreign keys), stitched with

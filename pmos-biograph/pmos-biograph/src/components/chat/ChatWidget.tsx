@@ -1,10 +1,11 @@
 import { AnimatePresence, motion } from 'framer-motion';
-import { AlertCircle, Database, Eraser, MessageCircle, Send, Sparkles, X } from 'lucide-react';
+import { AlertCircle, Box, Database, Eraser, FileText, MessageCircle, Search, Send, Sparkles, X } from 'lucide-react';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { apiConfig } from '../../services/api.config';
 import { askChat } from '../../services/chat';
-import type { ChatResponse } from '../../services/chat';
+import type { ChatResponse, FurtherReadingItem } from '../../services/chat';
+import { safeHref } from '../../utils/markdown';
 import { ChatMarkdown } from './ChatMarkdown';
 
 const MAX_CHARS = 300;
@@ -34,6 +35,44 @@ function usePageContext(): string | null {
     const params = new URLSearchParams(search);
     return params.get('p') ?? params.get('t') ?? params.get('focus');
   }, [pathname, search]);
+}
+
+const KIND_ICON = { paper: FileText, search: Search, structure: Box, database: Database } as const;
+
+/** Research links picked from the records (never written by the model). Only safe URLs are rendered. */
+function FurtherReading({ items, onNavigate }: { items: FurtherReadingItem[]; onNavigate: () => void }) {
+  const safe = items.filter((item) => safeHref(item.url));
+  if (safe.length === 0) return null;
+  return (
+    <div className="mt-3 border-t border-line pt-2.5">
+      <p className="eyebrow mb-1.5">Further reading</p>
+      <ul className="space-y-1.5">
+        {safe.map((item) => {
+          const Icon = KIND_ICON[item.kind];
+          const content = (
+            <>
+              <Icon size={12} className="mt-[3px] shrink-0 text-ink-mute" aria-hidden />
+              <span>{item.label}</span>
+            </>
+          );
+          const className = 'flex items-start gap-1.5 text-[12.5px] font-semibold leading-snug text-teal hover:underline';
+          return (
+            <li key={item.url}>
+              {item.external ? (
+                <a href={item.url} target="_blank" rel="noopener noreferrer" className={className}>
+                  {content}
+                </a>
+              ) : (
+                <Link to={item.url} onClick={onNavigate} className={className}>
+                  {content}
+                </Link>
+              )}
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  );
 }
 
 function ResponseFooter({ response }: { response: ChatResponse }) {
@@ -209,6 +248,9 @@ function ChatPanel() {
                         <>
                           <ChatMarkdown text={m.text} onNavigate={leaveOnSmallScreens} />
                           {m.response ? <ResponseFooter response={m.response} /> : null}
+                          {m.response?.furtherReading?.length ? (
+                            <FurtherReading items={m.response.furtherReading} onNavigate={leaveOnSmallScreens} />
+                          ) : null}
                           {m.response && m.response.status !== 'ok' && m.response.suggestions.length > 0 ? (
                             <div className="mt-3 border-t border-line pt-2.5">
                               <p className="eyebrow mb-1.5">You could open</p>

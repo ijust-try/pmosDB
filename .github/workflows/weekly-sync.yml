@@ -45,8 +45,16 @@ jobs:
           echo "Simulated failure requested, to test the alert."
           exit 1
 
+      # Public APIs have temporary outages. A failed attempt is retried once; the retry reuses every response
+      # the first attempt already fetched (--fresh-since), so it continues rather than starting over.
       - name: Check upstream releases and re-harvest if needed
-        run: python sync/run_sync.py ${{ inputs.force && '--force' || '' }}
+        run: |
+          since=$(date -u +%Y-%m-%dT%H:%M:%S+00:00)
+          python sync/run_sync.py --fresh-since "$since" ${{ inputs.force && '--force' || '' }} || {
+            echo "First attempt failed; retrying in 2 minutes, reusing what was already fetched."
+            sleep 120
+            python sync/run_sync.py --fresh-since "$since" ${{ inputs.force && '--force' || '' }}
+          }
 
       # A push to the default branch triggers the Vercel deployment, which publishes the new data.
       # data/raw is a local response cache: it is rewritten on every refresh, so it is not committed here.

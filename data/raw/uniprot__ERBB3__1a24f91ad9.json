@@ -1,0 +1,551 @@
+{
+ "source": "uniprot",
+ "query": "ERBB3",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:ERBB3) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb,length"
+ },
+ "retrieved_at": "2026-11-02T07:53:40+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P21860",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Receptor tyrosine-protein kinase erbB-3"
+      },
+      "ecNumbers": [
+       {
+        "value": "2.7.10.1"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Proto-oncogene-like protein c-ErbB-3"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Tyrosine kinase-type cell surface receptor HER3"
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "ERBB3"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q61526"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15358134"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20682778"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21368164"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22983903"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27416908"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "41151154"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "41348103"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9148746"
+         }
+        ],
+        "value": "Tyrosine kinase receptor that, despite substitutions of key catalytic residues in the kinase domain, retains residual catalytic activity enabling autophosphorylation (PubMed:9148746, PubMed:20351256). Functions primarily as a heterodimer, preferentially partnering with ERBB2/HER2, which phosphorylates ERBB3 on specific tyrosine residues and provides the kinase activity required for downstream signaling (PubMed:22983903). Binds neuregulins NRG1 and NRG2 through its extracellular domain, which induces conformational change from a tethered autoinhibited state to an extended conformation competent for dimerization (PubMed:20682778). Upon heterodimerization and trans-phosphorylation, acts as the most efficient activator of the PI3K/AKT pathway within the ErbB family (PubMed:22983903). Also activates the RAS/MAPK/ERK cascade to promote cell proliferation (PubMed:22983903). Plays an essential role in cardiac development; required for normal formation of the endocardial cushion and ventricular trabeculation during embryogenesis (Potential). Critical for peripheral nervous system development, where neuregulin-1/ERBB3 signaling drives Schwann cell survival, proliferation, and differentiation, and is required for axonal myelination (By similarity). Involved in epithelial morphogenesis and mammary gland development (By similarity). Also involved in the regulation of myeloid cell differentiation (PubMed:27416908). Participates in a regulatory feedback loop whereby pathway activation induces transcriptional up-regulation of ERBB3 expression (PubMed:21368164). Participates in vesicular sorting by stabilizing the ARF6-GGA3-RABEP1 endosomal sorting complex, to promote early recycling of TFRC and ITGB1 (PubMed:41348103). May also be activated by additional ligands including CSPG5 and EGFL6; the latter triggers assembly of an ERBB2/ERBB3/ITGB3 signaling complex leading to ERK phosphorylation and cell proliferation (PubMed:15358134, PubMed:41151154)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "PDB",
+      "id": "1M6B",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=20-640"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2L9U",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=639-670"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3KEX",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=698-1019"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3LMG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=684-1020"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3P11",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=20-532"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4LEO",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.64 A"
+       },
+       {
+        "key": "Chains",
+        "value": "C=20-631"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4P59",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=20-640"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4RIW",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/C=698-1020"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4RIX",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/C=698-1020"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4RIY",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.98 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/C=698-1020"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5CUS",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=20-641"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5O4O",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "C=1-643"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5O7P",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "4.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "C=1-643"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6KBI",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=20-639"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6OP9",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=674-1001"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7BHE",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B/D=500-643"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7BHF",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B/D=500-630"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7D85",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/D=328-519"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7MN5",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.93 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=1-1021"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7MN6",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.09 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=1-1021"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7MN8",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.45 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=1-1021"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8YRY",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.93 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=71-205"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9I1Q",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=20-643"
+       }
+      ]
+     },
+     {
+      "database": "AlphaFoldDB",
+      "id": "P21860",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     },
+     {
+      "database": "GeneID",
+      "id": "2065",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "sequence": {
+     "length": 1342
+    },
+    "extraAttributes": {
+     "uniParcId": "UPI000012A113"
+    }
+   }
+  ]
+ }
+}

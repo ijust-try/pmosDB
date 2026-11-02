@@ -1,0 +1,404 @@
+{
+ "source": "uniprot",
+ "query": "F5",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:F5) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb"
+ },
+ "retrieved_at": "2026-11-02T07:36:28+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P12259",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Coagulation factor V"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Activated protein C cofactor"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Proaccelerin, labile factor"
+       }
+      }
+     ],
+     "contains": [
+      {
+       "recommendedName": {
+        "fullName": {
+         "value": "Coagulation factor V heavy chain"
+        }
+       }
+      },
+      {
+       "recommendedName": {
+        "fullName": {
+         "value": "Coagulation factor V light chain"
+        }
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "F5"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Central regulator of hemostasis. It serves as a critical cofactor for the prothrombinase activity of factor Xa that results in the activation of prothrombin to thrombin"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "PDB",
+      "id": "1CZS",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=2065-2224"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1CZT",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.87 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=2065-2224"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1CZV",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=2065-2224"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3P6Z",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "C/I=685-737"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3P70",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.55 A"
+       },
+       {
+        "key": "Chains",
+        "value": "M/N/O/P=685-737"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3S9C",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B=1561-1574"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7KVE",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B=29-2224"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7KVF",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B=29-2224"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7KXY",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "4.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=29-737, B=1574-2224"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7TPP",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "4.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "C=29-737, D=1574-2224"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8FDG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=29-2224"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8TN9",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.05 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=29-2224"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9CTH",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "6.47 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=29-737, E=1574-2224"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9I24",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "C=684-698"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9I2H",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.28 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=29-737, B=1574-2224"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9MOT",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.15 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=29-737, B=1574-2224"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9MOV",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=29-737, B=1574-2224"
+       }
+      ]
+     },
+     {
+      "database": "AlphaFoldDB",
+      "id": "P12259",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     },
+     {
+      "database": "GeneID",
+      "id": "2153",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000016A8CE"
+    }
+   }
+  ]
+ }
+}

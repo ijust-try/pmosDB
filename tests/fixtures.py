@@ -47,10 +47,20 @@ class FixtureKB:
             ],
         )
         conn.executemany(
-            "INSERT INTO proteins VALUES (?,?,?,?,?,?,?)",
+            "INSERT INTO proteins (protein_id, name, function, gene_symbol, pdb_count, alphafold_id, source, "
+            "source_accession, retrieved_on) VALUES (?,?,?,?,?,?,?,?,?)",
             [
-                ("P10275", "Androgen receptor", "Steroid hormone receptor", "AR", "UniProt", "P10275", "2026-01-01"),
-                ("P03372", "Estrogen receptor", "Steroid hormone receptor", "ESR1", "UniProt", "P03372", "2026-01-01"),
+                ("P10275", "Androgen receptor", "Steroid hormone receptor", "AR", 95, "P10275", "UniProt", "P10275", "2026-01-01"),
+                ("P03372", "Estrogen receptor", "Steroid hormone receptor", "ESR1", 0, "P03372", "UniProt", "P03372", "2026-01-01"),
+            ],
+        )
+        conn.executemany(
+            "INSERT INTO protein_structure (protein_id, pdb_id, method, resolution, chains, source, source_accession, "
+            "retrieved_on) VALUES (?,?,?,?,?,?,?,?)",
+            [
+                ("P10275", "1GS4", "X-ray", 1.95, "A=671-918", "PDB", "1GS4", "2026-01-01"),
+                ("P10275", "2AM9", "X-ray", 1.64, "A=663-919", "PDB", "2AM9", "2026-01-01"),
+                ("P10275", "1E3G", "X-ray", 2.4, "A=658-920", "PDB", "1E3G", "2026-01-01"),
             ],
         )
         conn.executemany(

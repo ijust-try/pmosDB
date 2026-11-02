@@ -1,0 +1,804 @@
+{
+ "source": "uniprot",
+ "query": "ROCK1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:ROCK1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb,length"
+ },
+ "retrieved_at": "2026-11-02T08:01:49+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q13464",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Rho-associated protein kinase 1"
+      },
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10436159"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10652353"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11018042"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23093407"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23355470"
+         }
+        ],
+        "value": "2.7.11.39"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Renal carcinoma antigen NY-REN-35"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Rho-associated, coiled-coil-containing protein kinase 1"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Rho-associated, coiled-coil-containing protein kinase I"
+       },
+       "shortNames": [
+        {
+         "value": "ROCK-I"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "p160 ROCK-1"
+       },
+       "shortNames": [
+        {
+         "value": "p160ROCK"
+        }
+       ]
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "ROCK1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P70335"
+         },
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q8MIT6"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10436159"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10652353"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11018042"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11283607"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17158456"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18573880"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18694941"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19036714"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19131646"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19181962"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19997641"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21072057"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23093407"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23355470"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8617235"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9722579"
+         }
+        ],
+        "value": "Protein kinase which is a key regulator of the actin cytoskeleton and cell polarity (PubMed:10436159, PubMed:10652353, PubMed:11018042, PubMed:11283607, PubMed:17158456, PubMed:18573880, PubMed:19131646, PubMed:8617235, PubMed:9722579). Involved in regulation of smooth muscle contraction, actin cytoskeleton organization, stress fiber and focal adhesion formation, neurite retraction, cell adhesion and motility via phosphorylation of DAPK3, GFAP, LIMK1, LIMK2, MYL9/MLC2, TPPP, PFN1 and PPP1R12A (PubMed:10436159, PubMed:10652353, PubMed:11018042, PubMed:11283607, PubMed:17158456, PubMed:18573880, PubMed:19131646, PubMed:23093407, PubMed:23355470, PubMed:8617235, PubMed:9722579). Phosphorylates FHOD1 and acts synergistically with it to promote SRC-dependent non-apoptotic plasma membrane blebbing (PubMed:18694941). Phosphorylates JIP3 and regulates the recruitment of JNK to JIP3 upon UVB-induced stress (PubMed:19036714). Acts as a suppressor of inflammatory cell migration by regulating PTEN phosphorylation and stability (By similarity). Acts as a negative regulator of VEGF-induced angiogenic endothelial cell activation (PubMed:19181962). Required for centrosome positioning and centrosome-dependent exit from mitosis (By similarity). Plays a role in terminal erythroid differentiation (PubMed:21072057). Inhibits podocyte motility via regulation of actin cytoskeletal dynamics and phosphorylation of CFL1 (By similarity). Promotes keratinocyte terminal differentiation (PubMed:19997641). Involved in osteoblast compaction through the fibronectin fibrillogenesis cell-mediated matrix assembly process, essential for osteoblast mineralization (By similarity). May regulate closure of the eyelids and ventral body wall by inducing the assembly of actomyosin bundles (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "PDB",
+      "id": "1S1C",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "X/Y=947-1015"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2ESM",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2ETK",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.96 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2ETR",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2V55",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/C=1-406"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3D9V",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3NCZ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3NDM",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3O0Z",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.33 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=535-700"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3TV7",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.75 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3TWJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3V8S",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.29 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4L2W",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.49 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=834-914"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4W7P",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=2-410"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4YVC",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4YVE",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5BML",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.95 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5F5P",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.57 A"
+       },
+       {
+        "key": "Chains",
+        "value": "C/D/E/F=834-913"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5HVU",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5KKS",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5KKT",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5UZJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5WNE",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5WNF",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.45 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5WNG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5WNH",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6E9W",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.96 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7JOU",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.32 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=6-415"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7S25",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.34 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=7-402"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7S26",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.74 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=6-402"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8P0S",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=420-550"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8ZH5",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=6-415"
+       }
+      ]
+     },
+     {
+      "database": "AlphaFoldDB",
+      "id": "Q13464",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     },
+     {
+      "database": "GeneID",
+      "id": "6093",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "sequence": {
+     "length": 1354
+    },
+    "extraAttributes": {
+     "uniParcId": "UPI000006F0A4"
+    }
+   }
+  ]
+ }
+}

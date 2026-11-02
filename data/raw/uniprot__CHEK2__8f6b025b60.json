@@ -1,0 +1,924 @@
+{
+ "source": "uniprot",
+ "query": "CHEK2",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:CHEK2) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb"
+ },
+ "retrieved_at": "2026-11-02T07:33:34+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "O96017",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "Serine/threonine-protein kinase Chk2"
+      },
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "37943659"
+         }
+        ],
+        "value": "2.7.11.1"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "CHK2 checkpoint homolog"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Cds1 homolog"
+       },
+       "shortNames": [
+        {
+         "value": "Hucds1"
+        },
+        {
+         "value": "hCds1"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Checkpoint kinase 2"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:16627"
+        }
+       ],
+       "value": "CHEK2"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q9Z265"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10097108"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10724175"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11298456"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12402044"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12607004"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12717439"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12810724"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16163388"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17101782"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17380128"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17715138"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18317453"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18644861"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18728393"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20364141"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25361978"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25619829"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "37943659"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9836640"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9889122"
+         }
+        ],
+        "value": "Serine/threonine-protein kinase which is required for checkpoint-mediated cell cycle arrest, activation of DNA repair and apoptosis in response to the presence of DNA double-strand breaks. May also negatively regulate cell cycle progression during unperturbed cell cycles. Following activation, phosphorylates numerous effectors preferentially at the consensus sequence [L-X-R-X-X-S/T] (PubMed:37943659). Regulates cell cycle checkpoint arrest through phosphorylation of CDC25A, CDC25B and CDC25C, inhibiting their activity. Inhibition of CDC25 phosphatase activity leads to increased inhibitory tyrosine phosphorylation of CDK-cyclin complexes and blocks cell cycle progression. May also phosphorylate NEK6 which is involved in G2/M cell cycle arrest. Regulates DNA repair through phosphorylation of BRCA2, enhancing the association of RAD51 with chromatin which promotes DNA repair by homologous recombination. Also stimulates the transcription of genes involved in DNA repair (including BRCA2) through the phosphorylation and activation of the transcription factor FOXM1. Regulates apoptosis through the phosphorylation of p53/TP53, MDM4 and PML. Phosphorylation of p53/TP53 at 'Ser-20' by CHEK2 may alleviate inhibition by MDM2, leading to accumulation of active p53/TP53. Phosphorylation of MDM4 may also reduce degradation of p53/TP53. Also controls the transcription of pro-apoptotic genes through phosphorylation of the transcription factor E2F1. Tumor suppressor, it may also have a DNA damage-independent function in mitotic spindle assembly by phosphorylating BRCA1. Its absence may be a cause of the chromosomal instability observed in some cancer cells. Promotes the CCAR2-SIRT1 association and is required for CCAR2-mediated SIRT1 inhibition (PubMed:25361978). Under oxidative stress, promotes ATG7 ubiquitination by phosphorylating the E3 ubiquitin ligase TRIM32 at 'Ser-55' leading to positive regulation of the autophagosme assembly (PubMed:37943659)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     },
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "32001251"
+         }
+        ],
+        "value": "(Microbial infection) Phosphorylates herpes simplex virus 1/HHV-1 protein ICP0 and thus activates its SUMO-targeted ubiquitin ligase activity"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "PDB",
+      "id": "1GXC",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/D/G/J=64-212"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2CN5",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.25 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=209-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2CN8",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=209-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2W0J",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.05 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=209-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2W7X",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.07 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=209-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2WTC",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=209-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2WTD",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.75 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=209-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2WTI",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=209-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2WTJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=209-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2XBJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=209-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2XK9",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.35 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2XM8",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2XM9",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2YCF",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.77 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-530"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2YCQ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.05 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2YCR",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2YCS",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.35 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2YIQ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.89 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2YIR",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2YIT",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3I6U",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=84-502"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3I6W",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.25 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D/E/F/G/H=70-512"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3VA4",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.54 A"
+       },
+       {
+        "key": "Chains",
+        "value": "C=63-73"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4A9R",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.85 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4A9S",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.66 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4A9T",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4A9U",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.48 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4BDA",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4BDB",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4BDC",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4BDD",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.67 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4BDE",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.55 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4BDF",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4BDG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.84 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4BDH",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4BDI",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.32 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4BDJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.01 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4BDK",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=210-531"
+       }
+      ]
+     },
+     {
+      "database": "AlphaFoldDB",
+      "id": "O96017",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     },
+     {
+      "database": "GeneID",
+      "id": "11200",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00000316FF"
+    }
+   }
+  ]
+ }
+}

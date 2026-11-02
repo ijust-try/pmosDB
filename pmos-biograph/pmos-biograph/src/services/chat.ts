@@ -21,6 +21,14 @@ export interface ChatSuggestion {
   url: string;
 }
 
+/** A research link chosen from the retrieved records: a paper, a PubMed search, a 3D structure or a source record. */
+export interface FurtherReadingItem {
+  kind: 'paper' | 'search' | 'structure' | 'database';
+  label: string;
+  url: string;
+  external: boolean;
+}
+
 export interface ChatResponse {
   answer: string;
   mode: 'model' | 'database';
@@ -31,6 +39,7 @@ export interface ChatResponse {
   suggestions: ChatSuggestion[];
   unmatchedTerms: string[];
   notice: string | null;
+  furtherReading?: FurtherReadingItem[];
   /** Record the answer was about; sent back as context so follow-ups like "its pathways" resolve. */
   context?: string | null;
 }

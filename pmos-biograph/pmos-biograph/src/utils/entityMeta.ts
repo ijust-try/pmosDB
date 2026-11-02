@@ -44,6 +44,8 @@ export const SOURCE_NAMES: Record<SourceId, string> = {
   pubchem: 'PubChem',
   'open-targets': 'Open Targets',
   pubmed: 'PubMed',
+  pdb: 'Protein Data Bank',
+  alphafold: 'AlphaFold DB',
 };
 
 export const SOURCE_IDS = Object.keys(SOURCE_NAMES) as SourceId[];

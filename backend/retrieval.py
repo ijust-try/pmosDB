@@ -20,6 +20,7 @@ from __future__ import annotations
 import math
 import re
 import unicodedata
+import urllib.parse
 from collections import Counter, defaultdict
 
 import pmos_data
@@ -69,6 +70,7 @@ EXPLAIN_PATTERN = re.compile(
 
 LINK_PATTERN = re.compile(
     r"\b(links?|urls?|hyperlinks?|web ?pages?|websites?|where (can|do|could) (i|we) (find|see|read|get|look)|"
+    r"pdbe?|rcsb|alphafold|structures?|crystal|3d|"
     r"(page|record|entry|database entry) (for|of|on)|accessions?|identifiers?|ids?|cid|uniprot|pubchem|reactome|ncbi)\b",
     re.IGNORECASE)
 
@@ -115,7 +117,11 @@ ENTRY_POINTS = [
     {"id": None, "type": None, "name": "Pathways", "url": "/pathways"},
     {"id": None, "type": None, "name": "Therapeutics", "url": "/therapeutics"},
 ]
-LINK_WORDS = frozenset("uniprot pubchem reactome ncbi accession accessions identifier identifiers id ids cid pubmed pmid".split())
+LINK_WORDS = frozenset("uniprot pubchem reactome ncbi accession accessions identifier identifiers id ids cid pubmed pmid "
+                       "pdb pdbe rcsb alphafold structure crystal 3d".split())
+PUBMED_SEARCH = "https://pubmed.ncbi.nlm.nih.gov/?term={}"
+SHORT_SOURCE_NAMES = {"pdb": "RCSB PDB", "alphafold": "AlphaFold DB"}
+STRUCTURE_WORDS = frozenset("pdb pdbe rcsb alphafold structure crystal 3d".split())  # structures belong to proteins
 # "this gene", "its pathways": the question points at the record the visitor is looking at
 CONTEXT_CUE = re.compile(r"\b(this|it|its|that|these|those|here|current)\b", re.IGNORECASE)
 SEED_RELATIVE_SCORE = 0.35  # extra ranked seeds must score at least this share of the named entity's score
@@ -175,7 +181,10 @@ def citation(entity: dict) -> str:
     year = entity.get("year")
     if not authors:
         return f"{_truncate(entity['name'], 60)}" + (f" ({year})" if year else "")
-    first = authors[0].split(" ")[0] if " " in authors[0] else authors[0]
+    parts = authors[0].split(" ")
+    if len(parts) > 1 and re.fullmatch(r"[A-Z]{1,4}", parts[-1]):  # stored as "Surname Initials"
+        parts = parts[:-1]
+    first = " ".join(parts)
     who = f"{first} et al." if len(authors) > 1 else first
     return f"{who}, {year}" if year else who
 
@@ -185,7 +194,8 @@ def citation(entity: dict) -> str:
 def _entity_fields(entity: dict, index) -> dict[str, list[str]]:
     aliases = list(entity.get("aliases") or [])
     ids = [entity["primaryId"], entity.get("symbol"), entity.get("geneSymbol"),
-           *[s.get("accession") for s in entity["sources"]]]
+           *[s.get("accession") for s in entity["sources"]],
+           *[s["id"] for s in (entity.get("structures") or {}).get("entries", [])]]
     body = [entity.get("description"), entity.get("mechanism"), entity.get("abstract")]
     body += [f"{a['label']} {a['value']}" for a in entity.get("annotations", [])]
     context = []
@@ -230,6 +240,7 @@ class Corpus:
         for i, e in enumerate(self.entities):
             names = [e["name"], *(e.get("aliases") or []), e["primaryId"], e.get("symbol"), e.get("geneSymbol")]
             names += [s.get("accession") for s in e["sources"]]
+            names += [s["id"] for s in (e.get("structures") or {}).get("entries", [])]
             for name in names:
                 key = phrase_key(name or "")
                 if key and not (key.isdigit() and len(key) < 6) and i not in self.phrases[key]:
@@ -409,6 +420,17 @@ def record_text(entity: dict, index) -> str:
         go = [a["value"] for a in entity.get("annotations", []) if a["label"] == "GO (biological_process)"][:5]
         if go:
             parts.append("Gene Ontology processes: " + "; ".join(go) + ".")
+        st = entity.get("structures")
+        if st:
+            best = ", ".join(
+                f"{e['id']} ({e['method'] or 'method not stated'}"
+                + (f", {e['resolution']:.2f} Å" if e["resolution"] is not None else "") + ")"
+                for e in st["entries"][:3]
+            )
+            parts.append(
+                (f"{st['pdbCount']} experimental structures in the Protein Data Bank; best resolved: {best}. " if best else "")
+                + ("An AlphaFold predicted structure is available." if st["alphafoldId"] else "")
+            )
     if t == "therapeutic":
         targets = [f"{n['entity']['name']} ({n['relationship'].get('note', '')})".strip()
                    for n in pmos_data.get_neighbours(index, entity["id"])
@@ -429,8 +451,18 @@ def make_record(ref: str, entity: dict, index, via: str | None = None, score: fl
     for s in entity["sources"]:
         if s.get("url"):
             meta = pmos_data.SOURCE_META.get(s["source"])
-            external.append({"source": meta[0] if meta else s["source"], "url": s["url"],
-                             "accession": s.get("accession")})
+            name = SHORT_SOURCE_NAMES.get(s["source"]) or (meta[0] if meta else s["source"])
+            external.append({"source": name, "url": s["url"], "accession": s.get("accession"),
+                             "kind": "structure" if s["source"] in SHORT_SOURCE_NAMES else "record"})
+    st = entity.get("structures")
+    if st:  # a few more of the best entries, and the page listing every structure of this protein
+        have = {x["url"] for x in external}
+        for e in st["entries"][1:3]:
+            if e["url"] not in have:
+                external.append({"source": "RCSB PDB", "url": e["url"], "accession": e["id"], "kind": "structure"})
+        if st.get("allUrl"):
+            external.append({"source": f"All {st['pdbCount']} structures (PDBe-KB)", "url": st["allUrl"],
+                             "accession": None, "kind": "structure"})
     return {
         "ref": ref, "id": entity["id"], "type": entity["type"], "name": entity["name"],
         "idLabel": entity["idLabel"], "primaryId": entity["primaryId"],
@@ -459,7 +491,10 @@ def _content(query: str, link_intent: bool = False, named_text: str = "") -> tup
     hints: set[str] = set()
     tokens = []
     protected = set(tokenize(named_text, drop_stopwords=False))
-    for tok in tokenize(query):
+    all_tokens = tokenize(query)
+    if link_intent and STRUCTURE_WORDS & set(all_tokens):
+        hints.add("protein")
+    for tok in all_tokens:
         if tok not in protected and (tok in TYPE_HINTS or _stem(tok) in TYPE_HINTS):
             hints.add(TYPE_HINTS.get(tok) or TYPE_HINTS[_stem(tok)])
             continue
@@ -616,6 +651,54 @@ def _suggest(corpus: Corpus, entity_ids: list[str], qtokens: list[str], hints: s
     return out or list(ENTRY_POINTS)
 
 
+# --------------------------------------------------------------------------- further reading
+
+def further_reading(result: dict, max_items: int = 9) -> list[dict]:
+    """Research links for an answered question, built only from the retrieved records (never by a model):
+    papers in the knowledge base (PubMed), a PubMed search on the topic, 3D structures, and source records."""
+    if result["status"] != "ok" or result["intent"] != "qa":
+        return []
+    records = result["records"]
+    items: list[dict] = []
+
+    for r in [x for x in records if x["type"] == "publication"][:3]:
+        pubmed = next((e for e in r["external"] if e["source"] == "PubMed"), None)
+        who = f"{r['citation']}: " if r.get("citation") else ""
+        items.append({"kind": "paper", "label": f"{who}{_truncate(r['name'], 90)}",
+                      "url": pubmed["url"] if pubmed else r["url"], "external": bool(pubmed)})
+
+    named_ids = {i for m in result["mentions"] for i in m["entityIds"]}
+    topic = next((r for r in records if r["id"] in named_ids and r["type"] != "publication"), None) \
+        or next((r for r in records if r["type"] != "publication"), None)
+    if topic:
+        query = "polycystic ovary syndrome" if topic["type"] == "process" else f'"{topic["name"]}" AND "polycystic ovary syndrome"'
+        label = "PCOS" if topic["type"] == "process" else f"{topic['name']} and PCOS"
+        items.append({"kind": "search", "label": f"Search PubMed: {label}",
+                      "url": PUBMED_SEARCH.format(urllib.parse.quote_plus(query)), "external": True})
+
+    structures = [(r, e) for r in records for e in r["external"] if e.get("kind") == "structure"]
+    for r, e in structures[:2]:
+        items.append({"kind": "structure", "label": f"{e['source']}" + (f" {e['accession']}" if e["accession"] else "")
+                      + f" ({r['name']})", "url": e["url"], "external": True})
+
+    shown = 0
+    for r in records:
+        if r["type"] == "publication" or shown >= 3:
+            continue
+        link = next((e for e in r["external"] if e.get("kind") == "record"), None)
+        if link:
+            items.append({"kind": "database", "label": f"{link['source']}: {_truncate(r['name'], 60)}",
+                          "url": link["url"], "external": True})
+            shown += 1
+
+    seen, unique = set(), []
+    for item in items:
+        if item["url"] not in seen:
+            seen.add(item["url"])
+            unique.append(item)
+    return unique[:max_items]
+
+
 # --------------------------------------------------------------------------- answers without a model
 
 def compose_extractive(result: dict, suggestions: bool = True) -> str:
@@ -633,7 +716,9 @@ def compose_extractive(result: dict, suggestions: bool = True) -> str:
         if result["intent"] == "link":
             lines = ["Here is what the knowledge base has:"]
             for r in records:
-                ext = "; ".join(f"[{x['source']}]({x['url']})" for x in r["external"])
+                ext = "; ".join(
+                    f"[{x['source']}{' ' + x['accession'] if x.get('kind') == 'structure' and x.get('accession') else ''}]({x['url']})"
+                    for x in r["external"])
                 lines.append(f"- **{r['name']}** ({r['type']}, {r['idLabel']} {r['primaryId']}): "
                              f"[PMOS page]({r['url']})" + (f"; {ext}" if ext else ""))
             text = "\n".join(lines)

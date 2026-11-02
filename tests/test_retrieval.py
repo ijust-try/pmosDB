@@ -63,6 +63,18 @@ class RefusalTests(unittest.TestCase):
                 self.assertIsNone(rt.detect_refusal(q))
 
 
+class CitationTests(unittest.TestCase):
+    def test_surnames_with_particles_and_initials(self):
+        cite = lambda *authors, year=2021: rt.citation({"name": "T", "authors": list(authors), "year": year})
+        self.assertEqual(cite("Smith J", "Lee K"), "Smith et al., 2021")
+        self.assertEqual(cite("de Medeiros SF", "Lee K"), "de Medeiros et al., 2021")
+        self.assertEqual(cite("van der Berg AB"), "van der Berg, 2021")
+        self.assertEqual(cite("Al Wattar BH", "X Y"), "Al Wattar et al., 2021")
+        self.assertEqual(cite("PCOS Consortium"), "PCOS Consortium, 2021")
+        self.assertEqual(cite("Madonna", "Other"), "Madonna et al., 2021")
+        self.assertEqual(rt.citation({"name": "A title", "authors": None, "year": 2019}), "A title (2019)")
+
+
 class FixtureRetrievalTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):

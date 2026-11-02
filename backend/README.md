@@ -97,6 +97,14 @@ linked. Records that only match the question's wording are labelled so. `unmatch
 record, so an answer can say what the knowledge base does not cover. A link request only succeeds when a record's own
 name matches, never on a loose text match.
 
+Requests for a structure ("PDB link for the androgen receptor", "AlphaFold structure of ESR1") are link requests: they are
+answered from the protein's `structures` record (best-resolved PDB entries, the AlphaFold prediction and the PDBe-KB page that
+lists every structure). A PDB ID in a question names its protein.
+
+For answered questions the response also carries `furtherReading`: research links chosen from the retrieved records, never by a
+model: papers in the knowledge base (PubMed), a PubMed search on the topic (`"<name>" AND "polycystic ovary syndrome"`),
+3D structures, and the source records (UniProt, NCBI Gene, Reactome, PubChem).
+
 The question benchmark is `eval/retrieval_cases.json`, run by `tests/test_retrieval_eval.py`. Known limit: matching is
 lexical, so a synonym that is not in a record (for example "LH receptor" for LHCGR) finds nothing and the bot says so
 rather than guessing. Embeddings could close that gap later.

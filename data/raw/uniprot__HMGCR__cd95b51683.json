@@ -1,0 +1,575 @@
+{
+ "source": "uniprot",
+ "query": "HMGCR",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:HMGCR) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb,length"
+ },
+ "retrieved_at": "2026-11-02T07:56:20+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P04035",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "3-hydroxy-3-methylglutaryl-coenzyme A reductase"
+      },
+      "shortNames": [
+       {
+        "value": "HMG-CoA reductase"
+       }
+      ],
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21357570"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "2991281"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "36745799"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "6995544"
+         }
+        ],
+        "value": "1.1.1.34"
+       }
+      ]
+     }
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:5006"
+        }
+       ],
+       "value": "HMGCR"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11349148"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18540668"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21357570"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "2991281"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "36745799"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "6995544"
+         }
+        ],
+        "value": "Catalyzes the conversion of (3S)-hydroxy-3-methylglutaryl-CoA (HMG-CoA) to mevalonic acid, the rate-limiting step in the synthesis of cholesterol and other isoprenoids, thus plays a critical role in cellular cholesterol homeostasis (PubMed:21357570, PubMed:2991281, PubMed:36745799, PubMed:6995544). HMGCR is the main target of statins, a class of cholesterol-lowering drugs (PubMed:11349148, PubMed:18540668, PubMed:36745799)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "PDB",
+      "id": "1DQ8",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=425-888"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1DQ9",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=425-888"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1DQA",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=425-888"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1HW8",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=426-888"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1HW9",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.33 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=426-888"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1HWI",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=426-888"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1HWJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.26 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=426-888"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1HWK",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.22 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=426-888"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1HWL",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=426-888"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2Q1L",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.05 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=441-875"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2Q6B",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=441-875"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2Q6C",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=441-875"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2R4F",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=441-875"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3BGL",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.23 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=441-875"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3CCT",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.12 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=441-875"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3CCW",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=441-875"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3CCZ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=441-875"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3CD0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=441-875"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3CD5",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.39 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=441-875"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3CD7",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.05 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=441-875"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3CDA",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.07 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=441-875"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3CDB",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=441-875"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8PKN",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.26 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=439-861"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8S6B",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.06 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=439-861"
+       }
+      ]
+     },
+     {
+      "database": "AlphaFoldDB",
+      "id": "P04035",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     },
+     {
+      "database": "GeneID",
+      "id": "3156",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "sequence": {
+     "length": 888
+    },
+    "extraAttributes": {
+     "uniParcId": "UPI000012C9E2"
+    }
+   }
+  ]
+ }
+}

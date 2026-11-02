@@ -1,0 +1,534 @@
+{
+ "source": "uniprot",
+ "query": "TCEA1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:TCEA1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb,length"
+ },
+ "retrieved_at": "2026-11-02T08:01:58+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P23193",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Transcription elongation factor A protein 1"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Transcription elongation factor S-II protein 1"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Transcription elongation factor TFIIS.o"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "TCEA1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Necessary for efficient RNA polymerase II transcription elongation past template-encoded arresting sites. The arresting sites in DNA have the property of trapping a certain fraction of elongating RNA polymerases that pass through, resulting in locked ternary complexes. Cleavage of the nascent transcript by S-II allows the resumption of elongation from the new 3'-terminus"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "PDB",
+      "id": "1TFI",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A=252-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3NDQ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.93 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=131-232"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5IY6",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "7.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "U=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5IY7",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "8.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "U=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5IY8",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "7.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "U=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5IYA",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "5.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "U=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5IYB",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "U=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5IYC",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "U=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6O9L",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "7.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "U=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6ZUY",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A=1-79"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6ZV4",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A=1-77"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7CNF",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A=1-96"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7UNC",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "O=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7UND",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "O=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8A40",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "U=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8UIS",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.23 A"
+       },
+       {
+        "key": "Chains",
+        "value": "S=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9EGX",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "S=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9EGY",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "S=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9EGZ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "S=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9EH0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "S=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9EH2",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "S=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9J0N",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "M=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9MLC",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "S=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9S0U",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "6.72 A"
+       },
+       {
+        "key": "Chains",
+        "value": "S=1-301"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9S3G",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "6.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "S=1-301"
+       }
+      ]
+     },
+     {
+      "database": "AlphaFoldDB",
+      "id": "P23193",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     },
+     {
+      "database": "GeneID",
+      "id": "6917",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "sequence": {
+     "length": 301
+    },
+    "extraAttributes": {
+     "uniParcId": "UPI0000136ABE"
+    }
+   }
+  ]
+ }
+}

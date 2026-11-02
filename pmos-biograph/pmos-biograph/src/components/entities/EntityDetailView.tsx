@@ -6,6 +6,7 @@ import { getEntityById, getEntityRelationships } from '../../services/repository
 import type { Entity, Neighbour } from '../../types';
 import { ENTITY_META, ENTITY_TYPES, EVIDENCE_LABELS, EVIDENCE_NOTES, SOURCE_NAMES } from '../../utils/entityMeta';
 import { EvidenceMeter } from '../ui/EvidenceMeter';
+import { StructuresPanel } from './StructuresPanel';
 import { MiniGraph } from '../graph/MiniGraph';
 import { RelationStatusBadge, SourceBadge, TypeBadge, TypeIcon, VerificationBadge } from '../ui/Badges';
 import { EmptyState, ErrorState, LoadingRows } from '../ui/States';
@@ -131,6 +132,15 @@ export function EntityDetailView({ entityId }: { entityId: string }) {
   const meta = ENTITY_META[entity.type];
   const grouped = ENTITY_TYPES.map((t) => ({ type: t, items: neighbours.filter((n) => n.entity.type === t) })).filter((g) => g.items.length);
   const publications = neighbours.filter((n) => n.entity.type === 'publication');
+  // a protein shows its own structures; a gene shows those of the protein it encodes
+  const structureProtein =
+    entity.type === 'protein'
+      ? entity.structures
+        ? entity
+        : null
+      : entity.type === 'gene'
+        ? (neighbours.map((n) => n.entity).find((e) => e.type === 'protein' && e.structures) ?? null)
+        : null;
   const labelCounts = neighbours.reduce<Record<string, number>>((acc, n) => {
     acc[n.relationship.label] = (acc[n.relationship.label] ?? 0) + 1;
     return acc;
@@ -208,6 +218,10 @@ export function EntityDetailView({ entityId }: { entityId: string }) {
                     ))}
                   </dl>
                 </section>
+              ) : null}
+
+              {structureProtein && structureProtein.type === 'protein' ? (
+                <StructuresPanel protein={structureProtein} viaGene={entity.type === 'gene'} />
               ) : null}
 
               {entity.type === 'publication' && entity.abstract ? (

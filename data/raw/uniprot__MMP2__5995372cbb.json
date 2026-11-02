@@ -1,0 +1,421 @@
+{
+ "source": "uniprot",
+ "query": "MMP2",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:MMP2) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb"
+ },
+ "retrieved_at": "2026-11-02T07:38:00+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P08253",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "2162831"
+        },
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "2834383"
+        }
+       ],
+       "value": "72 kDa type IV collagenase"
+      },
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "11179305"
+         },
+         {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "11431697"
+         },
+         {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "12147339"
+         },
+         {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "2834383"
+         }
+        ],
+        "value": "3.4.24.24"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "1655733"
+         }
+        ],
+        "value": "72 kDa gelatinase"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Gelatinase A"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Matrix metalloproteinase-2"
+       },
+       "shortNames": [
+        {
+         "value": "MMP-2"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "TBE-1"
+       }
+      }
+     ],
+     "contains": [
+      {
+       "recommendedName": {
+        "fullName": {
+         "value": "PEX"
+        }
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "MMP2"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "value": "Ubiquitinous metalloproteinase that is involved in diverse functions such as remodeling of the vasculature, angiogenesis, tissue repair, tumor invasion, inflammation, and atherosclerotic plaque rupture. As well as degrading extracellular matrix proteins, can also act on several nonmatrix proteins such as big endothelial 1 and beta-type CGRP promoting vasoconstriction. Also cleaves KISS at a Gly-|-Leu bond. Appears to have a role in myocardial cell death pathways. Contributes to myocardial oxidative stress by regulating the activity of GSK3beta. Cleaves GSK3beta in vitro. Involved in the formation of the fibrovascular tissues in association with MMP14"
+       }
+      ],
+      "commentType": "FUNCTION"
+     },
+     {
+      "texts": [
+       {
+        "value": "PEX, the C-terminal non-catalytic fragment of MMP2, possesses anti-angiogenic and anti-tumor properties and inhibits cell migration and cell adhesion to FGF2 and vitronectin. Ligand for integrinv/beta3 on the surface of blood vessels"
+       }
+      ],
+      "commentType": "FUNCTION"
+     },
+     {
+      "texts": [
+       {
+        "value": "Mediates the proteolysis of CHUK/IKKA and initiates a primary innate immune response by inducing mitochondrial-nuclear stress signaling with activation of the pro-inflammatory NF-kappaB, NFAT and IRF transcriptional pathways"
+       }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "Isoform 2"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "PDB",
+      "id": "1CK7",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=30-660"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1CXW",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A=278-336"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1EAK",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.66 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=32-452"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1GEN",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.15 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=443-660"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1GXD",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=30-660"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1HOV",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A=110-214"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1J7M",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A=337-394"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1KS0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A=223-282"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1QIB",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=115-213, A=394-449"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1RTG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=451-660"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3AYU",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=110-450"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7XGJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C=110-450"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7XJO",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=110-450"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8H78",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=110-450"
+       }
+      ]
+     },
+     {
+      "database": "AlphaFoldDB",
+      "id": "P08253",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     },
+     {
+      "database": "GeneID",
+      "id": "4313",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI00000422C4"
+    }
+   }
+  ]
+ }
+}

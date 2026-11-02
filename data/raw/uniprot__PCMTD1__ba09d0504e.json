@@ -1,0 +1,127 @@
+{
+ "source": "uniprot",
+ "query": "PCMTD1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:PCMTD1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb,length"
+ },
+ "retrieved_at": "2026-11-02T07:57:08+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q96MG8",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "Protein-L-isoaspartate O-methyltransferase domain-containing protein 1"
+      }
+     }
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:30483"
+        }
+       ],
+       "value": "PCMTD1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "35486881"
+         }
+        ],
+        "value": "Substrate recognition component of an ECS (Elongin BC-CUL5-SOCS-box protein) E3 ubiquitin ligase complex which mediates the ubiquitination and subsequent proteasomal degradation of target proteins (PubMed:35486881). Specifically binds to the methyltransferase cofactor S-adenosylmethionine (AdoMet) via the N-terminal AdoMet binding motif, but does not display methyltransferase activity (PubMed:35486881). May provide an alternate maintenance pathway for modified proteins by acting as a damage-specific E3 ubiquitin ligase adaptor protein (PubMed:35486881)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "PDB",
+      "id": "9OMA",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "4.14 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=1-357"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9OMF",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "9.72 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=1-357"
+       }
+      ]
+     },
+     {
+      "database": "AlphaFoldDB",
+      "id": "Q96MG8",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     },
+     {
+      "database": "GeneID",
+      "id": "115294",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "sequence": {
+     "length": 357
+    },
+    "extraAttributes": {
+     "uniParcId": "UPI0000047CC0"
+    }
+   }
+  ]
+ }
+}

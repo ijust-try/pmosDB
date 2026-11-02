@@ -1,0 +1,258 @@
+{
+ "source": "uniprot",
+ "query": "IRS1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:IRS1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb,length"
+ },
+ "retrieved_at": "2026-11-02T07:49:11+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P35568",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Insulin receptor substrate 1"
+      },
+      "shortNames": [
+       {
+        "value": "IRS-1"
+       }
+      ]
+     }
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "IRS1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35570"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11171109"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16878150"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19639489"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "38625937"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7541045"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8265614"
+         }
+        ],
+        "value": "Signaling adapter protein that participates in the signal transduction from two prominent receptor tyrosine kinases, insulin receptor/INSR and insulin-like growth factor I receptor/IGF1R (PubMed:7541045, PubMed:33991522, PubMed:38625937). Plays therefore an important role in development, growth, glucose homeostasis as well as lipid metabolism (PubMed:19639489). Upon phosphorylation by the insulin receptor, functions as a signaling scaffold that propagates insulin action through binding to SH2 domain-containing proteins including the p85 regulatory subunit of PI3K, NCK1, NCK2, GRB2 or SHP2 (PubMed:11171109, PubMed:8265614). Recruitment of GRB2 leads to the activation of the guanine nucleotide exchange factor SOS1 which in turn triggers the Ras/Raf/MEK/MAPK signaling cascade (By similarity). Activation of the PI3K/AKT pathway is responsible for most of insulin metabolic effects in the cell, and the Ras/Raf/MEK/MAPK is involved in the regulation of gene expression and in cooperation with the PI3K pathway regulates cell growth and differentiation. Acts a positive regulator of the Wnt/beta-catenin signaling pathway through suppression of DVL2 autophagy-mediated degradation leading to cell proliferation (PubMed:24616100)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "PDB",
+      "id": "1IRS",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A=157-267"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1K3A",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B=889-902"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "1QQG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=4-267"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2Z8C",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.25 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B=731-736"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5U1M",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=161-265"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6BNT",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B=607-620"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7PPL",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.53 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B=625-639"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7PPM",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.48 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B=889-901"
+       }
+      ]
+     },
+     {
+      "database": "AlphaFoldDB",
+      "id": "P35568",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     },
+     {
+      "database": "GeneID",
+      "id": "3667",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "sequence": {
+     "length": 1242
+    },
+    "extraAttributes": {
+     "uniParcId": "UPI000003BB52"
+    }
+   }
+  ]
+ }
+}

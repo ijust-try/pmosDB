@@ -12,7 +12,7 @@ import pmos_data
 
 ROOT = _paths.ROOT
 BASE_TABLES = ["genes", "proteins", "pathways", "hormones", "biomarkers", "therapeutics", "publications",
-               "go_annotations", "therapeutic_target"]
+               "go_annotations", "protein_structure", "therapeutic_target"]
 
 
 class CommittedDataTests(unittest.TestCase):
@@ -96,6 +96,36 @@ class CommittedDataTests(unittest.TestCase):
             graph = pmos_data.get_graph(self.index, d["id"], 3)
             with_pathways += any(e["type"] == "pathway" for e in graph["entities"])
         self.assertGreaterEqual(with_pathways, 9, f"only {with_pathways} of {len(drugs)} drugs reach a pathway")
+
+    def test_most_proteins_are_linked_to_a_structure(self):
+        total, linked = self.conn.execute(
+            "SELECT COUNT(*), SUM(alphafold_id IS NOT NULL OR pdb_count > 0) FROM proteins").fetchone()
+        self.assertGreaterEqual(linked, 0.8 * total, f"only {linked} of {total} proteins have a structure link")
+
+    def test_structure_rows_are_well_formed(self):
+        import re
+
+        per_protein = {}
+        for protein_id, pdb_id, resolution in self.conn.execute(
+            "SELECT protein_id, pdb_id, resolution FROM protein_structure ORDER BY protein_id, resolution IS NULL, resolution"
+        ):
+            self.assertRegex(pdb_id, r"^[0-9][A-Za-z0-9]{3}$")
+            per_protein.setdefault(protein_id, []).append(resolution)
+        self.assertTrue(per_protein)
+        self.assertLessEqual(max(len(v) for v in per_protein.values()), harvest.STRUCTURES_PER_PROTEIN)
+        for protein_id, count in self.conn.execute("SELECT protein_id, pdb_count FROM proteins WHERE pdb_count > 0"):
+            self.assertIn(protein_id, per_protein, f"{protein_id} reports {count} structures but none are stored")
+            self.assertGreaterEqual(count, len(per_protein[protein_id]))
+
+    def test_protein_entities_expose_structure_links(self):
+        with_pdb = [e for e in self.index.entities if e["type"] == "protein" and e.get("structures", {}).get("entries")]
+        self.assertGreaterEqual(len(with_pdb), 30)
+        for e in with_pdb:
+            first = e["structures"]["entries"][0]
+            self.assertTrue(first["url"].startswith("https://www.rcsb.org/structure/"))
+            self.assertEqual(first["url"].rsplit("/", 1)[1], first["id"])
+            resolutions = [x["resolution"] for x in e["structures"]["entries"] if x["resolution"] is not None]
+            self.assertEqual(resolutions, sorted(resolutions), f"{e['id']} structures are not best-first")
 
     def test_every_source_has_a_last_sync(self):
         for s in pmos_data.get_sources(self.index):

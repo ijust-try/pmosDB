@@ -37,6 +37,11 @@ PUBS_PER_ENTITY = 3
 # Genes curated into the knowledge base: the top N by Open Targets PCOS association score.
 TOP_N_PCOS_GENES = 100
 MAX_AUTHORS = 25  # stored per paper; large consortium papers list hundreds
+STRUCTURES_PER_PROTEIN = 8  # best-resolved PDB entries kept per protein; the total count is stored separately
+# A PDB entry that maps only a short stretch of the protein (e.g. a 8-residue peptide bound by another protein) is not
+# a structure OF it. Entries must span at least this share of the protein, or this many residues, to be preferred.
+MIN_STRUCTURE_COVERAGE = 0.3
+MIN_STRUCTURE_RESIDUES = 100
 # Open Targets "clinical" evidence is propagated from a drug's targets: metformin trials give every
 # mitochondrial complex I subunit the same clinical score (0.69) and a trivial literature score (<= 0.15).
 # A gene is only auto-added when it has gene-level evidence: a non-clinical datatype scoring at least this much.
@@ -51,10 +56,10 @@ REACTOME = "https://reactome.org/ContentService/"
 QUICKGO = "https://www.ebi.ac.uk/QuickGO/services/"
 PUG = "https://pubchem.ncbi.nlm.nih.gov/rest/"
 
-HTTP_ATTEMPTS = 7  # transient 5xx/429 from a public API should not sink a weekly run
+HTTP_ATTEMPTS = 9  # transient 5xx/429 from a public API should not sink a weekly run (about 2 minutes of waiting)
 
 unresolved: list[dict] = []
-_state = {"refresh": False}
+_state = {"refresh": False, "fresh_since": None}
 
 
 def log(msg: str) -> None:
@@ -107,8 +112,13 @@ def fetch(source, query, url, params=None, json_body=None, delay=0.4, as_json=Tr
     """Cached API call. Returns {source, query, url, params, retrieved_at, response}."""
     key = hashlib.sha1(json.dumps([url, params, json_body], sort_keys=True, default=str).encode()).hexdigest()[:10]
     path = RAW / f"{source}__{_slug(query)}__{key}.json"
-    if path.exists() and not _state["refresh"]:
-        return json.loads(path.read_text(encoding="utf-8"))
+    if path.exists():
+        cached = json.loads(path.read_text(encoding="utf-8"))
+        if not _state["refresh"]:
+            return cached
+        # a retry within the same run reuses what that run already fetched instead of starting over
+        if _state["fresh_since"] and cached.get("retrieved_at", "") >= _state["fresh_since"]:
+            return cached
     resp = http_get(url, params, json_body, as_json=as_json)
     record = {
         "source": source, "query": str(query), "url": url, "params": params,
@@ -125,8 +135,11 @@ def day(record: dict) -> str:
     return record["retrieved_at"][:10]
 
 
-def set_refresh(value: bool) -> None:
+def set_refresh(value: bool, fresh_since: str | None = None) -> None:
+    """refresh=True ignores the cache. `fresh_since` (ISO time) keeps responses fetched at or after it, so a retried
+    run continues where the failed one stopped."""
     _state["refresh"] = value
+    _state["fresh_since"] = fresh_since
 
 
 # --------------------------------------------------------------------------- Open Targets (PCOS)
@@ -266,7 +279,7 @@ def uniprot(symbol):
     rec = fetch("uniprot", symbol, "https://rest.uniprot.org/uniprotkb/search", {
         "query": f"(gene_exact:{symbol}) AND (organism_id:{TAXON}) AND (reviewed:true)",
         "format": "json", "size": 5,
-        "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid"})
+        "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb,length"})
     results = (rec["response"] or {}).get("results") or []
     if not results:
         return None
@@ -277,9 +290,40 @@ def uniprot(symbol):
     func = next((t["value"] for c in r.get("comments", []) if c.get("commentType") == "FUNCTION"
                  for t in c.get("texts", [])), None)
     geneid = next((x["id"] for x in r.get("uniProtKBCrossReferences", []) if x.get("database") == "GeneID"), None)
+    pdb, alphafold = parse_structures(r.get("uniProtKBCrossReferences", []))
     return {"protein_id": r["primaryAccession"], "name": name, "function": func,
-            "gene_symbol": symbol.upper(), "uniprot_geneid": geneid,
+            "gene_symbol": symbol.upper(), "uniprot_geneid": geneid, "pdb": pdb, "alphafold_id": alphafold,
+            "length": (r.get("sequence") or {}).get("length"),
             "source": "UniProt", "source_accession": r["primaryAccession"], "retrieved_on": day(rec)}
+
+
+def parse_structures(cross_references: list[dict]) -> tuple[list[dict], str | None]:
+    """UniProt cross-references -> ([{pdb_id, method, resolution, chains}], AlphaFold id)."""
+    entries, alphafold = [], None
+    for x in cross_references:
+        if x.get("database") == "PDB":
+            props = {p.get("key"): p.get("value") for p in x.get("properties", [])}
+            res = re.match(r"\s*([\d.]+)\s*A", props.get("Resolution") or "")
+            chains = props.get("Chains")
+            spans = [int(b) - int(a) + 1 for a, b in re.findall(r"(\d+)-(\d+)", chains or "")]
+            entries.append({"pdb_id": x["id"], "method": props.get("Method"),
+                            "resolution": float(res.group(1)) if res else None, "chains": chains,
+                            "span": max(spans) if spans else None})
+        elif x.get("database") == "AlphaFoldDB":
+            alphafold = x["id"]
+    return entries, alphafold
+
+
+def best_structures(entries: list[dict], n: int = STRUCTURES_PER_PROTEIN, length: int | None = None) -> list[dict]:
+    """The n best-resolved entries that are structures OF the protein (lowest resolution value first; entries
+    without a resolution, such as NMR, come last).
+
+    An entry counts as a structure of the protein when the mapped region spans at least MIN_STRUCTURE_COVERAGE of
+    its length or MIN_STRUCTURE_RESIDUES residues (or the region is unknown). If no entry qualifies, all are used."""
+    threshold = MIN_STRUCTURE_RESIDUES if not length else min(MIN_STRUCTURE_RESIDUES, MIN_STRUCTURE_COVERAGE * length)
+    substantial = [e for e in entries if e.get("span") is None or e["span"] >= threshold]
+    pool = substantial or entries
+    return sorted(pool, key=lambda e: (e["resolution"] is None, e["resolution"] or 0.0, e["pdb_id"]))[:n]
 
 
 # --------------------------------------------------------------------------- Reactome
@@ -401,7 +445,7 @@ def add_seed_genes(symbols: dict[str, str]) -> list[str]:
 
 def harvest(seeds: list[dict], ot_score: dict[str, float]) -> dict[str, list]:
     raw: dict[str, list] = {k: [] for k in ["genes", "proteins", "pathways", "protein_pathway", "go", "hormones",
-                                            "biomarkers", "therapeutics", "publications", "entity_pubs"]}
+                                            "biomarkers", "therapeutics", "publications", "entity_pubs", "structures"]}
     pathway_ids_seen: set[str] = set()
 
     def add_pathway(st_id):
@@ -426,7 +470,10 @@ def harvest(seeds: list[dict], ot_score: dict[str, float]) -> dict[str, list]:
             if not p:
                 log_unresolved("gene", name, "no reviewed UniProt entry")
                 continue
+            p["pdb_count"] = len(p["pdb"])
             raw["proteins"].append(p)
+            raw["structures"] += [{"protein_id": p["protein_id"], **e, "source": "PDB", "source_accession": e["pdb_id"],
+                                   "retrieved_on": p["retrieved_on"]} for e in best_structures(p["pdb"], length=p["length"])]
             for st_id in reactome_for_uniprot(p["protein_id"]):
                 raw["protein_pathway"].append(
                     {"protein_id": p["protein_id"], "gene_symbol": lookup.upper(), "reactome_id": st_id})
@@ -499,13 +546,14 @@ def harvest(seeds: list[dict], ot_score: dict[str, float]) -> dict[str, list]:
 PROV = ["source", "source_accession", "retrieved_on"]
 COLS = {
     "genes": ["gene_symbol", "name", "ncbi_gene_id", "uniprot_accession", "description"] + PROV,
-    "proteins": ["protein_id", "name", "function", "gene_symbol"] + PROV,
+    "proteins": ["protein_id", "name", "function", "gene_symbol", "pdb_count", "alphafold_id"] + PROV,
     "hormones": ["hormone_name", "biological_role", "pubchem_cid", "uniprot_accession"] + PROV,
     "biomarkers": ["biomarker_name", "evidence", "description", "uniprot_accession"] + PROV,
     "pathways": ["pathway_name", "reactome_id", "description"] + PROV,
     "therapeutics": ["drug_name", "mechanism", "pubchem_cid"] + PROV,
     "publications": ["pmid", "title", "year", "journal", "authors", "abstract"] + PROV,
     "go_annotations": ["protein_id", "go_id", "go_name", "aspect"] + PROV,
+    "protein_structure": ["protein_id", "pdb_id", "method", "resolution", "chains"] + PROV,
     "therapeutic_target": ["drug_name", "gene_symbol", "ensembl_id", "chembl_id", "action_type",
                            "mechanism_of_action"] + PROV,
 }
@@ -567,6 +615,10 @@ def clean_all(raw: dict[str, list]) -> dict[str, list[dict]]:
     go = _tidy(raw["go"], COLS["go_annotations"])
     go = sorted(_dedupe(_require(go, "protein_id", "go_id"), "protein_id", "go_id"),
                 key=lambda r: (r["protein_id"], r["go_id"]))
+    protein_ids = {p["protein_id"] for p in proteins}
+    structures = [s for s in _tidy(raw.get("structures", []), COLS["protein_structure"]) if s["protein_id"] in protein_ids]
+    structures = sorted(_dedupe(_require(structures, "protein_id", "pdb_id"), "protein_id", "pdb_id"),
+                        key=lambda r: (r["protein_id"], r["resolution"] is None, r["resolution"] or 0.0, r["pdb_id"]))
 
     # NCBI <-> UniProt cross-reference check; only verified/unverifiable accessions are attached to genes
     protein_by_gene = {p["gene_symbol"]: p for p in proteins}
@@ -589,6 +641,7 @@ def clean_all(raw: dict[str, list]) -> dict[str, list[dict]]:
     return {
         "genes": genes, "proteins": proteins, "hormones": hormones, "biomarkers": biomarkers,
         "pathways": pathways, "therapeutics": therapeutics, "publications": pubs, "go_annotations": go,
+        "protein_structure": structures,
         "_xref": xref,
         "_protein_pathway": _dedupe(_tidy(raw["protein_pathway"], ["protein_id", "gene_symbol", "reactome_id"]),
                                     "protein_id", "gene_symbol", "reactome_id"),
@@ -638,7 +691,7 @@ CREATE TABLE genes (
   source TEXT, source_accession TEXT, retrieved_on TEXT);
 
 CREATE TABLE proteins (
-  protein_id TEXT PRIMARY KEY, name TEXT, function TEXT, gene_symbol TEXT,
+  protein_id TEXT PRIMARY KEY, name TEXT, function TEXT, gene_symbol TEXT, pdb_count INTEGER, alphafold_id TEXT,
   source TEXT, source_accession TEXT, retrieved_on TEXT,
   FOREIGN KEY(gene_symbol) REFERENCES genes(gene_symbol));
 
@@ -668,6 +721,13 @@ CREATE TABLE go_annotations (
   PRIMARY KEY (protein_id, go_id),
   FOREIGN KEY(protein_id) REFERENCES proteins(protein_id));
 
+-- Best-resolved experimental 3D structures per protein (Protein Data Bank, linked through UniProt).
+CREATE TABLE protein_structure (
+  protein_id TEXT NOT NULL, pdb_id TEXT NOT NULL, method TEXT, resolution REAL, chains TEXT,
+  source TEXT, source_accession TEXT, retrieved_on TEXT,
+  PRIMARY KEY (protein_id, pdb_id),
+  FOREIGN KEY(protein_id) REFERENCES proteins(protein_id));
+
 -- Curated drug -> target records from Open Targets (mechanisms of action curated by ChEMBL).
 CREATE TABLE therapeutic_target (
   drug_name TEXT NOT NULL, gene_symbol TEXT NOT NULL, ensembl_id TEXT, chembl_id TEXT,
@@ -679,7 +739,7 @@ CREATE TABLE therapeutic_target (
 """
 
 INGEST_ORDER = ["genes", "proteins", "pathways", "hormones", "biomarkers", "therapeutics", "publications",
-                "go_annotations", "therapeutic_target"]
+                "go_annotations", "protein_structure", "therapeutic_target"]
 
 
 def build_database(db_path: Path, clean: dict[str, list[dict]], targets: list[dict]) -> dict[str, int]:

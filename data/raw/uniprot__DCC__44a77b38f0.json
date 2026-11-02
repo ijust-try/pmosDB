@@ -1,0 +1,264 @@
+{
+ "source": "uniprot",
+ "query": "DCC",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:DCC) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb,length"
+ },
+ "retrieved_at": "2026-11-02T07:53:29+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P43146",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Netrin receptor DCC"
+      }
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Colorectal cancer suppressor"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Immunoglobulin superfamily DCC subclass member 1"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Tumor suppressor protein DCC"
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "DCC"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8187090"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8861902"
+         }
+        ],
+        "value": "Receptor for netrin required for axon guidance. Mediates axon attraction of neuronal growth cones in the developing nervous system upon ligand binding. Its association with UNC5 proteins may trigger signaling for axon repulsion. It also acts as a dependence receptor required for apoptosis induction when not associated with netrin ligand. Implicated as a tumor suppressor gene"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "PDB",
+      "id": "2ED7",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A=419-524"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2ED8",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A=528-620"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2ED9",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A=602-718"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2EDB",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A=716-818"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2EDD",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A=833-942"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "2EDE",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "NMR"
+       },
+       {
+        "key": "Resolution",
+        "value": "-"
+       },
+       {
+        "key": "Chains",
+        "value": "A=944-1044"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3AU4",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B=1390-1447"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4URT",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B=844-1043"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5X83",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/C=721-815, B/D=844-1043"
+       }
+      ]
+     },
+     {
+      "database": "AlphaFoldDB",
+      "id": "P43146",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     },
+     {
+      "database": "GeneID",
+      "id": "1630",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "sequence": {
+     "length": 1447
+    },
+    "extraAttributes": {
+     "uniParcId": "UPI00001AEDC6"
+    }
+   }
+  ]
+ }
+}

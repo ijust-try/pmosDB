@@ -1,0 +1,233 @@
+{
+ "source": "uniprot",
+ "query": "ZNRF3",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:ZNRF3) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb,length"
+ },
+ "retrieved_at": "2026-11-02T08:08:18+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q9ULT6",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "E3 ubiquitin-protein ligase ZNRF3"
+      },
+      "ecNumbers": [
+       {
+        "value": "2.3.2.27"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "RING finger protein 203"
+       }
+      },
+      {
+       "fullName": {
+        "value": "RING-type E3 ubiquitin transferase ZNRF3"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Zinc/RING finger protein 3"
+       }
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "ZNRF3"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q08D68"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22575959"
+         }
+        ],
+        "value": "E3 ubiquitin-protein ligase that acts as a negative regulator of the Wnt signaling pathway by mediating the ubiquitination and subsequent degradation of Wnt receptor complex components Frizzled and LRP6. Acts on both canonical and non-canonical Wnt signaling pathway. Acts as a tumor suppressor in the intestinal stem cell zone by inhibiting the Wnt signaling pathway, thereby restricting the size of the intestinal stem cell zone (PubMed:22575959). Along with RSPO2 and RNF43, constitutes a master switch that governs limb specification (By similarity)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "PDB",
+      "id": "8G4Y",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.41 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A=56-220"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8XFP",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.21 A"
+       },
+       {
+        "key": "Chains",
+        "value": "C/H=1-936"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8XFS",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "C/E=56-245"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8XFT",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.24 A"
+       },
+       {
+        "key": "Chains",
+        "value": "C=1-936"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8Y69",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.38 A"
+       },
+       {
+        "key": "Chains",
+        "value": "C/H=56-243"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9KB8",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.25 A"
+       },
+       {
+        "key": "Chains",
+        "value": "B/D=56-267"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "9KB9",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.59 A"
+       },
+       {
+        "key": "Chains",
+        "value": "C/E=56-267"
+       }
+      ]
+     },
+     {
+      "database": "AlphaFoldDB",
+      "id": "Q9ULT6",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     },
+     {
+      "database": "GeneID",
+      "id": "84133",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "sequence": {
+     "length": 936
+    },
+    "extraAttributes": {
+     "uniParcId": "UPI0000EE5944"
+    }
+   }
+  ]
+ }
+}

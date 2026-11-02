@@ -1,0 +1,169 @@
+{
+ "source": "uniprot",
+ "query": "LHCGR",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:LHCGR) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb"
+ },
+ "retrieved_at": "2026-11-02T07:33:16+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P22888",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "value": "Lutropin-choriogonadotropic hormone receptor"
+      },
+      "shortNames": [
+       {
+        "value": "LH/CG-R"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "Luteinizing hormone receptor"
+       },
+       "shortNames": [
+        {
+         "value": "LHR"
+        },
+        {
+         "value": "LSH-R"
+        }
+       ]
+      }
+     ],
+     "flag": "Precursor"
+    },
+    "genes": [
+     {
+      "geneName": {
+       "value": "LHCGR"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11847099"
+         }
+        ],
+        "value": "Receptor for lutropin-choriogonadotropic hormone (PubMed:11847099). The activity of this receptor is mediated by G proteins which activate adenylate cyclase (PubMed:11847099)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "PDB",
+      "id": "7FIG",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.90 A"
+       },
+       {
+        "key": "Chains",
+        "value": "R=28-699"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7FIH",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "R=28-699"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7FII",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "4.30 A"
+       },
+       {
+        "key": "Chains",
+        "value": "R=28-699"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "7FIJ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "EM"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.80 A"
+       },
+       {
+        "key": "Chains",
+        "value": "R=28-699"
+       }
+      ]
+     },
+     {
+      "database": "AlphaFoldDB",
+      "id": "P22888",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     },
+     {
+      "database": "GeneID",
+      "id": "3973",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI000013E1E1"
+    }
+   }
+  ]
+ }
+}

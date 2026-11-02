@@ -1,0 +1,516 @@
+{
+ "source": "uniprot",
+ "query": "CYP17A1",
+ "url": "https://rest.uniprot.org/uniprotkb/search",
+ "params": {
+  "query": "(gene_exact:CYP17A1) AND (organism_id:9606) AND (reviewed:true)",
+  "format": "json",
+  "size": 5,
+  "fields": "accession,protein_name,gene_primary,cc_function,xref_geneid,xref_pdb,xref_alphafolddb"
+ },
+ "retrieved_at": "2026-11-02T07:33:09+00:00",
+ "response": {
+  "results": [
+   {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P05093",
+    "proteinDescription": {
+     "recommendedName": {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "3025870"
+        }
+       ],
+       "value": "Steroid 17-alpha-hydroxylase/17,20 lyase"
+      },
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22266943"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25301938"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27339894"
+         }
+        ],
+        "value": "1.14.14.19"
+       }
+      ]
+     },
+     "alternativeNames": [
+      {
+       "fullName": {
+        "value": "17-alpha-hydroxyprogesterone aldolase"
+       },
+       "ecNumbers": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000269",
+           "source": "PubMed",
+           "id": "22266943"
+          },
+          {
+           "evidenceCode": "ECO:0000269",
+           "source": "PubMed",
+           "id": "25301938"
+          },
+          {
+           "evidenceCode": "ECO:0000269",
+           "source": "PubMed",
+           "id": "27339894"
+          }
+         ],
+         "value": "1.14.14.32"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "CYPXVII"
+       }
+      },
+      {
+       "fullName": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "27339894"
+         }
+        ],
+        "value": "Cytochrome P450 17A1"
+       }
+      },
+      {
+       "fullName": {
+        "value": "Cytochrome P450-C17"
+       },
+       "shortNames": [
+        {
+         "evidences": [
+          {
+           "evidenceCode": "ECO:0000303",
+           "source": "PubMed",
+           "id": "8396144"
+          }
+         ],
+         "value": "Cytochrome P450c17"
+        }
+       ]
+      },
+      {
+       "fullName": {
+        "value": "Steroid 17-alpha-monooxygenase"
+       }
+      }
+     ]
+    },
+    "genes": [
+     {
+      "geneName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "19793597"
+        },
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:2593"
+        }
+       ],
+       "value": "CYP17A1"
+      }
+     }
+    ],
+    "comments": [
+     {
+      "texts": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22266943"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25301938"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27339894"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "36640554"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9452426"
+         },
+         {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "8027220"
+         }
+        ],
+        "value": "A cytochrome P450 monooxygenase involved in corticoid and androgen biosynthesis (PubMed:22266943, PubMed:25301938, PubMed:27339894, PubMed:9452426). Catalyzes 17-alpha hydroxylation of C21 steroids, which is common for both pathways. A second oxidative step, required only for androgen synthesis, involves an acyl-carbon cleavage. The 17-alpha hydroxy intermediates, as part of adrenal glucocorticoids biosynthesis pathway, are precursors of cortisol (Probable) (PubMed:25301938, PubMed:9452426). Hydroxylates steroid hormones, pregnenolone and progesterone to form 17-alpha hydroxy metabolites, followed by the cleavage of the C17-C20 bond to form C19 steroids, dehydroepiandrosterone (DHEA) and androstenedione (PubMed:22266943, PubMed:25301938, PubMed:27339894, PubMed:36640554, PubMed:9452426). Has 16-alpha hydroxylase activity. Catalyzes 16-alpha hydroxylation of 17-alpha hydroxy pregnenolone, followed by the cleavage of the C17-C20 bond to form 16-alpha-hydroxy DHEA (PubMed:36640554). Also 16-alpha hydroxylates androgens, relevant for estriol synthesis (PubMed:25301938, PubMed:27339894). Mechanistically, uses molecular oxygen inserting one oxygen atom into a substrate, and reducing the second into a water molecule, with two electrons provided by NADPH via cytochrome P450 reductase (CPR; NADPH-ferrihemoprotein reductase) (PubMed:22266943, PubMed:25301938, PubMed:27339894, PubMed:9452426)"
+       }
+      ],
+      "commentType": "FUNCTION"
+     }
+    ],
+    "uniProtKBCrossReferences": [
+     {
+      "database": "PDB",
+      "id": "3RUK",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=24-508"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "3SWZ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.40 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=24-508"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4NKV",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.65 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=24-508"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4NKW",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.50 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=24-508"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4NKX",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.79 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=24-508"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4NKY",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.55 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=24-508"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "4NKZ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.00 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=24-508"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5IRQ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=24-508"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5IRV",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "3.10 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=24-508"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "5UYS",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.39 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=24-508"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6CHI",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=24-508"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6CIR",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.65 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=24-508"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6CIZ",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.60 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=24-508"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6WR0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.70 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=24-508"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6WR1",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "1.85 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B=24-508"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "6WW0",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.01 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=24-508"
+       }
+      ]
+     },
+     {
+      "database": "PDB",
+      "id": "8FDA",
+      "properties": [
+       {
+        "key": "Method",
+        "value": "X-ray"
+       },
+       {
+        "key": "Resolution",
+        "value": "2.20 A"
+       },
+       {
+        "key": "Chains",
+        "value": "A/B/C/D=24-508"
+       }
+      ]
+     },
+     {
+      "database": "AlphaFoldDB",
+      "id": "P05093",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     },
+     {
+      "database": "GeneID",
+      "id": "1586",
+      "properties": [
+       {
+        "key": "Description",
+        "value": "-"
+       }
+      ]
+     }
+    ],
+    "extraAttributes": {
+     "uniParcId": "UPI0000128309"
+    }
+   }
+  ]
+ }
+}
