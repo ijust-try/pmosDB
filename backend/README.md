@@ -46,7 +46,8 @@ py -c "import pmos_data as pd; c = pd.get_connection(); pd.init_relationships(c)
 `server.py` is a zero-dependency `http.server` implementing the exact REST contract
 `pmos-biograph/pmos-biograph/src/services/api.config.ts` expects (`/search`,
 `/entities`, `/entities/:id`, `/entities/:id/relationships`, `/graph`, `/pathways`,
-`/therapeutics`, `/publications`, `/sources`, `/summary`). Every entity/relationship it
+`/therapeutics`, `/publications`, `/sources`, `/summary`), plus `/sync` (sync status) and
+`/retrieve` (chatbot evidence, see below). Every entity/relationship it
 returns is shaped to match `src/types/index.ts` exactly, so
 `src/services/normalisers.ts` (a pass-through cast today) needs no changes.
 
@@ -79,3 +80,23 @@ hardcoded in `pmos-biograph`'s `src/data/mock.ts` (`DEFAULT_GRAPH_FOCUS =
   N-Acetylcysteine) have no `targets` edge, so they show no genes or pathways. Mechanisms
   that target a large protein complex (e.g. Metformin → mitochondrial complex I, ~50
   subunits) are not expanded into gene edges; see `unresolved_mappings.csv`.
+
+## Chatbot retrieval (`retrieval.py`, `GET /api/retrieve?q=...`)
+
+Decides what the knowledge base can support for a question and gathers the evidence. It never calls an AI
+model or the network: it is deterministic, free and tested. In order:
+
+1. **refuse**: dosing, personal medical advice and treatment/efficacy questions are refused (the site makes no such claims).
+2. **link**: requests for a link, page or identifier are answered straight from the records (`compose_extractive`).
+3. **qa**: BM25F search over names, identifiers, aliases, descriptions, abstracts and neighbours, then graph expansion
+   (drug to target gene to protein to pathway to papers). If the records do not cover the question's informative words the
+   result is `no_evidence` and nothing is generated.
+
+Each record has a citation ref (`R1`...), its page on this site, external source URLs, and a `via` line saying how it is
+linked. Records that only match the question's wording are labelled so. `unmatchedTerms` lists question words found in no
+record, so an answer can say what the knowledge base does not cover. A link request only succeeds when a record's own
+name matches, never on a loose text match.
+
+The question benchmark is `eval/retrieval_cases.json`, run by `tests/test_retrieval_eval.py`. Known limit: matching is
+lexical, so a synonym that is not in a record (for example "LH receptor" for LHCGR) finds nothing and the bot says so
+rather than guessing. Embeddings could close that gap later.

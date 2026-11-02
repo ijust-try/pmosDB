@@ -469,12 +469,17 @@ def build_therapeutic_entity(row: sqlite3.Row) -> dict:
     return entity
 
 
+def _split_authors(value: str | None) -> list[str] | None:
+    names = [n.strip() for n in (value or "").split(";") if n.strip()]
+    return names or None
+
+
 def build_publication_entity(row: sqlite3.Row) -> dict:
     return {
         "id": publication_id(row["pmid"]),
         "type": "publication",
         "name": row["title"] or row["pmid"],
-        "authors": None,
+        "authors": _split_authors(row["authors"] if "authors" in row.keys() else None),
         "year": row["year"],
         "journal": row["journal"],
         "abstract": row["abstract"] if "abstract" in row.keys() else None,

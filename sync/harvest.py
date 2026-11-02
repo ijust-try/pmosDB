@@ -36,6 +36,7 @@ PCOS_EFO = "MONDO_0008487"
 PUBS_PER_ENTITY = 3
 # Genes curated into the knowledge base: the top N by Open Targets PCOS association score.
 TOP_N_PCOS_GENES = 100
+MAX_AUTHORS = 25  # stored per paper; large consortium papers list hundreds
 # Open Targets "clinical" evidence is propagated from a drug's targets: metformin trials give every
 # mitochondrial complex I subunit the same clinical score (0.69) and a trivial literature score (<= 0.15).
 # A gene is only auto-added when it has gene-level evidence: a non-clinical datatype scoring at least this much.
@@ -216,10 +217,13 @@ def _clean_text(s: str | None) -> str | None:
     return s or None
 
 
-def parse_pubmed_abstracts(xml_text: str) -> dict[str, str]:
-    """PubMed efetch XML -> {pmid: abstract}. Structured abstracts keep their section labels
-    ("BACKGROUND: ...") and inline markup (<i>, <sub>) is flattened. Articles without an abstract are omitted."""
-    out: dict[str, str] = {}
+def parse_pubmed_records(xml_text: str) -> dict[str, dict]:
+    """PubMed efetch XML -> {pmid: {"abstract": str | None, "authors": [str, ...]}}.
+
+    Structured abstracts keep their section labels ("BACKGROUND: ...") and inline markup (<i>, <sub>) is
+    flattened. Authors are "Surname Initials" (or the collective name). Records with neither are omitted.
+    """
+    out: dict[str, dict] = {}
     for article in ET.fromstring(xml_text).iter("PubmedArticle"):
         pmid = article.findtext("MedlineCitation/PMID")
         parts = []
@@ -228,22 +232,31 @@ def parse_pubmed_abstracts(xml_text: str) -> dict[str, str]:
             if text:
                 label = node.get("Label")
                 parts.append(f"{label.upper()}: {text}" if label and label.upper() != "UNLABELLED" else text)
-        if pmid and parts:
-            out[pmid.strip()] = " ".join(parts)
+        authors = []
+        for author in article.findall("MedlineCitation/Article/AuthorList/Author"):
+            collective = _clean_text(author.findtext("CollectiveName"))
+            surname = _clean_text(author.findtext("LastName"))
+            initials = _clean_text(author.findtext("Initials"))
+            if collective:
+                authors.append(collective)
+            elif surname:
+                authors.append(f"{surname} {initials}" if initials else surname)
+        if pmid and (parts or authors):
+            out[pmid.strip()] = {"abstract": " ".join(parts) or None, "authors": authors}
     return out
 
 
-def pubmed_abstracts(pmids: list[str], chunk: int = 50) -> dict[str, str]:
-    """Abstracts for the given PMIDs, fetched in batches from NCBI efetch (the only source for abstracts)."""
+def pubmed_details(pmids: list[str], chunk: int = 50) -> dict[str, dict]:
+    """Abstracts and authors for the given PMIDs, in batches from NCBI efetch (the source of both)."""
     ids = sorted(set(pmids), key=int)
-    found: dict[str, str] = {}
+    found: dict[str, dict] = {}
     for i in range(0, len(ids), chunk):
         batch = ids[i:i + chunk]
         rec = fetch("pubmed_abstracts", f"{batch[0]}_n{len(batch)}", EUTILS + "efetch.fcgi",
                     {"db": "pubmed", "id": ",".join(batch), "retmode": "xml", "tool": "pmos-kb",
                      "email": CONTACT_EMAIL}, as_json=False)
         if rec["response"]:
-            found.update(parse_pubmed_abstracts(rec["response"]))
+            found.update(parse_pubmed_records(rec["response"]))
     return found
 
 
@@ -468,11 +481,14 @@ def harvest(seeds: list[dict], ot_score: dict[str, float]) -> dict[str, list]:
                 raw["publications"].append(pub)
                 raw["entity_pubs"].append({"entity_type": et, "entity_name": name, "pmid": pub["pmid"]})
 
-    abstracts = pubmed_abstracts([p["pmid"] for p in raw["publications"]])
+    details = pubmed_details([p["pmid"] for p in raw["publications"]])
     for pub in raw["publications"]:
-        pub["abstract"] = abstracts.get(str(pub["pmid"]))
+        d = details.get(str(pub["pmid"]), {})
+        pub["abstract"] = d.get("abstract")
+        pub["authors"] = "; ".join(d.get("authors", [])[:MAX_AUTHORS]) or None
     unique = {p["pmid"] for p in raw["publications"]}
-    log(f"Abstracts found for {len({p['pmid'] for p in raw['publications'] if p['abstract']})} of {len(unique)} publications")
+    log(f"Abstracts found for {len({p['pmid'] for p in raw['publications'] if p['abstract']})} and authors for "
+        f"{len({p['pmid'] for p in raw['publications'] if p['authors']})} of {len(unique)} publications")
 
     log("Harvest counts: " + str({k: len(v) for k, v in raw.items()}))
     return raw
@@ -488,7 +504,7 @@ COLS = {
     "biomarkers": ["biomarker_name", "evidence", "description", "uniprot_accession"] + PROV,
     "pathways": ["pathway_name", "reactome_id", "description"] + PROV,
     "therapeutics": ["drug_name", "mechanism", "pubchem_cid"] + PROV,
-    "publications": ["pmid", "title", "year", "journal", "abstract"] + PROV,
+    "publications": ["pmid", "title", "year", "journal", "authors", "abstract"] + PROV,
     "go_annotations": ["protein_id", "go_id", "go_name", "aspect"] + PROV,
     "therapeutic_target": ["drug_name", "gene_symbol", "ensembl_id", "chembl_id", "action_type",
                            "mechanism_of_action"] + PROV,
@@ -643,7 +659,7 @@ CREATE TABLE therapeutics (
   source TEXT, source_accession TEXT, retrieved_on TEXT);
 
 CREATE TABLE publications (
-  pmid TEXT PRIMARY KEY, title TEXT, year INTEGER, journal TEXT, abstract TEXT,
+  pmid TEXT PRIMARY KEY, title TEXT, year INTEGER, journal TEXT, authors TEXT, abstract TEXT,
   source TEXT, source_accession TEXT, retrieved_on TEXT);
 
 CREATE TABLE go_annotations (

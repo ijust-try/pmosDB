@@ -21,6 +21,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlparse
 
 import pmos_data
+import retrieval
 
 HOST = os.environ.get("HOST", "127.0.0.1")
 PORT = int(os.environ.get("PORT", "8000"))
@@ -40,6 +41,7 @@ ROUTES = {
     "sources": re.compile(r"^/api/sources$"),
     "summary": re.compile(r"^/api/summary$"),
     "sync": re.compile(r"^/api/sync$"),
+    "retrieve": re.compile(r"^/api/retrieve$"),
 }
 
 
@@ -157,6 +159,11 @@ class Handler(BaseHTTPRequestHandler):
 
             if ROUTES["sources"].match(path):
                 self._send_json(pmos_data.get_sources(INDEX))
+                return
+
+            if ROUTES["retrieve"].match(path):
+                limit = min(_int_param(params, "limit", retrieval.MAX_RECORDS), 20)
+                self._send_json(retrieval.retrieve(INDEX, params.get("q", [""])[0], limit))
                 return
 
             if ROUTES["sync"].match(path):

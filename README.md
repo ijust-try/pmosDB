@@ -28,7 +28,7 @@ Live site: https://pmos-biograph.vercel.app
 |---|---|---|
 | Sync | `sync/` | Harvests the source databases, builds and validates a new database beside the live one, replaces it only if every check passes. See `sync/README.md`. |
 | Data | `pmos_knowledge_base.db`, `data/`, `seed_entities.csv` | Eight sourced base tables plus `therapeutic_target`. Every row carries `source`, `source_accession`, `retrieved_on`. |
-| API | `backend/`, `api/` | Foreign-key stitching, ranked search, graph neighbourhoods, sync status. See `backend/README.md`. |
+| API | `backend/`, `api/` | Foreign-key stitching, ranked search, graph neighbourhoods, sync status, chatbot retrieval. See `backend/README.md`. |
 | UI | `pmos-biograph/pmos-biograph/` | Explore, BioGraph, Pathways, Therapeutics, Evidence and Data sources pages. |
 | Tests | `tests/` | Offline unit, API and data-integrity tests. CI runs them on every push (`.github/workflows/tests.yml`). |
 
@@ -38,6 +38,7 @@ Live site: https://pmos-biograph.vercel.app
 - **Nothing is inferred silently.** Drug targets are curated mechanism-of-action records from Open Targets (ChEMBL), not text matching. Drugs with no curated target, and protein complexes with dozens of subunits, are left unlinked and listed in `unresolved_mappings.csv`.
 - **Derived views are labelled as derived.** A drug's pathways are reached drug → target gene → protein → Reactome pathway. The UI says this is membership of the target, not a claim that the drug acts on the pathway.
 - **Evidence strength is shown, not implied.** Genes carry their Open Targets PCOS score, rank and evidence types. Genes whose only evidence is `clinical` (propagated from a drug's targets, e.g. every complex I subunit via metformin) are not treated as PCOS genes.
+- **Grounded retrieval for a chatbot.** `backend/retrieval.py` refuses medical-advice questions, answers link requests straight from the database, and returns cited evidence (with graph expansion) for everything else. If the records do not cover a question it reports "no evidence" rather than letting a model guess. A 69-question benchmark (`eval/`) checks this on every push.
 - **Safe updates.** The sync builds the new database in a side file, validates it, and only then swaps it in. A failed run changes nothing, opens a GitHub issue, and after 35 days the site itself warns that data may be outdated.
 - **IDs are a contract.** Entity IDs are slugs (`gene-ar`, `pathway-androgen-biosynthesis`) shared with the frontend and tested.
 
