@@ -28,6 +28,7 @@ sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(HERE.parent / "backend"))
 
 import drug_targets  # noqa: E402
+import glossary  # noqa: E402
 import harvest  # noqa: E402
 import pmos_data  # noqa: E402
 import versions  # noqa: E402
@@ -87,6 +88,7 @@ def run_harvest(offline: bool, fresh_since: str | None = None) -> dict:
         harvest.log(f"Added {len(added)} drug-target genes to seed_entities.csv: {', '.join(added)}")
 
     raw = harvest.harvest(harvest.read_seeds(), ot_score)
+    raw["glossary_term"], raw["glossary_section"] = glossary.harvest_glossary()
     clean = harvest.clean_all(raw)
 
     # Stage the CSVs first: the backend builds its link tables from them.

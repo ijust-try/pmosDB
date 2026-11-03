@@ -37,6 +37,7 @@ TYPE_HINT_BOOST = 1.6
 MIN_COVERAGE = 0.6   # share of the question's informative words found in the best records
 INFORMATIVE_IDF = 2.0  # words appearing in more than ~12% of records ("make", "hormone") say little about the topic
 NAME_MATCH_RATIO = 0.5  # share of informative words a record's own name/aliases/identifiers must contain
+LINK_NAME_RATIO = 0.8  # a link request needs a record whose own name covers (nearly) every word it asked for
 MIN_SCORE_FACTOR = 0.6  # best BM25F score needed, as a multiple of ln(corpus size), when no entity was named
 
 STOPWORDS = frozenset("""
@@ -89,6 +90,10 @@ REFUSAL_PATTERNS = [
         r"diabetic)|my (doctor|symptoms?|pcos|period|periods|cycle|weight|hormones?|test results?|blood|diagnosis|"
         r"condition)|prescribe|prescription|diagnose me|treat my|cure my|help me (lose|conceive|get pregnant|treat))\b",
         re.IGNORECASE)),
+    ("treatment information", re.compile(
+        r"\b(what|which|how)\b[^?]*\b(treatments?|therap(y|ies)|medications?|medicines?)\b|"
+        r"\bhow\s+(is|are|can|do|does|to)\b[^?]*\b(treat(ed|ing)?|cured?|managed?)\b|\btreatment\s+(options?|plan)\b",
+        re.IGNORECASE)),
     ("a treatment or efficacy claim", re.compile(
         r"\b(best (drug|drugs|medicine|medication|treatment|therapy|supplement)|"
         r"which (drug|medicine|medication|treatment|supplement) (is|works|should)|"
@@ -124,6 +129,22 @@ LINK_WORDS = frozenset("uniprot pubchem reactome ncbi accession accessions ident
                        "pdb pdbe rcsb alphafold structure crystal 3d".split())
 PUBMED_SEARCH = "https://pubmed.ncbi.nlm.nih.gov/?term={}"
 SHORT_SOURCE_NAMES = {"pdb": "RCSB PDB", "alphafold": "AlphaFold DB"}
+SOURCE_DISPLAY = {"mesh": "MeSH", "medlineplus": "MedlinePlus"}
+SECTION_LABELS = {"overview": "Overview", "symptoms": "Symptoms", "causes": "Causes", "risk": "Who is at risk",
+                  "diagnosis": "How it is diagnosed", "complications": "Related health problems"}
+SECTION_ORDER = ("overview", "symptoms", "causes", "risk", "diagnosis", "complications")
+SECTION_CUES = {
+    "symptoms": re.compile(r"\b(symptom|sign)s?\b|\bpresent(s|ation)\b|\bfeatures?\b", re.IGNORECASE),
+    "causes": re.compile(r"\bcaus(e|es|ed|ing)\b|\bwhy (do|does|is|are|would)\b|\betiology\b", re.IGNORECASE),
+    "risk": re.compile(r"\brisk\b|\bwho (gets|is affected|has|develops)\b|\bhow common\b|\bprevalen", re.IGNORECASE),
+    "diagnosis": re.compile(r"\bdiagnos|\bcriteria\b|\bhow (do|does|is|are) [^?]*\b(detect|identif)", re.IGNORECASE),
+    "complications": re.compile(r"\bcomplication|\bhealth problems\b|\blong[- ]term\b", re.IGNORECASE),
+}
+DEFINITION_CUE = re.compile(
+    r"\b(what\s+(is|are)|what's|define|definition|meaning\s+of|explain|tell\s+me\s+about|describe|overview)\b",
+    re.IGNORECASE)
+COMPARE_CUE = re.compile(r"\b(difference|differences|differ|compare|compared|versus|vs\.?)\b|\bbetween\b.*\band\b",
+                         re.IGNORECASE)
 STRUCTURE_WORDS = frozenset("pdb pdbe rcsb alphafold structure crystal 3d".split())  # structures belong to proteins
 # "this gene", "its pathways": the question points at the record the visitor is looking at
 CONTEXT_CUE = re.compile(r"\b(this|it|its|that|these|those|here|current)\b", re.IGNORECASE)
@@ -201,6 +222,7 @@ def _entity_fields(entity: dict, index) -> dict[str, list[str]]:
            *[s["id"] for s in (entity.get("structures") or {}).get("entries", [])]]
     body = [entity.get("description"), entity.get("mechanism"), entity.get("abstract")]
     body += [f"{a['label']} {a['value']}" for a in entity.get("annotations", [])]
+    body += list((entity.get("sections") or {}).values())
     context = []
     for n in pmos_data.get_neighbours(index, entity["id"]):
         context.append(f"{n['relationship']['label']} {n['entity']['name']}")
@@ -220,8 +242,8 @@ class Corpus:
 
     def __init__(self, index):
         self.index = index
-        self.entities = index.entities
-        self.by_id = index.by_id
+        self.entities = index.entities + index.concepts  # concepts are searchable but are not graph entities
+        self.by_id = {**index.by_id, **{c["id"]: c for c in index.concepts}}
         n = len(self.entities)
         self.fields = [_entity_fields(e, index) for e in self.entities]
         self.tf = [{f: Counter(toks) for f, toks in doc.items()} for doc in self.fields]
@@ -398,6 +420,15 @@ def _expand(index, e: dict, hints: set[str] | None = None) -> list[tuple[dict, s
 def record_text(entity: dict, index) -> str:
     """A compact factual description of one record: the only text a generated answer may draw on."""
     t = entity["type"]
+    if t == "concept":
+        secs = entity.get("sections") or {}
+        parts = [f"Concept {entity['name']}: definitions and explanations published by the U.S. National Library of Medicine."]
+        if secs.get("definition"):
+            parts.append("Definition (MeSH): " + secs["definition"])
+        for key in SECTION_ORDER:
+            if secs.get(key):
+                parts.append(f"{SECTION_LABELS[key]} (MedlinePlus): " + _truncate(secs[key], 900))
+        return _truncate(" ".join(parts), 4200)
     head = f"{t.capitalize()} {entity['name']} ({entity['idLabel']} {entity['primaryId']})."
     if t == "publication":
         authors = ", ".join((entity.get("authors") or [])[:3]) + (" et al." if len(entity.get("authors") or []) > 3 else "")
@@ -455,7 +486,7 @@ def make_record(ref: str, entity: dict, index, via: str | None = None, score: fl
     for s in entity["sources"]:
         if s.get("url"):
             meta = pmos_data.SOURCE_META.get(s["source"])
-            name = SHORT_SOURCE_NAMES.get(s["source"]) or (meta[0] if meta else s["source"])
+            name = SHORT_SOURCE_NAMES.get(s["source"]) or SOURCE_DISPLAY.get(s["source"]) or (meta[0] if meta else s["source"])
             external.append({"source": name, "url": s["url"], "accession": s.get("accession"),
                              "kind": "structure" if s["source"] in SHORT_SOURCE_NAMES else "record"})
     st = entity.get("structures")
@@ -470,7 +501,9 @@ def make_record(ref: str, entity: dict, index, via: str | None = None, score: fl
     return {
         "ref": ref, "id": entity["id"], "type": entity["type"], "name": entity["name"],
         "idLabel": entity["idLabel"], "primaryId": entity["primaryId"],
-        "url": f"/entity/{entity['id']}", "external": external,
+        "url": entity["sources"][0]["url"] if entity["type"] == "concept" else f"/entity/{entity['id']}",
+        "sections": entity.get("sections") if entity["type"] == "concept" else None,
+        "external": external,
         "text": record_text(entity, index), "via": via,
         "summary": first_sentence(entity.get("mechanism") or entity.get("description") or entity.get("abstract")),
         "score": round(score, 2) if score is not None else None,
@@ -534,6 +567,47 @@ def _abbreviation_hits(corpus: "Corpus", mentions: list[dict]) -> list[dict]:
     return hits
 
 
+def _trim(text: str, limit: int) -> str:
+    """Shorten at a paragraph or sentence boundary, never mid-sentence."""
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    for mark in ("\n", ". "):
+        pos = cut.rfind(mark)
+        if pos > limit * 0.5:
+            return cut[: pos + (1 if mark == ". " else 0)].rstrip() + " …"
+    return cut.rsplit(" ", 1)[0] + " …"
+
+
+def _concept_hit(corpus: "Corpus", query: str, mentions: list[dict]) -> dict | None:
+    """A question about exactly one glossary concept: what it is, or its symptoms/causes/risk/diagnosis."""
+    concepts, others = {}, {}
+    for m in mentions:
+        for entity_id in m["entityIds"]:
+            e = corpus.by_id.get(entity_id)
+            if e:
+                (concepts if e["type"] == "concept" else others)[e["id"]] = e
+    if len(concepts) != 1 or COMPARE_CUE.search(query):
+        return None
+    concept = next(iter(concepts.values()))
+    secs = concept.get("sections") or {}
+    wanted = [name for name, pattern in SECTION_CUES.items() if pattern.search(query)]
+    # a bare term ("hirsutism", "PCOS?") counts only when the concept itself is everything the question says
+    own_tokens = set(tokenize(" ".join(m["text"] for m in mentions if concept["id"] in m["entityIds"])))
+    content = set(tokenize(query))
+    only_term = bool(content) and content <= own_tokens
+    if not (wanted or DEFINITION_CUE.search(query) or only_term):
+        return None
+    if not (secs.get("definition") or secs.get("overview")):
+        return None
+    missing = [w for w in wanted if not secs.get(w)]
+    wanted = [w for w in wanted if secs.get(w)]
+    # Asked for a section the sources do not have: say so and give what they do have, rather than letting the
+    # ranking path answer "symptoms of hirsutism" with an unrelated drug.
+    return {"concept": concept, "others": list(others.values())[:4], "sections": wanted or ["definition"],
+            "missing": missing if not wanted else []}
+
+
 def retrieve(index, query: str, limit: int = MAX_RECORDS, context_id: str | None = None) -> dict:
     """Decide what the knowledge base can support for `query` and gather the evidence for it.
 
@@ -552,7 +626,7 @@ def retrieve(index, query: str, limit: int = MAX_RECORDS, context_id: str | None
         return {**result, "intent": "help", "message": HELP_MESSAGE}
 
     mentions = corpus.find_mentions(query)
-    if not mentions and context_id in corpus.index.by_id and CONTEXT_CUE.search(query):
+    if not mentions and context_id in corpus.by_id and CONTEXT_CUE.search(query):
         mentions = [{"text": "(the record you are viewing)", "entityIds": [context_id]}]
     result["mentions"] = mentions
     link_intent = bool(LINK_PATTERN.search(query)) and not EXPLAIN_PATTERN.search(query)
@@ -578,8 +652,20 @@ def retrieve(index, query: str, limit: int = MAX_RECORDS, context_id: str | None
                                        "ref": ref[h["entity"]["id"]]} for h in hits],
                     "confidence": {**result["confidence"], "anchored": True}, "evidenceLevel": "records"}
 
+    # definitions and explanatory sections: exactly what the NIH sources say, with no model
+    hit = _concept_hit(corpus, query, mentions)
+    if hit:
+        entities = [*hit["others"], hit["concept"]]
+        records = [make_record(f"R{n}", e, index) for n, e in enumerate(entities, 1)]
+        concept_ref = next(r["ref"] for r in records if r["id"] == hit["concept"]["id"])
+        return {**result, "intent": "concept", "records": records,
+                "concept": {"ref": concept_ref, "sections": hit["sections"], "missing": hit["missing"]},
+                "confidence": {**result["confidence"], "anchored": True}, "evidenceLevel": "records"}
+
     # 2./3. rank candidates
-    named = [corpus.index.by_id[i] for m in mentions for i in m["entityIds"] if i in corpus.index.by_id]
+    # A glossary concept alone does not anchor a question to the knowledge base: "LH receptor link" mentions the
+    # concept "LH" but asks about something else. Concepts are answered by the concept path (above) or by ranking.
+    named = [e for m in mentions for i in m["entityIds"] if (e := corpus.by_id.get(i)) and e["type"] != "concept"]
     result["intent"] = "link" if link_intent else "qa"
     scored = corpus.search(qtokens, hints)
     top_score = scored[0][0] if scored else 0.0
@@ -607,7 +693,8 @@ def retrieve(index, query: str, limit: int = MAX_RECORDS, context_id: str | None
     result["evidenceLevel"] = "records" if name_matched else "mentions"
 
     sufficient = anchored or (top_score >= corpus.min_score and coverage >= MIN_COVERAGE)
-    if link_intent and not anchored and not name_matched:
+    top_record = scored[0][1] if scored else None
+    if link_intent and not anchored and (top_record is None or corpus.name_match(top_record, qtokens) < LINK_NAME_RATIO):
         sufficient = False  # a link must point at a record whose own name matches, never at a loose match
     if not sufficient:
         loose = _suggest(corpus, [], qtokens, hints, min_score=corpus.loose_suggestion_score)
@@ -679,8 +766,8 @@ def _suggest(corpus: Corpus, entity_ids: list[str], qtokens: list[str], hints: s
     With nothing relevant, fall back to the site's entry points rather than unrelated records."""
     picks: list[dict] = []
     for eid in entity_ids:
-        if eid in corpus.index.by_id:
-            picks.append(corpus.index.by_id[eid])
+        if eid in corpus.by_id:
+            picks.append(corpus.by_id[eid])
     if len(picks) < n:
         for score, i in corpus.search(qtokens, hints)[: n * 2]:
             if score >= min_score:
@@ -695,12 +782,28 @@ def _suggest(corpus: Corpus, entity_ids: list[str], qtokens: list[str], hints: s
 
 # --------------------------------------------------------------------------- further reading
 
+def _concept_reading(result: dict) -> list[dict]:
+    """Where to read more about a glossary concept: the NIH pages the text came from and a PubMed search."""
+    concept = next(r for r in result["records"] if r["ref"] == result["concept"]["ref"])
+    items = [{"kind": "database", "label": f"{x['source']}: {_truncate(concept['name'], 60)}", "url": x["url"], "external": True}
+             for x in concept["external"]]
+    condition = concept["name"] == "Polycystic Ovary Syndrome"
+    query = "polycystic ovary syndrome" if condition else f'"{concept["name"]}" AND "polycystic ovary syndrome"'
+    items.append({"kind": "search", "label": f"Search PubMed: {'PCOS' if condition else concept['name'] + ' and PCOS'}",
+                  "url": PUBMED_SEARCH.format(urllib.parse.quote_plus(query)), "external": True})
+    items += [{"kind": "database", "label": f"This site: {_truncate(r['name'], 60)}", "url": r["url"], "external": False}
+              for r in result["records"] if r["type"] not in ("concept", "process")][:3]
+    return items
+
+
 def further_reading(result: dict, max_items: int = 9) -> list[dict]:
     """Research links for an answered question, built only from the retrieved records (never by a model):
     papers in the knowledge base (PubMed), a PubMed search on the topic, 3D structures, and source records."""
-    if result["status"] != "ok" or result["intent"] != "qa":
+    if result["status"] != "ok" or result["intent"] not in ("qa", "concept"):
         return []
     records = result["records"]
+    if result["intent"] == "concept":
+        return _concept_reading(result)
     items: list[dict] = []
 
     for r in [x for x in records if x["type"] == "publication"][:3]:
@@ -757,6 +860,36 @@ def _compose_abbreviation(result: dict) -> str:
     return "\n\n".join(blocks)
 
 
+def _compose_concept(result: dict) -> str:
+    by_ref = {r["ref"]: r for r in result["records"]}
+    rec = by_ref[result["concept"]["ref"]]
+    secs = rec["sections"] or {}
+    blocks = []
+    naming = next((r for r in result["records"] if r["type"] == "process"), None)
+    if naming and naming.get("summary"):  # e.g. PMOS is the 2026 name for PCOS
+        blocks.append(naming["summary"])
+    wanted = result["concept"]["sections"]
+    if result["concept"].get("missing"):
+        nouns = {"risk": "risk factors", "diagnosis": "diagnosis", "complications": "related health problems"}
+        what = " or ".join(nouns.get(m, m) for m in result["concept"]["missing"])
+        blocks.append(f"The NIH sources used here (MeSH and MedlinePlus) have no {what} information for "
+                      f"{rec['name']}. This is what they do say:")
+    if wanted == ["definition"]:
+        if secs.get("definition"):
+            blocks.append(f"**{rec['name']}** (definition from MeSH): {secs['definition']}")
+        if secs.get("overview"):
+            blocks.append("In plain language (MedlinePlus): " + _trim(secs["overview"], 1100))
+    else:
+        for name in wanted:
+            blocks.append(f"**{SECTION_LABELS[name]}: {rec['name']}** (MedlinePlus)\n\n{secs[name]}")
+    related = [f"[{r['name']}]({r['url']})" for r in result["records"] if r["type"] not in ("concept", "process")]
+    if related:
+        blocks.append("In this knowledge base: " + ", ".join(related))
+    links = [f"[{x['source']}]({x['url']})" for x in rec["external"]]
+    blocks.append("Source: " + " · ".join(links) + "\nGeneral educational information, not medical advice.")
+    return "\n\n".join(blocks)
+
+
 def compose_extractive(result: dict, suggestions: bool = True) -> str:
     """A complete answer built only from the records, for link requests and for when no model is available.
 
@@ -765,6 +898,8 @@ def compose_extractive(result: dict, suggestions: bool = True) -> str:
         return result["message"]
     if result["intent"] == "abbreviation":
         return _compose_abbreviation(result)
+    if result["intent"] == "concept":
+        return _compose_concept(result)
     if result["status"] == "refused":
         text = result["message"]
     elif result["status"] == "no_evidence":

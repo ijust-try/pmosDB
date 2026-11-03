@@ -88,9 +88,10 @@ class RetrievalBenchmark(unittest.TestCase):
         self.assertEqual(len(questions), len(set(questions)))
 
     def test_every_expected_record_exists_in_the_knowledge_base(self):
+        known = set(self.index.by_id) | {c["id"] for c in self.index.concepts}
         for case in CASES:
             for wanted in case.get("include", []):
-                self.assertIn(wanted, self.index.by_id, f"{wanted} (case {case['q']!r}) is not in the knowledge base")
+                self.assertIn(wanted, known, f"{wanted} (case {case['q']!r}) is not in the knowledge base")
 
     def test_answers_to_link_requests_contain_working_looking_source_urls(self):
         for case in [c for c in CASES if c.get("intent") == "link"]:

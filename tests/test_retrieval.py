@@ -42,7 +42,11 @@ class RefusalTests(unittest.TestCase):
             ("can I take letrozole with food", "personal medical advice"),
             ("my doctor prescribed flutamide, is that ok", "personal medical advice"),
             ("is spironolactone effective for PCOS", "a treatment or efficacy claim"),
-            ("what is the best treatment for PCOS", "a treatment or efficacy claim"),
+            ("what is the best treatment for PCOS", "treatment information"),
+            ("What is the treatment for PCOS", "treatment information"),
+            ("how is PCOS treated", "treatment information"),
+            ("which medication is used for hirsutism", "treatment information"),
+            ("how can I manage PCOS", "personal medical advice"),
             ("does metformin cure PCOS", "a treatment or efficacy claim"),
             ("side effects of metformin", "a treatment or efficacy claim"),
         ]:
@@ -58,6 +62,10 @@ class RefusalTests(unittest.TestCase):
             "what is the evidence for metformin in PCOS",
             "papers about hirsutism",
             "can you give me the link for estradiol",
+            "what are the symptoms of PCOS",
+            "how is PCOS diagnosed",
+            "papers about the treatment effect on hirsutism",
+            "how does the androgen receptor work",
         ]:
             with self.subTest(q=q):
                 self.assertIsNone(rt.detect_refusal(q))
@@ -129,8 +137,8 @@ class AbbreviationTests(unittest.TestCase):
             with self.subTest(q=q):
                 self.assertNotEqual(self.ask(q)["intent"], "abbreviation")
 
-    def test_other_questions_about_the_condition_still_go_to_the_normal_path(self):
-        for q in ["What is PMOS", "what is the difference between PCOS and PMOS", "tell me about PMOS"]:
+    def test_comparisons_about_the_condition_still_go_to_the_normal_path(self):
+        for q in ["what is the difference between PCOS and PMOS", "how does PMOS differ from PCOS"]:
             with self.subTest(q=q):
                 r = self.ask(q)
                 self.assertEqual((r["intent"], r["status"], r["records"][0]["id"]), ("qa", "ok", "process-pcos"))

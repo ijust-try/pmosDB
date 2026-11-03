@@ -25,7 +25,9 @@ export type SourceId =
   | 'open-targets'
   | 'pubmed'
   | 'pdb'
-  | 'alphafold';
+  | 'alphafold'
+  | 'mesh'
+  | 'medlineplus';
 
 /**
  * Where a record's identifier / statement comes from.

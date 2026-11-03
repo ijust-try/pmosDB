@@ -749,5 +749,261 @@
       "process-pcos"
     ],
     "within": 1
+  },
+  {
+    "group": "concept",
+    "q": "What is hirsutism",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-hirsutism"
+    ],
+    "answer_contains": [
+      "excess coarse body hair",
+      "meshb.nlm.nih.gov/record/ui?ui=D006628"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "define hirsutism",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-hirsutism"
+    ],
+    "answer_contains": [
+      "excess coarse body hair"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "what is insulin resistance",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-insulin-resistance"
+    ],
+    "answer_contains": [
+      "Diminished effectiveness of insulin"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "what is hyperandrogenism",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-hyperandrogenism"
+    ],
+    "answer_contains": [
+      "excessive secretion of androgens"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "what is AMH",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-anti-mullerian-hormone"
+    ],
+    "answer_contains": [
+      "causes regression of mullerian ducts"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "what does GWAS mean",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-genome-wide-association-study"
+    ],
+    "answer_contains": [
+      "allele frequencies"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "what is BMI",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-body-mass-index"
+    ],
+    "answer_contains": [
+      "BMI=weight (kg)/height squared"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "what is a biomarker",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-biomarker"
+    ],
+    "answer_contains": [
+      "Measurable and quantifiable biological parameters"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "what is anovulation",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-anovulation"
+    ],
+    "answer_contains": [
+      "Suspension or cessation of ovulation"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "what is SHBG",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-sex-hormone-binding-globulin"
+    ],
+    "answer_contains": [
+      "binds testosterone"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "define acne",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-acne-vulgaris"
+    ],
+    "answer_contains": [
+      "pilosebaceous apparatus"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "what is metabolic syndrome",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-metabolic-syndrome"
+    ],
+    "answer_contains": [
+      "cluster of symptoms"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "what are the symptoms of PCOS",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-polycystic-ovary-syndrome"
+    ],
+    "answer_contains": [
+      "Irregular or missed menstrual periods"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "what causes PCOS",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-polycystic-ovary-syndrome"
+    ],
+    "answer_contains": [
+      "The exact cause of PCOS is unknown"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "how is PCOS diagnosed",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-polycystic-ovary-syndrome"
+    ],
+    "answer_contains": [
+      "There is no specific test for PCOS"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "what are the symptoms of type 2 diabetes",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-type-2-diabetes"
+    ],
+    "answer_contains": [
+      "Increased thirst and urination"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "what are the symptoms of hirsutism",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-hirsutism"
+    ],
+    "answer_contains": [
+      "have no symptoms information for Hirsutism",
+      "excess coarse body hair"
+    ]
+  },
+  {
+    "group": "concept",
+    "q": "what causes anovulation",
+    "status": "ok",
+    "intent": "concept",
+    "include": [
+      "concept-anovulation"
+    ],
+    "answer_contains": [
+      "have no causes information for Anovulation"
+    ]
+  },
+  {
+    "group": "refuse",
+    "q": "what is the treatment for PCOS",
+    "status": "refused",
+    "intent": "refuse",
+    "reason": "treatment information"
+  },
+  {
+    "group": "refuse",
+    "q": "how is hirsutism treated",
+    "status": "refused",
+    "intent": "refuse",
+    "reason": "treatment information"
+  },
+  {
+    "group": "refuse",
+    "q": "which medications are used for insulin resistance",
+    "status": "refused",
+    "intent": "refuse",
+    "reason": "treatment information"
+  },
+  {
+    "group": "refuse",
+    "q": "what is the best treatment for type 2 diabetes",
+    "status": "refused",
+    "intent": "refuse",
+    "reason": "treatment information"
+  },
+  {
+    "group": "qa",
+    "q": "what is the difference between PCOS and insulin resistance",
+    "status": "ok",
+    "intent": "qa",
+    "include": [
+      "process-pcos"
+    ],
+    "within": 3
   }
 ]

@@ -57,6 +57,8 @@ SOURCE_ID_MAP = {
     "Open Targets": "open-targets",
     "PDB": "pdb",
     "AlphaFold DB": "alphafold",
+    "MeSH": "mesh",
+    "MedlinePlus": "medlineplus",
 }
 
 SOURCE_URL_BUILDERS = {
@@ -69,6 +71,8 @@ SOURCE_URL_BUILDERS = {
     "open-targets": lambda acc: f"https://platform.opentargets.org/target/{acc}",
     "pdb": lambda acc: f"https://www.rcsb.org/structure/{acc}",
     "alphafold": lambda acc: f"https://alphafold.ebi.ac.uk/entry/{acc}",
+    "mesh": lambda acc: f"https://meshb.nlm.nih.gov/record/ui?ui={acc}",
+    "medlineplus": lambda acc: f"https://medlineplus.gov/{acc}.html",
 }
 
 SOURCE_META = {
@@ -85,6 +89,8 @@ SOURCE_META = {
     "pubmed": ("PubMed", "Supporting literature", ["publication"]),
     "pdb": ("Protein Data Bank (RCSB)", "Experimental 3D structures of proteins, linked through UniProt", ["protein"]),
     "alphafold": ("AlphaFold Protein Structure Database", "Predicted 3D structures of proteins, linked through UniProt", ["protein"]),
+    "mesh": ("MeSH (U.S. National Library of Medicine)", "Authoritative definitions of medical terms", ["process"]),
+    "medlineplus": ("MedlinePlus (NIH)", "Plain-language explanations: what a condition is, its symptoms, causes and diagnosis", ["process"]),
 }
 
 
@@ -582,6 +588,9 @@ def relationship(rel_id: str, source: str, target: str, label: str, status: str,
 @dataclass
 class Index:
     entities: list[dict] = field(default_factory=list)
+    # glossary concepts (definitions from MeSH and MedlinePlus). They are not graph entities: no page of their own,
+    # not listed by the API; the chatbot's retrieval layer reads them.
+    concepts: list[dict] = field(default_factory=list)
     by_id: dict[str, dict] = field(default_factory=dict)
     relationships: list[dict] = field(default_factory=list)
     adjacency: dict[str, list[tuple[dict, str]]] = field(default_factory=dict)
@@ -597,8 +606,53 @@ class Index:
         self.adjacency.setdefault(rel["target"], []).append((rel, "in"))
 
 
+def _own_aliases(stored: str | None, other_names: set[str]) -> list[str]:
+    """The ';'-separated aliases of a glossary term, once each, minus names that are another term's own heading."""
+    seen: dict[str, str] = {}
+    for alias in (a.strip() for a in (stored or "").split(";")):
+        if alias and alias.lower() not in other_names:
+            seen.setdefault(alias.lower(), alias)
+    return list(seen.values())
+
+
+def build_concepts(conn: sqlite3.Connection) -> list[dict]:
+    """One record per glossary term, carrying the source's own text for each section it has."""
+    if not (_table_exists(conn, "glossary_term") and _table_exists(conn, "glossary_section")):
+        return []
+    sections: dict[str, dict[str, str]] = {}
+    for r in conn.execute("SELECT term, section, text FROM glossary_section"):
+        sections.setdefault(r["term"], {})[r["section"]] = r["text"]
+    rows = conn.execute("SELECT * FROM glossary_term ORDER BY term").fetchall()
+    # MedlinePlus lists related names as alternate titles ("insulin resistance" under Metabolic Syndrome); a name
+    # that is another term's own heading must keep pointing at that term only.
+    names = {r["term"].lower() for r in rows}
+    out = []
+    for r in rows:
+        secs = sections.get(r["term"], {})
+        sources = []
+        if r["mesh_id"]:
+            sources.append(source_ref("MeSH", r["mesh_id"], None))
+        if r["medlineplus_slug"]:
+            sources.append(source_ref("MedlinePlus", r["medlineplus_slug"], None))
+        out.append({
+            "id": f"concept-{slugify(r['term'])}",
+            "type": "concept",
+            "name": r["term"],
+            "primaryId": r["mesh_id"] or r["medlineplus_slug"],
+            "idLabel": "MeSH ID" if r["mesh_id"] else "MedlinePlus topic",
+            "aliases": _own_aliases(r["aliases"], names),
+            "description": secs.get("definition") or secs.get("overview") or "",
+            "sections": secs,
+            "sources": sources,
+            "annotations": [],
+            "verification": DOC,
+        })
+    return out
+
+
 def build_index(conn: sqlite3.Connection) -> Index:
     index = Index()
+    index.concepts = build_concepts(conn)
 
     associations = pcos_associations(conn)
     for row in conn.execute("SELECT * FROM genes ORDER BY gene_symbol"):
@@ -779,8 +833,10 @@ def _build_sources_meta(conn: sqlite3.Connection, index: Index) -> dict[str, dic
             record_count_by_source[sid] = record_count_by_source.get(sid, 0) + 1
             if row["retrieved_on"] and row["retrieved_on"] > last_sync_by_source.get(sid, ""):
                 last_sync_by_source[sid] = row["retrieved_on"]
-    if _table_exists(conn, "protein_structure"):
-        for row in conn.execute("SELECT source, retrieved_on FROM protein_structure"):
+    for extra_table in ("protein_structure", "glossary_section"):
+        if not _table_exists(conn, extra_table):
+            continue
+        for row in conn.execute(f"SELECT source, retrieved_on FROM {extra_table}"):
             sid = SOURCE_ID_MAP.get(row["source"], slugify(row["source"]))
             record_count_by_source[sid] = record_count_by_source.get(sid, 0) + 1
             if row["retrieved_on"] and row["retrieved_on"] > last_sync_by_source.get(sid, ""):
@@ -815,6 +871,8 @@ def _build_sources_meta(conn: sqlite3.Connection, index: Index) -> dict[str, dic
                 "pubmed": "https://pubmed.ncbi.nlm.nih.gov/",
                 "pdb": "https://www.rcsb.org/",
                 "alphafold": "https://alphafold.ebi.ac.uk/",
+                "mesh": "https://www.nlm.nih.gov/mesh/",
+                "medlineplus": "https://medlineplus.gov/",
             }[sid],
             "lastSync": state["sources"].get(sid, {}).get("syncedAt") or last_sync_by_source.get(sid),
             "validationNote": f"{record_count_by_source.get(sid, 0)} records ingested and cross-referenced during FK stitching.",

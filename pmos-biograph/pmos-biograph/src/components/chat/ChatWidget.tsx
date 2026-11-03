@@ -12,9 +12,9 @@ const MAX_CHARS = 300;
 const MAX_MESSAGES = 40;
 const EXAMPLES = [
   'What is the full form of PMOS?',
-  'Give me the link for the androgen receptor',
+  'What are the symptoms of PCOS?',
+  'What is hirsutism?',
   'Which drugs target CYP19A1?',
-  'Papers about hirsutism',
 ];
 
 interface Message {

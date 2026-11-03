@@ -9,7 +9,7 @@ Live site: https://pmos-biograph.vercel.app
 ## Architecture
 
 ```
- NCBI Gene · PubMed · UniProt · Reactome · QuickGO · PubChem · Open Targets (ChEMBL)
+ NCBI Gene · PubMed · UniProt · Reactome · QuickGO · PubChem · Open Targets (ChEMBL) · MeSH · MedlinePlus
                           │   weekly, Wednesday 18:00 IST
                           ▼
    sync/  (stdlib Python)  check releases → harvest → clean → validate → stitch
@@ -27,18 +27,19 @@ Live site: https://pmos-biograph.vercel.app
 | layer | lives in | what it does |
 |---|---|---|
 | Sync | `sync/` | Harvests the source databases, builds and validates a new database beside the live one, replaces it only if every check passes. See `sync/README.md`. |
-| Data | `pmos_knowledge_base.db`, `data/`, `seed_entities.csv` | Eight sourced base tables plus `therapeutic_target` and `protein_structure` (PDB/AlphaFold links). Every row carries `source`, `source_accession`, `retrieved_on`. |
+| Data | `pmos_knowledge_base.db`, `data/`, `seed_entities.csv` | Eight sourced base tables plus `therapeutic_target`, `protein_structure` (PDB/AlphaFold links) and the glossary (`glossary_term`, `glossary_section`: MeSH definitions and MedlinePlus sections, source text only). Every row carries `source`, `source_accession`, `retrieved_on`. |
 | API | `backend/`, `api/` | Foreign-key stitching, ranked search, graph neighbourhoods, sync status, chatbot retrieval. See `backend/README.md`. |
 | UI | `pmos-biograph/pmos-biograph/` | Explore, BioGraph, Pathways, Therapeutics, Evidence and Data sources pages, plus a chat window (`src/components/chat/`) available on every page. |
 | Tests | `tests/` | Offline unit, API and data-integrity tests. CI runs them on every push (`.github/workflows/tests.yml`). |
 
 ### Design decisions
 
-- **Trusted sources only.** NCBI, UniProt, Reactome, QuickGO, PubChem, PubMed and Open Targets. A test fails if a row names any other source.
+- **Trusted sources only.** NCBI, UniProt, Reactome, QuickGO, PubChem, PubMed, Open Targets, and (for definitions) MeSH and MedlinePlus from the U.S. National Library of Medicine. A test fails if a row names any other source.
 - **Nothing is inferred silently.** Drug targets are curated mechanism-of-action records from Open Targets (ChEMBL), not text matching. Drugs with no curated target, and protein complexes with dozens of subunits, are left unlinked and listed in `unresolved_mappings.csv`.
 - **Derived views are labelled as derived.** A drug's pathways are reached drug → target gene → protein → Reactome pathway. The UI says this is membership of the target, not a claim that the drug acts on the pathway.
 - **Evidence strength is shown, not implied.** Genes carry their Open Targets PCOS score, rank and evidence types. Genes whose only evidence is `clinical` (propagated from a drug's targets, e.g. every complex I subunit via metformin) are not treated as PCOS genes.
-- **Grounded retrieval for a chatbot.** `backend/retrieval.py` refuses medical-advice questions, answers link requests straight from the database, and returns cited evidence (with graph expansion) for everything else. If the records do not cover a question it reports "no evidence" rather than letting a model guess. A 69-question benchmark (`eval/`) checks this on every push.
+- **Grounded retrieval for a chatbot.** `backend/retrieval.py` refuses medical-advice questions, answers link requests, full forms ("What does PMOS stand for?") and basic concept questions ("What is hirsutism?", "What are the symptoms of PCOS?") exactly from the sources' own text with no model, and returns cited evidence (with graph expansion) for everything else. If the records do not cover a question it reports "no evidence" rather than letting a model guess. A 110-question benchmark (`eval/`) checks this on every push.
+- **Basic questions are answered from NIH text, not from a model.** The glossary (43 terms) holds MeSH definitions and MedlinePlus symptom, cause, risk and diagnosis text verbatim, with identifiers and retrieval dates. Treatment text is never stored, and treatment questions are refused. Nothing is paraphrased, so the answer cannot drift from the source.
 - **Structures are linked, not guessed.** Each protein's PDB entries (best-resolved few, plus the total) and AlphaFold prediction come from its UniProt cross-references, shown on protein and gene pages with a thumbnail from RCSB. Chat answers add a "Further reading" list built from the retrieved records: papers, a PubMed search, structures and source records.
 - **A generated answer is shown only if it verifies.** The model (Gemini free tier) is the last step, reached only when retrieval found evidence. Its answer must cite real records, and every symbol, number and key word must be supported by the record it cites; otherwise the visitor sees the plain records. 26 canned answers (`eval/answer_cases.json`) test this. The limits of the check are documented in `backend/README.md`.
 - **The chat window shows its work.** Each answer says whether it was written by AI (and from how many cited records) or taken straight from the records, links every source, and says why when the AI is unavailable. Answers render through a small safe-markdown parser that builds React elements only and keeps just site-relative and https links. The window understands "this" from the page you are on.

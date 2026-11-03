@@ -1,36 +1,134 @@
 {
   "_about": "Canned model outputs run through chat.check_answer on the real data. Placeholders: [{ref:ID}] is the citation ref the question assigns to record ID; {score:ID} is that gene's Open Targets PCOS score. 'accept' answers are faithful paraphrases a good model would write; 'reject' answers are the ways a model goes wrong.",
   "accept": [
-    {"q": "what does flutamide do", "a": "Flutamide is a nonsteroidal antiandrogen that binds the androgen receptor and blocks the action of testosterone [{ref:therapeutic-flutamide}]. Its curated target is AR [{ref:gene-ar}]."},
-    {"q": "Which drugs target CYP19A1?", "a": "Letrozole is a non-steroidal aromatase inhibitor that blocks CYP19A1 [{ref:therapeutic-letrozole}]. CYP19A1 is its curated target [{ref:therapeutic-letrozole}]."},
-    {"q": "tell me about pioglitazone", "a": "Pioglitazone is a selective agonist of PPARγ [{ref:therapeutic-pioglitazone}]. It increases transcription of insulin-responsive genes and enhances tissue sensitivity to insulin [{ref:therapeutic-pioglitazone}]."},
-    {"q": "how does the leptin receptor relate to PCOS", "a": "LEPR encodes the leptin receptor [{ref:gene-lepr}]. Its Open Targets association score with PCOS is {score:gene-lepr} [{ref:gene-lepr}]."},
-    {"q": "what is PCOS", "a": "PCOS, also known as PMOS, is an endocrine-metabolic-ovarian condition that this knowledge base integrates evidence around [{ref:process-pcos}]."},
-    {"q": "which pathways contain CYP17A1", "a": "Androgen biosynthesis is a Reactome pathway [{ref:pathway-androgen-biosynthesis}]. One of its two member genes in the knowledge base is associated with PCOS, the strongest being CYP17A1 [{ref:pathway-androgen-biosynthesis}]."},
-    {"q": "tell me about flutamide hepatotoxicity", "a": "Flutamide is a nonsteroidal antiandrogen [{ref:therapeutic-flutamide}]. The knowledge base does not cover hepatotoxicity."},
-    {"q": "what is testosterone", "a": "Testosterone is an androstanoid with 17beta-hydroxy and 3-oxo groups, and it has a role as an androgen [{ref:hormone-testosterone}]."},
-    {"q": "what does flutamide do", "a": "Flutamide targets AR [{ref:therapeutic-flutamide}, {ref:gene-ar}]."},
-    {"q": "tell me about letrozole", "a": "Letrozole blocks the active site of CYP19A1, which prevents the conversion of androgens to estrogen [{ref:therapeutic-letrozole}]."}
+    {
+      "q": "what does flutamide do",
+      "a": "Flutamide is a nonsteroidal antiandrogen that binds the androgen receptor and blocks the action of testosterone [{ref:therapeutic-flutamide}]. Its curated target is AR [{ref:gene-ar}]."
+    },
+    {
+      "q": "Which drugs target CYP19A1?",
+      "a": "Letrozole is a non-steroidal aromatase inhibitor that blocks CYP19A1 [{ref:therapeutic-letrozole}]. CYP19A1 is its curated target [{ref:therapeutic-letrozole}]."
+    },
+    {
+      "q": "tell me about pioglitazone",
+      "a": "Pioglitazone is a selective agonist of PPARγ [{ref:therapeutic-pioglitazone}]. It increases transcription of insulin-responsive genes and enhances tissue sensitivity to insulin [{ref:therapeutic-pioglitazone}]."
+    },
+    {
+      "q": "how does the leptin receptor relate to PCOS",
+      "a": "LEPR encodes the leptin receptor [{ref:gene-lepr}]. Its Open Targets association score with PCOS is {score:gene-lepr} [{ref:gene-lepr}]."
+    },
+    {
+      "q": "PMOS condition evidence in this knowledge base",
+      "a": "PMOS, previously named PCOS, is an endocrine-metabolic-ovarian condition that affects one in eight women [{ref:process-pcos}]."
+    },
+    {
+      "q": "which pathways contain CYP17A1",
+      "a": "Androgen biosynthesis is a Reactome pathway [{ref:pathway-androgen-biosynthesis}]. One of its two member genes in the knowledge base is associated with PCOS, the strongest being CYP17A1 [{ref:pathway-androgen-biosynthesis}]."
+    },
+    {
+      "q": "tell me about flutamide hepatotoxicity",
+      "a": "Flutamide is a nonsteroidal antiandrogen [{ref:therapeutic-flutamide}]. The knowledge base does not cover hepatotoxicity."
+    },
+    {
+      "q": "testosterone record in this knowledge base",
+      "a": "Testosterone is an androstanoid with 17beta-hydroxy and 3-oxo groups, and it has a role as an androgen [{ref:hormone-testosterone}]."
+    },
+    {
+      "q": "what does flutamide do",
+      "a": "Flutamide targets AR [{ref:therapeutic-flutamide}, {ref:gene-ar}]."
+    },
+    {
+      "q": "tell me about letrozole",
+      "a": "Letrozole blocks the active site of CYP19A1, which prevents the conversion of androgens to estrogen [{ref:therapeutic-letrozole}]."
+    }
   ],
   "reject": [
-    {"why": "invented gene", "q": "what does flutamide do", "a": "Flutamide also inhibits CYP3A4 [{ref:therapeutic-flutamide}]."},
-    {"why": "invented statistic", "q": "what does flutamide do", "a": "Flutamide shows a 73% response rate [{ref:therapeutic-flutamide}]."},
-    {"why": "efficacy claim", "q": "what does flutamide do", "a": "Flutamide is effective for hirsutism [{ref:therapeutic-flutamide}]."},
-    {"why": "dosing", "q": "what does flutamide do", "a": "Flutamide is usually taken as 250 mg [{ref:therapeutic-flutamide}]."},
-    {"why": "unsupported claim using no flagged words", "q": "what does flutamide do", "a": "Flutamide reduces hair growth by shrinking follicles [{ref:therapeutic-flutamide}]."},
-    {"why": "a different receptor named", "q": "what does flutamide do", "a": "Flutamide targets the estrogen receptor ESR1 [{ref:therapeutic-flutamide}]."},
-    {"why": "uncited factual sentence", "q": "what does flutamide do", "a": "Flutamide blocks the androgen receptor [{ref:therapeutic-flutamide}]. It was approved for prostate cancer treatment in the eighties."},
-    {"why": "cites the wrong record for the claim", "q": "what does flutamide do", "a": "Flutamide inhibits aromatase [{ref:gene-ar}]."},
-    {"why": "citation that does not exist", "q": "what does flutamide do", "a": "Flutamide blocks AR [R99]."},
-    {"why": "invented UniProt accession", "q": "what does flutamide do", "a": "Flutamide binds the protein P12345 [{ref:therapeutic-flutamide}]."},
-    {"why": "invented year", "q": "what does flutamide do", "a": "Flutamide was discovered in 1967 [{ref:therapeutic-flutamide}]."},
-    {"why": "advice", "q": "what does flutamide do", "a": "You should take flutamide with food [{ref:therapeutic-flutamide}]."},
-    {"why": "claims an indication the record does not give", "q": "what does flutamide do", "a": "Flutamide treats prostate cancer [{ref:therapeutic-flutamide}]."},
-    {"why": "invented association strength", "q": "how does the leptin receptor relate to PCOS", "a": "LEPR has an Open Targets association score of 0.91 with PCOS [{ref:gene-lepr}]."},
-    {"why": "no citation at all", "q": "tell me about letrozole", "a": "Letrozole is an aromatase inhibitor."},
-    {"why": "outside knowledge presented as fact", "q": "tell me about pioglitazone", "a": "Pioglitazone was withdrawn in several countries over bladder concerns [{ref:therapeutic-pioglitazone}]."}
+    {
+      "why": "invented gene",
+      "q": "what does flutamide do",
+      "a": "Flutamide also inhibits CYP3A4 [{ref:therapeutic-flutamide}]."
+    },
+    {
+      "why": "invented statistic",
+      "q": "what does flutamide do",
+      "a": "Flutamide shows a 73% response rate [{ref:therapeutic-flutamide}]."
+    },
+    {
+      "why": "efficacy claim",
+      "q": "what does flutamide do",
+      "a": "Flutamide is effective for hirsutism [{ref:therapeutic-flutamide}]."
+    },
+    {
+      "why": "dosing",
+      "q": "what does flutamide do",
+      "a": "Flutamide is usually taken as 250 mg [{ref:therapeutic-flutamide}]."
+    },
+    {
+      "why": "unsupported claim using no flagged words",
+      "q": "what does flutamide do",
+      "a": "Flutamide reduces hair growth by shrinking follicles [{ref:therapeutic-flutamide}]."
+    },
+    {
+      "why": "a different receptor named",
+      "q": "what does flutamide do",
+      "a": "Flutamide targets the estrogen receptor ESR1 [{ref:therapeutic-flutamide}]."
+    },
+    {
+      "why": "uncited factual sentence",
+      "q": "what does flutamide do",
+      "a": "Flutamide blocks the androgen receptor [{ref:therapeutic-flutamide}]. It was approved for prostate cancer treatment in the eighties."
+    },
+    {
+      "why": "cites the wrong record for the claim",
+      "q": "what does flutamide do",
+      "a": "Flutamide inhibits aromatase [{ref:gene-ar}]."
+    },
+    {
+      "why": "citation that does not exist",
+      "q": "what does flutamide do",
+      "a": "Flutamide blocks AR [R99]."
+    },
+    {
+      "why": "invented UniProt accession",
+      "q": "what does flutamide do",
+      "a": "Flutamide binds the protein P12345 [{ref:therapeutic-flutamide}]."
+    },
+    {
+      "why": "invented year",
+      "q": "what does flutamide do",
+      "a": "Flutamide was discovered in 1967 [{ref:therapeutic-flutamide}]."
+    },
+    {
+      "why": "advice",
+      "q": "what does flutamide do",
+      "a": "You should take flutamide with food [{ref:therapeutic-flutamide}]."
+    },
+    {
+      "why": "claims an indication the record does not give",
+      "q": "what does flutamide do",
+      "a": "Flutamide treats prostate cancer [{ref:therapeutic-flutamide}]."
+    },
+    {
+      "why": "invented association strength",
+      "q": "how does the leptin receptor relate to PCOS",
+      "a": "LEPR has an Open Targets association score of 0.91 with PCOS [{ref:gene-lepr}]."
+    },
+    {
+      "why": "no citation at all",
+      "q": "tell me about letrozole",
+      "a": "Letrozole is an aromatase inhibitor."
+    },
+    {
+      "why": "outside knowledge presented as fact",
+      "q": "tell me about pioglitazone",
+      "a": "Pioglitazone was withdrawn in several countries over bladder concerns [{ref:therapeutic-pioglitazone}]."
+    }
   ],
   "known_gaps": [
-    {"why": "reverses the relation using only words the record contains; a word-level check cannot see the difference", "q": "what does flutamide do", "a": "Flutamide is an androgen receptor agonist [{ref:therapeutic-flutamide}]."}
+    {
+      "why": "reverses the relation using only words the record contains; a word-level check cannot see the difference",
+      "q": "what does flutamide do",
+      "a": "Flutamide is an androgen receptor agonist [{ref:therapeutic-flutamide}]."
+    }
   ]
 }

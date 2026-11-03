@@ -7,6 +7,7 @@ import unittest
 from pathlib import Path
 
 import _paths  # noqa: F401
+import glossary
 import harvest
 import pmos_data
 
@@ -139,6 +140,37 @@ class CommittedDataTests(unittest.TestCase):
                       {(r["source"], r["target"]) for r in self.index.relationships if r["label"] == "supported by"})
         answer = retrieval.compose_extractive(retrieval.retrieve(self.index, "What is the full form of PMOS"))
         self.assertIn("**PMOS** stands for **Polyendocrine Metabolic Ovarian Syndrome**", answer)
+
+    def test_the_glossary_comes_only_from_nih_sources_with_provenance(self):
+        terms = self.conn.execute("SELECT * FROM glossary_term").fetchall()
+        sections = self.conn.execute("SELECT * FROM glossary_section").fetchall()
+        self.assertGreaterEqual(len(terms), 40)
+        self.assertGreaterEqual(len(sections), 60)
+        for row in [*terms, *sections]:
+            self.assertIn(row["source"], ("MeSH", "MedlinePlus"))
+            self.assertTrue(row["source_accession"] and row["retrieved_on"], dict(row))
+        self.assertEqual(self.conn.execute("PRAGMA foreign_key_check").fetchall(), [])
+
+    def test_every_term_in_the_glossary_file_was_found(self):
+        wanted = {t["term"] for t in glossary.read_terms()}
+        stored = {r[0] for r in self.conn.execute("SELECT term FROM glossary_term")}
+        self.assertEqual(wanted - stored, set(), "terms in glossary_terms.csv that neither source resolved")
+
+    def test_no_treatment_wording_is_stored_in_the_glossary(self):
+        for term, section, text in self.conn.execute("SELECT term, section, text FROM glossary_section"):
+            self.assertIsNone(glossary.TREATMENT_WORDS.search(text), f"{term} / {section}: {text[:120]}")
+
+    def test_the_condition_has_every_explanatory_section(self):
+        pcos = next(c for c in self.index.concepts if c["name"] == "Polycystic Ovary Syndrome")
+        self.assertEqual(set(pcos["sections"]), {"definition", "overview", "symptoms", "causes", "complications", "diagnosis"})
+        self.assertIn("Irregular or missed menstrual periods", pcos["sections"]["symptoms"])
+
+    def test_a_name_has_one_meaning_in_the_glossary(self):
+        seen = {}
+        for c in self.index.concepts:
+            for name in [c["name"], *c["aliases"]]:
+                self.assertNotIn(name.lower(), seen, f"{name!r} names both {seen.get(name.lower())} and {c['id']}")
+                seen[name.lower()] = c["id"]
 
     def test_every_source_has_a_last_sync(self):
         for s in pmos_data.get_sources(self.index):

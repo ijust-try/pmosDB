@@ -46,6 +46,8 @@ export const SOURCE_NAMES: Record<SourceId, string> = {
   pubmed: 'PubMed',
   pdb: 'Protein Data Bank',
   alphafold: 'AlphaFold DB',
+  mesh: 'MeSH (NLM)',
+  medlineplus: 'MedlinePlus (NIH)',
 };
 
 export const SOURCE_IDS = Object.keys(SOURCE_NAMES) as SourceId[];

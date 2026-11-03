@@ -86,7 +86,8 @@ hardcoded in `pmos-biograph`'s `src/data/mock.ts` (`DEFAULT_GRAPH_FOCUS =
 Decides what the knowledge base can support for a question and gathers the evidence. It never calls an AI
 model or the network: it is deterministic, free and tested. In order:
 
-1. **refuse**: dosing, personal medical advice and treatment/efficacy questions are refused (the site makes no such claims).
+1. **refuse**: dosing, personal medical advice, treatment information ("what is the treatment for PCOS", "how is it treated")
+   and efficacy questions are refused (the site makes no such claims).
 2. **link**: requests for a link, page or identifier are answered straight from the records (`compose_extractive`).
 3. **qa**: BM25F search over names, identifiers, aliases, descriptions, abstracts and neighbours, then graph expansion
    (drug to target gene to protein to pathway to papers). If the records do not cover the question's informative words the
@@ -101,6 +102,17 @@ Full-form questions ("What is the full form of PMOS?", "What does PCOS stand for
 exactly from the record's own data, without ranking or a model (`intent: "abbreviation"`). A record can expand curated
 abbreviations (PMOS and PCOS, cited to the 2026 Lancet consensus) and, for genes, its symbol (the official NCBI full name).
 
+Basic concept questions ("What is hirsutism?", "What are the symptoms of PCOS?", "What causes PCOS?", "How is PCOS diagnosed?",
+"What does GWAS mean?") are answered from the **glossary** (`intent: "concept"`), again with no ranking and no model. The glossary
+holds 43 curated terms; each is the source's own text, never written or paraphrased here: the definition is the MeSH (NLM) scope
+note and the plain-language sections (overview, symptoms, causes, who is at risk, diagnosis, related health problems) are the
+NIH MedlinePlus health topic with exactly that title. Treatment, prevention and management text is never stored. A term's
+own name beats another term's alias (MedlinePlus lists "insulin resistance" as an alternate title of Metabolic Syndrome).
+Concepts are not entities: they have no page or graph node and do not appear in the API; the answer cites MeSH/MedlinePlus
+and, for PCOS, leads with the 2026 naming sentence. A question about a section the sources lack ("symptoms of hirsutism") says so
+and gives the definition instead of guessing. Comparisons and relations ("how does X relate to PCOS") are not definitions and
+go to `qa`.
+
 Requests for a structure ("PDB link for the androgen receptor", "AlphaFold structure of ESR1") are link requests: they are
 answered from the protein's `structures` record (best-resolved PDB entries, the AlphaFold prediction and the PDBe-KB page that
 lists every structure). A PDB ID in a question names its protein.
@@ -109,7 +121,10 @@ For answered questions the response also carries `furtherReading`: research link
 model: papers in the knowledge base (PubMed), a PubMed search on the topic (`"<name>" AND "polycystic ovary syndrome"`),
 3D structures, and the source records (UniProt, NCBI Gene, Reactome, PubChem).
 
-The question benchmark is `eval/retrieval_cases.json`, run by `tests/test_retrieval_eval.py`. Known limit: matching is
+The question benchmark is `eval/retrieval_cases.json` (110 questions, with exact phrases the answers must contain), run by
+`tests/test_retrieval_eval.py`. `eval/live_eval.py` runs the open questions through the real model with your own key and reports
+how many answers were verified, and why the others were rejected (see the top of that file); it is how the prompt and the checker
+are tuned, and is never run by the tests. Known limit: matching is
 lexical, so a synonym that is not in a record (for example "LH receptor" for LHCGR) finds nothing and the bot says so
 rather than guessing. Embeddings could close that gap later.
 

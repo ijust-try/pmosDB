@@ -565,6 +565,8 @@ COLS = {
     "publications": ["pmid", "title", "year", "journal", "authors", "abstract"] + PROV,
     "go_annotations": ["protein_id", "go_id", "go_name", "aspect"] + PROV,
     "protein_structure": ["protein_id", "pdb_id", "method", "resolution", "chains"] + PROV,
+    "glossary_term": ["term", "mesh_id", "medlineplus_slug", "aliases"] + PROV,
+    "glossary_section": ["term", "section", "text"] + PROV,
     "therapeutic_target": ["drug_name", "gene_symbol", "ensembl_id", "chembl_id", "action_type",
                            "mechanism_of_action"] + PROV,
 }
@@ -653,6 +655,11 @@ def clean_all(raw: dict[str, list]) -> dict[str, list[dict]]:
         "genes": genes, "proteins": proteins, "hormones": hormones, "biomarkers": biomarkers,
         "pathways": pathways, "therapeutics": therapeutics, "publications": pubs, "go_annotations": go,
         "protein_structure": structures,
+        "glossary_term": sorted(_dedupe(_require(_tidy(raw.get("glossary_term", []), COLS["glossary_term"]), "term"), "term"),
+                                key=lambda r: r["term"]),
+        "glossary_section": sorted(_dedupe(_require(_tidy(raw.get("glossary_section", []), COLS["glossary_section"]),
+                                                    "term", "section", "text"), "term", "section"),
+                                   key=lambda r: (r["term"], r["section"])),
         "_xref": xref,
         "_protein_pathway": _dedupe(_tidy(raw["protein_pathway"], ["protein_id", "gene_symbol", "reactome_id"]),
                                     "protein_id", "gene_symbol", "reactome_id"),
@@ -739,6 +746,17 @@ CREATE TABLE protein_structure (
   PRIMARY KEY (protein_id, pdb_id),
   FOREIGN KEY(protein_id) REFERENCES proteins(protein_id));
 
+-- Concepts people ask about (hirsutism, insulin resistance ...): definitions from MeSH and explanatory sections from
+-- MedlinePlus, both U.S. National Library of Medicine. Text is stored exactly as published.
+CREATE TABLE glossary_term (
+  term TEXT PRIMARY KEY, mesh_id TEXT, medlineplus_slug TEXT, aliases TEXT,
+  source TEXT, source_accession TEXT, retrieved_on TEXT);
+CREATE TABLE glossary_section (
+  term TEXT NOT NULL, section TEXT NOT NULL, text TEXT NOT NULL,
+  source TEXT, source_accession TEXT, retrieved_on TEXT,
+  PRIMARY KEY (term, section),
+  FOREIGN KEY(term) REFERENCES glossary_term(term));
+
 -- Curated drug -> target records from Open Targets (mechanisms of action curated by ChEMBL).
 CREATE TABLE therapeutic_target (
   drug_name TEXT NOT NULL, gene_symbol TEXT NOT NULL, ensembl_id TEXT, chembl_id TEXT,
@@ -750,7 +768,7 @@ CREATE TABLE therapeutic_target (
 """
 
 INGEST_ORDER = ["genes", "proteins", "pathways", "hormones", "biomarkers", "therapeutics", "publications",
-                "go_annotations", "protein_structure", "therapeutic_target"]
+                "go_annotations", "protein_structure", "glossary_term", "glossary_section", "therapeutic_target"]
 
 
 def build_database(db_path: Path, clean: dict[str, list[dict]], targets: list[dict]) -> dict[str, int]:

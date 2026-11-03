@@ -96,6 +96,29 @@ class FixtureKB:
             ("Flutamide", "AR", "ENSG00000169083", "CHEMBL806", "ANTAGONIST", "Androgen Receptor antagonist",
              "Open Targets", "CHEMBL806", "2026-01-01"),
         )
+        D = "2026-01-01"
+        conn.executemany(
+            "INSERT INTO glossary_term (term, mesh_id, medlineplus_slug, aliases, source, source_accession, retrieved_on) "
+            "VALUES (?,?,?,?,?,?,?)",
+            [
+                ("Polycystic Ovary Syndrome", "D011085", "polycysticovarysyndrome",
+                 "PCOS; PMOS; Polyendocrine Metabolic Ovarian Syndrome; Stein-Leventhal syndrome", "MeSH", "D011085", D),
+                ("Hirsutism", "D006628", None, "excess hair growth", "MeSH", "D006628", D),
+                ("Insulin Resistance", "D007333", None, "", "MeSH", "D007333", D),
+            ],
+        )
+        conn.executemany(
+            "INSERT INTO glossary_section (term, section, text, source, source_accession, retrieved_on) VALUES (?,?,?,?,?,?)",
+            [
+                ("Polycystic Ovary Syndrome", "definition", "A test definition of the syndrome from MeSH.", "MeSH", "D011085", D),
+                ("Polycystic Ovary Syndrome", "overview", "Polycystic ovary syndrome (PCOS), also known as polyendocrine metabolic ovary syndrome (PMOS), is the name of a hormonal disorder.\nIf you have PCOS, you usually have at least two of these problems:\n- Not ovulating.\n- High levels of androgens.", "MedlinePlus", "polycysticovarysyndrome", D),
+                ("Polycystic Ovary Syndrome", "symptoms", "The symptoms of PCOS may include:\n- Irregular or missed menstrual periods.\n- Too much hair on the face.", "MedlinePlus", "polycysticovarysyndrome", D),
+                ("Polycystic Ovary Syndrome", "causes", "The exact cause of PCOS is unknown. Genetics may play a role.", "MedlinePlus", "polycysticovarysyndrome", D),
+                ("Polycystic Ovary Syndrome", "diagnosis", "There is no single test for PCOS. Your provider will ask about your symptoms.", "MedlinePlus", "polycysticovarysyndrome", D),
+                ("Hirsutism", "definition", "A condition with excess coarse body hair of an adult male distribution pattern.", "MeSH", "D006628", D),
+                ("Insulin Resistance", "definition", "Diminished effectiveness of insulin in lowering blood sugar levels.", "MeSH", "D007333", D),
+            ],
+        )
         conn.commit()
         conn.close()
 
