@@ -3,12 +3,11 @@
  * Leave `role`, `affiliation` and `contact` empty to hide those lines.
  */
 export const CREATOR = {
-  name: 'ijust-try',
+  name: 'Sudeshna V',
   role: '',
   affiliation: '',
   contact: '',
   github: 'https://github.com/ijust-try',
-  repo: 'https://github.com/ijust-try/pmosDB',
 };
 
 export const GITHUB_HANDLE = CREATOR.github.replace('https://github.com/', '');

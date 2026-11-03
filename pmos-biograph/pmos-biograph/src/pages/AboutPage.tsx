@@ -1,4 +1,4 @@
-import { CalendarClock, Code2, ExternalLink, ShieldCheck, Workflow } from 'lucide-react';
+import { CalendarClock, ExternalLink, ShieldCheck, Workflow } from 'lucide-react';
 import { PageContainer } from '../components/layout/AppShell';
 import { PageHeader } from '../components/ui/PageHeader';
 import { GithubIcon } from '../components/ui/GithubIcon';
@@ -61,9 +61,6 @@ export default function AboutPage() {
                   className="btn-primary !justify-start !px-4 !py-2.5"
                 >
                   <GithubIcon size={16} /> {GITHUB_HANDLE} on GitHub
-                </a>
-                <a href={CREATOR.repo} target="_blank" rel="noopener noreferrer" className="btn-ghost !justify-start !px-4 !py-2.5">
-                  <Code2 size={15} aria-hidden /> Source code
                 </a>
                 {CREATOR.contact ? (
                   <a href={`mailto:${CREATOR.contact}`} className="btn-ghost !justify-start !px-4 !py-2.5">
