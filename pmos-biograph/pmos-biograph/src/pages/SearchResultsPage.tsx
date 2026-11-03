@@ -45,7 +45,7 @@ export default function SearchResultsPage() {
             action={
               <div className="flex flex-wrap justify-center gap-1.5">
                 {TRY.map((t) => (
-                  <Link key={t} to={`/search?q=${encodeURIComponent(t)}`} className="rounded-md border border-line bg-paper px-2.5 py-1 font-mono text-[12px] text-ink-soft hover:border-teal hover:text-teal">
+                  <Link key={t} to={`/search?q=${encodeURIComponent(t)}`} className="rounded-md border border-line bg-paper px-2.5 py-1 font-mono text-[12px] text-ink-soft hover:border-accent hover:text-accent">
                     {t}
                   </Link>
                 ))}

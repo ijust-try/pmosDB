@@ -1,6 +1,7 @@
 import { MotionConfig } from 'framer-motion';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { AppShell } from '../components/layout/AppShell';
+import AboutPage from '../pages/AboutPage';
 import BioGraphPage from '../pages/BioGraphPage';
 import EntityPage from '../pages/EntityPage';
 import EvidencePage from '../pages/EvidencePage';
@@ -32,6 +33,7 @@ export default function App() {
             <Route path="therapeutics" element={<TherapeuticsPage />} />
             <Route path="evidence" element={<EvidencePage />} />
             <Route path="sources" element={<SourcesPage />} />
+            <Route path="about" element={<AboutPage />} />
             <Route path="search" element={<SearchResultsPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>

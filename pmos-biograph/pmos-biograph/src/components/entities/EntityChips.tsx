@@ -33,7 +33,7 @@ export function EntityChips({
             <li key={e.id}>
               <Link
                 to={`/entity/${e.id}`}
-                className="inline-flex items-center gap-1.5 rounded-md border border-line bg-white px-2.5 py-1 text-[12.5px] font-semibold text-ink-soft transition-colors hover:border-teal hover:text-teal"
+                className="inline-flex items-center gap-1.5 rounded-md border border-line bg-white px-2.5 py-1 text-[12.5px] font-semibold text-ink-soft transition-colors hover:border-accent hover:text-accent"
               >
                 <Icon size={13} style={{ color: m.color }} aria-hidden />
                 {e.name}
@@ -47,7 +47,7 @@ export function EntityChips({
         <button
           type="button"
           onClick={() => setExpanded((v) => !v)}
-          className="mt-2.5 text-[12.5px] font-bold text-teal hover:underline"
+          className="mt-2.5 text-[12.5px] font-bold text-accent hover:underline"
         >
           {expanded ? 'Show fewer' : `Show all ${unique.length}`}
         </button>

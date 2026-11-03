@@ -88,7 +88,7 @@ export function EntityPreviewPanel({ entity, onClose }: { entity: Entity | null;
                       <li key={n.relationship.id}>
                         <Link
                           to={`/entity/${n.entity.id}`}
-                          className="flex items-center gap-2.5 rounded-lg border border-line px-3 py-2 hover:border-teal"
+                          className="flex items-center gap-2.5 rounded-lg border border-line px-3 py-2 hover:border-accent"
                         >
                           <TypeIcon type={n.entity.type} size={24} />
                           <span className="min-w-0 flex-1">

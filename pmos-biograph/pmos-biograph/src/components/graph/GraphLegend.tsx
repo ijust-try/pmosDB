@@ -4,7 +4,7 @@ import { ENTITY_META, ENTITY_TYPES } from '../../utils/entityMeta';
 export function ShapeSwatch({ type, size = 14 }: { type: EntityType; size?: number }) {
   const { shape, graph } = ENTITY_META[type];
   const s = size;
-  const common = { fill: graph, stroke: '#0A1330', strokeWidth: 1 };
+  const common = { fill: graph, stroke: '#0B2A66', strokeWidth: 1 };
   let el;
   switch (shape) {
     case 'ellipse':
@@ -77,13 +77,13 @@ export function GraphLegend({
         <li className="ml-auto hidden items-center gap-3 border-l border-midnight-line pl-3 text-[10.5px] text-slate-400 lg:flex">
           <span className="flex items-center gap-1.5">
             <svg width="22" height="6" aria-hidden>
-              <line x1="0" y1="3" x2="22" y2="3" stroke="#7C8FE0" strokeWidth="1.6" />
+              <line x1="0" y1="3" x2="22" y2="3" stroke="#A5C4FF" strokeWidth="1.6" />
             </svg>
             Project document
           </span>
           <span className="flex items-center gap-1.5">
             <svg width="22" height="6" aria-hidden>
-              <line x1="0" y1="3" x2="22" y2="3" stroke="#7C8FE0" strokeWidth="1.6" strokeDasharray="4 3" />
+              <line x1="0" y1="3" x2="22" y2="3" stroke="#A5C4FF" strokeWidth="1.6" strokeDasharray="4 3" />
             </svg>
             Illustrative
           </span>

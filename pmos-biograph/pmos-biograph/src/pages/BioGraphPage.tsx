@@ -199,7 +199,7 @@ export default function BioGraphPage() {
   );
 
   return (
-    <div className="relative flex h-[calc(100vh-3.5rem)] min-h-[560px] overflow-hidden bg-midnight">
+    <div className="relative flex h-[calc(100dvh-6.25rem)] min-h-[520px] lg:h-[calc(100dvh-3.5rem)] lg:min-h-[560px] overflow-hidden bg-midnight">
       <div className="relative min-w-0 flex-1">
         <div className="grid-bg-dark absolute inset-0" aria-hidden />
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(67,198,182,0.07),transparent_60%)]" aria-hidden />

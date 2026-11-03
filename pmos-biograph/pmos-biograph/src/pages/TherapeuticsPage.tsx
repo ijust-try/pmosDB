@@ -42,7 +42,7 @@ function TherapeuticDetailPanel({ id }: { id: string }) {
           {t.sources.map((s, i) => (
             <SourceBadge key={i} source={s} />
           ))}
-          <Link to={`/entity/${t.id}`} className="inline-flex items-center gap-1 text-[12.5px] font-bold text-teal hover:underline">
+          <Link to={`/entity/${t.id}`} className="inline-flex items-center gap-1 text-[12.5px] font-bold text-accent hover:underline">
             Full dossier <ArrowRight size={13} aria-hidden />
           </Link>
         </div>
@@ -84,7 +84,7 @@ function TherapeuticDetailPanel({ id }: { id: string }) {
                   <ul className="space-y-2">
                     {d.targets.map(({ gene, note }) => (
                       <li key={gene.id}>
-                        <Link to={`/entity/${gene.id}`} className="font-semibold text-teal hover:underline">
+                        <Link to={`/entity/${gene.id}`} className="font-semibold text-accent hover:underline">
                           {gene.name}
                         </Link>
                         {note && <p className="mt-0.5 text-[12px] leading-snug text-ink-mute">{note}</p>}

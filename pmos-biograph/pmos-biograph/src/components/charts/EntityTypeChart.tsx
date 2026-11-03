@@ -21,14 +21,14 @@ export function EntityTypeChart({ summary }: { summary: DatasetSummary }) {
             width={128}
             tickLine={false}
             axisLine={false}
-            tick={{ fontSize: 12, fill: '#3B4660', fontWeight: 600 }}
+            tick={{ fontSize: 12, fill: '#33466F', fontWeight: 600 }}
           />
           <Tooltip
             cursor={{ fill: 'rgba(16,26,51,0.04)' }}
             formatter={(v) => [String(v), 'Records']}
-            contentStyle={{ borderRadius: 8, border: '1px solid #E3DDD0', fontSize: 12 }}
+            contentStyle={{ borderRadius: 8, border: '1px solid #CBDAEE', fontSize: 12 }}
           />
-          <Bar dataKey="count" radius={[0, 4, 4, 0]} label={{ position: 'right', fontSize: 11, fill: '#6B7488', fontFamily: 'IBM Plex Mono' }}>
+          <Bar dataKey="count" radius={[0, 4, 4, 0]} label={{ position: 'right', fontSize: 11, fill: '#586A91', fontFamily: 'IBM Plex Mono' }}>
             {data.map((d) => (
               <Cell key={d.type} fill={d.color} />
             ))}

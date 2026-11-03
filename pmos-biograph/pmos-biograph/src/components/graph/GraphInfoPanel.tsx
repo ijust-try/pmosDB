@@ -10,7 +10,7 @@ function NodeList({ entities, onPick }: { entities: Entity[]; onPick: (e: Entity
   return (
     <div className="p-4">
       <div className="mb-4 flex items-start gap-3 rounded-lg border border-midnight-line bg-midnight/60 p-3">
-        <MousePointerClick size={16} className="mt-0.5 shrink-0 text-teal-bright" aria-hidden />
+        <MousePointerClick size={16} className="mt-0.5 shrink-0 text-accent-bright" aria-hidden />
         <p className="text-[12.5px] leading-relaxed text-slate-300">
           Select a node to read its dossier summary and connected entities. Drag nodes to rearrange, scroll to zoom, and expand a
           selection to reveal its neighbourhood.
@@ -95,7 +95,7 @@ export function GraphInfoPanel({
         </p>
         <span
           className={`mt-2 inline-flex rounded-md px-1.5 py-0.5 text-[10.5px] font-semibold ${
-            entity.verification === 'project-document' ? 'bg-teal-bright/15 text-teal-bright' : 'bg-amber/15 text-[#F0C27A]'
+            entity.verification === 'project-document' ? 'bg-accent-bright/15 text-accent-bright' : 'bg-amber/15 text-[#F0C27A]'
           }`}
           title={ver.label}
         >
@@ -146,7 +146,7 @@ export function GraphInfoPanel({
                         {n.direction === 'in' ? <ArrowLeft size={11} aria-hidden /> : null}
                         <span className={illustrative ? 'underline decoration-dashed underline-offset-2' : ''}>{n.relationship.label}</span>
                         {n.direction === 'out' ? <ArrowRight size={11} aria-hidden /> : null}
-                        {!inView ? <span className="ml-auto text-teal-bright">+ show</span> : null}
+                        {!inView ? <span className="ml-auto text-accent-bright">+ show</span> : null}
                       </span>
                       <span className="mt-0.5 flex items-center gap-2">
                         <ShapeSwatch type={n.entity.type} />

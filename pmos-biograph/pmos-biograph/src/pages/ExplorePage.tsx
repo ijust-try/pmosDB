@@ -89,7 +89,7 @@ export default function ExplorePage() {
                 value={text}
                 onChange={(e) => setText(e.target.value)}
                 placeholder="Search names, aliases, identifiers, descriptions…"
-                className="h-10 w-full rounded-lg border border-line bg-paper pl-9 pr-9 text-sm placeholder:text-ink-faint focus:border-teal"
+                className="h-10 w-full rounded-lg border border-line bg-paper pl-9 pr-9 text-sm placeholder:text-ink-faint focus:border-accent"
               />
               {text ? (
                 <button type="button" aria-label="Clear search" onClick={() => setText('')} className="absolute right-2.5 top-1/2 -translate-y-1/2 text-ink-mute hover:text-ink">
@@ -172,7 +172,7 @@ export default function ExplorePage() {
                   style={
                     on
                       ? { background: m.color, borderColor: m.color, color: '#fff' }
-                      : { background: '#fff', borderColor: '#E3DDD0', color: '#3B4660' }
+                      : { background: '#fff', borderColor: '#CBDAEE', color: '#33466F' }
                   }
                 >
                   <Icon size={12} aria-hidden /> {m.plural}
@@ -180,7 +180,7 @@ export default function ExplorePage() {
               );
             })}
             {filtered ? (
-              <button type="button" onClick={clearAll} className="ml-1 text-[12px] font-semibold text-teal hover:underline">
+              <button type="button" onClick={clearAll} className="ml-1 text-[12px] font-semibold text-accent hover:underline">
                 Clear filters
               </button>
             ) : null}

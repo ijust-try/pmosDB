@@ -72,7 +72,7 @@ export default function EvidencePage() {
               value={text}
               onChange={(e) => setText(e.target.value)}
               placeholder="Search titles, identifiers, associated terms…"
-              className="h-10 w-full rounded-lg border border-line bg-paper pl-9 pr-3 text-sm placeholder:text-ink-faint focus:border-teal"
+              className="h-10 w-full rounded-lg border border-line bg-paper pl-9 pr-3 text-sm placeholder:text-ink-faint focus:border-accent"
             />
           </div>
           <label className="flex items-center gap-2 text-[12px] font-semibold text-ink-mute">
@@ -110,7 +110,7 @@ export default function EvidencePage() {
             </select>
           </label>
           {filtered ? (
-            <button type="button" onClick={clear} className="text-[12px] font-semibold text-teal hover:underline">
+            <button type="button" onClick={clear} className="text-[12px] font-semibold text-accent hover:underline">
               Clear filters
             </button>
           ) : null}
@@ -141,7 +141,7 @@ export default function EvidencePage() {
                     <span className="rounded-md bg-sand-deep px-2 py-0.5 text-[11px] font-semibold text-ink-soft">{EVIDENCE_LABELS[p.evidenceCategory]}</span>
                     <VerificationBadge value={p.verification} short />
                   </div>
-                  <Link to={`/entity/${p.id}`} className="mt-2 block max-w-3xl text-[17px] font-bold leading-snug text-ink hover:text-teal">
+                  <Link to={`/entity/${p.id}`} className="mt-2 block max-w-3xl text-[17px] font-bold leading-snug text-ink hover:text-accent">
                     {p.name}
                   </Link>
                   <dl className="mt-3 grid max-w-3xl gap-x-6 gap-y-1.5 text-[13px] sm:grid-cols-2">

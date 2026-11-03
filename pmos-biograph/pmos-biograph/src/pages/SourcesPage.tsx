@@ -4,25 +4,10 @@ import { StatusPill, TypeBadge } from '../components/ui/Badges';
 import { DemoNotice, PageHeader } from '../components/ui/PageHeader';
 import { AsyncBoundary, LoadingRows } from '../components/ui/States';
 import { useAsync } from '../hooks/useAsync';
+import { formatIst } from '../utils/format';
 import { getDataSourceStatus, getDatasetStatus, getSyncStatus } from '../services/repository';
 
 const CHECKS = ['Schema mapping', 'Identifier validation', 'Scheduled synchronisation'];
-
-/** Date-only values (a harvest day) stay dates; full timestamps are shown in IST. */
-function formatIst(iso: string): string {
-  if (iso.length === 10) {
-    return new Date(iso).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
-  }
-  const text = new Date(iso).toLocaleString('en-IN', {
-    timeZone: 'Asia/Kolkata',
-    day: 'numeric',
-    month: 'short',
-    year: 'numeric',
-    hour: 'numeric',
-    minute: '2-digit',
-  });
-  return `${text} IST`;
-}
 
 const OUTCOME_LABEL: Record<string, string> = {
   synced: 'Synchronised: new data pulled',

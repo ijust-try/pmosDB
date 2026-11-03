@@ -40,7 +40,7 @@ function PathwayDetailPanel({ id }: { id: string }) {
           {pathway.sources.map((s, i) => (
             <SourceBadge key={i} source={s} />
           ))}
-          <Link to={`/entity/${pathway.id}`} className="inline-flex items-center gap-1 text-[12.5px] font-bold text-teal hover:underline">
+          <Link to={`/entity/${pathway.id}`} className="inline-flex items-center gap-1 text-[12.5px] font-bold text-accent hover:underline">
             Full dossier <ArrowRight size={13} aria-hidden />
           </Link>
         </div>
@@ -188,7 +188,7 @@ export default function PathwaysPage() {
                   onClick={() => setSort(key)}
                   aria-pressed={sort === key}
                   className={`rounded-md px-2 py-1 font-semibold ${
-                    sort === key ? 'bg-teal-soft text-teal' : 'text-ink-mute hover:text-ink'
+                    sort === key ? 'bg-accent-soft text-accent' : 'text-ink-mute hover:text-ink'
                   }`}
                 >
                   {label}

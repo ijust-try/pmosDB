@@ -55,7 +55,7 @@ function FurtherReading({ items, onNavigate }: { items: FurtherReadingItem[]; on
               <span>{item.label}</span>
             </>
           );
-          const className = 'flex items-start gap-1.5 text-[12.5px] font-semibold leading-snug text-teal hover:underline';
+          const className = 'flex items-start gap-1.5 text-[12.5px] font-semibold leading-snug text-accent hover:underline';
           return (
             <li key={item.url}>
               {item.external ? (
@@ -165,7 +165,7 @@ function ChatPanel() {
             className="flex h-[min(620px,calc(100dvh-5.5rem))] w-[calc(100vw-2rem)] flex-col overflow-hidden rounded-xl border border-line bg-paper shadow-lift sm:w-[410px]"
           >
             <header className="flex items-center gap-3 bg-midnight px-4 py-3 text-white">
-              <span className="grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-midnight-3 text-teal-bright">
+              <span className="grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-midnight-3 text-accent-bright">
                 <MessageCircle size={16} aria-hidden />
               </span>
               <div className="min-w-0 flex-1">
@@ -210,7 +210,7 @@ function ChatPanel() {
                         <button
                           type="button"
                           onClick={() => void send(example)}
-                          className="rounded-lg border border-line bg-white px-2.5 py-1.5 text-left text-[12.5px] font-semibold text-ink-soft transition-colors hover:border-teal hover:text-teal"
+                          className="rounded-lg border border-line bg-white px-2.5 py-1.5 text-left text-[12.5px] font-semibold text-ink-soft transition-colors hover:border-accent hover:text-accent"
                         >
                           {example}
                         </button>
@@ -239,7 +239,7 @@ function ChatPanel() {
                             type="button"
                             onClick={() => void send(m.retry as string)}
                             disabled={loading}
-                            className="text-[12.5px] font-bold text-teal hover:underline disabled:opacity-50"
+                            className="text-[12.5px] font-bold text-accent hover:underline disabled:opacity-50"
                           >
                             Try again
                           </button>
@@ -261,7 +261,7 @@ function ChatPanel() {
                                       to={s.url}
                                       title={s.name}
                                       onClick={leaveOnSmallScreens}
-                                      className="inline-block max-w-[16rem] truncate rounded-md border border-line bg-paper px-2 py-1 align-bottom text-[12px] font-semibold text-ink-soft hover:border-teal hover:text-teal"
+                                      className="inline-block max-w-[16rem] truncate rounded-md border border-line bg-paper px-2 py-1 align-bottom text-[12px] font-semibold text-ink-soft hover:border-accent hover:text-accent"
                                     >
                                       {s.name}
                                     </Link>
@@ -312,13 +312,13 @@ function ChatPanel() {
                     }
                   }}
                   placeholder="Ask a question…"
-                  className="min-h-[2.75rem] flex-1 resize-none rounded-lg border border-line bg-paper px-3 py-2 text-[13.5px] text-ink placeholder:text-ink-faint focus:border-teal"
+                  className="min-h-[2.75rem] flex-1 resize-none rounded-lg border border-line bg-paper px-3 py-2 text-[13.5px] text-ink placeholder:text-ink-faint focus:border-accent"
                 />
                 <button
                   type="submit"
                   disabled={loading || !input.trim()}
                   aria-label="Send question"
-                  className="grid h-11 w-11 shrink-0 place-items-center rounded-lg bg-teal text-white transition-colors hover:bg-teal/90 disabled:cursor-not-allowed disabled:opacity-40"
+                  className="grid h-11 w-11 shrink-0 place-items-center rounded-lg bg-accent text-white transition-colors hover:bg-accent/90 disabled:cursor-not-allowed disabled:opacity-40"
                 >
                   <Send size={16} />
                 </button>
@@ -347,7 +347,7 @@ function ChatPanel() {
             transition={{ duration: 0.14 }}
             className="flex items-center gap-2 rounded-full bg-midnight py-3 pl-4 pr-5 text-sm font-bold text-white shadow-lift transition-colors hover:bg-midnight-3"
           >
-            <MessageCircle size={18} className="text-teal-bright" aria-hidden />
+            <MessageCircle size={18} className="text-accent-bright" aria-hidden />
             Ask
           </motion.button>
         )}

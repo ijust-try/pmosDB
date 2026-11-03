@@ -96,7 +96,7 @@ function RelationRow({ n }: { n: Neighbour }) {
           {n.relationship.label}
           {n.direction === 'out' ? ' →' : ''}
         </p>
-        <Link to={`/entity/${n.entity.id}`} className="block truncate text-sm font-bold text-ink hover:text-teal">
+        <Link to={`/entity/${n.entity.id}`} className="block truncate text-sm font-bold text-ink hover:text-accent">
           {n.entity.name}
         </Link>
         {n.relationship.note ? <p className="mt-0.5 text-[12px] leading-relaxed text-ink-mute">{n.relationship.note}</p> : null}
@@ -233,7 +233,7 @@ export function EntityDetailView({ entityId }: { entityId: string }) {
                       href={`https://pubmed.ncbi.nlm.nih.gov/${entity.pmid}/`}
                       target="_blank"
                       rel="noreferrer"
-                      className="mt-3 inline-flex items-center gap-1 text-[12.5px] font-bold text-teal hover:underline"
+                      className="mt-3 inline-flex items-center gap-1 text-[12.5px] font-bold text-accent hover:underline"
                     >
                       Read the full abstract on PubMed <ExternalLink size={12} aria-hidden />
                     </a>
@@ -346,7 +346,7 @@ export function EntityDetailView({ entityId }: { entityId: string }) {
                 <ul className="mt-2 space-y-1.5">
                   {neighbours.map((n) => (
                     <li key={n.relationship.id}>
-                      <Link to={`/entity/${n.entity.id}`} className="inline-flex items-center gap-2 text-sm font-semibold text-ink hover:text-teal">
+                      <Link to={`/entity/${n.entity.id}`} className="inline-flex items-center gap-2 text-sm font-semibold text-ink hover:text-accent">
                         <TypeIcon type={n.entity.type} size={22} /> {n.entity.name}
                       </Link>
                     </li>
@@ -359,7 +359,7 @@ export function EntityDetailView({ entityId }: { entityId: string }) {
                 <ul className="divide-y divide-line/70">
                   {publications.map((n) => (
                     <li key={n.relationship.id} className="px-5 py-4">
-                      <Link to={`/entity/${n.entity.id}`} className="text-sm font-bold leading-snug text-ink hover:text-teal">
+                      <Link to={`/entity/${n.entity.id}`} className="text-sm font-bold leading-snug text-ink hover:text-accent">
                         {n.entity.name}
                       </Link>
                       <p className="mt-1 font-mono text-[11.5px] text-ink-mute">{n.entity.primaryId}</p>
@@ -454,7 +454,7 @@ export function EntityDetailView({ entityId }: { entityId: string }) {
 
       {neighbours.length > 0 ? (
         <div className="mt-8 flex items-center justify-end">
-          <Link to={`/graph?focus=${entity.id}`} className="inline-flex items-center gap-1.5 text-sm font-semibold text-teal hover:underline">
+          <Link to={`/graph?focus=${entity.id}`} className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:underline">
             Continue exploring connections <ArrowRight size={14} aria-hidden />
           </Link>
         </div>

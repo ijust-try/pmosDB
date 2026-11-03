@@ -31,7 +31,7 @@ export function EvidenceMeter({ association, className = '' }: { association: Pc
         aria-valuenow={association.score}
         aria-label="PCOS association score"
       >
-        <div className="h-full rounded-full bg-teal" style={{ width: `${pct}%` }} />
+        <div className="h-full rounded-full bg-accent" style={{ width: `${pct}%` }} />
       </div>
       {meaningful.length > 0 && (
         <p className="mt-1.5 text-[11.5px] text-ink-mute">

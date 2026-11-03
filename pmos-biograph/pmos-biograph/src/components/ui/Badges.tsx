@@ -74,7 +74,7 @@ export function SourceBadge({ source }: { source: SourceRef }) {
   const cls =
     'inline-flex items-center gap-1.5 rounded-md border border-line bg-white px-2 py-0.5 text-[11px] font-semibold text-ink-soft';
   return source.url ? (
-    <a href={source.url} target="_blank" rel="noreferrer" className={`${cls} hover:border-teal hover:text-teal`}>
+    <a href={source.url} target="_blank" rel="noreferrer" className={`${cls} hover:border-accent hover:text-accent`}>
       {body}
     </a>
   ) : (

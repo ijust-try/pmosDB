@@ -3,6 +3,8 @@ import { X } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import { ChatWidget } from '../chat/ChatWidget';
+import { Footer } from './Footer';
+import { MobileNav } from './MobileNav';
 import { Sidebar } from './Sidebar';
 import { Topbar } from './Topbar';
 
@@ -16,7 +18,7 @@ export function AppShell() {
   }, [pathname]);
 
   return (
-    <div className="min-h-screen lg:pl-60">
+    <div className="flex min-h-screen flex-col lg:pl-60">
       <aside className="fixed inset-y-0 left-0 z-40 hidden w-60 lg:block">
         <Sidebar />
       </aside>
@@ -45,7 +47,7 @@ export function AppShell() {
                 type="button"
                 onClick={() => setDrawer(false)}
                 aria-label="Close navigation"
-                className="absolute right-3 top-4 rounded-md p-1.5 text-slate-400 hover:text-white"
+                className="absolute right-3 top-4 rounded-md p-1.5 text-ink-mute hover:text-ink"
               >
                 <X size={18} />
               </button>
@@ -55,9 +57,11 @@ export function AppShell() {
       </AnimatePresence>
 
       <Topbar onMenu={() => setDrawer(true)} />
-      <main id="main">
+      <MobileNav />
+      <main id="main" className="flex-1">
         <Outlet />
       </main>
+      {pathname === '/graph' ? null : <Footer />}
       <ChatWidget />
     </div>
   );

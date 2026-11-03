@@ -68,7 +68,7 @@ export function EntityTable(props: Props) {
               key={entity.id}
               onClick={() => onOpen(entity)}
               className={`cursor-pointer border-b border-line/70 transition-colors last:border-0 hover:bg-sand/60 ${
-                selectedId === entity.id ? 'bg-teal-soft/40' : ''
+                selectedId === entity.id ? 'bg-accent-soft/40' : ''
               }`}
             >
               <td className="px-4 py-3">
@@ -123,7 +123,7 @@ export function EntityList({ items, onOpen, selectedId }: Pick<Props, 'items' | 
             type="button"
             onClick={() => onOpen(entity)}
             className={`flex w-full items-center gap-3 px-4 py-2.5 text-left transition-colors hover:bg-sand/60 ${
-              selectedId === entity.id ? 'bg-teal-soft/40' : ''
+              selectedId === entity.id ? 'bg-accent-soft/40' : ''
             }`}
           >
             <TypeIcon type={entity.type} size={28} />

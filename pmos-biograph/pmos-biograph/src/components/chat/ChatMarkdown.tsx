@@ -16,7 +16,7 @@ function Inlines({ tokens, onNavigate }: { tokens: Inline[]; onNavigate: () => v
             );
           case 'cite':
             return (
-              <span key={i} className="ml-0.5 whitespace-nowrap font-mono text-[10.5px] font-semibold text-teal" title="Source record">
+              <span key={i} className="ml-0.5 whitespace-nowrap font-mono text-[10.5px] font-semibold text-accent" title="Source record">
                 [{t.refs.join(', ')}]
               </span>
             );
@@ -27,13 +27,13 @@ function Inlines({ tokens, onNavigate }: { tokens: Inline[]; onNavigate: () => v
                 href={t.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-baseline gap-0.5 font-semibold text-teal underline-offset-2 hover:underline"
+                className="inline-flex items-baseline gap-0.5 font-semibold text-accent underline-offset-2 hover:underline"
               >
                 {t.text}
                 <ExternalLink size={10} aria-hidden className="translate-y-px" />
               </a>
             ) : (
-              <Link key={i} to={t.href} onClick={onNavigate} className="font-semibold text-teal underline-offset-2 hover:underline">
+              <Link key={i} to={t.href} onClick={onNavigate} className="font-semibold text-accent underline-offset-2 hover:underline">
                 {t.text}
               </Link>
             );

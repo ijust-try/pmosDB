@@ -1,4 +1,5 @@
-@import '@fontsource-variable/manrope';
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/lora';
 @import '@fontsource/ibm-plex-mono/400.css';
 @import '@fontsource/ibm-plex-mono/500.css';
 
@@ -10,24 +11,34 @@
   html {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
   }
   body {
     @apply bg-paper font-sans text-ink;
-    font-feature-settings: 'ss01', 'cv11';
+    font-feature-settings: 'cv11', 'ss03';
+    /* A quick second tap on a phone follows the link or button instead of zooming the page; pinch-zoom still works. */
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: rgba(26, 77, 179, 0.12);
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-serif;
+    letter-spacing: -0.012em;
   }
   :focus-visible {
-    outline: 2px solid #6c5ce7;
+    outline: 2px solid #1a4db3;
     outline-offset: 2px;
     border-radius: 6px;
   }
   ::selection {
-    background: #dcefec;
+    background: #c9dcfa;
   }
 }
 
 @layer components {
   .eyebrow {
-    @apply font-mono text-[11px] uppercase tracking-[0.14em] text-ink-mute;
+    @apply text-[11px] font-semibold uppercase tracking-[0.13em] text-ink-mute;
   }
   .hairline {
     @apply border-line;
@@ -49,8 +60,8 @@
   }
   .grid-bg {
     background-image:
-      linear-gradient(to right, rgba(16, 26, 51, 0.045) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(16, 26, 51, 0.045) 1px, transparent 1px);
+      linear-gradient(to right, rgba(11, 42, 102, 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(11, 42, 102, 0.05) 1px, transparent 1px);
     background-size: 32px 32px;
   }
   .grid-bg-dark {
@@ -64,7 +75,7 @@
 .skeleton {
   position: relative;
   overflow: hidden;
-  background: #eee9de;
+  background: #dbe7f6;
   border-radius: 6px;
 }
 .skeleton::after {
@@ -94,10 +105,41 @@
   height: 8px;
 }
 .scroll-thin::-webkit-scrollbar-thumb {
-  background: #cfc7b6;
+  background: #a9c0e0;
   border-radius: 8px;
 }
 .scroll-thin-dark::-webkit-scrollbar-thumb {
-  background: #26356a;
+  background: #2d5bb9;
   border-radius: 8px;
+}
+
+/* Graph and chart surfaces handle their own touch gestures. */
+.touch-pan {
+  touch-action: none;
+}
+
+/* Page-load reveal for the home page: staggered with --d. */
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.reveal {
+  animation: reveal-up 0.8s ease-out both;
+  animation-delay: var(--d, 0s);
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .animate-float,
+  .animate-marquee,
+  .animate-pulse-ring,
+  .animate-nudge-down,
+  .animate-dash-flow {
+    animation: none !important;
+  }
 }

@@ -36,7 +36,7 @@ export function CatalogList({
             value={query}
             onChange={(e) => onQuery(e.target.value)}
             placeholder={placeholder}
-            className="h-9 w-full rounded-lg border border-line bg-paper pl-9 pr-3 text-sm placeholder:text-ink-faint focus:border-teal"
+            className="h-9 w-full rounded-lg border border-line bg-paper pl-9 pr-3 text-sm placeholder:text-ink-faint focus:border-accent"
           />
         </div>
       </div>
@@ -52,7 +52,7 @@ export function CatalogList({
                 type="button"
                 onClick={() => onSelect(e.id)}
                 className={`flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-sand/60 ${
-                  e.id === selectedId ? 'bg-teal-soft/50' : ''
+                  e.id === selectedId ? 'bg-accent-soft/50' : ''
                 }`}
               >
                 <TypeIcon type={e.type} size={32} />
@@ -60,7 +60,7 @@ export function CatalogList({
                   <span className="block truncate text-sm font-bold text-ink">{e.name}</span>
                   <span className="block truncate font-mono text-[11.5px] text-ink-mute">{e.primaryId}</span>
                 </span>
-                {trailing?.(e) ? <span className="shrink-0 font-mono text-[11.5px] font-semibold text-teal">{trailing(e)}</span> : null}
+                {trailing?.(e) ? <span className="shrink-0 font-mono text-[11.5px] font-semibold text-accent">{trailing(e)}</span> : null}
               </button>
             </li>
           ))}

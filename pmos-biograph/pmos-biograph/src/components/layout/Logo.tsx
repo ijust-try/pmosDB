@@ -1,9 +1,9 @@
 export function BrandMark({ size = 34 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 40 40" role="img" aria-label="PMOS BIOGRAPH mark">
-      <rect width="40" height="40" rx="11" fill="#101C40" />
-      <rect x="0.5" y="0.5" width="39" height="39" rx="10.5" fill="none" stroke="#26356A" />
-      <g stroke="#5E6FB0" strokeWidth="1.2" strokeLinecap="round">
+      <rect width="40" height="40" rx="11" fill="#0B2A66" />
+      <rect x="0.5" y="0.5" width="39" height="39" rx="10.5" fill="none" stroke="#2D5BB9" />
+      <g stroke="#8FB0F0" strokeWidth="1.2" strokeLinecap="round">
         <line x1="12" y1="26" x2="20" y2="13" />
         <line x1="20" y1="13" x2="29" y2="24" />
         <line x1="12" y1="26" x2="29" y2="24" />
@@ -17,15 +17,15 @@ export function BrandMark({ size = 34 }: { size?: number }) {
   );
 }
 
-export function Wordmark({ dark = true }: { dark?: boolean }) {
+export function Wordmark({ dark = false }: { dark?: boolean }) {
   return (
     <div className="flex items-center gap-2.5">
       <BrandMark />
       <div className="leading-none">
-        <div className={`text-[19px] font-extrabold tracking-[-0.02em] ${dark ? 'text-white' : 'text-ink'}`}>
-          PM<span className="text-teal-bright">O</span>S
+        <div className={`font-serif text-[20px] font-bold tracking-[-0.01em] ${dark ? 'text-white' : 'text-ink'}`}>
+          PM<span className={dark ? 'text-accent-bright' : 'text-accent'}>O</span>S
         </div>
-        <div className={`mt-1 font-mono text-[9.5px] uppercase tracking-[0.28em] ${dark ? 'text-slate-400' : 'text-ink-mute'}`}>
+        <div className={`mt-1 text-[9.5px] font-semibold uppercase tracking-[0.3em] ${dark ? 'text-slate-300' : 'text-ink-mute'}`}>
           Biograph
         </div>
       </div>

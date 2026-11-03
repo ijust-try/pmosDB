@@ -22,7 +22,7 @@ export function StructuresPanel({ protein, viaGene = false }: { protein: Protein
           <>
             {' '}
             · encoded protein:{' '}
-            <Link to={`/entity/${protein.id}`} className="normal-case tracking-normal text-teal hover:underline">
+            <Link to={`/entity/${protein.id}`} className="normal-case tracking-normal text-accent hover:underline">
               {protein.name}
             </Link>
           </>
@@ -70,7 +70,7 @@ export function StructuresPanel({ protein, viaGene = false }: { protein: Protein
                     {st.entries.map((e) => (
                       <tr key={e.id}>
                         <td className="py-1.5 pr-3 font-mono">
-                          <a href={e.url} target="_blank" rel="noopener noreferrer" className="font-semibold text-teal hover:underline">
+                          <a href={e.url} target="_blank" rel="noopener noreferrer" className="font-semibold text-accent hover:underline">
                             {e.id}
                           </a>
                         </td>
@@ -83,7 +83,7 @@ export function StructuresPanel({ protein, viaGene = false }: { protein: Protein
                 </table>
               </div>
               {st.allUrl ? (
-                <a href={st.allUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-[12.5px] font-bold text-teal hover:underline">
+                <a href={st.allUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-[12.5px] font-bold text-accent hover:underline">
                   See all {st.pdbCount} structures on PDBe-KB <ExternalLink size={12} aria-hidden />
                 </a>
               ) : null}
@@ -95,7 +95,7 @@ export function StructuresPanel({ protein, viaGene = false }: { protein: Protein
           {st.alphafoldUrl ? (
             <p className="border-t border-line pt-3 text-[13px] leading-relaxed text-ink-soft">
               A <strong className="text-ink">predicted</strong> structure is available from the{' '}
-              <a href={st.alphafoldUrl} target="_blank" rel="noopener noreferrer" className="font-semibold text-teal hover:underline">
+              <a href={st.alphafoldUrl} target="_blank" rel="noopener noreferrer" className="font-semibold text-accent hover:underline">
                 AlphaFold database <ExternalLink size={11} className="inline" aria-hidden />
               </a>
               . Predictions are computed models, not experimental measurements.

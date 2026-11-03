@@ -62,7 +62,7 @@ export const VERIFICATION_META: Record<Verification, { label: string; short: str
   'project-document': {
     label: 'Stated in project document',
     short: 'Project document',
-    tone: 'bg-teal-soft text-teal',
+    tone: 'bg-accent-soft text-accent',
   },
   'unverified-demo': {
     label: 'Illustrative · identifier pending verification',
@@ -72,7 +72,7 @@ export const VERIFICATION_META: Record<Verification, { label: string; short: str
 };
 
 export const RELATION_STATUS_META: Record<RelationStatus, { label: string; tone: string }> = {
-  'project-document': { label: 'From project document', tone: 'bg-teal-soft text-teal' },
+  'project-document': { label: 'From project document', tone: 'bg-accent-soft text-accent' },
   'demo-unvalidated': { label: 'Illustrative · not validated', tone: 'bg-amber-soft text-amber' },
 };
 

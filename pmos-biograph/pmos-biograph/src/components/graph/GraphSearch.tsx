@@ -56,7 +56,7 @@ export function GraphSearch({ onPick }: { onPick: (e: Entity) => void }) {
           }
         }}
         placeholder="Find & highlight a node…"
-        className="h-9 w-full rounded-lg border border-midnight-line bg-midnight-2/90 pl-9 pr-3 text-sm text-slate-100 placeholder:text-slate-500 backdrop-blur focus:border-teal-bright"
+        className="h-9 w-full rounded-lg border border-midnight-line bg-midnight-2/90 pl-9 pr-3 text-sm text-slate-100 placeholder:text-slate-500 backdrop-blur focus:border-accent-bright"
       />
       {open && debounced ? (
         <ul

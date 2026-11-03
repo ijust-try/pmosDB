@@ -113,8 +113,8 @@ export function CommandSearch() {
           }}
           onFocus={() => setOpen(true)}
           onKeyDown={onKeyDown}
-          placeholder="Search genes, hormones, pathways, drugs…"
-          className="h-9 w-full rounded-lg border border-line bg-white pl-9 pr-16 text-sm text-ink placeholder:text-ink-faint focus:border-teal"
+          placeholder={window.matchMedia('(max-width: 639px)').matches ? 'Search…' : 'Search genes, hormones, pathways, drugs…'}
+          className="h-9 w-full rounded-lg border border-line bg-white pl-9 pr-16 text-sm text-ink placeholder:text-ink-faint focus:border-accent"
         />
         {query ? (
           <button
@@ -149,7 +149,7 @@ export function CommandSearch() {
                         setQuery(s);
                         inputRef.current?.focus();
                       }}
-                      className="rounded-md border border-line bg-paper px-2 py-1 font-mono text-[11.5px] text-ink-soft hover:border-teal hover:text-teal"
+                      className="rounded-md border border-line bg-paper px-2 py-1 font-mono text-[11.5px] text-ink-soft hover:border-accent hover:text-accent"
                     >
                       {s}
                     </button>
@@ -182,7 +182,7 @@ export function CommandSearch() {
                         type="button"
                         onMouseEnter={() => setActive(idx)}
                         onClick={() => openEntity(h)}
-                        className={`flex w-full items-center gap-3 px-4 py-2 text-left ${idx === active ? 'bg-teal-soft/60' : ''}`}
+                        className={`flex w-full items-center gap-3 px-4 py-2 text-left ${idx === active ? 'bg-accent-soft/60' : ''}`}
                       >
                         <TypeIcon type={h.entity.type} size={28} />
                         <span className="min-w-0 flex-1">
@@ -204,7 +204,7 @@ export function CommandSearch() {
             <button
               type="button"
               onClick={submitAll}
-              className="flex w-full items-center justify-between border-t border-line bg-paper px-4 py-2 text-left text-[12.5px] font-semibold text-ink-soft hover:text-teal"
+              className="flex w-full items-center justify-between border-t border-line bg-paper px-4 py-2 text-left text-[12.5px] font-semibold text-ink-soft hover:text-accent"
             >
               See all results for “{debounced}”
               <span className="font-mono text-[10px] text-ink-mute">Enter</span>
