@@ -271,7 +271,7 @@ def check_answer(text: str, records: list[dict], informative=lambda token: True)
             if not small_count and number not in hay:
                 return False, f"states the number {number}, which is not in the record it cites", text, []
 
-        if refs_here and len(words) >= 3:
+        if refs_here and not meta and len(words) >= 3:  # "the records do not cover X" claims nothing about X
             support_pool = set(retrieval.tokenize(" ".join(
                 f"{by_ref[ref]['name']} {by_ref[ref]['text']} {by_ref[ref].get('via') or ''}" for ref in refs_here)))
             supported = sum(1 for t in words if t in support_pool) / len(words)
@@ -334,7 +334,7 @@ def answer(index, question: str, context_id: str | None = None, visitor: str = "
         return database(MSG_MODEL_BUSY, exc.describe())
 
     if text.strip() == NO_ANSWER:
-        return {**base, "answer": retrieval.compose_extractive(result, suggestions=False), "notice": None}
+        return {**base, "answer": no_direct_answer(result), "notice": None}
     ok, reason, cleaned, cited = check_answer(text, result["records"], retrieval.get_corpus(index).informative)
     if not ok:
         return {**database(MSG_NOT_VERIFIED), "rejected": reason}
@@ -346,6 +346,16 @@ def answer(index, question: str, context_id: str | None = None, visitor: str = "
              "mode": "model", "citations": cited, "model": model}
     _cache_put(key, final, now)
     return final
+
+
+def no_direct_answer(result: dict) -> str:
+    """Shown when the model reports that the records do not answer the question."""
+    lines = ["I couldn't find a direct answer to that in the knowledge base, so I won't guess. "
+             "The closest records are below, but they may not be about your question:"]
+    lines += [f"- [{r['name']}]({r['url']}) ({r['type']})" for r in result["records"][:4]]
+    if result["unmatchedTerms"]:
+        lines.append("\nNot found in the knowledge base: " + ", ".join(result["unmatchedTerms"]) + ".")
+    return "\n".join(lines)
 
 
 def reset_state() -> None:

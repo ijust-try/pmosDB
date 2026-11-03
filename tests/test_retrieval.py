@@ -63,6 +63,83 @@ class RefusalTests(unittest.TestCase):
                 self.assertIsNone(rt.detect_refusal(q))
 
 
+class AbbreviationTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.kb = FixtureKB()
+        cls.index = cls.kb.index
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.kb.close()
+
+    def ask(self, q):
+        return rt.retrieve(self.index, q)
+
+    def test_the_condition_is_named_as_the_2026_consensus_names_it(self):
+        e = self.index.by_id["process-pcos"]
+        self.assertEqual(e["name"], "Polyendocrine Metabolic Ovarian Syndrome")
+        self.assertEqual(e["primaryId"], "PMOS")
+        self.assertTrue({"PMOS", "PCOS", "Polycystic Ovary Syndrome"} <= set(e["aliases"]))
+        self.assertNotIn("Poly Endocrine Metabolic Ovarian Syndrome", e["aliases"] + [e["name"]], "the old, wrong spelling")
+        self.assertIn("previously named polycystic ovary syndrome (PCOS)", e["description"])
+        self.assertIn("42119588", [s.get("accession") for s in e["sources"]])
+
+    def test_the_condition_is_linked_to_the_paper_that_names_it(self):
+        rels = {(r["source"], r["target"], r["label"]) for r in self.index.relationships}
+        self.assertIn(("process-pcos", "publication-42119588", "supported by"), rels)
+
+    def test_full_form_questions_are_answered_exactly(self):
+        for q in ["What is the full form of PMOS", "what is the full form of PMOS?", "What does PMOS stand for",
+                  "what does pmos mean", "PMOS abbreviation", "Expand PMOS", "PMOS stands for?", "full form of pmos"]:
+            with self.subTest(q=q):
+                r = self.ask(q)
+                self.assertEqual((r["intent"], r["status"]), ("abbreviation", "ok"))
+                self.assertEqual(r["records"][0]["id"], "process-pcos")
+                self.assertIn("**PMOS** stands for **Polyendocrine Metabolic Ovarian Syndrome**.", rt.compose_extractive(r))
+
+    def test_the_answer_cites_the_source_and_explains_the_rename(self):
+        text = rt.compose_extractive(self.ask("What is the full form of PMOS"))
+        self.assertIn("previously named polycystic ovary syndrome (PCOS)", text)
+        self.assertIn("(/entity/process-pcos)", text)
+        self.assertIn("https://pubmed.ncbi.nlm.nih.gov/42119588/", text)
+
+    def test_pcos_expands_to_the_old_name(self):
+        text = rt.compose_extractive(self.ask("What does PCOS stand for"))
+        self.assertIn("**PCOS** stands for **Polycystic Ovary Syndrome**.", text)
+        self.assertIn("previously named", text, "and says the name changed")
+
+    def test_a_gene_symbol_expands_to_its_official_name(self):
+        text = rt.compose_extractive(self.ask("what does AR stand for"))
+        self.assertIn("**AR** stands for **androgen receptor**.", text)
+        self.assertNotIn("stands for **androgen receptor** (", text)
+
+    def test_the_model_is_not_involved_in_a_full_form_answer(self):
+        import chat
+
+        chat.reset_state()
+        called = []
+        out = chat.answer(self.index, "What is the full form of PMOS", generate=lambda *a: called.append(a), api_key="x")
+        self.assertEqual((called, out["mode"], out["intent"]), ([], "database", "abbreviation"))
+        self.assertIn("Polyendocrine Metabolic Ovarian Syndrome", out["answer"])
+        self.assertEqual(out["furtherReading"], [])
+
+    def test_a_word_that_is_not_an_abbreviation_is_not_hijacked(self):
+        for q in ["what does flutamide mean", "what does androgen mean for the receptor"]:
+            with self.subTest(q=q):
+                self.assertNotEqual(self.ask(q)["intent"], "abbreviation")
+
+    def test_other_questions_about_the_condition_still_go_to_the_normal_path(self):
+        for q in ["What is PMOS", "what is the difference between PCOS and PMOS", "tell me about PMOS"]:
+            with self.subTest(q=q):
+                r = self.ask(q)
+                self.assertEqual((r["intent"], r["status"], r["records"][0]["id"]), ("qa", "ok", "process-pcos"))
+                self.assertIn("Polyendocrine metabolic ovarian syndrome (PMOS)", r["records"][0]["text"])
+
+    def test_the_old_wrong_spelling_still_finds_the_condition(self):
+        self.assertEqual(self.ask("What is the full form of PCOS")["records"][0]["id"], "process-pcos")
+
+
 class CitationTests(unittest.TestCase):
     def test_surnames_with_particles_and_initials(self):
         cite = lambda *authors, year=2021: rt.citation({"name": "T", "authors": list(authors), "year": year})

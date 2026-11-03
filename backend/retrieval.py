@@ -103,6 +103,9 @@ REFUSAL_MESSAGE = (
     "pathways, compounds and publications. It makes no treatment recommendations, dosing information or claims "
     "of efficacy, and it is not a substitute for a healthcare professional."
 )
+ABBREVIATION_PATTERN = re.compile(
+    r"\b(full[- ]?form|full name|stands?\s+for|short\s+for|abbreviation|acronym|expan(d|sion)|"
+    r"what\s+does\s+\S+\s+mean|meaning\s+of)\b", re.IGNORECASE)
 HELP_PATTERN = re.compile(
     r"^\s*(hi|hello|hey|hiya|good (morning|afternoon|evening)|thanks|thank you|ok|okay|cool|great|bye|help|"
     r"who are you|what are you|what can you do|how do(es)? (this|you) work)\b[\s!.?]*$", re.IGNORECASE)
@@ -218,6 +221,7 @@ class Corpus:
     def __init__(self, index):
         self.index = index
         self.entities = index.entities
+        self.by_id = index.by_id
         n = len(self.entities)
         self.fields = [_entity_fields(e, index) for e in self.entities]
         self.tf = [{f: Counter(toks) for f, toks in doc.items()} for doc in self.fields]
@@ -504,6 +508,32 @@ def _content(query: str, link_intent: bool = False, named_text: str = "") -> tup
     return tokens, hints
 
 
+def expansions(entity: dict) -> dict[str, str]:
+    """Abbreviations a record can expand, from its own data: curated ones (PMOS, PCOS) and, for a gene, its
+    symbol and official full name (NCBI Gene)."""
+    out = dict(entity.get("abbreviations") or {})
+    if entity["type"] == "gene" and entity.get("symbol") and entity.get("aliases"):
+        out.setdefault(entity["symbol"], entity["aliases"][0])
+    return out
+
+
+def _abbreviation_hits(corpus: "Corpus", mentions: list[dict]) -> list[dict]:
+    """(term, expansion, entity) for every mentioned abbreviation that a record can expand."""
+    hits, seen = [], set()
+    for m in mentions:
+        term = m["text"].strip().lower()
+        for entity_id in m["entityIds"]:
+            entity = corpus.by_id.get(entity_id)
+            if not entity:
+                continue
+            for abbreviation, expansion in expansions(entity).items():
+                if abbreviation.lower() == term and (abbreviation, expansion) not in seen:
+                    seen.add((abbreviation, expansion))
+                    note = first_sentence(entity.get("description")) if entity.get("abbreviations") else None
+                    hits.append({"term": abbreviation, "expansion": expansion, "entity": entity, "note": note})
+    return hits
+
+
 def retrieve(index, query: str, limit: int = MAX_RECORDS, context_id: str | None = None) -> dict:
     """Decide what the knowledge base can support for `query` and gather the evidence for it.
 
@@ -535,6 +565,18 @@ def retrieve(index, query: str, limit: int = MAX_RECORDS, context_id: str | None
         suggestions = _suggest(corpus, [i for m in mentions for i in m["entityIds"]], qtokens, hints, min_score=float("inf"))
         return {**result, "intent": "refuse", "status": "refused", "reason": refusal,
                 "message": REFUSAL_MESSAGE.format(what=refusal), "suggestions": suggestions}
+
+    # full forms: answered exactly from the record's own data, no ranking and no model
+    if ABBREVIATION_PATTERN.search(query):
+        hits = _abbreviation_hits(corpus, mentions)
+        if hits:
+            entities = list({h["entity"]["id"]: h["entity"] for h in hits}.values())
+            records = [make_record(f"R{n}", e, index) for n, e in enumerate(entities, 1)]
+            ref = {r["id"]: r["ref"] for r in records}
+            return {**result, "intent": "abbreviation", "records": records,
+                    "abbreviations": [{"term": h["term"], "expansion": h["expansion"], "note": h["note"],
+                                       "ref": ref[h["entity"]["id"]]} for h in hits],
+                    "confidence": {**result["confidence"], "anchored": True}, "evidenceLevel": "records"}
 
     # 2./3. rank candidates
     named = [corpus.index.by_id[i] for m in mentions for i in m["entityIds"] if i in corpus.index.by_id]
@@ -701,12 +743,28 @@ def further_reading(result: dict, max_items: int = 9) -> list[dict]:
 
 # --------------------------------------------------------------------------- answers without a model
 
+def _compose_abbreviation(result: dict) -> str:
+    by_ref = {r["ref"]: r for r in result["records"]}
+    blocks = []
+    for a in result["abbreviations"]:
+        lines = [f"**{a['term']}** stands for **{a['expansion']}**."]
+        if a["note"]:
+            lines.append(a["note"])
+        r = by_ref[a["ref"]]
+        links = [f"[{r['name']}]({r['url']})"] + [f"[{x['source']}]({x['url']})" for x in r["external"][:2]]
+        lines.append("Source: " + " · ".join(links))
+        blocks.append("\n\n".join(lines))
+    return "\n\n".join(blocks)
+
+
 def compose_extractive(result: dict, suggestions: bool = True) -> str:
     """A complete answer built only from the records, for link requests and for when no model is available.
 
     `suggestions=False` leaves out the "Related pages" sentence for callers that show suggestions separately."""
     if result["intent"] == "help":
         return result["message"]
+    if result["intent"] == "abbreviation":
+        return _compose_abbreviation(result)
     if result["status"] == "refused":
         text = result["message"]
     elif result["status"] == "no_evidence":

@@ -44,6 +44,8 @@ DOC = "project-document"  # Verification / RelationStatus: real, sourced data
 DEMO_UNVALIDATED = "demo-unvalidated"  # RelationStatus: inferred, not curated
 
 PROCESS_PCOS_ID = "process-pcos"
+# Teede et al., Lancet 2026: the global consensus that named polyendocrine metabolic ovarian syndrome (PMOS)
+PROCESS_PUBLICATIONS = ("42119588",)
 
 SOURCE_ID_MAP = {
     "NCBI Gene": "ncbi-gene",
@@ -535,23 +537,33 @@ def build_publication_entity(row: sqlite3.Row) -> dict:
 
 
 def build_process_entity() -> dict:
+    """The condition this knowledge base is about. Its name follows the 2026 international consensus (Lancet,
+    PubMed 42119588): polyendocrine metabolic ovarian syndrome (PMOS), previously named polycystic ovary syndrome
+    (PCOS). The id stays `process-pcos` because the frontend and gene links refer to it."""
     return {
         "id": PROCESS_PCOS_ID,
         "type": "process",
-        "name": "Polycystic Ovary Syndrome",
-        "primaryId": "PCOS",
+        "name": "Polyendocrine Metabolic Ovarian Syndrome",
+        "primaryId": "PMOS",
         "idLabel": "Condition",
-        "aliases": ["PMOS", "Poly Endocrine Metabolic Ovarian Syndrome"],
+        "aliases": ["PMOS", "PCOS", "Polycystic Ovary Syndrome", "Stein-Leventhal syndrome"],
+        "abbreviations": {
+            "PMOS": "Polyendocrine Metabolic Ovarian Syndrome",
+            "PCOS": "Polycystic Ovary Syndrome",
+        },
         "description": (
-            "Endocrine-metabolic-ovarian condition this knowledge base integrates evidence around. "
-            "Gene links are Open Targets association scores for PCOS."
+            "Polyendocrine metabolic ovarian syndrome (PMOS), previously named polycystic ovary syndrome (PCOS), "
+            "is an endocrine-metabolic-ovarian condition that affects one in eight women. The new name was agreed "
+            "through a global consensus process (Teede et al., The Lancet, 2026). Gene links in this knowledge base "
+            "are Open Targets association scores for PCOS/PMOS."
         ),
         "sources": [
+            source_ref("PubMed", "42119588", None),
             {
                 "source": "open-targets",
                 "url": "https://platform.opentargets.org/disease/EFO_0004705",
                 "verification": DOC,
-            }
+            },
         ],
         "annotations": [],
         "verification": DOC,
@@ -659,6 +671,14 @@ def build_index(conn: sqlite3.Connection) -> Index:
             note = f"Open Targets PCOS association score {row['ot_score']:.3f} (rank {row['ot_rank']})"
             index.add_relationship(
                 relationship(f"{gid}->{PROCESS_PCOS_ID}:assoc", gid, PROCESS_PCOS_ID, "associated with", DOC, note)
+            )
+
+    # condition --supported by--> the consensus paper that names it
+    for pmid in PROCESS_PUBLICATIONS:
+        pubid = publication_id(pmid)
+        if pubid in index.by_id:
+            index.add_relationship(
+                relationship(f"{PROCESS_PCOS_ID}->{pubid}:supported", PROCESS_PCOS_ID, pubid, "supported by", DOC)
             )
 
     # biomarker / hormone --associated with--> protein

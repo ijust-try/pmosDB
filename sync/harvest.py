@@ -211,7 +211,12 @@ def pubmed_for(term, n=PUBS_PER_ENTITY):
     ids = ((s["response"] or {}).get("esearchresult") or {}).get("idlist", [])
     if not ids:
         return []
-    d = eutils("esummary.fcgi", "pubmed_summary", term, db="pubmed", id=",".join(ids))
+    return pubmed_summaries(ids, term)
+
+
+def pubmed_summaries(ids: list[str], label: str) -> list[dict]:
+    """Title, year and journal for the given PMIDs (NCBI esummary)."""
+    d = eutils("esummary.fcgi", "pubmed_summary", label, db="pubmed", id=",".join(ids))
     result = (d["response"] or {}).get("result") or {}
     out = []
     for pmid in ids:
@@ -516,6 +521,12 @@ def harvest(seeds: list[dict], ot_score: dict[str, float]) -> dict[str, list]:
             raw["therapeutics"].append({"drug_name": name, **{k: c[k] for k in (
                 "mechanism", "pubchem_cid", "source", "source_accession", "retrieved_on")}})
 
+        elif et == "publication":  # a specific paper, by PMID (e.g. the 2026 consensus that named PMOS)
+            found = pubmed_summaries([lookup], f"pmid_{lookup}")
+            if not found:
+                log_unresolved("publication", name, "PMID not found in PubMed")
+            raw["publications"] += found
+
         elif et == "pathway":
             hits = reactome_search(lookup)
             if not hits:
@@ -523,7 +534,7 @@ def harvest(seeds: list[dict], ot_score: dict[str, float]) -> dict[str, list]:
                 continue
             add_pathway(hits[0]["stId"])
 
-        if et != "pathway":
+        if et not in ("pathway", "publication"):
             for pub in pubmed_for(lookup if et in ("gene", "therapeutic") else name):
                 raw["publications"].append(pub)
                 raw["entity_pubs"].append({"entity_type": et, "entity_name": name, "pmid": pub["pmid"]})

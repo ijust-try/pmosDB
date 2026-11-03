@@ -608,5 +608,146 @@
       "protein-lepr"
     ],
     "within": 1
+  },
+  {
+    "group": "abbreviation",
+    "q": "What is the full form of PMOS",
+    "status": "ok",
+    "intent": "abbreviation",
+    "include": [
+      "process-pcos"
+    ],
+    "within": 1,
+    "answer_contains": [
+      "**PMOS** stands for **Polyendocrine Metabolic Ovarian Syndrome**"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "what is the full form of PMOS?",
+    "status": "ok",
+    "intent": "abbreviation",
+    "include": [
+      "process-pcos"
+    ],
+    "within": 1,
+    "answer_contains": [
+      "Polyendocrine Metabolic Ovarian Syndrome"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "What does PMOS stand for",
+    "status": "ok",
+    "intent": "abbreviation",
+    "include": [
+      "process-pcos"
+    ],
+    "answer_contains": [
+      "Polyendocrine Metabolic Ovarian Syndrome"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "what does pmos mean",
+    "status": "ok",
+    "intent": "abbreviation",
+    "include": [
+      "process-pcos"
+    ],
+    "answer_contains": [
+      "Polyendocrine Metabolic Ovarian Syndrome"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "PMOS abbreviation",
+    "status": "ok",
+    "intent": "abbreviation",
+    "include": [
+      "process-pcos"
+    ],
+    "answer_contains": [
+      "Polyendocrine Metabolic Ovarian Syndrome"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "Expand PMOS",
+    "status": "ok",
+    "intent": "abbreviation",
+    "include": [
+      "process-pcos"
+    ],
+    "answer_contains": [
+      "Polyendocrine Metabolic Ovarian Syndrome"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "What is the full form of PCOS",
+    "status": "ok",
+    "intent": "abbreviation",
+    "include": [
+      "process-pcos"
+    ],
+    "answer_contains": [
+      "**PCOS** stands for **Polycystic Ovary Syndrome**",
+      "previously named polycystic ovary syndrome"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "what does PCOS stand for",
+    "status": "ok",
+    "intent": "abbreviation",
+    "include": [
+      "process-pcos"
+    ],
+    "answer_contains": [
+      "Polycystic Ovary Syndrome"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "what does AR stand for",
+    "status": "ok",
+    "intent": "abbreviation",
+    "include": [
+      "gene-ar"
+    ],
+    "answer_contains": [
+      "**AR** stands for **androgen receptor**"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "full form of ESR1",
+    "status": "ok",
+    "intent": "abbreviation",
+    "include": [
+      "gene-esr1"
+    ],
+    "answer_contains": [
+      "**ESR1** stands for **estrogen receptor 1**"
+    ]
+  },
+  {
+    "group": "qa",
+    "q": "What is PMOS",
+    "status": "ok",
+    "include": [
+      "process-pcos"
+    ],
+    "within": 1
+  },
+  {
+    "group": "qa",
+    "q": "what is the difference between PCOS and PMOS",
+    "status": "ok",
+    "include": [
+      "process-pcos"
+    ],
+    "within": 1
   }
 ]

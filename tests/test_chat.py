@@ -140,10 +140,20 @@ class GeneratedAnswerChecks(ChatBase):
         self.assertEqual(out["mode"], "model")
         self.assertNotIn("evil.example", out["answer"])
 
-    def test_no_answer_sentinel_falls_back_to_the_records_without_a_warning(self):
+    def test_no_answer_sentinel_says_so_and_lists_the_closest_records(self):
         out, _ = self.ask(self.q, chat.NO_ANSWER)
         self.assertEqual((out["mode"], out["notice"]), ("database", None))
+        self.assertIn("I couldn't find a direct answer", out["answer"])
+        self.assertIn("they may not be about your question", out["answer"])
+        self.assertNotIn("these records answer your question", out["answer"])
         self.assertIn("(/entity/therapeutic-flutamide)", out["answer"])
+
+    def test_an_honest_statement_that_the_records_do_not_cover_something_is_accepted(self):
+        ref = self.ref_of(self.q, "therapeutic-flutamide")
+        for honest in (f"The knowledge base does not cover hepatotoxicity [{ref}].",
+                       f"Flutamide is a nonsteroidal antiandrogen [{ref}]. The records do not cover its history [{ref}]."):
+            out, _ = self.ask(self.q, honest)
+            self.assertEqual(out["mode"], "model", honest)
 
     def test_answer_may_cite_several_records_in_one_bracket(self):
         a, b = self.ref_of(self.q, "therapeutic-flutamide"), self.ref_of(self.q, "gene-ar")

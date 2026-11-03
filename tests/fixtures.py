@@ -85,6 +85,10 @@ class FixtureKB:
                 ("111", "Androgens and PCOS", 2009, "Curr Opin", "Smith J; Lee KH",
                  "BACKGROUND: Excess hyperandrogenism is a hallmark of PCOS.", "PubMed", "111", "2026-01-01"),
                 ("222", "An editorial", 2010, "Lancet", None, None, "PubMed", "222", "2026-01-01"),
+                ("42119588", "Polyendocrine metabolic ovarian syndrome, the new name for polycystic ovary syndrome: a multistep global consensus process.",
+                 2026, "Lancet", "Teede HJ; Khomami MB",
+                 "Polyendocrine metabolic ovarian syndrome (PMOS), previously named polycystic ovary syndrome (PCOS), affects one in eight women.",
+                 "PubMed", "42119588", "2026-01-01"),
             ],
         )
         conn.execute(

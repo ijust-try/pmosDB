@@ -127,6 +127,19 @@ class CommittedDataTests(unittest.TestCase):
             resolutions = [x["resolution"] for x in e["structures"]["entries"] if x["resolution"] is not None]
             self.assertEqual(resolutions, sorted(resolutions), f"{e['id']} structures are not best-first")
 
+    def test_the_website_is_named_pmos_and_the_chatbot_can_say_what_it_stands_for(self):
+        import retrieval
+
+        e = self.index.by_id["process-pcos"]
+        self.assertEqual(e["name"], "Polyendocrine Metabolic Ovarian Syndrome")
+        paper = self.index.by_id.get("publication-42119588")
+        self.assertIsNotNone(paper, "the Lancet consensus paper is in the knowledge base")
+        self.assertIn("previously named polycystic ovary syndrome", paper["abstract"])
+        self.assertIn(("process-pcos", "publication-42119588"),
+                      {(r["source"], r["target"]) for r in self.index.relationships if r["label"] == "supported by"})
+        answer = retrieval.compose_extractive(retrieval.retrieve(self.index, "What is the full form of PMOS"))
+        self.assertIn("**PMOS** stands for **Polyendocrine Metabolic Ovarian Syndrome**", answer)
+
     def test_every_source_has_a_last_sync(self):
         for s in pmos_data.get_sources(self.index):
             self.assertIsNotNone(s["lastSync"], s["id"])

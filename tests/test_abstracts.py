@@ -81,6 +81,35 @@ class FetchTests(unittest.TestCase):
             self.assertEqual(harvest.pubmed_details(["1"]), {})
 
 
+class SeededPublicationTests(unittest.TestCase):
+    def test_a_publication_seed_adds_exactly_that_paper_and_nothing_else(self):
+        calls = []
+
+        def fake_fetch(source, query, url, params=None, json_body=None, delay=0.4, as_json=True):
+            calls.append((source, params and params.get("term")))
+            if "esummary" in url:
+                return {"retrieved_at": "2026-01-01T00:00:00+00:00", "response": {"result": {
+                    "42119588": {"title": "Polyendocrine metabolic ovarian syndrome", "pubdate": "2026 Jun", "source": "Lancet"}}}}
+            return {"retrieved_at": "2026-01-01T00:00:00+00:00", "response": None}
+
+        seed = {"entity_type": "publication", "name": "consensus", "lookup": "42119588", "id_source": "pubmed", "notes": ""}
+        with mock.patch.object(harvest, "fetch", fake_fetch):
+            raw = harvest.harvest([seed], {})
+        self.assertEqual([p["pmid"] for p in raw["publications"]], ["42119588"])
+        self.assertEqual(raw["publications"][0]["year"], "2026")
+        self.assertEqual(raw["entity_pubs"], [], "a seeded paper is not linked to an entity by search")
+        self.assertFalse([c for c in calls if c[0] == "pubmed_search"], "no PubMed search is run for a seeded paper")
+
+    def test_an_unknown_pmid_is_logged_not_fatal(self):
+        harvest.unresolved.clear()
+        fake = lambda *a, **k: {"retrieved_at": "2026-01-01T00:00:00+00:00", "response": {"result": {}}}
+        seed = {"entity_type": "publication", "name": "x", "lookup": "1", "id_source": "pubmed", "notes": ""}
+        with mock.patch.object(harvest, "fetch", fake):
+            raw = harvest.harvest([seed], {})
+        self.assertEqual(raw["publications"], [])
+        self.assertEqual(harvest.unresolved[0]["entity_type"], "publication")
+
+
 class PipelineTests(unittest.TestCase):
     def test_abstract_and_authors_flow_through_cleaning_into_the_database(self):
         import pathlib

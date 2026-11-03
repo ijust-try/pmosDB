@@ -1,7 +1,7 @@
 # PMOS · BIOGRAPH
 
 Frontend for the **PMOS Biological Knowledge Base**: an interactive research interface for exploring genes, proteins, hormones,
-biomarkers, pathways, therapeutics and publications related to Poly Endocrine Metabolic Ovarian Syndrome.
+biomarkers, pathways, therapeutics and publications related to polyendocrine metabolic ovarian syndrome (PMOS, previously named polycystic ovary syndrome).
 
 This is **Part C (front-end delivery)** of the project work breakdown. It runs entirely on a clearly labelled **demonstration
 dataset** so it can be developed and demoed before the backend and relational database (Parts A and B) exist. When they do, only the

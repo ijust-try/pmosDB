@@ -41,6 +41,9 @@ def check(case: dict, result: dict) -> list[str]:
     for term in case.get("unmatched", []):
         if term not in result["unmatchedTerms"]:
             problems.append(f"{term!r} should be reported as not found")
+    for phrase in case.get("answer_contains", []):
+        if phrase not in rt.compose_extractive(result):
+            problems.append(f"the answer does not say {phrase!r}")
     for term in case.get("not_unmatched", []):
         if term in result["unmatchedTerms"]:
             problems.append(f"{term!r} is filler and should not be reported as missing from the knowledge base")

@@ -11,10 +11,10 @@ import { ChatMarkdown } from './ChatMarkdown';
 const MAX_CHARS = 300;
 const MAX_MESSAGES = 40;
 const EXAMPLES = [
+  'What is the full form of PMOS?',
   'Give me the link for the androgen receptor',
   'Which drugs target CYP19A1?',
   'Papers about hirsutism',
-  'What does the leptin receptor do?',
 ];
 
 interface Message {

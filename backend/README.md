@@ -97,6 +97,10 @@ linked. Records that only match the question's wording are labelled so. `unmatch
 record, so an answer can say what the knowledge base does not cover. A link request only succeeds when a record's own
 name matches, never on a loose text match.
 
+Full-form questions ("What is the full form of PMOS?", "What does PCOS stand for?", "What does AR stand for?") are answered
+exactly from the record's own data, without ranking or a model (`intent: "abbreviation"`). A record can expand curated
+abbreviations (PMOS and PCOS, cited to the 2026 Lancet consensus) and, for genes, its symbol (the official NCBI full name).
+
 Requests for a structure ("PDB link for the androgen receptor", "AlphaFold structure of ESR1") are link requests: they are
 answered from the protein's `structures` record (best-resolved PDB entries, the AlphaFold prediction and the PDBe-KB page that
 lists every structure). A PDB ID in a question names its protein.
