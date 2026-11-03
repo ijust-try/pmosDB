@@ -18,7 +18,8 @@ A rejected answer is either a model that went beyond the evidence (the checker d
 checker was too strict about. Reading the reasons is how the system prompt and the checker get tuned; the canned
 cases in eval/answer_cases.json pin those decisions down so they do not regress.
 
-Questions that are answered without a model (definitions, symptoms, full forms, links, refusals) are not run here:
+Open questions and glossary questions ("what are the symptoms of PCOS") reach the model, so both kinds are run. Questions answered
+without a model (full forms, links, refusals) are not run here:
 they are covered exactly by eval/retrieval_cases.json, which needs no key.
 """
 import argparse
@@ -45,7 +46,7 @@ def open_questions() -> list[str]:
     cases = json.loads((ROOT / "eval" / "retrieval_cases.json").read_text(encoding="utf-8"))
     seen, out = set(), []
     for c in cases:
-        if c["status"] == "ok" and c.get("intent", "qa") == "qa" and c["q"] not in seen:
+        if c["status"] == "ok" and c.get("intent", "qa") in ("qa", "concept") and c["q"] not in seen:
             seen.add(c["q"])
             out.append(c["q"])
     return out

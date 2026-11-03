@@ -739,7 +739,10 @@
     "include": [
       "process-pcos"
     ],
-    "within": 1
+    "within": 1,
+    "answer_contains": [
+      "previously named polycystic ovary syndrome"
+    ]
   },
   {
     "group": "qa",
@@ -1005,5 +1008,124 @@
       "process-pcos"
     ],
     "within": 3
+  },
+  {
+    "group": "abbreviation",
+    "q": "What is the full form of PDB?",
+    "status": "ok",
+    "intent": "abbreviation",
+    "answer_contains": [
+      "**PDB** stands for **Protein Data Bank**",
+      "https://www.wwpdb.org/"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "what does NCBI stand for",
+    "status": "ok",
+    "intent": "abbreviation",
+    "answer_contains": [
+      "National Center for Biotechnology Information"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "what does UniProt stand for",
+    "status": "ok",
+    "intent": "abbreviation",
+    "answer_contains": [
+      "Universal Protein Resource"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "what does PMID mean",
+    "status": "ok",
+    "intent": "abbreviation",
+    "answer_contains": [
+      "PubMed Identifier"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "full form of NIH",
+    "status": "ok",
+    "intent": "abbreviation",
+    "answer_contains": [
+      "National Institutes of Health"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "what does MeSH stand for",
+    "status": "ok",
+    "intent": "abbreviation",
+    "answer_contains": [
+      "Medical Subject Headings"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "what does SNP stand for",
+    "status": "ok",
+    "intent": "abbreviation",
+    "answer_contains": [
+      "Single Nucleotide Polymorphism"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "full form of GWAS",
+    "status": "ok",
+    "intent": "abbreviation",
+    "answer_contains": [
+      "Genome-Wide Association Study",
+      "meshb.nlm.nih.gov"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "what is the full form of LH",
+    "status": "ok",
+    "intent": "abbreviation",
+    "answer_contains": [
+      "**LH** stands for **Luteinizing Hormone**"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "what is the full form of FSH",
+    "status": "ok",
+    "intent": "abbreviation",
+    "answer_contains": [
+      "Follicle-Stimulating Hormone"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "what is the full form of BMI",
+    "status": "ok",
+    "intent": "abbreviation",
+    "answer_contains": [
+      "Body Mass Index"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "what does AMH stand for",
+    "status": "ok",
+    "intent": "abbreviation",
+    "answer_contains": [
+      "Anti-Mullerian Hormone"
+    ]
+  },
+  {
+    "group": "abbreviation",
+    "q": "what does SHBG stand for",
+    "status": "ok",
+    "intent": "abbreviation",
+    "answer_contains": [
+      "Sex Hormone-Binding Globulin"
+    ]
   }
 ]

@@ -111,6 +111,7 @@ REFUSAL_MESSAGE = (
 ABBREVIATION_PATTERN = re.compile(
     r"\b(full[- ]?form|full name|stands?\s+for|short\s+for|abbreviation|acronym|expan(d|sion)|"
     r"what\s+does\s+\S+\s+mean|meaning\s+of)\b", re.IGNORECASE)
+STRICT_FULL_FORM = re.compile(r"\b(full[- ]?form|full name|stands?\s+for|short\s+for|abbreviation|acronym|expan(d|sion))\b", re.IGNORECASE)
 HELP_PATTERN = re.compile(
     r"^\s*(hi|hello|hey|hiya|good (morning|afternoon|evening)|thanks|thank you|ok|okay|cool|great|bye|help|"
     r"who are you|what are you|what can you do|how do(es)? (this|you) work)\b[\s!.?]*$", re.IGNORECASE)
@@ -547,7 +548,40 @@ def expansions(entity: dict) -> dict[str, str]:
     out = dict(entity.get("abbreviations") or {})
     if entity["type"] == "gene" and entity.get("symbol") and entity.get("aliases"):
         out.setdefault(entity["symbol"], entity["aliases"][0])
+    if entity["type"] == "concept":
+        # an acronym alias is expanded to the MeSH heading only when its letters really are the heading's initials
+        # (LH = Luteinizing Hormone), so a loose alias such as "cortisol" for Hydrocortisone is never called a full form
+        initials = "".join(w[0] for w in re.split(r"[\s,\-]+", entity["name"]) if w[:1].isalnum()).upper()
+        for alias in entity.get("aliases") or []:
+            if len(alias) > 1 and alias.replace("-", "").upper() == initials and alias.replace("-", "").isupper():
+                out.setdefault(alias, entity["name"])
     return out
+
+
+# The databases and organisations this site draws on. The expansion is the organisation's own name; the link is its own site.
+SOURCE_ABBREVIATIONS = {
+    "PDB": ("PDB", "Protein Data Bank", "https://www.wwpdb.org/"),
+    "RCSB": ("RCSB", "Research Collaboratory for Structural Bioinformatics", "https://www.rcsb.org/"),
+    "PDBE": ("PDBe", "Protein Data Bank in Europe", "https://www.ebi.ac.uk/pdbe/"),
+    "EBI": ("EBI", "European Bioinformatics Institute", "https://www.ebi.ac.uk/"),
+    "NCBI": ("NCBI", "National Center for Biotechnology Information", "https://www.ncbi.nlm.nih.gov/"),
+    "NLM": ("NLM", "National Library of Medicine", "https://www.nlm.nih.gov/"),
+    "NIH": ("NIH", "National Institutes of Health", "https://www.nih.gov/"),
+    "UNIPROT": ("UniProt", "Universal Protein Resource", "https://www.uniprot.org/"),
+    "MESH": ("MeSH", "Medical Subject Headings", "https://www.nlm.nih.gov/mesh/meshhome.html"),
+    "PMID": ("PMID", "PubMed Identifier", "https://pubmed.ncbi.nlm.nih.gov/"),
+    "SNP": ("SNP", "Single Nucleotide Polymorphism", "https://www.ncbi.nlm.nih.gov/snp/"),
+}
+
+
+def _source_abbreviation_hits(query: str) -> list[dict]:
+    hits, seen = [], set()
+    for word in re.findall(r"[A-Za-z][A-Za-z0-9]*", query):
+        entry = SOURCE_ABBREVIATIONS.get(word.upper())
+        if entry and entry[0] not in seen:
+            seen.add(entry[0])
+            hits.append({"term": entry[0], "expansion": entry[1], "url": entry[2]})
+    return hits
 
 
 def _abbreviation_hits(corpus: "Corpus", mentions: list[dict]) -> list[dict]:
@@ -643,6 +677,10 @@ def retrieve(index, query: str, limit: int = MAX_RECORDS, context_id: str | None
     # full forms: answered exactly from the record's own data, no ranking and no model
     if ABBREVIATION_PATTERN.search(query):
         hits = _abbreviation_hits(corpus, mentions)
+        # "what does GWAS mean" asks for the meaning, which a glossary term has; only the exact "full form" wording
+        # gets just the expansion
+        if hits and not STRICT_FULL_FORM.search(query) and all(h["entity"]["type"] == "concept" for h in hits):
+            hits = []
         if hits:
             entities = list({h["entity"]["id"]: h["entity"] for h in hits}.values())
             records = [make_record(f"R{n}", e, index) for n, e in enumerate(entities, 1)]
@@ -650,6 +688,17 @@ def retrieve(index, query: str, limit: int = MAX_RECORDS, context_id: str | None
             return {**result, "intent": "abbreviation", "records": records,
                     "abbreviations": [{"term": h["term"], "expansion": h["expansion"], "note": h["note"],
                                        "ref": ref[h["entity"]["id"]]} for h in hits],
+                    "confidence": {**result["confidence"], "anchored": True}, "evidenceLevel": "records"}
+        named_sources = _source_abbreviation_hits(query)
+        if named_sources:
+            records = [{"ref": f"R{n}", "id": f"source-{h['term'].lower()}", "type": "source", "name": h["expansion"],
+                        "idLabel": "Abbreviation", "primaryId": h["term"], "url": h["url"], "sections": None,
+                        "external": [], "text": f"{h['term']} stands for {h['expansion']}.", "via": None,
+                        "summary": f"{h['term']} stands for {h['expansion']}.", "score": None, "citation": None}
+                       for n, h in enumerate(named_sources, 1)]
+            return {**result, "intent": "abbreviation", "records": records,
+                    "abbreviations": [{"term": h["term"], "expansion": h["expansion"], "note": None, "ref": r["ref"]}
+                                      for h, r in zip(named_sources, records)],
                     "confidence": {**result["confidence"], "anchored": True}, "evidenceLevel": "records"}
 
     # definitions and explanatory sections: exactly what the NIH sources say, with no model
@@ -854,39 +903,48 @@ def _compose_abbreviation(result: dict) -> str:
         if a["note"]:
             lines.append(a["note"])
         r = by_ref[a["ref"]]
-        links = [f"[{r['name']}]({r['url']})"] + [f"[{x['source']}]({x['url']})" for x in r["external"][:2]]
-        lines.append("Source: " + " · ".join(links))
+        links = {r["url"]: f"[{r['name']}]({r['url']})"}
+        for x in r["external"][:2]:
+            links.setdefault(x["url"], f"[{x['source']}]({x['url']})")
+        lines.append("Source: " + " · ".join(links.values()))
         blocks.append("\n\n".join(lines))
     return "\n\n".join(blocks)
 
 
+BRIEF_DEFINITION = 420  # characters: a few sentences, not a page
+BRIEF_SECTION = 520
+
+
 def _compose_concept(result: dict) -> str:
+    """A short answer from the sources' own text; the full text stays one click away in the source links."""
     by_ref = {r["ref"]: r for r in result["records"]}
     rec = by_ref[result["concept"]["ref"]]
     secs = rec["sections"] or {}
-    blocks = []
+    wanted, missing = result["concept"]["sections"], result["concept"].get("missing")
+    blocks, shortened = [], False
     naming = next((r for r in result["records"] if r["type"] == "process"), None)
-    if naming and naming.get("summary"):  # e.g. PMOS is the 2026 name for PCOS
+    if naming and naming.get("summary") and wanted == ["definition"] and not missing:  # PMOS is the 2026 name for PCOS
         blocks.append(naming["summary"])
-    wanted = result["concept"]["sections"]
-    if result["concept"].get("missing"):
+    if missing:
         nouns = {"risk": "risk factors", "diagnosis": "diagnosis", "complications": "related health problems"}
-        what = " or ".join(nouns.get(m, m) for m in result["concept"]["missing"])
+        what = " or ".join(nouns.get(m, m) for m in missing)
         blocks.append(f"The NIH sources used here (MeSH and MedlinePlus) have no {what} information for "
                       f"{rec['name']}. This is what they do say:")
     if wanted == ["definition"]:
-        if secs.get("definition"):
-            blocks.append(f"**{rec['name']}** (definition from MeSH): {secs['definition']}")
-        if secs.get("overview"):
-            blocks.append("In plain language (MedlinePlus): " + _trim(secs["overview"], 1100))
+        text, origin = (secs["definition"], "MeSH") if secs.get("definition") else (secs.get("overview", ""), "MedlinePlus")
+        brief = _trim(text, BRIEF_DEFINITION)
+        shortened = brief != text
+        blocks.append(f"**{rec['name']}** ({origin}): {brief}")
     else:
         for name in wanted:
-            blocks.append(f"**{SECTION_LABELS[name]}: {rec['name']}** (MedlinePlus)\n\n{secs[name]}")
+            brief = _trim(secs[name], BRIEF_SECTION)
+            shortened = shortened or brief != secs[name]
+            blocks.append(f"**{SECTION_LABELS[name]}: {rec['name']}** (MedlinePlus)\n\n{brief}")
     related = [f"[{r['name']}]({r['url']})" for r in result["records"] if r["type"] not in ("concept", "process")]
     if related:
         blocks.append("In this knowledge base: " + ", ".join(related))
-    links = [f"[{x['source']}]({x['url']})" for x in rec["external"]]
-    blocks.append("Source: " + " · ".join(links) + "\nGeneral educational information, not medical advice.")
+    links = " · ".join(f"[{x['source']}]({x['url']})" for x in rec["external"])
+    blocks.append(("Full text: " if shortened else "Source: ") + links + "\nGeneral educational information, not medical advice.")
     return "\n\n".join(blocks)
 
 
@@ -919,7 +977,7 @@ def compose_extractive(result: dict, suggestions: bool = True) -> str:
             lines = ["I couldn't generate a written summary, but these records answer your question:"]
             if result.get("evidenceLevel") == "mentions":
                 lines = ["The knowledge base has no record dedicated to this. These records only mention it in passing:"]
-            for r in records[:6]:
+            for r in records[:4]:
                 src = f" ([{r['external'][0]['source']}]({r['external'][0]['url']}))" if r["external"] else ""
                 lines.append(f"- **[{r['name']}]({r['url']})** ({r['type']}): {r['summary'] or 'see the record'}{src} [{r['ref']}]")
             text = "\n".join(lines)

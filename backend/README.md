@@ -103,7 +103,9 @@ exactly from the record's own data, without ranking or a model (`intent: "abbrev
 abbreviations (PMOS and PCOS, cited to the 2026 Lancet consensus) and, for genes, its symbol (the official NCBI full name).
 
 Basic concept questions ("What is hirsutism?", "What are the symptoms of PCOS?", "What causes PCOS?", "How is PCOS diagnosed?",
-"What does GWAS mean?") are answered from the **glossary** (`intent: "concept"`), again with no ranking and no model. The glossary
+"What does GWAS mean?") are answered from the **glossary** (`intent: "concept"`). Finding the text is deterministic; the model then writes a short answer
+from it, shown only if it passes `check_answer`, and otherwise the visitor gets a shortened copy of the NIH text with a "Full text" link
+(a few sentences, never a whole page). The glossary
 holds 43 curated terms; each is the source's own text, never written or paraphrased here: the definition is the MeSH (NLM) scope
 note and the plain-language sections (overview, symptoms, causes, who is at risk, diagnosis, related health problems) are the
 NIH MedlinePlus health topic with exactly that title. Treatment, prevention and management text is never stored. A term's
@@ -113,6 +115,11 @@ and, for PCOS, leads with the 2026 naming sentence. A question about a section t
 and gives the definition instead of guessing. Comparisons and relations ("how does X relate to PCOS") are not definitions and
 go to `qa`.
 
+Full forms of the databases the site uses ("What does PDB stand for?", NCBI, NLM, NIH, UniProt, MeSH, PMID, RCSB, PDBe, EBI, SNP)
+come from a small table of official names in `retrieval.py` (`SOURCE_ABBREVIATIONS`), linked to the organisation's own site. Glossary
+acronyms (GWAS, BMI, LH, FSH, AMH, SHBG, CRP) are expanded to the MeSH heading only when the acronym's letters really are the
+heading's initials. "What does X mean" gets the definition; "full form" or "stands for" gets just the expansion.
+
 Requests for a structure ("PDB link for the androgen receptor", "AlphaFold structure of ESR1") are link requests: they are
 answered from the protein's `structures` record (best-resolved PDB entries, the AlphaFold prediction and the PDBe-KB page that
 lists every structure). A PDB ID in a question names its protein.
@@ -121,7 +128,7 @@ For answered questions the response also carries `furtherReading`: research link
 model: papers in the knowledge base (PubMed), a PubMed search on the topic (`"<name>" AND "polycystic ovary syndrome"`),
 3D structures, and the source records (UniProt, NCBI Gene, Reactome, PubChem).
 
-The question benchmark is `eval/retrieval_cases.json` (110 questions, with exact phrases the answers must contain), run by
+The question benchmark is `eval/retrieval_cases.json` (123 questions, with exact phrases the answers must contain), run by
 `tests/test_retrieval_eval.py`. `eval/live_eval.py` runs the open questions through the real model with your own key and reports
 how many answers were verified, and why the others were rejected (see the top of that file); it is how the prompt and the checker
 are tuned, and is never run by the tests. Known limit: matching is
@@ -141,7 +148,9 @@ A generated answer is accepted only when:
 
 - every sentence stating a fact cites records that exist, and no factual sentence is uncited;
 - each sentence's gene/protein/drug symbols, identifiers and numbers (decimals, percentages, anything above 20) appear in
-  the records **that sentence cites**, and most of its key words appear there too;
+  the records **that sentence cites**, and at least three quarters of its key words appear there too (long glossary records contain
+  almost any everyday word, so a looser test let an invented cause through; a faithful paraphrase that is rejected only costs the
+  visitor the short NIH text);
 - it contains no dosing, efficacy or safety language;
 - links come from the records, never from the model (they are appended as "Sources").
 

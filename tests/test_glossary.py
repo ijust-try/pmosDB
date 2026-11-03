@@ -234,9 +234,22 @@ class ConceptRoutingTests(ConceptBase):
     def test_the_condition_definition_leads_with_the_naming_sentence_then_both_sources(self):
         text = self.answer("what is PMOS")
         self.assertTrue(text.startswith("Polyendocrine metabolic ovarian syndrome (PMOS), previously named"), text)
-        self.assertIn("(definition from MeSH)", text)
-        self.assertIn("In plain language (MedlinePlus)", text)
+        self.assertIn("(MeSH)", text)
         self.assertIn("https://medlineplus.gov/polycysticovarysyndrome.html", text)
+
+    def test_answers_are_short_and_point_to_the_full_text(self):
+        long_text = "The symptoms of PCOS may include:\n" + "\n".join(f"- Symptom number {n} with a few more words." for n in range(60))
+        concept = {"ref": "R1"}
+        record = {"ref": "R1", "id": "concept-x", "type": "concept", "name": "X", "sections": {"definition": "A. " * 400, "symptoms": long_text},
+                  "external": [{"source": "MedlinePlus", "url": "https://medlineplus.gov/x.html"}]}
+        for wanted in (["definition"], ["symptoms"]):
+            text = rt._compose_concept({"records": [record], "concept": {**concept, "sections": wanted, "missing": []}})
+            self.assertLess(len(text), 900, wanted)
+            self.assertIn("Full text: [MedlinePlus](https://medlineplus.gov/x.html)", text)
+            self.assertIn("…", text)
+        short = rt._compose_concept({"records": [{**record, "sections": {"definition": "Short."}}],
+                                     "concept": {**concept, "sections": ["definition"], "missing": []}})
+        self.assertIn("Source: [MedlinePlus]", short)
 
     def test_section_questions_return_that_section(self):
         cases = {
@@ -300,22 +313,63 @@ class ConceptChatTests(ConceptBase):
     def setUp(self):
         chat.reset_state()
 
-    def test_concept_answers_never_call_the_model(self):
+    def ask(self, question, reply):
         calls = []
 
         def generate(system, prompt, api_key, model):
             calls.append(prompt)
-            return "invented"
+            return reply
 
-        out = chat.answer(self.index, "what are the symptoms of PCOS", None, "v1", generate=generate, api_key="k", now=1.0)
-        self.assertEqual(calls, [])
+        return chat.answer(self.index, question, None, "v1", generate=generate, api_key="k", now=1.0), calls
+
+    def test_a_glossary_question_is_written_by_the_model_from_the_nih_text_when_it_verifies(self):
+        out, calls = self.ask("what are the symptoms of PCOS",
+                              "Symptoms may include irregular or missed menstrual periods and too much hair on the face [R2].")
+        self.assertEqual(len(calls), 1)
+        self.assertIn("Irregular or missed menstrual periods", calls[0], "the model is shown the NIH text")
+        self.assertIn("The visitor wants: symptoms", calls[0])
+        self.assertEqual((out["mode"], out["citations"]), ("model", ["R2"]))
+        self.assertIn("https://medlineplus.gov/polycysticovarysyndrome.html", out["answer"])
+
+    def test_an_answer_that_invents_a_cause_is_replaced_by_the_short_nih_text(self):
+        out, _ = self.ask("what causes PCOS", "PCOS is caused by eating too much sugar [R2].")
         self.assertEqual(out["mode"], "database")
-        self.assertIn("Irregular or missed menstrual periods", out["answer"])
-        self.assertNotIn("invented", out["answer"])
+        self.assertIn("The exact cause of PCOS is unknown", out["answer"])
+        self.assertNotIn("sugar", out["answer"])
 
-    def test_concept_answers_carry_the_nih_sources(self):
-        out = chat.answer(self.index, "what is hirsutism", None, "v1", generate=None, api_key=None, now=1.0)
+    def test_without_a_model_the_short_nih_text_is_shown(self):
+        out = chat.answer(self.index, "what is hirsutism", None, "v1", generate=None, api_key="", now=1.0)
+        self.assertEqual(out["mode"], "database")
+        self.assertIn("excess coarse body hair", out["answer"])
         self.assertIn("meshb.nlm.nih.gov", json.dumps(out))
+
+    def test_full_forms_and_refusals_never_reach_the_model(self):
+        for q in ["what is the full form of PDB", "what does PCOS stand for", "what is the treatment for PCOS"]:
+            with self.subTest(q=q):
+                out, calls = self.ask(q, "invented [R1]")
+                self.assertEqual(calls, [])
+                self.assertNotIn("invented", out["answer"])
+
+
+class FullFormTests(ConceptBase):
+    def test_the_databases_the_site_uses_have_their_official_names(self):
+        for q, name in [("what is the full form of PDB", "Protein Data Bank"), ("what does NCBI stand for", "National Center for Biotechnology Information"),
+                        ("what does UniProt stand for", "Universal Protein Resource"), ("what does PMID mean", "PubMed Identifier")]:
+            with self.subTest(q=q):
+                r = self.ask(q)
+                self.assertEqual((r["intent"], r["status"]), ("abbreviation", "ok"))
+                self.assertIn(f"stands for **{name}**", rt.compose_extractive(r))
+
+    def test_a_source_name_in_another_kind_of_question_is_not_a_full_form_question(self):
+        self.assertEqual(self.ask("give me the PDB link for the androgen receptor")["intent"], "link")
+
+    def test_a_concept_acronym_is_expanded_only_when_it_is_the_initials_of_the_heading(self):
+        lh = {"type": "concept", "name": "Luteinizing Hormone", "aliases": ["LH", "lutropin"]}
+        self.assertEqual(rt.expansions(lh), {"LH": "Luteinizing Hormone"})
+        crp = {"type": "concept", "name": "C-Reactive Protein", "aliases": ["CRP"]}
+        self.assertEqual(rt.expansions(crp), {"CRP": "C-Reactive Protein"})
+        loose = {"type": "concept", "name": "Hydrocortisone", "aliases": ["cortisol", "HC"]}
+        self.assertEqual(rt.expansions(loose), {}, "an alias that is not the heading's initials is not a full form")
 
 
 if __name__ == "__main__":
