@@ -1,0 +1,58 @@
+{
+ "source": "mesh",
+ "query": "M0023729",
+ "url": "https://id.nlm.nih.gov/mesh/M0023729.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:21:57+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0023729",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0023729",
+  "narrowerConcept": [
+   "http://id.nlm.nih.gov/mesh/M0023727",
+   "http://id.nlm.nih.gov/mesh/M0023730",
+   "http://id.nlm.nih.gov/mesh/M0023728"
+  ],
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T045414",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "The intracellular transfer of information (biological activation/inhibition) through a signal pathway. In each signal transduction system, an activation/inhibition signal from a biologically active molecule (hormone, neurotransmitter) is mediated via the coupling of a receptor/enzyme to a second messenger system or to an ion channel. Signal transduction plays an important role in activating cellular functions, cell differentiation, and cell proliferation. Examples of signal transduction systems are the GAMMA-AMINOBUTYRIC ACID-postsynaptic receptor-calcium ion channel system, the receptor-mediated T-cell activation pathway, and the receptor-mediated activation of phospholipases. Those coupled to membrane depolarization or intracellular release of calcium include the receptor-mediated activation of cytotoxic functions in granulocytes and the synaptic potentiation of protein kinase activation. Some signal transduction pathways may be part of larger signal transduction pathways; for example, protein kinase activation is part of the platelet activation signal pathway."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T045415",
+   "http://id.nlm.nih.gov/mesh/T000959480"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Signal Transduction"
+  },
+  "@context": {
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   }
+  }
+ }
+}

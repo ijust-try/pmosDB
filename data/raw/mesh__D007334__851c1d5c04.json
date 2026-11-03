@@ -1,0 +1,147 @@
+{
+ "source": "mesh",
+ "query": "D007334",
+ "url": "https://id.nlm.nih.gov/mesh/D007334.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:21:08+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/D007334",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "allowableQualifier": [
+   "http://id.nlm.nih.gov/mesh/Q000145",
+   "http://id.nlm.nih.gov/mesh/Q000528",
+   "http://id.nlm.nih.gov/mesh/Q000592",
+   "http://id.nlm.nih.gov/mesh/Q000302",
+   "http://id.nlm.nih.gov/mesh/Q000493",
+   "http://id.nlm.nih.gov/mesh/Q000737",
+   "http://id.nlm.nih.gov/mesh/Q000502",
+   "http://id.nlm.nih.gov/mesh/Q000134",
+   "http://id.nlm.nih.gov/mesh/Q000276",
+   "http://id.nlm.nih.gov/mesh/Q000633",
+   "http://id.nlm.nih.gov/mesh/Q000494",
+   "http://id.nlm.nih.gov/mesh/Q000627",
+   "http://id.nlm.nih.gov/mesh/Q000600",
+   "http://id.nlm.nih.gov/mesh/Q000235",
+   "http://id.nlm.nih.gov/mesh/Q000506",
+   "http://id.nlm.nih.gov/mesh/Q000378",
+   "http://id.nlm.nih.gov/mesh/Q000648",
+   "http://id.nlm.nih.gov/mesh/Q000191",
+   "http://id.nlm.nih.gov/mesh/Q000187",
+   "http://id.nlm.nih.gov/mesh/Q000031",
+   "http://id.nlm.nih.gov/mesh/Q000008",
+   "http://id.nlm.nih.gov/mesh/Q000266",
+   "http://id.nlm.nih.gov/mesh/Q000037",
+   "http://id.nlm.nih.gov/mesh/Q000138",
+   "http://id.nlm.nih.gov/mesh/Q000819",
+   "http://id.nlm.nih.gov/mesh/Q000096",
+   "http://id.nlm.nih.gov/mesh/Q000172",
+   "http://id.nlm.nih.gov/mesh/Q000009",
+   "http://id.nlm.nih.gov/mesh/Q000032",
+   "http://id.nlm.nih.gov/mesh/Q000652"
+  ],
+  "broaderDescriptor": "http://id.nlm.nih.gov/mesh/D013002",
+  "dateIntroduced": "1991-01-01",
+  "historyNote": {
+   "@language": "en",
+   "@value": "91(86); was see under SOMATOMEDINS 1986-90"
+  },
+  "identifier": "D007334",
+  "lastUpdated": "2024-08-09",
+  "nlmClassificationNumber": "QU 107",
+  "preferredConcept": "http://id.nlm.nih.gov/mesh/M0011434",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T021963",
+  "previousIndexing": [
+   {
+    "@language": "en",
+    "@value": "Growth Substances (1966-1985)"
+   },
+   {
+    "@language": "en",
+    "@value": "Peptides (1966-1985)"
+   },
+   {
+    "@language": "en",
+    "@value": "Somatomedins (1973-1985)"
+   },
+   {
+    "@language": "en",
+    "@value": "Sulfation Factor (1971-1972)"
+   },
+   {
+    "@language": "en",
+    "@value": "Insulin (1966-1985)"
+   }
+  ],
+  "publicMeSHNote": {
+   "@language": "en",
+   "@value": "91; was see under SOMATOMEDINS 1986-90"
+  },
+  "seeAlso": "http://id.nlm.nih.gov/mesh/D017526",
+  "treeNumber": [
+   "http://id.nlm.nih.gov/mesh/D12.776.124.862.001",
+   "http://id.nlm.nih.gov/mesh/D23.529.742.500.001",
+   "http://id.nlm.nih.gov/mesh/D12.644.276.742.500.001"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Insulin-Like Growth Factor I"
+  },
+  "@context": {
+   "allowableQualifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#allowableQualifier",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "previousIndexing": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#previousIndexing"
+   },
+   "broaderDescriptor": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",
+    "@type": "@id"
+   },
+   "seeAlso": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#seeAlso",
+    "@type": "@id"
+   },
+   "preferredConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredConcept",
+    "@type": "@id"
+   },
+   "historyNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#historyNote"
+   },
+   "treeNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#treeNumber",
+    "@type": "@id"
+   },
+   "lastUpdated": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#lastUpdated",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "dateIntroduced": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#dateIntroduced",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "publicMeSHNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#publicMeSHNote"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "nlmClassificationNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#nlmClassificationNumber"
+   }
+  }
+ }
+}

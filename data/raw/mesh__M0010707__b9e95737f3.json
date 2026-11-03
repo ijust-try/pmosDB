@@ -1,0 +1,76 @@
+{
+ "source": "mesh",
+ "query": "M0010707",
+ "url": "https://id.nlm.nih.gov/mesh/M0010707.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:20:12+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0010707",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "casn1_label": {
+   "@language": "en",
+   "@value": "Pregn-4-ene-3,20-dione, 11,17,21-trihydroxy-, (11beta)-"
+  },
+  "identifier": "M0010707",
+  "narrowerConcept": [
+   "http://id.nlm.nih.gov/mesh/M0330259",
+   "http://id.nlm.nih.gov/mesh/M0010709",
+   "http://id.nlm.nih.gov/mesh/M0330258",
+   "http://id.nlm.nih.gov/mesh/M000747566",
+   "http://id.nlm.nih.gov/mesh/M0010710"
+  ],
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T020679",
+  "relatedRegistryNumber": [
+   "60103-17-5 (cpd w/o stereochem designation)",
+   "566-35-8 ((11 alpha)-isomer)",
+   "50-23-7 (Hydrocortisone)",
+   "4068-92-2 ((9 beta,10 alpha,11 alpha)-isomer)"
+  ],
+  "scopeNote": {
+   "@language": "en",
+   "@value": "The main glucocorticoid secreted by the ADRENAL CORTEX. Its synthetic counterpart is used, either as an injection or topically, in the treatment of inflammation, allergy, collagen diseases, asthma, adrenocortical deficiency, shock, and some neoplastic conditions."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T020678",
+   "http://id.nlm.nih.gov/mesh/T001108265"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Hydrocortisone"
+  },
+  "@context": {
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   },
+   "relatedRegistryNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#relatedRegistryNumber"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "casn1_label": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#casn1_label"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   }
+  }
+ }
+}

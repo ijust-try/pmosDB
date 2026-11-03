@@ -1,0 +1,60 @@
+{
+ "source": "mesh",
+ "query": "M0011434",
+ "url": "https://id.nlm.nih.gov/mesh/M0011434.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:21:09+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0011434",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "casn1_label": {
+   "@language": "en",
+   "@value": "Insulin-like growth factor I"
+  },
+  "identifier": "M0011434",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T021963",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A well-characterized basic peptide believed to be secreted by the liver and to circulate in the blood. It has growth-regulating, insulin-like, and mitogenic activities. This growth factor has a major, but not absolute, dependence on GROWTH HORMONE. It is believed to be mainly active in adults in contrast to INSULIN-LIKE GROWTH FACTOR II, which is a major fetal growth factor."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T021965",
+   "http://id.nlm.nih.gov/mesh/T021959",
+   "http://id.nlm.nih.gov/mesh/T021964",
+   "http://id.nlm.nih.gov/mesh/T021961",
+   "http://id.nlm.nih.gov/mesh/T021962",
+   "http://id.nlm.nih.gov/mesh/T021960"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Insulin-Like Growth Factor I"
+  },
+  "@context": {
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "casn1_label": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#casn1_label"
+   }
+  }
+ }
+}

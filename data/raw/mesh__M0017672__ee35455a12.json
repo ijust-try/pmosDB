@@ -1,0 +1,70 @@
+{
+ "source": "mesh",
+ "query": "M0017672",
+ "url": "https://id.nlm.nih.gov/mesh/M0017672.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:18:48+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0017672",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "casn1_label": {
+   "@language": "en",
+   "@value": "Pregn-4-ene-3,20-dione"
+  },
+  "identifier": "M0017672",
+  "narrowerConcept": [
+   "http://id.nlm.nih.gov/mesh/M0329760",
+   "http://id.nlm.nih.gov/mesh/M0329762",
+   "http://id.nlm.nih.gov/mesh/M0329761"
+  ],
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T033552",
+  "relatedRegistryNumber": [
+   "59952-90-8",
+   "2755-10-4",
+   "2000-66-0"
+  ],
+  "scopeNote": {
+   "@language": "en",
+   "@value": "The major progestational steroid that is secreted primarily by the CORPUS LUTEUM and the PLACENTA. Progesterone acts on the UTERUS, the MAMMARY GLANDS and the BRAIN. It is required in EMBRYO IMPLANTATION; PREGNANCY maintenance, and the development of mammary tissue for MILK production. Progesterone, converted from PREGNENOLONE, also serves as an intermediate in the biosynthesis of GONADAL STEROID HORMONES and adrenal CORTICOSTEROIDS."
+  },
+  "term": "http://id.nlm.nih.gov/mesh/T527786",
+  "label": {
+   "@language": "en",
+   "@value": "Progesterone"
+  },
+  "@context": {
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   },
+   "casn1_label": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#casn1_label"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "relatedRegistryNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#relatedRegistryNumber"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   }
+  }
+ }
+}

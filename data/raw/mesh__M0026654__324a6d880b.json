@@ -1,0 +1,41 @@
+{
+ "source": "mesh",
+ "query": "M0026654",
+ "url": "https://id.nlm.nih.gov/mesh/M0026654.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:11:52+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0026654",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0026654",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T052743",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A condition caused by the excessive secretion of ANDROGENS from the ADRENAL CORTEX; the OVARIES; or the TESTES. The clinical significance in males is negligible. In women, the common manifestations are HIRSUTISM and VIRILISM as seen in patients with POLYCYSTIC OVARY SYNDROME and ADRENOCORTICAL HYPERFUNCTION."
+  },
+  "label": {
+   "@language": "en",
+   "@value": "Hyperandrogenism"
+  },
+  "@context": {
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   }
+  }
+ }
+}

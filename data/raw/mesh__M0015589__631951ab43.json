@@ -1,0 +1,46 @@
+{
+ "source": "mesh",
+ "query": "M0015589",
+ "url": "https://id.nlm.nih.gov/mesh/M0015589.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:17:11+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0015589",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0015589",
+  "narrowerConcept": "http://id.nlm.nih.gov/mesh/M0015588",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T029730",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "General term for CYSTS and cystic diseases of the OVARY."
+  },
+  "label": {
+   "@language": "en",
+   "@value": "Ovarian Cysts"
+  },
+  "@context": {
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   }
+  }
+ }
+}

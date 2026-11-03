@@ -1,0 +1,63 @@
+{
+ "source": "mesh",
+ "query": "M0012444",
+ "url": "https://id.nlm.nih.gov/mesh/M0012444.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:18:53+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0012444",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "casn1_label": {
+   "@language": "en",
+   "@value": "Luteinizing hormone"
+  },
+  "identifier": "M0012444",
+  "narrowerConcept": "http://id.nlm.nih.gov/mesh/M0012445",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T023808",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A major gonadotropin secreted by the adenohypophysis (PITUITARY GLAND, ANTERIOR). Luteinizing hormone regulates steroid production by the interstitial cells of the TESTIS and the OVARY. The preovulatory LUTEINIZING HORMONE surge in females induces OVULATION, and subsequent LUTEINIZATION of the follicle. LUTEINIZING HORMONE consists of two noncovalently linked subunits, alpha and beta. Within a species, the alpha subunit is common in the three pituitary glycoprotein hormones (TSH, LH and FSH), but the beta subunit is unique and confers its biological specificity."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T023807",
+   "http://id.nlm.nih.gov/mesh/T485840",
+   "http://id.nlm.nih.gov/mesh/T023805",
+   "http://id.nlm.nih.gov/mesh/T485841"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Luteinizing Hormone"
+  },
+  "@context": {
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "casn1_label": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#casn1_label"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   }
+  }
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "source": "mesh",
+ "query": "M0328567",
+ "url": "https://id.nlm.nih.gov/mesh/M0328567.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:19:36+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0328567",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0328567",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T279123",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A 16-kDa peptide hormone secreted from WHITE ADIPOCYTES. Leptin serves as a feedback signal from fat cells to the CENTRAL NERVOUS SYSTEM in regulation of food intake, energy balance, and fat storage."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T279127",
+   "http://id.nlm.nih.gov/mesh/T279124",
+   "http://id.nlm.nih.gov/mesh/T279126",
+   "http://id.nlm.nih.gov/mesh/T279125"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Leptin"
+  },
+  "@context": {
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   }
+  }
+ }
+}

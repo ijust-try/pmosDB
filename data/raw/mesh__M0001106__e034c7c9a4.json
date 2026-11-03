@@ -1,0 +1,57 @@
+{
+ "source": "mesh",
+ "query": "M0001106",
+ "url": "https://id.nlm.nih.gov/mesh/M0001106.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:17:46+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0001106",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0001106",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T002188",
+  "relatedConcept": "http://id.nlm.nih.gov/mesh/M0556150",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "Compounds that interact with ANDROGEN RECEPTORS in target tissues to bring about the effects similar to those of TESTOSTERONE. Depending on the target tissues, androgenic effects can be on SEX DIFFERENTIATION; male reproductive organs, SPERMATOGENESIS; secondary male SEX CHARACTERISTICS; LIBIDO; development of muscle mass, strength, and power."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T769921",
+   "http://id.nlm.nih.gov/mesh/T000999019",
+   "http://id.nlm.nih.gov/mesh/T540526",
+   "http://id.nlm.nih.gov/mesh/T540527",
+   "http://id.nlm.nih.gov/mesh/T000999018"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Androgens"
+  },
+  "@context": {
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "relatedConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#relatedConcept",
+    "@type": "@id"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   }
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "source": "mesh",
+ "query": "M0513872",
+ "url": "https://id.nlm.nih.gov/mesh/M0513872.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:21:39+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0513872",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0513872",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T719336",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "An analysis comparing the allele frequencies of all available (or a whole GENOME representative set of) polymorphic markers to identify gene candidates or quantitative trait loci associated with a specific organism trait or specific disease or condition."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T706568",
+   "http://id.nlm.nih.gov/mesh/T706572",
+   "http://id.nlm.nih.gov/mesh/T718148",
+   "http://id.nlm.nih.gov/mesh/T718147",
+   "http://id.nlm.nih.gov/mesh/T706571",
+   "http://id.nlm.nih.gov/mesh/T706569",
+   "http://id.nlm.nih.gov/mesh/T750650"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Genome-Wide Association Study"
+  },
+  "@context": {
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   }
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "source": "mesh",
+ "query": "M0013391",
+ "url": "https://id.nlm.nih.gov/mesh/M0013391.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:16:59+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0013391",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0013391",
+  "narrowerConcept": [
+   "http://id.nlm.nih.gov/mesh/M0013395",
+   "http://id.nlm.nih.gov/mesh/M0013394"
+  ],
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T025570",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "The period from onset of one menstrual bleeding (MENSTRUATION) to the next in an ovulating woman or female primate. The menstrual cycle is regulated by endocrine interactions of the HYPOTHALAMUS; the PITUITARY GLAND; the ovaries; and the genital tract. The menstrual cycle is divided by OVULATION into two phases. Based on the endocrine status of the OVARY, there is a FOLLICULAR PHASE and a LUTEAL PHASE. Based on the response in the ENDOMETRIUM, the menstrual cycle is divided into a proliferative and a secretory phase."
+  },
+  "label": {
+   "@language": "en",
+   "@value": "Menstrual Cycle"
+  },
+  "@context": {
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   }
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "source": "mesh",
+ "query": "M0013398",
+ "url": "https://id.nlm.nih.gov/mesh/M0013398.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:16:51+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0013398",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0013398",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T025579",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "The periodic shedding of the ENDOMETRIUM and associated menstrual bleeding in the MENSTRUAL CYCLE of humans and primates. Menstruation is due to the decline in circulating PROGESTERONE, and occurs at the late LUTEAL PHASE when LUTEOLYSIS of the CORPUS LUTEUM takes place."
+  },
+  "label": {
+   "@language": "en",
+   "@value": "Menstruation"
+  },
+  "@context": {
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   }
+  }
+ }
+}

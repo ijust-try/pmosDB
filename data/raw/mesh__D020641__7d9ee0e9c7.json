@@ -1,0 +1,98 @@
+{
+ "source": "mesh",
+ "query": "D020641",
+ "url": "https://id.nlm.nih.gov/mesh/D020641.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:21:42+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/D020641",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "allowableQualifier": [
+   "http://id.nlm.nih.gov/mesh/Q000528",
+   "http://id.nlm.nih.gov/mesh/Q000187",
+   "http://id.nlm.nih.gov/mesh/Q000276",
+   "http://id.nlm.nih.gov/mesh/Q000235",
+   "http://id.nlm.nih.gov/mesh/Q000502"
+  ],
+  "annotation": {
+   "@language": "en",
+   "@value": "do not confuse with POLYMORPHISM, SINGLE-STRANDED CONFORMATIONAL"
+  },
+  "broaderDescriptor": "http://id.nlm.nih.gov/mesh/D011110",
+  "dateIntroduced": "2000-01-01",
+  "historyNote": {
+   "@language": "en",
+   "@value": "2000"
+  },
+  "identifier": "D020641",
+  "lastUpdated": "2008-07-08",
+  "preferredConcept": "http://id.nlm.nih.gov/mesh/M0328041",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T358041",
+  "previousIndexing": {
+   "@language": "en",
+   "@value": "Polymorphism (Genetics) (1991-1999)"
+  },
+  "publicMeSHNote": {
+   "@language": "en",
+   "@value": "2000"
+  },
+  "treeNumber": "http://id.nlm.nih.gov/mesh/G05.365.795.598",
+  "label": {
+   "@language": "en",
+   "@value": "Polymorphism, Single Nucleotide"
+  },
+  "@context": {
+   "treeNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#treeNumber",
+    "@type": "@id"
+   },
+   "allowableQualifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#allowableQualifier",
+    "@type": "@id"
+   },
+   "historyNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#historyNote"
+   },
+   "preferredConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredConcept",
+    "@type": "@id"
+   },
+   "broaderDescriptor": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",
+    "@type": "@id"
+   },
+   "dateIntroduced": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#dateIntroduced",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "annotation": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#annotation"
+   },
+   "publicMeSHNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#publicMeSHNote"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "previousIndexing": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#previousIndexing"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "lastUpdated": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#lastUpdated",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   }
+  }
+ }
+}

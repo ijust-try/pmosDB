@@ -1,0 +1,128 @@
+{
+ "source": "mesh",
+ "query": "D011374",
+ "url": "https://id.nlm.nih.gov/mesh/D011374.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:18:26+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/D011374",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "allowableQualifier": [
+   "http://id.nlm.nih.gov/mesh/Q000819",
+   "http://id.nlm.nih.gov/mesh/Q000506",
+   "http://id.nlm.nih.gov/mesh/Q000145",
+   "http://id.nlm.nih.gov/mesh/Q000378",
+   "http://id.nlm.nih.gov/mesh/Q000138",
+   "http://id.nlm.nih.gov/mesh/Q000652",
+   "http://id.nlm.nih.gov/mesh/Q000096",
+   "http://id.nlm.nih.gov/mesh/Q000737",
+   "http://id.nlm.nih.gov/mesh/Q000266",
+   "http://id.nlm.nih.gov/mesh/Q000627",
+   "http://id.nlm.nih.gov/mesh/Q000235",
+   "http://id.nlm.nih.gov/mesh/Q000493",
+   "http://id.nlm.nih.gov/mesh/Q000008",
+   "http://id.nlm.nih.gov/mesh/Q000276",
+   "http://id.nlm.nih.gov/mesh/Q000528",
+   "http://id.nlm.nih.gov/mesh/Q000172",
+   "http://id.nlm.nih.gov/mesh/Q000097",
+   "http://id.nlm.nih.gov/mesh/Q000191",
+   "http://id.nlm.nih.gov/mesh/Q000592",
+   "http://id.nlm.nih.gov/mesh/Q000502",
+   "http://id.nlm.nih.gov/mesh/Q000031",
+   "http://id.nlm.nih.gov/mesh/Q000009",
+   "http://id.nlm.nih.gov/mesh/Q000037",
+   "http://id.nlm.nih.gov/mesh/Q000134",
+   "http://id.nlm.nih.gov/mesh/Q000494",
+   "http://id.nlm.nih.gov/mesh/Q000302",
+   "http://id.nlm.nih.gov/mesh/Q000633",
+   "http://id.nlm.nih.gov/mesh/Q000032",
+   "http://id.nlm.nih.gov/mesh/Q000600"
+  ],
+  "broaderDescriptor": [
+   "http://id.nlm.nih.gov/mesh/D045167",
+   "http://id.nlm.nih.gov/mesh/D003339",
+   "http://id.nlm.nih.gov/mesh/D011282"
+  ],
+  "concept": [
+   "http://id.nlm.nih.gov/mesh/M0329760",
+   "http://id.nlm.nih.gov/mesh/M0329761",
+   "http://id.nlm.nih.gov/mesh/M0329762"
+  ],
+  "dateIntroduced": "1966-01-01",
+  "identifier": "D011374",
+  "lastUpdated": "2026-01-01",
+  "nlmClassificationNumber": "WP 530",
+  "pharmacologicalAction": [
+   "http://id.nlm.nih.gov/mesh/D011372",
+   "http://id.nlm.nih.gov/mesh/D000081227"
+  ],
+  "preferredConcept": "http://id.nlm.nih.gov/mesh/M0017672",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T033552",
+  "seeAlso": "http://id.nlm.nih.gov/mesh/D011980",
+  "treeNumber": [
+   "http://id.nlm.nih.gov/mesh/D06.472.334.851.687.750",
+   "http://id.nlm.nih.gov/mesh/D06.472.334.734.623",
+   "http://id.nlm.nih.gov/mesh/D04.210.500.745.745.654.829"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Progesterone"
+  },
+  "@context": {
+   "concept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#concept",
+    "@type": "@id"
+   },
+   "allowableQualifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#allowableQualifier",
+    "@type": "@id"
+   },
+   "broaderDescriptor": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "pharmacologicalAction": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#pharmacologicalAction",
+    "@type": "@id"
+   },
+   "nlmClassificationNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#nlmClassificationNumber"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "treeNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#treeNumber",
+    "@type": "@id"
+   },
+   "preferredConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredConcept",
+    "@type": "@id"
+   },
+   "dateIntroduced": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#dateIntroduced",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "lastUpdated": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#lastUpdated",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "seeAlso": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#seeAlso",
+    "@type": "@id"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   }
+  }
+ }
+}

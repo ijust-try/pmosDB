@@ -1,0 +1,49 @@
+{
+ "source": "mesh",
+ "query": "M0328041",
+ "url": "https://id.nlm.nih.gov/mesh/M0328041.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:21:43+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0328041",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0328041",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T358041",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A single nucleotide variation in a genetic sequence that occurs at appreciable frequency in the population."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T361743",
+   "http://id.nlm.nih.gov/mesh/T361742"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Polymorphism, Single Nucleotide"
+  },
+  "@context": {
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   }
+  }
+ }
+}

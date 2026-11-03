@@ -1,0 +1,41 @@
+{
+ "source": "mesh",
+ "query": "M0000078",
+ "url": "https://id.nlm.nih.gov/mesh/M0000078.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:14:21+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0000078",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0000078",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T000145",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A circumscribed melanosis consisting of a brown-pigmented, velvety verrucosity or fine papillomatosis appearing in the axillae and other body folds. It occurs in association with endocrine disorders, underlying malignancy, administration of certain drugs, or as in inherited disorder."
+  },
+  "label": {
+   "@language": "en",
+   "@value": "Acanthosis Nigricans"
+  },
+  "@context": {
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   }
+  }
+ }
+}

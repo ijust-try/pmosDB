@@ -1,0 +1,41 @@
+{
+ "source": "mesh",
+ "query": "M0010381",
+ "url": "https://id.nlm.nih.gov/mesh/M0010381.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:11:46+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0010381",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0010381",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T019947",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A condition observed in WOMEN and CHILDREN when there is excess coarse body hair of an adult male distribution pattern, such as facial and chest areas. It is the result of elevated ANDROGENS from the OVARIES, the ADRENAL GLANDS, or exogenous sources. The concept does not include HYPERTRICHOSIS, which is an androgen-independent excessive hair growth."
+  },
+  "label": {
+   "@language": "en",
+   "@value": "Hirsutism"
+  },
+  "@context": {
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   }
+  }
+ }
+}

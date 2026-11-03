@@ -1,0 +1,41 @@
+{
+ "source": "mesh",
+ "query": "M0015602",
+ "url": "https://id.nlm.nih.gov/mesh/M0015602.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:17:05+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0015602",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0015602",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T029750",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "The discharge of an OVUM from a rupturing follicle in the OVARY."
+  },
+  "label": {
+   "@language": "en",
+   "@value": "Ovulation"
+  },
+  "@context": {
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   }
+  }
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "source": "mesh",
+ "query": "D002097",
+ "url": "https://id.nlm.nih.gov/mesh/D002097.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:20:56+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/D002097",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "allowableQualifier": [
+   "http://id.nlm.nih.gov/mesh/Q000819",
+   "http://id.nlm.nih.gov/mesh/Q000138",
+   "http://id.nlm.nih.gov/mesh/Q000652",
+   "http://id.nlm.nih.gov/mesh/Q000648",
+   "http://id.nlm.nih.gov/mesh/Q000191",
+   "http://id.nlm.nih.gov/mesh/Q000627",
+   "http://id.nlm.nih.gov/mesh/Q000378",
+   "http://id.nlm.nih.gov/mesh/Q000600",
+   "http://id.nlm.nih.gov/mesh/Q000737",
+   "http://id.nlm.nih.gov/mesh/Q000493",
+   "http://id.nlm.nih.gov/mesh/Q000032",
+   "http://id.nlm.nih.gov/mesh/Q000506",
+   "http://id.nlm.nih.gov/mesh/Q000096",
+   "http://id.nlm.nih.gov/mesh/Q000037",
+   "http://id.nlm.nih.gov/mesh/Q000633",
+   "http://id.nlm.nih.gov/mesh/Q000134",
+   "http://id.nlm.nih.gov/mesh/Q000502",
+   "http://id.nlm.nih.gov/mesh/Q000592",
+   "http://id.nlm.nih.gov/mesh/Q000009",
+   "http://id.nlm.nih.gov/mesh/Q000187",
+   "http://id.nlm.nih.gov/mesh/Q000172",
+   "http://id.nlm.nih.gov/mesh/Q000031",
+   "http://id.nlm.nih.gov/mesh/Q000302",
+   "http://id.nlm.nih.gov/mesh/Q000276",
+   "http://id.nlm.nih.gov/mesh/Q000235",
+   "http://id.nlm.nih.gov/mesh/Q000266",
+   "http://id.nlm.nih.gov/mesh/Q000494",
+   "http://id.nlm.nih.gov/mesh/Q000008",
+   "http://id.nlm.nih.gov/mesh/Q000528",
+   "http://id.nlm.nih.gov/mesh/Q000145"
+  ],
+  "annotation": {
+   "@language": "en",
+   "@value": "an acute phase protein; /drug eff /ultrastruct permitted"
+  },
+  "broaderDescriptor": [
+   "http://id.nlm.nih.gov/mesh/D000418",
+   "http://id.nlm.nih.gov/mesh/D000099153",
+   "http://id.nlm.nih.gov/mesh/D007162"
+  ],
+  "dateIntroduced": "1966-01-01",
+  "identifier": "D002097",
+  "lastUpdated": "2026-01-01",
+  "nlmClassificationNumber": "WH 400",
+  "preferredConcept": "http://id.nlm.nih.gov/mesh/M0003122",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T005955",
+  "treeNumber": [
+   "http://id.nlm.nih.gov/mesh/D12.776.124.486.157",
+   "http://id.nlm.nih.gov/mesh/D12.776.034.145",
+   "http://id.nlm.nih.gov/mesh/D12.776.124.050.001.001"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "C-Reactive Protein"
+  },
+  "@context": {
+   "allowableQualifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#allowableQualifier",
+    "@type": "@id"
+   },
+   "lastUpdated": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#lastUpdated",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "dateIntroduced": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#dateIntroduced",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "broaderDescriptor": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",
+    "@type": "@id"
+   },
+   "treeNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#treeNumber",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "annotation": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#annotation"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "nlmClassificationNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#nlmClassificationNumber"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "preferredConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredConcept",
+    "@type": "@id"
+   }
+  }
+ }
+}

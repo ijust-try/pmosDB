@@ -1,0 +1,63 @@
+{
+ "source": "mesh",
+ "query": "M0052517",
+ "url": "https://id.nlm.nih.gov/mesh/M0052517.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:19:03+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0052517",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "casn1_label": {
+   "@language": "en",
+   "@value": "Muellerian Inhibiting Hormone"
+  },
+  "identifier": "M0052517",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T082515",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A glycoprotein that causes regression of MULLERIAN DUCTS. It is produced by SERTOLI CELLS of the TESTES. In the absence of this hormone, the Mullerian ducts develop into structures of the female reproductive tract. In males, defects of this hormone result in persistent Mullerian duct, a form of MALE PSEUDOHERMAPHRODITISM."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T082520",
+   "http://id.nlm.nih.gov/mesh/T082513",
+   "http://id.nlm.nih.gov/mesh/T082514",
+   "http://id.nlm.nih.gov/mesh/T082519",
+   "http://id.nlm.nih.gov/mesh/T562922",
+   "http://id.nlm.nih.gov/mesh/T082517",
+   "http://id.nlm.nih.gov/mesh/T082516",
+   "http://id.nlm.nih.gov/mesh/T082518",
+   "http://id.nlm.nih.gov/mesh/T000939032"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Anti-Mullerian Hormone"
+  },
+  "@context": {
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "casn1_label": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#casn1_label"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   }
+  }
+ }
+}

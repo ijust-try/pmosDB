@@ -1,0 +1,46 @@
+{
+ "source": "mesh",
+ "query": "M0000887",
+ "url": "https://id.nlm.nih.gov/mesh/M0000887.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:13:32+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0000887",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0000887",
+  "narrowerConcept": "http://id.nlm.nih.gov/mesh/M0000888",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T001745",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "Absence of menstruation."
+  },
+  "label": {
+   "@language": "en",
+   "@value": "Amenorrhea"
+  },
+  "@context": {
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   }
+  }
+ }
+}

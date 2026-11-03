@@ -1,0 +1,134 @@
+{
+ "source": "mesh",
+ "query": "D054439",
+ "url": "https://id.nlm.nih.gov/mesh/D054439.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:21:02+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/D054439",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "allowableQualifier": [
+   "http://id.nlm.nih.gov/mesh/Q000627",
+   "http://id.nlm.nih.gov/mesh/Q000235",
+   "http://id.nlm.nih.gov/mesh/Q000031",
+   "http://id.nlm.nih.gov/mesh/Q000819",
+   "http://id.nlm.nih.gov/mesh/Q000266",
+   "http://id.nlm.nih.gov/mesh/Q000378",
+   "http://id.nlm.nih.gov/mesh/Q000009",
+   "http://id.nlm.nih.gov/mesh/Q000302",
+   "http://id.nlm.nih.gov/mesh/Q000506",
+   "http://id.nlm.nih.gov/mesh/Q000600",
+   "http://id.nlm.nih.gov/mesh/Q000652",
+   "http://id.nlm.nih.gov/mesh/Q000096",
+   "http://id.nlm.nih.gov/mesh/Q000276",
+   "http://id.nlm.nih.gov/mesh/Q000592",
+   "http://id.nlm.nih.gov/mesh/Q000494",
+   "http://id.nlm.nih.gov/mesh/Q000037",
+   "http://id.nlm.nih.gov/mesh/Q000145",
+   "http://id.nlm.nih.gov/mesh/Q000008",
+   "http://id.nlm.nih.gov/mesh/Q000134",
+   "http://id.nlm.nih.gov/mesh/Q000172",
+   "http://id.nlm.nih.gov/mesh/Q000633",
+   "http://id.nlm.nih.gov/mesh/Q000528",
+   "http://id.nlm.nih.gov/mesh/Q000187",
+   "http://id.nlm.nih.gov/mesh/Q000493",
+   "http://id.nlm.nih.gov/mesh/Q000032",
+   "http://id.nlm.nih.gov/mesh/Q000502",
+   "http://id.nlm.nih.gov/mesh/Q000737",
+   "http://id.nlm.nih.gov/mesh/Q000138",
+   "http://id.nlm.nih.gov/mesh/Q000097",
+   "http://id.nlm.nih.gov/mesh/Q000191"
+  ],
+  "broaderDescriptor": "http://id.nlm.nih.gov/mesh/D036361",
+  "concept": [
+   "http://id.nlm.nih.gov/mesh/M0368310",
+   "http://id.nlm.nih.gov/mesh/M0504911",
+   "http://id.nlm.nih.gov/mesh/M0504910"
+  ],
+  "dateIntroduced": "2008-01-01",
+  "historyNote": {
+   "@language": "en",
+   "@value": "2008 (2000)"
+  },
+  "identifier": "D054439",
+  "lastUpdated": "2008-01-01",
+  "preferredConcept": "http://id.nlm.nih.gov/mesh/M0354824",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T404136",
+  "previousIndexing": [
+   {
+    "@language": "en",
+    "@value": "Peptide Hormones (1999-2007)"
+   },
+   {
+    "@language": "en",
+    "@value": "Growth Hormone-Releasing Hormone (2000-2007)"
+   }
+  ],
+  "publicMeSHNote": {
+   "@language": "en",
+   "@value": "2008; GHRELIN was indexed under PEPTIDE HORMONES 2000-2007"
+  },
+  "treeNumber": [
+   "http://id.nlm.nih.gov/mesh/D06.472.699.301",
+   "http://id.nlm.nih.gov/mesh/D12.644.548.322"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Ghrelin"
+  },
+  "@context": {
+   "allowableQualifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#allowableQualifier",
+    "@type": "@id"
+   },
+   "concept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#concept",
+    "@type": "@id"
+   },
+   "preferredConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredConcept",
+    "@type": "@id"
+   },
+   "publicMeSHNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#publicMeSHNote"
+   },
+   "treeNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#treeNumber",
+    "@type": "@id"
+   },
+   "previousIndexing": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#previousIndexing"
+   },
+   "broaderDescriptor": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "lastUpdated": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#lastUpdated",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "historyNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#historyNote"
+   },
+   "dateIntroduced": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#dateIntroduced",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   }
+  }
+ }
+}

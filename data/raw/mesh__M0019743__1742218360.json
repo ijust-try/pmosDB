@@ -1,0 +1,49 @@
+{
+ "source": "mesh",
+ "query": "M0019743",
+ "url": "https://id.nlm.nih.gov/mesh/M0019743.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:19:08+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0019743",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0019743",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T037646",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A glycoprotein migrating as a beta-globulin. Its molecular weight, 52,000 or 95,000-115,000, indicates that it exists as a dimer. The protein binds testosterone, dihydrotestosterone, and estradiol in the plasma. Sex hormone-binding protein has the same amino acid sequence as ANDROGEN-BINDING PROTEIN. They differ by their sites of synthesis and post-translational oligosaccharide modifications."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T037648",
+   "http://id.nlm.nih.gov/mesh/T037647"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Sex Hormone-Binding Globulin"
+  },
+  "@context": {
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   }
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "source": "mesh",
+ "query": "M0011432",
+ "url": "https://id.nlm.nih.gov/mesh/M0011432.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:11:58+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0011432",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0011432",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T021957",
+  "relatedConcept": "http://id.nlm.nih.gov/mesh/M0549710",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "Diminished effectiveness of INSULIN in lowering blood sugar levels: requiring the use of 200 units or more of insulin per day to prevent HYPERGLYCEMIA or KETOSIS."
+  },
+  "label": {
+   "@language": "en",
+   "@value": "Insulin Resistance"
+  },
+  "@context": {
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "relatedConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#relatedConcept",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   }
+  }
+ }
+}

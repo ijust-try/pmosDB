@@ -1,0 +1,57 @@
+{
+ "source": "mesh",
+ "query": "M0008869",
+ "url": "https://id.nlm.nih.gov/mesh/M0008869.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:18:58+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0008869",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "casn1_label": {
+   "@language": "en",
+   "@value": "Follicle-stimulating hormone"
+  },
+  "identifier": "M0008869",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T017059",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A major gonadotropin secreted by the adenohypophysis (PITUITARY GLAND, ANTERIOR). Follicle-stimulating hormone stimulates GAMETOGENESIS and the supporting cells such as the ovarian GRANULOSA CELLS, the testicular SERTOLI CELLS, and LEYDIG CELLS. FSH consists of two noncovalently linked subunits, alpha and beta. Within a species, the alpha subunit is common in the three pituitary glycoprotein hormones (TSH, LH, and FSH), but the beta subunit is unique and confers its biological specificity."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T485842",
+   "http://id.nlm.nih.gov/mesh/T017057",
+   "http://id.nlm.nih.gov/mesh/T017060"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Follicle Stimulating Hormone"
+  },
+  "@context": {
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "casn1_label": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#casn1_label"
+   }
+  }
+ }
+}

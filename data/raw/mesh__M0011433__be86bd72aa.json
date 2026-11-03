@@ -1,0 +1,60 @@
+{
+ "source": "mesh",
+ "query": "M0011433",
+ "url": "https://id.nlm.nih.gov/mesh/M0011433.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:15:55+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0011433",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0011433",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T000912444",
+  "relatedConcept": "http://id.nlm.nih.gov/mesh/M000678837",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A cluster of symptoms that are risk factors for CARDIOVASCULAR DISEASES and TYPE 2 DIABETES MELLITUS. The major components of metabolic syndrome include ABDOMINAL OBESITY; atherogenic DYSLIPIDEMIA; HYPERTENSION; HYPERGLYCEMIA; INSULIN RESISTANCE; a proinflammatory state; and a prothrombotic (THROMBOSIS) state."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T535798",
+   "http://id.nlm.nih.gov/mesh/T427908",
+   "http://id.nlm.nih.gov/mesh/T533768",
+   "http://id.nlm.nih.gov/mesh/T427850",
+   "http://id.nlm.nih.gov/mesh/T427848",
+   "http://id.nlm.nih.gov/mesh/T021958",
+   "http://id.nlm.nih.gov/mesh/T427851",
+   "http://id.nlm.nih.gov/mesh/T533769"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Metabolic Syndrome"
+  },
+  "@context": {
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "relatedConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#relatedConcept",
+    "@type": "@id"
+   }
+  }
+ }
+}

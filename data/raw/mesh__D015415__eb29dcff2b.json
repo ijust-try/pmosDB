@@ -1,0 +1,114 @@
+{
+ "source": "mesh",
+ "query": "D015415",
+ "url": "https://id.nlm.nih.gov/mesh/D015415.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:21:46+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/D015415",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "allowableQualifier": [
+   "http://id.nlm.nih.gov/mesh/Q000378",
+   "http://id.nlm.nih.gov/mesh/Q000737",
+   "http://id.nlm.nih.gov/mesh/Q000032",
+   "http://id.nlm.nih.gov/mesh/Q000097",
+   "http://id.nlm.nih.gov/mesh/Q000652",
+   "http://id.nlm.nih.gov/mesh/Q000134"
+  ],
+  "annotation": {
+   "@language": "en",
+   "@value": "IM general only; coordinate with specific substance; note that many specific markers are available"
+  },
+  "broaderDescriptor": "http://id.nlm.nih.gov/mesh/D001685",
+  "concept": [
+   "http://id.nlm.nih.gov/mesh/M0023755",
+   "http://id.nlm.nih.gov/mesh/M0023758",
+   "http://id.nlm.nih.gov/mesh/M0023754",
+   "http://id.nlm.nih.gov/mesh/M0023757",
+   "http://id.nlm.nih.gov/mesh/M0023759",
+   "http://id.nlm.nih.gov/mesh/M0023753",
+   "http://id.nlm.nih.gov/mesh/M0023760",
+   "http://id.nlm.nih.gov/mesh/M0023756"
+  ],
+  "dateIntroduced": "1989-01-01",
+  "historyNote": {
+   "@language": "en",
+   "@value": "2016(1989)"
+  },
+  "identifier": "D015415",
+  "lastUpdated": "2020-05-14",
+  "preferredConcept": "http://id.nlm.nih.gov/mesh/M0023752",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T686148",
+  "publicMeSHNote": {
+   "@language": "en",
+   "@value": "2016; See BIOLOGICAL MARKERS 1989-2015"
+  },
+  "seeAlso": [
+   "http://id.nlm.nih.gov/mesh/D015335",
+   "http://id.nlm.nih.gov/mesh/D058068"
+  ],
+  "treeNumber": "http://id.nlm.nih.gov/mesh/D23.101",
+  "label": {
+   "@language": "en",
+   "@value": "Biomarkers"
+  },
+  "@context": {
+   "historyNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#historyNote"
+   },
+   "concept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#concept",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "allowableQualifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#allowableQualifier",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "seeAlso": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#seeAlso",
+    "@type": "@id"
+   },
+   "treeNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#treeNumber",
+    "@type": "@id"
+   },
+   "lastUpdated": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#lastUpdated",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "broaderDescriptor": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",
+    "@type": "@id"
+   },
+   "dateIntroduced": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#dateIntroduced",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "preferredConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredConcept",
+    "@type": "@id"
+   },
+   "publicMeSHNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#publicMeSHNote"
+   },
+   "annotation": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#annotation"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   }
+  }
+ }
+}

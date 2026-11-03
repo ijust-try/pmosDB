@@ -1,0 +1,60 @@
+{
+ "source": "mesh",
+ "query": "M0011417",
+ "url": "https://id.nlm.nih.gov/mesh/M0011417.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:19:13+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0011417",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0011417",
+  "narrowerConcept": [
+   "http://id.nlm.nih.gov/mesh/M0011416",
+   "http://id.nlm.nih.gov/mesh/M0011421",
+   "http://id.nlm.nih.gov/mesh/M0011420",
+   "http://id.nlm.nih.gov/mesh/M0011418",
+   "http://id.nlm.nih.gov/mesh/M0557300"
+  ],
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T021939",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A 51-amino acid pancreatic hormone that plays a major role in the regulation of glucose metabolism, directly by suppressing endogenous glucose production (GLYCOGENOLYSIS; GLUCONEOGENESIS) and indirectly by suppressing GLUCAGON secretion and LIPOLYSIS. Native insulin is a globular protein comprised of a zinc-coordinated hexamer. Each insulin monomer containing two chains, A (21 residues) and B (30 residues), linked by two disulfide bonds. Insulin is used as a drug to control insulin-dependent diabetes mellitus (DIABETES MELLITUS, TYPE 1)."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T790029",
+   "http://id.nlm.nih.gov/mesh/T493682"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Insulin"
+  },
+  "@context": {
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   }
+  }
+ }
+}

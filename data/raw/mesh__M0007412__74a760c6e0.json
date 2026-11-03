@@ -1,0 +1,50 @@
+{
+ "source": "mesh",
+ "query": "M0007412",
+ "url": "https://id.nlm.nih.gov/mesh/M0007412.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:17:19+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0007412",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0007412",
+  "narrowerConcept": [
+   "http://id.nlm.nih.gov/mesh/M0406717",
+   "http://id.nlm.nih.gov/mesh/M0406716",
+   "http://id.nlm.nih.gov/mesh/M0406718"
+  ],
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T014430",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "Benign proliferation of the ENDOMETRIUM in the UTERUS. Endometrial hyperplasia is classified by its cytology and glandular tissue. There are simple, complex (adenomatous without atypia), and atypical hyperplasia representing also the ascending risk of becoming malignant."
+  },
+  "label": {
+   "@language": "en",
+   "@value": "Endometrial Hyperplasia"
+  },
+  "@context": {
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   }
+  }
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "source": "mesh",
+ "query": "D007247",
+ "url": "https://id.nlm.nih.gov/mesh/D007247.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:14:55+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/D007247",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "allowableQualifier": [
+   "http://id.nlm.nih.gov/mesh/Q000139",
+   "http://id.nlm.nih.gov/mesh/Q000453",
+   "http://id.nlm.nih.gov/mesh/Q000401",
+   "http://id.nlm.nih.gov/mesh/Q000601",
+   "http://id.nlm.nih.gov/mesh/Q000523",
+   "http://id.nlm.nih.gov/mesh/Q000178",
+   "http://id.nlm.nih.gov/mesh/Q000191",
+   "http://id.nlm.nih.gov/mesh/Q000134",
+   "http://id.nlm.nih.gov/mesh/Q000532",
+   "http://id.nlm.nih.gov/mesh/Q000151",
+   "http://id.nlm.nih.gov/mesh/Q000451",
+   "http://id.nlm.nih.gov/mesh/Q000201",
+   "http://id.nlm.nih.gov/mesh/Q000145",
+   "http://id.nlm.nih.gov/mesh/Q000175",
+   "http://id.nlm.nih.gov/mesh/Q000503",
+   "http://id.nlm.nih.gov/mesh/Q000188",
+   "http://id.nlm.nih.gov/mesh/Q000662",
+   "http://id.nlm.nih.gov/mesh/Q000000981",
+   "http://id.nlm.nih.gov/mesh/Q000208",
+   "http://id.nlm.nih.gov/mesh/Q000276",
+   "http://id.nlm.nih.gov/mesh/Q000473",
+   "http://id.nlm.nih.gov/mesh/Q000382",
+   "http://id.nlm.nih.gov/mesh/Q000517",
+   "http://id.nlm.nih.gov/mesh/Q000378",
+   "http://id.nlm.nih.gov/mesh/Q000196",
+   "http://id.nlm.nih.gov/mesh/Q000150",
+   "http://id.nlm.nih.gov/mesh/Q000266",
+   "http://id.nlm.nih.gov/mesh/Q000652",
+   "http://id.nlm.nih.gov/mesh/Q000821",
+   "http://id.nlm.nih.gov/mesh/Q000209",
+   "http://id.nlm.nih.gov/mesh/Q000628",
+   "http://id.nlm.nih.gov/mesh/Q000469",
+   "http://id.nlm.nih.gov/mesh/Q000097",
+   "http://id.nlm.nih.gov/mesh/Q000534",
+   "http://id.nlm.nih.gov/mesh/Q000235"
+  ],
+  "annotation": {
+   "@language": "en",
+   "@value": "/chem ind permitted but not for testing of contraceptives"
+  },
+  "broaderDescriptor": [
+   "http://id.nlm.nih.gov/mesh/D007246",
+   "http://id.nlm.nih.gov/mesh/D005831"
+  ],
+  "concept": [
+   "http://id.nlm.nih.gov/mesh/M0549702",
+   "http://id.nlm.nih.gov/mesh/M0011305",
+   "http://id.nlm.nih.gov/mesh/M0329024"
+  ],
+  "dateIntroduced": "1983-01-01",
+  "historyNote": {
+   "@language": "en",
+   "@value": "83; was STERILITY, FEMALE 1963-82"
+  },
+  "identifier": "D007247",
+  "lastUpdated": "2021-06-30",
+  "nlmClassificationNumber": "WP 573",
+  "onlineNote": {
+   "@language": "en",
+   "@value": "use INFERTILITY, FEMALE to search STERILITY, FEMALE 1966-82"
+  },
+  "preferredConcept": "http://id.nlm.nih.gov/mesh/M0011304",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T021726",
+  "publicMeSHNote": {
+   "@language": "en",
+   "@value": "83; was STERILITY, FEMALE 1963-82"
+  },
+  "treeNumber": [
+   "http://id.nlm.nih.gov/mesh/C12.100.750.350",
+   "http://id.nlm.nih.gov/mesh/C12.050.351.500.498",
+   "http://id.nlm.nih.gov/mesh/C12.100.250.498"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Infertility, Female"
+  },
+  "@context": {
+   "treeNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#treeNumber",
+    "@type": "@id"
+   },
+   "allowableQualifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#allowableQualifier",
+    "@type": "@id"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "concept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#concept",
+    "@type": "@id"
+   },
+   "dateIntroduced": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#dateIntroduced",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "broaderDescriptor": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",
+    "@type": "@id"
+   },
+   "annotation": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#annotation"
+   },
+   "nlmClassificationNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#nlmClassificationNumber"
+   },
+   "onlineNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#onlineNote"
+   },
+   "lastUpdated": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#lastUpdated",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "preferredConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredConcept",
+    "@type": "@id"
+   },
+   "publicMeSHNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#publicMeSHNote"
+   },
+   "historyNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#historyNote"
+   }
+  }
+ }
+}

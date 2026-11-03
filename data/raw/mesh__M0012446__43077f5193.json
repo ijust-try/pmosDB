@@ -1,0 +1,87 @@
+{
+ "source": "mesh",
+ "query": "M0012446",
+ "url": "https://id.nlm.nih.gov/mesh/M0012446.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:20:47+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0012446",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "casn1_label": {
+   "@language": "en",
+   "@value": "5-oxoPro-His-Trp-Ser-Tyr-Gly-Leu-Arg-Pro-Gly-NH2 (human or pig)"
+  },
+  "identifier": "M0012446",
+  "narrowerConcept": [
+   "http://id.nlm.nih.gov/mesh/M0012448",
+   "http://id.nlm.nih.gov/mesh/M0331413",
+   "http://id.nlm.nih.gov/mesh/M0012450",
+   "http://id.nlm.nih.gov/mesh/M0012447",
+   "http://id.nlm.nih.gov/mesh/M0012449",
+   "http://id.nlm.nih.gov/mesh/M0331412"
+  ],
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T023814",
+  "relatedRegistryNumber": [
+   "51952-41-1 (Hydrochloride)",
+   "52699-48-6 (Acetate)"
+  ],
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A decapeptide that stimulates the synthesis and secretion of both pituitary gonadotropins, LUTEINIZING HORMONE and FOLLICLE STIMULATING HORMONE. GnRH is produced by neurons in the septum PREOPTIC AREA of the HYPOTHALAMUS and released into the pituitary portal blood, leading to stimulation of GONADOTROPHS in the ANTERIOR PITUITARY GLAND."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T023816",
+   "http://id.nlm.nih.gov/mesh/T023824",
+   "http://id.nlm.nih.gov/mesh/T023815",
+   "http://id.nlm.nih.gov/mesh/T023822",
+   "http://id.nlm.nih.gov/mesh/T023819",
+   "http://id.nlm.nih.gov/mesh/T023823",
+   "http://id.nlm.nih.gov/mesh/T023821",
+   "http://id.nlm.nih.gov/mesh/T023818",
+   "http://id.nlm.nih.gov/mesh/T023812",
+   "http://id.nlm.nih.gov/mesh/T023811",
+   "http://id.nlm.nih.gov/mesh/T023825",
+   "http://id.nlm.nih.gov/mesh/T023813",
+   "http://id.nlm.nih.gov/mesh/T023820",
+   "http://id.nlm.nih.gov/mesh/T023817"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Gonadotropin-Releasing Hormone"
+  },
+  "@context": {
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "relatedRegistryNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#relatedRegistryNumber"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "casn1_label": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#casn1_label"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   }
+  }
+ }
+}

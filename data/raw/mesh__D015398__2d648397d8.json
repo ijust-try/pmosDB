@@ -1,0 +1,121 @@
+{
+ "source": "mesh",
+ "query": "D015398",
+ "url": "https://id.nlm.nih.gov/mesh/D015398.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:21:55+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/D015398",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "allowableQualifier": [
+   "http://id.nlm.nih.gov/mesh/Q000276",
+   "http://id.nlm.nih.gov/mesh/Q000528",
+   "http://id.nlm.nih.gov/mesh/Q000235",
+   "http://id.nlm.nih.gov/mesh/Q000187",
+   "http://id.nlm.nih.gov/mesh/Q000502"
+  ],
+  "broaderDescriptor": [
+   "http://id.nlm.nih.gov/mesh/D001669",
+   "http://id.nlm.nih.gov/mesh/D002468"
+  ],
+  "concept": [
+   "http://id.nlm.nih.gov/mesh/M0023727",
+   "http://id.nlm.nih.gov/mesh/M0023728",
+   "http://id.nlm.nih.gov/mesh/M0023730"
+  ],
+  "dateIntroduced": "1989-01-01",
+  "historyNote": {
+   "@language": "en",
+   "@value": "89"
+  },
+  "identifier": "D015398",
+  "lastUpdated": "2019-07-05",
+  "nlmClassificationNumber": "QU 375",
+  "preferredConcept": "http://id.nlm.nih.gov/mesh/M0023729",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T045414",
+  "previousIndexing": [
+   {
+    "@language": "en",
+    "@value": "specific compounds/physiology (1977-1988)"
+   },
+   {
+    "@language": "en",
+    "@value": "Membrane Potentials (1977-1988)"
+   }
+  ],
+  "publicMeSHNote": {
+   "@language": "en",
+   "@value": "89"
+  },
+  "seeAlso": "http://id.nlm.nih.gov/mesh/D007473",
+  "treeNumber": [
+   "http://id.nlm.nih.gov/mesh/G02.111.820",
+   "http://id.nlm.nih.gov/mesh/G04.835"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Signal Transduction"
+  },
+  "@context": {
+   "lastUpdated": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#lastUpdated",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "allowableQualifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#allowableQualifier",
+    "@type": "@id"
+   },
+   "concept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#concept",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "previousIndexing": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#previousIndexing"
+   },
+   "dateIntroduced": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#dateIntroduced",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "nlmClassificationNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#nlmClassificationNumber"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "broaderDescriptor": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",
+    "@type": "@id"
+   },
+   "treeNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#treeNumber",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "historyNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#historyNote"
+   },
+   "preferredConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredConcept",
+    "@type": "@id"
+   },
+   "seeAlso": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#seeAlso",
+    "@type": "@id"
+   },
+   "publicMeSHNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#publicMeSHNote"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   }
+  }
+ }
+}

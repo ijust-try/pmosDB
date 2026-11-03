@@ -1,0 +1,160 @@
+{
+ "source": "mesh",
+ "query": "D012738",
+ "url": "https://id.nlm.nih.gov/mesh/D012738.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:19:06+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/D012738",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "allowableQualifier": [
+   "http://id.nlm.nih.gov/mesh/Q000187",
+   "http://id.nlm.nih.gov/mesh/Q000506",
+   "http://id.nlm.nih.gov/mesh/Q000600",
+   "http://id.nlm.nih.gov/mesh/Q000031",
+   "http://id.nlm.nih.gov/mesh/Q000276",
+   "http://id.nlm.nih.gov/mesh/Q000302",
+   "http://id.nlm.nih.gov/mesh/Q000134",
+   "http://id.nlm.nih.gov/mesh/Q000648",
+   "http://id.nlm.nih.gov/mesh/Q000494",
+   "http://id.nlm.nih.gov/mesh/Q000819",
+   "http://id.nlm.nih.gov/mesh/Q000037",
+   "http://id.nlm.nih.gov/mesh/Q000627",
+   "http://id.nlm.nih.gov/mesh/Q000145",
+   "http://id.nlm.nih.gov/mesh/Q000138",
+   "http://id.nlm.nih.gov/mesh/Q000737",
+   "http://id.nlm.nih.gov/mesh/Q000009",
+   "http://id.nlm.nih.gov/mesh/Q000592",
+   "http://id.nlm.nih.gov/mesh/Q000191",
+   "http://id.nlm.nih.gov/mesh/Q000493",
+   "http://id.nlm.nih.gov/mesh/Q000378",
+   "http://id.nlm.nih.gov/mesh/Q000528",
+   "http://id.nlm.nih.gov/mesh/Q000172",
+   "http://id.nlm.nih.gov/mesh/Q000633",
+   "http://id.nlm.nih.gov/mesh/Q000652",
+   "http://id.nlm.nih.gov/mesh/Q000235",
+   "http://id.nlm.nih.gov/mesh/Q000266",
+   "http://id.nlm.nih.gov/mesh/Q000032",
+   "http://id.nlm.nih.gov/mesh/Q000008",
+   "http://id.nlm.nih.gov/mesh/Q000502",
+   "http://id.nlm.nih.gov/mesh/Q000096"
+  ],
+  "annotation": {
+   "@language": "en",
+   "@value": "does not refer to all sex hormones: refers to a specific protein in the blood binding only testosterone or estradiol; for other sex hormone-binding globulins consider ANDROGEN-BINDING PROTEIN & PROGESTERONE-BINDING GLOBULIN"
+  },
+  "broaderDescriptor": [
+   "http://id.nlm.nih.gov/mesh/D001609",
+   "http://id.nlm.nih.gov/mesh/D002352"
+  ],
+  "dateIntroduced": "1977-01-01",
+  "historyNote": {
+   "@language": "en",
+   "@value": "77; SEX STEROID-BINDING PROTEIN was SEX-STEROID-BINDING PROTEIN (NM) 1981-91; ESTRADIOL-BINDING GLOBULIN & TESTOSTERONE-BINDING GLOBULIN were see SEX HORMONE-BINDING GLOBULIN 1977-92"
+  },
+  "identifier": "D012738",
+  "lastUpdated": "2019-05-24",
+  "onlineNote": {
+   "@language": "en",
+   "@value": "use SEX HORMONE-BINDING GLOBULIN (NM) to search SEX-STEROID-BINDING PROTEIN 1981-91; use SEX HORMONE-BINDING GLOBULIN to search ESTRADIOL-BINDING GLOBULIN & TESTOSTERONE-BINDING GLOBULIN 1977-92"
+  },
+  "preferredConcept": "http://id.nlm.nih.gov/mesh/M0019743",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T037646",
+  "previousIndexing": [
+   {
+    "@language": "en",
+    "@value": "Glycoproteins (1974-1975)"
+   },
+   {
+    "@language": "en",
+    "@value": "Carrier Proteins (1971-1991)"
+   },
+   {
+    "@language": "en",
+    "@value": "Beta Globulins (1974-1976)"
+   },
+   {
+    "@language": "en",
+    "@value": "Sex Hormones (1974-1976)"
+   },
+   {
+    "@language": "en",
+    "@value": "Protein Binding (1974-1975)"
+   }
+  ],
+  "publicMeSHNote": {
+   "@language": "en",
+   "@value": "77; SEX-STEROID-BINDING PROTEIN was indexed under CARRIER PROTEINS 1981-91; ESTRADIOL-BINDING GLOBULIN & TESTOSTERONE-BINDING GLOBULIN were see SEX HORMONE-BINDING GLOBULIN 1977-92"
+  },
+  "seeAlso": "http://id.nlm.nih.gov/mesh/D000727",
+  "treeNumber": [
+   "http://id.nlm.nih.gov/mesh/D12.776.377.715.182.800",
+   "http://id.nlm.nih.gov/mesh/D12.776.124.790.223.800",
+   "http://id.nlm.nih.gov/mesh/D12.776.157.762"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Sex Hormone-Binding Globulin"
+  },
+  "@context": {
+   "allowableQualifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#allowableQualifier",
+    "@type": "@id"
+   },
+   "seeAlso": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#seeAlso",
+    "@type": "@id"
+   },
+   "onlineNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#onlineNote"
+   },
+   "previousIndexing": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#previousIndexing"
+   },
+   "treeNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#treeNumber",
+    "@type": "@id"
+   },
+   "preferredConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredConcept",
+    "@type": "@id"
+   },
+   "dateIntroduced": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#dateIntroduced",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "lastUpdated": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#lastUpdated",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "annotation": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#annotation"
+   },
+   "historyNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#historyNote"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "broaderDescriptor": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",
+    "@type": "@id"
+   },
+   "publicMeSHNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#publicMeSHNote"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   }
+  }
+ }
+}

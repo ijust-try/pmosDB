@@ -1,0 +1,54 @@
+{
+ "source": "mesh",
+ "query": "M0354824",
+ "url": "https://id.nlm.nih.gov/mesh/M0354824.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:21:03+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0354824",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0354824",
+  "narrowerConcept": [
+   "http://id.nlm.nih.gov/mesh/M0504910",
+   "http://id.nlm.nih.gov/mesh/M0368310"
+  ],
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T404136",
+  "relatedConcept": "http://id.nlm.nih.gov/mesh/M0504911",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A 28-amino acid, acylated, orexigenic peptide that is a ligand for GROWTH HORMONE SECRETAGOGUE RECEPTORS. Ghrelin is widely expressed but primarily in the stomach in the adults. Ghrelin acts centrally to stimulate growth hormone secretion and food intake, and peripherally to regulate energy homeostasis. Its large precursor protein, known as appetite-regulating hormone or motilin-related peptide, contains ghrelin and obestatin."
+  },
+  "label": {
+   "@language": "en",
+   "@value": "Ghrelin"
+  },
+  "@context": {
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "relatedConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#relatedConcept",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   }
+  }
+ }
+}

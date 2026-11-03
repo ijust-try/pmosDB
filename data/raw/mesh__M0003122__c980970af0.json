@@ -1,0 +1,57 @@
+{
+ "source": "mesh",
+ "query": "M0003122",
+ "url": "https://id.nlm.nih.gov/mesh/M0003122.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:20:58+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0003122",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "casn1_label": {
+   "@language": "en",
+   "@value": "Proteins, specific or class, C-reactive"
+  },
+  "identifier": "M0003122",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T005955",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A plasma protein that circulates in increased amounts during inflammation and after tissue damage. C-Reactive Protein measured by more sensitive methods often for coronary heart disease risk assessment is referred to as High Sensitivity C-Reactive Protein (hs-CRP)."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T000995037",
+   "http://id.nlm.nih.gov/mesh/T000995038",
+   "http://id.nlm.nih.gov/mesh/T000995036"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "C-Reactive Protein"
+  },
+  "@context": {
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "casn1_label": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#casn1_label"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   }
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "source": "mesh",
+ "query": "M0015276",
+ "url": "https://id.nlm.nih.gov/mesh/M0015276.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:13:01+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0015276",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0015276",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T029195",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "Abnormally infrequent menstruation."
+  },
+  "label": {
+   "@language": "en",
+   "@value": "Oligomenorrhea"
+  },
+  "@context": {
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   }
+  }
+ }
+}

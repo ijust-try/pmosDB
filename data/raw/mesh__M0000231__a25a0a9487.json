@@ -1,0 +1,46 @@
+{
+ "source": "mesh",
+ "query": "M0000231",
+ "url": "https://id.nlm.nih.gov/mesh/M0000231.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:13:41+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0000231",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "broaderConcept": "http://id.nlm.nih.gov/mesh/M000636800",
+  "identifier": "M0000231",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T000434",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A chronic disorder of the pilosebaceous apparatus associated with an increase in sebum secretion. It is characterized by open comedones (blackheads), closed comedones (whiteheads), and pustular nodules. The cause is unknown, but heredity and age are predisposing factors."
+  },
+  "label": {
+   "@language": "en",
+   "@value": "Acne Vulgaris"
+  },
+  "@context": {
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "broaderConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#broaderConcept",
+    "@type": "@id"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   }
+  }
+ }
+}

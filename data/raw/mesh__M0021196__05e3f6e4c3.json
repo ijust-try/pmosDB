@@ -1,0 +1,80 @@
+{
+ "source": "mesh",
+ "query": "M0021196",
+ "url": "https://id.nlm.nih.gov/mesh/M0021196.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:17:53+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0021196",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "casn1_label": {
+   "@language": "en",
+   "@value": "Androst-4-en-17beta-ol-3-one"
+  },
+  "identifier": "M0021196",
+  "narrowerConcept": [
+   "http://id.nlm.nih.gov/mesh/M0476220",
+   "http://id.nlm.nih.gov/mesh/M0476209",
+   "http://id.nlm.nih.gov/mesh/M0476211",
+   "http://id.nlm.nih.gov/mesh/M0476208",
+   "http://id.nlm.nih.gov/mesh/M0476210",
+   "http://id.nlm.nih.gov/mesh/M0476213",
+   "http://id.nlm.nih.gov/mesh/M0476212",
+   "http://id.nlm.nih.gov/mesh/M0476221",
+   "http://id.nlm.nih.gov/mesh/M0476219",
+   "http://id.nlm.nih.gov/mesh/M0476218",
+   "http://id.nlm.nih.gov/mesh/M0021198",
+   "http://id.nlm.nih.gov/mesh/M0057170"
+  ],
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T040348",
+  "relatedConcept": "http://id.nlm.nih.gov/mesh/M0442765",
+  "relatedRegistryNumber": "58-22-0 (Testosterone)",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A potent androgenic steroid and major product secreted by the LEYDIG CELLS of the TESTIS. Its production is stimulated by LUTEINIZING HORMONE from the PITUITARY GLAND. In turn, testosterone exerts feedback control of the pituitary LH and FSH secretion. Depending on the tissues, testosterone can be further converted to DIHYDROTESTOSTERONE or ESTRADIOL."
+  },
+  "term": "http://id.nlm.nih.gov/mesh/T527227",
+  "label": {
+   "@language": "en",
+   "@value": "Testosterone"
+  },
+  "@context": {
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "relatedConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#relatedConcept",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   },
+   "relatedRegistryNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#relatedRegistryNumber"
+   },
+   "casn1_label": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#casn1_label"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   }
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "source": "mesh",
+ "query": "M0024445",
+ "url": "https://id.nlm.nih.gov/mesh/M0024445.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:22:01+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0024445",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0024445",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T047472",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "An indicator of body density as determined by the relationship of BODY WEIGHT to BODY HEIGHT. BMI=weight (kg)/height squared (m2). BMI correlates with body fat (ADIPOSE TISSUE). Their relationship varies with age and gender. For adults, BMI falls into these categories: below 18.5 (underweight); 18.5-24.9 (normal); 25.0-29.9 (overweight); 30.0 and above (obese). (National Center for Health Statistics, Centers for Disease Control and Prevention)"
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T610649",
+   "http://id.nlm.nih.gov/mesh/T047473"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Body Mass Index"
+  },
+  "@context": {
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   }
+  }
+ }
+}

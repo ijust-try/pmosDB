@@ -1,0 +1,55 @@
+{
+ "source": "mesh",
+ "query": "M0010827",
+ "url": "https://id.nlm.nih.gov/mesh/M0010827.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:12:28+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0010827",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0010827",
+  "narrowerConcept": [
+   "http://id.nlm.nih.gov/mesh/M0446721",
+   "http://id.nlm.nih.gov/mesh/M0446722",
+   "http://id.nlm.nih.gov/mesh/M0446735"
+  ],
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T020872",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A syndrome with excessively high INSULIN levels in the BLOOD. It may cause HYPOGLYCEMIA. Etiology of hyperinsulinism varies, including hypersecretion of a beta cell tumor (INSULINOMA); autoantibodies against insulin (INSULIN ANTIBODIES); defective insulin receptor (INSULIN RESISTANCE); or overuse of exogenous insulin or HYPOGLYCEMIC AGENTS."
+  },
+  "term": "http://id.nlm.nih.gov/mesh/T057173",
+  "label": {
+   "@language": "en",
+   "@value": "Hyperinsulinism"
+  },
+  "@context": {
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   }
+  }
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "source": "mesh",
+ "query": "M0007772",
+ "url": "https://id.nlm.nih.gov/mesh/M0007772.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:18:19+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0007772",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "casn1_label": {
+   "@language": "en",
+   "@value": "Estra-1,3,5(10)-triene-3,17-diol (17beta)-"
+  },
+  "identifier": "M0007772",
+  "narrowerConcept": [
+   "http://id.nlm.nih.gov/mesh/M0529225",
+   "http://id.nlm.nih.gov/mesh/M0330338",
+   "http://id.nlm.nih.gov/mesh/M0007774",
+   "http://id.nlm.nih.gov/mesh/M0330342",
+   "http://id.nlm.nih.gov/mesh/M0065459",
+   "http://id.nlm.nih.gov/mesh/M0399467",
+   "http://id.nlm.nih.gov/mesh/M0330445",
+   "http://id.nlm.nih.gov/mesh/M0007776",
+   "http://id.nlm.nih.gov/mesh/M0330444",
+   "http://id.nlm.nih.gov/mesh/M0525957",
+   "http://id.nlm.nih.gov/mesh/M0065462",
+   "http://id.nlm.nih.gov/mesh/M0007775",
+   "http://id.nlm.nih.gov/mesh/M0065463"
+  ],
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T015123",
+  "relatedConcept": [
+   "http://id.nlm.nih.gov/mesh/M0330446",
+   "http://id.nlm.nih.gov/mesh/M0330337",
+   "http://id.nlm.nih.gov/mesh/M0330447",
+   "http://id.nlm.nih.gov/mesh/M0330384",
+   "http://id.nlm.nih.gov/mesh/M0007773",
+   "http://id.nlm.nih.gov/mesh/M0330344",
+   "http://id.nlm.nih.gov/mesh/M0330339",
+   "http://id.nlm.nih.gov/mesh/M0330336",
+   "http://id.nlm.nih.gov/mesh/M0330341",
+   "http://id.nlm.nih.gov/mesh/M0330343"
+  ],
+  "relatedRegistryNumber": [
+   "95463-67-5",
+   "17181-19-0",
+   "5864-38-0",
+   "6045-52-9",
+   "CXY7B3Q98Z",
+   "517-04-4",
+   "18290-08-9",
+   "OKG364O896",
+   "15399-28-7",
+   "50-28-2 (Estradiol)",
+   "19518-62-8",
+   "17916-67-5",
+   "3736-22-9",
+   "19669-82-0",
+   "979-32-8 (estradiol valerate)",
+   "63667-07-2",
+   "35380-71-3 (Estradiol Hemihydrate)"
+  ],
+  "scopeNote": {
+   "@language": "en",
+   "@value": "The 17-beta-isomer of estradiol, an aromatized C18 steroid with hydroxyl group at 3-beta- and 17-beta-position. Estradiol-17-beta is the most potent form of mammalian estrogenic steroids."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T015125",
+   "http://id.nlm.nih.gov/mesh/T525667",
+   "http://id.nlm.nih.gov/mesh/T858881",
+   "http://id.nlm.nih.gov/mesh/T015124",
+   "http://id.nlm.nih.gov/mesh/T015121",
+   "http://id.nlm.nih.gov/mesh/T015122"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Estradiol"
+  },
+  "@context": {
+   "relatedConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#relatedConcept",
+    "@type": "@id"
+   },
+   "relatedRegistryNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#relatedRegistryNumber"
+   },
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "casn1_label": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#casn1_label"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   }
+  }
+ }
+}

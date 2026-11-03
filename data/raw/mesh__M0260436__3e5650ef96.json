@@ -1,0 +1,52 @@
+{
+ "source": "mesh",
+ "query": "M0260436",
+ "url": "https://id.nlm.nih.gov/mesh/M0260436.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:20:53+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0260436",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0260436",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T290441",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A 30-kDa COMPLEMENT C1Q-related protein, the most abundant gene product secreted by FAT CELLS of the white ADIPOSE TISSUE. Adiponectin modulates several physiological processes, such as metabolism of GLUCOSE and FATTY ACIDS, and immune responses. Decreased plasma adiponectin levels are associated with INSULIN RESISTANCE; TYPE 2 DIABETES MELLITUS; OBESITY; and ATHEROSCLEROSIS."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T284705",
+   "http://id.nlm.nih.gov/mesh/T596005",
+   "http://id.nlm.nih.gov/mesh/T596175",
+   "http://id.nlm.nih.gov/mesh/T284706",
+   "http://id.nlm.nih.gov/mesh/T290439"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Adiponectin"
+  },
+  "@context": {
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   }
+  }
+ }
+}

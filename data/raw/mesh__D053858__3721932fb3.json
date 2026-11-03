@@ -1,0 +1,100 @@
+{
+ "source": "mesh",
+ "query": "D053858",
+ "url": "https://id.nlm.nih.gov/mesh/D053858.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:21:51+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/D053858",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "allowableQualifier": [
+   "http://id.nlm.nih.gov/mesh/Q000528",
+   "http://id.nlm.nih.gov/mesh/Q000235",
+   "http://id.nlm.nih.gov/mesh/Q000276",
+   "http://id.nlm.nih.gov/mesh/Q000502",
+   "http://id.nlm.nih.gov/mesh/Q000941",
+   "http://id.nlm.nih.gov/mesh/Q000187"
+  ],
+  "annotation": {
+   "@language": "en",
+   "@value": "general; prefer specifics"
+  },
+  "broaderDescriptor": "http://id.nlm.nih.gov/mesh/D008660",
+  "concept": [
+   "http://id.nlm.nih.gov/mesh/M0496923",
+   "http://id.nlm.nih.gov/mesh/M0496924"
+  ],
+  "dateIntroduced": "2007-01-01",
+  "historyNote": {
+   "@language": "en",
+   "@value": "2007"
+  },
+  "identifier": "D053858",
+  "lastUpdated": "2016-06-30",
+  "preferredConcept": "http://id.nlm.nih.gov/mesh/M0496922",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T671140",
+  "publicMeSHNote": {
+   "@language": "en",
+   "@value": "2007"
+  },
+  "treeNumber": "http://id.nlm.nih.gov/mesh/G03.493",
+  "label": {
+   "@language": "en",
+   "@value": "Metabolic Networks and Pathways"
+  },
+  "@context": {
+   "allowableQualifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#allowableQualifier",
+    "@type": "@id"
+   },
+   "concept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#concept",
+    "@type": "@id"
+   },
+   "broaderDescriptor": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",
+    "@type": "@id"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "historyNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#historyNote"
+   },
+   "treeNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#treeNumber",
+    "@type": "@id"
+   },
+   "annotation": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#annotation"
+   },
+   "preferredConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredConcept",
+    "@type": "@id"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "dateIntroduced": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#dateIntroduced",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "publicMeSHNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#publicMeSHNote"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "lastUpdated": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#lastUpdated",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   }
+  }
+ }
+}

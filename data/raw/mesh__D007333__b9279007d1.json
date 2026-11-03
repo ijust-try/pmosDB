@@ -1,0 +1,102 @@
+{
+ "source": "mesh",
+ "query": "D007333",
+ "url": "https://id.nlm.nih.gov/mesh/D007333.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:11:57+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/D007333",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "allowableQualifier": [
+   "http://id.nlm.nih.gov/mesh/Q000528",
+   "http://id.nlm.nih.gov/mesh/Q000276",
+   "http://id.nlm.nih.gov/mesh/Q000235",
+   "http://id.nlm.nih.gov/mesh/Q000502",
+   "http://id.nlm.nih.gov/mesh/Q000208"
+  ],
+  "annotation": {
+   "@language": "en",
+   "@value": "INSULIN RESISTANCE SYNDROME X see METABOLIC SYNDROME is available"
+  },
+  "broaderDescriptor": [
+   "http://id.nlm.nih.gov/mesh/D004351",
+   "http://id.nlm.nih.gov/mesh/D006946"
+  ],
+  "concept": "http://id.nlm.nih.gov/mesh/M0549710",
+  "dateIntroduced": "1967-01-01",
+  "historyNote": {
+   "@language": "en",
+   "@value": "67(64)"
+  },
+  "identifier": "D007333",
+  "lastUpdated": "2017-07-13",
+  "preferredConcept": "http://id.nlm.nih.gov/mesh/M0011432",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T021957",
+  "publicMeSHNote": {
+   "@language": "en",
+   "@value": "67"
+  },
+  "treeNumber": [
+   "http://id.nlm.nih.gov/mesh/C18.452.394.968.500",
+   "http://id.nlm.nih.gov/mesh/G07.690.773.984.617"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Insulin Resistance"
+  },
+  "@context": {
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "dateIntroduced": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#dateIntroduced",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "treeNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#treeNumber",
+    "@type": "@id"
+   },
+   "allowableQualifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#allowableQualifier",
+    "@type": "@id"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "historyNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#historyNote"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "publicMeSHNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#publicMeSHNote"
+   },
+   "lastUpdated": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#lastUpdated",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "broaderDescriptor": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",
+    "@type": "@id"
+   },
+   "preferredConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredConcept",
+    "@type": "@id"
+   },
+   "annotation": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#annotation"
+   },
+   "concept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#concept",
+    "@type": "@id"
+   }
+  }
+ }
+}

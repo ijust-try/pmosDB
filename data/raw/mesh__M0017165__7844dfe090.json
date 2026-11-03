@@ -1,0 +1,57 @@
+{
+ "source": "mesh",
+ "query": "M0017165",
+ "url": "https://id.nlm.nih.gov/mesh/M0017165.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:10:55+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0017165",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0017165",
+  "narrowerConcept": "http://id.nlm.nih.gov/mesh/M0422470",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T032596",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "A complex disorder characterized by infertility, HIRSUTISM; OBESITY; and various menstrual disturbances such as OLIGOMENORRHEA; AMENORRHEA; ANOVULATION. Polycystic ovary syndrome is usually associated with bilateral enlarged ovaries studded with atretic follicles, not with cysts. The term, polycystic ovary, is misleading."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T481206",
+   "http://id.nlm.nih.gov/mesh/T811827",
+   "http://id.nlm.nih.gov/mesh/T032597",
+   "http://id.nlm.nih.gov/mesh/T492063",
+   "http://id.nlm.nih.gov/mesh/T757364"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Polycystic Ovary Syndrome"
+  },
+  "@context": {
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   }
+  }
+ }
+}

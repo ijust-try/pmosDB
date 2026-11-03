@@ -1,0 +1,73 @@
+{
+ "source": "mesh",
+ "query": "M0023752",
+ "url": "https://id.nlm.nih.gov/mesh/M0023752.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:21:48+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0023752",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0023752",
+  "narrowerConcept": [
+   "http://id.nlm.nih.gov/mesh/M0023755",
+   "http://id.nlm.nih.gov/mesh/M0023758",
+   "http://id.nlm.nih.gov/mesh/M0023757",
+   "http://id.nlm.nih.gov/mesh/M0023754",
+   "http://id.nlm.nih.gov/mesh/M0023759",
+   "http://id.nlm.nih.gov/mesh/M0023756"
+  ],
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T686148",
+  "relatedConcept": [
+   "http://id.nlm.nih.gov/mesh/M0023753",
+   "http://id.nlm.nih.gov/mesh/M0023760"
+  ],
+  "scopeNote": {
+   "@language": "en",
+   "@value": "Measurable and quantifiable biological parameters (e.g., specific enzyme concentration, specific hormone concentration, specific gene phenotype distribution in a population, presence of biological substances) which serve as indices for health- and physiology-related assessments, such as disease risk, psychiatric disorders, ENVIRONMENTAL EXPOSURE and its effects, disease diagnosis; METABOLIC PROCESSES; SUBSTANCE ABUSE; PREGNANCY; cell line development; EPIDEMIOLOGIC STUDIES; etc."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T045478",
+   "http://id.nlm.nih.gov/mesh/T045479",
+   "http://id.nlm.nih.gov/mesh/T045480",
+   "http://id.nlm.nih.gov/mesh/T000995957",
+   "http://id.nlm.nih.gov/mesh/T045477",
+   "http://id.nlm.nih.gov/mesh/T045481"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Biomarkers"
+  },
+  "@context": {
+   "relatedConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#relatedConcept",
+    "@type": "@id"
+   },
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   }
+  }
+ }
+}

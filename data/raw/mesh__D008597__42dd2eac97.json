@@ -1,0 +1,121 @@
+{
+ "source": "mesh",
+ "query": "D008597",
+ "url": "https://id.nlm.nih.gov/mesh/D008597.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:16:57+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/D008597",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "allowableQualifier": [
+   "http://id.nlm.nih.gov/mesh/Q000528",
+   "http://id.nlm.nih.gov/mesh/Q000502",
+   "http://id.nlm.nih.gov/mesh/Q000276",
+   "http://id.nlm.nih.gov/mesh/Q000187",
+   "http://id.nlm.nih.gov/mesh/Q000652",
+   "http://id.nlm.nih.gov/mesh/Q000097",
+   "http://id.nlm.nih.gov/mesh/Q000134",
+   "http://id.nlm.nih.gov/mesh/Q000523",
+   "http://id.nlm.nih.gov/mesh/Q000235",
+   "http://id.nlm.nih.gov/mesh/Q000378",
+   "http://id.nlm.nih.gov/mesh/Q000208"
+  ],
+  "annotation": {
+   "@language": "en",
+   "@value": "human & other primates only; for non-primates use ESTROUS CYCLE; do not confuse with MENSTRUATION"
+  },
+  "broaderDescriptor": "http://id.nlm.nih.gov/mesh/D055703",
+  "concept": [
+   "http://id.nlm.nih.gov/mesh/M0013394",
+   "http://id.nlm.nih.gov/mesh/M0013395"
+  ],
+  "dateIntroduced": "1985-01-01",
+  "historyNote": {
+   "@language": "en",
+   "@value": "85"
+  },
+  "identifier": "D008597",
+  "lastUpdated": "2008-07-08",
+  "nlmClassificationNumber": "WP 540",
+  "preferredConcept": "http://id.nlm.nih.gov/mesh/M0013391",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T025570",
+  "previousIndexing": {
+   "@language": "en",
+   "@value": "Menstruation (1966-1984)"
+  },
+  "publicMeSHNote": {
+   "@language": "en",
+   "@value": "85"
+  },
+  "seeAlso": "http://id.nlm.nih.gov/mesh/D030762",
+  "treeNumber": "http://id.nlm.nih.gov/mesh/G08.686.605",
+  "label": {
+   "@language": "en",
+   "@value": "Menstrual Cycle"
+  },
+  "@context": {
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "concept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#concept",
+    "@type": "@id"
+   },
+   "publicMeSHNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#publicMeSHNote"
+   },
+   "allowableQualifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#allowableQualifier",
+    "@type": "@id"
+   },
+   "previousIndexing": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#previousIndexing"
+   },
+   "dateIntroduced": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#dateIntroduced",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "lastUpdated": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#lastUpdated",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+   },
+   "preferredConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredConcept",
+    "@type": "@id"
+   },
+   "broaderDescriptor": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",
+    "@type": "@id"
+   },
+   "historyNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#historyNote"
+   },
+   "nlmClassificationNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#nlmClassificationNumber"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "treeNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#treeNumber",
+    "@type": "@id"
+   },
+   "annotation": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#annotation"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "seeAlso": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#seeAlso",
+    "@type": "@id"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   }
+  }
+ }
+}

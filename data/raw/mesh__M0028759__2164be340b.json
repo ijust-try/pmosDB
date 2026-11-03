@@ -1,0 +1,55 @@
+{
+ "source": "mesh",
+ "query": "M0028759",
+ "url": "https://id.nlm.nih.gov/mesh/M0028759.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:20:40+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0028759",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0028759",
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T057566",
+  "relatedRegistryNumber": "651-48-9 (Dehydroepiandrosterone Sulfate)",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "The circulating form of a major C19 steroid produced primarily by the ADRENAL CORTEX. DHEA sulfate serves as a precursor for TESTOSTERONE; ANDROSTENEDIONE; ESTRADIOL; and ESTRONE."
+  },
+  "term": [
+   "http://id.nlm.nih.gov/mesh/T057567",
+   "http://id.nlm.nih.gov/mesh/T057570",
+   "http://id.nlm.nih.gov/mesh/T057569",
+   "http://id.nlm.nih.gov/mesh/T057568"
+  ],
+  "label": {
+   "@language": "en",
+   "@value": "Dehydroepiandrosterone Sulfate"
+  },
+  "@context": {
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "relatedRegistryNumber": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#relatedRegistryNumber"
+   },
+   "term": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#term",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   }
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "source": "mesh",
+ "query": "M0496922",
+ "url": "https://id.nlm.nih.gov/mesh/M0496922.json",
+ "params": null,
+ "retrieved_at": "2026-11-03T06:21:52+00:00",
+ "response": {
+  "@id": "http://id.nlm.nih.gov/mesh/M0496922",
+  "@type": "http://id.nlm.nih.gov/mesh/vocab#Concept",
+  "http://id.nlm.nih.gov/mesh/vocab#active": true,
+  "identifier": "M0496922",
+  "narrowerConcept": [
+   "http://id.nlm.nih.gov/mesh/M0496924",
+   "http://id.nlm.nih.gov/mesh/M0496923"
+  ],
+  "preferredTerm": "http://id.nlm.nih.gov/mesh/T671140",
+  "scopeNote": {
+   "@language": "en",
+   "@value": "Complex sets of enzymatic reactions connected to each other via their product and substrate metabolites."
+  },
+  "label": {
+   "@language": "en",
+   "@value": "Metabolic Networks and Pathways"
+  },
+  "@context": {
+   "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+   },
+   "scopeNote": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#scopeNote"
+   },
+   "identifier": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#identifier"
+   },
+   "narrowerConcept": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "@type": "@id"
+   },
+   "active": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#active",
+    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+   },
+   "preferredTerm": {
+    "@id": "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "@type": "@id"
+   }
+  }
+ }
+}
