@@ -316,7 +316,8 @@ def answer(index, question: str, context_id: str | None = None, visitor: str = "
     if cached:
         return {**cached, "cached": True}
 
-    api_key = api_key if api_key is not None else os.environ.get("GEMINI_API_KEY", "")
+    # a pasted key often carries a trailing space or line break, which would silently break every request
+    api_key = (api_key if api_key is not None else os.environ.get("GEMINI_API_KEY", "")).strip()
     if not api_key:
         return database(MSG_MODEL_BUSY, "no GEMINI_API_KEY is set")
     if now < _state["paused_until"]:

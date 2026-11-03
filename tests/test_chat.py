@@ -231,6 +231,18 @@ class FailureModeTests(ChatBase):
             out = chat.answer(self.index, self.q, generate=lambda *a: called.append(a), api_key=None)
         self.assertEqual((called, out["mode"], out["notice"]), ([], "database", chat.MSG_MODEL_BUSY))
 
+    def test_a_key_with_stray_whitespace_is_trimmed_before_use(self):
+        seen = []
+        chat.answer(self.index, self.q, generate=lambda s, p, key, m: seen.append(key) or chat.NO_ANSWER,
+                    api_key="  " + KEY + "\r\n")
+        self.assertEqual(seen, [KEY])
+        with mock.patch.dict(os.environ, {"GEMINI_API_KEY": KEY + "\n"}):
+            chat.reset_state()
+            chat.answer(self.index, self.q, generate=lambda s, p, key, m: seen.append(key) or chat.NO_ANSWER)
+        self.assertEqual(seen, [KEY, KEY])
+        blank = chat.answer(self.index, self.q, generate=lambda *a: "x", api_key="  \n")
+        self.assertEqual(blank["modelIssue"], "no GEMINI_API_KEY is set")
+
     def test_visitor_over_the_ai_limit_still_gets_the_records(self):
         chat.MODEL_LIMITER = chat.RateLimiter(per_minute=1, per_day=10, global_per_day=100)
         try:
