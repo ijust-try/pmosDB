@@ -5,46 +5,71 @@
   "hourIst": 18,
   "minuteIst": 0
  },
- "lastSyncedAt": "2026-10-31T04:47:39+00:00",
- "lastCheckedAt": "2026-11-03T06:24:21+00:00",
+ "lastSyncedAt": "2026-11-11T20:11:16+00:00",
+ "lastCheckedAt": "2026-11-11T19:56:16+00:00",
  "sources": {
   "uniprot": {
-   "version": "2026_03",
-   "checkedAt": "2026-11-03T06:24:14+00:00",
-   "syncedAt": "2026-10-31T04:47:39+00:00"
+   "version": "2026_04",
+   "checkedAt": "2026-11-11T19:56:01+00:00",
+   "syncedAt": "2026-11-11T20:11:16+00:00"
   },
   "reactome": {
    "version": "98",
-   "checkedAt": "2026-11-03T06:24:14+00:00",
-   "syncedAt": "2026-10-31T04:47:39+00:00"
+   "checkedAt": "2026-11-11T19:56:01+00:00",
+   "syncedAt": "2026-11-11T20:11:16+00:00"
   },
   "open-targets": {
    "version": "26.09 (ChEMBL 37)",
-   "checkedAt": "2026-11-03T06:24:14+00:00",
-   "syncedAt": "2026-10-31T04:47:39+00:00"
+   "checkedAt": "2026-11-11T19:56:01+00:00",
+   "syncedAt": "2026-11-11T20:11:16+00:00"
   },
   "gene-ontology": {
-   "version": "2026-09-27",
-   "checkedAt": "2026-11-03T06:24:14+00:00",
-   "syncedAt": "2026-10-31T04:47:39+00:00"
+   "version": "2026-11-10",
+   "checkedAt": "2026-11-11T19:56:01+00:00",
+   "syncedAt": "2026-11-11T20:11:16+00:00"
   },
   "ncbi-gene": {
-   "version": "2026/11/02 06:08",
-   "checkedAt": "2026-11-03T06:24:14+00:00",
-   "syncedAt": "2026-10-31T04:47:39+00:00"
+   "version": "2026/11/10 09:37",
+   "checkedAt": "2026-11-11T19:56:01+00:00",
+   "syncedAt": "2026-11-11T20:11:16+00:00"
   },
   "pubchem": {
-   "version": "2026/11/02 16:54",
-   "checkedAt": "2026-11-03T06:24:14+00:00",
-   "syncedAt": "2026-10-31T04:47:39+00:00"
+   "version": "2026/11/10 13:23",
+   "checkedAt": "2026-11-11T19:56:01+00:00",
+   "syncedAt": "2026-11-11T20:11:16+00:00"
   },
   "pubmed": {
-   "version": "2026/11/02 23:33",
-   "checkedAt": "2026-11-03T06:24:14+00:00",
-   "syncedAt": "2026-10-31T04:47:39+00:00"
+   "version": "2026/11/11 08:39",
+   "checkedAt": "2026-11-11T19:56:01+00:00",
+   "syncedAt": "2026-11-11T20:11:16+00:00"
   }
  },
  "history": [
+  {
+   "startedAt": "2026-11-11T19:56:16+00:00",
+   "outcome": "synced",
+   "reason": "new release from uniprot",
+   "result": {
+    "tables": {
+     "genes": 110,
+     "proteins": 110,
+     "pathways": 300,
+     "hormones": 17,
+     "biomarkers": 7,
+     "therapeutics": 13,
+     "publications": 229,
+     "go_annotations": 2317,
+     "protein_structure": 375,
+     "glossary_term": 43,
+     "glossary_section": 69,
+     "therapeutic_target": 12
+    },
+    "entities": 787,
+    "relationships": 978,
+    "unresolved": 4
+   },
+   "finishedAt": "2026-11-11T20:11:16+00:00"
+  },
   {
    "startedAt": "2026-11-03T06:24:21+00:00",
    "outcome": "rebuilt-from-cache",
